@@ -1,6 +1,6 @@
 ---
 name: ht-portfolio-e-escolha-do-ht
-description: 'Decide qual HT o expert cria primeiro e a ordem dos demais (AR, GIC/mastermind, imersão paga, experiência HT, consultoria, peixe assado, pós), o primeiro canal de venda e o caso de dois avatares. Use para "que HT a gente faz?", "mentoria ou mastermind?", "ele tem dois públicos". NÃO use para definição do AR, entregáveis ou preço.'
+description: 'Decide qual HT o expert cria primeiro e a ordem dos demais (AR, GIC/mastermind, imersão paga, experiência HT, consultoria, peixe assado, pós), o primeiro canal de venda, o caso de dois avatares e a oferta condicional quando só falta prova. Use para "que HT a gente faz?", "mentoria ou mastermind?", "ele tem dois públicos". NÃO use para definição do AR, entregáveis ou preço.'
 ---
 
 # Portfólio e escolha do HT
@@ -24,8 +24,10 @@ segmento que se alimentam por marcos de resultado), não com "esteira" de sequê
 - Carregar `ht-protocolo`. Conferir pedido em `00-plano/pedidos/`.
 - Ler: `01-pesquisa/` (dossiê de potencial: parecer, avatar, Roma, direção do acelerador, papéis, casos); `02-oferta/` (HTs que já
   existem, histórico); `00-plano/estado.md`; benchmark do `ht-consultor-casos` para o nicho.
-- Sem dossiê de pesquisa com parecer "sim" ou "ajustar direção", **não decidir portfólio**: devolver ao Diretor pedindo
-  `ht-pesquisa-e-potencial`. "Parecer" aqui é o veredito de potencial escrito no próprio dossiê, não o parecer do revisor: o
+- Sem dossiê de pesquisa com parecer "sim", "ajustar direção" ou **"não agora" por falta de prova**, **não decidir portfólio**:
+  devolver ao Diretor pedindo `ht-pesquisa-e-potencial`. **"Não agora" por falta de prova** é quando o expert tem capacidade técnica
+  e há demanda, mas faltam resultados registrados de clientes: a skill **roda** e entrega o portfólio com a **oferta condicional**
+  (Passo 3.1). "Não agora" por falta de demanda ou de capacidade técnica continua parando. "Parecer" aqui é o veredito de potencial escrito no próprio dossiê, não o parecer do revisor: o
   portfólio pode rodar com o dossiê ainda em revisão em `12-revisoes/`, marcando a proposta "depende do parecer <arquivo>" e
   refazendo se o revisor reprovar.
 - Entradas obrigatórias. O que não estiver no dossiê vira, no máximo, 2 perguntas simples por vez (sem lote de opções); sem
@@ -68,8 +70,23 @@ para o cliente**, que via de regra é o **AR**, da forma mais simples.
    resultado de acompanhamento.
 Registrar a decisão com o **tipo de acelerador** que veio do dossiê (negócio, carreira, habilidade, conquista).
 
+### Passo 3.1. Oferta condicional (parecer "não agora" por falta de prova)
+Quando o que falta é **prova** (e não demanda nem capacidade técnica), o primeiro HT é decidido normalmente, mas sai marcado
+**condicional**: "vender só depois de N provas registradas". Escrever no portfólio:
+1. **N e o tipo de prova** que destrava a venda (padrão: 3 a 5 clientes com resultado registrado, antes e depois mensurável, com
+   autorização de uso; menos se o expert já tem alguma prova parcial). O N é recomendação do agente e vai no "Assumi".
+2. **Como juntar as provas** sem vender o HT ainda: atender poucas pessoas com o acompanhamento (a preço de validação ou como
+   piloto), consultoria individual que mede antes e depois (`ht-produtos-ht-complementares`), ou registrar resultados de quem já
+   foi atendido e não tinha registro. Com prazo estimado.
+3. **O que já pode andar enquanto isso**: definição, jornada, entregáveis, preço proposto, roteiro da conversa de venda e vitrine
+   ficam prontos como rascunho; nada é vendido nem sai para lead antes de bater o N.
+4. **Gatilho de liberação**: ao registrar a N-ésima prova (em `06-entrega/provas/`, com autorização), a oferta deixa de ser
+   condicional e segue para a aprovação normal.
+Na mensagem para a pessoa, isso vira uma linha simples do "Assumi" (ex.: "A oferta está pronta, mas a venda começa só depois de
+3 pacientes com resultado registrado; até lá ela atende poucas pessoas em piloto para juntar essas provas").
+
 ### Passo 4. Escolher o primeiro canal
-**Sessão 1a1**, salvo orientação diferente do mentor do projeto: valida a oferta, mostra objeções, dá clareza a cada reunião e
+**Sessão 1a1**, salvo orientação diferente de quem conduz o projeto: valida a oferta, mostra objeções, dá clareza a cada reunião e
 não exige lista grande. Ir direto para evento grande sem validar em 1a1 queima oferta e audiência (caso do expert com 40 mil
 alunos que fez evento para mil pessoas sem clareza da oferta). Fluxo de quem começa: listar contatos →
 convidar com estratégia → sessão 1a1 com pitch → vender; em paralelo construir audiência ("atrair borboletas"); depois imersão
@@ -108,7 +125,7 @@ Para cada produto que entra depois, definir **gatilho** (marco de resultado ou n
 
 ### Passo 8. Mapa de parcerias (aba 4 do Market Fit, baixa prioridade)
 Quem atende o mesmo público com serviço complementar: valor mútuo, alinhamento cultural, crença no trabalho do outro, combinado
-por escrito. Exemplos de aula: emagrecimento (personal, fisioterapeuta, psicólogo, nutricionista, suplemento); imobiliário
+por escrito. Exemplos: emagrecimento (personal, fisioterapeuta, psicólogo, nutricionista, suplemento); imobiliário
 (corretor, arquiteto, imobiliária, contabilidade que repassa a 1ª mensalidade como afiliado, advocacia); relacionamento
 (viagem, terapeuta, consultor de imagem); dados (ferramentas que o aluno usa). Parceiro também pode entregar consultoria pontual
 fora do escopo do AR.
@@ -150,6 +167,7 @@ na Aprovação 1:
 
 **Critério de pronto**
 - [ ] Situação de partida (A a E) e segmento definidos.
+- [ ] Parecer "não agora" por falta de prova: oferta marcada condicional, com N provas, como juntá-las e o gatilho de liberação.
 - [ ] Primeiro HT com tipo de acelerador e justificativa ligada ao dossiê; primeiro canal com justificativa.
 - [ ] Checklist mínimo da primeira venda marcado (o que existe e o que falta).
 - [ ] Cada produto do mapa tem o que é, para quem, Roma, ticket com fonte, canais de venda, gatilho/ano e risco.
@@ -168,6 +186,8 @@ na Aprovação 1:
 8. Produto novo que canibaliza o que já vende, sem regra de diferença clara.
 9. Ticket inventado em vez de citado de 02-oferta (ou marcado provisório).
 10. Esteira genérica (ebook → curso → mentoria) no lugar de portfólio ligado por marcos de resultado.
+11. Projeto parado por "não agora" quando o que faltava era só prova (devia ter saído a oferta condicional), ou oferta condicional
+    sem N, sem plano para juntar as provas ou vendida antes de bater o N.
 
 ## 7. Saída e handoff
 

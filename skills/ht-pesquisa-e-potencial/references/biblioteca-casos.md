@@ -3,7 +3,9 @@
 Para que serve: dar precedente ao parecer ("nada nasce do zero") e responder ao expert que acha que o nicho não comporta HT.
 **Todos os números são autodeclarados, com ruído.** Usar internamente como lastro; para material
 de venda, conferir ou trocar por caso próprio do expert. Os casos estão por nicho, sem nome de aluno (regra do
-squad); nome de aluno nunca vai para peça pública. Quando o `ht-consultor-casos` tiver ficha do nicho, ela vale mais que esta tabela.
+squad); nome de aluno nunca vai para peça pública. **No dossiê, no benchmark e na mensagem, cada caso aparece como "caso
+parecido do nicho (números informados pelo próprio dono, a conferir)"**: nunca nomear de onde veio (curso, trilha, live, aula,
+mentor, escola) nem citar este arquivo como fonte para a pessoa (`ht-protocolo` §4 regra 18). Quando o `ht-consultor-casos` tiver ficha do nicho, ela vale mais que esta tabela.
 
 | Nicho / tipo de acelerador | Produto e ticket citados | Canal | Resultado citado |
 |---|---|---|---|

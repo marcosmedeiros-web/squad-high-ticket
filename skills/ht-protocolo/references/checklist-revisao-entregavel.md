@@ -15,8 +15,10 @@ no parecer, com arquivo, trecho, fonte e correção.
 
 ## 2. Método e fidelidade
 
-1. Toda regra, passo e número de método tem fonte (skill ou transcrição aberta). Reconstrução do squad está marcada como tal.
-2. Número de aula aparece como "referência, conferir"; número do expert tem fonte (planilha, Hotmart, conta de anúncio).
+1. Toda regra, passo e número de método tem fonte (skill ou material aberto), sem nomear curso, trilha, live ou mentor de origem
+   (`ht-protocolo` §4 regra 18); caso de outra pessoa aparece como "caso parecido do nicho (números informados pelo próprio dono,
+   a conferir)". Reconstrução do squad está marcada como tal.
+2. Número de referência do método aparece como "referência, conferir"; número do expert tem fonte (planilha, Hotmart, conta de anúncio).
 3. **Número marcado como verificado é recalculado por mim**: refaço soma, média, porcentagem e faixa a partir do dado bruto
    (amostra de pelo menos 5 números ou todos, se forem menos). Faixa etária não vira idade exata; soma errada é achado grave.
 4. Oferta idêntica ao arquivo de `02-oferta/` citado (preço, entrada, parcelas, dupla, bônus, garantia, duração, número de

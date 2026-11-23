@@ -111,6 +111,9 @@ como enxugar em vez de acrescentar), **recursos e fluxo de caixa** (plano que se
 faturamento. A combinação decide: ideia boa sem comprometimento = não; ideia fraca com pessoa forte e comprometida = mostrar
 caminho (outra direção, ou a pessoa como estrategista e outro como mentor). Saída: **sim / ajustar direção / não agora**, com os
 motivos e o que precisaria mudar. Se faltar legitimidade, o parecer é "não agora" (não criar HT em área sem resultado).
+O "não agora" sempre diz **o que falta**: **prova** (o expert sabe gerar o resultado e há demanda, mas faltam resultados
+registrados de clientes), **demanda** ou **capacidade técnica**. Por falta de prova, o projeto não para: a
+`ht-portfolio-e-escolha-do-ht` roda e entrega a oferta condicional ("vender só depois de N provas"). Por demanda ou capacidade, para.
 
 ### Passo 9. Média de preço do nicho
 Levantar 5 a 10 produtos digitais do nicho com preço (curso, mentoria, consulta) e registrar a média com fonte. **Não define o

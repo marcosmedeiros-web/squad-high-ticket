@@ -212,9 +212,9 @@ Arquivo na subpasta do agente, `<AAAA-MM-DD>-<nn>-entrega.md`, ao lado do artefa
 - Agente / skill: <ht-...> / <ht-...>
 - Artefatos: <caminhos>
 - O que foi feito: <3 a 6 linhas>
-- Fontes usadas: <02-oferta vX, arquivos de 01-pesquisa, aulas/receitas>
+- Fontes usadas: <02-oferta vX, arquivos de 01-pesquisa, skills do método; sem nomear curso, trilha, live ou mentor de origem>
 - Evidência: verificado <o quê e como> | feito sem teste <o quê> | inferido <o quê>
-- Números: <cada número usado e a fonte; "referência/conferir" quando vier de aula>
+- Números: <cada número usado e a fonte; "referência/conferir" quando vier de referência do método ou de caso parecido do nicho>
 - Critério de pronto: <cada item marcado [x] ou [ ] com o motivo>
 - Auditoria final: <erros típicos conferidos e o que foi corrigido>
 - Assumi: <PREFIXO-n: o que foi decidido pelo padrão ou pela recomendação, em linguagem simples; citar a suposição de outro agente pelo código dele> (ou "nada"); pedido de OK: <só aprovação, envio, verba, ativação ou data pública, numa frase "posso seguir?"> (ou "nenhum")

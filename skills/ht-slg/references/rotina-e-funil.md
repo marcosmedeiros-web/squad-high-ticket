@@ -1,6 +1,6 @@
 # Rotina diária e funil do SLG (conta 100-20-1)
 
-Referência da `ht-slg`. Todos os números abaixo são de aula (legenda automática): **referência, nunca garantia**. Depois de 20
+Referência da `ht-slg`. Todos os números abaixo são de referência do método: **referência, nunca garantia**. Depois de 20
 sessões, trocar pelos números próprios do expert (Central 1x1).
 
 ## 1. O funil de prospecção

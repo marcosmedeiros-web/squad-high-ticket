@@ -101,7 +101,7 @@ Aplicar e registrar a resposta de cada um (detalhe em `references/bonus-e-irresi
 1. **Eu compraria?** (colocar-se no lugar do avatar, com o bolso dele).
 2. **Eu viraria sócio dessa pessoa?** (o expert tem legitimidade e a oferta é sustentável).
 3. **Valor x preço**: o benefício é incomparavelmente maior que o preço; a oferta parece mais vantajosa para quem compra do que
-   para quem vende. Ancorar no resultado prometido (ex. de aula: cobrar R$ 18 mil prometendo R$ 25 mil/mês). Em AR
+   para quem vende. Ancorar no resultado prometido (ex. de referência: cobrar R$ 18 mil prometendo R$ 25 mil/mês). Em AR
    de negócio, a narrativa "um cliente conquistado com o método paga o programa e ainda sobra".
 4. **Pergunta-pivô**: se custasse 10 vezes mais, o que mudaria na entrega? Se a resposta é "muita coisa importante", o item
    importante está faltando.

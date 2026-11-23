@@ -159,7 +159,7 @@ na Aprovação 1:
 - **Expert sem legitimidade clara** naquele resultado: recomendo mudar a direção para onde ele tem resultado (as outras saídas: ele vira
   estrategista e se busca um expert com resultado para parceria, ou não fazer o HT agora); vai no resumo da Aprovação 1. Resultado próprio que pode ter sido
   sorte de mercado (demanda que estourou num período) passa antes pelo teste de replicação: aplicar o método com 2 ou 3
-  pessoas e ver se elas têm o resultado. Tema da moda sem nenhuma venda ainda (o exemplo de aula foi uma norma
+  pessoas e ver se elas têm o resultado. Tema da moda sem nenhuma venda ainda (o exemplo de referência foi uma norma
   nova) não é legitimidade: empacotar o que o expert já fez.
 - **Promessa com número** (faturamento, quilos): só com base; sem base, redijo sem número e listo em "Assumi".
 - **Divergência entre caso validado do nicho e o método** (vinda do `ht-consultor-casos`): sigo o método e conto no "Assumi".
