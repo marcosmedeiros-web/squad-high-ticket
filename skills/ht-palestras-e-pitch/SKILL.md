@@ -33,8 +33,9 @@ descritivo P1-P10, o pós-pitch que quebra objeções e os fechamentos. A venda 
    - `13-aprendizados/` de eventos anteriores (o que mudar; mudar uma variável por vez).
 3. Entradas obrigatórias: oferta aprovada (Aprovação 1), formato e grade do evento (de ht-decisao-de-evento /
    ht-imersao-presencial / ht-imersao-aprendizado / ht-imersao-implementacao), lista de provas por entregável, quem fala.
-4. Se faltar, perguntar no máximo 3 coisas, só o que não se infere: (a) quem faz a talk e o pitch; (b) a variante de CTA do
-   pitch, se não estiver decidida (seção 5); (c) quais provas o expert tem autorização para mostrar. O resto vira `[FALTA: …]`.
+4. Se faltar, não abrir questionário: assumir o padrão (o expert faz a talk e o pitch; variante de CTA pelo padrão da seção 5) e
+   listar em "Assumi". Perguntar só o impossível de adivinhar, no máximo 2 coisas por vez e em linguagem simples (por exemplo:
+   quais provas o expert tem autorização para mostrar). O resto vira `[FALTA: …]` ou `[SUPOSIÇÃO: …]`.
 
 ## 3. Passo a passo
 
@@ -113,11 +114,11 @@ Rodar a auditoria de palco (seção 6) e a do `references/voz-ensaio-e-auditoria
 2. Mapa mental aprovado antes do slide; um documento por peça.
 3. Dia 1 sem pitch; seeding sem oferta; nunca nome de curso ou produto barato no palco do HT.
 4. Pré-pitch antes do pitch, com todos os entregáveis e "como replicar".
-5. Pitch na ordem P1-P10: abre com emoção e indignação com a situação atual e segue racional e descritivo (padrão recomendado; o estrategista pode
+5. Pitch na ordem P1-P10: abre com emoção e indignação com a situação atual e segue racional e descritivo (padrão recomendado; a pessoa pode
    mudar em `padroes` do perfil), com história no começo e "para quem não é". Sem perguntas durante o pitch.
 6. Preço, entrada, parcelas, bônus, garantia, dupla e duração copiados de `02-oferta/` (padrões recomendados: ordem de preço
    entrada, parcelado, à vista; garantia condicional e mensurável, ligada à execução; duração de 12 meses, ajustável de 11 a 13;
-   dupla +50%; ancoragem 10x, depois 5x, depois a emocional). Divergência = pergunta ao estrategista.
+   dupla +50%; ancoragem 10x, depois 5x, depois a emocional). Divergência = vale `02-oferta/` e a diferença vai em "Assumi".
 7. Escassez verdadeira: só a condição do evento e o início real do programa. "O programa começa no almoço" não significa
    "inscrição encerra no almoço": continua vendendo.
 8. Downsell nunca de graça; muito pitch no fim tira valor.
@@ -125,18 +126,18 @@ Rodar a auditoria de palco (seção 6) e a do `references/voz-ensaio-e-auditoria
 10. Nenhum número de aula vira número do expert; caso e depoimento só com evidência e autorização (ht-protocolo, regras 3 e 14).
 11. Proibido usar estrutura de aula/pitch do LPSG/5+1 (outro método, fora do escopo deste squad).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que a skill decide e lista em "Assumi"
 
-Apresentar opções a/b/c com prós, contras e custo em uma linha; não decidir.
-- **Variante de CTA do pitch**: (a) venda direta com entrada no evento (padrão do presencial de 3 dias; mais caixa no evento,
-  exige mesa de fundo e financeiro); (b) pitch para sessão de avaliação gratuita (FHT 2026 no online de 1 dia para ticket alto;
-  mais sessões e quebra de objeção individual, exige time comercial na mesma semana); (c) sessão de avaliação paga (filtra
-  curiosos quando há 150 a 200 interessados e pouco time; com 30 a 40, não compensa).
-- **Valor da entrada/aplicação no evento** se 02-oferta não trouxer (fontes divergem; na sessão 1a1 o padrão é sinal de R$ 500 a R$ 1.000, até 10%).
-- **Produto e preço do downsell**.
-- **Expor alunos no palco** (case de aluno, depoimento, nome e número): exige autorização registrada.
-- **Garantia no pitch** além da garantia condicional de 02-oferta e qualquer bônus novo.
-- Oferecer produto mais barato no mesmo evento para "não perder interessado" (recomendação das fontes: não; negociar parcelas).
+Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em "Assumi: X, Y, Z (é só pedir para mudar)"; vira oficial na aprovação do plano.
+- **Variante de CTA do pitch**: padrão do presencial de 3 dias = venda direta com entrada no evento (mais caixa no evento, exige
+  mesa de fundo e financeiro); padrão do online de 1 dia para ticket alto = pitch para sessão de avaliação gratuita (FHT 2026; mais
+  sessões e quebra de objeção individual, exige time comercial na mesma semana); sessão de avaliação paga só quando há 150 a 200
+  interessados e pouco time (com 30 a 40, não compensa). Escolher pelo formato do evento e listar em "Assumi".
+- **Valor da entrada/aplicação no evento** se 02-oferta não trouxer (propor pelo padrão e listar em "Assumi"; fontes divergem; na sessão 1a1 o padrão é sinal de R$ 500 a R$ 1.000, até 10%).
+- **Produto e preço do downsell**: propor pelo padrão e listar em "Assumi".
+- **Expor alunos no palco** (case de aluno, depoimento, nome e número): exige autorização registrada; sem ela, não usa.
+- **Garantia no pitch** além da garantia condicional de 02-oferta e qualquer bônus novo: só com nova versão de `02-oferta/`, que pede o OK simples na Aprovação 1.
+- Oferecer produto mais barato no mesmo evento para "não perder interessado": padrão = não (recomendação das fontes); negociar parcelas.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -169,7 +170,7 @@ velada. Lista completa: `references/voz-ensaio-e-auditoria.md` seção 3.
   operação geral do evento).
 - Texto → **ht-revisor-metodo-copy** (método, copy, compliance de promessa). Slides → **ht-diretor-arte** / ht-designer →
   **ht-revisor-visual**. Vídeos de case/abertura → ht-designer. Operação do break → ht-produtor-eventos e ht-closer.
-- Perguntas da seção 5 vão no bloco de entrega para o ht-diretor levar ao estrategista.
+- O "Assumi" da seção 5 vai no bloco de entrega para o ht-diretor juntar ao resumo e ao "posso seguir?".
 - Depois do evento: debrief em `13-aprendizados/` (objeções que explodiram, tempos reais, conversão por momento: pitch, dia 3,
   downsell) para a próxima edição.
 

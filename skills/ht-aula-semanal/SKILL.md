@@ -24,7 +24,7 @@ vigente). No FHT, cerca de 20% das vendas de mentoria vêm desse funil (número 
 6. `notificacoes.md`: cronograma semanal e copies na voz do expert (e-mail, WhatsApp, stories), convite de outras listas.
 7. `captacao-da-lista.md`: ações orgânicas por canal e o pedido de tráfego (criativos de captação e remarketing) para os donos.
 8. `pos-live.md` (rotina) e, a cada 4 aulas, `auditoria-aula-semanal-AAAA-MM-DD.md`.
-Cada arquivo fecha com o bloco de entrega do protocolo (nível de evidência, lacunas, decisões pendentes do estrategista).
+Cada arquivo fecha com o bloco de entrega do protocolo (nível de evidência, lacunas, linha "Assumi: …").
 
 ## 2. Antes de começar
 
@@ -40,19 +40,18 @@ Cada arquivo fecha com o bloco de entrega do protocolo (nível de evidência, la
    - `06-entrega/` e `13-aprendizados/`: provas e cases autorizados (para benefício e seeding); debriefs de aulas anteriores.
    - `00-plano/`: campanha vigente (imersão, SHT) e calendário de lançamentos que cruzam com a aula.
 3. Entradas obrigatórias: definição do AR, avatar, dia e horário que o expert sustenta, canal de avisos (grupo ou comunidade de
-   WhatsApp), ferramenta de e-mail e de formulário. Se faltar, no máximo 3 perguntas ao estrategista, por exemplo:
-   - "Qual dia e horário o expert consegue manter toda semana, inclusive em feriado e viagem?"
-   - "O expert já tem canal no YouTube e listas antigas (lançamentos, grupos, imersões) que podemos convidar?"
-   - "Há verba para captação paga da aula agora? Se sim, quanto por mês?"
-   O que não vier vira `[FALTA: ...]`. Nunca inventar prova, número de aluno ou depoimento.
+   WhatsApp), ferramenta de e-mail e de formulário. Se faltar, não abrir questionário: assumir o padrão (dia e horário
+   propostos, só captação orgânica, sem verba paga, sem listas antigas) e listar em "Assumi". Perguntar só o que não dá para
+   adivinhar, no máximo 2 coisas por vez e em linguagem simples (por exemplo: "Qual dia e horário o expert consegue manter toda
+   semana?"). O que não vier vira `[FALTA: ...]` ou `[SUPOSIÇÃO: ...]`. Nunca inventar prova, número de aluno ou depoimento.
 
 ## 3. Passo a passo
 
 **Passo 1. Promessa e nome.** A promessa geral é o convite para a viagem que o HT faz: tem conexão com a Roma, mas é algo que o
 avatar deseja e lê como dele ("ninguém lê anúncio, lê o que interessa"). Ela já **filtra quem não é avatar** (idade, profissão,
 tamanho do problema na própria frase: "aula para fisioterapeutas", "acima dos 40"). Pode enxugar a definição do AR. Nome próprio
-opcional ("Live X", "Terça do X"). Entregar 3 opções com a recomendada. Teste: a promessa é boa para o público, não só para o
-expert. Regras e exemplos em `references/planejamento-e-promessa.md` (seção 1). Texto público novo: decisão do estrategista.
+opcional ("Live X", "Terça do X"). Escrever 3 opções, usar a recomendada e listar em "Assumi". Teste: a promessa é boa para o público, não só para o
+expert. Regras e exemplos em `references/planejamento-e-promessa.md` (seção 1). Texto público novo: pede o OK simples ("posso seguir?") antes de sair.
 
 **Passo 2. Dia, horário, duração, plataforma.**
 - Aula nova toda semana: não se reprisa uma live antiga como aula da semana (pergunta respondida na Parte 1).
@@ -95,8 +94,8 @@ recomenda esta aula"), justificativa da nota, sugestão de tema e **a pergunta d
   têm o problema e não sabem resolver), oferta da reunião com o especialista. Pedir que só marque sim quem quer de verdade.
 - Sim no formulário entra na fila do comercial e é contatado em até 30 min (ajuste da palestra de jun/2026); agenda só quem tem
   perfil (Calendly ou formulário com lógica condicional). Os demais ficam na lista. A aula costuma acabar à noite: o plano escreve
-  quem atende a fila (`ht-sdr` rascunha, quem envia é quem o estrategista indicar) e a regra fora do horário (sim depois das 21h: contato
-  na abertura do dia seguinte, com mensagem automática de recebimento só se o estrategista ligar). Sem dono, vira decisão do estrategista.
+  quem atende a fila (`ht-sdr` rascunha, quem envia é quem a pessoa indicar) e a regra fora do horário (sim depois das 21h: contato
+  na abertura do dia seguinte, com mensagem automática de recebimento só se a pessoa ligar). Sem dono, o plano propõe um e lista em "Assumi".
 - O CTA **nunca** leva direto à mentoria nem tem preço. Um CTA principal por aula. **Padrão, inclusive na 1ª aula: a pergunta da
   sessão no formulário** (o sim vai para a fila). A fala pode antecipar a próxima aula, mas isso não substitui a pergunta da
   sessão. Alternativas ao CTA falado, pelo momento: campanha vigente (imersão, SHT/LDP, nas regras do Passo 10), outra rede
@@ -134,7 +133,7 @@ vigente); replay público em playlist (não tirar do ar para gerar escassez); tr
 vira resumo estruturado por IA para os participantes e matéria-prima de temas e cortes (`ht-conteudo-de-prova`). Zoom/Meet:
 baixar, editar, subir. Registrar os números da semana. Rotina em `references/pos-live-e-metricas.md`.
 
-**Passo 10. Conciliar com lançamento e eventos.** Regra (trilha 14, mar/2026; padrão recomendado, que o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): a aula semanal
+**Passo 10. Conciliar com lançamento e eventos.** Regra (trilha 14, mar/2026; padrão recomendado, que a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): a aula semanal
 **não para nunca**, inclusive quando o lançamento é para o mesmo público; em lançamento ela fica no seu dia (ou num horário
 próprio no mesmo dia) e a live de aquecimento vai em outro. A rota 3 (jan/2025) trocava a aula pela aula 1 do evento; o padrão do squad é
 não parar. Convidar os grupos do lançamento para o grupo da aula, não mandar o aviso da aula nos grupos do lançamento.
@@ -146,10 +145,10 @@ não parar. Convidar os grupos do lançamento para o grupo da aula, não mandar 
 2. O convite é o **CTA falado** daquela aula, no lugar do CTA de sessão, só nas aulas que caem dentro da captação da LDP (D-11 a
    D-1), no máximo 2 aulas. O formulário mantém NPS e a pergunta da sessão.
 3. O link leva à **página e ao grupo próprios da LDP** (lista separada). Não se usa o grupo de avisos da aula para captar a LDP
-   nem se chama a LDP de "aula"; no grupo da aula vai no máximo um aviso com o link da página da LDP, com OK do estrategista.
+   nem se chama a LDP de "aula"; no grupo da aula vai no máximo um aviso com o link da página da LDP, com OK da pessoa ("posso seguir?").
 4. Se o convite da aula prometeu "não vou vender nada", aquela aula não convida para a LDP (a LDP é oferta declarada).
 5. A LDP nunca cai no dia e horário da aula; na semana da LDP a aula acontece normalmente.
-6. Convidar para a LDP nas aulas é decisão do estrategista (seção 5) e entra no bloco de variáveis do pedido (datas da captação e destino).
+6. Convidar para a LDP nas aulas: a skill propõe (no máximo 2 aulas) e lista em "Assumi" (seção 5) e entra no bloco de variáveis do pedido (datas da captação e destino).
 
 ## 4. Regras inegociáveis do método
 
@@ -163,20 +162,20 @@ não parar. Convidar os grupos do lançamento para o grupo da aula, não mandar 
 - Pesquisa de avatar na entrada (testar tamanho, não tirar sem teste: sem ela não se sabe quem está chegando).
 - Copy de notificação na voz do expert. Nada de mensagem em massa a terceiros; envio a lead só com OK do estrategista.
 - Prova e caso só reais e autorizados; nicho de saúde confere a regra do conselho profissional antes de mostrar resultado.
-- Padrões do squad que se aplicam (o estrategista pode mudar em `padroes` do perfil): aula de 1 h; bio com CTA da ação do
+- Padrões do squad que se aplicam (a pessoa pode mudar em `padroes` do perfil): aula de 1 h; bio com CTA da ação do
   momento; comparecimento de referência para planejar: gratuito 25%; agendamento em 2 horários, sessão em até 2 dias, para
   quem marcou sim. Preço só de `02-oferta/`.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que a skill decide e lista em "Assumi"
 
-Apresentar em decisão numerada, opções a/b/c com prós, contras e custo, a recomendada na a):
+A skill decide pelo padrão ou pela recomendação, sem lote de perguntas, e lista em "Assumi: X, Y, Z (é só pedir para mudar)". Continuam pedindo só o OK simples ("posso seguir?", uma frase): gastar verba, ativar campanha ou automação, enviar a público novo e texto público novo. Itens:
 - **Promessa e nome públicos** da aula (texto público novo).
 - **Verba de captação** e divisão entre aula semanal e sessão 1a1 (referência da planilha: 80% aulas, 20% distribuição; começo
-  com R$ 10 a 20/dia ou 30% do investimento atual). Ativar campanha é sempre dele.
+  com R$ 10 a 20/dia ou 30% do investimento atual). Ativar campanha pede o OK simples da pessoa.
 - **Convite de listas antigas** e de grupos de que o expert participa (envio a público novo).
 - **Ligar as automações** de e-mail e WhatsApp e o contato do comercial com quem marcou sim.
-- **Convidar para a LDP nas aulas** dentro da captação (Passo 10): quais aulas (no máximo 2) e o texto do convite.
-- **Quem atende os sims** da fila e a regra fora do horário (Passo 5).
+- **Convidar para a LDP nas aulas** dentro da captação (Passo 10): propor quais aulas (no máximo 2) e o texto do convite.
+- **Quem atende os sims**: propor um responsável e a regra fora do horário (Passo 5).
 - **Convidar para evento pago dentro da aula** (ingresso, credencial): a própria Live FHT fecha algumas aulas com o convite para a
   imersão com credencial paga (lives 021, 022 e 026, valor de fala, conferir) e um aluno relatou que vende ingresso na aula e dá
   certo; exige tirar a promessa "não vou vender nada" do convite e não fazer toda semana. Oferta do HT dentro da aula continua fora.
@@ -185,7 +184,7 @@ Apresentar em decisão numerada, opções a/b/c com prós, contras e custo, a re
 ## 6. Critério de pronto e auditoria final
 
 **Pronto quando:**
-- [ ] Promessa ligada à definição do AR, filtra o avatar, 3 opções com recomendada; nome, dia, hora (Brasília), 1 h, plataforma.
+- [ ] Promessa ligada à definição do AR, filtra o avatar, 3 opções escritas e a recomendada escolhida; nome, dia, hora (Brasília), 1 h, plataforma.
 - [ ] Banco com no mínimo 12 temas curados (meta 24), ordem das próximas 4 aulas, nenhum tema que entrega a resposta.
 - [ ] Roteiro da próxima aula com os blocos do modelo escolhido, minutagem de 1 h, seeding marcado, objeções da live, sem preço.
 - [ ] Formulário com NPS, justificativa, sugestão de tema e a pergunta com o nome da sessão 1a1; presente definido; regra da fila.
@@ -193,7 +192,7 @@ Apresentar em decisão numerada, opções a/b/c com prós, contras e custo, a re
 - [ ] Cronograma de notificações da semana e copies na voz do expert; replay previsto; convite de listas com data de envio.
 - [ ] Pedido de tráfego e de criativos escrito (se houver verba) ou plano orgânico por canal (se não houver).
 - [ ] Rotina de pós-live e planilha de números da semana; cada número com fonte ou "conferir".
-- [ ] Decisões pendentes listadas para o estrategista.
+- [ ] Linha "Assumi: …" escrita em linguagem simples, com o "posso seguir?" da aprovação da vez.
 
 **Auditoria final** (erros típicos dos laboratórios; detalhe em `references/auditoria-aula-semanal.md`): medir por presença;
 horário escolhido pela audiência; quinzenal ou com falha; tema genérico ou fora do avatar; aula rasa; temas na mesma ordem;

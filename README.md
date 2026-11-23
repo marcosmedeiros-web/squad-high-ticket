@@ -17,16 +17,19 @@ Copie o link deste repositório, cole no Claude Code e peça:
 
 > instala esse plugin: https://github.com/marcosmedeiros-web/squad-high-ticket
 
-**Para o Claude que recebeu esse pedido:** a pessoa quer instalar este plugin. Rode, nesta ordem, e mostre a saída de cada um:
+**Para o Claude que recebeu esse pedido:** a pessoa quer instalar este plugin. Rode, nesta ordem, e mostre a saída de cada um
+(a instalação é global, no escopo `user`, que é o padrão):
 
 ```bash
 claude plugin marketplace add marcosmedeiros-web/squad-high-ticket
 claude plugin install squad-high-ticket@squad-high-ticket
 ```
 
-Depois confira com `claude plugin list` (tem de aparecer `squad-high-ticket@squad-high-ticket` com `enabled`), diga à pessoa
-para abrir uma conversa nova (os agentes só aparecem numa sessão nova) e, nessa conversa, pedir "configura o squad high
-ticket". Não instale nada além deste plugin e não mude outra configuração.
+Depois confira com `claude plugin list` (tem de aparecer `squad-high-ticket@squad-high-ticket` com `enabled`). Em seguida, mostre
+à pessoa o resumo do que o squad faz, que é o conteúdo da skill `ht-comecar` (`skills/ht-comecar/SKILL.md`, seção "O que
+mostrar"): o time com os nomes, os exemplos de pedido e que nada vai para fora sem o OK dela. Diga que não precisa configurar
+nada e que, numa conversa nova (os agentes só aparecem numa sessão nova), é só pedir. Não instale nada além deste plugin, não
+mude outra configuração e não ofereça personalização.
 
 ## Instalar pelo Terminal
 
@@ -35,33 +38,39 @@ claude plugin marketplace add marcosmedeiros-web/squad-high-ticket
 claude plugin install squad-high-ticket@squad-high-ticket
 ```
 
-## Primeiro passo: rode `ht-configurar`
+## Pronto para usar
 
-Antes do primeiro projeto, peça no Claude Code: "configura o squad high ticket" (ou chame a skill `ht-configurar`). É uma
-conversa curta, uma pergunta por vez:
+**Não precisa configurar nada.** Depois de instalar, abra uma conversa nova e peça. O squad já vem com os padrões recomendados,
+chama você de "você", guarda cada expert em `~/squad-ht/<expert>/ht/` e fala simples: o que dá para decidir pelo padrão ele
+decide e mostra no fim ("Assumi: … é só pedir para mudar"); pergunta só o que é impossível adivinhar.
 
-- seu nome e o nome da sua agência;
-- a pasta raiz dos experts (padrão `~/squad-ht`; cada expert fica em `<raiz>/<expert>/ht/`);
-- como você sobe campanha (Gerenciador de Anúncios manual, Meta Ads CLI oficial ou outra ferramenta) e se quer um prefixo
-  obrigatório no nome das campanhas;
-- os nomes dos 32 agentes (vem uma sugestão para cada um, no formato "Fernanda, Closer HT"; mantenha ou troque);
-- os padrões recomendados do método (ordem do preço na sessão, sinal, ancoragem, duração da sessão, regras de campanha e
-  outros), mostrados um bloco por vez para você manter ou mudar.
+Duas formas de chamar:
 
-Tudo fica em `~/.config/squad-ht/perfil.md`, fora do plugin. Todo agente lê esse arquivo antes de trabalhar; sem ele, o agente
-para e pede a `ht-configurar`. Para mudar depois, é só pedir: "muda o nome do closer para Rafa", "tira o prefixo de campanha",
-"muda o sinal da sessão".
+- **Pelo nome do agente:** "Heitor, monta o HT do expert X."
+- **Pela skill:** "usa a skill ht-roteiro-sessao-1a1 para o expert X."
+
+Exemplos de pedido prontos para copiar:
+
+- "Heitor, monta o HT do expert X, que ensina Y. Por onde começo?"
+- "Fernanda, monta o roteiro da sessão 1a1."
+- "Caio, me dá a campanha da aula semanal para eu subir."
+- "Olívia, a oferta do expert está boa?"
+- "Samuel, escreve as mensagens de abordagem para esses 20 perfis."
+- "o que o squad high ticket faz?" (mostra o time e mais exemplos)
+
+Sem acesso a uma ferramenta (Gerenciador de Anúncios, Instagram, plataforma de pagamento, automação), o agente entrega o material
+pronto, campo a campo, e diz o que você faz à mão. Nunca exige CLI nem login.
 
 ## Como usar: chame o Diretor
 
-Todo pedido começa pelo agente `ht-diretor`, a porta de entrada do squad. Exemplos:
+Na dúvida, comece pelo Heitor (`ht-diretor`), a porta de entrada do squad. Exemplos:
 
-- "Diretor, monta o HT da Expert Exemplo, nutricionista. Por onde começo?"
+- "Heitor, monta o HT da Expert Exemplo, nutricionista. Por onde começo?"
 - "Em que etapa ele está e qual o próximo passo?"
 - "Planeja os próximos 40 dias: sessão 1a1, aula semanal e uma live direto ao ponto."
 
 O Diretor diagnostica em que ciclo e etapa da rota o expert está, abre a pasta do projeto, despacha os estrategistas e
-especialistas em paralelo, junta, confere e traz as decisões para você em lote, com a recomendação na opção a).
+especialistas em paralelo, junta, confere e traz o resultado com o que foi assumido e, nas 4 aprovações, um "posso seguir?".
 
 ## Como o squad funciona
 
@@ -69,7 +78,7 @@ especialistas em paralelo, junta, confere e traz as decisões para você em lote
 qualquer pasta e escreve só na sua. Preço e oferta só saem de `02-oferta/`. Detalhe em
 `skills/ht-protocolo/references/estrutura-pasta-projeto.md`.
 
-**Protocolo comum.** A skill `ht-protocolo` é carregada primeiro por todo agente: o perfil, o mapa do método, as regras, os
+**Protocolo comum.** A skill `ht-protocolo` é carregada primeiro por todo agente: os padrões, os nomes fixos dos agentes, o mapa do método, as regras, os
 padrões e o glossário FHT.
 
 **Portão inicial.** Nada roda sem pesquisa e oferta aprovadas por você (Aprovação 1). São 4 aprovações: pesquisa e oferta,
@@ -95,7 +104,8 @@ ou caso inventado: o que falta aparece como `[FALTA: …]`.
 
 ## Skills do método
 
-`ht-configurar` (perfil), `ht-protocolo` (base transversal) e as 46 skills da rota. Quais agentes usam cada uma:
+`ht-comecar` (o que o squad faz), `ht-protocolo` (base transversal), `ht-configurar` (personalização opcional) e as 46 skills
+da rota. Quais agentes usam cada uma:
 `skills/ht-protocolo/references/mapa-das-46-skills.md`.
 
 | Etapa | Skills |
@@ -123,3 +133,9 @@ python3 scripts/gerar-matriz.py --estrito  # sai com erro se houver alerta (skil
 ```
 
 O script roda a partir da pasta do plugin; para outra pasta, use `--raiz <pasta>`.
+
+## Personalizar (opcional)
+
+Não é preciso. Se quiser mudar algo (como você quer ser chamado, a pasta dos experts, como você sobe campanha, um prefixo no
+nome das campanhas ou um padrão do método), peça "personaliza o squad". A skill `ht-configurar` pergunta só o que você quer
+mudar e grava em `~/.config/squad-ht/perfil.md`. Os nomes dos agentes são fixos.

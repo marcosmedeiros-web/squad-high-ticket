@@ -4,8 +4,8 @@ Vale para todo agente do Squad High Ticket.
 
 ## 1. Onde fica
 
-A raiz vem do perfil do estrategista (`~/.config/squad-ht/perfil.md`, campo `raiz_projetos`; padrão `~/squad-ht/`). Sem perfil,
-nenhum agente começa: pede ao estrategista para rodar a skill `ht-configurar`.
+A raiz vem do perfil do estrategista (`~/.config/squad-ht/perfil.md`, campo `raiz_projetos`; padrão `~/squad-ht/`). O perfil é
+opcional: sem ele, a raiz é `~/squad-ht/` e o agente trabalha direto (o nome do expert só é perguntado se for preciso criar a pasta).
 
 | Situação | Raiz do projeto | Exemplo |
 |---|---|---|
@@ -51,7 +51,7 @@ experts/<slug>/ht/
 │   ├── README.md                       caminho absoluto da raiz (1ª linha), expert, nicho, etapa atual da rota, links
 │   ├── estado.md                       ciclo (criar/vender/entregar/renovar), etapa, próximo passo, bloqueios
 │   ├── aprovacoes.md                   as 4 aprovações do estrategista (1 pesquisa e oferta, 2 plano da ação, 3 peças revisadas, 4 ir ao ar; padrão `aprovacoes` do perfil), com data e versão dos arquivos
-│   ├── decisoes.md                     lote único: D1, D2… com os códigos de origem (DA-1, DC-4) e a resposta por extenso (§3.5)
+│   ├── decisoes.md                     registro único: D1, D2… do que foi assumido, com os códigos de origem (DA-1, DC-4) e as mudanças da pessoa por extenso (§3.5)
 │   ├── variaveis.md                    variáveis compartilhadas do projeto (§3.6): nome do programa, promessa, Big Idea, datas
 │   ├── pedidos/                        um arquivo por pedido do Diretor (formato na seção 3.1)
 │   ├── historico/                      versões antigas de README, estado (ht-diretor)
@@ -217,7 +217,7 @@ Arquivo na subpasta do agente, `<AAAA-MM-DD>-<nn>-entrega.md`, ao lado do artefa
 - Números: <cada número usado e a fonte; "referência/conferir" quando vier de aula>
 - Critério de pronto: <cada item marcado [x] ou [ ] com o motivo>
 - Auditoria final: <erros típicos conferidos e o que foi corrigido>
-- Decisões para o estrategista: <PREFIXO-n: opções a/b/c com prós e contras; citar decisões de outro agente pelo código dele> (ou "nenhuma")
+- Assumi: <PREFIXO-n: o que foi decidido pelo padrão ou pela recomendação, em linguagem simples; citar a suposição de outro agente pelo código dele> (ou "nada"); pedido de OK: <só aprovação, envio, verba, ativação ou data pública, numa frase "posso seguir?"> (ou "nenhum")
 - Variáveis compartilhadas usadas: <versão de 00-plano/variaveis.md>; divergência encontrada: <qual, ou "nenhuma">
 - Lacunas: <o que faltou e não foi inventado>
 - Próximo: <revisor> → depois <agente seguinte>
@@ -235,7 +235,7 @@ for anúncio. Reprovado volta ao agente com o mesmo número de pedido. Aprovado 
 `rascunho` → `em revisão` → `aprovado pelo revisor` → `aprovado pelo estrategista` → `no ar / enviado`. Só o último estado pode
 sair para expert, lead ou aluno, e só pela mão (ou pelo OK explícito) do estrategista.
 
-### 3.5 Numeração das decisões (prefixo por agente)
+### 3.5 Numeração das suposições (prefixo por agente)
 
 Regra completa no `ht-protocolo` §6. Cada agente usa o prefixo abaixo, com número que só cresce no projeto; o Diretor consolida
 em `00-plano/decisoes.md` como `D1, D2…` com os códigos de origem ao lado.
@@ -263,6 +263,6 @@ em `00-plano/decisoes.md` como `D1, D2…` com os códigos de origem ao lado.
 
 Arquivo do Diretor, uma linha por variável, com valor, estado (`proposta` / `decidida em D<n>`), dono que propõe e data. Antes de
 despachar dois ou mais pedidos que se tocam (ex.: aula semanal e tráfego, página e anúncio, live e convite), o Diretor preenche as
-variáveis que eles compartilham e copia o bloco em cada pedido. Variável ainda sem decisão do estrategista vai como `proposta` e todos usam
+variáveis que eles compartilham e copia o bloco em cada pedido. Variável ainda não aprovada vai como `proposta` (o padrão recomendado) e todos usam
 o mesmo valor. Agente que precisa mudar uma variável não muda sozinho: devolve ao Diretor, que atualiza o arquivo e avisa os pedidos
 irmãos. Alternativa quando não dá para fixar antes: sequenciar (conteúdo → tráfego; nome da sessão → página).

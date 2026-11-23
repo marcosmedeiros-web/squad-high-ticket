@@ -26,10 +26,10 @@ Central 1x1 do ciclo de sessões) e cresce para o painel do programa e o diagnó
   `04-demanda/` e `10-trafego/` (gasto de mídia de sessão e de Reels), `06-entrega/` (NPS, consumo, catálogo, controle de
   renovação), `07-numeros/` (Master Plan, número mágico, metas), `13-aprendizados/`.
 - Entradas obrigatórias: para a Central, a lista de leads/sessões (ou começar vazia); para funil reverso, a meta de vendas do
-  período e o ticket; para o painel, as fontes disponíveis. Se faltar, no máximo 3 perguntas:
-  1. Qual a meta de vendas do mês/ano (número mágico do Master Plan) e o ticket vigente?
-  2. Onde estão hoje os registros de leads e sessões (planilha, CRM, WhatsApp)?
-  3. Quem opera: o expert sozinho, SDR, closer?
+  período e o ticket; para o painel, as fontes disponíveis. Se faltar, não abrir questionário: assumir o padrão (meta do
+  Master Plan e ticket da oferta vigente; Central começando vazia numa planilha; o expert operando sozinho) e listar em
+  "Assumi" (regra 16 do `ht-protocolo`). Perguntar só o que for impossível de adivinhar (por exemplo, onde estão hoje os
+  registros de leads e sessões), no máximo 2 coisas por vez e em linguagem simples.
 
 ## 3. Passo a passo
 
@@ -126,11 +126,12 @@ Modelo em `references/rotina-do-expert.md` (sala colab dez/25 e mai/25):
 7. Dado de lead e aluno fica na pasta do projeto; painel não é publicado.
 8. Mudança de preço, de filtro ou de oferta a partir dos números: proposta ao estrategista, nunca alteração direta.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que a skill decide e o que pede OK
 
-Metas do período (se divergirem do Master Plan), contratação de SDR/closer e remuneração, verba de tráfego para cobrir o funil
-reverso, mudança de preço ou filtro depois das 20 sessões, qual alavanca vira prioridade quando o diagnóstico empatar, compartilhar
-o painel com o expert ou o time.
+A skill decide pelo padrão ou pela recomendação e lista em "Assumi: X, Y, Z (é só pedir para mudar)": metas do período (se divergirem
+do Master Plan, segue o Master Plan), qual alavanca vira prioridade quando o diagnóstico empatar (a de maior efeito), mudança de preço
+ou filtro depois das 20 sessões (vira proposta na aprovação do plano). Pede o OK simples ("posso seguir?"): contratação de
+SDR/closer e remuneração, verba de tráfego para cobrir o funil reverso, compartilhar o painel com o expert ou o time.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -160,7 +161,7 @@ o painel com o expert ou o time.
 
 - Grava em `07-numeros/` (dono: ht-controller; ht-gestor-projetos usa a rotina e as metas em 00-plano).
 - A Central é alimentada pelo ht-sdr e pelo ht-closer (rascunho de registro; eles não falam com lead) e lida pelo ht-treinador-comercial.
-- Leitura e diagnóstico → Diretor (decisões em lote ao estrategista) e skill dona do gargalo. Textos → **ht-revisor-metodo-copy**;
+- Leitura e diagnóstico → Diretor (que junta o "Assumi" e pede o "posso seguir?") e skill dona do gargalo. Textos → **ht-revisor-metodo-copy**;
   painel visual → **ht-revisor-visual**.
 - Automação de coleta (formulários → planilha) → ht-gestor-automacoes, só com OK do estrategista.
 

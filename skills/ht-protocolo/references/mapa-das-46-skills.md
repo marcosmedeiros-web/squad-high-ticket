@@ -65,8 +65,9 @@ de diagnóstico está na seção 3.5 do `SKILL.md` deste protocolo.
 em `fontes_metodo`, e na biblioteca de casos do `ht-pesquisa-e-potencial`), com fonte e sem nome de aluno. Abre todo projeto
 antes da oferta (Consultor → Pesquisador → Arquiteto). O banco de sacadas ainda não existe neste plugin.
 
-## Skill de configuração (fora da numeração)
+## Skills fora da numeração
 
-`ht-configurar`: conversa com o estrategista e grava `~/.config/squad-ht/perfil.md` (nome, agência, raiz dos projetos,
-ferramenta de tráfego, prefixo de campanha, nomes dos agentes, padrões). Roda uma vez antes do primeiro projeto e de novo para
-editar.
+`ht-comecar`: mostra em linguagem simples o que o squad faz e como pedir. Não pergunta nada.
+
+`ht-configurar` (opcional): só roda quando a pessoa pede "personaliza o squad". Pergunta só o que ela quer mudar e grava
+`~/.config/squad-ht/perfil.md`. Nenhum agente a oferece por conta própria; sem perfil, vale o padrão.

@@ -74,8 +74,9 @@ Turma piloto de <N> · entrevistas com quem teve resultado em <mês> · revisão
 ## 11. Auditoria
 <itens conferidos, o que foi corrigido, o que ficou pendente>
 
-## 12. Decisões para o estrategista
-D-1: ... a) (recomendo) ... b) ... c) ...
+## 12. Assumi
+Assumi: <preço, garantia, bônus e o que mais foi decidido pelo padrão, cada um em palavras simples> (é só pedir para mudar).
+Posso seguir? (Aprovação 1: pesquisa e oferta)
 ```
 
 ## Oferta em uma página (para o closer)

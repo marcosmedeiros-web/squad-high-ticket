@@ -22,8 +22,9 @@ no parecer, com arquivo, trecho, fonte e correção.
 4. Oferta idêntica ao arquivo de `02-oferta/` citado (preço, entrada, parcelas, dupla, bônus, garantia, duração, número de
    revisões ou sessões, quem entrega cada item). Ordem do preço entrada, parcelado, à vista (padrão `ordem_preco_sessao`);
    sinal de R$ 500 a R$ 1.000, até 10% do valor, pago com a call aberta (padrão `sinal_sessao`), salvo o que o perfil mudou.
-5. Decisão que é do estrategista aparece como opções com código `PREFIXO-n` (`ht-protocolo` §6), nunca decidida pela peça (piso de
-   negociação, preço, garantia, data pública, verba).
+5. O que a peça assumiu pelo padrão está listado em "Assumi" com código `PREFIXO-n` (`ht-protocolo` §6), em linguagem simples;
+   preço e garantia aparecem como proposta até a Aprovação 1; data pública e verba nunca valem sem o OK da pessoa. Lote de
+   perguntas ou opções a/b/c para a pessoa é achado (regra 16 do protocolo).
 6. Nada de LPSG, 5+1, Funil 8 ou Turbo Express como método, nem como benchmark de método.
 
 ## 3. Coerência entre peças irmãs

@@ -35,9 +35,9 @@ sessão "no flow" converte pior.
    - `01-pesquisa/`: avatar, 4 âncoras, história do expert, o que o avatar já gasta tentando resolver.
    - `06-entrega/` (provas e cases autorizados) e `13-aprendizados/` (objeções e resultados de sessões já feitas).
 3. Entradas obrigatórias: oferta vigente, Raio-X, a história real que originou o programa, provas disponíveis, quem conduz
-   (expert ou vendedor). Se faltar, no máximo 3 perguntas, por exemplo: "O que de fato fez o expert criar o acompanhamento e
+   (expert ou vendedor). Se faltar, no máximo 2 perguntas simples por vez (o resto o agente assume e lista em "Assumi"), por exemplo: "O que de fato fez o expert criar o acompanhamento e
    por que ele resistia?"; "Quais resultados de aluno podemos mostrar, com autorização?"; "Quantas vagas reais o expert
-   atende neste ciclo?". O resto vira `[FALTA: …]`; nunca inventar história, prova ou escassez.
+   atende neste ciclo?". O resto vira `[SUPOSIÇÃO: …]`; nunca inventar história, prova ou escassez.
 
 ## 3. Passo a passo
 
@@ -147,18 +147,15 @@ parcelado igual ou acima do à vista (definido em `02-oferta`); entregáveis em 
 à vista → entrada como "boa notícia", o bootcamp abr/2026 mostra entrada primeiro; vale o padrão recomendado (entrada,
 parcelado, à vista).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e lista em "Assumi"
 
-- Preço, entrada, prazo do saldo, bônus e garantia: só em `02-oferta`; divergência vira pergunta.
-- Condição de fechamento na call (benefício que vale só até o fim da call, prazo da proposta): prós (urgência real), contras
-  (pressão percebida, risco de prometer o que não se sustenta). Só com regra aprovada.
-- Uso da variante VSD (pitch sem preço) ou de ajuste por nicho em teste.
-- Quem conduz as sessões (expert ou vendedor) e a partir de quando (ver `ht-treino-comercial`).
-- Garantia quando o resultado não é mensurável (fora do padrão de garantia mensurável): a) sem garantia, compensar com prova e objeções (recomendação da
-  aula 14 da trilha 09); b) garantia de satisfação de 15 a 30 dias em que o aluno pode sair sem dívida das parcelas futuras e a
-  entrada não volta (laboratório da aula 15; prós: tira o medo de quem hesita; contras: abre espaço para quem consome e sai,
-  exige contrato). Garantia longa de devolução integral "para experimentar" é desaconselhada nas duas aulas.
-Formato: opções a/b/c com prós e contras; o agente não decide.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão ou a recomendação e conta no fim ("Assumi: …; é só pedir para mudar").
+- Preço, entrada, prazo do saldo, bônus e garantia: só em `02-oferta`; o agente usa o que está lá. Se divergir, segue o que está em `02-oferta` e registra em "Assumi".
+- Condição de fechamento na call (benefício que vale só até o fim da call, prazo da proposta): só entra se já estiver na regra aprovada em `02-oferta`; sem regra, o agente não inclui e lista em "Assumi" (risco: pressão percebida e prometer o que não se sustenta).
+- Variante VSD (pitch sem preço) ou ajuste por nicho em teste: o agente assume a versão padrão e lista em "Assumi".
+- Quem conduz as sessões (expert ou vendedor): assume o expert no começo e lista em "Assumi" (ver `ht-treino-comercial`).
+- Garantia quando o resultado não é mensurável: o agente assume a recomendação da aula 14 da trilha 09 (sem garantia, compensando com prova e objeções) e lista em "Assumi". A alternativa, garantia de satisfação de 15 a 30 dias em que o aluno sai sem dívida das parcelas futuras e a entrada não volta (laboratório da aula 15), fica só como referência e exige contrato. Garantia longa de devolução integral "para experimentar" é desaconselhada nas duas aulas.
+Pedem um "posso seguir?" simples: gastar verba, publicar ou enviar algo para fora, ativar algo, e uso de foto, nome ou depoimento de aluno (só com autorização registrada).
 
 ## 6. Critério de pronto e auditoria final
 

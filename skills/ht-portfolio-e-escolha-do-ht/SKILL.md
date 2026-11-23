@@ -28,8 +28,9 @@ segmento que se alimentam por marcos de resultado), não com "esteira" de sequê
   `ht-pesquisa-e-potencial`. "Parecer" aqui é o veredito de potencial escrito no próprio dossiê, não o parecer do revisor: o
   portfólio pode rodar com o dossiê ainda em revisão em `12-revisoes/`, marcando a proposta "depende do parecer <arquivo>" e
   refazendo se o revisor reprovar.
-- Entradas obrigatórias e perguntas (no máximo 3):
-  1. **O que o expert já vende ou faz** (curso, consultoria, serviço, atendimento, imersão, nada). Pergunte só se não estiver no dossiê.
+- Entradas obrigatórias. O que não estiver no dossiê vira, no máximo, 2 perguntas simples por vez (sem opções a/b/c); sem
+  resposta, assume o padrão e marca `[SUPOSIÇÃO: …]`:
+  1. **O que o expert já vende ou faz** (curso, consultoria, serviço, atendimento, imersão, nada). Se não estiver no dossiê, assuma "nada ainda" e liste em "Assumi".
   2. **Quantos clientes com resultado já existem e em que nível** (decide se GIC, upgrade ou EHT fazem sentido agora).
   3. **Prazo e caixa**: o projeto precisa de dinheiro rápido nos próximos 60 dias? (pesa para CI ou peixe assado como caixa).
 
@@ -57,9 +58,9 @@ para o cliente**, que via de regra é o **AR**, da forma mais simples.
    planilha para o outro.
 2. **GIC primeiro** só quando o expert já tem um grupo de pessoas com resultado alto pedindo para se reunir (lives 055 e 062).
    Começar pelo GIC sem essa base é lento (Erico Rocha disse que foi o maior erro dele: o Plat ficou anos com 40 a 70 membros e
-   só cresceu depois do AR, live 031). Regras do GIC estão em aberto: a skill leva as opções ao estrategista, não decide.
-3. **Peixe assado primeiro** só para validar o método, injetar caixa ou estreitar relação (live 031). Exceção a mostrar ao estrategista: em serviço de alto valor e execução técnica, há caso de peixe assado como produto principal (construção civil, mais
-   de R$ 4 milhões em contratos em 6 meses, palestra Fev/2026). Diverge da regra geral: decisão do estrategista.
+   só cresceu depois do AR, live 031). Regras do GIC estão em aberto: a skill propõe o padrão, segue e lista em "Assumi".
+3. **Peixe assado primeiro** só para validar o método, injetar caixa ou estreitar relação (live 031). Exceção que vai no "Assumi": em serviço de alto valor e execução técnica, há caso de peixe assado como produto principal (construção civil, mais
+   de R$ 4 milhões em contratos em 6 meses, palestra Fev/2026). Diverge da regra geral: sigo o método e conto no "Assumi".
 4. **Consultoria individual** como primeiro produto só como caixa e porta para o AR (`ht-produtos-ht-complementares`).
 5. **Pós/MBA/extensão**: quando o avatar valoriza certificação e existe instituição parceira; formação sozinha não renova
    (combinar com AR ou GIC).
@@ -85,14 +86,14 @@ logo depois da venda. Regularização fiscal fica com o contador do expert (não
 Para cada produto que entra depois, definir **gatilho** (marco de resultado ou número de pessoas), **ano** e **risco**:
 - **GIC / mastermind**: nasce do AR quando há gente suficiente com resultado no mesmo nível. Referência de abertura: cerca de 30
   pessoas (trilha 07) ou no mínimo 40 (lives 009, 031, 046). Ticket 50% a 100% acima do AR (trilha 07; "50% é o mínimo").
-  Grupo aberto cedo e pequeno enfraquece hot seat e encontros. Corte de entrada, ticket e regras: **em aberto, decisão do estrategista** (a skill leva as opções).
+  Grupo aberto cedo e pequeno enfraquece hot seat e encontros. Corte de entrada, ticket e regras: **em aberto**: proponho pelo padrão e listo em "Assumi".
 - **Upgrade por marcos**: os marcos de resultado do AR (faixas; padrão do squad: 4 níveis) disparam a oferta do próximo produto
   quando o AR fica "básico demais" para o aluno (live 062; exemplo das faixas da FHT em `references/tipos-de-ht.md`). Desenho dos marcos: `ht-definicao-e-jornada`; oferta: `ht-upgrade-e-gic`.
 - **HT2 de upgrade** a partir do 2º ano, para uma parcela dos ativos com resultado (live 006 cita cerca de 20%, referência).
 - **Consultoria individual, EHT, peixe assado**: complementares e estratégicos, entram quando há motivo (caixa, porta de venda,
   topo da base, relação). Desenho em `ht-produtos-ht-complementares`.
 - **Imersão paga**: produto e canal ao mesmo tempo (live 031); entra no Master Plan como canal de venda do AR, e como HT só se o
-  ingresso for vendido como produto de implementação de valor alto. Formato e entrada do evento: `ht-decisao-de-evento` (entrada é decisão do estrategista por evento).
+  ingresso for vendido como produto de implementação de valor alto. Formato e entrada do evento: `ht-decisao-de-evento` (a entrada é proposta pelo padrão por evento e vira oficial na aprovação do plano).
 - Prioridade para escalar (live 055): AR, GIC, EHT, PA, CI. Começar por um; plugar os outros sem tirar foco do que já vende.
 - Riscos a declarar: produto novo que faz o anterior parecer ruim no comparativo; perder foco na entrega e na escala do que já
   funciona (live 062).
@@ -132,12 +133,13 @@ oferta: 1a1, SHT, imersão com pitch, lançamento; Instagram e anúncio são cap
 - Imersão não é HT por si no Master Plan: é canal (exceto ingresso de implementação de valor alto, declarado).
 - "R$ 997 em 21 dias" é produto de entrada, não AR (laboratório de dez/2025).
 - Padrões aplicáveis (editáveis em `padroes` do perfil): ticket vem de 02-oferta (5x a 10x a média do nicho); programa de 12
-  meses, ajustável de 11 a 13; regras do GIC em aberto (a skill leva as opções); entrada de imersão decidida pelo estrategista
+  meses, ajustável de 11 a 13; regras do GIC em aberto (a skill propõe pelo padrão); entrada de imersão proposta pelo padrão
   por evento.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que decido pelo padrão (e listo em "Assumi")
 
-Apresentar opções a/b/c com prós, contras e custo em uma linha, sem decidir:
+Não abro lote nem opções a/b/c. Decido pela recomendação, sigo e listo em "Assumi: X, Y, Z (é só pedir para mudar)"; vira oficial
+na Aprovação 1:
 - Primeiro HT diferente do AR (GIC, peixe assado, pós).
 - Abrir GIC: quando, corte de entrada, ticket, regras (em aberto).
 - Abrir o segundo avatar ou um HT para outro segmento.
@@ -153,7 +155,7 @@ Apresentar opções a/b/c com prós, contras e custo em uma linha, sem decidir:
 - [ ] Cada produto do mapa tem o que é, para quem, Roma, ticket com fonte, canais de venda, gatilho/ano e risco.
 - [ ] Dois avatares tratados (ou "um avatar" declarado); parcerias listadas ou "não prioritário".
 - [ ] Aba PRODUTOS HT pronta para o `ht-master-plan`.
-- [ ] Decisões para o estrategista numeradas; bloco de entrega preenchido.
+- [ ] "Assumi" no fim da entrega e "posso seguir?" simples; bloco de entrega preenchido.
 
 **Auditoria final (erros recorrentes dos laboratórios de Master Plan e das lives)**
 1. Imersão listada como HT (é canal).

@@ -33,9 +33,10 @@ para a edição seguinte.
    - `01-pesquisa/` (perfil do público, pesquisa de avatar: vira o "perfil do público" do mídia kit);
    - `06-entrega/` (provas e cases) e `13-aprendizados/` (debrief de edições anteriores, depoimentos de expositores).
 3. Entradas obrigatórias: data e local (ou previsão), público estimado, formato (presencial/online), planta ou metragem do
-   espaço, orçamento previsto, receita prevista de ingresso. Se faltar, perguntar no máximo 3 coisas:
-   (a) "Tem data e local? Se não, qual a janela e a capacidade?"; (b) "Já existe orçamento do evento? Me passe os blocos que
-   tiver"; (c) "Tem histórico de edições anteriores ou só a base de clientes/pesquisa?". O resto vira `[FALTA: …]`.
+   espaço, orçamento previsto, receita prevista de ingresso. Se faltar, não abrir questionário: assumir o padrão (janela e capacidade pelo
+   formato do evento, orçamento estimado pela planilha, sem histórico) e listar em "Assumi". Perguntar só o impossível de
+   adivinhar (por exemplo, "Tem data e local?"), no máximo 2 coisas por vez e em linguagem simples. O resto vira `[FALTA: …]`
+   ou `[SUPOSIÇÃO: …]`.
 4. Pré-condição do método: o bootcamp é para quem **tem evento previsto nos próximos meses** (principalmente presencial).
    Sem evento mapeado, registrar "fora do momento" e devolver ao Diretor.
 
@@ -48,7 +49,7 @@ para a edição seguinte.
   Funciona online: o patrocinador recebe alcance e dados mensuráveis (quem assistiu, por quanto tempo, cliques).
 - Pode começar antes do evento estar todo estruturado: esboçar quem se quer dentro, montar a planilha e, com o custo, dividir
   em cotas.
-- Expectativa honesta para o estrategista: 1º ano sofre (às vezes o expert põe dinheiro do bolso), 2º ganha visibilidade, 3º
+- Expectativa honesta para a pessoa: 1º ano sofre (às vezes o expert põe dinheiro do bolso), 2º ganha visibilidade, 3º
   consolida e os expositores procuram o evento.
 - Saída: `decisao.md` com a conta (custo previsto, receita de ingresso prevista, diferença, espaço) e a recomendação.
 
@@ -69,7 +70,7 @@ Blocos de custo, colunas e regras em `references/planilha-e-cotas.md`. Pontos qu
 - Conferir que **a soma das cotas paga as despesas** previstas.
 - **Cota propriedade (permuta)** para evento pequeno sem caixa: o patrocinador paga direto ao hotel/fornecedor a sala ou o
   coffee break, em troca de 10 a 20 minutos para apresentar o produto.
-- Preço final de cada cota é decisão do estrategista (seção 5). A skill apresenta a conta e as opções.
+- Preço de cada cota: a skill propõe pela fórmula e lista em "Assumi" (seção 5); vira oficial na aprovação do plano.
 
 ### Passo 4. Lista de candidatos com fit
 - Três fontes do método: quem **já patrocina eventos do segmento**; quem **vende para o mesmo público**; **fornecedores**
@@ -99,7 +100,7 @@ WhatsApp em blocos curtos (saudação, quem sou, cotas abertas, o expert pediu p
 esperando 5 a 10 min entre blocos; se pedirem "manda o material", propor **call de 30 min**; depois da call, **e-mail com a
 pré-reserva** do estande de interesse, o book, **3 pontos fortes** do evento e as condições de pagamento; sem resposta, um
 novo e-mail. Modelos em `references/prospeccao-abordagem-negociacao.md`. Toda mensagem sai como **rascunho**: quem envia é o
-time do expert, com o OK do estrategista (é falar em nome do expert).
+time do expert, com o OK simples da pessoa (é falar em nome do expert).
 
 ### Passo 8. Negociação
 - A proposta é padrão; o que se negocia são **contrapartidas** (e-mail extra para a base com conteúdo validado, live
@@ -109,10 +110,10 @@ time do expert, com o OK do estrategista (é falar em nome do expert).
   Padrão do squad: não entregar mailing (dado pessoal de participante, LGPD) e oferecer a captura de lead por leitor oficial no
   estande; entregar à máster só por decisão do estrategista, com base legal validada pelo jurídico.
 - Piso: não vender "a preço de banana", porque a cota paga a estrutura inteira, não só o estande. Preço de custo só para marca
-  estratégica que traz autoridade, por decisão do estrategista.
+  estratégica que traz autoridade, só se a pessoa pedir.
 - Não prometer ganho quantitativo ao patrocinador (nem número de vendas). Faltou visibilidade para fechar: **bônus de
   fechamento** (e-mail pré ou pós-evento, live).
-- Condições usadas no caso (referência, decisão do estrategista por projeto): reserva com sinal fixo abatido da cota e 30 dias para
+- Condições usadas no caso (referência; a skill propõe por projeto e lista em "Assumi"): reserva com sinal fixo abatido da cota e 30 dias para
   decidir (na fala, a gestora diz R$ 3 mil e se corrige para R$ 6 mil; conferir); 10% de desconto para pagamento em 30 dias após
   o contrato; até 12 parcelas sem virar o ano em débito; 5% nas últimas cotas; upgrade de categoria com diferença diluída.
 - Contrato com **multa** e proibição de produto concorrente; cláusulas em `references/prospeccao-abordagem-negociacao.md`
@@ -150,21 +151,20 @@ time do expert, com o OK do estrategista (é falar em nome do expert).
    foi pedido".
 8. O evento serve à venda do HT: grade, palco e feira não podem competir com o pitch (alinhar com `ht-palestras-e-pitch`).
 9. Padrões recomendados aplicáveis: nenhuma regra numérica fixa de patrocínio foi decidida; tudo que é preço, desconto e
-   aceite de patrocinador cai em "decisão do estrategista" (seção 5). Se o patrocínio for usado para trocar a entrada do evento
-   (gratuita, credencial, paga), vale o padrão: **a entrada é decisão do estrategista por evento**; mostrar prós e
-   contras e perguntar.
+   aceite de patrocinador a skill propõe pelo padrão e lista em "Assumi" (seção 5). Se o patrocínio for usado para trocar a entrada do evento
+   (gratuita, credencial, paga), vale o padrão `entrada_imersao`: a skill propõe a entrada e lista em "Assumi".
 
-## 5. Quando a decisão é do estrategista
+## 5. O que a skill decide e lista em "Assumi"
 
-Apresentar como decisão numerada com opções a/b/c, prós, contras e custo em 1 linha cada; a recomendada na a) com "(recomendo)":
-- Buscar patrocínio nesta edição ou não (e se online, presencial ou ambos).
+Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em "Assumi: X, Y, Z (é só pedir para mudar)"; vira oficial na aprovação do plano. Continuam pedindo só o OK simples ("posso seguir?"): enviar qualquer mensagem a patrocinador, contratar ou gastar, entregar mailing de participantes (exige base legal) e usar foto, nome ou depoimento de aluno (exige autorização registrada).
+- Buscar patrocínio nesta edição ou não (e se online, presencial ou ambos): seguir o parecer de `decisao.md`.
 - Preço e quantidade de cotas, nomes, o que cada uma entrega; margem de negociação.
 - Valor do sinal, desconto à vista, número de parcelas, desconto das últimas cotas.
-- Aceitar ou recusar um patrocinador com risco de fit; dar preço de custo a marca estratégica.
+- Aceitar ou recusar um patrocinador com risco de fit: padrão = recusar o de fit duvidoso; preço de custo a marca estratégica só se a pessoa pedir.
 - Quantos pitches externos no palco, em que dia e por quanto tempo (caso: 15 min, só no 1º dia).
 - Incluir ou não mailing de participantes na cota máster (padrão: não; exige base legal validada).
-- Quem do time faz a venda (interno x terceirizado).
-- Enviar qualquer mensagem a patrocinador (é falar em nome do expert).
+- Quem do time faz a venda: padrão = interno; terceirizar é contratar e pede o OK simples.
+- Enviar qualquer mensagem a patrocinador (é falar em nome do expert): sempre o OK simples ("posso enviar?").
 
 ## 6. Critério de pronto e auditoria final
 
@@ -175,7 +175,7 @@ Apresentar como decisão numerada com opções a/b/c, prós, contras e custo em 
 - [ ] Mídia kit com os 11 blocos, só dado real com fonte; `[FALTA: …]` onde não há dado.
 - [ ] Lista de candidatos com o motivo de fit de cada um e o checklist de riscos rodado.
 - [ ] Roteiros de abordagem, call e e-mail em rascunho; nenhum enviado sem OK.
-- [ ] Negociação com o que se negocia e o que não se negocia; condições como opções para o estrategista.
+- [ ] Negociação com o que se negocia e o que não se negocia; condições propostas pelo padrão e listadas em "Assumi".
 - [ ] Manual do expositor com o índice completo e prazo de 90 dias previsto em contrato.
 - [ ] Pós-evento planejado (pesquisa, mensagem do expert, uso no próximo mídia kit).
 
@@ -195,7 +195,7 @@ Apresentar como decisão numerada com opções a/b/c, prós, contras e custo em 
 
 - Grava em `05-eventos/<evento>/patrocinio/` (agente dono da tarefa: `ht-ingressos-e-patrocinio`, dentro da pasta do
   `ht-produtor-eventos`). Números consolidados vão para o `ht-controller` (`07-numeros/`) por handoff, não por escrita direta.
-- Bloco de entrega no formato do `ht-protocolo`, com decisões para o estrategista e lacunas.
+- Bloco de entrega no formato do `ht-protocolo`, com a linha "Assumi" e as lacunas.
 - Texto (mídia kit, roteiros, e-mails, manual) → `ht-revisor-metodo-copy`.
 - Mídia kit visual e planta → `ht-diretor-arte` → `ht-designer` → `ht-revisor-visual`.
 - Contrato → jurídico do expert (fora do squad); a skill só lista cláusulas.

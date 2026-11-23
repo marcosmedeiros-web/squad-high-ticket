@@ -13,7 +13,7 @@ primeira, e numa garantia que dá segurança para comprar e obriga o aluno a exe
 
 **Entrega**: `02-oferta/rascunhos/AAAA-MM-DD-preco-pagamento-garantia.md` com:
 1. Base de cálculo (média do nicho com fontes, tipo de AR, ganho do cliente, prova, custo de entrega) e a faixa de preço (5x a 10x a média do nicho).
-2. 3 cenários de preço com prós e contras e a recomendação (para o estrategista decidir).
+2. 3 cenários de preço com prós e contras e a recomendação (o do meio vai como proposta; vira oficial na Aprovação 1).
 3. Tabela final: individual e dupla; à vista, parcelado, entrada (sinal); modalidade especial se houver (P2P ou Fake HT); conta
    conferida linha a linha.
 4. Bônus à vista validado (ou "sem bônus à vista").
@@ -35,9 +35,9 @@ Opcional: aba OUTROS ELEMENTOS da planilha de oferta e uma calculadora em planil
      entrega.
    - `00-plano/decisoes.md`: troca de um padrão recomendado para este projeto (e `padroes` do perfil `~/.config/squad-ht/perfil.md`).
 3. **Entradas obrigatórias**: média de preço do nicho com pelo menos 3 referências; tipo de AR; o que o cliente ganha ou
-   economiza com o resultado; prova disponível; custo da entrega. Perguntar no máximo 3, por exemplo: "Quanto custa o curso ou a
-   consulta do expert hoje?", "Quais 3 concorrentes ou referências de preço o nicho tem?", "O expert tem CNPJ e conta em
-   plataforma de pagamento?". Sem média do nicho, pedir a pesquisa ao `ht-pesquisador` (via Diretor) em vez de chutar.
+   economiza com o resultado; prova disponível; custo da entrega. Pergunto só o que não dá para adivinhar, no máximo 2 por vez e em linguagem simples (por exemplo: "Quanto custa o curso ou a
+   consulta do expert hoje?"); o resto eu assumo (concorrentes e referências, CNPJ e conta em plataforma de pagamento) e marco
+   `[SUPOSIÇÃO: …]`. Sem média do nicho, pedir a pesquisa ao `ht-pesquisador` (via Diretor) em vez de chutar.
 
 ## 3. Passo a passo
 
@@ -60,7 +60,7 @@ Detalhe e referências: `references/metodo-de-precificacao.md`.
 
 ### Passo 2. Faixa de preço e cenários
 1. Faixa vigente: **5x a 10x a média do nicho**, validada no teste de 20 sessões (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Ex.: média de R$ 1.000 → R$ 5.000 a R$ 10.000.
-2. As fontes vão de 3x a 20x (conflito 5 do catálogo). Acima de 10x só com prova forte e decisão do estrategista; abaixo de 5x
+2. As fontes vão de 3x a 20x (conflito 5 do catálogo). Acima de 10x só com prova forte, e então listo em "Assumi"; abaixo de 5x
    provavelmente não é HT para aquele nicho (considerar Fake HT ou rever o avatar).
 3. Teste do "resultado garantido": quanto seria justo cobrar se o resultado fosse certo? Serve de teto mental.
 4. Ancorar no resultado: o preço tem de ser pequeno perto do que a promessa entrega no ano (ex. de aula: R$ 18 mil prometendo
@@ -72,23 +72,23 @@ Detalhe e referências: `references/metodo-de-precificacao.md`.
 Template, fórmulas e exemplos: `references/tabela-e-modalidades.md`.
 1. **À vista**: com o desconto escrito (o lead não faz conta).
 2. **Parcelado**: cerca de 20% acima do à vista; mostrar a parcela ("pense em parcela") e o total. **Número de parcelas: sem
-   padrão no squad**; definir com o expert no projeto (lote de decisões em `00-plano/decisoes.md`; padrão recomendado: parcelamento definido por expert, editável em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Referências das
+   padrão no squad**; proponho um número pelas referências abaixo e listo em "Assumi" (registro em `00-plano/decisoes.md`; padrão recomendado: parcelamento definido por expert, editável em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Referências das
    fontes, só como contexto: 8 em dez/25 (sobram meses para negociar atraso dentro dos 12) e 8 a 10 na trilha 06; 12 aparece na
    negociação ou em nicho em que 12x é o costume. Parcela abaixo de R$ 1.000 "parece real"
    para públicos de menor renda (referência dez/25).
 3. **Entrada = sinal da sessão** (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): R$ 500 a R$ 1.000, até 10% do valor, a mesma no à vista e no parcelado e na dupla, paga
    com a call aberta. Saldo do à vista em até cerca de 1 semana (referência mai/25). Esse sinal vale para a sessão 1a1. Em venda um
    para muitos (imersão, live), a trilha 06 recomenda aplicação de no máximo R$ 2 mil e menor (R$ 500) para avatar de renda mais
-   baixa: o valor de cada evento vem da skill do evento e é decisão do estrategista, nunca desta tabela.
+   baixa: o valor de cada evento vem da skill do evento (proposto pelo padrão e oficial na aprovação do plano), nunca desta tabela.
 4. **Dupla** (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): +50% sobre o individual, à vista e parcelado; entrada igual. É +50% e não +100% porque a dupla é do mesmo
-   negócio ou família e consome o mesmo plano (um diagnóstico para os dois, dez/25). Trio: sem decisão vigente, só como opção.
+   negócio ou família e consome o mesmo plano (um diagnóstico para os dois, dez/25). Trio: sem decisão vigente, fora do padrão; só se pedirem.
 5. **Conferir a conta** de cada linha: entrada + parcelas = total; total parcelado > à vista; dupla = individual x 1,5;
    terminação comercial (os exemplos de aula usam 997, 4.997, 11.997) só depois da conta, sem mudar a lógica.
 6. **Piso de negociação** (definido antes da sessão, para o closer): até onde a parcela ou a entrada pode cair sem mudar o preço.
    Antes de baixar preço, perguntar "qual parcela cabe?".
 7. **Ordem de apresentação na sessão** (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): entrada → parcelado → à vista. Registrar para o `ht-closer`.
 
-### Passo 4. Modalidades para avatar sem caixa (opções ao estrategista)
+### Passo 4. Modalidades para avatar sem caixa (recomendo uma e listo em "Assumi")
 - **P2P (dois passos)**: aplicação agora (o sinal) e o restante à vista ou na primeira parcela recorrente em 10 a 15 dias; o prazo
   dá tempo de o cliente se organizar. Quem não for aceito recebe a aplicação de volta.
 - **Fake HT**: o programa anual comunicado pela mensalidade (sistema faculdade), com desconto para quem antecipa; cobrança
@@ -107,7 +107,7 @@ Modelos, condições e casos: `references/garantia-modelos.md`.
    análises; compareceu aos encontros; registrou os números mensais; pagou em dia.
 3. Resultado mínimo calibrado ao ticket e ao avatar (ex.: faturar pelo menos o valor investido; perder o peso combinado; +X% de
    faturamento). Garantia pequena demais para o ticket do cliente perde força.
-4. Resultado abstrato (bem-estar, autoconhecimento): não forçar garantia de resultado; opções ao estrategista (seção 5).
+4. Resultado abstrato (bem-estar, autoconhecimento): não forçar garantia de resultado; escolho pela recomendação da seção 5 e listo em "Assumi".
 5. Garantia legal de 7 dias para compra online existe por lei; não é argumento de venda (na UE a plataforma usa 15 dias). Garantia em dobro: não (foi improviso
    desaconselhado). Texto final validado com advogado (vai no termo ou contrato).
 6. Pré-requisito operacional: medir investimento e resultado do aluno todo mês (planilha no drive do aluno ou SNA), senão não há
@@ -119,7 +119,7 @@ Modelos, condições e casos: `references/garantia-modelos.md`.
    abaixo de 5% = diagnóstico de conversão (avatar, oferta ou execução da sessão) antes de culpar o preço. Resultado é multifatorial.
 3. Registrar na Central 1x1 (`07-numeros/`, dono `ht-controller`): sessões, ofertas feitas, vendas, objeção principal, condição
    usada (à vista, parcelado, dupla).
-4. Preço de fundador (opção ao estrategista): primeiras vagas mais baratas, subir conforme chegam cases.
+4. Preço de fundador (fora do padrão; só se pedirem): primeiras vagas mais baratas, subir conforme chegam cases.
 
 ### Passo 8. Cobrança, inadimplência e estrutura fiscal inicial
 Checklist para o contador e política de cobrança: `references/cobranca-e-estrutura-fiscal.md`. Pontos que sempre entram:
@@ -143,23 +143,23 @@ Rodar a seção 6, gravar e fazer o handoff (seção 7).
   como alerta, não como regra contra o múltiplo (caso viola 60+).
 - Garantia só mensurável e ligada à execução; nunca abstrata, nunca em dobro, nunca a legal como argumento.
 - Comprador de HT é o mais comprometido, não o mais rico: facilitar a forma de pagamento antes de baixar o preço.
-- Preço da renovação não é decidido aqui (é do estrategista, por projeto, via `ht-renovacao`).
+- Preço da renovação não é decidido aqui (proposto pelo padrão, por projeto, via `ht-renovacao`).
 - Nada inventado: preço de concorrente sem fonte não entra; número de aula é "referência, conferir".
 
-## 5. Quando a decisão é do estrategista
+## 5. O que decido pelo padrão e o que fica para a Aprovação 1
 
-Sempre com opções a/b/c, prós, contras e custo; recomendação na a):
-- **Preço final** entre os 3 cenários; **preço acima de 10x** a média; **preço de fundador** para as primeiras vagas.
-- **Modalidade**: tabela padrão x P2P x Fake HT.
-- **Garantia**: resultado mínimo e condições; em nicho abstrato: (a) garantia condicional ligada só à execução e a um indicador
-  observável; (b) sem garantia de resultado, só a legal; (c) aplicação reembolsável após o diagnóstico ("se o diagnóstico mostrar
-  que não há como ter resultado, devolvemos").
+Não abro lote nem opções a/b/c. Decido pela recomendação, sigo e listo em "Assumi: X, Y, Z (é só pedir para mudar)". Preço e
+garantia propostos valem só como proposta e viram oficiais na Aprovação 1, como um "posso seguir?" simples:
+- **Preço final** entre os 3 cenários (proponho o do meio); **preço acima de 10x** a média (só com prova forte); **preço de fundador** para as primeiras vagas.
+- **Modalidade**: tabela padrão; P2P ou Fake HT só se o avatar não tiver caixa.
+- **Garantia**: resultado mínimo e condições; em nicho abstrato, recomendo a garantia condicional ligada só à execução e a um
+  indicador observável (as outras saídas: sem garantia de resultado, só a legal, ou aplicação reembolsável após o diagnóstico).
 - **Garantia incondicional estendida** (ex.: 30 dias, citada em aula como mais forte que a de 7, dez/25): fora do padrão de garantia condicional; só como
   opção, nunca padrão.
-- **Trio** e piso de negociação.
-- **Número de parcelas** (sem padrão fixo no squad; parcelamento definido por expert): definir com o expert no projeto (lote de decisões em `00-plano/decisoes.md`).
-- **Bônus à vista** (segunda cadeira ou outro).
-- **Estrutura fiscal** (quem fatura, divisão entre o expert e você ou a agência do perfil, se houver): só leva a pergunta pronta ao contador.
+- **Trio** (fora do padrão) e piso de negociação: proponho o piso.
+- **Número de parcelas** (sem padrão fixo no squad; parcelamento definido por expert): proponho um número pelas referências do Passo 3 e listo em "Assumi".
+- **Bônus à vista** (segunda cadeira ou outro): recomendo um.
+- **Estrutura fiscal** (quem fatura, divisão entre o expert e você ou a agência do perfil, se houver): só deixo a pergunta pronta para o contador.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -169,16 +169,17 @@ Sempre com opções a/b/c, prós, contras e custo; recomendação na a):
 - [ ] Tabela individual e dupla, à vista e parcelado, entrada (sinal) dentro do padrão; conta conferida linha a linha.
 - [ ] Ordem entrada → parcelado → à vista e piso de negociação registrados para o closer.
 - [ ] Bônus à vista validado ou ausência justificada.
-- [ ] Garantia com os 6 elementos, condições ligadas a entregáveis reais, prazo do programa (ou ausência de garantia de resultado decidida pelo estrategista, registrada).
+- [ ] Garantia com os 6 elementos, condições ligadas a entregáveis reais, prazo do programa (ou ausência de garantia de resultado, registrada no "Assumi").
 - [ ] Plano do teste de 20 sessões e o que fazer com cada faixa de conversão.
 - [ ] Checklist de cobrança e fiscal com as perguntas para o contador.
+- [ ] "Assumi" no fim da entrega e "posso seguir?" simples para a Aprovação 1.
 
 **Auditoria (erros dos laboratórios e das lives)**
-1. Preço chutado sem média do nicho nem prova; preço fora da faixa sem decisão do estrategista.
+1. Preço chutado sem média do nicho nem prova; preço fora da faixa sem estar no "Assumi".
 2. Conta que não fecha (total parcelado menor que o à vista; parcelas x valor diferente do total; placeholders da planilha).
 3. Entrada alta ou diferente entre à vista e parcelado.
 4. Desconto à vista pequeno ou não escrito; lead obrigado a fazer conta.
-5. Preço sem garantia e sem decisão do estrategista; garantia abstrata; garantia legal usada como argumento; garantia em dobro; garantia mal calibrada ao ticket.
+5. Preço sem garantia e sem estar no "Assumi"; garantia abstrata; garantia legal usada como argumento; garantia em dobro; garantia mal calibrada ao ticket.
 6. Bônus à vista que faz adiar a compra, que é essencial, ou que é desconto disfarçado.
 7. Mudança de preço antes de 20 sessões; preço baixado por objeção de dinheiro que era medo ou prioridade.
 8. Cobrança de ticket alto só no cartão cheio; Fake HT que esconde o compromisso anual.

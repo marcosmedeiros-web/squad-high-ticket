@@ -1,6 +1,6 @@
 ---
 name: ht-upgrade-e-gic
-description: 'Squad High Ticket / método FHT. Desenha o upgrade do aluno para o próximo nível (HT2, mastermind) quando ele bate um marco de resultado, os eventos simultâneos mentoria + mastermind ("provar o pirulito" e pitch só para elegíveis) e o GIC (Grupo de Inteligência Coletiva): decisão mentoria x mastermind, pré-requisito de resultado, valores, pilares e entregáveis (hot seat, debriefing, sala colab, encontros com palestras dos membros) e a oferta. Use quando o estrategista disser "quando ofertar o próximo nível", "monta o upgrade", "criar o mastermind do expert", "GIC", "hot seat", "elegíveis a upgrade no encontro", "HT2". As regras numéricas do GIC estão em aberto: a skill leva as opções ao estrategista, não decide. NÃO usar para a renovação do mesmo programa (ht-renovacao) nem para LPSG (fora do escopo deste squad).'
+description: 'Squad High Ticket / método FHT. Desenha o upgrade do aluno para o próximo nível (HT2, mastermind) quando ele bate um marco de resultado, os eventos simultâneos mentoria + mastermind ("provar o pirulito" e pitch só para elegíveis) e o GIC (Grupo de Inteligência Coletiva): decisão mentoria x mastermind, pré-requisito de resultado, valores, pilares e entregáveis (hot seat, debriefing, sala colab, encontros com palestras dos membros) e a oferta. Use quando o estrategista disser "quando ofertar o próximo nível", "monta o upgrade", "criar o mastermind do expert", "GIC", "hot seat", "elegíveis a upgrade no encontro", "HT2". As regras numéricas do GIC ainda não são fixas: o agente assume a recomendação de cada uma, lista em "Assumi" e elas só viram oficiais na Aprovação 1. NÃO usar para a renovação do mesmo programa (ht-renovacao) nem para LPSG (fora do escopo deste squad).'
 ---
 
 # Upgrade por nível e GIC (mastermind)
@@ -16,7 +16,7 @@ o OK do estrategista, pelo ht-arquiteto-oferta) e `06-entrega/upgrade/` (operaç
 1. `diagnostico-de-upgrade.md`: patamares/faixas de resultado, quantos elegíveis hoje e em 12 meses, recomendação "agora / ainda não".
 2. `decisao-mentoria-x-mastermind.md`: formato certo para o público, com os critérios.
 3. `desenho-do-gic.md`: pré-requisito, valores, 3 pilares e entregáveis, ritual de encontros, regras de convivência e saída, com
-   a lista de decisões em aberto do GIC para o estrategista.
+   as regras do GIC assumidas pela recomendação, listadas em "Assumi".
 4. `plano-evento-simultaneo.md` (quando o upgrade for no encontro): identificação, convite ao "pirulito", pitch separado.
 5. `roteiros-de-dinamica.md` (hot seat, debriefing, sala colab) quando pedido.
 
@@ -27,7 +27,7 @@ o OK do estrategista, pelo ht-arquiteto-oferta) e `06-entrega/upgrade/` (operaç
   atingidas por aluno, NPS, controle de renovação com a coluna de upgrade), `07-numeros/` (Master Plan: HT2/HT3 e % que sobe),
   `05-eventos/` (próximo encontro), `13-aprendizados/`.
 - Entradas obrigatórias: lista de alunos com resultado atual (métrica do nicho) e a definição dos patamares de resultado (faixas; padrão do
-  protocolo: 4 níveis). Sem isso, no máximo 3 perguntas:
+  protocolo: 4 níveis). Sem isso, no máximo 2 perguntas simples por vez (o resto vira `[SUPOSIÇÃO: …]` e entra em "Assumi"):
   1. Qual a métrica de resultado do nicho e em que valor o aluno é "avançado" (o marco que o expert reconhece)?
   2. Quantos alunos ativos já passaram desse marco, com evidência no catálogo?
   3. O expert quer um mastermind (troca entre pares) ou um segundo acompanhamento mais profundo (HT2)?
@@ -38,7 +38,7 @@ o OK do estrategista, pelo ht-arquiteto-oferta) e `06-entrega/upgrade/` (operaç
 - Regra de ordem: começar pelo AR; criar GIC só quando houver gente com resultado (lives 009, 014, 030, 046). Começar pelo
   mastermind antes do AR é erro citado.
 - Contar elegíveis: alunos que bateram o marco, com evidência. Referências de tamanho para abrir um GIC: ~30 pessoas com resultado
-  (parte A) x mínimo de ~40 elegíveis (lives 009, 046). **Em aberto (regras do GIC)**: levar as duas ao estrategista.
+  (parte A) x mínimo de ~40 elegíveis (lives 009, 046). **Regras do GIC ainda sem número fixo**: o agente assume ~30 e lista em "Assumi".
 - HT2 (segundo nível de acompanhamento): referência de live, a partir do 2º ano, para ~20% dos ativos, ticket maior, renovação
   ~70% (conferir).
 - Se não há elegíveis suficientes: recomendar "ainda não", com a projeção (quantos alunos precisam chegar ao marco e quando) e o
@@ -110,29 +110,33 @@ vendas de AR, ~25% sobem para GIC e ~50% renovam. Sempre com números do expert.
 3. Pitch de upgrade separado do de renovação; só para elegíveis.
 4. Não chamar de mastermind o que é mentoria (e vice-versa).
 5. Integridade: critério de entrada e de saída igual para todos.
-6. Ticket, mínimo de pessoas, corte de resultado e regras de convivência: decisão do estrategista (regras do GIC em aberto; a skill leva as opções).
-7. Nada é enviado a aluno sem OK do estrategista; convite e pitch saem como rascunho.
+6. Ticket, mínimo de pessoas, corte de resultado e regras de convivência: assumidos pela recomendação do item 5 e listados em "Assumi" (regras do GIC ainda sem número fixo).
+7. Nada é enviado a aluno sem OK ("posso seguir?"); convite e pitch saem como rascunho.
 
-## 5. Quando a decisão é do estrategista (regras do GIC em aberto: a skill leva as opções, não decide)
+## 5. Regras do GIC: o agente assume a recomendação e lista em "Assumi"
 
-Apresentar como decisões numeradas, opções a/b/c com prós e contras e a fonte de cada número. Sem recomendação quando o dado do
-projeto não sustentar.
-1. **Mínimo para abrir**: a) ~30 com resultado (parte A: abrir pequeno e cedo enfraquece, mas 30 já sustenta troca); b) ~40
-   elegíveis (lives 009, 046); c) outro número pela base real.
-2. **Ticket**: a) 50% a 100% acima do AR (parte A, desafio E); b) 5x a 20x o ticket do mercado (live 046/parte I); c) definido por
-   pesquisa com os elegíveis. Prós e contras: a) coerente com a escada do expert, menor risco; b) posiciona como topo, exige
-   entrega de troca muito forte e público com caixa.
-3. **Corte de resultado** (pré-requisito): a) o marco mais alto das faixas do AR do expert; b) um valor absoluto do nicho
-   (referências: FHT R$ 1 mi/ano em HT, Platinum R$ 2 mi; conferir); c) outro critério verificável que o expert reconheça.
-4. **Teto do grupo**: a) sem teto até ~300 (referência de live, conferir) e subdividir por faixa antes disso; b) teto menor
-   definido pela capacidade de curadoria do expert; c) grupos por faixa desde o início.
-5. **Consultoria individual**: a) "até N" por ciclo (padrão do protocolo para entregável individual: alvo do manual, teto na duração real); b) ilimitada, como o
-   formato citado do FHT; c) sem consultoria, só entregáveis de grupo. E, à parte, se o GIC tem garantia (a garantia condicional e mensurável do padrão vale para o AR).
-6. **Convivência e saída**: a) contribuição mínima por trimestre + sigilo dos números, saída de quem não cumpre; b) só sigilo,
-   contribuição estimulada sem regra de saída; c) outra regra proposta pelo expert.
-7. **Ordem dos produtos**: a) GIC depois do AR, sem HT2; b) HT2 (segundo acompanhamento) antes do GIC; c) HT2 no lugar do GIC.
-Em todas: prós e contras em uma linha por opção, com os números do projeto; a skill não marca recomendação sem dado que sustente.
-Também do estrategista: data e custo do evento simultâneo, convite gratuito ao "pirulito", qualquer texto público.
+As regras numéricas do GIC ainda não têm número fixo. O agente não faz lote de perguntas nem opções a/b/c: escolhe uma por regra,
+marca `[SUPOSIÇÃO: …]` e conta no fim, em linguagem simples ("Assumi: grupo abre com 30 alunos com resultado, ticket 50% acima do
+programa, ...; é só pedir para mudar"). Se o dado do projeto sustenta outra, usa essa; se não, a mais conservadora. Cada uma com a
+fonte do número:
+1. **Mínimo para abrir**: assume ~30 com resultado (parte A: abrir pequeno e cedo enfraquece, mas 30 já sustenta troca). Outras
+   referências: ~40 elegíveis (lives 009, 046), ou o número pela base real.
+2. **Ticket**: assume 50% a 100% acima do AR (parte A, desafio E; coerente com a escada do expert, menor risco). Outras referências:
+   5x a 20x o ticket do mercado (live 046/parte I; posiciona como topo, exige entrega de troca muito forte e público com caixa), ou
+   definido por pesquisa com os elegíveis.
+3. **Corte de resultado** (pré-requisito): assume o marco mais alto das faixas do AR do expert. Outras referências: um valor absoluto
+   do nicho (FHT R$ 1 mi/ano em HT, Platinum R$ 2 mi; conferir) ou outro critério verificável.
+4. **Teto do grupo**: assume sem teto até ~300 (referência de live, conferir) e subdivide por faixa antes disso. Outras referências:
+   teto menor pela capacidade de curadoria, ou grupos por faixa desde o início.
+5. **Consultoria individual**: assume "até N" por ciclo (padrão do protocolo para entregável individual: alvo do manual, teto na
+   duração real). Outras referências: ilimitada, como o formato citado do FHT; ou só entregáveis de grupo. A garantia do GIC
+   segue a condicional e mensurável do padrão do AR.
+6. **Convivência e saída**: assume contribuição mínima por trimestre + sigilo dos números, com saída de quem não cumpre. Outras
+   referências: só sigilo, ou regra proposta pelo expert.
+7. **Ordem dos produtos**: assume GIC depois do AR, sem HT2. Outras referências: HT2 (segundo acompanhamento) antes do GIC, ou HT2
+   no lugar do GIC.
+Pedem um "posso seguir?" simples (uma frase): data e custo do evento simultâneo, convite gratuito ao "pirulito", qualquer texto
+público novo e uso de foto, nome ou depoimento de aluno (só com autorização registrada).
 
 ## 6. Critério de pronto e auditoria final
 
@@ -141,7 +145,7 @@ Também do estrategista: data e custo do evento simultâneo, convite gratuito ao
 - [ ] Recomendação "agora / ainda não" com a projeção.
 - [ ] Formato decidido (mentoria x mastermind) com os critérios da tabela.
 - [ ] Pilares e entregáveis listados com quantidade "até N" onde for individual.
-- [ ] Decisões em aberto do GIC em lista para o estrategista, nenhuma decidida pela skill.
+- [ ] Regras do GIC assumidas pela recomendação e listadas em "Assumi", sem lote de perguntas.
 - [ ] Pitch de upgrade separado do de renovação no plano do evento.
 - [ ] Números de aula marcados referência/conferir.
 
@@ -157,7 +161,7 @@ Também do estrategista: data e custo do evento simultâneo, convite gratuito ao
 
 ## 7. Saída e handoff
 
-- Rascunho de oferta em `02-oferta/rascunhos/upgrade/` → **ht-arquiteto-oferta** (dono de 02-oferta) e o estrategista (decisões em aberto do GIC).
+- Rascunho de oferta em `02-oferta/rascunhos/upgrade/` → **ht-arquiteto-oferta** (dono de 02-oferta) e a Aprovação 1 (regras do GIC assumidas).
 - Operação (dinâmicas, calendário, elegíveis) em `06-entrega/upgrade/` (ht-gestor-renovacao / ht-estrategista-sucesso).
 - Pitch de upgrade → ht-roteirista-palco (ht-palestras-e-pitch); texto → **ht-revisor-metodo-copy**; slides → ht-designer e
   **ht-revisor-visual**.
@@ -174,7 +178,7 @@ ht-diretor-arte), `countdown-video` (cronômetro do hot seat), `humanizer` / `av
 **Fontes**: lives FHT 009 (mentoria x mastermind), 014 (5 tipos de HT), 030 (como criar um mastermind), 031 (esteira), 040 e 052
 (alavanca 3, upgrade), 046 (GIC: pilares, debriefing, sala colab), 047 e 050 (crachá, eventos simultâneos), 053 (upgrade); trilha 20
 fase 02 (pitch de upgrade e entregável sugerido por membro); parte-A (GIC ~30, ticket 50-100% acima), parte-E (GIC só com
-resultado), parte-H (decidir mentoria ou mastermind, hot seat), parte-I seção 6; CATALOGO conflito 15; regras do GIC em aberto (decisão do estrategista).
+resultado), parte-H (decidir mentoria ou mastermind, hot seat), parte-I seção 6; CATALOGO conflito 15; regras do GIC em aberto (assumidas pela recomendação).
 
 **Lacunas**: (1) regras do GIC em aberto; (2) não há roteiro literal do pitch de upgrade; (3) o valor do caso dos 35
 elegíveis e o ticket do GIC do FHT (R$ 160 mil citado) estão em trecho confuso de legenda; (4) não há regra escrita de saída por

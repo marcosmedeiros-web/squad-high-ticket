@@ -16,7 +16,7 @@ conservadoras, quantas vendas por mês isso exige agora, de quais canais elas v�
    7 ANOS, NÚMERO MÁGICO, CAPACIDADE; amarelo = entrada, o resto é fórmula).
 2. `AAAA-MM-DD-master-plan-leitura.md`: premissas com fonte, três cenários (conservador, base, otimista) em tabela, leitura do
    resultado (acumulado, líquido, ano a ano), número mágico, plano por canal do ano 1 e se ele fecha, funil reverso, calendário
-   anual proposto, capacidade, riscos, decisões para o estrategista e o que precisa de dado próprio.
+   anual proposto, capacidade, riscos, linha "Assumi" e o que precisa de dado próprio.
 3. `AAAA-MM-DD-master-plan-entrada.json` (os números usados, para regenerar a planilha a cada revisão).
 
 ## 2. Antes de começar
@@ -25,9 +25,9 @@ conservadoras, quantas vendas por mês isso exige agora, de quais canais elas v�
 - Ler: `02-oferta/portfolio.md` (HTs, ordem, gatilhos, aba PRODUTOS HT) e `02-oferta/oferta-vigente.md` (ticket, condições,
   duração, versão); `01-pesquisa/` (avatar, base existente, média de preço do nicho); `07-numeros/` (Central 1x1, conversão real,
   comparecimento real, recebimento real, versões anteriores do plano); `06-entrega/` (capacidade, mentores); `00-plano/decisoes.md`.
-- Entradas obrigatórias e perguntas (no máximo 3):
+- Entradas obrigatórias (não abrir questionário: o que faltar é assumido pelo padrão e listado em "Assumi"; só perguntar o impossível de adivinhar, no máximo 2 coisas por vez, em linguagem simples):
   1. **Ticket de cada HT** de `02-oferta`. Se não existir ainda, usar R$ 10 mil (referência do método) marcado **provisório** e
-     dizer que o plano será refeito quando a oferta for aprovada. Nunca escolher preço.
+     dizer que o plano será refeito quando a oferta for aprovada. O preço oficial só nasce na Aprovação 1.
   2. **Meta do expert para o ano 1** ou a pergunta-guia "com que faturamento no fim do ano ele fica tranquilo?" e quantas
      sessões por semana ele (ou o time) consegue fazer.
   3. **Base existente**: alunos ativos que podem renovar no ano 1 e dados reais de conversão, comparecimento e recebimento.
@@ -56,12 +56,12 @@ canal de venda). Sem portfólio, devolver ao Diretor pedindo `ht-portfolio-e-esc
 Regras de preenchimento (método FHT, detalhe na referência):
 1. Ano 1 de pé no chão, conferido semana a semana ("consigo 1 por mês? 2? 1 por semana?").
 2. Crescimento realizável de 20% a 25% ao ano nos novos (ou outra curva declarada); conferir se o ano 2 não é menor que o 1.
-3. Ticket por ano: o de `02-oferta`; subir ticket nos anos seguintes só como cenário, marcado "hipótese de reajuste" (preço é do estrategista).
+3. Ticket por ano: o de `02-oferta`; subir ticket nos anos seguintes só como cenário, marcado "hipótese de reajuste" (o preço oficial só nasce na Aprovação 1).
 4. Renovação: ano 1 só sobre a base existente; dos anos seguintes, sobre o total de clientes do ano anterior.
-5. Ticket de renovação: sem regra fixa, definido por projeto (menor, igual ou reajuste; é do estrategista). Montar o cenário base com o mesmo ticket da venda e mostrar ao estrategista as alternativas
-   (menor, igual, reajuste) com o efeito no acumulado.
+5. Ticket de renovação: sem regra fixa, definido por projeto (menor, igual ou reajuste). Montar o cenário base com o mesmo ticket da venda (`preco_renovacao` do padrão) e listar em "Assumi"; as outras
+   alternativas (menor, reajuste) entram só como cenário, com o efeito no acumulado.
 6. HT 2 (GIC, upgrade) e HT 3 (EHT, pós, imersão de implementação cobrada) começam no ano do gatilho do portfólio; GIC com regras
-   em aberto (a skill leva as opções ao estrategista) entra como cenário. EHT e produtos sem acompanhamento com `conta_capacidade: false`. HT com margem diferente
+   em aberto (a skill usa `regras_gic` do padrão e lista em "Assumi") entra como cenário. EHT e produtos sem acompanhamento com `conta_capacidade: false`. HT com margem diferente
    (ex.: EHT com custo de viagem) leva `margem_sobre_recebido` próprio no JSON, sempre como margem de lucro, com a fonte na leitura.
 7. Gerar: `python3 references/gerar_master_plan.py entrada.json saida.xlsx` (exemplo com `--exemplo`). Recalcular antes de ler
    (abrir no Sheets/Excel ou `soffice --headless --convert-to xlsx`) e conferir uma coluna à mão.
@@ -90,13 +90,13 @@ Propor o calendário do ano: meses de 1a1 (cerca de 6 meses antes do primeiro ev
 (o ciclo se repete 5 a 7 vezes por ano quando maduro), SHT na cauda de cada imersão, ciclos de renovação casados com os
 presenciais (programa de 12 meses, ajustável de 11 a 13, ciclo casado a um encontro presencial), datas de revisão do Master Plan. **Calendário e feriados**:
 conferir cada mês e cada data proposta contra feriados nacionais, Carnaval, Semana Santa, recesso de fim de ano (24/12 a 01/01) e
-datas do nicho; evento ou live que cai num deles é deslocado e marcado como decisão do estrategista. Portão de cada evento um-para-muitos
+datas do nicho; evento ou live que cai num deles é deslocado para a data livre mais próxima, listado em "Assumi" (data pública pede o OK simples). Portão de cada evento um-para-muitos
 em D-15 da data dele (`ht-protocolo` §3.6). Entregar como proposta ao
-`ht-gestor-projetos` (dono de `00-plano/cronograma.md`); formato e entrada de cada evento ficam com `ht-decisao-de-evento` (entrada é decisão do estrategista por evento).
+`ht-gestor-projetos` (dono de `00-plano/cronograma.md`); formato e entrada de cada evento ficam com `ht-decisao-de-evento` (a entrada segue `entrada_imersao`, listada em "Assumi").
 
 ### Passo 8. Caixa, LTV e capacidade
 - Mostrar contrato, recebido e líquido por ano e acumulados; explicar "efeito farmácia" e propor a reserva (Open Doors) como
-  opção para o estrategista, sem número de divisão inventado.
+  sugestão listada em "Assumi", sem número de divisão inventado.
 - LTV por cliente (novos + renovação + upgrade previsto) e CAC máximo aceitável como conta, não como meta de tráfego.
 - Aba CAPACIDADE: se os ativos passam de 20, o plano precisa de mentor e navegador no ano em que isso acontece; levar para
   `ht-escala-da-entrega`.
@@ -116,21 +116,21 @@ Rodar a auditoria (seção 6) e escrever a leitura: o que o plano diz, o que dep
   real; versão anterior vai para `historico/`.
 - Números de aula são referência: na leitura, cada um com fonte e "conferir" quando houver ruído.
 - Padrões aplicáveis (editáveis em `padroes` do perfil): preço vem da oferta (5x a 10x a média do nicho); programa de 12 meses,
-  ajustável de 11 a 13; preço da renovação definido por projeto pelo estrategista; entrada de evento decidida por evento; regras
+  ajustável de 11 a 13; preço da renovação definido por projeto (proposto pelo padrão e listado em "Assumi"); entrada de evento pelo padrão; regras
   do GIC em aberto; conversão de referência da sessão de 10% a 20%; mínimo de 20 sessões antes de concluir; renovação de 50% e
   margem de 40% sobre o recebido no plano conservador; capacidade de 20 alunos com o expert sozinho, mentor 1:70, navegador
   1:100; comparecimento de 25% no gratuito e 70% no credencial ou pago.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que a skill decide e lista em "Assumi"
 
-Apresentar opções a/b/c com prós, contras e efeito no acumulado, sem decidir:
-- **Ticket de renovação**: menor, igual ou reajuste (definido por projeto).
+Decidir pelo padrão ou pela recomendação, sem lote de perguntas, mostrando o efeito no acumulado e listando em "Assumi: X, Y, Z (é só pedir para mudar)"; vira oficial na aprovação do plano:
+- **Ticket de renovação**: igual ao da venda (padrão); menor ou reajuste só como cenário.
 - **Meta do ano 1** quando a do expert não fecha com os canais ou com a agenda.
-- **Entrada de novos canais** (imersão, SHT, lançamento) e o mês em que entram.
-- **Quando abrir o GIC** e com qual ticket (regras em aberto).
-- **Contratação** (vendedor, mentor, navegador) quando o funil reverso ou a capacidade pedirem.
-- **Reserva de caixa** (Open Doors) e divisão do lucro.
-- Usar dado próprio do expert que contradiz a premissa do squad (ex.: renovação real de 30%).
+- **Entrada de novos canais** (imersão, SHT, lançamento) e o mês em que entram: propor pelo ciclo do calendário.
+- **Quando abrir o GIC** e com qual ticket: pelo padrão `regras_gic`.
+- **Contratação** (vendedor, mentor, navegador) quando o funil reverso ou a capacidade pedirem: só sugerir; contratar pede o OK simples ("posso seguir?").
+- **Reserva de caixa** (Open Doors) e divisão do lucro: sugerir sem número inventado.
+- Usar dado próprio do expert que contradiz a premissa do squad (ex.: renovação real de 30%): usar o dado próprio e dizer isso em "Assumi".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -146,7 +146,7 @@ Apresentar opções a/b/c com prós, contras e efeito no acumulado, sem decidir:
 - [ ] Calendário anual proposto, conferido contra feriados e recesso, com o portão de cada evento em D-15, e enviado ao gestor
       de projetos.
 - [ ] Capacidade conferida; contrato x recebido x líquido explicados.
-- [ ] Decisões para o estrategista numeradas; bloco de entrega preenchido.
+- [ ] Linha "Assumi" em linguagem simples e "posso seguir?"; bloco de entrega preenchido.
 
 **Auditoria final**: rodar os 14 itens de `references/planilha-e-auditoria.md`, seção 5 (imersão como HT, captação como canal,
 dois públicos, GIC sem resultado, produto de entrada como AR, ticket baixo para público profissional, renovação sem motivo, metas
@@ -157,7 +157,7 @@ canal que não fecha). Na leitura, dizer quais foram conferidos e o que foi corr
 
 - Grava em `07-numeros/` (dono: `ht-controller`). Quando executada por outro agente (estrategista de produto, gestor de projetos),
   entrega a proposta ao `ht-controller`, que grava.
-- Revisão: `ht-revisor-metodo-copy` (método e leitura). O Diretor leva ao estrategista.
+- Revisão: `ht-revisor-metodo-copy` (método e leitura). O Diretor leva à pessoa com o "Assumi" e o "posso seguir?".
 - Próximos: `ht-gestor-projetos` (calendário em `00-plano/cronograma.md`), `ht-central-e-kpis` (metas da Central 1x1 e painel),
   `ht-escala-da-entrega` (mentores), `ht-decisao-de-evento` (eventos do calendário), plano de ação do expert.
 

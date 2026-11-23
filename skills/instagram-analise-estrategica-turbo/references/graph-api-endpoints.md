@@ -78,7 +78,7 @@ Stories expiram em 24h. Pra incluir, requer captura quase em tempo real e métri
 |--------|-------|------------|
 | 4 / 17 / 32 | rate limit | recuo exponencial (já implementado em `fetch_graph.py`) |
 | 100 | métrica não suportada para o tipo de mídia | pular silenciosamente, registrar como lacuna |
-| 190 | token inválido ou expirado | parar e pedir refresh do `IG_GRAPH_TOKEN` |
+| 190 | token inválido ou expirado | interromper a chamada e solicitar novo `IG_GRAPH_TOKEN` |
 | 200 | falta permissão | revisar escopos do token |
 
 ---

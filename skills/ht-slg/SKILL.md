@@ -32,7 +32,7 @@ filtrada antes. Objetivo único da conversa: **vender o agendamento, nunca o HT 
    - `04-demanda/vitrine/`: o perfil precisa estar minimamente pronto (a abordagem leva a pessoa ao perfil). Vitrine ausente:
      avisar o Diretor e sugerir `ht-vitrine` antes ou em paralelo.
 3. Entradas obrigatórias: definição do AR, nome da sessão, avatar, meta de sessões e prazo, ativos do expert (seguidores,
-   WhatsApp, ex-alunos, grupos, lives). Se faltar, até 3 perguntas ao estrategista, por exemplo:
+   WhatsApp, ex-alunos, grupos, lives). Se faltar, até 2 perguntas simples por vez (o resto o agente assume e lista em "Assumi"), por exemplo:
    - "Quantas sessões queremos em quantos dias?"
    - "Quem vai operar o direct: o expert ou alguém da equipe dele?"
    - "Quais listas o expert já tem (ex-alunos, WhatsApp, lista de evento)?"
@@ -71,7 +71,7 @@ para a pessoa. Se o rascunho veio do agente de IA, conferir se a desarmadora nã
 da `references/mensagens.md` (seção 5): sem travessão, sem cadeia de adjetivos, sem aspas, sem "dei uma olhada rápida", sem
 textão, na voz do expert.
 
-**Passo 7. Entrega do lote ao estrategista.** Lote com até o volume diário da rotina; cada mensagem com lead, fonte, conexão e o
+**Passo 7. Entrega do lote ao estrategista, com o "Assumi" e o "posso seguir?" simples.** Lote com até o volume diário da rotina; cada mensagem com lead, fonte, conexão e o
 porquê da pergunta. **A skill não envia.** Quem envia, depois do OK, é o expert (ou quem o estrategista autorizar), do perfil do
 expert, à mão.
 
@@ -110,17 +110,16 @@ sim/não). A cada lote ou semana, ler o funil por etapa e apontar onde falha (`r
 - Resiliência: perda em todas as etapas é normal; mais "não" que "sim". Só se para de falar com alguém quando a pessoa diz não.
 - O SDR (`ht-sdr`) produz rascunho; não envia, não fala com lead (protocolo, regra 2).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-Formato: decisão numerada, opções a/b/c com prós, contras e custo; recomendação na a).
-- **Quem opera o SLG**: a) o expert (mais resposta); b) equipe do expert depois da 2ª mensagem ou no WhatsApp; c) pessoa
-  contratada só para SLG (referência de aula R$ 1.000 a 1.500 por mês, conferir; decisão de gasto).
-- **Ligar automação de isca** (palavra-chave no ManyChat) e qual pergunta de filtro.
+Sem lote de perguntas nem a/b/c: o agente decide pela recomendação e lista em "Assumi".
+- **Quem opera o SLG**: assume o expert (mais resposta) e lista em "Assumi". Equipe do expert depois da 2ª mensagem ou no WhatsApp é a alternativa; pessoa contratada só para SLG (referência de aula R$ 1.000 a 1.500 por mês, conferir) é gasto e pede "posso seguir?".
+- **Ligar automação de isca** (palavra-chave no ManyChat) e qual pergunta de filtro: o agente propõe a pergunta; ligar a automação pede "posso seguir?".
 - **Sessão paga ou Kinder Ovo** como fonte: mexem na oferta (valor da sessão, bônus num produto barato), então dependem de
-  `02-oferta` e do estrategista. Referência de aula: sessão de avaliação de R$ 97 a 3 mil, R$ 500 vendeu mais que R$ 197 (conferir).
-- **Nome e rotação do convite** (ex.: "diagnóstico", "análise", "auditoria"; "liberei mais 10 análises").
-- **Abordar lista do expert que é sensível** (pacientes, clientes de serviço regulado) ou base antiga com áudio.
-- **Volume diário** muito acima das ~30 mensagens por dia citadas (risco de bloqueio da conta do expert).
+  `02-oferta`. O agente não inclui sem estar na oferta e lista em "Assumi". Referência de aula: sessão de avaliação de R$ 97 a 3 mil, R$ 500 vendeu mais que R$ 197 (conferir).
+- **Nome e rotação do convite** (ex.: "diagnóstico", "análise", "auditoria"; "liberei mais 10 análises"): o agente propõe pelo padrão e lista em "Assumi".
+- **Abordar lista do expert que é sensível** (pacientes, clientes de serviço regulado) ou base antiga com áudio: o agente deixa de fora no primeiro lote, lista em "Assumi" e só inclui com "posso seguir?".
+- **Volume diário** muito acima das ~30 mensagens por dia citadas (risco de bloqueio da conta do expert): o agente mantém até ~30 e lista em "Assumi".
 
 ## 6. Critério de pronto e auditoria final
 

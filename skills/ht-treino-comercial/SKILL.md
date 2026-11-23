@@ -31,7 +31,7 @@ aprende com o que deu certo (engenharia reversa) e prepara a passagem da sessão
    `13-aprendizados/`.
 3. Entradas obrigatórias por entrega: roleplay e check-up → os 3 materiais (Raio-X, roteiro, deck); auditoria → gravação ou
    transcrição com tempo (e o resultado da call); diagnóstico → número de sessões, vendas e origem dos leads; time comercial →
-   conversão atual do expert e capacidade de entrega. Se faltar, no máximo 3 perguntas; o resto vira `[FALTA: …]`.
+   conversão atual do expert e capacidade de entrega. Se faltar, no máximo 2 perguntas simples por vez; o resto vira `[SUPOSIÇÃO: …]` e entra em "Assumi".
 4. Gravação de lead é dado sensível: fica em `03-sessao/privado/`, sem nome em material de treino compartilhado.
 
 ## 3. Passo a passo
@@ -66,7 +66,7 @@ agendadas → realizadas → ofertadas → vendas, por origem). Referência (pad
 **abaixo de 5%** aciona este diagnóstico. Investigar na ordem: **avatar** (quem chega é cliente? tem dinheiro e dor?), **oferta**
 (o benefício é incomparavelmente maior que o preço? garantia e forma de pagamento?), **execução** (auditoria de 3 a 5 gravações).
 Sinais rápidos de execução: notas 10 em tudo, herói pulado, leitura sucinta, preço antes do valor, coleta pulada, saída sem data.
-Preço à vista travando: mostrar P2P e Fake HT ao estrategista como opção (não decidir).
+Preço à vista travando: o agente assume a recomendação (manter o preço à vista e sugerir P2P como reforço; Fake HT só como referência) e lista em "Assumi".
 
 **Passo 6. Engenharia reversa da call que vendeu** (`references/engenharia-reversa.md`). Play, pausa, motivo da fala, impacto
 agora e no fechamento, o que ainda melhoraria. Extrair o padrão replicável (pergunta que aprofundou a dor, oferta aterrissada no
@@ -92,14 +92,15 @@ conduz a sessão, suporte agenda o diagnóstico de entrega. Rotina: gravar tudo,
 - Nada de inventar fala, nota ou resultado de sessão; o que a gravação não mostra é "não observável".
 - Roleplay com IA no papel de cliente é desenho do squad (a FHT faz roleplay humano); deixar isso claro no relatório.
 - Gravação de lead só com aviso ao lead e guardada em `privado/`.
-- O treino não fala com lead: produz material para o expert e o vendedor que o estrategista definiu.
+- O treino não fala com lead: produz material para o expert e o vendedor já definido no projeto (sem definição, assume o expert e lista em "Assumi").
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-- Delegar a sessão e a quem; modelo de remuneração (fixo, variável, percentual) e metas.
-- Ajuste de oferta ou preço vindo do diagnóstico (só depois de 20 sessões): opções a/b/c com prós, contras e impacto no caixa.
-- Testar variante de roteiro (VSD, ordem do acordo, bônus antes do preço).
-- Montar a avaliação automática de reuniões por IA (`ht-avaliacao-de-reunioes-por-ia`).
+Sem lote de perguntas nem a/b/c: o agente decide pela recomendação e lista em "Assumi" ("Assumi: …; é só pedir para mudar").
+- Delegar a sessão e a quem; modelo de remuneração (fixo, variável, percentual) e metas: propõe pela recomendação (remuneração sobre recebimento). Contratar alguém é gasto e pede "posso seguir?".
+- Ajuste de oferta ou preço vindo do diagnóstico (só depois de 20 sessões): o agente propõe um ajuste, com o impacto no caixa em uma linha, e ele só vira oficial na Aprovação 1 ou na aprovação do plano.
+- Testar variante de roteiro (VSD, ordem do acordo, bônus antes do preço): assume o roteiro padrão e lista em "Assumi".
+- Montar a avaliação automática de reuniões por IA (`ht-avaliacao-de-reunioes-por-ia`): ativar pede "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 

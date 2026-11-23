@@ -1,6 +1,6 @@
 ---
 name: ht-decisao-de-evento
-description: 'Decide, pelo método FHT do Squad High Ticket, se é hora de um evento um-para-muitos e qual: live direto ao ponto, IMI (imersão de implementação online de 1 dia ou paga), IMA (imersão de aprendizado), IMR estilo Mundo Paralelo, presencial de 1 a 3 dias, turnê ou desafio. Fecha objetivo, formato, duração, data, entrada (gratuita, credencial ou paga, decisão do estrategista por evento), Big Idea, metas de vendas, presentes e leads, orçamento com ROAS projetado e o plano macro de 8 passos, e entrega a Ficha do Evento que abre a skill de execução. Use quando o estrategista disser "qual evento faço para o expert", "vale imersão ou live?", "online ou presencial", "gratuita ou paga", "quanto investir na imersão", "monta o planejamento do evento". NÃO usar para lançamento pago semanal, 5+1 ou estruturador-evento-turbo (método LPSG da Turbo).'
+description: 'Decide, pelo método FHT do Squad High Ticket, se é hora de um evento um-para-muitos e qual: live direto ao ponto, IMI (imersão de implementação online de 1 dia ou paga), IMA (imersão de aprendizado), IMR estilo Mundo Paralelo, presencial de 1 a 3 dias, turnê ou desafio. Fecha objetivo, formato, duração, data, entrada (gratuita, credencial ou paga, proposta pelo padrão por evento), Big Idea, metas de vendas, presentes e leads, orçamento com ROAS projetado e o plano macro de 8 passos, e entrega a Ficha do Evento que abre a skill de execução. Use quando o estrategista disser "qual evento faço para o expert", "vale imersão ou live?", "online ou presencial", "gratuita ou paga", "quanto investir na imersão", "monta o planejamento do evento". NÃO usar para lançamento pago semanal, 5+1 ou estruturador-evento-turbo (método LPSG da Turbo).'
 ---
 
 # Decisão de evento (qual evento, para quê, com que meta)
@@ -13,8 +13,8 @@ para frente e só então abre a execução.
 
 **Entrega**: `05-eventos/AAAA-MM-<tipo>-<nome>/estrategia/ficha-do-evento.md` (modelo em `references/plano-macro-e-cronogramas.md`,
 seção 4) com: objetivo, HT ofertado (citando `02-oferta/` e versão), formato e duração com a justificativa, data e prazo do
-projeto, entrada escolhida pelo estrategista, Big Idea e nome, metas em 3 cenários, orçamento e ROAS projetado, plano macro com
-fases e datas, riscos, decisões pendentes e a skill que executa. Mais o bloco de entrega do protocolo.
+projeto, entrada proposta pelo padrão, Big Idea e nome, metas em 3 cenários, orçamento e ROAS projetado, plano macro com
+fases e datas, riscos, "Assumi" e a skill que executa. Mais o bloco de entrega do protocolo.
 
 ## 2. Antes de começar
 
@@ -25,9 +25,10 @@ fases e datas, riscos, decisões pendentes e a skill que executa. Mais o bloco d
    `13-aprendizados/` (debriefs de eventos anteriores: números próprios valem mais que os da aula).
 3. Entradas obrigatórias: HT validado (sessões e vendas), tamanho das listas, alunos ativos e com resultado, verba máxima,
    janela de datas, capacidade de entrega, se há lançamento do produto principal no calendário.
-4. Perguntar no máximo 3, nesta ordem: (a) o objetivo principal deste evento (vender HT, gerar caixa com o evento, alimentar
-   lista, bônus de lançamento); (b) verba máxima que o expert aceita perder na primeira edição; (c) janela de datas e se
-   existe lançamento do produto principal antes.
+4. O que dá para tirar dos arquivos, tiro. Pergunto só o impossível de adivinhar, no máximo 2 por vez e em linguagem simples
+   (por exemplo: "Quanto o expert aceita perder na primeira edição?"). O objetivo principal, a janela de datas e o lançamento do
+   produto principal eu assumo pelo padrão (objetivo: vender o HT) e marco `[SUPOSIÇÃO: …]`; a verba só vira número com o OK da
+   pessoa.
 
 ## 3. Passo a passo
 
@@ -46,7 +47,8 @@ fases e datas, riscos, decisões pendentes e a skill que executa. Mais o bloco d
    complexidade). Online de 1 dia: sábado, 9h às 18h previstas (estoura). Prazo do projeto: online 4 a 6 semanas; presencial
    pequeno 8 a 12 semanas só de logística, data ideal 1 ano antes, mínimo 90 dias. Evento como bônus de lançamento: pelo menos
    3 semanas (o caso FHT usou 28 dias) depois do carrinho. Checar o calendário de entrega e de renovação (`06-entrega/`).
-5. **Entrada do evento**: montar as opções com `references/entrada-do-evento.md` e levar ao estrategista. Não decidir.
+5. **Entrada do evento**: usar `references/entrada-do-evento.md`, escolher a entrada que recomendo (o padrão da seção 4) e listar em "Assumi", com uma
+   linha de prós e contras; vira oficial na aprovação do plano.
 6. **Big Idea e nome**: uma frase de destino que o participante explica em casa; específica, uma coisa só, com o que ele leva
    para casa. Frameworks e testes em `references/matriz-formatos-de-evento.md`, seção 4. Nome e valor testados juntos; nome
    testado em criativo antes de fixar.
@@ -60,7 +62,7 @@ fases e datas, riscos, decisões pendentes e a skill que executa. Mais o bloco d
    Lançamento do produto principal em andamento: abrir a captação do evento só depois do carrinho fechar (antes confunde a
    audiência, mesmo com exclusão de público) ou dar o evento como bônus desse lançamento e convidar a mesma lista depois. O
    evento não para as sessões 1a1 em curso: pode diminuir, não parar (onboarding fev/2026).
-10. **Gravar a Ficha do Evento**, listar decisões ao estrategista e abrir o pedido para a skill de execução.
+10. **Gravar a Ficha do Evento**, listar o "Assumi" e abrir o pedido para a skill de execução.
 
 ## 4. Regras inegociáveis do método
 
@@ -74,28 +76,29 @@ fases e datas, riscos, decisões pendentes e a skill que executa. Mais o bloco d
 - Capacidade da sala define estrutura (Zoom até ~100 sem atrito; acima de ~500 muda a operação).
 - Cada evento reaproveita ~80% do que funcionou e muda uma variável por vez.
 - Padrões recomendados (o estrategista pode mudar em `padroes` do perfil): a entrada do evento (gratuita, credencial ou paga) é
-  decisão do estrategista, por evento, com prós e contras; o ciclo do programa vendido é de 11 a 13 meses, casado a um encontro, e a
+  proposta pelo padrão, por evento, com prós e contras, e vira oficial na aprovação do plano; o ciclo do programa vendido é de 11 a 13 meses, casado a um encontro, e a
   duração pode ser ajustada para cair no evento de renovação; dupla custa +50% sobre o individual, quando a oferta tiver; planejar
   comparecimento de 25% no gratuito e 70% no credencial ou pago, com entrada no grupo de 50% (padrão do squad).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que decido pelo padrão e o que fica para a aprovação
 
-Em lote, decisões numeradas, opções a/b/c com prós, contras e custo em uma linha, recomendação na a) quando houver:
+Não abro lote nem opções a/b/c. Decido pela recomendação, sigo e listo em "Assumi: X, Y, Z (é só pedir para mudar)", junto de um
+"posso seguir?" simples (aprovação do plano):
 - **Entrada do evento**: gratuita, credencial ou paga (e variantes como gratuita para compradores do lançamento e paga
-  para não alunos). Sempre pergunta; a skill mostra prós e contras com números e nunca escolhe.
-- **Formato**, quando a matriz deixa duas opções viáveis (ex.: IMI online agora ou presencial no próximo semestre).
-- **Verba máxima** e **verba de guerra** da primeira edição (o que aceita perder).
-- **Venda no evento x convite para sessão de avaliação** no fim do pitch (detalhe em `ht-imersao-implementacao`).
-- **Data**, quando colide com lançamento, entrega ou renovação.
+  para não alunos). Proponho a do padrão, com prós e contras em números, e listo em "Assumi".
+- **Formato**, quando a matriz deixa duas opções viáveis (ex.: IMI online agora ou presencial no próximo semestre): escolho o recomendado.
+- **Verba máxima** e **verba de guerra** da primeira edição: proponho um valor no plano; nenhuma verba é gasta sem o OK da pessoa.
+- **Venda no evento x convite para sessão de avaliação** no fim do pitch (detalhe em `ht-imersao-implementacao`): escolho o recomendado.
+- **Data**, quando colide com lançamento, entrega ou renovação: proponho uma que não colide; data pública só com OK.
 - Condição especial de preço, bônus de evento, dupla: só como nova versão de `02-oferta/`.
 
 ## 6. Critério de pronto e auditoria final
 
 Pronto quando: [ ] portão de prontidão com evidência (sessões, vendas, listas); [ ] objetivo principal escrito; [ ] formato e
 duração com justificativa pela matriz e a alternativa descartada; [ ] data e prazo do projeto checados contra entrega,
-renovação e lançamentos; [ ] opções de entrada levadas ao estrategista (ou resposta registrada); [ ] Big Idea passa nos 4 testes;
+renovação e lançamentos; [ ] entrada proposta pelo padrão e listada em "Assumi"; [ ] Big Idea passa nos 4 testes;
 [ ] metas em 3 cenários com as taxas usadas e a fonte; [ ] orçamento com reserva e ROAS projetado; [ ] plano macro com datas
-e donos; [ ] riscos e gatilho de plano B; [ ] skill de execução indicada e pedido aberto.
+e donos; [ ] riscos e gatilho de plano B; [ ] skill de execução indicada e pedido aberto; [ ] "Assumi" e "posso seguir?" simples no fim.
 
 **Auditoria** (erros típicos das turmas e debriefs): evento sem HT validado; presencial como primeiro evento; híbrido; formato
 escolhido pela agenda e não pelo HT; meta copiada do FHT ou de outro aluno; conversão calculada sobre inscritos e não sobre

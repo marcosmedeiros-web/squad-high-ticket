@@ -25,8 +25,8 @@ Critério para entrar: gera mais resultado, os alunos pedem, cabe na entrega (ca
 Entregável que a pesquisa mostrou sem valor sai.
 Cartas na manga: [2 a 3 entregáveis guardados para over delivery ou para reconstruir a oferta ao vivo].
 
-## 5. Condições (decisão do estrategista)
-- Preço: opções a/b/c (menor, igual com mais parcelas/entregáveis, reajuste) com prós, contras e efeito no Master Plan.
+## 5. Condições (propostas pela recomendação e listadas em "Assumi")
+- Preço: proposto pela recomendação entre menor, igual com mais parcelas/entregáveis ou reajuste, com o efeito no Master Plan; as alternativas ficam só no cálculo interno. Vira oficial na Aprovação 1.
 - Pagamento: à vista preferido; parcelas [n]; validade só no evento; condição de quem renova depois (pior).
 - Duração do novo ciclo: 11 a 13 meses para cair no próximo encontro.
 
@@ -37,7 +37,7 @@ Cartas na manga: [2 a 3 entregáveis guardados para over delivery ou para recons
 - Frases-guia de fonte: "faltam só dois metros", "o que te trouxe até aqui não te leva ao próximo nível".
 
 ## 7. Migração (aluno de produto menor ou de 3 meses para o HT de 12)
-Opções citadas no material (valores: o estrategista): renegociar parcelas restantes e abrir novo ciclo com valor menor ou bônus; preço de
+Opções citadas no material (valores propostos pela recomendação e listados em "Assumi"): renegociar parcelas restantes e abrir novo ciclo com valor menor ou bônus; preço de
 fundador; cashback; chamar 1a1 e aplicar o Raio-X; preferir pagamento à vista.
 
 ## 8. Projeção (para o ht-controller)

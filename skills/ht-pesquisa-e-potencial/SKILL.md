@@ -27,13 +27,15 @@ ponto zero do ciclo "criar" do FHT: tudo que sai daqui alimenta o portfólio, a 
 - **Nada nasce do zero**: pedir ao `ht-consultor-casos` o benchmark do nicho (ou nicho vizinho) antes de escrever o parecer.
   Se o banco ainda não cobre o nicho, usar `references/biblioteca-casos.md` e registrar "sem precedente no banco". Todo caso usado
   passa pelas 3 fases de engenharia reversa (análise, desconstrução, o que replicar) descritas no mesmo arquivo.
-- Entradas obrigatórias e o que perguntar se faltar (no máximo 3 perguntas, só o que não se infere dos arquivos):
+- Entradas obrigatórias. O que dá para tirar dos arquivos do projeto, tira; o que faltar vira, no máximo, 2 perguntas simples por vez
+  (sem opções a/b/c). Sem resposta, faz a primeira versão com `[SUPOSIÇÃO: …]` e segue:
   1. **Quem é o expert e o que ele já fez** (formação, resultado próprio, resultado de clientes/pacientes com prova). Sem isso
-     não há parecer de legitimidade: pergunte "Que resultado comprovado o expert já gerou, para si ou para clientes?"
+     não há parecer de legitimidade: pergunte, em linguagem simples, "Que resultado comprovado o expert já gerou, para si ou para clientes?"
   2. **Que audiência e que dados existem** (perfil, lista, alunos, pacientes, curso já vendido, NPS, formulários). Pergunte
-     "A que dados de audiência temos acesso (Instagram, lista, alunos, pesquisas)?" A resposta decide o modo A ou B.
-  3. **Quem faz o quê no projeto** (o expert entrega? você ou sua agência é o estrategista? há outro sócio?). Só pergunte se não estiver
-     em `00-plano/`.
+     "A que dados de audiência temos acesso (Instagram, lista, alunos, pesquisas)?" A resposta decide o modo A ou B; sem resposta, assuma
+     o modo B e marque `[SUPOSIÇÃO: …]`.
+  3. **Quem faz o quê no projeto** (o expert entrega? você ou sua agência é o estrategista? há outro sócio?). Se não estiver
+     em `00-plano/`, assuma o padrão (o expert entrega, você é o estrategista) e liste em "Assumi".
 
 ## 3. Passo a passo
 
@@ -142,14 +144,16 @@ um produto por vez. Divisão de lucro, pró-labore e prazo são do estrategista 
 - Padrões aplicáveis: preço do HT = 5x a 10x a média do nicho, validado no teste de 20 sessões (a média de preço levantada aqui
   alimenta essa conta; o estrategista pode mudar em `padroes` do perfil), regra 8 do protocolo (nada nasce do zero).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que decido pelo padrão e o que vai para a Aprovação 1
 
-Apresentar opções com prós e contras, sem decidir:
-- **Seguir ou não com o expert** quando o parecer é "ajustar direção" ou "não agora" (a) seguir na direção com legitimidade,
-  b) pausar até haver resultado, c) expert como mentor de outra direção ou você como estrategista com outro mentor).
+Não abro lote de decisões. Decido pela recomendação, sigo e listo em "Assumi: X, Y, Z (é só pedir para mudar)"; o que pesa de
+verdade (seguir ou não com o expert, acordo, Roma) vai no resumo da Aprovação 1, como um "posso seguir?" simples, com a minha
+recomendação e uma linha de prós e contras:
+- **Seguir ou não com o expert** quando o parecer é "ajustar direção" ou "não agora" (o padrão é seguir na direção com legitimidade;
+  as saídas são pausar até haver resultado, ou o expert como mentor de outra direção, ou você como estrategista com outro mentor).
 - **Acordo expert x estrategista (ou agência)**: divisão de lucro, fixo x variável, prazo, quem paga tráfego e equipe.
-- **Qual Roma** entre as opções, quando duas têm evidência parecida.
-- **Divergência com caso validado** do banco de casos (o caso faz diferente do método): mostrar os dois.
+- **Qual Roma** entre as opções, quando duas têm evidência parecida (recomendo uma e sigo).
+- **Divergência com caso validado** do banco de casos (o caso faz diferente do método): sigo o método e conto no "Assumi".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -163,7 +167,7 @@ Apresentar opções com prós e contras, sem decidir:
 - [ ] Média de preço do nicho com 5 a 10 fontes (ou lacuna declarada).
 - [ ] Objeções do expert respondidas com evidência; papéis definidos; estrutura do acordo sem números inventados.
 - [ ] Benchmark de casos citado com fonte e passado pelas 3 fases (o que fez, o que pesou, o que se replica), ou "sem precedente".
-- [ ] Bloco de entrega preenchido (evidência, números com fonte, decisões para o estrategista, lacunas).
+- [ ] "Assumi" no fim da entrega; bloco de entrega preenchido (evidência, números com fonte, o que assumi, lacunas).
 
 **Auditoria final (erros típicos de laboratório e de campo)**
 1. Roma descreve o veículo (método) e não o destino; ou usa "pessoas" quando o avatar é específico.

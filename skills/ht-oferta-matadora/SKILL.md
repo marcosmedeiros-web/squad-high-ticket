@@ -14,7 +14,7 @@ testa se a oferta é clara, cumprível e irresistível para o avatar. Sai uma of
 **Entrega**:
 1. `02-oferta/oferta-proposta-vN.md`: documento único no modelo de `references/template-oferta-completa.md` (definição, A/B,
    jornada resumida, entregáveis por pilar, bônus, duração, dupla, preço e condições, garantia, objeções cobertas, o que não se
-   promete, testes aplicados, auditoria, decisões pendentes).
+   promete, testes aplicados, auditoria, o que assumi).
 2. "Oferta em uma página" (como o lead vai ouvir), para o `ht-closer` montar deck e fala.
 3. Opcional: planilha `AR-planilha-oferta-do-acelerador.xlsx` com as abas ENTREGÁVEIS e OUTROS ELEMENTOS preenchidas.
 Com a Aprovação 1 registrada em `00-plano/aprovacoes.md`, o `ht-arquiteto-oferta`, sob ordem do Diretor, promove a proposta a
@@ -33,8 +33,8 @@ Com a Aprovação 1 registrada em `00-plano/aprovacoes.md`, o `ht-arquiteto-ofer
    (FHT, viola 60+, lojistas, gestão de empresa, reposicionamento de avatar): `references/casos-de-oferta.md`.
 4. **Entradas obrigatórias**: definição e jornada aprovadas pelo menos em rascunho; cardápio de entregáveis; preço e garantia
    (se ainda não existem, rodar `ht-preco-pagamento-e-garantia` antes ou em paralelo). Faltando peça, rodar a skill dona dela; não
-   inventar a peça aqui. Perguntas ao estrategista (no máximo 3), por exemplo: "O expert topa entregar o diagnóstico ele mesmo?",
-   "Há data possível para o encontro de alunos daqui a 12 meses?", "Qual a maior objeção que o expert ouve hoje?".
+   inventar a peça aqui. Pergunto só o que não dá para adivinhar, no máximo 2 por vez e em linguagem simples (por exemplo: "O expert topa entregar o
+   diagnóstico ele mesmo?"); o resto eu assumo pelo padrão (ex.: encontro de alunos em 12 meses) e marco `[SUPOSIÇÃO: …]`.
 
 ## 3. Passo a passo
 
@@ -70,7 +70,7 @@ Regras e banco de ideias: `references/bonus-e-irresistibilidade.md`.
 5. **Overdelivery** ("na gaveta"): entregue sem prometer (plantão, plantão temático). Não entra no texto da oferta.
 6. Bônus físico: só com custo e frete calculados. Imersão que faz parte da entrega não é bônus.
 7. Sem bônus bom, não ter bônus: o bootcamp de mai/26 repete que não é obrigatório. A trilha 06 recomenda ter sempre um bônus
-   para quem paga à vista (estimula o à vista, reduz risco de recebimento). Ter ou não o bônus à vista vai ao estrategista (seção 5).
+   para quem paga à vista (estimula o à vista, reduz risco de recebimento). Ter ou não o bônus à vista: proponho pelo padrão e listo em "Assumi" (seção 5).
 8. Três famílias de bônus que funcionam (dez/25): enfraquecer uma objeção universal; resolver a dor futura que o próprio
    resultado cria (a manicure de agenda cheia que precisa montar equipe); experiência (visita, bastidores). Kit físico: só depois
    do pagamento, com custo e frete somados (envio para outro país pode custar mais que o conteúdo).
@@ -83,8 +83,8 @@ Regras e banco de ideias: `references/bonus-e-irresistibilidade.md`.
   mesmo plano; um diagnóstico para os dois, porque é o mesmo negócio, e é isso que justifica +50% e não +100%, dez/25; custo maior
   em encontro presencial e suporte). Dupla só faz sentido onde há sócio ou família no mesmo projeto; em AR de público final
   individual (ex.: emagrecimento) pode não existir.
-- Variante "por projeto" (dez/25: segundo loteamento cobrado como dupla): só como opção ao estrategista.
-- Trio não tem decisão vigente: só como opção ao estrategista.
+- Variante "por projeto" (dez/25: segundo loteamento cobrado como dupla): fica fora do padrão; só entra se a pessoa pedir.
+- Trio não tem decisão vigente: fica fora do padrão; só entra se a pessoa pedir.
 
 ### Passo 6. Preço, condições e garantia
 Trazer do `ht-preco-pagamento-e-garantia` (não criar aqui): tabela à vista, parcelado, entrada (sinal de R$ 500 a R$ 1.000, até 10%), dupla, Fake HT ou
@@ -93,7 +93,7 @@ P2P se houver, garantia condicional e mensurável, ligada à execução, com con
 
 ### Passo 7. Cobertura de objeções
 Listar as 5 objeções principais do avatar (01-pesquisa e sessões) e marcar onde a oferta responde cada uma: entregável, bônus,
-garantia, condição de pagamento, prova. Objeção sem resposta na oferta vira item para o estrategista ou para o `ht-objecoes` (resposta
+garantia, condição de pagamento, prova. Objeção sem resposta na oferta vira item no "Assumi" ou vai para o `ht-objecoes` (resposta
 na fala). Objeção de dinheiro costuma ser medo ou prioridade; a oferta responde com garantia e condição, não com desconto.
 
 ### Passo 8. Testes de oferta irresistível
@@ -120,7 +120,7 @@ Aplicar e registrar a resposta de cada um (detalhe em `references/bonus-e-irresi
 - Plano de evolução (registrar no documento): turma piloto, entrega com obsessão, entrevistas com quem teve resultado, reconstrução
   da oferta com o que os alunos disseram que foi essencial (live 061); a cada ciclo, adicionar, modificar ou remover entregáveis
   (live 058). A sessão final de conquista do aluno é o melhor momento da oferta de renovação (`ht-renovacao`); nada de "plano de
-  continuidade" no lugar dela (jun/26 SP). Preço sobe conforme chegam cases (decisão do estrategista, ver `ht-preco-pagamento-e-garantia`).
+  continuidade" no lugar dela (jun/26 SP). Preço sobe conforme chegam cases (regra do padrão, ver `ht-preco-pagamento-e-garantia`).
 
 ### Passo 10. Auditoria, documento e "oferta em uma página"
 Rodar a seção 6. Montar o documento pelo template e a versão de uma página. Handoff (seção 7).
@@ -128,11 +128,11 @@ Rodar a seção 6. Montar o documento pelo template e a versão de uma página. 
 ## 4. Regras inegociáveis do método
 
 - Oferta = definição + A/B + jornada + entregáveis por pilar + duração + bônus (ou decisão de não ter) + preço e condições
-  (individual e dupla) + garantia (ou decisão do estrategista de não ter garantia de resultado). Faltando peça, a oferta não vai para
+  (individual e dupla) + garantia (ou a escolha, listada em "Assumi", de não ter garantia de resultado). Faltando peça, a oferta não vai para
   Aprovação 1.
 - Um avatar, um produto, uma oferta. Não oferecer duas soluções na mesma oferta.
 - Bônus nunca é entrega disfarçada; desconto à vista não é bônus.
-- Duração 12 meses, ajuste de 11 a 13 casado a um encontro presencial; nada de programa de 6 meses sem decisão do estrategista.
+- Duração 12 meses, ajuste de 11 a 13 casado a um encontro presencial; nada de programa de 6 meses sem a pessoa pedir.
 - Padrões recomendados (o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): dupla +50%; preço 5x
   a 10x a média do nicho, validado no teste de 20 sessões; garantia condicional mensurável com prazo do programa; sinal da sessão
   R$ 500 a R$ 1.000, até 10%, pago com a call aberta; ordem de apresentação do preço: entrada, parcelado, à vista (usada pelo closer).
@@ -141,16 +141,16 @@ Rodar a seção 6. Montar o documento pelo template e a versão de uma página. 
 - Preço e oferta só existem em `02-oferta/`; nenhum outro agente altera.
 - Nada de número, depoimento ou caso inventado. Prova que não existe sai da oferta. Número de aula é referência ("conferir").
 
-## 5. Quando a decisão é do estrategista
+## 5. O que decido pelo padrão e o que fica para a Aprovação 1
 
-Decisões numeradas com opções a/b/c, prós, contras e custo; recomendação na a):
-- **Aprovação 1** da oferta inteira (sempre).
-- **Bônus à vista**: segunda cadeira x outro bônus x nenhum (custo de entrega, risco de adiar a compra; trilha 06 recomenda ter, mai/26 diz que não é obrigatório).
-- **Entregar presencial no encontro de alunos** ou deixar o formato para depois.
-- **Trio**, programa com duração fora de 11 a 13 meses, Fake HT ou P2P (vêm do `ht-preco-pagamento-e-garantia`).
-- **Preço de fundador** para as primeiras vagas.
-- **Divergência caso validado x método** trazida pelo `ht-consultor-casos` (mostrar as duas versões).
-- **Nome do programa** (simples, sem atrapalhar).
+Não abro lote nem opções a/b/c. Decido pela recomendação, sigo e listo em "Assumi: X, Y, Z (é só pedir para mudar)":
+- **Aprovação 1** da oferta inteira (sempre), como um "posso seguir?" simples. Preço, garantia e nome viram oficiais aqui.
+- **Bônus à vista**: recomendo ter um (segunda cadeira ou outro; trilha 06 recomenda ter, mai/26 diz que não é obrigatório).
+- **Entregar presencial no encontro de alunos** ou deixar o formato para depois: assumo pelo padrão.
+- **Trio**, programa com duração fora de 11 a 13 meses, Fake HT ou P2P (vêm do `ht-preco-pagamento-e-garantia`): fora do padrão, só se pedirem.
+- **Preço de fundador** para as primeiras vagas: assumo pelo padrão.
+- **Divergência caso validado x método** trazida pelo `ht-consultor-casos`: sigo o método e conto no "Assumi".
+- **Nome do programa** (simples, sem atrapalhar): proponho um.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -159,7 +159,7 @@ Decisões numeradas com opções a/b/c, prós, contras e custo; recomendação n
 - [ ] 12 meses com regra de início e ajuste para o ciclo de renovação.
 - [ ] Bônus passam no teste "não precisa, mas ajuda" e têm custo estimado; overdelivery fora do texto da oferta.
 - [ ] Dupla definida (quem pode, o que muda) e precificada a +50% sobre o individual, **ou** registrada "sem dupla neste AR" com o motivo
-      (Passo 5: público final individual) e a pergunta ao estrategista; as duas saídas cumprem este item.
+      (Passo 5: público final individual) e a linha no "Assumi"; as duas saídas cumprem este item.
 - [ ] Preço, condições e garantia vindos do `ht-preco-pagamento-e-garantia`, com conta conferida.
 - [ ] 5 objeções principais mapeadas na oferta.
 - [ ] Os 9 testes do passo 8 respondidos por escrito.
@@ -171,7 +171,7 @@ Checklist de 7 passos (laboratório de AR, SP/26): (1) definição; (2) partida 
 (5) duplicações; (6) futuro (o que não existe ainda e foi prometido); (7) outros elementos (duração, bônus, preço, garantia).
 Erros típicos dos laboratórios e os 7 erros das lives 065 e 057: `references/auditoria-da-oferta.md`. Os que mais reprovam:
 definição que mistura "como" e desejo; entregável na jornada; mesmo nome para coisas diferentes; frequência; real time sem poder
-cumprir; Circle cedo; garantia abstrata, ou ausente sem decisão do estrategista; entrada alta; bônus que é entrega; dois avatares; saída de IA colada;
+cumprir; Circle cedo; garantia abstrata, ou ausente sem estar no "Assumi"; entrada alta; bônus que é entrega; dois avatares; saída de IA colada;
 oferta não escalável; entulho de entregáveis; promessa de resultado que o expert não gera.
 
 ## 7. Saída e handoff

@@ -37,11 +37,11 @@ leitura de métricas e a replicação do que funcionou. [FHT: trilha 14, aulas 0
    - `06-entrega/` e o catálogo de provas da `ht-provas-e-cases`: casos de aluno com autorização (framework antes-depois).
    - `13-aprendizados/`: o que já funcionou ou quebrou em Reels deste expert.
 4. Entradas obrigatórias: promessa do produto, avatar/nicho/subnicho, pelo menos um destino de CTA ativo (página da aula
-   semanal ou da sessão 1a1), quem grava. Se faltar, no máximo 3 perguntas ao estrategista, por exemplo:
+   semanal ou da sessão 1a1), quem grava. Se faltar, no máximo 2 perguntas simples por vez (o resto o agente assume e lista em "Assumi"), por exemplo:
    - "A aula semanal já roda? Dia, hora e link da página de cadastro?"
    - "Que casos de aluno posso citar no Reels (com autorização registrada)?"
    - "Quem grava e quem edita (o expert sozinho, videomaker, equipe)?"
-   O que não vier vira `[FALTA: …]`; nunca inventar prova, número, caso ou fala de aluno.
+   O que não vier vira `[SUPOSIÇÃO: …]`; nunca inventar prova, número, caso ou fala de aluno.
 
 ## 3. Passo a passo
 
@@ -101,7 +101,7 @@ Regras: o roteiro é **exatamente a fala** (pronto para teleprompter); específi
   alternando comentário e isca. Com 5 Reels/semana, a grade aplicada (proposta da skill) está em `references/cta-e-rodizio.md`.
 - "Me segue" não é um dos 4; usar com bom senso no meio do vídeo ou como variação de teste para baratear seguidor.
 
-**Passo 8. Reels raiz denso (variante, só com pedido ou com a decisão do estrategista).** [FHT: Live 026, Live 021]
+**Passo 8. Reels raiz denso (variante, só com pedido ou quando o agente assume pela recomendação, em "Assumi").** [FHT: Live 026, Live 021]
 5 a 10 min, escrito palavra por palavra, gravado frase a frase, editor corta todo respiro, estrutura numerada gancho →
 introdução → contexto → conteúdo → fechamento com CTA para funil. Não substitui os 5/semana de até 90 s. Molde e regras em
 `references/reels-raiz-denso.md`.
@@ -156,16 +156,15 @@ Planilha e rotina em `references/pd-de-conteudo.md`.
   está resolvido por esse padrão.
 - Proibido método LPSG da Turbo: nada de 5+1, Funil 8, Turbo Express, `lpsg-*`, `criador-reels-turbo` como método.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-Apresentar como decisão numerada, opções a/b/c com prós, contras e custo em uma linha; recomendação na a).
+O agente decide pela recomendação e lista em "Assumi", sem opções a/b/c. Pedem um "posso seguir?" simples (uma frase) os itens de publicar, gastar e usar imagem ou depoimento de aluno.
 - **Publicar** qualquer roteiro, legenda ou vídeo (texto público novo, fala em nome do expert).
 - **Usar caso de aluno** no antes-depois ou como prova (exige autorização registrada; sem ela, só caso do próprio expert).
-- **Mudar a frequência** fora de 5/semana (o padrão só muda com registro em `00-plano/decisoes.md` ou em `padroes` do perfil).
-- **Produzir Reels raiz**: a) 1 raiz a cada 2 semanas no lugar de 1 curto (recomendo testar), b) raiz extra além dos 5,
-  c) não fazer agora. Custo: roteiro longo e edição mais pesada.
-- **Criar isca nova** para o CTA de isca (material público novo) e **trocar slots do rodízio por evento** (imersão, live).
-- **Indicar Reels para distribuição paga**: a verba é do estrategista; o handoff vai ao tráfego com a recomendação.
+- **Mudar a frequência** fora de 5/semana: o padrão fica em 5; só muda se a pessoa pedir (registro em `00-plano/decisoes.md` ou em `padroes` do perfil).
+- **Produzir Reels raiz**: o agente assume 1 raiz a cada 2 semanas no lugar de 1 curto (testar) e lista em "Assumi". Custo: roteiro longo e edição mais pesada.
+- **Criar isca nova** para o CTA de isca (material público novo; só sai com OK) e **trocar slots do rodízio por evento** (imersão, live; o agente assume e lista em "Assumi").
+- **Indicar Reels para distribuição paga**: gastar verba pede OK simples ("posso seguir?"); o handoff vai ao tráfego com a recomendação.
 - **Visual arriscado** no gancho (dinheiro, documento, tema polêmico) e qualquer afirmação de saúde, renda ou resultado.
 
 ## 6. Critério de pronto e auditoria final

@@ -15,8 +15,8 @@ oferta). Esta skill fixa esse núcleo.
 **Entrega** (um arquivo Markdown + a planilha opcional):
 - `02-oferta/rascunhos/AAAA-MM-DD-definicao-e-jornada.md` com: tipo de AR e justificativa; definição final + 2 variações;
   ponto de partida e ponto de chegada; jornada (etapas e passos, um por linha, verbo no início); mapa de travas por passo
-  (alimenta o `ht-entregaveis`); níveis de resultado (4 x 3); auditoria; decisões pendentes para o estrategista.
-- `02-oferta/niveis-e-faixas.md` (proposta; vira vigente só com OK do estrategista).
+  (alimenta o `ht-entregaveis`); níveis de resultado (4 x 3); auditoria; "Assumi".
+- `02-oferta/niveis-e-faixas.md` (proposta; vira vigente só na Aprovação 1).
 - Opcional: a planilha "Jornada do Avatar" preenchida (modelo em `FORMULA HIGH TICKET/rota3/materiais/planilhas/
   AR-planilha-jornada-do-avatar.xlsx` e `jornada-de-sucesso-do-aluno.xlsx`), via `anthropic-skills:xlsx`.
 
@@ -29,12 +29,14 @@ oferta). Esta skill fixa esse núcleo.
    - `02-oferta/`: `portfolio.md` (qual HT foi escolhido; se não houver e o HT não for AR, devolver ao Diretor) e versões anteriores.
    - `00-plano/decisoes.md` (troca de regra do protocolo, se houver).
 3. **Entradas obrigatórias**: avatar (quem compra e paga), resultado que ele quer, método do expert (como ele faz o resultado
-   acontecer), legitimidade (resultado próprio ou de clientes). Se faltar, perguntar no máximo 3 coisas, por exemplo:
+   acontecer), legitimidade (resultado próprio ou de clientes). Se faltar, pergunto no máximo 2 coisas por vez, em linguagem simples (por exemplo as de baixo); sem resposta, faço a primeira
+   versão com `[SUPOSIÇÃO: …]`:
    - "Qual o caminho que o expert faz com um cliente, do primeiro contato ao resultado, em 5 a 10 passos?"
    - "Que resultado concreto (número ou situação) clientes dele já tiveram?"
    - "Quem paga: o profissional, o dono da empresa ou a pessoa física?"
-   Sem resultado próprio nem de cliente, parar: o método não cria HT onde o expert não tem legitimidade (live 057, erro 6;
-   live 054). Vira decisão do estrategista (ver seção 5).
+   Sem resultado próprio nem de cliente, o método não cria HT onde o expert não tem legitimidade (live 057, erro 6;
+   live 054): a primeira versão sai marcada `[SUPOSIÇÃO: …]`, com a recomendação de mudar a direção, e isso entra no "Assumi" e
+   no resumo da Aprovação 1 (ver seção 5).
 
 ## 3. Passo a passo
 
@@ -48,7 +50,7 @@ Ordem fixa: tipo → definição → ponto A e B → jornada → travas → nív
 3. Registrar o efeito no preço: teto tende a cair na ordem negócio > carreira > habilidade > conquista (não é regra; passa
    para o `ht-preco-pagamento-e-garantia`).
 4. Brainstorm de partida quando travar: "que resultado ele geraria dando atenção exclusiva a uma só pessoa?" (live 025).
-5. Dúvida real entre dois tipos não trava o trabalho: escolher o dominante, seguir, e listar a alternativa para o estrategista.
+5. Dúvida real entre dois tipos não trava o trabalho: escolher o dominante, seguir, e listar a alternativa no "Assumi".
 Exemplos de enquadramento: `references/definicao-framework-e-exemplos.md`, seção 2.
 
 ### Passo 2. Definição do AR (5 a 10 min por versão)
@@ -101,7 +103,7 @@ Saída de IA colada sem revisão é erro de laboratório.
 3. Nível de detalhe: nem tutorial (o aluno faria sozinho só lendo) nem genérico (não entende o que fazer).
 4. Formato: sequencial na maioria dos nichos; **por áreas** quando o avatar não segue ordem (ex. gestão de empresa: raio-x do
    negócio, financeiro, equipe, liderança; live 058). Em AR de negócio B2B, pode haver passos que outra pessoa da empresa executa.
-5. Bifurcação (presencial ou online, canal A ou B) não vira "você escolhe": vira decisão do expert, tomada numa sessão
+5. Bifurcação (presencial ou online, canal A ou B) não vira "você escolhe": vira escolha do expert, tomada numa sessão
    individual. Recomendar 1 caminho principal + 2 ou 3 secundários, não "tudo".
 6. Conferir ordem lógica (depoimento antes de escalar; organização financeira depois de começar a vender) e lacunas (faltou
    geração de demanda, faltou escala, faltou técnica). Lacuna mais comum nos laboratórios: pular de "estruturar a oferta" para
@@ -151,19 +153,20 @@ Rodar a seção 6, corrigir, gravar e fazer o handoff (seção 7).
 - Padrões que se aplicam: 4 níveis da planilha como padrão do squad; ciclo do programa de 11 a 13 meses (em geral 12) só como contexto do ponto de
   chegada (o resultado precisa caber em um ano de acompanhamento).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que decido pelo padrão (e listo em "Assumi")
 
-Apresentar como decisão numerada, opções a/b/c com prós e contras em 1 linha, recomendação na a). Não decidir:
-- **Avatar quando há dois candidatos** (ex.: profissional x dono): prós e contras de ticket, dor, legitimidade e volume.
-- **Tipo de AR quando a escolha muda o preço** (ex.: carreira x negócio para dono de consultório).
-- **Expert sem legitimidade clara** naquele resultado: (a) mudar a direção para onde ele tem resultado; (b) ele vira
-  estrategista e se busca um expert com resultado para parceria; (c) não fazer o HT agora. Resultado próprio que pode ter sido
+Não abro lote nem opções a/b/c. Decido pela recomendação, sigo e listo em "Assumi: X, Y, Z (é só pedir para mudar)"; vira oficial
+na Aprovação 1:
+- **Avatar quando há dois candidatos** (ex.: profissional x dono): escolho um pelo ticket, dor, legitimidade e volume e conto no "Assumi".
+- **Tipo de AR quando a escolha muda o preço** (ex.: carreira x negócio para dono de consultório): escolho e conto no "Assumi".
+- **Expert sem legitimidade clara** naquele resultado: recomendo mudar a direção para onde ele tem resultado (as outras saídas: ele vira
+  estrategista e se busca um expert com resultado para parceria, ou não fazer o HT agora); vai no resumo da Aprovação 1. Resultado próprio que pode ter sido
   sorte de mercado (demanda que estourou num período) passa antes pelo teste de replicação: aplicar o método com 2 ou 3
   pessoas e ver se elas têm o resultado (jun/26 SP). Tema da moda sem nenhuma venda ainda (o exemplo de aula foi uma norma
   nova) não é legitimidade: empacotar o que o expert já fez.
-- **Promessa com número** (faturamento, quilos): só com base; sem base, opções de redação sem número.
-- **Divergência entre caso validado do nicho e o método** (vinda do `ht-consultor-casos`): mostrar as duas e perguntar.
-- **Sistema de níveis**: padrão 4 x 3 da planilha (recomendado) x faixas por faturamento (alternativa).
+- **Promessa com número** (faturamento, quilos): só com base; sem base, redijo sem número e listo em "Assumi".
+- **Divergência entre caso validado do nicho e o método** (vinda do `ht-consultor-casos`): sigo o método e conto no "Assumi".
+- **Sistema de níveis**: uso o padrão 4 x 3 da planilha; faixas por faturamento só se pedirem.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -203,8 +206,8 @@ Apresentar como decisão numerada, opções a/b/c com prós e contras em 1 linha
 - Gravar em `02-oferta/rascunhos/` (definição e jornada) e `02-oferta/niveis-e-faixas.md` (proposta). Nada vira vigente sem OK
   do estrategista. Versão anterior vai para `02-oferta/historico/` com data. O `niveis-e-faixas.md` é saída **desta skill** mesmo
   quando o pedido não o cita: listar no bloco de entrega como artefato extra, para o Diretor incluí-lo na Aprovação 1.
-- Contratação tardia (aluno que entra no meio do ciclo de 12 meses): o material não traz regra; registrar como lacuna e decisão
-  do estrategista (`DA-n`), sem inventar prazo ou pró-rata.
+- Contratação tardia (aluno que entra no meio do ciclo de 12 meses): o material não traz regra; registrar como lacuna e suposição
+  no "Assumi" (`DA-n`), sem inventar prazo ou pró-rata.
 - Bloco de entrega no formato do `ht-protocolo` (`ht-protocolo/references/estrutura-pasta-projeto.md`, seção 3.2), com a evidência marcada
   (o que o expert confirmou x o que foi inferido).
 - Revisão: `ht-revisor-metodo-copy` (método e linguagem).

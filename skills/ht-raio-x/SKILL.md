@@ -32,9 +32,9 @@ outra skill.
    - `01-pesquisa/`: avatar, 4 âncoras (dores e desejos na voz dele), Market Fit, indicadores duros do nicho.
    - `03-sessao/` (nome em `nome-da-sessao.md`, dono ht-closer; ausente = `[A CONFIRMAR COM ht-closer]`): nome da sessão (o convite), roteiro e Raio-X anteriores, objeções registradas.
    - `13-aprendizados/` e `07-numeros/` (Central 1x1): notas reais de sessões já feitas, se existirem.
-3. Entradas obrigatórias: definição do AR, pilares e entregáveis, nome da sessão. Se faltar, no máximo 3 perguntas, por
-   exemplo: "Qual o nome do convite da sessão?"; "Existe um indicador objetivo do nicho que o lead consegue trazer (medidas,
-   faturamento, taxa de conversão)?"; "Quem vai aplicar: o expert ou um vendedor?". O resto vira `[FALTA: …]`.
+3. Entradas obrigatórias: definição do AR, pilares e entregáveis, nome da sessão. Se faltar, no máximo 2 perguntas simples por vez (o resto o agente
+   assume e lista em "Assumi"), por exemplo: "Qual o nome do convite da sessão?"; "Existe um indicador objetivo do nicho que o lead consegue trazer (medidas,
+   faturamento, taxa de conversão)?"; "Quem vai aplicar: o expert ou um vendedor?". O resto vira `[SUPOSIÇÃO: …]`.
 
 ## 3. Passo a passo
 
@@ -115,12 +115,13 @@ outro diz "7 áreas, 35 perguntas" e relata sessão mais curta); "não precisa j
 numa turma de 2025). Padrão da skill: não anunciar o total e usar o aviso de não justificar; a alternativa vai como teste
 para o estrategista aprovar.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e lista em "Assumi"
 
-- Usar o Raio-X de 7 ou de 5 áreas como padrão do expert (7 dá mais consciência; 5 cabe em agenda curta).
-- Incluir indicador duro do nicho (mais impacto; exige cálculo correto e cuidado com dado de saúde ou financeiro).
-- Testar o anúncio do total de perguntas (prós: expectativa gerenciada; contras: a pessoa pode cansar antes de começar).
-Formato: opções a/b/c com prós e contras; o agente não decide.
+O agente escolhe pela recomendação e conta no fim, em linguagem simples ("Assumi: Raio-X de 7 áreas, sem indicador duro do nicho, sem anunciar o total de perguntas; é só pedir para mudar"). Sem lote de perguntas nem a/b/c:
+- Raio-X de 7 ou de 5 áreas como padrão do expert (7 dá mais consciência; 5 cabe em agenda curta). Sem dado que decida, assume 5 e marca `[SUPOSIÇÃO: …]`.
+- Incluir indicador duro do nicho (mais impacto; exige cálculo correto e cuidado com dado de saúde ou financeiro). Sem dado confiável, assume sem indicador.
+- Anunciar ou não o total de perguntas (prós: expectativa gerenciada; contras: a pessoa pode cansar antes de começar). Assume não anunciar.
+O Raio-X sai como rascunho; ele só vai ao ar com a aprovação das peças ("posso seguir?").
 
 ## 6. Critério de pronto e auditoria final
 

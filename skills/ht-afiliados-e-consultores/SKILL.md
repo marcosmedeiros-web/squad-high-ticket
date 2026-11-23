@@ -17,7 +17,7 @@ e vende o HT por comissão, com perfil e posição oficiais.
 **Entrega** (em `05-eventos/<evento>/afiliados/`, e `06-entrega/` não é tocado):
 1. `diagnostico.md`: pode abrir afiliados agora? (produto estável, prova, capacidade de operar).
 2. `regulamento.md`: quem pode ser afiliado, aprovação, o que pode e o que não pode, atribuição, filiação, pagamento.
-3. `tabela-comissao.md`: faixas, valores por projeto com o piso do estrategista, crédito x dinheiro, renovações, exemplos de cálculo.
+3. `tabela-comissao.md`: faixas, valores por projeto com o piso proposto, crédito x dinheiro, renovações, exemplos de cálculo.
 4. `kit-afiliado/`: página de captação de afiliados, roteiro do webinário de regras, scripts de convite (direto e com
    qualificação), notificações, formulário de afiliado, página individual por afiliado.
 5. `controle-afiliados.xlsx`: cadastro, link, convidados, confirmados, presentes, compradores, comissão devida e data de pagamento.
@@ -27,12 +27,12 @@ e vende o HT por comissão, com perfil e posição oficiais.
 
 1. Carregar `ht-protocolo`.
 2. Ler `<raiz_projetos>/<expert>/ht/`: `02-oferta/oferta-vigente.md` (ticket, entrada, parcelado, duração: a comissão é calculada sobre
-   ele); `05-eventos/<evento>/` (formato, data, capacidade, decisão de entrada do evento, captação); `06-entrega/` (provas e taxa de
-   renovação real, se houver); `07-numeros/` (conversão de eventos anteriores, margem); `00-plano/decisoes.md` (regra de comissão do projeto, se o estrategista trocou o padrão).
+   ele); `05-eventos/<evento>/` (formato, data, capacidade, entrada do evento, captação); `06-entrega/` (provas e taxa de
+   renovação real, se houver); `07-numeros/` (conversão de eventos anteriores, margem); `00-plano/decisoes.md` (regra de comissão do projeto, se a pessoa trocou o padrão).
 3. Entradas obrigatórias: evento (ou sessão 1a1) para onde os convidados vão; ticket e forma de pagamento do HT; capacidade;
-   quem opera o programa no time. Perguntar no máximo 3 coisas se faltar:
-   (a) "Qual o piso de comissão por HT vendido neste projeto?"; (b) "Quem do time do expert acompanha os afiliados a
-   cada 2 ou 3 dias?"; (c) "Quem pode ser afiliado: só alunos, ou parceiros e clientes também?".
+   quem opera o programa no time. Não perguntar piso, quem acompanha nem quem pode ser afiliado: propor pelo padrão (piso pela
+   tabela do passo 3, acompanhante `[A CONFIRMAR]`, afiliados = alunos e parceiros do expert) e listar em "Assumi"
+   (regra 16 do `ht-protocolo`). Só perguntar, no máximo 2 coisas e em linguagem simples, o que for impossível de adivinhar.
 4. Portão do método: **só abrir afiliados com produto minimamente estável** (oferta validada, entrega rodando, conversão em
    evento conhecida). Produto novo: registrar "não é o momento" e propor outra estratégia de atração (`ht-captacao-e-presenca`).
 
@@ -52,8 +52,8 @@ o método dá ao afiliado: **margem de comissão alta** sem se preocupar com ven
 **renovação alta** (a comissão continua) e a certeza de pôr o convidado em boas mãos. Escrever a proposta em uma frase com o
 valor por HT e o benefício de renovação, usando os números próprios do expert.
 
-### Passo 3. Tabela de comissão (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`)
-- **Valor por projeto, com piso**: o estrategista define o piso por HT vendido. A skill monta a tabela e as opções; não fixa valor.
+### Passo 3. Tabela de comissão (padrão recomendado; a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`)
+- **Valor por projeto, com piso**: a skill propõe um piso por HT vendido pelo padrão do projeto, monta a tabela e lista o valor em "Assumi"; vira oficial na aprovação do plano.
 - **Comissão gamificada em faixas** (modelo da FHT): 1 a 5 vendas = comissão inicial por venda; 6 a 10 = comissão inicial +
   comissão nas próximas 2 renovações de cada aluno; mais de 10 = comissão inicial + comissão nas próximas 4 renovações. Cada
   faixa dá ganho desproporcional para motivar a próxima.
@@ -61,7 +61,7 @@ valor por HT e o benefício de renovação, usando os números próprios do expe
   comissão em dinheiro. Só faz sentido quando o afiliado é aluno com parcela a pagar.
 - **Pagamento: 45 dias após o recebimento** (padrão recomendado). À vista: comissão 45 dias após o recebimento. Parcelado: a FHT paga 50% após a
   1ª parcela e 50% após a última, e não paga a 2ª metade se o aluno não quitar; aplicar o D+45 a cada metade, ou outra divisão
-  que o estrategista escolher (seção 5).
+  que a pessoa pedir (seção 5).
 - **Filiação de 30 dias** (padrão recomendado): conta a venda fechada até 30 dias depois do evento (ou da sessão 1a1 indicada), desde que o
   convidado tenha entrado pelo link do afiliado. Primeiro cadastro vale.
 - Pix/transferência só contra nota (o material cita "CNPJ para CNPJ"; conferir com o contador do expert).
@@ -81,7 +81,7 @@ Modelo completo em `references/regulamento-afiliado.md`. Núcleo do método:
   programa vira conversa com o time antes do cadastro.
 - **Número de convites por afiliado** limitado pela capacidade do evento (FHT: 15 em mar/2025, até 30 nas edições seguintes, por
   imersão; o número do projeto sai da capacidade dividida pelo número esperado de afiliados ativos).
-- **Benefício do afiliado** no caso da aula 31: além da comissão, o próprio afiliado ganhava o ingresso do evento (decisão do estrategista).
+- **Benefício do afiliado** no caso da aula 31: além da comissão, o próprio afiliado ganhava o ingresso do evento (a skill propõe o mesmo e lista em "Assumi").
 - Venda sem link não conta; indicação anterior ao programa: o time atribui manualmente se comprovada.
 - Troca de afiliado: o afiliado não pede; se o **próprio convidado** pedir para mudar de lista, o time avalia (regra do offboarding
   jan/2026). Afiliado não indica a si mesmo nem repassa comissão ao convidado.
@@ -107,7 +107,7 @@ ao evento, sem falar de mentoria nem de preço.
 - **Numerar cada afiliado** e marcar o crachá do convidado com o número ou adesivo discreto: o afiliado encontra os seus
   convidados no evento e o time sabe a origem de cada comprador.
 - Presença, confirmação e lembretes dos convidados seguem `ht-captacao-e-presenca` (o convidado de afiliado passa pela mesma
-  confirmação dupla). Se o evento tiver credencial (a entrada é decisão do estrategista por evento), o convidado do afiliado também paga, ou não: decisão do estrategista.
+  confirmação dupla). Se o evento tiver credencial (a entrada do evento segue `entrada_imersao`), o convidado do afiliado segue a mesma regra; a skill propõe e lista em "Assumi".
 
 ### Passo 8. Operação e acompanhamento
 - **Contato individual com cada afiliado a cada 2 ou 3 dias** (aula 31): quantos convidou, quantos confirmaram, dúvidas.
@@ -143,27 +143,26 @@ sessão treinável (`ht-treino-comercial`), vagas restritas.
 5. Afiliado não se passa pelo expert, não usa a marca fora do kit, não convida aluno ativo, não promete resultado.
 6. Proposta de comissão forte e gamificada; valores e faixas por projeto.
 7. **Comissão (padrão recomendado)**: definida por projeto com piso, paga 45 dias após o recebimento, filiação de 30 dias.
-8. **Entrada do evento**: se o evento tem credencial ou ingresso, a regra para o convidado do afiliado é decisão do estrategista.
-9. Mensagem a afiliado ou a convidado sai como rascunho e só com OK do estrategista; disparo em massa só pela API oficial.
+8. **Entrada do evento**: se o evento tem credencial ou ingresso, a regra para o convidado do afiliado é a mesma da entrada do evento (a skill propõe e lista em "Assumi").
+9. Mensagem a afiliado ou a convidado sai como rascunho e só com OK da pessoa ("posso enviar?"); disparo em massa só pela API oficial.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que a skill decide e lista em "Assumi"
 
-Apresentar como decisão numerada (a/b/c, prós, contras, custo; recomendada na a):
+A skill decide pelo padrão ou pela recomendação, sem lote de perguntas, e lista tudo em "Assumi: X, Y, Z (é só pedir para mudar)". Vira oficial na aprovação do plano. Itens:
 - Abrir ou não o programa neste evento (e em que escala).
 - Piso e tabela de comissão: valor inicial por HT, faixas, quantas renovações por faixa.
 - Crédito interno x dinheiro (e a proporção), e se vale para não alunos.
-- Divisão do pagamento no parcelado: a) metade após a 1ª e metade após a última, cada uma D+45 (modelo FHT adaptado ao padrão de D+45);
-  b) proporcional a cada parcela recebida, D+45 (mais justo, mais trabalho de controle); c) tudo após a quitação (protege
-  caixa, desmotiva o afiliado).
+- Divisão do pagamento no parcelado: padrão = metade após a 1ª e metade após a última, cada uma D+45 (modelo FHT adaptado ao
+  padrão de D+45); alternativas (proporcional a cada parcela, ou tudo após a quitação) só se a pessoa pedir.
 - Quem pode ser afiliado e quantos convites cada um tem.
-- Convidado do afiliado paga credencial ou não (mostrar prós e contras).
+- Convidado do afiliado paga credencial ou não: segue a regra de entrada do evento.
 - Abrir programa de consultores: preço da certificação, comissão, vagas.
 
 ## 6. Critério de pronto e auditoria final
 
 **Critério de pronto**
 - [ ] Diagnóstico de prontidão escrito, com a recomendação.
-- [ ] Tabela com faixas, piso do estrategista, D+45, filiação de 30 dias e exemplos de cálculo com o ticket de 02-oferta.
+- [ ] Tabela com faixas, piso proposto (em "Assumi"), D+45, filiação de 30 dias e exemplos de cálculo com o ticket de 02-oferta.
 - [ ] Regulamento com pode / não pode, aprovação, convites por afiliado, atribuição; marcado "validar com jurídico".
 - [ ] Kit: página de afiliados, webinário, convite direto e com qualificação, notificações, formulário, página individual.
 - [ ] Atribuição definida (link + número no crachá) e ligada à confirmação de presença.

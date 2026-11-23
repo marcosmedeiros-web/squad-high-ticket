@@ -18,22 +18,22 @@ lead entende na hora, e é prometido em quantidade que o expert consegue cumprir
 3. Conta de horas e capacidade (teórico x consumo esperado) e o limite de alunos por estrutura de time.
 4. O que fica de fora agora (prometer depois) e o que vira overdelivery.
 5. Esboço do SNA de 5 semanas (se o SNA entrar no cardápio).
-6. Auditoria e decisões para o estrategista.
+6. Auditoria e linha "Assumi".
 Opcional: aba ENTREGÁVEIS da planilha `rota3/materiais/planilhas/AR-planilha-oferta-do-acelerador.xlsx` preenchida.
 
 ## 2. Antes de começar
 
 1. Carregar `ht-protocolo`. Conferir o pedido do Diretor.
 2. Ler `experts/<slug>/ht/02-oferta/`: definição, jornada e **mapa de travas** (saída do `ht-definicao-e-jornada`). Sem jornada
-   formalizada, parar e pedir a jornada: entregável sem jornada sai "de paraquedas" (live 007).
+   formalizada, monto antes a primeira versão dela pelo `ht-definicao-e-jornada`, marcada como suposição: entregável sem jornada sai "de paraquedas" (live 007).
 3. Ler `01-pesquisa/` (dores, objeções, casos parecidos do `ht-consultor-casos`) e `06-entrega/` (o que o expert já entrega hoje,
    time disponível, materiais prontos). **`06-entrega/` vazia** (projeto novo, sem aluno no squad): o que o expert já entrega sai
    da pasta dele fora de `ht/` (materiais, programa que já vende) e de `01-pesquisa/`; o que não estiver lá vira
-   `[A CONFIRMAR COM ht-arquiteto-entrega]` (time e capacidade) ou uma das 3 perguntas. Não bloqueia o desenho dos entregáveis.
+   `[A CONFIRMAR COM ht-arquiteto-entrega]` (time e capacidade) ou `[SUPOSIÇÃO: ...]`. Não bloqueia o desenho dos entregáveis.
 4. **Entradas obrigatórias**: jornada + pontos críticos; o que o expert já faz com clientes (sessões, materiais, grupos);
-   quanto tempo por semana ele tem para entregar; se há time (mentor, navegador). Perguntar no máximo 3 coisas, por exemplo:
-   "Quantas horas por semana o expert dá para a entrega?", "Que materiais prontos ele já tem (modelos, planilhas, aulas)?",
-   "Quantos alunos queremos no primeiro ciclo?".
+   quanto tempo por semana ele tem para entregar; se há time (mentor, navegador). Não abrir questionário: assumir o padrão do squad (horas por semana
+   pela capacidade padrão, sem time, 10 alunos no primeiro ciclo) e listar em "Assumi". Perguntar só o que for impossível de
+   adivinhar (por exemplo, "Que materiais prontos ele já tem?"), no máximo 2 coisas por vez e em linguagem simples.
 
 ## 3. Passo a passo
 
@@ -121,7 +121,7 @@ Template e referências: `references/escala-e-conta-de-horas.md`.
    a partir daí; vender "comunidade", não a ferramenta; escolher a ferramenta que o avatar já usa, ex.: empresário que não está
    no Facebook). Encontro de alunos pode ser prometido para cerca de 12 meses depois da primeira entrada (trilha 06; o primeiro
    encontro de uma mentoria citada teve 12 a 13 pessoas); há mentor que só passa a prometer depois de ~15 alunos, para já marcar
-   a data a um ano (jun/26 SP). Qual dos dois usar é decisão do estrategista (seção 5).
+   a data a um ano (jun/26 SP). Usar o primeiro (prometer já, para cerca de 12 meses) e listar em "Assumi" (seção 5).
 3. Área de membros e drive podem ser vendidos antes de existirem desde que descritos como o que são: organizados a partir das
    gravações e materiais das próprias entregas (trilha 06). O que não puder ser cumprido, sai.
 4. **Overdelivery** ("na gaveta"): o que se entrega sem prometer (plantão, plantão temático). Vira entregável só quando provar valor.
@@ -148,18 +148,18 @@ Rodar a seção 6. Gravar e passar adiante (seção 7).
 - Nada se constrói inteiro antes de vender: entregar o que existe, criar por demanda, gravar tudo.
 - Gravar todo entregável individual (prova, "toques de Midas", acervo para a área de membros).
 - Contrato ou modelo jurídico no drive: avisar que o aluno valida com o advogado dele.
-- Diagnóstico: alvo de 1h20, teto de 2 h e parte 2 prevista (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Capacidade pelo padrão do squad. Comunidade pelo padrão do squad.
+- Diagnóstico: alvo de 1h20, teto de 2 h e parte 2 prevista (padrão recomendado; a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Capacidade pelo padrão do squad. Comunidade pelo padrão do squad.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que a skill decide e lista em "Assumi"
 
-Apresentar opções a/b/c com prós, contras e custo; recomendação na a):
-- **Quantidade N de cada entregável individual** quando mexe na capacidade do expert (ex.: análises até 6 ou até 12).
-- **Fundir ou separar diagnóstico e plano de ação** (uma sessão longa x duas sessões).
-- **Prometer ou não** encontro presencial, comunidade, real time e bootcamp no primeiro ciclo; para o encontro: (a) prometer
-  já, para cerca de 12 meses após a primeira entrada (trilha 06); (b) prometer só depois de ~15 alunos, já com data (jun/26 SP).
-- **Especialista terceiro na entrega** (custo e margem).
-- **Entregar via mentor desde o início** ou expert sozinho até 20 alunos.
-- **Algo que o expert faz hoje por frequência** (ex.: reunião semanal já vendida a alunos atuais): como migrar sem quebrar promessa.
+A skill decide pelo padrão ou pela recomendação, sem lote de perguntas, e lista em "Assumi: X, Y, Z (é só pedir para mudar)"; vira oficial na Aprovação 1. Itens:
+- **Quantidade N de cada entregável individual** quando mexe na capacidade do expert (ex.: análises até 6 ou até 12): usar o N que cabe na conta de horas.
+- **Fundir ou separar diagnóstico e plano de ação** (uma sessão longa x duas sessões): padrão = separar.
+- **Prometer ou não** encontro presencial, comunidade, real time e bootcamp no primeiro ciclo; para o encontro: padrão = prometer
+  já, para cerca de 12 meses após a primeira entrada (trilha 06); alternativa (só se a pessoa pedir): prometer só depois de ~15 alunos, já com data (jun/26 SP).
+- **Especialista terceiro na entrega** (custo e margem): padrão = sem terceiro; contratar um pede o OK simples ("posso seguir?").
+- **Entregar via mentor desde o início** ou expert sozinho até 20 alunos: padrão = expert sozinho até 20.
+- **Algo que o expert faz hoje por frequência** (ex.: reunião semanal já vendida a alunos atuais): propor como migrar sem quebrar promessa e listar em "Assumi".
 
 ## 6. Critério de pronto e auditoria final
 

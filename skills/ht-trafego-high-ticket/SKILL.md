@@ -1,6 +1,6 @@
 ---
 name: ht-trafego-high-ticket
-description: 'Tráfego pago Meta do Squad High Ticket (método FHT). Monta, sobe PAUSADA, otimiza e diagnostica as campanhas que alimentam o HT, executando pela ferramenta de tráfego do perfil (`trafego.ferramenta`) e com o prefixo de campanha do perfil (`trafego.prefixo_campanha`), se houver. Cobre setup de ativos e pixel/evento Lead, públicos, campanha contínua de leads para a sessão 1a1 (00/01/02), captação de imersão (gratuita ou ingresso), tráfego da aula semanal (captação, lembrete, replay), distribuição de Reels, tráfego do minicurso e do webinário, nomenclatura, planilha D-1, otimização em 3 níveis, escala e erros comuns. Use quando o estrategista disser "sobe a campanha da sessão", "monta o tráfego da imersão", "quanto investir para ter 100 ao vivo", "o CPL está caro", "turbina o Reels", "por que a campanha não gasta". NÃO usar para lançamento pago semanal/5+1/Funil 8 (fora do escopo deste squad) nem para escrever o criativo (ht-criativos-high-ticket).'
+description: 'Tráfego pago Meta do Squad High Ticket (método FHT). Monta, sobe PAUSADA, otimiza e diagnostica as campanhas que alimentam o HT, executando pela ferramenta de tráfego do perfil (`trafego.ferramenta`) ou, sem ferramenta definida, entregando a campanha especificada campo a campo para a pessoa subir no Gerenciador de Anúncios (nunca exige CLI nem acesso), e com o prefixo de campanha do perfil (`trafego.prefixo_campanha`), se houver. Cobre setup de ativos e pixel/evento Lead, públicos, campanha contínua de leads para a sessão 1a1 (00/01/02), captação de imersão (gratuita ou ingresso), tráfego da aula semanal (captação, lembrete, replay), distribuição de Reels, tráfego do minicurso e do webinário, nomenclatura, planilha D-1, otimização em 3 níveis, escala e erros comuns. Use quando o estrategista disser "sobe a campanha da sessão", "monta o tráfego da imersão", "quanto investir para ter 100 ao vivo", "o CPL está caro", "turbina o Reels", "por que a campanha não gasta". NÃO usar para lançamento pago semanal/5+1/Funil 8 (fora do escopo deste squad) nem para escrever o criativo (ht-criativos-high-ticket).'
 ---
 
 # Tráfego High Ticket (Meta Ads, método FHT)
@@ -9,7 +9,7 @@ description: 'Tráfego pago Meta do Squad High Ticket (método FHT). Monta, sobe
 
 Faz o tráfego pago trazer para o HT **lead que agenda, comparece e compra**, não só lead barato. Cobre os 6 destinos de
 tráfego do método: sessão 1a1, imersão (captação e ingresso), aula semanal, distribuição de Reels, minicurso de entrada e
-webinário. Executa na conta do expert pela ferramenta de tráfego do perfil (`trafego.ferramenta`); toda campanha nasce **PAUSADA** e só ativa com OK do estrategista.
+webinário. Executa na conta do expert pela ferramenta de tráfego do perfil (`trafego.ferramenta`); sem ferramenta definida (ou sem perfil), entrega a campanha especificada campo a campo, na ordem das telas do Gerenciador de Anúncios, para a pessoa (ou quem sobe por ela) subir à mão, sem exigir CLI nem acesso; toda campanha nasce **PAUSADA** e só ativa com OK do estrategista.
 
 **Entrega** (em `<raiz_projetos>/<expert>/ht/10-trafego/`, um arquivo por ação, `AAAA-MM-DD-<acao>.md`):
 1. **Plano de campanha**: objetivo, destino, metas (leads, CPL máximo, leads/dia, verba/dia), estrutura (campanha → conjuntos →
@@ -32,9 +32,9 @@ webinário. Executa na conta do expert pela ferramenta de tráfego do perfil (`t
 3. Conferir acesso pela ferramenta de tráfego do perfil: token válido, escopos, conta de anúncios e IG do expert (o que
    conferir e exemplos com a Meta Ads CLI oficial em `references/execucao-ferramenta-trafego.md`).
 4. Entradas obrigatórias: canal/destino, URL de destino testada, criativos aprovados, verba aprovada, meta (leads ou vendas)
-   e prazo. Se faltar, no máximo 3 perguntas. As que costumam faltar:
+   e prazo. Se faltar, no máximo 2 perguntas simples por vez (o resto o agente assume e lista em "Assumi"). As que costumam faltar:
    - "Qual a verba total e o período? (sem verba aprovada, eu entrego o plano com 3 cenários e não subo nada)"
-   - "A imersão é gratuita, credencial ou paga?" (a entrada é decisão do estrategista por evento; muda o objetivo da campanha: Leads x Vendas)
+   - "A imersão é gratuita, credencial ou paga?" (sem resposta, o agente assume gratuita, que é a recomendada, e lista em "Assumi"; muda o objetivo da campanha: Leads x Vendas)
    - "Qual a meta: quantas pessoas ao vivo / quantas sessões por semana?"
    O resto (públicos, idade, interesses) sai de `01-pesquisa/` e do histórico da conta; o que não der para inferir vira lacuna.
 
@@ -49,8 +49,7 @@ Partir do resultado e calcular o que o tráfego precisa trazer. Fórmulas e exem
 - **Aula semanal**: captação contínua; meta de leads/semana e CPL; divisão de verba 80/20 (Passo 4C).
 - **Reels**: seguidores/mês = verba ÷ custo por seguidor.
 - **Minicurso / webinário**: compras ou inscritos qualificados; o retorno se lê no HT vendido (ver skills 24 e 25).
-Se a conta não fecha (CPL máximo abaixo do histórico do nicho), **alertar inviabilidade** e propor ao estrategista: mais verba, mais
-dias, meta menor ou outra fonte de lista. A primeira campanha de um expert tende a ser ruim: reservar "verba de guerra".
+Se a conta não fecha (CPL máximo abaixo do histórico do nicho), **alertar inviabilidade** em linguagem simples e propor o caminho mais simples (mais dias ou meta menor, listado em "Assumi"; outra fonte de lista ou mais verba pedem "posso seguir?"). A primeira campanha de um expert tende a ser ruim: reservar "verba de guerra".
 
 ### Passo 2. Conferir infraestrutura (antes de qualquer subida)
 Checklist completo em `references/setup-ativos-e-pixel.md`. Mínimo obrigatório:
@@ -139,7 +138,7 @@ direito autoral, baixa qualidade. Seguidor novo vai para o SLG (`ht-slg`); regis
   conferência em `references/execucao-ferramenta-trafego.md`.
 - **Conferir por leitura** (não pela saída do comando de criação): status, objetivo, evento, pixel, públicos e exclusões,
   expansão de público, orçamento, datas, URL com UTM, Página/IG corretos. Registrar o que foi conferido.
-- Entregar o plano + registro de subida ao Diretor e pedir ao estrategista o OK para **ativar**. Ativar é ação separada, com o OK
+- Entregar o plano + registro de subida ao Diretor e pedir o OK para **ativar** como um "posso seguir?" simples. Ativar é ação separada, com o OK
   dele escrito em `00-plano/aprovacoes.md`.
 
 ### Passo 6. Acompanhar e otimizar (rotina D-1)
@@ -155,7 +154,7 @@ Régua completa em `references/otimizacao-escala-e-diagnostico.md`. Resumo:
 5. **Escalar** em degraus de 20% (FEV26) a no máximo 30% (OUT25) por vez; acima disso, duplicar a campanha (escala horizontal).
    Todo plano com escada de verba **mostra a conta**: tabela dia a dia (ou por degrau) com verba/dia, quantos dias em cada degrau
    e o acumulado, fechando com o total aprovado. Se 20% por degrau não fecha com o total e o prazo, dizer qual cede (degrau, dias
-   ou total) e levar ao estrategista; nunca apresentar "degraus de 20%" e um total que não batem.
+   ou total), decidir pelo que cede menos e listar em "Assumi" (total maior pede "posso seguir?"); nunca apresentar "degraus de 20%" e um total que não batem.
    Subir rápido demais derrubou um caso de CPL ~R$ 20 para R$ 45 a 53 (referência).
 6. **Medir até a venda**: cruzar com a Central 1x1 (`ht-central-e-kpis`): custo por agendamento, comparecimento, custo por
    venda, somando tráfego de sessão e de Reels. Lead barato que não agenda é problema de criativo ou de qualificação.
@@ -167,7 +166,7 @@ pixels, vídeo bloqueado, pagamento, conta nova limitada, BM errado, Turbinar bl
 
 ## 4. Regras inegociáveis do método
 
-- Toda campanha nasce **PAUSADA**, com o prefixo de campanha do perfil (se houver), e só ativa com OK do estrategista. Verba e ativação são do estrategista.
+- Toda campanha nasce **PAUSADA**, com o prefixo de campanha do perfil (se houver), e só ativa com OK. Verba e ativação pedem "posso seguir?" simples.
 - Evento Lead só no cadastro real; campanha de captação nunca com objetivo Tráfego/Engajamento nem formulário instantâneo
   (o objetivo não muda depois: errou, duplica e recria).
 - Criativo e página prometem a mesma coisa; tráfego para sessão 1a1 fala com o perfil que compra e filtra quem não serve.
@@ -177,12 +176,12 @@ pixels, vídeo bloqueado, pagamento, conta nova limitada, BM errado, Turbinar bl
 - Nada de pixel ou público de concorrente; nada de BM de terceiro; token nunca no chat (se aparecer, está queimado).
 - Regras do squad que se aplicam: exclusões em cascata e orçamento no conjunto no teste; comparecimento para planejar
   (gratuita 25%, credencial ou paga 70%, grupo 50%); Reels até 90 s como condição para turbinar; a entrada da imersão
-  (gratuita, credencial ou paga, decisão do estrategista por evento) decide o objetivo.
+  (gratuita, credencial ou paga, assumida pela recomendação e listada em "Assumi") decide o objetivo.
 - Número de aula é referência, não meta do expert: depois do primeiro ciclo, a meta passa a ser o histórico da própria conta.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-**Padrões recomendados** (regra desta skill; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`;
+**Padrões recomendados** (regra desta skill; a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`;
 antes de aplicar, ler o perfil e seguir o que estiver lá; não volta como pergunta):
 - **Otimização na campanha, não no anúncio**: não pausar anúncio dentro de campanha; mexer na
   campanha (campanha nova isolando o vencedor, pausar ou ativar campanha, verba em degraus de ~20%). Anúncio caro pode estar
@@ -190,22 +189,23 @@ antes de aplicar, ler o perfil e seguir o que estiver lá; não volta como pergu
   conversão" que gerava lead pelo perfil). O FHT ensina pausar o anúncio que gastou 2x o CPL meta sem lead; o padrão do squad é
   não pausar.
 - **Formato**: imagem e vídeo juntos por padrão. O bootcamp de criativos usava imagem só no
-  remarketing. Se o CPL da imagem em frio sair muito acima, o número vai ao estrategista como leitura, sem trocar o padrão.
+  remarketing. Se o CPL da imagem em frio sair muito acima, o número vai à pessoa como leitura simples, sem trocar o padrão.
 - **Orçamento no teste**: no conjunto, com exclusões em cascata. O FEV26 e o
   bootcamp da trilha 13 usaram orçamento na campanha nas primeiras campanhas; o padrão do squad é no conjunto. Validado, pode
   migrar para orçamento na campanha com limite mínimo de gasto por conjunto.
 - **Verba na largada**: funil novo começa menor (4 a 5 dias, OUT25); validado, vai cheio. A
   trilha 17 começava cheia desde o dia 1.
 
-Continua com o estrategista, como itens numerados, opções a/b/c com prós, contras e custo, recomendação na a):
-- **Verba e prazo** de cada campanha e **ativar** cada uma.
-- **Entrada da imersão** (decisão do estrategista por evento; mostrar prós e contras): gratuita (Leads, mais volume, comparecimento ~25%) x credencial ou paga (Vendas, menos volume,
+**Pedem um "posso seguir?" simples** (uma frase com o resumo, sem a/b/c; nada é gasto nem ativado sem o OK): a **verba e o prazo** de cada campanha e **ativar** cada uma.
+
+**O agente decide pela recomendação e lista em "Assumi":**
+- **Entrada da imersão**: o agente assume gratuita (a recomendada) e lista em "Assumi". Alternativa, só como referência: gratuita (Leads, mais volume, comparecimento ~25%) x credencial ou paga (Vendas, menos volume,
   comparecimento ~70%, ingresso paga parte do tráfego). Dado da própria FHT para pôr nos prós da gratuita (trilha 17, bootcamp
   de campanhas, referência a conferir): depois das imersões de Goiânia e Curitiba, o custo de levar uma pessoa à mentoria saiu
   mais barato com lead gratuito do que com ingresso, e a FHT passou a captar gratuito; 25% de comparecimento tanto no online
   quanto no presencial (online de 1 dia: ~1.324 leads, pico de 334 ao vivo).
-- **Escala acima de 30%** ou dobrar verba de uma vez; abrir campanha de escala horizontal.
-- Inviabilidade da meta (conta que não fecha): mais verba, mais dias, meta menor ou outra fonte.
+- **Escala acima de 30%** ou dobrar verba de uma vez; abrir campanha de escala horizontal: o agente mantém degraus de ~20 a 30% e lista em "Assumi"; subir a verba é gasto e pede "posso seguir?".
+- Inviabilidade da meta (conta que não fecha): o agente diz em linguagem simples que a conta não fecha e propõe o caminho mais simples (mais dias ou meta menor), listado em "Assumi"; mais verba pede "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -214,7 +214,7 @@ Continua com o estrategista, como itens numerados, opções a/b/c com prós, con
 - [ ] Teste do funil de ponta a ponta registrado (evento Lead/Purchase visto, contato com tag).
 - [ ] Estrutura do canal certo, nomes no padrão, CPF dos criativos aprovados, UTMs.
 - [ ] Tudo em PAUSED, conferido **por leitura** depois da criação, com a lista do que foi conferido.
-- [ ] Pedido de OK para ativar e de verba feito ao estrategista, com opções.
+- [ ] Pedido de OK para ativar e de verba feito como um "posso seguir?" simples (sem opções a/b/c), com o "Assumi".
 - [ ] Planilha D-1 criada ou atualizada; métrica até a venda ligada à Central 1x1.
 
 **Auditoria (erros típicos dos laboratórios e plantões; rodar antes de entregar):**
@@ -237,7 +237,7 @@ Continua com o estrategista, como itens numerados, opções a/b/c com prós, con
 
 - Gravar em `10-trafego/` (plano, registro de subida, relatórios, planilha D-1). Debrief de cada campanha encerrada em
   `13-aprendizados/` via handoff (CPL real, custo por agendamento e por venda, criativo campeão, o que muda).
-- Handoff: **Diretor** (pedido de OK de verba e ativação ao estrategista) · `ht-revisor-metodo-copy` (textos de anúncio, compliance
+- Handoff: **Diretor** ("posso seguir?" de verba e ativação) · `ht-revisor-metodo-copy` (textos de anúncio, compliance
   Meta) · `ht-revisor-visual` (criativo) · `ht-gestor-automacoes` (tags e eventos do funil) · `ht-controller` (gasto x meta,
   custo por venda) · `ht-criativos-high-ticket` (pedido de criativo novo quando a fadiga aparecer, com o diagnóstico do trecho).
 - Formato do bloco de entrega: `ht-protocolo/references/estrutura-pasta-projeto.md`.

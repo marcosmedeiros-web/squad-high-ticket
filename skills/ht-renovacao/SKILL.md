@@ -1,6 +1,6 @@
 ---
 name: ht-renovacao
-description: 'Squad High Ticket / método FHT. Planeja e conduz a renovação dos alunos de um HT (acelerador de resultados) do começo ao fim: engenharia de renovação desde a criação do programa, ciclos e calendário (11 a 13 meses casados a um encontro), pesquisa 1 para muitos e 1 para 1, controle de renovações, oferta de renovação e de migração, evento presencial de renovação com pitch só para aptos, abordagem de quem faltou, retenção e cancelamento, áudio personalizado e auditoria do programa. Use quando o estrategista disser "planeja a renovação da turma", "monta a oferta de renovação", "pesquisa antes do encontro", "evento de renovação", "aluno quer cancelar", "a renovação caiu", "migrar alunos de 3 meses". Preço da renovação é decisão do estrategista, por projeto. NÃO usar para upgrade/GIC (ht-upgrade-e-gic) nem para lançamento pago LPSG (fora do escopo deste squad).'
+description: 'Squad High Ticket / método FHT. Planeja e conduz a renovação dos alunos de um HT (acelerador de resultados) do começo ao fim: engenharia de renovação desde a criação do programa, ciclos e calendário (11 a 13 meses casados a um encontro), pesquisa 1 para muitos e 1 para 1, controle de renovações, oferta de renovação e de migração, evento presencial de renovação com pitch só para aptos, abordagem de quem faltou, retenção e cancelamento, áudio personalizado e auditoria do programa. Use quando o estrategista disser "planeja a renovação da turma", "monta a oferta de renovação", "pesquisa antes do encontro", "evento de renovação", "aluno quer cancelar", "a renovação caiu", "migrar alunos de 3 meses". O agente propõe o preço da renovação pela recomendação do projeto e lista em "Assumi"; vira oficial na Aprovação 1. NÃO usar para upgrade/GIC (ht-upgrade-e-gic) nem para lançamento pago LPSG (fora do escopo deste squad).'
 ---
 
 # Renovação do HT (engenharia de renovação FHT)
@@ -17,8 +17,8 @@ igualar o faturamento de alunos novos (referência de live, conferir).
 2. `pesquisa-1-para-muitos.md`: formulário pronto para Typeform/Google Forms (19 perguntas adaptadas) + mensagem de envio (rascunho).
 3. `roteiro-1-para-1.md`: abordagem "feedback sincerão" + divisão da lista entre expert e mentores.
 4. `controle-de-renovacoes.xlsx` (ou .csv): planilha de controle no modelo do FHT.
-5. `mapa-oferta-de-renovacao.md`: avatar que renova, pontos fortes e fracos, oferta atual → oferta de renovação (com as opções de
-   preço para o estrategista decidir).
+5. `mapa-oferta-de-renovacao.md`: avatar que renova, pontos fortes e fracos, oferta atual → oferta de renovação (com o preço proposto pela
+   recomendação e a conta das alternativas guardada, só como apoio).
 6. `evento-de-renovacao.md`: identificação no crachá, momento do pitch, salinha, papéis, pós-evento.
 7. `retencao-e-cancelamento.md` (quando houver pedido de cancelamento).
 8. `auditoria-renovacao.md`: checklist do programa pronto para renovar.
@@ -33,10 +33,9 @@ igualar o faturamento de alunos novos (referência de live, conferir).
   skill não roda: o próximo passo é vender (ht-slg, ht-roteiro-sessao-1a1). Quem está no começo da entrega vai para
   ht-onboarding-e-primeira-entrega e ht-entregaveis-1a1.
 - Entradas obrigatórias: lista de alunos com data de entrada e de fim; data do encontro (ou necessidade de marcar); oferta atual.
-  Se faltar, no máximo 3 perguntas ao Diretor:
+  Se faltar, no máximo 2 perguntas simples (regra 16 do protocolo); o resto vira `[SUPOSIÇÃO: …]` e entra em "Assumi":
   1. Quantos alunos vencem neste ciclo e em que data termina cada turma?
-  2. Já existe encontro presencial marcado (data, cidade, capacidade)?
-  3. Há NPS por entregável e registro de resultado por aluno? (se não houver, a fase 1 vai precisar compensar com o 1 a 1)
+  2. Já existe encontro presencial marcado (data, cidade, capacidade)? Se não houver NPS por entregável nem registro de resultado por aluno, a fase 1 compensa com o 1 a 1 e isso entra em "Assumi".
 
 ## 3. Passo a passo
 
@@ -97,11 +96,11 @@ Monta-se o **mapa da oferta de renovação** (modelo do mapa mental do FHT em `r
    mais valor).
 7. "Cartas na manga": entregáveis guardados para over delivery ou para reconstruir a oferta no evento.
 8. **Condições**: validade só no evento (integridade: quem volta depois paga mais), forma de pagamento (preferir à vista,
-   oferecer parcelas). **Preço: decisão do estrategista (seção 5).**
+   oferecer parcelas). **Preço: proposto pela recomendação da seção 5 e listado em "Assumi".**
 9. Tese do pitch: o aluno não renova o passado, renova o futuro. Vende-se um próximo ano diferente, com casos de colegas e o
    programa novo. Frases-guia citadas: "faltam só dois metros" e "o que te trouxe até aqui não te leva ao próximo nível".
 - **Migração** (aluno de produto menor ou de 3 meses para o HT de 12): renegociar parcelas restantes, abrir novo ciclo com valor
-  menor ou bônus, Raio-X 1a1, preço de fundador ou cashback; preferir à vista. Valores: decisão do estrategista.
+  menor ou bônus, Raio-X 1a1, preço de fundador ou cashback; preferir à vista. Valores: propostos pela recomendação e listados em "Assumi".
 - O texto do pitch de renovação é escrito por ht-diretor-copy / ht-roteirista-palco com esta oferta como entrada (ht-palestras-e-pitch).
 
 ### Passo 5. Planilha de controle de renovações
@@ -148,7 +147,7 @@ Roteiro detalhado em `references/evento-de-renovacao.md`. Essencial:
 ### Passo 8. Retenção e cancelamento (a qualquer momento do ciclo)
 Protocolo em `references/retencao-e-cancelamento.md`: call de entrevista antes de cancelar, entender o motivo, renegociar estratégia
 ou financeiro (parcela atrasada: parte agora, resto diluído), reembolso com segunda chance e plano de pilotagem, e categoria abaixo
-para cancelados só a partir do 1º ou 2º ano. Valores e condições de qualquer renegociação: decisão do estrategista.
+para cancelados só a partir do 1º ou 2º ano. Valores e condições de qualquer renegociação: propostos pela recomendação e listados em "Assumi".
 
 ## 4. Regras inegociáveis do método
 
@@ -163,10 +162,13 @@ para cancelados só a partir do 1º ou 2º ano. Valores e condições de qualque
 9. Nada é enviado a aluno sem OK do estrategista: formulário, mensagem, áudio, oferta.
 10. Dado do aluno (CPF, faturamento, feedback) fica na pasta do projeto; nunca em material público.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-**Preço da renovação (definido por projeto: menor, igual ou reajuste; é do estrategista).** Apresentar sempre as três opções, com números do projeto (ticket atual, taxa de
-renovação planejada no Master Plan, margem):
+**Preço da renovação (menor, igual ou reajuste).** O agente calcula as três alternativas com os números do projeto (ticket atual, taxa
+de renovação planejada no Master Plan, margem), escolhe a que o dado sustenta e propõe essa. O preço proposto entra em "Assumi" em
+linguagem simples ("Assumi: renovação por R$ X, menor que a entrada, porque... (é só pedir para mudar)") e só vira oficial na
+Aprovação 1 ou na aprovação do plano. Se o dado não sustenta nenhuma, escolhe a mais conservadora (igual à entrada, com mais parcelas
+ou entregáveis), marca `[SUPOSIÇÃO: …]` e lista em "Assumi". As alternativas, para o cálculo interno:
 - a) **Menor que a entrada** (fontes: ~40% menor em exemplo da live 047/parte I; levemente menor, 20 mil → 17 mil, parte H; R$ 5 mil
   a menos num AR de 30 mil, live 047). Prós: facilita o sim de quem está em cima do muro, vende "vantagem de quem já é aluno".
   Contras: reduz receita por aluno; ancora o próximo ano mais baixo.
@@ -174,12 +176,12 @@ renovação planejada no Master Plan, margem):
   Contras: exige oferta claramente melhor; risco maior com aluno de resultado médio.
 - c) **Reajuste** (fonte: manter o preço por 2 anos e reajustar no 3º, desafio jan/26). Prós: acompanha o valor entregue e o
   posicionamento. Contras: só funciona com resultado forte e NPS alto; pede pesquisa muito favorável.
-A ordem acima é só de exposição. Ao levar ao estrategista: se o dado do projeto sustentar uma recomendação, ela passa a ser a opção a)
-marcada "(recomendo)" com o motivo em uma linha (regra do protocolo); se não sustentar, apresentar as três sem recomendação e
-dizer qual dado falta.
 
-Também são do estrategista: condições de migração, desconto à vista, valor da categoria abaixo, reembolso, mudança de duração do
-programa, data e custo do encontro (gastar), envio de qualquer mensagem a aluno, texto público novo.
+Também são decididas pelo agente pela recomendação e listadas em "Assumi": condições de migração, desconto à vista, valor da
+categoria abaixo, reembolso e mudança de duração do programa.
+
+**Pedem um "posso seguir?" simples (uma frase, sem a/b/c):** data e custo do encontro (gastar), envio de qualquer mensagem a aluno,
+texto público novo, e uso de foto, nome ou depoimento de aluno (só com autorização registrada).
 
 ## 6. Critério de pronto e auditoria final
 
@@ -190,7 +192,7 @@ programa, data e custo do encontro (gastar), envio de qualquer mensagem a aluno,
 - [ ] Planilha de controle com as 10 colunas, as duas listas do modelo (temperatura e status) e todos os aptos.
 - [ ] Mapa da oferta com pontos fortes/fracos rastreáveis a fonte (pesquisa, 1 a 1, mentores, planilha P&O).
 - [ ] Cada objeção relevante tem resposta na oferta ou no pitch.
-- [ ] Preço com as 3 opções e a pergunta ao estrategista registrada (nenhum preço decidido pela skill).
+- [ ] Preço proposto pela recomendação, listado em "Assumi" e só oficial na Aprovação 1 (sem lote de perguntas nem a/b/c).
 - [ ] Evento com identificação de aptos, horário do pitch, salinha, papéis e pós-evento.
 - [ ] Números de aula marcados "referência/conferir"; nenhum resultado de aluno inventado.
 
@@ -206,7 +208,7 @@ programa, data e custo do encontro (gastar), envio de qualquer mensagem a aluno,
 9. Promessa de entrega que não se sustentou (ex.: "100% com os fundadores") repetida na renovação.
 10. Área de membros e jornada desatualizadas em relação à entrega real.
 11. Duração do programa que não cai em nenhum encontro.
-12. Preço de renovação decidido pelo agente.
+12. Preço de renovação tratado como oficial sem passar pela Aprovação 1, ou levado como lote de perguntas em vez de "Assumi".
 
 ## 7. Saída e handoff
 
@@ -217,7 +219,7 @@ programa, data e custo do encontro (gastar), envio de qualquer mensagem a aluno,
 - Logística do encontro → ht-produtor-eventos (05-eventos). Automação de lembretes e formulário → ht-gestor-automacoes (11-automacoes,
   só liga com OK do estrategista). Números da renovação no Master Plan e no painel → ht-controller (ht-central-e-kpis).
 - Upgrade no mesmo evento → ht-upgrade-e-gic.
-- Bloco de entrega no formato do protocolo, com nível de evidência e as decisões pendentes (D-numeradas pelo Diretor).
+- Bloco de entrega no formato do protocolo, com nível de evidência e a linha "Assumi: …" (suposições numeradas pelo código do agente, juntadas pelo Diretor).
 
 ## 8. Ferramentas de apoio
 

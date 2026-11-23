@@ -15,7 +15,7 @@ terreno" antes do SLG, da página da sessão e do tráfego: todo criativo e toda
 1. Diagnóstico do perfil atual (se existe): tabela erro → ajuste na ordem de auditoria, com prioridade.
 2. Decisão de tipo de perfil, com justificativa.
 3. Foto: diagnóstico e instrução (ou prompt de ajuste por IA).
-4. Arroba e campo Nome: 3 opções cada, com a recomendada marcada.
+4. Arroba e campo Nome: a recomendada escolhida, mais 2 de reserva de cada.
 5. Bio: 3 versões (promessa + CTA + link), cada uma contada em caracteres (limite 150).
 6. Roteiro card a card dos 3 fixados (Quem sou eu, Evidência, Campanha vigente) com legenda; lista de provas a coletar.
 7. YouTube (nome, descrição, briefing do banner, links) e LinkedIn (só se o público estiver lá).
@@ -31,11 +31,11 @@ terreno" antes do SLG, da página da sessão e do tráfego: todo criativo e toda
    - `06-entrega/` (provas e cases) e `13-aprendizados/`: resultados reais de alunos com autorização.
    - `04-demanda/`: vitrine anterior, campanha vigente (aula semanal, imersão, live).
 3. Entradas obrigatórias: link ou prints do Instagram atual (ou "não existe"), Roma, avatar, nome da sessão 1a1, provas
-   disponíveis. Se faltar, no máximo 3 perguntas ao estrategista, por exemplo:
+   disponíveis. Se faltar, no máximo 2 perguntas simples por vez (o resto o agente assume e lista em "Assumi"), por exemplo:
    - "Qual o @ e o link do YouTube/LinkedIn do expert hoje?"
    - "Quais resultados de aluno podemos mostrar (com autorização)?"
    - "Há campanha ativa agora (data e destino)?"
-   O que não vier vira `[FALTA: ...]`; nunca inventar prova, número ou história.
+   O que não vier vira `[SUPOSIÇÃO: ...]`; nunca inventar prova, número ou história.
 
 ## 3. Passo a passo
 
@@ -46,7 +46,7 @@ melhorar. Registrar a primeira impressão no diagnóstico.
 **Passo 1. Tipo de perfil.** Padrão do método: perfil pessoal profissional com nome e rosto do expert. Institucional só com
 autoridade prévia, equipe e vários produtos. Um perfil por público, não por produto (vários produtos para o mesmo avatar =
 um perfil). Dois experts sócios: um perfil com os dois. Lançador ou agência: a vitrine é a do expert. Regra completa e casos
-de exceção em `references/perfil-e-bio.md` (seção 1). Mudança de perfil grande é decisão do estrategista (seção 5).
+de exceção em `references/perfil-e-bio.md` (seção 1). Mudança de perfil grande: o agente assume pela recomendação (seção 5) e lista em "Assumi".
 
 **Passo 2. Foto.** Rosto grande, de frente, olhando para a câmera, sorriso leve, luz natural no rosto, contraste com o
 fundo, lente limpa; a mesma em todas as redes. Proibido: logo (no pessoal), paisagem, óculos escuros, foto de lado, de cima
@@ -59,7 +59,7 @@ por IA em `references/perfil-e-bio.md` (seção 2).
 - Nome: `[nome pelo qual é conhecido] | [palavras-chave que o avatar busca]`. Arroba e Nome são os dois campos da busca; a bio
   não é. Se o nome já está no arroba, o Nome fica só com palavras-chave soltas (nunca frase pronta), com a cidade se o
   atendimento é local, sem emoji. Depois de mudar o Nome, nova troca só após ~14 dias (conferir): mudar só a versão aprovada.
-- Entregar 3 opções de cada, com a recomendada. Regras e exemplos em `references/perfil-e-bio.md` (seção 3).
+- Entregar a recomendada como escolhida (entra em "Assumi") e mais 2 de reserva de cada. Regras e exemplos em `references/perfil-e-bio.md` (seção 3).
 
 **Passo 4. Bio** (padrão do squad: promessa fixa, CTA trocado pela ação do momento, link direto).
 - Linha 1, fixa: `[Avatar] aprende a [resultado]` ou `Ensino/Ajudo [avatar] a [resultado]`, com as mesmas palavras da Roma.
@@ -112,31 +112,30 @@ para desconfiança.
 - Resultado de paciente/cliente final é narrado na ótica do avatar comprador (ex.: fisioterapeuta que vende a fisioterapeutas).
 - Carrossel antes de vídeo cru nos fixados; quem vê o carrossel nem sempre lê a legenda, então o essencial fica no card.
 - Profissão regulada (conselhos de saúde, OAB): o código de ética pode proibir prova, antes e depois ou chamada de venda;
-  checar antes e levar ao estrategista (seção 5).
+  checar antes e assumir só o permitido, listando em "Assumi" (seção 5).
 - Sem automação de DM e sem link encurtado que quebre; telefone pessoal não fica exposto na bio.
 - O básico só precisa ser feito: vitrine boa hoje vence vitrine perfeita daqui a um mês. Ajustar no mesmo dia.
-- Texto para publicar é rascunho: nada vai ao ar sem OK do estrategista (protocolo, regra 2).
+- Texto para publicar é rascunho: nada vai ao ar sem OK ("posso seguir?"; protocolo, regra 2).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-Apresentar como decisão numerada, opções a/b/c com prós, contras e custo em uma linha; recomendação na a).
+Sem a/b/c: o agente decide pela recomendação e lista em "Assumi". Publicar, arquivar posts e usar foto, nome ou depoimento de aluno pedem "posso seguir?" simples (uso de aluno só com autorização registrada).
 - **Trocar perfil institucional por pessoal** (ou abrir pessoal novo) quando o expert já tem audiência no institucional:
-  a) pessoal com transição gradual; b) manter institucional e humanizar; c) dois perfis por público.
+  o agente assume perfil pessoal com transição gradual e lista em "Assumi" (alternativas só como referência: manter institucional e humanizar, ou dois perfis por público).
 - **Trocar arroba ou nome de perfil grande / renomear canal de YouTube com audiência**: risco de queda de alcance e de busca.
 - **Abrir perfil novo** quando o expert pivotou de nicho ou fala com dois públicos (paciente e profissional).
 - **Usar autoridade emprestada** (foto com referência do mercado) quando não há prova de aluno.
 - **Publicar** qualquer texto ou peça e **arquivar** posts antigos do expert.
 - **Profissão regulada**: o que o código de ética do conselho permite publicar (prova, antes e depois, chamada de venda);
-  a) checar com o expert e publicar só o permitido (recomendo); b) perfil só informativo e venda por SLG e sessão.
-- **Três ou mais mentores no mesmo HT**: a) perfil pessoal do mais forte com os outros em collab (recomendo no começo);
-  b) perfil institucional novo (exige equipe para manter).
+  o agente assume checar com o expert e publicar só o permitido; se houver dúvida, perfil só informativo e venda por SLG e sessão (listado em "Assumi").
+- **Três ou mais mentores no mesmo HT**: o agente assume perfil pessoal do mais forte com os outros em collab, no começo, e lista em "Assumi" (perfil institucional novo exige equipe para manter).
 
 ## 6. Critério de pronto e auditoria final
 
 **Pronto quando:**
 - [ ] Perfil pessoal (ou exceção justificada) e um público só.
 - [ ] Foto aprovada no checklist ou instrução de ajuste pronta.
-- [ ] 3 opções de arroba e de Nome, com a palavra-chave do avatar no Nome.
+- [ ] A escolhida e 2 de reserva de arroba e de Nome, com a palavra-chave do avatar no Nome.
 - [ ] 3 bios com promessa idêntica à Roma, CTA da ação vigente, link único, cada uma com até 150 caracteres (contados).
 - [ ] Roteiro card a card do Quem sou eu (linha do tempo, dor do avatar, procedência do método, CTA) e legenda.
 - [ ] Evidência montada só com provas reais e autorizadas, ou lista `[FALTA]` do que coletar.

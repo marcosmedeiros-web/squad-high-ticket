@@ -13,10 +13,10 @@ um com regras, limites e ligação explícita ao AR, para que ele some ao portf�
 
 **Entrega** (em `02-oferta/complementares/`), uma ficha por produto no modelo de `references/templates-complementares.md`:
 - **CI**: problema único que resolve, para quem, formato e duração, o que o cliente leva, quem entrega, como termina (pitch do AR
-  e regra de abatimento), preço em opções para o estrategista, meta de conversão para o AR, roteiro da sessão.
+  e regra de abatimento), preço proposto pelo padrão (em "Assumi"), meta de conversão para o AR, roteiro da sessão.
 - **PA**: escopo fechado, o que não está incluso, briefing de entrada, prazo, critérios de aceite, termo (estrutura para revisão
-  jurídica do expert), responsabilidade pelo resultado, teto de clientes simultâneos, preço em opções.
-- **EHT**: conceito, por que é exclusiva, público e pré-requisito, agenda, custo por pessoa, preço e vagas em opções, onde é
+  jurídica do expert), responsabilidade pelo resultado, teto de clientes simultâneos, preço proposto pelo padrão (em "Assumi").
+- **EHT**: conceito, por que é exclusiva, público e pré-requisito, agenda, custo por pessoa, preço e vagas propostos pelo padrão (em "Assumi"), onde é
   vendida (evento, base, upgrade), ligação com o AR.
 - Registro do **motivo** de cada produto (caixa, porta, relacionamento, validação) e do **risco** que ele cria.
 
@@ -26,7 +26,7 @@ um com regras, limites e ligação explícita ao AR, para que ele some ao portf�
 - Ler: `02-oferta/portfolio.md` (o produto tem de estar no mapa ou o pedido tem de dizer por quê), `02-oferta/oferta-vigente.md`
   (o que já está dentro do AR, para não vender de novo), `01-pesquisa/` (avatar, onde o aluno mais trava), `07-numeros/` (caixa,
   Master Plan) e `06-entrega/` (capacidade da equipe).
-- Entradas obrigatórias e perguntas (no máximo 3):
+- Entradas obrigatórias (não abrir questionário: o que faltar é assumido pelo padrão e listado em "Assumi"; só perguntar o impossível de adivinhar, no máximo 2 coisas por vez, em linguagem simples):
   1. **Qual produto e qual motivo** (caixa, porta do AR, relacionamento, validação). Sem motivo, o método desaconselha criar.
   2. **Quem entrega** (expert, time, parceiro) e quantas horas por semana existem para isso.
   3. Para EHT: **verba e logística disponíveis** (local, viagem, fornecedores). Para PA: **o que exatamente o cliente pediu**.
@@ -57,7 +57,7 @@ Fichas e roteiro: `references/fichas-ci-pa-eht.md`, seção CI.
    conferir). Conversão de referência de CI para AR: 40% a 50% (live 031). Registrar como meta a validar, não promessa.
 6. **Variações citadas**: consultoria vendida barata como ponte para o HT, que precisa gerar valor real (exemplo de R$ 500, live
    032); "sessão de revisão" paga como downsell no último dia de evento para quem não comprou o HT (live 032).
-7. **Preço**: em opções para o estrategista (seção 5). A trilha 07 lembra que CI tende a ter ticket alto por ser tempo direto do expert.
+7. **Preço**: proposto pelo padrão e listado em "Assumi" (seção 5); vira oficial na Aprovação 1. A trilha 07 lembra que CI tende a ter ticket alto por ser tempo direto do expert.
 
 ### Passo 3. Peixe assado (PA)
 Fichas: `references/fichas-ci-pa-eht.md`, seção PA.
@@ -74,7 +74,7 @@ Fichas: `references/fichas-ci-pa-eht.md`, seção PA.
    aluno (páginas, WhatsApp, automação, checkout, tráfego) em poucas horas por pessoa (parte I, conferir o tempo).
 8. **Para agência e prestador de serviço** (live 007): não virar "mentor de lançamento" sem resultado; caminhos do método são
    ensinar outros prestadores ou entrar como sócio estrategista de um expert.
-9. **Exceção a mostrar ao estrategista**: em serviço técnico de alto valor, há caso de PA como produto principal vendido por sessão
+9. **Exceção a mostrar no "Assumi"**: em serviço técnico de alto valor, há caso de PA como produto principal vendido por sessão
    1a1 (construção civil, contratos acima de R$ 1 milhão, palestra Fev/2026). Diverge da regra geral.
 
 ### Passo 4. Experiência High Ticket (EHT)
@@ -90,8 +90,8 @@ Fichas: `references/fichas-ci-pa-eht.md`, seção EHT.
    familiares pagando à parte, e o AR vendido com a experiência como bônus ou ancoragem.
 5. **Onde vende**: dentro de um evento, para a base, ou como degrau de upgrade; quem compra a EHT pode subir para um programa
    (live 062).
-6. **Renovação**: a EHT **não renova**; é escada para o produto seguinte (padrão recomendado, que o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`, pelas lives 053, 055 e
-   062). A trilha 07 dizia que podia renovar repetindo a experiência; o estrategista escolheu não. Quem quer mais sobe de produto.
+6. **Renovação**: a EHT **não renova**; é escada para o produto seguinte (padrão recomendado, que a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`, pelas lives 053, 055 e
+   062). A trilha 07 dizia que podia renovar repetindo a experiência; o padrão é não. Quem quer mais sobe de produto.
 7. **Momento**: auditoria de laboratório (dez/2025) diz que EHT costuma fazer sentido só 2 a 3 anos depois do AR; antes disso,
    só se houver público de topo ou evento grande.
 
@@ -111,30 +111,30 @@ o impacto no caixa. Passar para o `ht-master-plan` (linha de produto ou receita 
 - Entregável por quantidade e sob demanda, nunca por frequência fixa (padrão do squad).
 - EHT é exclusiva de verdade; experiência que se compra igual em outro lugar não é EHT.
 - Nada de prometer resultado do PA que depende do negócio do cliente sem escrever essa dependência.
-- Envio de oferta a lead ou aluno só com OK do estrategista; o squad produz rascunho.
+- Envio de oferta a lead ou aluno só com OK da pessoa ("posso enviar?"); o squad produz rascunho.
 - Padrões aplicáveis (editáveis em `padroes` do perfil): referência de preço do AR para abatimento vem de 02-oferta (5x a 10x a
   média do nicho); dupla +50%, se a CI ou EHT admitir dupla; o AR é de 12 meses, ajustável de 11 a 13 (complementar não muda a
   duração do AR).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que a skill decide e lista em "Assumi"
 
-Sempre em opções a/b/c com prós, contras e custo:
-- **Criar ou não** o complementar agora (custo de oportunidade frente ao AR).
-- **Preço** da CI, do PA e da EHT, e **regra de abatimento** da CI no AR (integral, parcial, com prazo).
-- **Vagas** e corte de entrada da EHT; verba e fornecedores.
-- **PA como produto principal** (exceção da palestra) ou PA para um cliente específico de alto valor.
-- Quem entrega (expert ou time) quando isso muda a promessa.
+Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em "Assumi: X, Y, Z (é só pedir para mudar)"; vira oficial na aprovação do plano. Verba e fornecedores (gasto) pedem o OK simples ("posso seguir?"):
+- **Criar ou não** o complementar agora (custo de oportunidade frente ao AR): criar só se houver motivo declarado.
+- **Preço** da CI, do PA e da EHT, e **regra de abatimento** da CI no AR: propor pelo padrão (abatimento integral, com prazo) e listar em "Assumi".
+- **Vagas** e corte de entrada da EHT: propor pela capacidade; verba e fornecedores pedem o OK simples.
+- **PA como produto principal** (exceção da palestra) ou PA para um cliente específico de alto valor: padrão = PA só sob pedido de cliente.
+- Quem entrega (expert ou time) quando isso muda a promessa: padrão = o expert, listado em "Assumi".
 
 ## 6. Critério de pronto e auditoria final
 
 **Critério de pronto**
 - [ ] Cada produto tem motivo declarado e lugar no portfólio.
-- [ ] CI: problema único, teste da roda feito, formato, quem entrega, saída escrita, pitch do AR e regra de abatimento em opções.
+- [ ] CI: problema único, teste da roda feito, formato, quem entrega, saída escrita, pitch do AR e regra de abatimento propostos pelo padrão.
 - [ ] PA: escopo, não incluso, critério de aceite, prazo, briefing, estrutura do termo, dependências do cliente, teto simultâneo.
 - [ ] EHT: conceito exclusivo, público e corte, vagas, agenda, custo por pessoa, onde vende, ligação com o AR.
-- [ ] Preços e condições apresentados como opções, com fonte de qualquer número citado.
+- [ ] Preços e condições propostos pelo padrão e listados em "Assumi", com fonte de qualquer número citado.
 - [ ] Impacto no Master Plan e no caixa indicado.
-- [ ] Bloco de entrega preenchido (evidência, números, decisões, lacunas).
+- [ ] Bloco de entrega preenchido (evidência, números, "Assumi", lacunas).
 
 **Auditoria final (erros típicos)**
 1. CI que vende algo que deveria estar dentro do AR.
@@ -145,7 +145,7 @@ Sempre em opções a/b/c com prós, contras e custo:
 6. EHT que não é exclusiva, sem corte de entrada, ou com custo não calculado.
 7. Complementar criado sem motivo, tirando foco do AR que ainda não validou 20 sessões.
 8. Entregável por frequência fixa.
-9. Preço ou abatimento decidido pelo agente em vez de levado ao estrategista.
+9. Preço ou abatimento fora do padrão, ou ausente do "Assumi", ou tratado como oficial antes da Aprovação 1.
 10. Número de caso de aula usado como promessa de conversão.
 
 ## 7. Saída e handoff
@@ -173,4 +173,4 @@ criar-consultoria-individual-ci, criar-experiencia-high-ticket-eht) do catálogo
 **Lacunas**: o FHT não detalha roteiro próprio da CI (o roteiro em `references/fichas-ci-pa-eht.md` é modelo do squad); não há
 modelo de contrato ou termo do peixe assado nos materiais (só a orientação de briefing, prazo e termo); a regra de abatimento
 só aparece em um exemplo; tempo por aluno do PA da FHT e preços de EHT têm ruído de legenda (conferir). A renovação da EHT
-deixou de ser lacuna: não renova (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`).
+deixou de ser lacuna: não renova (padrão recomendado; a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`).

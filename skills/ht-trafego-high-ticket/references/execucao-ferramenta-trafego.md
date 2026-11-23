@@ -1,7 +1,9 @@
 # Execução pela ferramenta de tráfego do perfil
 
 A ferramenta que sobe e lê campanha é a do perfil (`trafego.ferramenta` em `~/.config/squad-ht/perfil.md`): Meta Ads CLI
-oficial, Gerenciador de Anúncios manual ou outra CLI. Os comandos abaixo são **exemplos com a Meta Ads CLI oficial**
+oficial ou outra CLI. **Sem ferramenta definida (ou sem perfil), o padrão é o Gerenciador de Anúncios à mão**: o agente entrega a
+campanha especificada campo a campo, com o passo a passo curto e o checklist do que conferir na tela, e nunca exige CLI, token
+nem login. Os comandos abaixo são **exemplos com a Meta Ads CLI oficial**
 (`meta --output json ads ...`); a sintaxe muda entre versões, então conferir sempre com `meta ads <recurso> <ação> --help`.
 Sintaxe e armadilhas: o `--help` da CLI e a skill `meta-ads-cli-turbo`. Com o Gerenciador manual, o roteiro é o mesmo: mesmos campos, mesma ordem, mesma conferência.
 
