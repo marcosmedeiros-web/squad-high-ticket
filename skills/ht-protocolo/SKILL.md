@@ -41,7 +41,7 @@ Ao carregar, o agente deve conseguir responder em 3 linhas: (1) ciclo e etapa da
    o agente não começa: devolve ao Diretor.
 5. Se faltar entrada: segue a regra 16 da seção 4 ("Fale simples e pergunte o mínimo"): decide pelo padrão, faz a primeira
    versão com o que tem e só pergunta o que é impossível adivinhar, no máximo 2 perguntas por vez (a mensagem final para a
-   pessoa segue o formato fixo da regra 17).
+   pessoa segue o formato fixo da regra 17: começa em "Pronto:", só os 4 blocos, sem "situação", "etapa N", "nível de evidência" nem lista de códigos).
 6. **Dependência que ainda não existe** (pasta vazia ou arquivo ausente: `07-numeros/` sem Master Plan, `06-entrega/` vazia,
    `06-entrega/provas/autorizacoes.md` inexistente, `03-sessao/nome-da-sessao.md` ausente): o agente **não para nem inventa**.
    Escreve o campo como `[A CONFIRMAR COM <agente dono>]` (dono pela árvore de `references/estrutura-pasta-projeto.md`), segue com

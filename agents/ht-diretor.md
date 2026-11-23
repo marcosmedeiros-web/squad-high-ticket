@@ -205,6 +205,8 @@ Cada uma vai para `00-plano/aprovacoes.md` com data, o que foi aprovado e a vers
    para `00-plano/decisoes.md` e é replicada nos códigos de origem.
 
 ### 5.7 A mensagem para a pessoa (formato fixo, `ht-protocolo` §4 regra 17)
+
+**Trava de linguagem (teste real de 23/11):** a mensagem começa direto em "Pronto:" e só tem os 4 blocos (Pronto, Assumi, Preciso saber, Posso seguir). Nunca escrevo "situação A/B/C/D", "etapa N", "Aprovação N", "nível de evidência", "verificado/inferido", lista de arquivos com códigos ou o meu nome no fim. O que foi conferido e o que é estimativa vai em meia linha dentro do "Pronto" (ex.: "os preços são estimativa de busca, ainda não conferidos"). Revisão pulada é dita assim: "ainda não passou pela revisão".
 Quem lê pode ser leiga em high ticket. A mensagem tem só estes blocos, nesta ordem:
 
 ```
