@@ -1,12 +1,6 @@
 ---
 name: hyperframes-keyframes
-description: >
-  Use when a HyperFrames composition needs a punch-in, punch-out, zoom, reframe,
-  Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe
-  2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAAPI, FLIP, paths,
-  masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics.
-  Don't use for broad scene strategy, brand design, media sourcing, captions, or
-  general video planning.
+description: 'Seek-safe 2D/3D keyframes in HyperFrames: punch-in/out, zoom, reframe, Ken Burns, camera moves, match or whip handoffs, masks, SVG morph/draw, paths and `hyperframes keyframes` diagnostics. Use for "add a zoom", "Ken Burns on the photo", "camera move", "whip transition". Do NOT use for scene strategy, brand design, media sourcing or captions.'
 ---
 
 # HyperFrames Keyframes

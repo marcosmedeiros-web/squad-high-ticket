@@ -190,7 +190,7 @@ Arquivo `00-plano/pedidos/<AAAA-MM-DD>-<nn>-<skill>.md`:
 - Objetivo: <o que fica pronto, em 1 frase>
 - Entradas (ler antes): <arquivos com caminho; versão de 02-oferta usada>
 - Saída esperada: <artefato, formato, onde gravar>
-- Restrições: <decisões que se aplicam, o que não pode; nunca "ler material de LPSG" como régua de método>
+- Restrições: <decisões que se aplicam, o que não pode; nunca "ler material de lançamento pago" como régua de método>
 - Variáveis compartilhadas (copiadas de `00-plano/variaveis.md`, com a data da versão; obrigatório quando há pedido paralelo):
   - Nome do programa: <…>            Promessa / Roma: <…>
   - Big Idea da ação: <… ou "não se aplica">
@@ -228,7 +228,7 @@ Arquivo na subpasta do agente, `<AAAA-MM-DD>-<nn>-entrega.md`, ao lado do artefa
 O agente que entregou grava o pedido em `12-revisoes/pedidos/<AAAA-MM-DD>-<nn>-pedido-revisao.md` (número do pedido, revisor,
 caminho da entrega e dos artefatos, o que conferir). O revisor grava o parecer em `12-revisoes/<AAAA-MM-DD>-<nn>-parecer.md`
 (texto) ou `-parecer-visual.md` (peça, com prints em `12-revisoes/prints/<nn>/`): veredito (aprovado / aprovado com ajustes / reprovado),
-achados numerados com trecho e correção, checagem de método FHT, de copy (anti-IA, anti-bajulação) e de compliance Meta quando
+achados numerados com trecho e correção, checagem de método do Squad HT, de copy (anti-IA, anti-bajulação) e de compliance Meta quando
 for anúncio. Reprovado volta ao agente com o mesmo número de pedido. Aprovado segue ao Diretor, que leva ao estrategista.
 
 ### 3.4 Estados de um artefato

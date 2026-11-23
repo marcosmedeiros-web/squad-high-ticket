@@ -1,16 +1,13 @@
 # Métricas de criativo e ciclo de troca
 
-Fonte: trilha 13 `RESUMO-criativos.md` §3.2, §3.10, §4, §7, §8 e aula 30; catálogo `fht-metricas-de-criativo` e
-`fht-ciclo-de-producao-de-criativos`. Números são referência; a meta do expert vira o histórico da própria conta.
-
 ## 1. Painel (colunas personalizadas no gerenciador)
 
 | Métrica | Fórmula | Referência | Lê o quê |
 |---|---|---|---|
-| Hook rate | reproduções de 3 s ÷ impressões | > 30% (criativo saturado do professor caiu a ~12%) | o gancho |
+| Hook rate | reproduções de 3 s ÷ impressões | > 30% (criativo saturado caiu a ~12%) | o gancho |
 | Hold rate | reproduções de 50% ÷ impressões | benchmark confuso na legenda (conferir); usar a média do expert | o corpo |
 | Retenção 25/50/75/95% | curva de visualização | queda forte entre dois pontos = trecho a trocar | onde a pessoa sai |
-| CTR do link | cliques no link ÷ impressões | ≥ 1% na régua de captação; média do professor ~0,7% em público premium | promessa e CTA |
+| CTR do link | cliques no link ÷ impressões | ≥ 1% na régua de captação; média de referência ~0,7% em público premium | promessa e CTA |
 | Visitas ao perfil | do anúncio | - | lead que entra pelo orgânico (o pago leva, o orgânico leva o crédito) |
 | CPM | custo por mil | menor quando o gancho retém | qualidade percebida pelo leilão |
 | CPL / custo por agendamento | - | meta do plano de tráfego | se o criativo traz o avatar certo |

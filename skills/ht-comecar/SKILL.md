@@ -1,6 +1,6 @@
 ---
 name: ht-comecar
-description: 'Mostra, em linguagem simples e curta, o que o Squad HT faz e como pedir: o time com os nomes de cada agente, exemplos de pedidos prontos para copiar, como chamar pelo nome ou pela skill, e que nada vai para fora sem o seu OK. Não pergunta nada e não precisa configurar nada. Acionar com "o que o squad high ticket faz", "como uso o squad HT", "acabei de instalar o squad", "por onde começo no HT", "me mostra o squad HT". NÃO usar para montar o HT de um expert (isso é o ht-diretor) nem para mudar configuração (isso só se a pessoa pedir "personaliza o squad").'
+description: 'Mostra em linguagem simples o que o Squad HT faz, o time com os nomes, pedidos prontos para copiar e que nada sai sem o seu OK. Não pergunta nada. Use em "o que o squad HT faz", "como uso o squad HT", "acabei de instalar o squad", "por onde começo". NÃO usar para montar o HT de um expert (ht-diretor) nem para personalizar.'
 ---
 
 # Começar com o Squad HT

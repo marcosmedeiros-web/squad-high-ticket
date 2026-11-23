@@ -1,11 +1,10 @@
 # Voz, prosódia, ensaio e auditoria de palco
 
-## 1. Voz e prosódia (o que as fontes trazem)
+## 1. Voz e prosódia
 
-O material FHT sobre voz é fino: a palestra de Cida Stier (encontro fev/2026) só tem slides conceituais, sem passo a passo:
+O material do método sobre voz é fino: há só conceito, sem passo a passo:
 comunicação = o que falar (verbal) + como falar (paraverbal); prosódia = ênfase, ritmo, pausa e entonação; é competência
-treinável. O restante abaixo vem de orientações de execução espalhadas nas aulas de pitch (trilha 18 aula 11, fev/2026 aulas
-43 e 40, Live 028). Não é método de fonoaudiologia; para treino de voz de verdade, indicar profissional.
+treinável. O restante abaixo vem de orientações de execução espalhadas no método de pitch. Não é método de fonoaudiologia; para treino de voz de verdade, indicar profissional.
 
 ## 2. Checklist de ensaio (rodar com o expert antes do evento)
 
@@ -59,7 +58,7 @@ Dia 3 e fim
 14. Re-pitch emocional com desapego? Palestra de decisões com 3 As? Downsell 2 a 3 h antes do fim, ticket baixo, sem ingresso grátis?
 15. Encerramentos sem oferta nova além da prevista?
 
-Cobertura dos laboratórios fev/2026 (aulas 44, 47 e 50)
+Cobertura dos laboratórios
 18. Talk: obstáculos com caso de aluno (foto, nome, idade, cidade, resultado), promessa específica, ciclo dos 4 Es (IMI/online),
     "não é evento leve" seguido do que a pessoa leva, nada que jogue contra o expert, números coerentes entre slides?
 19. Pré-pitch: história da variável (sem biografia), gancho "como faço com meus alunos" → "como você faz sozinho", sem "o que não é"?
@@ -70,4 +69,4 @@ Cobertura dos laboratórios fev/2026 (aulas 44, 47 e 50)
 
 Compliance e integridade
 23. Nenhuma promessa de resultado garantido; números de alunos com evidência; depoimento com autorização registrada.
-24. Nenhum número de aula usado como se fosse do expert.
+24. Nenhum número de referência usado como se fosse do expert.

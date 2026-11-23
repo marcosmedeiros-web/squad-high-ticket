@@ -1,9 +1,9 @@
 ---
 name: ht-webinario-de-vendas
-description: 'Webinário de vendas do Squad High Ticket (método FHT). Monta o webinário recorrente (semanal ou quinzenal) que vende o HT por aplicação ou call, não por checkout, em duas variantes da FHT: o webinário com apresentador (abertura, aula e pitch de ~90 min, dúvidas) e o ciclo de 2 aulas com Score de Risco (aula 1 diagnóstico, aula 2 mapa e oferta). Entrega plano do ciclo, roteiro bloco a bloco, pitch para aplicação/call, captação qualificadora, confirmação, operação comercial pós-live, painel de métricas e plano anti-saturação. Use quando o estrategista disser "quero um webinário pra vender a mentoria", "monta o webinário semanal", "aula 1 e aula 2 com score de risco", "meu webinário saturou". NÃO usar para aula semanal sem oferta (ht-aula-semanal), live direto ao ponto (ht-live-direto-ao-ponto), imersão, nem lançamento pago semanal/5+1 (Turbo).'
+description: 'Monta o webinário recorrente que vende o HT por aplicação ou call: variante com apresentador (~90 min) ou ciclo de 2 aulas com Score de Risco. Entrega roteiro, pitch, captação, operação pós-live, métricas e anti-saturação. Use para "monta o webinário semanal", "score de risco", "meu webinário saturou". NÃO use para live direto ao ponto nem imersão.'
 ---
 
-# Webinário de vendas HT (método FHT)
+# Webinário de vendas HT
 
 ## 1. Para que serve e o que entrega
 
@@ -12,14 +12,14 @@ que o time comercial fecha. É replicável e simples (de casa ou do hotel; depoi
 É um canal entre vários (sessão 1a1, imersões), útil quando a oferta já foi validada em 1a1 e o expert quer escala sem evento.
 
 Duas variantes do método:
-- **A. Webinário com apresentador** (palestra de webinários semanais, fev/2026): apresentador (2 min) + vídeo de abertura
+- **A. Webinário com apresentador** (modelo semanal): apresentador (2 min) + vídeo de abertura
   (2 min) + aula e pitch do expert (~90 min) + apresentador tirando dúvidas de inscrição (~10 min).
-- **B. Ciclo de 2 aulas com Score de Risco** (palestra "R$ 500 mil a cada 15 dias", fev/2026): duas aulas longas no Zoom em
+- **B. Ciclo de 2 aulas com Score de Risco** (modelo quinzenal): duas aulas longas no Zoom em
   dias seguidos, a cada 15 dias, sem parar o tráfego; aula 1 é o diagnóstico (laudo de risco), aula 2 é o mapa, a oferta e a
-  decisão; quem dá entrada faz entrevista de qualificação. **Atenção à fonte:** os slides chamam o ciclo de "lançamento pago a
+  decisão; quem dá entrada faz entrevista de qualificação. **Atenção:** o modelo chama o ciclo de "lançamento pago a
   cada 15 dias" e a tese é comprar atenção aceitando prejuízo planejado no front-end (entrada paga) para vender o HT depois.
-  Não é o lançamento pago semanal da Turbo (não tem 5+1, a oferta é a do AR com o pitch do FHT), mas a entrada das 2 aulas
-  (paga ou gratuita) é decisão do estrategista (seção 5); se for paga, a captação é de Vendas/Purchase, não de Leads.
+  Não é um lançamento pago de evento (a oferta é a do AR com o pitch do método), mas a entrada das 2 aulas
+  (paga ou gratuita) assumo pelo padrão e listo em "Assumi" (seção 5); se for paga, a captação é de Vendas/Purchase, não de Leads.
 
 **Entrega** (em `experts/<slug>/ht/05-eventos/AAAA-MM-webinario-<nome>/`, dono: ht-produtor-eventos):
 1. **Plano do ciclo**: variante, cadência, datas, promessa e nome, meta de leads/presentes/aplicações/calls/vendas (conta de trás
@@ -42,12 +42,12 @@ Duas variantes do método:
 3. Entradas obrigatórias e perguntas (máximo 3):
    - "Quem fecha as calls e quantas por semana o time aguenta?" (capacidade define o teto do webinário)
    - "Variante A (aula + pitch numa live) ou B (2 aulas com Score de Risco)? Semanal ou quinzenal?"
-   - "O preço aparece no webinário ou só na call?" (decisão do estrategista, seção 5)
+   - "O preço aparece no webinário ou só na call?" (assumo o padrão e listo em "Assumi", seção 5)
 
 ## 3. Passo a passo
 
 ### Passo 1. Decidir variante, cadência e capacidade
-- Começar **quinzenal**, não semanal; fazer **ao vivo muitas vezes antes de automatizar** (pulos do gato da palestra).
+- Começar **quinzenal**, não semanal; fazer **ao vivo muitas vezes antes de automatizar**.
 - Variante A para nichos em que uma aula + pitch basta para levar à call; variante B quando a decisão é pesada e o avatar precisa
   enxergar o risco de errar sozinho antes de ouvir a oferta.
 - Capacidade comercial: calls esperadas = presentes × 10% (agendam) × 80% (comparecem). Se o time não absorve, reduzir captação
@@ -56,7 +56,7 @@ Duas variantes do método:
 ### Passo 2. Conta de trás para frente
 `references/metricas-e-saturacao.md` §1. Vendas desejadas → calls (÷ 40% de conversão) → agendamentos (÷ 80%) → presentes
 (÷ 10%) → inscritos (÷ 15% a 25% de comparecimento) → leads qualificados (≥ 40% dos inscritos) → verba (× CPL histórico).
-Todos esses percentuais são de uma palestra (mercado LATAM, tickets de ~R$ 10 a 20 mil): **referência**, trocar pelo dado
+Todos esses percentuais são de um caso de referência (mercado LATAM, tickets de ~R$ 10 a 20 mil): **referência**, trocar pelo dado
 próprio depois de 2 ou 3 webinários.
 
 ### Passo 3. Promessa, nome e captação qualificadora
@@ -76,7 +76,7 @@ próprio depois de 2 ou 3 webinários.
 - **Variante B** (`references/ciclo-2-aulas-score-de-risco.md`): aula 1 diagnóstico (5 pilares do Score de Risco = 5 objeções,
   vazio intencional, filtro do avatar de maior potencial) e aula 2 mapa (revisão, "o que eu vendo de verdade", planos A/B/C,
   pré-pitch, pitch, decisão, silêncio).
-- O pitch segue o pitch do FHT (`ht-palestras-e-pitch`), adaptado: o CTA é **aplicar ou agendar**, não comprar. Variante de
+- O pitch segue o pitch do método (`ht-palestras-e-pitch`), adaptado: o CTA é **aplicar ou agendar**, não comprar. Variante de
   pitch para call em 3 tempos (antecipação com escassez real, história, oferta da reunião com o especialista) em
   `references/roteiro-e-operacao.md` §2.
 - Responder dúvidas no chat até o fim (a variante B fecha muito dentro da própria live).
@@ -105,26 +105,22 @@ próprio depois de 2 ou 3 webinários.
 - Conteúdo quebra objeção e mostra o "o quê" e o "porquê", nunca o "como" completo (quem sai saciado não aplica).
 - Preço, entrada, parcelas, bônus e garantia saem de `02-oferta/`; nada é improvisado no ao vivo.
 - Escassez real (vagas = capacidade de entrega e de agenda); nada de urgência fabricada.
-- Integridade na decisão: a palestra da variante B usa uma moldura de responsabilidade moral e família no fechamento; o
-  catálogo alerta que isso exige cuidado. Nesta skill: falar do custo real de continuar no mesmo lugar, sem culpa nem medo
+- Integridade na decisão: o modelo da variante B usa uma moldura de responsabilidade moral e família no fechamento; isso
+  exige cuidado. Nesta skill: falar do custo real de continuar no mesmo lugar, sem culpa nem medo
   manipulado, e nunca em tema de saúde ou dívida de forma que constranja.
 - Replay: a fonte não traz regra para webinário; não liberar replay por padrão e levar a decisão ao estrategista (seção 5).
 - Não misturar com a aula semanal (que não tem oferta) nem com o SHT (venda direta para lista com demanda reprimida).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-- **Preço no webinário ou só na call**: a) preço só na call, com inscrição para a call aberta a quem quer saber (recomendo no
-  começo; uma palestra de jun/2026 relata que abrir a call para quem queria saber o preço lotou a agenda) · b) preço dito no
-  pitch com planos (variante B mostra investimento e planos no Dia D) · c) faixa de investimento sem o número.
-- **Variante e cadência** (A x B; semanal x quinzenal) e dias da semana.
-- **Entrada das aulas da variante B** (mesma lógica da entrada de evento, decisão do estrategista): a) gratuita com cadastro qualificado (Leads; mais volume, menos
-  compromisso; é a forma da variante A) · b) paga, como no case dos slides (Vendas/Purchase; o ingresso paga parte do tráfego e
-  filtra, mas exige página de venda, checkout e aceitar prejuízo no front) · c) credencial de baixo valor. Sem a escolha
-  escrita do estrategista, a skill não monta a captação da variante B.
-- **Ao vivo x gravado** e quando automatizar.
-- **Replay**: sem replay (força presença) x replay curto para inscritos.
-- **Verba de captação** por edição e ativação das campanhas.
-- **Oferta em 3 planos** (A/B/C) só se `02-oferta/` tiver os três aprovados.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Preço no webinário ou só na call**: padrão preço só na call, com inscrição aberta a quem quer saber (num caso de referência, abrir a call para quem queria saber o preço lotou a agenda). Preço no pitch com planos (variante B) e faixa sem o número ficam como alternativa.
+- **Variante e cadência**: assume a variante A, semanal.
+- **Entrada das aulas da variante B**: padrão gratuita com cadastro qualificado (Leads; mais volume); paga (Vendas/Purchase: filtra e paga parte do tráfego, mas exige página de venda, checkout e aceitar prejuízo no front) ou credencial de baixo valor ficam como alternativa. Ingresso pago é preço: "posso seguir?".
+- **Ao vivo x gravado**: assume ao vivo nas primeiras edições; automatiza quando o pitch estiver validado.
+- **Replay**: padrão sem replay (força presença).
+- **Verba de captação e ativação das campanhas**: "posso seguir?".
+- **Oferta em 3 planos** (A/B/C): só se `02-oferta/` tiver os três aprovados.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -157,23 +153,11 @@ próprio depois de 2 ou 3 webinários.
 
 ## 8. Ferramentas de apoio
 
-`gerador-slides-turbo` ou `slides-uipm-turbo` (slides da aula), `hyperframes` ou `remotion` (vídeo de abertura),
+`gerador-slides` ou `slides-uipm` (slides da aula), `hyperframes` ou `remotion` (vídeo de abertura),
 `lower-thirds` (nome do expert e apresentador), `countdown-video` (lembrete "é hoje"), `email-marketing-mautic` e
-`automacao-fluxos` (confirmação e lembretes, só com OK), `anthropic-skills:xlsx` (painel), `transcrever-youtube-turbo` e `watch`
+`automacao-fluxos` (confirmação e lembretes, só com OK), `anthropic-skills:xlsx` (painel), `transcrever-youtube` e `watch`
 (rever gravação da edição para corte de trecho que derruba retenção).
 
-## 9. Fontes e lacunas
+## 9. Limites
 
-**Fontes:** `RESUMO-palestras-encontros-fht.md`, seções de fev/2026 "Webinários semanais para venda de HT no mercado Latam"
-(roteiro, 3 diferenças do lançamento, 5 pulos do gato, saturação, métricas, ferramentas) e "A arquitetura por trás de R$ 500 mil a
-cada 15 dias" (ciclo de 2 aulas, Score de Risco); jun/2026 "Os 3 funis que geraram ~R$ 700 mil" (pitch para call em 3 etapas,
-agendamento imediato, agenda condicional); catálogo `fht-webinario-semanal-ht` e `fht-webinar-2-aulas-score-de-risco`;
-padrões do squad.
-
-**Lacunas (não inventar):** as duas palestras só têm **slides** (o vídeo não tem transcrição): exemplos de comunicação
-qualificadora, ecossistema típico, slides de engenharia reversa e de pré-pitch da variante B estão em imagem; não há roteiro
-falado do pitch do webinário nem texto de lembretes; os números são de mercado LATAM e de cases do palestrante (tickets de
-US$ 2 a 3 mil), não do Brasil; não há regra sobre replay; o "filtro do milhão" é descrito só no título do slide; o preço e a
-forma de cobrança da entrada da variante B não estão nos slides (só "lançamento pago" e "prejuízo planejado no front").
-Conferido na revisão de 23/11: os arquivos das palestras de fev/2026 e jun/2026 em `trilhas/23-materiais-extras/` estão
-vazios (sem transcrição); esta skill continua apoiada só no resumo dos slides.
+**Não inventar:** não há roteiro falado do pitch do webinário nem texto de lembretes; os números são de mercado LATAM e de cases (tickets de US$ 2 a 3 mil), não do Brasil; não há regra sobre replay; o preço e a forma de cobrança da entrada da variante B não estão definidos (só "lançamento pago" e "prejuízo planejado no front").

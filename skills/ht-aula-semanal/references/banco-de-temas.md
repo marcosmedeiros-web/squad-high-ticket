@@ -1,8 +1,8 @@
 # Banco de temas da aula semanal
 
-Marcação: **[FHT]** = do material; **[proposta da skill]** = organização desta skill.
+Marcação: **[método]** = do material; **[proposta da skill]** = organização desta skill.
 
-## 1. O que o tema faz [FHT]
+## 1. O que o tema faz [método]
 1. Atrai o público certo (específico = qualificado).
 2. Sobe o nível de consciência sobre o problema e a necessidade da solução.
 3. Aprofunda relacionamento e autoridade.
@@ -11,20 +11,20 @@ O tema da semana vai para o grupo de avisos e para o título da live; a página 
 ## 2. Entradas
 Nicho, subnicho, avatar, definição do AR (de `02-oferta/`), nível de consciência do público, se o expert já vende, 4 âncoras
 (de `01-pesquisa/`), perguntas do chat e respostas "o que você acredita que é sua dificuldade" da pesquisa de avatar.
-Tema alucinado pela IA costuma ser sinal de definição do AR pouco clara na entrada. [FHT]
+Tema alucinado pela IA costuma ser sinal de definição do AR pouco clara na entrada. [método]
 
-## 3. Fontes de tema [FHT, rota 3 e trilha 14]
+## 3. Fontes de tema [método]
 1. **AlsoAsked** (2 buscas grátis por dia): palavra-chave principal, português, Brasil. Filtrar o que é do avatar do HT.
 2. **Busca do YouTube** em aba anônima, ordenar por visualizações; copiar os títulos mais vistos do nicho (fórmula
-   Tema-Thumb-Ranking da live 013). Temas anuais ("em 2027") podem ser republicados todo ano, publicados antes da virada.
+   Tema-Thumb-Ranking do método). Temas anuais ("em 2027") podem ser republicados todo ano, publicados antes da virada.
 3. **Planejador de palavras-chave do Google**: valida volume (opcional).
 4. **IA** com curadoria humana (prompts na seção 6).
 5. **Público**: perguntas do chat, sugestões de tema do NPS, dúvidas da pesquisa de avatar.
 6. **Referências do nicho**: aulas de quem fala com o mesmo avatar.
-7. Temas que o expert precisa estudar ou palestras que vai preparar: a aula vira laboratório (live 013).
+7. Temas que o expert precisa estudar ou palestras que vai preparar: a aula vira laboratório.
 Assunto quente do nicho entra numa semana avulsa.
 
-## 4. Regras de curadoria [FHT]
+## 4. Regras de curadoria [método]
 - Começar por "Como…" (aproveita a busca) e por fundo de funil (o passo que o avatar quer dar agora).
 - O título não entrega a resposta ("por que X causa Y" a pessoa acha que já sabe).
 - Incluir temas de **objeção** e de **oportunidade** (o que o avatar não sabe que precisa, o impacto de não olhar para o problema).
@@ -43,7 +43,7 @@ Assunto quente do nicho entra numa semana avulsa.
 
 Mínimo 12 (3 meses), meta 24 agora (6 meses), ordem das próximas 4 aulas marcada. Planilha: `anthropic-skills:xlsx`.
 
-## 6. Prompts de rascunho [proposta da skill; não é o GPT da FHT, que não está nos arquivos]
+## 6. Prompts de rascunho [proposta da skill; não é um GPT pronto]
 
 **Gerar**
 ```

@@ -1,6 +1,6 @@
 ---
 name: ht-avaliacao-de-reunioes-por-ia
-description: 'Squad High Ticket / método FHT (trilha 15, IA no HT). Decide se a operação está pronta e desenha, monta e calibra a avaliação automática de 100% das reuniões de entrega e de venda: Fireflies grava e transcreve, n8n busca a transcrição, IA 1 avalia etapa por etapa (cumprida, parcial, não cumprida, com timestamp, em JSON), IA 2 dá nota 0-100 ponderada e resumo, Google Sheets registra, Error Trigger e alerta de nota baixa (< 70) avisam o gestor. Inclui prompts de sessão de diagnóstico e de sessão 1a1 de venda, avaliação de mentor e closer por bloco, custos e infra. Use quando o estrategista disser "avaliar as reuniões com IA", "montar o fluxo Fireflies n8n", "prompt de avaliação da sessão", "nota baixa do mentor", "auditar calls do closer". Nada envia mensagem nem liga sem OK do estrategista. NÃO usar para automação de lead da Turbo.'
+description: 'Desenha e calibra a avaliação automática das reuniões de entrega e de venda: Fireflies, n8n, IA que avalia etapa por etapa com timestamp, nota 0-100, planilha e alerta de nota baixa. Use para "avaliar reuniões com IA", "fluxo Fireflies n8n", "prompt de avaliação da sessão", "nota baixa do mentor". Nada envia sem OK. NÃO usar para automação de lead.'
 ---
 
 # Avaliação de reuniões por IA
@@ -8,8 +8,8 @@ description: 'Squad High Ticket / método FHT (trilha 15, IA no HT). Decide se a
 ## 1. Para que serve e o que entrega
 
 Garante a qualidade quando o expert delega a entrega a mentores ou a venda a closers: toda reunião é avaliada contra o roteiro
-oficial assim que termina, e o gestor só assiste às poucas que tiram nota baixa (no FHT, corta 80% a 90% das avaliações manuais;
-número de aula). Não gera venda: só faz sentido em operação que já vende e já tem método escrito.
+oficial assim que termina, e o gestor só assiste às poucas que tiram nota baixa (no método, corta 80% a 90% das avaliações manuais;
+números de referência). Não gera venda: só faz sentido em operação que já vende e já tem método escrito.
 
 **Entrega** (conforme o pedido), em `experts/<slug>/ht/11-automacoes/avaliacao-reunioes/`:
 1. `prontidao.md`: diagnóstico dos pré-requisitos (sim/não com evidência) e recomendação "montar agora / ainda não".
@@ -25,9 +25,9 @@ número de aula). Não gera venda: só faz sentido em operação que já vende e
 - Carregar `ht-protocolo`. Pedido do Diretor conferido.
 - Ler: `06-entrega/` (manual de entregáveis, roteiro de cada entregável, mentores), `03-sessao/` (roteiro oficial da sessão 1a1,
   Raio-X, deck), `02-oferta/` (o que o mentor e o closer podem prometer), `11-automacoes/` (o que já existe), `13-aprendizados/`.
-- **Pré-requisitos do método** (aula 1 e 2): oferta encaixada, já vende bem, metodologia clara, **manual de entregáveis escrito**
-  (do bootcamp de entrega) e intenção de delegar. Se faltar o manual ou o roteiro, a skill para e devolve ao Diretor: "automação sem
-  clareza não funciona" (paráfrase do professor). Próximo passo vira ht-escala-da-entrega ou ht-roteiro-sessao-1a1.
+- **Pré-requisitos do método**: oferta encaixada, já vende bem, metodologia clara, **manual de entregáveis escrito**
+  (manual de entregáveis) e intenção de delegar. Se faltar o manual ou o roteiro, a skill para e devolve ao Diretor: "automação sem
+  clareza não funciona". Próximo passo vira ht-escala-da-entrega ou ht-roteiro-sessao-1a1.
 - Entradas obrigatórias: tipo(s) de reunião a avaliar, roteiro/manual de cada um, plataforma de reunião (Meet, Zoom, Teams), quem
   recebe o alerta. Se faltar, no máximo 3 perguntas:
   1. Quais reuniões vamos avaliar primeiro (o entregável gargalo ou a sessão de venda)?
@@ -40,7 +40,7 @@ número de aula). Não gera venda: só faz sentido em operação que já vende e
 Checklist em `references/arquitetura-e-custos.md`. Montar a lista de decisões (seção 5) antes de qualquer conta ser criada:
 contratação de ferramentas (gasto), canal de alerta, consentimento de gravação e envio de dados de reunião a terceiros.
 
-### Passo 2. Arquitetura (versão simples do FHT, do simples para o complexo)
+### Passo 2. Arquitetura (versão simples do método, do simples para o complexo)
 1. Reunião no Meet, Zoom ou Teams (Google Calendar facilita: o gravador entra sozinho).
 2. **Fireflies** entra como participante, grava e transcreve (conta gratuita basta; idioma português; reunião com menos de 5 min não
    grava).
@@ -56,44 +56,44 @@ contratação de ferramentas (gasto), canal de alerta, consentimento de gravaç�
 11. **Google Sheets, Append or Update Row** casando pelo nome da reunião: grava nota e resumo.
 12. Extra: **If** nota < 70 → alerta ao gestor com nota, reunião, link e participantes. Fluxo separado com **Error Trigger** avisa
     quando o fluxo quebra.
-Duas IAs rendem mais que uma (o professor testou juntar e a qualidade caiu); pode-se testar juntar depois. Entrega e venda usam o
-mesmo fluxo com prompt e planilha diferentes (separar por tipo com nó **Switch**; o material só cita, não ensina).
-Passo a passo de cada nó, com as configurações ditas em aula: `references/montagem-n8n-fireflies.md`.
+Duas IAs rendem mais que uma (o método testou juntar e a qualidade caiu); pode-se testar juntar depois. Entrega e venda usam o
+mesmo fluxo com prompt e planilha diferentes (separar por tipo com nó **Switch**).
+Passo a passo de cada nó, com as configurações de referência: `references/montagem-n8n-fireflies.md`.
 
 ### Passo 3. Prompts (o coração)
 Modelos em `references/prompts-de-avaliacao.md`.
 - **IA 1 (avaliação por etapa)**: papel de avaliador técnico que verifica se o mentor/closer cumpriu os critérios obrigatórios de
   cada etapa; responde só em português; usa os timestamps (minutos:segundos) para justificar parcial e não cumprida; classifica cada
   etapa em cumprida / parcial / não cumprida; saída em JSON com status e observação por etapa.
-- Cada etapa tem sub-itens obrigatórios tirados do manual de entregáveis (diagnóstico) ou do roteiro oficial (venda). No FHT, para o
+- Cada etapa tem sub-itens obrigatórios tirados do manual de entregáveis (diagnóstico) ou do roteiro oficial (venda). No método, para o
   diagnóstico: Apresentação, Visão estratégica, Jornada de sucesso, Oferta, Recap final, Próximos passos, Segunda call (sub-itens de
   Apresentação e Visão estratégica foram ditados; os demais saem do manual do expert).
-- **IA 2 (nota e resumo)**: nota 0 a 100 com peso por etapa. No diagnóstico do FHT, peso maior em Jornada de sucesso, Oferta e
+- **IA 2 (nota e resumo)**: nota 0 a 100 com peso por etapa. No diagnóstico do método, peso maior em Jornada de sucesso, Oferta e
   Recap; Apresentação perde no máximo 10 pontos. Para a sessão de venda, os pesos são proposta do squad a calibrar (referência).
 - Avaliação de pessoa (mentor ou closer) de 1 a 5 por bloco, com recomendações e alertas: autopromoção, oferta de produto de
-  terceiros, fechamento abrupto, desvalorização do aluno (palestra de encontro nov/2025).
+  terceiros, fechamento abrupto, desvalorização do aluno (referência).
 - Relatório pré-sessão (o que olhar no Raio-X antes da call) e avaliação pós-sessão contra o roteiro: mesmos insumos, outro prompt.
-- Escrever o prompt em Markdown (títulos com #, ##, ###). Base: o prompt do FHT + o manual do expert + uma transcrição real; pedir
+- Escrever o prompt em Markdown (títulos com #, ##, ###). Base: o prompt do método + o manual do expert + uma transcrição real; pedir
   a uma IA boa que adapte.
 
 ### Passo 4. Modelo de IA e custo
 - Conta de plataforma por API (pré-paga, por token), não assinatura de chat. Agregador citado: **OpenRouter** (uma chave, vários
-  modelos, preço sem acréscimo). Créditos iniciais de teste citados: US$ 5 a 10; chave com limite de gasto diário (exemplo de aula:
+  modelos, preço sem acréscimo). Créditos iniciais de teste citados: US$ 5 a 10; chave com limite de gasto diário (exemplo de referência:
   US$ 1/dia; em produção um pouco maior para não travar); 2FA ligado; sem recarga automática.
-- IA certa para a função: reunião longa pede modelo barato com contexto longo. A aula usou Gemini 2.5 Flash (contexto ~1 milhão de
+- IA certa para a função: reunião longa pede modelo barato com contexto longo. A referência usa Gemini 2.5 Flash (contexto ~1 milhão de
   tokens). Na hora de montar, conferir no comparador do OpenRouter o modelo atual equivalente (contexto, preço de entrada e saída,
   latência) e registrar a escolha em `arquitetura.md`.
-- Custo medido na aula 5 com o Gemini 2.5 Flash: reunião real completa com as duas IAs ficou em torno de US$ 0,03 a 0,04
+- Custo de referência com o Gemini 2.5 Flash: reunião real completa com as duas IAs ficou em torno de US$ 0,03 a 0,04
   (cerca de R$ 0,20; reunião mais longa ou prompt maior, R$ 0,30). A conta foi feita ao vivo com ruído de legenda: conferir na
-  conta real depois das primeiras execuções. O prompt de avaliação do FHT tinha ~1.300 tokens.
-- Se a qualidade não chegar lá depois de ajustar o prompt, a aula sugere trocar o Flash por um modelo mais forte da mesma
+  conta real depois das primeiras execuções. O prompt de avaliação do método tinha ~1.300 tokens.
+- Se a qualidade não chegar lá depois de ajustar o prompt, o método sugere trocar o Flash por um modelo mais forte da mesma
   família (ex. citado: Gemini 2.5 Pro); o refinamento vem primeiro do prompt, depois do modelo.
 - Infra: n8n nuvem (citado R$ 125/mês anual ou R$ 150/mês, 2.500 execuções; cada reunião = 1 execução) ou n8n num servidor próprio
-  (~R$ 35/mês, com manutenção própria). Para não-desenvolvedor, a aula recomenda nuvem. Se você já tem servidor próprio, é opção a
+  (~R$ 35/mês, com manutenção própria). Para não-desenvolvedor, o método recomenda nuvem. Se você já tem servidor próprio, é opção a
   avaliar com o estrategista.
 
 ### Passo 5. Planilha de avaliação
-Colunas (aula 5): nome da reunião, data, duração, participantes, link da transcrição, nota geral, resumo, e para cada etapa
+Colunas: nome da reunião, data, duração, participantes, link da transcrição, nota geral, resumo, e para cada etapa
 "status" e "observação". Uma aba por tipo (entrega, venda). A planilha precisa estar no Drive da conta Google conectada.
 Modelo em `references/planilha-e-alertas.md`.
 
@@ -111,8 +111,8 @@ Modelo em `references/planilha-e-alertas.md`.
 - **Error Trigger** em fluxo separado, ligado em Settings → Error Workflow do fluxo principal: mensagem com o erro e o nome do
   workflow.
 - **Nota baixa** (nó If, nota < 70, tipo número): mensagem com nota, reunião, link, participantes.
-- Canal citado em aula: WhatsApp por API não oficial (Z-API, ~R$ 100/mês por número; ou Evolution API em servidor próprio) só para alerta
-  interno de baixo volume; disparo em massa a cliente só pela API oficial. No squad, o canal do alerta é decisão do estrategista e o
+- Canal de referência: WhatsApp por API não oficial (Z-API, ~R$ 100/mês por número; ou Evolution API em servidor próprio) só para alerta
+  interno de baixo volume; disparo em massa a cliente só pela API oficial. No squad, o canal do alerta é decisão assumida no padrão, listada em "Assumi" e o
   destino é só a equipe interna.
 - Acompanhar as Executions (verdes e vermelhas) toda semana: é mais importante que ter criado o fluxo.
 
@@ -120,7 +120,7 @@ Modelo em `references/planilha-e-alertas.md`.
 - Toda interação com aluno é gravada e transcrita (cabeçalho: tipo, nicho, mentor, aluno, duração) e indexada na pasta do projeto.
 - Minerar: trecho do feedback do mentor para o Toque de Midas (ht-provas-e-cases), objeções reais (ht-objecoes), padrões de quem teve
   resultado (engenharia reversa), problemas recorrentes (planilha de Problemas e Oportunidades).
-- Corpus de referência do FHT (3.354 gravações da trilha 21, por tipo e nicho) é consultado pelo ht-consultor-casos, nunca copiado
+- Corpus de referência do método (por tipo e nicho) é consultado pelo ht-consultor-casos, nunca copiado
   com nome de aluno para fora.
 
 ## 4. Regras inegociáveis do método e do squad
@@ -136,21 +136,20 @@ Modelo em `references/planilha-e-alertas.md`.
 8. Chave de API (Fireflies, OpenRouter, Google, WhatsApp) nunca no chat, no prompt, no brief, em print ou em arquivo do projeto:
    vai direto no gerenciador de credenciais da ferramenta (ex.: Credentials do n8n), digitada pelo dono; o agente não lê nem mostra
    a chave.
-9. Conta e contratação de ferramenta (n8n pago, créditos de IA, Z-API) é gasto: decisão do estrategista; conta é criada pelo dono, nunca
+9. Conta e contratação de ferramenta (n8n pago, créditos de IA, Z-API) é gasto: decisão assumida no padrão, listada em "Assumi"; conta é criada pelo dono, nunca
    pelo agente.
 10. Dado de reunião é dado pessoal de aluno ou lead: fica na conta do projeto; nada de transcrição em material público.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-1. **Ferramentas e gasto**: a) n8n nuvem (simples, ~R$ 125-150/mês citado); b) n8n em servidor próprio (mais barato, manutenção
-   própria); c) adiar. Créditos de IA e limite diário da chave.
-2. **Consentimento**: como avisar mentores, closers, alunos e leads que a reunião é gravada e analisada por IA, e se o contrato do
-   programa já cobre (o material não trata disso; lacuna).
-3. **Envio de dado a terceiros** (Fireflies, provedor de IA): aceitar ou escolher alternativa.
-4. **Canal e destinatários do alerta**: WhatsApp interno, e-mail, Telegram; quem recebe.
-5. **Limiar da nota** (padrão de aula: 70) e o que acontece com a reunião abaixo dele (refazer a entrega? quem decide?).
-6. **Feedback ao mentor/closer**: automático ou só via gestor (recomendação do squad: só via gestor).
-7. Ligar o fluxo em produção.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Ferramenta**: assume n8n em nuvem (mais simples; referência ~R$ 125-150/mês, conferir). Contratar a ferramenta e os créditos de IA é gasto: "posso seguir?".
+- **Consentimento**: o agente escreve o aviso de que a reunião é gravada e analisada por IA (mentores, closers, alunos e leads) e confere se o contrato do programa já cobre; publicar o aviso: "posso seguir?".
+- **Envio de dado a terceiros** (transcrição, provedor de IA): assume o provedor que o projeto já usa e lista em "Assumi"; mandar dado de aluno ou lead para fora: "posso seguir?".
+- **Canal e destinatários do alerta**: assume o canal interno da equipe, com o gestor como destinatário.
+- **Limiar da nota**: padrão 70; reunião abaixo dele vai para o gestor revisar.
+- **Feedback ao mentor/closer**: padrão só via gestor, nunca automático.
+- **Ligar o fluxo em produção**: "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -163,7 +162,7 @@ Modelo em `references/planilha-e-alertas.md`.
 - [ ] Custos mensais estimados e decisões da seção 5 listadas.
 - [ ] Nenhuma chave em arquivo, chat ou print.
 
-**Auditoria (erros típicos das aulas)**:
+**Auditoria (erros típicos)**:
 1. Esquecer de publicar o fluxo (o webhook de produção só responde publicado).
 2. Colar a Test URL no Fireflies em vez da Production URL.
 3. Não marcar "Transcription complete" nas configurações de desenvolvedor do Fireflies.
@@ -187,19 +186,6 @@ Modelo em `references/planilha-e-alertas.md`.
 ## 8. Ferramentas de apoio
 
 `automacao-fluxos` (desenho e montagem do fluxo), `anthropic-skills:xlsx` (planilha de avaliação e calibração), `watch` e
-`transcrever-youtube-turbo` (transcrever gravação antiga para calibrar), `conectar-whatsapp-oficial` (se o estrategista escolher a API
+`transcrever-youtube` (transcrever gravação antiga para calibrar), `conectar-whatsapp-oficial` (se o estrategista escolher a API
 oficial para alertas), `analytics-dashboard` (painel da nota por mentor, interno).
 
-## 9. Fontes e lacunas
-
-**Fontes**: trilha 15 Bootcamp de Inteligência Artificial (01-introducao, 02-como-funciona, 03-cadastro-fireflies,
-04-configurando-n8n, 05-chat-model, 06-error-triger; RESUMO.md); parte-C (arquitetura, fluxo, prompts, calibração); parte-I
-(avaliador de gravações de sessão: nota 1-5 por bloco e alertas; relatório pré e pós-sessão; Kaizen); parte-D (auditor de gravação de
-entregável); parte-H (gravar e transcrever); trilha 19 (manual de entregáveis, roteiro do diagnóstico em blocos e tempos); trilha 09
-(roteiro de 6 etapas da sessão); CATALOGO seção 9.
-
-**Lacunas**: (1) o prompt completo do FHT, os códigos dos nós Code, a planilha-modelo e o JSON do fluxo foram passados no chat/mapa
-mental e não estão nos arquivos: os modelos desta skill são reconstrução marcada; (2) número de etapas do prompt do diagnóstico
-diverge (6 x 7 na legenda); (3) regra de corte entre "parcial" e "não cumprida" só tem um exemplo dito em aula ("dois x" já dá parcial), sem regra fechada; (4) pesos exatos da nota não foram
-ditos, só a regra geral; (5) consentimento e LGPD não são tratados no material; (6) custo por execução foi medido ao vivo com ruído (≈ US$ 0,03-0,04 ou R$ 0,20 por reunião real), conferir na conta;
-(7) o nó Switch para separar tipos de reunião é citado, não ensinado.

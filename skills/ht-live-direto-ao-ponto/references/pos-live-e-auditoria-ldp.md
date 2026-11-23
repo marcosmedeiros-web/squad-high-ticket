@@ -1,19 +1,19 @@
 # LDP: recuperação pós-live, planilha e auditoria (check-up de SHT)
 
-## 1. Recuperação (o que a trilha 16 ensina)
+## 1. Recuperação (o que o método ensina)
 
-Objetivo: falar com **todos** os cadastrados, inclusive quem não apareceu. Benefício citado na aula: o pós-live alimenta a sessão
+Objetivo: falar com **todos** os cadastrados, inclusive quem não apareceu. Benefício citado: o pós-live alimenta a sessão
 1a1 com lista muito qualificada, e às vezes rende mais que a própria live.
 
 Ordem de contato: pergunta 4 da pesquisa ("quero muito uma vaga" primeiro; "só quero conhecer" por último, ou nem chamar).
 Lista grande: priorizar os mais qualificados pela pesquisa.
 
-Roteiro (rascunho para o ht-closer; quem liga é a equipe do expert, com OK do estrategista):
+Roteiro (rascunho para o ht-closer; quem liga é a equipe do expert, com OK da pessoa):
 
 ```
 QUEM APLICOU
 → aprovar e iniciar a integração (onboarding). Reprovar com motivo e, se a aplicação foi paga, devolver: regra do squad,
-  a aula não detalha o reprovado.
+  o método não detalha o reprovado.
 
 QUEM PARTICIPOU E NÃO ENTROU
 "Você conseguiu ver a live até o fim? Chegou a considerar entrar? O que te segurou?"
@@ -27,9 +27,9 @@ calma?" → sessão 1a1 completa (com Raio-X), porque a pessoa não viu a oferta
 → oferecer 2 horários, sessão em até 2 dias (padrão do squad); evento no calendário da pessoa.
 ```
 
-## 2. Reforço opcional (adaptação, não ensinado na trilha 16)
+## 2. Reforço opcional (adaptação, fora do método base)
 
-A trilha 17 (aula 53, recuperação pós-imersão) traz um método testado de ligação em 3 tentativas, "encontro de fechamento" ao
+A recuperação pós-imersão traz um método testado de ligação em 3 tentativas, "encontro de fechamento" ao
 vivo na noite seguinte e fluxo de mensagens até o dia 11. Para LDP com muitos presentes que não aplicaram, pode ser usado como
 reforço, **marcado no plano como adaptação**. Detalhe e roteiros: `../../ht-imersao-implementacao/references/recuperacao-pos-imersao.md`.
 
@@ -62,7 +62,7 @@ Responder sim/não com evidência. Qualquer "não" nos itens 1 a 6 bloqueia a at
 13. Ação separada da aula semanal (lista e grupo próprios)?
 14. Recuperação planejada: quem liga, quando, com que roteiro e planilha?
 15. Copy na voz do expert, sem modelo copiado ao pé da letra, sem marca de texto de IA, revisada?
-16. Números de aula usados no plano estão marcados como referência e os do expert como verificados?
+16. Números de referência usados no plano estão marcados como referência e os do expert como verificados?
 
 Erros que os mentores mais citam e que a auditoria pega: LDP sem demanda reprimida; oferta ainda não clara na hora do pitch;
 prometer conteúdo; vagas inventadas; "aprovação" de fachada; trocar de aplicação grátis para paga no meio; desligar a live

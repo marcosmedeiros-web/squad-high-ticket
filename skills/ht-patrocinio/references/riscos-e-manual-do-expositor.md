@@ -1,7 +1,5 @@
 # Riscos do patrocinador e manual do expositor
 
-Fonte: trilha 17, aulas 40 (riscos) e 44 (manual do expositor).
-
 ## 1. Checklist de fit e riscos (um por patrocinador, antes da proposta)
 
 | # | Pergunta | Sim/Não | Ação se falhar |
@@ -9,10 +7,10 @@ Fonte: trilha 17, aulas 40 (riscos) e 44 (manual do expositor).
 | 1 | Vende algo que concorre com o HT ou com outro produto do expert? | | não entra |
 | 2 | Interessa de fato ao público do evento? | | não entra |
 | 3 | Tem histórico de pitch agressivo ou de "tirar o brilho" do anfitrião? | | sem palco; externos no fim do último dia |
-| 4 | Pediu lista/mailing de participantes? | | recusar por escrito; oferecer leitor oficial de lead no estande (exceção só por decisão do estrategista) |
+| 4 | Pediu lista/mailing de participantes? | | recusar por escrito; oferecer leitor oficial de lead no estande (exceção só com OK simples) |
 | 5 | Vai palestrar? A apresentação foi vista e aprovada antes? | | exigir envio prévio |
 | 6 | Quantos pitches externos a grade comporta sem competir com o pitch do HT? | | reduzir (caso: de 6 para 2, só no 1º dia) |
-| 7 | Está pedindo preço de custo? Traz autoridade estratégica? | | decisão do estrategista |
+| 7 | Está pedindo preço de custo? Traz autoridade estratégica? | | a skill propõe e pede o OK simples |
 | 8 | É entidade que insiste em desconto sem comprar nem vender ao público? | | não dar desconto |
 | 9 | Contrato tem proibição de concorrente e multa? | | não assinar sem |
 | 10 | Haverá alguém do time circulando na feira para fiscalizar? | | escalar a pessoa |
@@ -20,7 +18,7 @@ Fonte: trilha 17, aulas 40 (riscos) e 44 (manual do expositor).
 Resposta padrão a quem tenta incluir produto concorrente: recusar explicando que concorre com o expert, por escrito, e manter
 o combinado do contrato.
 
-## 2. Índice do manual do expositor (ordem da aula 44)
+## 2. Índice do manual do expositor (ordem do método)
 
 1. Apresentação do evento; responsáveis; canais oficiais de comunicação.
 2. Aviso de leitura obrigatória: desconhecer as normas não isenta de penalidade.
@@ -43,4 +41,4 @@ o combinado do contrato.
 19. Considerações finais.
 
 Prazo: enviar **até 90 dias antes do evento**, compromisso escrito no contrato (no fechamento o manual pode não estar pronto).
-Valores de taxa citados na aula (prefeitura em pavilhão, R$ 300 a 350) são do caso, conferir no local.
+Valores de taxa de referência (prefeitura em pavilhão, R$ 300 a 350) são do caso, conferir no local.

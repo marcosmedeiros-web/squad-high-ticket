@@ -1,6 +1,6 @@
 # As 3 mensagens do SLG, com modelos
 
-Referência da `ht-slg`. Estrutura do White Label de Mensagens (trilha 10) e correções dos laboratórios. Os modelos são
+Referência da `ht-slg`. Estrutura das mensagens e correções comuns. Os modelos são
 esqueletos escritos para o squad: `[campos]` se preenchem com o perfil do lead, a definição do AR (`02-oferta`) e o nome da
 sessão (`03-sessao`). Nunca enviar o esqueleto cru; cada mensagem é única.
 
@@ -86,13 +86,13 @@ Vi [no LinkedIn / no perfil] que você está à frente da [empresa], que [fato p
 [Pergunta de negócio leve, sem margem nem faturamento. Ex. de forma: "Hoje, como dono, o que mais tem exigido sua energia na operação?"]
 ```
 
-**A primeira pergunta faz a pessoa falar dela** (laboratório abr/2026): "me conta o que você faz hoje?" funciona melhor do que
+**A primeira pergunta faz a pessoa falar dela**: "me conta o que você faz hoje?" funciona melhor do que
 "você tem interesse no tema X?", que já soa a venda.
 
 **Perfil institucional:** se a abordagem sai de um perfil de marca, escrever como o expert que é o rosto da marca, de forma
-neutra, sem fingir ser outra pessoa (trilha 10, aula 06). Resposta tende a ser menor que no perfil pessoal.
+neutra, sem fingir ser outra pessoa. Resposta tende a ser menor que no perfil pessoal.
 
-**Variante de abertura com áudio ou vídeo curto do expert** dizendo o nome da pessoa (citada no bootcamp abr/2026 para novos
+**Variante de abertura com áudio ou vídeo curto do expert** dizendo o nome da pessoa (indicada para novos
 seguidores): mostra que não é robô. Só com OK do estrategista e gravado pelo próprio expert.
 
 **Se a pessoa elogiar** ("adoro seu conteúdo"): agradecer e devolver uma pergunta ("qual conteúdo mais te ajudou?"), não parar.
@@ -118,7 +118,7 @@ Saquei. E os resultados têm vindo como você queria ou acha que poderia estar m
 ```
 Faz sentido. Você já tentou alguma coisa para [o problema que ela mencionou]?
 ```
-Técnica de laboratório (abr/2026): pergunta com 2 ou 3 opções fechadas tiradas do próprio perfil da pessoa ("hoje seu maior
+Técnica: pergunta com 2 ou 3 opções fechadas tiradas do próprio perfil da pessoa ("hoje seu maior
 objetivo é prospectar clientes, gravar conteúdo ou palestrar com mais segurança?") é mais fácil de responder do que pergunta
 aberta ("qual seu maior objetivo?").
 
@@ -137,10 +137,10 @@ Faturamento, se for preciso, entra aqui e com leveza ("como estão as vendas?"),
 3. Próximo passo claro: pedir o WhatsApp (se outra pessoa agenda ou para tirar do direct) ou oferecer 2 horários (padrão
    do squad) se o próprio expert agenda ali.
 
-A ponte diz o benefício para a pessoa: ninguém dá uma hora da vida sem saber o que ganha (bootcamp abr/2026). O benefício é
+A ponte diz o benefício para a pessoa: ninguém dá uma hora da vida sem saber o que ganha. O benefício é
 o que ela vai enxergar (o que está bom, o que trava, onde focar), nunca "porque você precisa e não sabe".
 
-Forma das palavras (laboratório abr/2026): "podemos marcar?" e não "vamos marcar" (soa imposição); "dura uma hora" e não
+Forma das palavras: "podemos marcar?" e não "vamos marcar" (soa imposição); "dura uma hora" e não
 "no máximo uma hora"; decisor junto como convite ("seria interessante vocês dois participarem"), não como exigência
 ("é fundamental").
 
@@ -171,7 +171,7 @@ dor (vira gancho dos lembretes e insumo do Raio-X).
 
 **Mensagens que se cruzaram** (a pessoa respondeu outra coisa e parou): "[Nome], você viu minha mensagem acima?" e só.
 
-**Grupo:** nunca convidar dentro de grupo de WhatsApp, mesmo de amigos; chamar cada pessoa no privado (laboratório abr/2026).
+**Grupo:** nunca convidar dentro de grupo de WhatsApp, mesmo de amigos; chamar cada pessoa no privado.
 Com amigo próximo, o convite pode ser mais direto, ainda no privado ("estou estudando essa área a fundo, bora uma call para eu
 te mostrar a oportunidade?"); o tom de intimidade só com quem é íntimo de fato.
 
@@ -206,5 +206,5 @@ Sem regionalismo que o lead não entenda.
 ## 6. Teste de versões
 
 Manter um padrão, personalizar o resto, e testar: versão A para 10 pessoas, versão B para outras 10, comparar respostas (não
-envios). "Visto, visto, visto" sem resposta = melhorar a desarmadora. Exemplo de achado de laboratório: comentar um conteúdo
+envios). "Visto, visto, visto" sem resposta = melhorar a desarmadora. Exemplo de achado: comentar um conteúdo
 específico responde mais do que citar a bio.

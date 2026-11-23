@@ -6,7 +6,7 @@ marketing digital nao e isso por si; o que aproxima e a COPY que promete renda. 
 categoria, mas reclamacao de spam derruba conta nos tres. Ver references/esp-politicas.md.
 
 A regua procura promessa de dinheiro facil e de ganho garantido. Ela nao julga o produto: aponta o trecho para o
-copywriter reescrever. Com o Resend (o padrao do kit) ela e GUARDA DO ENVIO: o texto que reprova nao sai, nem no
+copywriter reescrever. Com o Resend (o padrao do pacote) ela e GUARDA DO ENVIO: o texto que reprova nao sai, nem no
 plano, nem no canario, nem no lote, nem no resto, e nao ha opcao para passar por cima. Com SES e SendGrid (reservas)
 ela AVISA.
 """

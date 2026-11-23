@@ -1,8 +1,6 @@
 # Seeding e pré-pitch
 
-Fontes: desafio imersão fev/2026 aula 40 (Construção de Pré Pitch, transcrita em 22/11/2026, Mayara e Larissa) e aula 47
-(Laboratório de Pré Pitch, lida por inteiro em 23/11), trilha 18 aulas 4 e 8 (pré-pitch e seeding na IMA), out/2025 aula 14, Live 008 (modelo "um elemento"), Live 033 e 045 (seeding, quick win), trilha 18
-(dia 1 de seeding).
+Método de seeding e pré-pitch, em paráfrase.
 
 ## 1. Seeding (dia 1 e todas as palestras antes do pitch)
 
@@ -21,16 +19,16 @@ Fontes: desafio imersão fev/2026 aula 40 (Construção de Pré Pitch, transcrit
   entregáveis como conteúdo: vende sem parecer que vende, gera desejo, autoridade e clareza.
 - Antes dela, o expert precisava explicar cada entregável no pitch, o pitch ficava infinito e as pessoas iam ao balcão perguntar
   o que era cada coisa. Com ela, no balcão só se pergunta de pagamento.
-- Referência FHT: conversão de 7% sem pré-pitch para 14% com pré-pitch (número de aula, referência).
+- Referência do método: conversão de 7% sem pré-pitch para 14% com pré-pitch (referência).
 - Três critérios que ela cumpre: (1) ajuda a vender o programa; (2) está bem travestida de conteúdo; (3) o conteúdo é replicável
   pelo público do evento (a pessoa sente que aprendeu, não só que foi vendida).
 
 ## 3. Momento e duração
 
 - 1h30 a 2h30, sem pressa; o importante é aterrissar cada entregável.
-- Termina perto do pitch (cerca de 2 h antes no planejamento de out/2025; na grade presencial de 3 dias vem imediatamente antes
+- Termina perto do pitch (cerca de 2 h antes no planejamento; na grade presencial de 3 dias vem imediatamente antes
   do vídeo + pitch, cerca de 2 h de duração, dia 2 à tarde).
-- Pode ser feita por outra pessoa (descansa quem fará o pitch). Ex. FHT: Lucas faz talk de manhã, Larissa faz jornada do aluno,
+- Pode ser feita por outra pessoa (descansa quem fará o pitch). Ex.: um expert faz a talk de manhã, outro faz a jornada do aluno,
   entregáveis e pré-pitch à tarde, Lucas volta com o pitch.
 
 ## 4. Os 3 tipos (usar nesta ordem de preferência)
@@ -45,10 +43,10 @@ Framework: **Promessa → História → Conteúdo (a variável e seus elementos)
    - "Um elemento que fez nossos alunos alcançarem [X]."
    Quanto mais específica, mais atrativa. Usar número compilado de todos os alunos ("um elemento que fez meus alunos
    alcançarem R$ 60 mil em menos de um ano") e depois citar cada caso; nunca nomear só 3 alunos na promessa (parece que só há 3).
-2. **Prova forte** logo depois da promessa (ex.: "de 81 mentorados, 36 viabilizaram o empreendimento").
+2. **Prova forte** logo depois da promessa (ex.: "de 81 alunos, 36 viabilizaram o empreendimento").
 3. **História**: contexto → problema → ideia → resultado → razão de compartilhar ("para você entender o impacto dessa variável").
    É a história de como se chegou à variável (ex.: o caso da aluna que só decolou quando passou a ser acompanhada), não a biografia
-   do expert: a biografia já foi contada na talk e volta no pitch (lab aula 47). Depois de revelar a variável, chamá-la pelo nome
+   do expert: a biografia já foi contada na talk e volta no pitch. Depois de revelar a variável, chamá-la pelo nome
    ("o acompanhamento"), não mais de "o elemento".
 4. **Conteúdo**:
    - A variável: o que é, por que é importante, quais elementos a compõem. Nomes que encaixam: "ecossistema personalizado" ou
@@ -61,7 +59,7 @@ Framework: **Promessa → História → Conteúdo (a variável e seus elementos)
      e. **como você replica isso na sua vida**, explícito e literal, com "tira print desta tela".
    - Gancho fixo em cada entregável: "como eu faço isso com os meus alunos" (pode virar um slide com essa frase) → "agora, como
      você faz isso sozinho na sua casa". No "como fazemos", falar de "o nosso aluno", não de "você".
-   - Só o que é para fazer: na pré-pitch não se descreve "o que não é" o entregável (lab aula 47), diferente do framework Ação
+   - Só o que é para fazer: na pré-pitch não se descreve "o que não é" o entregável, diferente do framework Ação
      direta das palestras de conteúdo.
    - Entregável que acontece dentro de outro (ex.: exercícios feitos dentro do encontro individual) aparece junto dele, nunca solto.
    - Formato que gera objeção (ex.: encontro presencial opcional) é mostrado pelo lado que todos recebem (online primeiro).
@@ -72,9 +70,9 @@ Framework: **Promessa → História → Conteúdo (a variável e seus elementos)
    estaria daqui a 12 meses?"; a pergunta "e se continuar exatamente como está?" fica guardada para o pitch). A conclusão silenciosa que a pessoa tira: "é muita coisa, não dou conta
    sozinho". No pitch: "eu tenho tudo isso pronto para você".
 
-Variante FHT: o FHT espalha esse framework por várias palestras do evento (cada palestra desconstrói alguns entregáveis; na
+Variante: o método espalha esse framework por várias palestras do evento (cada palestra desconstrói alguns entregáveis; na
 imersão de 3 dias uma sexta inteira vira pré-pitch) em vez de uma só pré-pitch. Para o expert iniciante, a recomendação é uma
-palestra única. Muitos entregáveis soltos são difíceis de memorizar: o FHT agrupou os seus em 4 passos (um "cardápio" por passo).
+palestra única. Muitos entregáveis soltos são difíceis de memorizar: o método agrupou os seus em 4 passos (um "cardápio" por passo).
 Item que só existe para quem entrou (ex.: formatura, kit) fica para o pitch.
 
 ### Tipo 2: case de aluno no palco
@@ -110,7 +108,7 @@ CONTEÚDO:
 FECHAMENTO: tela-resumo dos pilares + "você precisa de tudo isso para chegar a [Roma]".
 ```
 
-## 6. Correções do laboratório (fev/2026, aula 47)
+## 6. Correções do laboratório
 
 1. Perguntas do entregável precisam de desconstrução ("quantos anos você precisou ser forte? para quem?"), não frase solta.
 2. Faltou "como você replica isso": todo entregável fecha com o passo a passo para a pessoa fazer sozinha.
@@ -118,7 +116,7 @@ FECHAMENTO: tela-resumo dos pilares + "você precisa de tudo isso para chegar a 
 4. Promessa com 3 nomes de alunos: trocar por número compilado e citar os casos depois.
 5. Não reaproveitar os mesmos slides da pré-pitch no pitch.
 6. "Como replicar" mais profundo e prático (caderno, checklist, pasta, profissional de apoio).
-7. Treinar antes; no FHT a pré-pitch de um aluno chegou a terminar 5 minutos antes de ele subir ao palco.
+7. Treinar antes; no método a pré-pitch de um aluno chegou a terminar 5 minutos antes de ele subir ao palco.
 8. Quando a construção está confusa (acrônimo ou jogo de palavras guiando os slides), refazer do zero a partir do slide em
    branco, seguindo promessa → história → variável → pilares → entregáveis, em vez de tentar remendar.
 9. Pré-pitch não conta a biografia do expert nem "o que não é"; vai direto à chave que gerou o resultado.
@@ -133,4 +131,4 @@ FECHAMENTO: tela-resumo dos pilares + "você precisa de tudo isso para chegar a 
 - [ ] Cada prova é do programa, não do curso.
 - [ ] Fechamento mostra a soma dos pilares e prepara a sensação "não dou conta sozinho".
 - [ ] Cada entregável com o gancho "como faço com meus alunos" → "como você faz sozinho", e nenhum "o que não é".
-- [ ] 1h30 a 2h30 (Mundo Paralelo cerca de 2h30; imersão online FHT cerca de 2 h); termina antes do horário-limite do pitch.
+- [ ] 1h30 a 2h30 (Mundo Paralelo cerca de 2h30; imersão online do método cerca de 2 h); termina antes do horário-limite do pitch.

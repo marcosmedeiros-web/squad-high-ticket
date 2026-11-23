@@ -1,8 +1,6 @@
 # Erros comuns de campanha (sintoma → causa provável → conserto)
 
-Fontes: laboratórios e plantões de tráfego das turmas (FEV26 §8, §9.1, §9.3, §9.4; OUT25 aulas 8, 9, 12, 15 e 20, via
-`parte-G` `resolvedor-erros-campanha-meta-aluno`); trilha 13 `RESUMO-trafego.md` §8 e §10; trilha 14 `RESUMO-funil-de-reels-parte2.md` §8;
-FEV26 aula 33 (transcrição nova).
+
 
 | Sintoma | Causa provável | Conserto |
 |---|---|---|

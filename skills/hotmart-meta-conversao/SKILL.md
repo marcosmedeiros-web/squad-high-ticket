@@ -1,6 +1,6 @@
 ---
 name: hotmart-meta-conversao
-description: Liga a Hotmart à Meta no servidor do dono. Instala e opera um receptor do webhook 2.0.0 da Hotmart (valida o hottok, deduplica e grava cada evento num banco local), manda Purchase e o clique de checkout para a API de Conversões com event_id igual ao do pixel, guarda o carrinho abandonado (PURCHASE_OUT_OF_SHOPPING_CART) para a recuperação de carrinho e vigia se o webhook parou de entregar. Use quando o dono disser "configurar webhook da Hotmart", "API de Conversões", "CAPI", "conversão do site para a Meta", "pixel no servidor", "deduplicar pixel e servidor", "evento de compra no Gerenciador de Eventos", "carrinho abandonado da Hotmart", "postback da Hotmart", "minhas vendas não aparecem na Meta" ou "o webhook parou". NÃO cria campanha, NÃO mexe em orçamento, NÃO escreve para lead (a recuperação é outra skill, que só LÊ o abandono daqui), NÃO instala o pixel na página (isso é do pacote de página; aqui só o snippet do clique) e NÃO decide consentimento/LGPD pelo dono.
+description: 'Liga a Hotmart à Meta no servidor do expert: receptor do webhook 2.0.0, Purchase e clique de checkout na API de Conversões com event_id igual ao do pixel, carrinho abandonado e vigia. Use para "webhook da Hotmart", "API de Conversões", "CAPI", "deduplicar pixel e servidor", "vendas não aparecem na Meta". NÃO cria campanha nem escreve para lead.'
 ---
 
 # Conversão Hotmart → Meta, com webhook
@@ -30,9 +30,9 @@ Antes de começar, leia `references/gotchas.md` (as pegadinhas medidas) e, se fo
 `python3 -I motor/config.py --conferir <perfil.env>`. Recusa vem com `MOTIVO=` na primeira linha.
 
 **2. Quem manda o Purchase.** A Hotmart tem pixel e API de Conversões próprios e não publica o event_id que usa;
-então o kit não consegue deduplicar contra ela. Regra: se "Vendas realizadas" está ligado no pixel da Hotmart,
+então o receptor não consegue deduplicar contra ela. Regra: se "Vendas realizadas" está ligado no pixel da Hotmart,
 `CAPI_PURCHASE=desligado` (o perfil recusa o contrário com `purchase_em_dobro`). Se o dono quer o Purchase com o
-clique do anúncio junto (fbp/fbc/navegador via xcod), ele desliga "Vendas realizadas" lá e o kit assume.
+clique do anúncio junto (fbp/fbc/navegador via xcod), ele desliga "Vendas realizadas" lá e o receptor assume.
 O mesmo para o checkout: com "Visitas na página de pagamento" ligado lá, o clique do site vai como `CliqueCheckout`.
 
 **3. Instalar.**

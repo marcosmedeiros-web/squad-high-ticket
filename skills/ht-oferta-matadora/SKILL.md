@@ -1,13 +1,13 @@
 ---
 name: ht-oferta-matadora
-description: 'Squad High Ticket / método FHT. Consolida e lapida o MVP de oferta completo do Acelerador de Resultados: definição, ponto A e B, jornada, entregáveis por pilar, bônus (para todos, à vista, overdelivery), duração de 12 meses, plano dupla, preço e garantia, num documento único pronto para a Aprovação 1 e para o pitch. Conduz o expert no ciclo dos 4 Es, roda os testes "eu compraria?" e "eu viraria sócio?", os testes de oferta irresistível e a auditoria dos erros de laboratório e dos 7 erros. Use quando o estrategista disser "monta a oferta do HT do expert", "formaliza a oferta", "deixa essa oferta irresistível", "audita a oferta", "a oferta está pronta para vender?". NÃO usar para oferta de evento pago, lançamento pago semanal, 5+1 ou Funil 8 (método LPSG da Turbo), nem para o deck e a fala da sessão (ht-roteiro-sessao-1a1).'
+description: 'Consolida o MVP de oferta do Acelerador de Resultados num documento único para a Aprovação 1: jornada, entregáveis, bônus, duração, dupla, preço e garantia, com testes de oferta irresistível e auditoria. Use para "monta a oferta do HT", "formaliza a oferta", "audita a oferta". NÃO use para deck e fala da sessão (ht-roteiro-sessao-1a1).'
 ---
 
 # Oferta matadora do AR (MVP completo)
 
 ## 1. Para que serve e o que entrega
 
-No high ticket, a estrutura da oferta pesa mais do que a promessa (trilha 06). Esta skill junta as peças que as skills anteriores
+No high ticket, a estrutura da oferta pesa mais do que a promessa. Esta skill junta as peças que as skills anteriores
 produziram, preenche o que falta (bônus, duração, dupla), costura preço e garantia vindos do `ht-preco-pagamento-e-garantia`, e
 testa se a oferta é clara, cumprível e irresistível para o avatar. Sai uma oferta que o expert entende, o closer apresenta e o estrategista aprova.
 
@@ -30,7 +30,7 @@ Com a Aprovação 1 registrada em `00-plano/aprovacoes.md`, o `ht-arquiteto-ofer
    - `03-sessao/` e `13-aprendizados/` se já houver sessões: objeções reais, conversão, o que os alunos disseram.
 3. Regra "nada nasce do zero": se não há benchmark de casos do nicho em 01-pesquisa, pedir ao Diretor a consulta ao
    `ht-consultor-casos` antes de fechar. Sem precedente no banco, registrar "sem precedente" e seguir. Repertório das aulas
-   (FHT, viola 60+, lojistas, gestão de empresa, reposicionamento de avatar): `references/casos-de-oferta.md`.
+   (primeira oferta do método, viola 60+, lojistas, gestão de empresa, reposicionamento de avatar): `references/casos-de-oferta.md`.
 4. **Entradas obrigatórias**: definição e jornada aprovadas pelo menos em rascunho; cardápio de entregáveis; preço e garantia
    (se ainda não existem, rodar `ht-preco-pagamento-e-garantia` antes ou em paralelo). Faltando peça, rodar a skill dona dela; não
    inventar a peça aqui. Pergunto só o que não dá para adivinhar, no máximo 2 por vez e em linguagem simples (por exemplo: "O expert topa entregar o
@@ -38,8 +38,8 @@ Com a Aprovação 1 registrada em `00-plano/aprovacoes.md`, o `ht-arquiteto-ofer
 
 ## 3. Passo a passo
 
-### Passo 1. Modo de trabalho: com o expert (bootcamp) ou só com o material
-- **Com o expert ao vivo** (bootcamp de AR, ciclo dos 4 Es): para cada bloco, ensinar o critério, mostrar um exemplo, dar o
+### Passo 1. Modo de trabalho: com o expert ou só com o material
+- **Com o expert ao vivo** (sessão de criação da oferta, ciclo dos 4 Es): para cada bloco, ensinar o critério, mostrar um exemplo, dar o
   exercício cronometrado e examinar. Tempos de referência: definição 5 a 10 min; ponto A e B 2 min; jornada 15 a 20 min; cada
   pilar 5 a 10 min. IA entra só depois de o expert tentar à mão. Ao fim do dia, o expert entrega os links abertos da jornada e da
   planilha de oferta. Roteiro: `references/conduzir-com-o-expert.md`.
@@ -52,38 +52,38 @@ cabe na capacidade. Reprovou: volta ao `ht-definicao-e-jornada` ou ao `ht-entreg
 ### Passo 3. Duração (padrão: ciclo de 11 a 13 meses casado a um encontro)
 - 12 meses, "vendeu, começa" (gente entrando o tempo todo).
 - Ajustável de 11 a 13 meses para o fim cair no ciclo de renovação ou no encontro de alunos (o calendário de ciclos é do
-  `ht-renovacao`; referência do FHT: 3 ciclos por ano, conferir com o calendário do expert).
+  `ht-renovacao`; referência: 3 ciclos por ano, conferir com o calendário do expert).
 - Por que não 3 ou 6 meses: menos tempo para gerar resultado ("a vida acontece"), renovação mais frequente e mais difícil, mais
-  difícil escalar (mai/26; live 047). Duração não é prazo do resultado.
+  difícil escalar. Duração não é prazo do resultado.
 - No texto da oferta: "acompanhamento de 12 meses a partir da sua entrada" (datas exatas por aluno ficam no onboarding).
 
 ### Passo 4. Bônus (opcional, nunca entrega disfarçada)
 Regras e banco de ideias: `references/bonus-e-irresistibilidade.md`.
 1. Teste do bônus: **não precisa, mas ajuda**. Se o aluno precisa daquilo para chegar no ponto de chegada, é entrega e vai para o
-   cardápio (pneu e volante são entrega; tanque cheio e IPVA pago são bônus, mai/26).
-2. Bom bônus resolve um problema futuro que o expert prevê ou enfraquece uma objeção universal (FHT: desafio das primeiras vendas
+   cardápio (pneu e volante são entrega; tanque cheio e IPVA pago são bônus).
+2. Bom bônus resolve um problema futuro que o expert prevê ou enfraquece uma objeção universal (ex.: desafio das primeiras vendas
    em 30 dias contra "não tenho dinheiro").
 3. **Para todos**: complementar, desejável, custo baixo (curso gravado, aulas extras, experiência).
-4. **Para quem paga à vista**: desejável, mas que não faça adiar a compra nem pareça algo que deveria estar no programa; exemplo
-   do FHT: segunda cadeira (trazer sócio ou familiar). Desconto à vista não é bônus. A validação contra as condições de pagamento é
+4. **Para quem paga à vista**: desejável, mas que não faça adiar a compra nem pareça algo que deveria estar no programa; exemplo:
+   segunda cadeira (trazer sócio ou familiar). Desconto à vista não é bônus. A validação contra as condições de pagamento é
    do `ht-preco-pagamento-e-garantia`.
 5. **Overdelivery** ("na gaveta"): entregue sem prometer (plantão, plantão temático). Não entra no texto da oferta.
 6. Bônus físico: só com custo e frete calculados. Imersão que faz parte da entrega não é bônus.
-7. Sem bônus bom, não ter bônus: o bootcamp de mai/26 repete que não é obrigatório. A trilha 06 recomenda ter sempre um bônus
+7. Sem bônus bom, não ter bônus: o bônus não é obrigatório, mas recomendo ter sempre um
    para quem paga à vista (estimula o à vista, reduz risco de recebimento). Ter ou não o bônus à vista: proponho pelo padrão e listo em "Assumi" (seção 5).
-8. Três famílias de bônus que funcionam (dez/25): enfraquecer uma objeção universal; resolver a dor futura que o próprio
+8. Três famílias de bônus que funcionam: enfraquecer uma objeção universal; resolver a dor futura que o próprio
    resultado cria (a manicure de agenda cheia que precisa montar equipe); experiência (visita, bastidores). Kit físico: só depois
    do pagamento, com custo e frete somados (envio para outro país pode custar mais que o conteúdo).
 9. O bônus à vista precisa ser descrito de um jeito que dê vontade de pagar à vista; se ninguém entende por que é bom, não move.
 
 ### Passo 5. Plano dupla (e trio, se o estrategista quiser)
 - Dupla = duas pessoas do mesmo negócio ou família no mesmo plano; preço +50% sobre o individual (padrão recomendado), calculado no
-  `ht-preco-pagamento-e-garantia`. Entrada igual para a dupla (fonte dez/25).
+  `ht-preco-pagamento-e-garantia`. Entrada igual para a dupla.
 - Definir quem pode ser a segunda pessoa (sócio, cônjuge, membro da equipe) e o que muda na entrega (as duas pessoas consomem do
-  mesmo plano; um diagnóstico para os dois, porque é o mesmo negócio, e é isso que justifica +50% e não +100%, dez/25; custo maior
+  mesmo plano; um diagnóstico para os dois, porque é o mesmo negócio, e é isso que justifica +50% e não +100%; custo maior
   em encontro presencial e suporte). Dupla só faz sentido onde há sócio ou família no mesmo projeto; em AR de público final
   individual (ex.: emagrecimento) pode não existir.
-- Variante "por projeto" (dez/25: segundo loteamento cobrado como dupla): fica fora do padrão; só entra se a pessoa pedir.
+- Variante "por projeto" (segundo loteamento cobrado como dupla): fica fora do padrão; só entra se a pessoa pedir.
 - Trio não tem decisão vigente: fica fora do padrão; só entra se a pessoa pedir.
 
 ### Passo 6. Preço, condições e garantia
@@ -101,26 +101,25 @@ Aplicar e registrar a resposta de cada um (detalhe em `references/bonus-e-irresi
 1. **Eu compraria?** (colocar-se no lugar do avatar, com o bolso dele).
 2. **Eu viraria sócio dessa pessoa?** (o expert tem legitimidade e a oferta é sustentável).
 3. **Valor x preço**: o benefício é incomparavelmente maior que o preço; a oferta parece mais vantajosa para quem compra do que
-   para quem vende (live 023). Ancorar no resultado prometido (ex. de aula: cobrar R$ 18 mil prometendo R$ 25 mil/mês). Em AR
-   de negócio, a narrativa "um cliente conquistado com o método paga o programa e ainda sobra" (jun/26 SP).
+   para quem vende. Ancorar no resultado prometido (ex. de aula: cobrar R$ 18 mil prometendo R$ 25 mil/mês). Em AR
+   de negócio, a narrativa "um cliente conquistado com o método paga o programa e ainda sobra".
 4. **Pergunta-pivô**: se custasse 10 vezes mais, o que mudaria na entrega? Se a resposta é "muita coisa importante", o item
    importante está faltando.
-5. **Cabe na palma da mão**: o lead entende o programa em uma leitura, sem estudar nomes (mai/26).
-6. **Sem efeito PQP**: não assusta pelo volume (live 057).
-7. **Remorso de quem fica de fora**: quem não entrar vai ver o colega ter resultado (ideia do pitch do FHT, live 061).
-8. **Credibilidade**: a oferta combina com quem o expert é para aquele público (a primeira oferta do FHT era simples e cara porque
-   o público já conhecia a autoridade de quem vendia, live 061). Sem prova suficiente, preço e promessa recuam.
+5. **Cabe na palma da mão**: o lead entende o programa em uma leitura, sem estudar nomes.
+6. **Sem efeito PQP**: não assusta pelo volume.
+7. **Remorso de quem fica de fora**: quem não entrar vai ver o colega ter resultado (ideia de pitch).
+8. **Credibilidade**: a oferta combina com quem o expert é para aquele público (a primeira oferta do método era simples e cara porque
+   o público já conhecia a autoridade de quem vendia). Sem prova suficiente, preço e promessa recuam.
 9. **Cumprível**: a conta de horas fecha com a capacidade (padrão do squad).
 
 ### Passo 9. MVP: vender antes de entregar
 - Formalizar é dizer o que é e como funciona; não precisa de entregável gravado, página, jurídico ou equipe para as primeiras
-  vendas (live 065, rota "primeiro HT do zero"). Precisa de oferta clara, apresentação formalizada e o processo de pagamento.
+  vendas (rota "primeiro HT do zero"). Precisa de oferta clara, apresentação formalizada e o processo de pagamento.
 - A primeira versão é a pior: prometer só o que existe ou o que se cumpre por demanda; avisar os compradores quando houver uma
   mudança para melhor.
 - Plano de evolução (registrar no documento): turma piloto, entrega com obsessão, entrevistas com quem teve resultado, reconstrução
-  da oferta com o que os alunos disseram que foi essencial (live 061); a cada ciclo, adicionar, modificar ou remover entregáveis
-  (live 058). A sessão final de conquista do aluno é o melhor momento da oferta de renovação (`ht-renovacao`); nada de "plano de
-  continuidade" no lugar dela (jun/26 SP). Preço sobe conforme chegam cases (regra do padrão, ver `ht-preco-pagamento-e-garantia`).
+  da oferta com o que os alunos disseram que foi essencial; a cada ciclo, adicionar, modificar ou remover entregáveis. A sessão final de conquista do aluno é o melhor momento da oferta de renovação (`ht-renovacao`); nada de "plano de
+  continuidade" no lugar dela. Preço sobe conforme chegam cases (regra do padrão, ver `ht-preco-pagamento-e-garantia`).
 
 ### Passo 10. Auditoria, documento e "oferta em uma página"
 Rodar a seção 6. Montar o documento pelo template e a versão de uma página. Handoff (seção 7).
@@ -139,13 +138,13 @@ Rodar a seção 6. Montar o documento pelo template e a versão de uma página. 
 - Entregável individual "até N" (padrão do squad). Capacidade (padrão do squad).
 - Não prometer o que não se cumpre; não criar plano de continuidade que concorra com a renovação.
 - Preço e oferta só existem em `02-oferta/`; nenhum outro agente altera.
-- Nada de número, depoimento ou caso inventado. Prova que não existe sai da oferta. Número de aula é referência ("conferir").
+- Nada de número, depoimento ou caso inventado. Prova que não existe sai da oferta. Número de referência é só referência ("conferir").
 
 ## 5. O que decido pelo padrão e o que fica para a Aprovação 1
 
-Não abro lote nem opções a/b/c. Decido pela recomendação, sigo e listo em "Assumi: X, Y, Z (é só pedir para mudar)":
+Não abro lote de perguntas. Decido pela recomendação, sigo e listo em "Assumi: X, Y, Z (é só pedir para mudar)":
 - **Aprovação 1** da oferta inteira (sempre), como um "posso seguir?" simples. Preço, garantia e nome viram oficiais aqui.
-- **Bônus à vista**: recomendo ter um (segunda cadeira ou outro; trilha 06 recomenda ter, mai/26 diz que não é obrigatório).
+- **Bônus à vista**: recomendo ter um (segunda cadeira ou outro; não é obrigatório).
 - **Entregar presencial no encontro de alunos** ou deixar o formato para depois: assumo pelo padrão.
 - **Trio**, programa com duração fora de 11 a 13 meses, Fake HT ou P2P (vêm do `ht-preco-pagamento-e-garantia`): fora do padrão, só se pedirem.
 - **Preço de fundador** para as primeiras vagas: assumo pelo padrão.
@@ -167,9 +166,9 @@ Não abro lote nem opções a/b/c. Decido pela recomendação, sigo e listo em "
 - [ ] Oferta em uma página pronta para o closer.
 
 **Auditoria (rodar em ordem; corrigir ou devolver à skill dona)**
-Checklist de 7 passos (laboratório de AR, SP/26): (1) definição; (2) partida e chegada; (3) etapas e passos; (4) entregáveis;
+Checklist de 7 passos: (1) definição; (2) partida e chegada; (3) etapas e passos; (4) entregáveis;
 (5) duplicações; (6) futuro (o que não existe ainda e foi prometido); (7) outros elementos (duração, bônus, preço, garantia).
-Erros típicos dos laboratórios e os 7 erros das lives 065 e 057: `references/auditoria-da-oferta.md`. Os que mais reprovam:
+Erros típicos e os 7 erros ao criar e ao implementar um HT: `references/auditoria-da-oferta.md`. Os que mais reprovam:
 definição que mistura "como" e desejo; entregável na jornada; mesmo nome para coisas diferentes; frequência; real time sem poder
 cumprir; Circle cedo; garantia abstrata, ou ausente sem estar no "Assumi"; entrada alta; bônus que é entrega; dois avatares; saída de IA colada;
 oferta não escalável; entulho de entregáveis; promessa de resultado que o expert não gera.
@@ -188,23 +187,9 @@ oferta não escalável; entulho de entregáveis; promessa de resultado que o exp
 - `anthropic-skills:xlsx`: planilha de oferta (abas ENTREGÁVEIS e OUTROS ELEMENTOS).
 - `anthropic-skills:docx` ou `anthropic-skills:pdf`: versão da oferta para o expert ler.
 - `avoid-ai-writing`, `humanizer`: texto da oferta sem cara de IA.
-- `gerador-slides-turbo`: só se o estrategista pedir um rascunho visual da oferta para a reunião de aprovação (o deck de venda é do
+- `gerador-slides`: só se o estrategista pedir um rascunho visual da oferta para a reunião de aprovação (o deck de venda é do
   `ht-closer` com o `ht-designer`).
 
-## 9. Fontes e lacunas
+## 9. Limites
 
-**Fontes**: trilha 06 RESUMO (inteiro, em especial 4, 5.6, 5.11, 5.12, 7, 8); rota3 01-02 (2.8, Partes 3 a 5); parte A
-(`fht-bonus-garantia-duracao`, `fht-auditoria-oferta-ar`); parte E (`bootcamp-ar-definir-oferta`, `definir-bonus-e-garantia-do-ar`,
-`auditar-ar-laboratorio`, `ar-mvp...`); parte F (`ar-auditar-oferta-e-entregaveis`, `ar-bonus-e-garantia-definir`,
-`ar-mvp-vender-antes-de-entregar`, `ar-encontro-exclusivo-e-renovacao`); parte G (`precificador-ht-duracao-bonus-garantia`); parte H
-(`formalizar-oferta-mentoria-ar`, lives 002, 015, 023); parte I (`auditoria-7-erros-ao-criar-ht`, `checklist-minimo-para-comecar-ht`,
-`ciclos-de-renovacao`); catálogo (`fht-formalizar-oferta-ar`, `fht-auditoria-oferta-ar`, `fht-bonus-e-duracao-do-programa`);
-transcrições lidas hoje: lives 057 (7 erros de implementação), 058 (engenharia reversa de 3 ofertas), 060, 061 (oferta piloto e
-reconstrução), bootcamp de AR mai/26 parte 2 (duração, bônus, preço, garantia).
-
-Lidas por inteiro na revisão de 23/11/2026: trilha 06 (as 11 aulas do bootcamp de AR, inclusive "Outros elementos da oferta"),
-bootcamp e laboratório de AR de dez/25 e bootcamp parte 1 e laboratório de AR de jun/26 SP (trilha 22).
-
-**Lacunas**: o texto oficial da garantia condicional não existe nas aulas (só exemplos falados); o "Canva da oferta" e o white
-label de 43 slides não foram capturados; os laboratórios de AR de mar/26, abr/26, mai/26 e jul/26 (RJ) não têm legenda; números
-dos casos da live 058 (faturamento, vendas por live, preços) vêm de tela narrada e ficam "conferir".
+**Limites**: o texto oficial da garantia condicional não existe (só exemplos falados); números dos casos (faturamento, vendas por live, preços) vêm de referência narrada e ficam "conferir".

@@ -1,6 +1,6 @@
 ---
 name: ht-configurar
-description: 'Personalização OPCIONAL do Squad High Ticket. Só roda quando a pessoa pede, com palavras como "personaliza o squad", "muda o prefixo de campanha", "uso a Meta Ads CLI", "minha pasta de experts é outra", "muda o sinal da sessão", "mostra meu perfil". Pergunta só o que a pessoa quer mudar (nada de questionário) e grava em ~/.config/squad-ht/perfil.md. Sem perfil, o squad já funciona com os padrões recomendados; nenhum agente oferece esta skill por conta própria. Os nomes dos agentes são fixos e não se mudam aqui. NÃO usar para montar o HT de um expert (isso é o ht-diretor).'
+description: 'Personalização opcional do Squad HT: muda só o que a pessoa pedir (pasta dos experts, ferramenta e prefixo de campanha, padrões do método) e grava em ~/.config/squad-ht/perfil.md. Use em "personaliza o squad", "muda o prefixo de campanha", "minha pasta de experts é outra", "mostra meu perfil". NÃO usar para montar o HT de um expert (ht-diretor).'
 ---
 
 # Personalizar o Squad High Ticket (opcional)
@@ -25,7 +25,6 @@ Modelo com todos os campos e os valores padrão: `references/perfil-modelo.md`.
    - a pasta onde ficam os experts (`raiz_projetos`; padrão `~/squad-ht`);
    - como você sobe campanha (`trafego.ferramenta`; padrão: o gestor entrega tudo campo a campo e você sobe no Gerenciador) e
      um prefixo no nome das campanhas (`trafego.prefixo_campanha`; padrão: sem prefixo);
-   - uma pasta com material de aulas do método, se você tiver (`fontes_metodo`);
    - algum padrão do método (ex.: valor do sinal, duração da sessão), pela chave da seção 5 do `ht-protocolo`.
    Se a resposta for "nada" ou "tá bom assim", não grava nada e encerra.
 4. Mostrar antes e depois de cada campo, numa linha ("prefixo de campanha: vazio → [SQUAD HT]"), e gravar com o OK da pessoa.

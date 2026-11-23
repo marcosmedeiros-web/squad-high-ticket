@@ -1,7 +1,5 @@
 # Retransmissão online e downsell online do presencial
 
-Fontes: encontro FHT fev/2026, Felipe Vasconcelos Rodrigues ("aumentei 30% das vendas do meu evento presencial retransmitindo
-online", resumo dos slides), trilha 17 parte A (downsell online do congresso, caso Top Corpus) e parte D do catálogo.
 Números são de casos de alunos, não meta.
 
 ## 1. Quando usar
@@ -33,7 +31,7 @@ interação; pedir análise do mentor antes (entregável check-up).
 
 ## 4. Também vale: edição online "a pedidos"
 
-Depois de um ou mais presenciais, uma imersão online "atendendo a pedidos" pega quem confirmou e não foi (Live 045).
+Depois de um ou mais presenciais, uma imersão online "atendendo a pedidos" pega quem confirmou e não foi.
 
 ## 5. Checklist
 
@@ -42,4 +40,4 @@ Depois de um ou mais presenciais, uma imersão online "atendendo a pedidos" pega
 - [ ] Página e captação da edição online.
 - [ ] Roteiro de corte ("o filé") e falas ao vivo de abertura, transições, pitch, re-pitch e encerramento.
 - [ ] Salas de venda e vendedores testados; palavra combinada.
-- [ ] Preço e condição da edição online definidos pelo estrategista (como a entrada do evento, é decisão dele).
+- [ ] Preço e condição da edição online definidos pela skill pelo padrão e listados em "Assumi".

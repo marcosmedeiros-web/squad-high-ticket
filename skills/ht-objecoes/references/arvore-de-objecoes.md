@@ -1,10 +1,5 @@
 # Árvore de objeções e mapa peça × objeção
 
-Fonte: trilha 11 RESUMO (cada peça quebra uma objeção; momento certo; quebra cirúrgica x estratégica; planilha viva); catálogo
-fht-arvore-de-objecoes (parte H, Live 019: objeção é consequência de um problema, árvore em 3 momentos; parte G, desafio de
-imersão out/2025 aula 11: cada entregável e palestra a partir da árvore); trilha 09 aula 10 e trilha 22 (limpeza da mesa antes
-do preço).
-
 ## 1. Princípio
 Objeção é sintoma de um problema (medo, falta de clareza, falta de prova, oferta mal desenhada). Resolver o problema às vezes é
 mudar a oferta, não só achar a frase. Pergunta de teste para cada resposta: você seria convencido por isso?

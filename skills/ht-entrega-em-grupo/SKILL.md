@@ -1,6 +1,6 @@
 ---
 name: ht-entrega-em-grupo
-description: 'Squad High Ticket / método FHT. Desenha e roteiriza as entregas um-para-muitos do HT do expert: bootcamp ou dia de implementação (introdução em 5 partes + ciclo dos 4 Es, grade de 9 h, exame ao vivo), plantão de dúvidas, laboratório de feedback em grupo, hot seat, sprint de resultado, dia de mentalidade, debriefing e sala colab, rotina semanal de divulgação com as 4 mensagens, comunidade (ferramenta, regras e animação) e encontros exclusivos. Use quando o estrategista disser "monta um bootcamp para os alunos", "dia de implementação", "como divulgo as entregas da semana", "hot seat", "desafio para reativar alunos", "a comunidade morreu", "encontro presencial dos alunos", "entregar em grupo sem perder qualidade". NÃO usar para desafio de 30 dias de venda ou ativação (ht-desafio-30-dias), entregáveis individuais (ht-entregaveis-1a1), imersão de venda (ht-imersao-*) nem para aulas de LPSG/5+1 da Turbo (estrutura-aulas-lpsg-turbo).'
+description: 'Desenha as entregas um-para-muitos do HT: bootcamp ou dia de implementação, plantão, laboratório, hot seat, sprint, dia de mentalidade, rotina semanal de mensagens, comunidade e encontros. Use para "monta um bootcamp", "hot seat", "a comunidade morreu", "encontro dos alunos". NÃO usar para desafio de 30 dias (ht-desafio-30-dias) nem entregáveis 1a1 (ht-entregaveis-1a1).'
 ---
 
 # Entrega em grupo do HT
@@ -56,9 +56,9 @@ skill escolhe o formato certo para cada necessidade, roteiriza a entrega e monta
 
 ### Passo 2. Bootcamp ou dia de implementação
 Estruturador completo e grade em `references/bootcamp-de-implementacao.md`. O roteiro tem sempre 4 momentos: introdução,
-conteúdo (4 Es), próximos passos e encerramento com NPS (trilha 19, aula 11).
-- Bootcamp sozinho às vezes não basta: no FHT, o mesmo conteúdo gravado é muito menos assistido e aplicado do que o ao vivo, e
-  dentro de um desafio quase a turma inteira participa (aula 10). Por isso a maioria das entregas em grupo é ao vivo; gravado
+conteúdo (4 Es), próximos passos e encerramento com NPS.
+- Bootcamp sozinho às vezes não basta: no método, o mesmo conteúdo gravado é muito menos assistido e aplicado do que o ao vivo, e
+  dentro de um desafio quase a turma inteira participa. Por isso a maioria das entregas em grupo é ao vivo; gravado
   só como teste ou para tema já dado em outro lugar. Desafio só a partir de 10 a 15 alunos (abaixo disso, acompanhar no
   individual e por WhatsApp).
 - **Introdução** (vale também para palestra e treino de mentor): boas-vindas e quebra-gelo; o que é; para quem é; para quem
@@ -110,7 +110,7 @@ Detalhe em `references/comunidade-e-encontros.md`.
 - Cada encontro: alguém do time abre no horário, chama pelo nome no chat, reconhece resultado de aluno, fecha com o próximo
   passo e NPS (ht-provas-e-cases).
 - Com autorização, as gravações das análises e dos exames de outros alunos viram biblioteca: para o aluno é dos materiais mais
-  ricos (aprende com o erro do outro), para o expert é fonte de gargalos do método (live 061).
+  ricos (aprende com o erro do outro), para o expert é fonte de gargalos do método.
 - Toda entrega em grupo segue o estruturador e fica gravada, para outro mentor repetir (ht-escala-da-entrega).
 
 ## 4. Regras inegociáveis do método
@@ -128,13 +128,14 @@ Detalhe em `references/comunidade-e-encontros.md`.
 - Padrões que se aplicam: entregável individual "até N" e frequência fixa só em encontro de grupo; faixas de 4 níveis, para medir
   o avanço no bootcamp; ferramenta de comunidade pelo tamanho; ciclo de 11 a 13 meses casado a um encontro presencial.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-- **Encontro presencial** (cidade, custo, quem paga, se é bônus ou entregável): opções com custo por aluno.
-- **Ferramenta paga de comunidade** fora do padrão do squad.
-- **Criar entrega em grupo nova não prevista na oferta** (é over delivery: custo de tempo do time).
-- **Cronograma fixo de 3 meses** divulgado aos alunos (compromisso público).
-- **Uso de gravação de aluno** como material para outros alunos (autorização).
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Encontro presencial** (cidade, custo, quem paga, bônus ou entregável): o agente monta a proposta com custo por aluno; marcar e gastar: "posso seguir?".
+- **Ferramenta paga de comunidade** fora do padrão do squad: gasto, "posso seguir?".
+- **Entrega em grupo nova não prevista na oferta** (over delivery, custo de tempo do time): o agente não cria; propõe como versão nova de `02-oferta/`.
+- **Cronograma fixo de 3 meses divulgado aos alunos**: o agente monta; divulgar é compromisso público: "posso seguir?".
+- **Gravação de aluno como material para outros alunos**: só com autorização registrada.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -171,21 +172,11 @@ Detalhe em `references/comunidade-e-encontros.md`.
 
 ## 8. Ferramentas de apoio
 
-`gerador-slides-turbo`, `slides-uipm-turbo`, `anthropic-skills:pptx` (slides do bootcamp), `anthropic-skills:xlsx` (estruturador
+`gerador-slides`, `slides-uipm`, `anthropic-skills:pptx` (slides do bootcamp), `anthropic-skills:xlsx` (estruturador
 e grade), `capcut-edit`, `short-form-video`, `caption-animation` (fragmentar a gravação em aulas), `banner-design` (capas na área
-de membros), `humanizer` e `avoid-ai-writing` (mensagens), `automacao-fluxos` e `conectar-whatsapp-oficial` (lembretes, com OK).
+de membros), `humanizer` e `avoid-ai-writing` (mensagens), `automacao-fluxos` e `conectar-whatsapp-oficial` (lembretes, com OK).## 9. Limites (não inventar)
 
-## 9. Fontes e lacunas
-
-**Fontes**: trilha 19, aulas 09 a 12 (por que grupo, Problemas e Oportunidades, evento de implementação, framework da
-introdução, 4 Es, rotina e white labels de lembretes), RESUMO §3, §4 passos 14 a 20, §5.3, §5.8, §5.9, §5.12, §8; parte-A
-(bootcamp implementation day, navegador e plantão, comunidade, desafio de resultado), parte-D bloco 6, parte-F (aula bootcamp
-4 Es, comunidade VIP, encontro exclusivo, desafio como entregável, gestão de engajamento), parte-G (plantão de dúvidas),
-parte-H (GIC e hot seat), parte-I (hot seat, comunidade engajada, dia de mentalidade, debriefing e sala colab); lives FHT 057,
-060 (bootcamp + drive + GPS) e 061 (gravações de análises de outros alunos), transcritas hoje. Revisão de 23/11/2026: trilha 19
-aulas 09 a 12 lidas por inteiro (ao vivo x gravado, desafio associado ao DIV, 4 momentos do bootcamp).
-
-**Lacunas**: (1) o mapa mental do bootcamp parte 2 e o estruturador em grupo não foram abertos (campos vêm do RESUMO); (2) a aba
-"Níveis de resultado" (nível 1 a 4, grau 1 a 3) existe em branco e nenhuma aula explica o uso; (3) o roteiro completo do dia de
-mentalidade era brinde de palestra e não está no material; (4) plantão e laboratório não têm script oficial além das regras
-citadas; (5) custo de encontro (100 pessoas por ~R$ 15 mil em espaço com projetor) é número de aula, conferir.
+O mapa mental do bootcamp parte 2 e o estruturador em grupo não vêm no pacote: os campos são reconstruídos. A aba "Níveis de resultado"
+(nível 1 a 4, grau 1 a 3) existe em branco, sem regra de uso. O roteiro completo do dia de mentalidade não está no material. Plantão e
+laboratório não têm script oficial além das regras citadas. Custo de encontro (100 pessoas por ~R$ 15 mil em espaço com projetor) é
+número de referência, conferir.

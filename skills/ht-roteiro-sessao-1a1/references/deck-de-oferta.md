@@ -1,8 +1,6 @@
 # Deck de oferta da sessão 1a1: estrutura slide a slide
 
-Fonte: trilha 09, bootcamp Apresentação de Oferta sem Travamentos (aulas 14-15; RESUMO-apresentacao §3, §5, §5.14, §7, §8);
-RESUMO-vendas §5.7; rota 3 resumo 05 (etapa 6); laboratórios da trilha 22 (abr/2026 94-95, mai/2026 80, jul/2026 RJ 08-09,
-dez/2025 143, jan/2025 192). O white label oficial tem cerca de 43 slides; a sequência abaixo foi reconstruída das aulas (o texto
+O deck-modelo tem cerca de 43 slides; a sequência abaixo foi reconstruída (o texto
 dos slides não foi lido em voz alta). O número total importa menos que o tempo por slide: referência de 40-45, 68 é excesso.
 
 ## 1. Regras de construção
@@ -23,7 +21,7 @@ dos slides não foi lido em voz alta). O número total importa menos que o tempo
 | 0 | Acordo | combinado sim ou não (sem "em cima do muro") | ver `heroi-e-acordo.md` |
 | 1 | Nome do HT | só o nome | "Esse é o [programa]." |
 | 2 | Definição | "[Nome]: programa de acompanhamento personalizado para [avatar] que quer [resultado 1], [2] e [3]." | teste da avó: entende de primeira? |
-| 3-5 | Provas (2-3) | resultado de aluno: antes/depois com seta, nome, idade, cidade, resultado; prints empilhados; vídeo curto só se converte | resultado, nunca elogio; autorizado; sem prova, pular; vídeo com menos de 1 min (abr/2026); prova de produto menor ou do próprio expert vale se mostrar a mesma transformação, nunca depoimento que faça o produto barato parecer suficiente (laboratório abr/2026) |
+| 3-5 | Provas (2-3) | resultado de aluno: antes/depois com seta, nome, idade, cidade, resultado; prints empilhados; vídeo curto só se converte | resultado, nunca elogio; autorizado; sem prova, pular; vídeo com menos de 1 min; prova de produto menor ou do próprio expert vale se mostrar a mesma transformação, nunca depoimento que faça o produto barato parecer suficiente |
 | 6-9 | 4 imagines (um por slide) | direcionamento, implementação/ferramentas, acompanhamento, feedback (ou ambiente) | descrever o lead **tendo o acompanhamento** numa situação concreta dele; função do entregável, não o nome; sem repetir texto |
 | 10 | "[Programa] acelera seu [resultado]" | frase única | trocar "resultado" pela palavra do nicho |
 | 11 | Provocação | prometer é fácil: há curso, PDF, e-book; por que comigo é diferente? | pode ser só falada; amarrada à promessa dos imagines |
@@ -53,7 +51,7 @@ Com 4 pilares e 2-4 entregáveis cada, o deck fica entre 38 e 45 slides.
 - Conquista pessoal (saúde, emagrecimento, relacionamento): ancoragem pelo que já gasta sem resultado + emocional; nada de "para
   quem não tem tempo a perder" (a dor é o sonho, não o tempo).
 
-## 4. Erros que mais aparecem nos laboratórios
+## 4. Erros que mais aparecem em correções de deck
 Imagines pulados, juntos ou genéricos; nome sem definição; elogio como prova; depoimento do produto barato que vende o produto
 barato em vez do HT; ressalva jurídica ou aviso no slide que levanta objeção que o lead não tinha (vai no contrato); desenho ou
 ilustração infantil em vez de foto; slide com texto demais ou "assistir, preencher, praticar" (soa como mais trabalho para o lead: mostrar que facilita);

@@ -1,16 +1,16 @@
 ---
 name: pagina-design-premium
-description: 'Transforma um briefing, uma copy pronta ou uma referência visual (JPG/PNG/PDF/print de Figma) em uma landing page HTML de arquivo único com acabamento de estúdio de design — sem cara de IA. Deriva a direção de arte (paleta, tipografia, motivo, movimento) do nicho e do público, inclusive quando o usuário não passa cor nenhuma. Use SEMPRE que o usuário pedir para "deixar a página bonita", "montar o layout", "diagramar essa copy", "criar a LP a partir desse briefing", "fazer no estilo dessa página", enviar imagem/PDF/print de Figma de referência, reclamar que uma página ficou "com cara de IA", "genérica" ou "feia", ou pedir para redesenhar/repaginar uma LP. Use também quando ele só colar um bloco de copy e pedir a página. Cobre low ticket, ingresso de evento, captura de lead, high ticket e upsell. Entrega HTML+CSS+JS em um arquivo só. FRONTEIRA NO SQUAD TURBO: NÃO use para diagnosticar por que uma página não converte — isso é `criador-paginas-low-ticket-turbo` (diagnóstico-first) e `page-optimizer-turbo` (otimização depois de aprovada). NÃO use para página de rotas múltiplas em Next.js — isso é `paginas-lpsg-turbo`. Briefing sem copy: a copy sai do `criador-paginas-low-ticket-turbo` ou do @copywriter-turbo ANTES de diagramar. Entregue a página, passe no gate visual `picasso-auditor-turbo`; se houver texto novo, no `revisor-copy-turbo` também.'
+description: 'Transforma briefing, copy ou referência visual em landing page HTML de arquivo único com acabamento de estúdio, sem cara de IA. Use para "deixar a página bonita", "diagramar essa copy", "criar a LP desse briefing", "no estilo dessa página", "ficou com cara de IA". NÃO usar para diagnóstico de conversão nem performance (page-optimizer).'
 ---
 
 # Página de Design Premium
 
-<!-- visual-pelo-codex:inicio · fonte única: testes/visual-pelo-codex/bloco.md · não edite aqui: edite a fonte e rode testes/pacote-pagina/aplicar.py --topo -->
-> **Passo 0 de toda página: o visual vem do Codex.** Antes de escrever HTML, siga
-> `~/.claude/skills/designer-senior-turbo/references/visual-pelo-codex.md`: o Codex desenha a página (imagem de referência), eu
-> construo conforme o desenho (cores, hierarquia, composição e tipografia) com a copy aprovada. Sem Codex, sem login ou sem cota:
-> faço do jeito normal desta skill e, no fim, sugiro conectar o Codex com a mensagem que está na referência.
-<!-- visual-pelo-codex:fim -->
+<!-- desenho-antes-do-html:inicio -->
+> **Passo 0 de toda página: desenho antes do HTML.** Antes de escrever HTML, siga
+> `designer-senior/references/desenho-antes-do-html.md`: consigo um desenho de referência da página (gerador de imagem disponível,
+> o que a pessoa já usa, ou a referência que ela mandou) e construo conforme o desenho (cores, hierarquia, composição e tipografia)
+> com a copy aprovada. Sem desenho: faço do jeito normal desta skill e digo em "Assumi". Nunca bloqueia.
+<!-- desenho-antes-do-html:fim -->
 
 Skill de **direção de arte + diagramação**. Recebe conteúdo e devolve um HTML único com acabamento que não parece gerado.
 
@@ -40,11 +40,11 @@ Blocos que a copy não trouxe (FAQ, garantia, depoimentos, escassez) ficam **dis
 | **Copy pronta** | manda o texto da página com headlines | Pule o Passo 2 |
 | **Referência visual** | JPG/PNG/PDF/print de Figma | Leia `references/leitura-de-referencia.md` antes de tudo |
 
-Com briefing puro sem copy: ofereça acionar `criador-paginas-low-ticket-turbo` para gerar a copy primeiro, ou escreva uma copy funcional e avise que é rascunho.
+Com briefing puro sem copy: a copy sai antes do `ht-copy-paginas-e-emails` (núcleo de copy do Squad HT); se a pessoa quiser seguir já, escreva uma copy funcional e avise que é rascunho.
 
 ### Passo 2 — Extrair os dados obrigatórios
 
-Pergunte de uma vez só, numa mensagem:
+Tire primeiro do que já existe (briefing, copy, projeto, página atual). Pergunte de uma vez só, numa mensagem, apenas o que faltar:
 
 1. **O que é e quanto custa**
 2. **Para quem** — sexo, faixa etária, o que já tentou antes
@@ -58,7 +58,7 @@ Se ele disser "não tenho cor nem referência", **não pergunte de novo**. Deriv
 
 Leia `references/direcao-de-arte.md`. Derive papel, tinta, destaque, cores de apoio, par tipográfico, curvatura e motivo a partir do registro emocional + público + nível de prova + ticket.
 
-Apresente em 6 linhas e espere aprovação:
+Apresente em 6 linhas (aprovação simples; sem resposta, siga com ela e diga "Assumi: esta direção, é só pedir para mudar"):
 
 ```
 REGISTRO      acolhimento / alívio
@@ -73,7 +73,7 @@ Os arquétipos no fim daquele arquivo (`blueprint`, `botanica`, `editorial`, `te
 
 ### Passo 4 — Conceito
 
-A metáfora que dá coesão. Gere **3 opções**, cada uma em duas linhas: qual é a metáfora e como ela aparece na página. Não gere antes de ele escolher.
+A metáfora que dá coesão. Gere **3 candidatas** internamente, cada uma em duas linhas (qual é a metáfora e como aparece na página), escolha a mais forte e mostre as três com a escolhida marcada: "Assumi: conceito X (é só pedir para trocar por Y ou Z)".
 
 Um conceito só é válido se produz **elementos concretos**: nomenclatura, numeração, forma dos separadores, tipo de moldura. "Moderno e clean" não é conceito.
 
@@ -144,6 +144,8 @@ Olhe em especial `font-size` do corpo, `font-weight` do display, e a **sombra do
 ### Passo 7 — Renderizar e auditar
 
 **Sempre renderize antes de dizer que está pronto.** Erro de espaçamento, quebra de texto e sobreposição só aparecem renderizados.
+Se o Playwright não estiver disponível, peça OK e instale (`npm i -D playwright && npx playwright install chromium`); sem OK, abra o
+HTML no navegador em 390 px e 1440 px e salve as capturas à mão.
 
 ```bash
 npx playwright screenshot --viewport-size=390,844 --full-page saida.html mobile.png
@@ -223,11 +225,11 @@ Relate o que ficou pendente por falta de material dele.
 
 Não escreve copy do zero, não faz rotas múltiplas, não faz app dinâmico.
 
-<!-- pacote-pagina:inicio · kit 5.3.8 · fonte única: testes/pacote-pagina/bloco.md · não edite aqui: edite a fonte e rode testes/pacote-pagina/aplicar.py -->
+<!-- pacote-pagina:inicio -->
 ## Pacote padrão de página publicada
 
 Vale para TODA página que vai ao ar (venda, ingresso, captura, obrigado, institucional). Quem faz entrega com os 10 itens; quem audita
-(picasso-auditor-turbo) reprova a página que não tiver qualquer um deles. Página sem o pacote não está pronta. Para publicar, use a skill
+(o `ht-revisor-visual`) reprova a página que não tiver qualquer um deles. Página sem o pacote não está pronta. Para publicar, use a skill
 `publicar-pagina-cloudflare`.
 
 1. **Na raiz do site:** `robots.txt` (com a linha `Sitemap: https://.../sitemap.xml`), `sitemap.xml` e `llms.txt` (o que é a página, para quem,
@@ -235,14 +237,14 @@ Vale para TODA página que vai ao ar (venda, ingresso, captura, obrigado, instit
 2. **No `<head>`:** `<html lang="pt-BR">` (ou o idioma da página), `<title>`, `<meta name="description">` e `<link rel="canonical">` com a URL final.
 3. **Open Graph:** `og:title`, `og:description`, `og:url`, `og:type` e `og:image` (1200×630, URL absoluta, responde 200).
 4. **Twitter:** `twitter:card` = `summary_large_image`, `twitter:title`, `twitter:description` e `twitter:image`.
-5. **JSON-LD:** Organization + WebPage, e FAQPage se a página tiver FAQ. Product/Course **sem** `offers`/preço, salvo autorização do dono
+5. **JSON-LD:** Organization + WebPage, e FAQPage se a página tiver FAQ. Product/Course **sem** `offers`/preço, salvo autorização do expert
    (preço no JSON-LD é uma segunda cópia do preço da página e diverge em silêncio). Validado de fora no validator.schema.org (comando abaixo).
 6. **404 de verdade:** `404.html` na raiz. No Cloudflare Pages, sem ele todo caminho inexistente responde 200 com a página inteira (soft-404).
 7. **`favicon.ico` na raiz**, além do `<link rel="icon">`.
-8. **Rodapé padrão completo, com os dados do DONO do negócio:** `{{RAZAO_SOCIAL}}` · CNPJ `{{CNPJ}}` · `{{ENDERECO}}` · `{{EMAIL}}` ·
+8. **Rodapé padrão completo, com os dados do dono do negócio:** `{{RAZAO_SOCIAL}}` · CNPJ `{{CNPJ}}` · `{{ENDERECO}}` · `{{EMAIL}}` ·
    WhatsApp `{{WHATSAPP}}` · Política de Privacidade · Termos de Uso · a garantia (`{{GARANTIA}}`) · o aviso de que os resultados variam de
    pessoa para pessoa · © `{{ANO}}` `{{RAZAO_SOCIAL}}`. Rodapé completo faz a Meta considerar a página melhor e distribuir mais os anúncios.
-   Os campos saem dos dados do negócio que o dono já deu (memória, conhecimento, páginas anteriores). Faltou um campo: pergunte ao dono antes
+   Os campos saem dos dados do negócio que o expert já deu (memória, conhecimento, páginas anteriores). Faltou um campo: peça só esse dado antes
    de publicar. Nunca invente CNPJ, endereço ou garantia, e nunca use os dados de outra empresa.
 9. **Celular:** medido em 320, 390 e 428 px sem rolagem horizontal (`document.documentElement.scrollWidth <= innerWidth` em cada largura).
 10. **Conferência de fora antes de dizer "no ar"** (anti-cache; cada linha tem de passar):

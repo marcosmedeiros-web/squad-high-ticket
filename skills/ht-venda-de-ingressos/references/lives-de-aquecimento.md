@@ -1,8 +1,5 @@
 # Lives de aquecimento: react, oficina e live de conhecimento
 
-Fonte: trilha 17, aula 33; convites reais da pasta `_materiais/17-bonus-imersao-online/5. Lives de Aquecimento/`; parte-I
-(temporada de aquecimento react). Estruturas parafraseadas.
-
 ## 1. Formatos
 - **React**: o expert (ou alguém com resultado) assiste ao vivo, com o público, uma palestra de edição anterior, pausa e comenta
   como aplicar.

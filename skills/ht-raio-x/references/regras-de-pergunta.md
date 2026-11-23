@@ -1,7 +1,6 @@
 # Regras de pergunta do Raio-X, com reescritas
 
-Fonte: trilha 09 aula 06; rota 3 resumo 05; laboratórios da trilha 22 (dez/2025 144, jan/2026 128, mai/2026 80, abr/2026 95,
-jul/2026 RJ 07 e 09); engenharia reversa jan/2025 (192). Exemplos parafraseados e anonimizados.
+Exemplos parafraseados e anonimizados.
 
 ## 1. As 12 regras
 
@@ -50,13 +49,13 @@ jul/2026 RJ 07 e 09); engenharia reversa jan/2025 (192). Exemplos parafraseados 
 ## 4. Indicador duro do nicho (opcional)
 
 Um campo extra, fora das 35 perguntas, que o lead traz (medidas e peso no emagrecimento; faturamento e taxa de fechamento num
-negócio; horas por semana numa habilidade). A planilha calcula um indicador e mostra em vermelho quando está em risco. No caso
-analisado em aula, foi o que fez a lead perceber que precisava emagrecer três vezes mais do que achava. Regras: fórmula e corte
+negócio; horas por semana numa habilidade). A planilha calcula um indicador e mostra em vermelho quando está em risco. Num caso de
+referência, foi o que fez a lead perceber que precisava emagrecer três vezes mais do que achava. Regras: fórmula e corte
 dados pelo expert (fonte registrada); nada de diagnóstico de saúde que o expert não pode dar; dado fica em `privado/`.
 
 ## 5. Tamanho
 
 - Padrão: 7 áreas × 5 = 35 perguntas. Versão curta: 5 × 5 = 25.
-- Roda da vida com mais áreas e 3 perguntas foi aceita num laboratório, mas quebra a fórmula de 5 por área: só com OK do estrategista
+- Roda da vida com mais áreas e 3 perguntas foi aceita num laboratório, mas quebra a fórmula de 5 por área: só com OK simples da pessoa
   e com a fórmula ajustada (soma ÷ (3 × 10)).
 - O fundamento é elevar a consciência, não bater um número; 35 não é sagrado, 5 por área é.

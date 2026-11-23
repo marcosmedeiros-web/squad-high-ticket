@@ -1,9 +1,9 @@
 ---
 name: ht-criativos-high-ticket
-description: 'Criativos de anúncio do Squad High Ticket (método FHT). Fecha o briefing persona-curiosidade-dor (com pilar e tema), garimpa e modela ângulos, escreve roteiros de vídeo e textos de estático por objetivo (convite à sessão 1a1, captação de imersão, aula semanal com lembrete e replay, minicurso, webinário, ingresso), planeja gravação em partes e variações Lego (5 ganchos x 4 corpos x 5 CTAs), dá o CPF de cada criativo, lê hook rate, hold rate e retenção para dizer qual trecho trocar, e define a cadência de produção. Use quando o estrategista disser "preciso de criativos para a sessão", "roteiro de anúncio da imersão", "o criativo cansou", "qual trecho do vídeo está ruim", "monta a pauta de gravação do expert". NÃO usar para Reels orgânico (ht-reels-com-cta), para subir a campanha (ht-trafego-high-ticket) nem para criativo de LPSG/5+1 (Turbo).'
+description: 'Criativos de anúncio do Squad HT: briefing persona-curiosidade-dor, ângulos, roteiros de vídeo e textos estáticos por objetivo, gravação em partes, variações Lego e leitura de métricas. Use para "criativos para a sessão", "roteiro de anúncio da imersão", "o criativo cansou". NÃO usar para Reels orgânico (ht-reels-com-cta) nem para subir campanha (ht-trafego-high-ticket).'
 ---
 
-# Criativos High Ticket (anúncio pago, método FHT)
+# Criativos High Ticket (anúncio pago, método)
 
 ## 1. Para que serve e o que entrega
 
@@ -92,9 +92,9 @@ Modelos por objetivo (sessão, imersão, aula semanal, minicurso, webinário, in
 - **Hook rate** = reproduções de 3 s ÷ impressões (referência > 30%). **Hold rate** = reproduções de 50% ÷ impressões.
   Criar as duas como métrica personalizada no gerenciador. Funil de retenção 25/50/75/95%. CTR **do link** (não o geral).
   Visitas ao perfil (o pago leva ao perfil e o lead entra pelo orgânico): antes de chamar um criativo de "sem conversão",
-  comparar visitas ao perfil com cliques no link (o professor do bootcamp já desligou criativo que gerava lead pelo perfil).
+  comparar visitas ao perfil com cliques no link (criativo que gera lead pelo perfil e não pelo link é candidato a desligar).
 - Pedir **sempre** ao gestor de tráfego o relatório de visualização (25/50/75/95%) de cada CPF; a leitura das métricas de
-  criativo é do estrategista, não só do gestor (aula 30).
+  criativo é do estrategista do projeto, não só do gestor.
 - Mexer **só no trecho que cai**: hook ruim → trocar gancho; queda entre 25% e 50% → corpo; poucos chegam ao CTA → antecipar o
   CTA (meio do vídeo). Fazer **autópsia** dos campeões (que gancho baixou CPM, que corpo levou a 50%, que CTA gerou clique).
 - Vida útil de referência ~45 dias; trocar antes quando o CPL subir com frequência alta. Régua completa em
@@ -115,19 +115,18 @@ handoff para revisão. Nada vai ao expert ou ao ar sem OK do estrategista.
 - Áudio livre de direitos (música com direito autoral derruba anúncio e impede Turbinar); legenda legível dentro do quadro.
 - Todo conteúdo pode virar criativo (às vezes só tira o CTA); criativo de anúncio é diferente de Reels orgânico: fazer os dois.
 - Formato (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): misturar imagem e vídeo nas campanhas por padrão, vídeo como base do frio e estáticos
-  junto no mesmo conjunto. O bootcamp de criativos usava imagem só no remarketing; o padrão recomendado é misturar. Carrossel em frio
+  junto no mesmo conjunto. A prática de referência usa imagem só no remarketing; o padrão recomendado é misturar. Carrossel em frio
   para HT: não propor.
 - Copy gerada por IA é base, nunca versão final: ler inteira, pôr a voz do expert, cortar marcas de IA.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-Padrão recomendado (não volta como pergunta, salvo se o perfil disser outra coisa): formato em público frio, imagem e vídeo juntos por padrão (padrão recomendado,
-que o estrategista pode mudar em `padroes` do perfil; regra na seção 4).
-
-- **Tom e risco de compliance**: criativo com promessa de renda ou de saúde, antes e depois, menção a atributo pessoal.
-- **Uso de caso, depoimento ou print de resultado** de aluno (precisa de autorização registrada).
-- **Escassez numérica** ("10 análises este mês"): só com o número real de agenda que o expert sustenta.
-- **Volume de produção** que exige mais horas do expert ou contratação de editor/ferramenta paga.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Formato em público frio**: imagem e vídeo juntos por padrão (dá para mudar em `padroes` do perfil; regra na seção 4).
+- **Tom e compliance**: o agente escreve fora de promessa de renda ou de saúde, antes e depois e atributo pessoal; o que ficar no limite vai para `ht-revisor-metodo-copy`.
+- **Caso, depoimento ou print de resultado de aluno**: só com autorização registrada; sem ela, o criativo sai sem.
+- **Escassez numérica** ("10 análises este mês"): só com o número real de agenda que o expert sustenta; sem o número, sai sem escassez.
+- **Volume que exige mais horas do expert, editor ou ferramenta paga**: gasto, "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -165,24 +164,10 @@ que o estrategista pode mudar em `padroes` do perfil; regra na seção 4).
 
 - Copy: `hook-generator` (variações de gancho), `voice-builder` (voz do expert a partir de transcrições), `avoid-ai-writing` e
   `humanizer` (limpeza de marca de IA).
-- Pesquisa: `niche-research`, `instagram-analise-estrategica-turbo`, `watch` (assistir criativo de concorrente ou vídeo viral
-  para modelar ângulo), `transcrever-youtube-turbo`, `leitura-web-turbo`.
+- Pesquisa: `niche-research`, `instagram-analise-estrategica`, `watch` (assistir criativo de concorrente ou vídeo viral
+  para modelar ângulo), `transcrever-youtube`, `leitura-web`.
 - Vídeo: `ad-creative-video` (variações em lote e multiformato), `capcut-edit`, `caption-animation`, `broll-fullscreen`,
   `short-form-video`, `hyperframes`, `remotion`, `criacao-guia-gravacao` (pauta de gravação), `lower-thirds`, `countdown-video`
   (estágio "é hoje"), `testimonial-video` (só com depoimento autorizado).
-- Estático: `banner-design`, `gerador-instagram-turbo`, `designer-senior-turbo`.
+- Estático: `banner-design`, `gerador-instagram`, `designer-senior`.
 
-## 9. Fontes e lacunas
-
-**Fontes:** trilha 13 `RESUMO-criativos.md` e aulas 29 a 40 (bootcamp de criativos para sessão 1a1: métricas, persona,
-curiosidade, dores, temas, pilares, ângulos, estruturas, produção, edição, Q&A; transcrições lidas inteiras na revisão de
-23/11); trilha 13 bootcamp de tráfego, aulas 19 e 20 (criativo básico da sessão, lidas inteiras) e `RESUMO-trafego.md` §3.9
-e §5.1-5.2; trilha 17 aula "Criativos" do bootcamp de copy de captação (transcrição nova); trilha 14 Parte 2
-do bootcamp de aula semanal (transcrição nova); `RESUMO-palestras-encontros-fht.md` (criativos em partes, jun/2026; pesquisa de
-leads); `RESUMO-erico-rocha-e-sala-colab.md` (dor x aspiração); catálogo §3 (fht-briefing… a fht-revisor-anti-ia-de-copy).
-
-**Lacunas (não inventar):** mapa mental e autópsia de criativo do professor convidado não estão no material; benchmarks de hold
-rate estão confusos na legenda (usar o histórico da conta); método "ACE" de distribuição só citado; templates de criativo
-(Canva/Figma) e o agente de copy de criativos da FHT não foram capturados (reconstrução aqui não é "o agente da FHT"); exemplos
-de gancho, corpo e CTA da palestra de criativos em partes estão só em imagem; não há regra de quantos criativos por semana
-para sessão além da referência de agência (10 novos por semana) e da sugestão de ~30 gravações por mês para aula semanal.

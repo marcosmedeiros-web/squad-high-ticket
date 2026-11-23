@@ -1,6 +1,6 @@
 # Página de obrigado da sessão 1a1
 
-Referência da `ht-pagina-inscricao-sessao`. Aula 06 da trilha 12 e RESUMO-trafego da trilha 13.
+Referência da `ht-pagina-inscricao-sessao`.
 
 ## 1. Para que serve
 
@@ -10,12 +10,12 @@ Referência da `ht-pagina-inscricao-sessao`. Aula 06 da trilha 12 e RESUMO-trafe
 
 ## 2. Conteúdo
 
-Modelo da aula (texto curto, sem botão e sem cronômetro):
+Modelo (texto curto, sem botão e sem cronômetro):
 ```
 Pronto!
 Em breve nossa equipe vai entrar em contato com você para [agendar seu nome da sessão].
 ```
-Acréscimo opcional do squad (não está na aula; usar só se for verdade e com OK do estrategista): uma linha sobre **como** o contato
+Acréscimo opcional do squad (não faz parte do método; usar só se for verdade e com OK do estrategista): uma linha sobre **como** o contato
 vem, para o lead reconhecer a mensagem, por exemplo "Vamos te chamar pelo WhatsApp [no número informado / pelo número com a
 foto de (nome)]". Motivo: notificação de número desconhecido e sem foto reduz resposta (lição citada em live sobre funil
 comercial).
@@ -29,6 +29,6 @@ Manter: logo, rodapé com CNPJ. Retirar: botão, cronômetro, oferta, novos pass
 - Título da aba ("Obrigado"), favicon, selo da ferramenta removido quando o plano permitir.
 - O formulário aponta para esta página como confirmação (trocar a confirmação padrão da ferramenta depois que esta existir).
 - Pixel instalado na página e **evento Lead disparando só aqui**.
-- Público para o tráfego: visitantes desta URL, 180 dias (nome sugerido em aula: "Leads | Sessão 1a1 | Conversão | Página de
+- Público para o tráfego: visitantes desta URL, 180 dias (nome sugerido: "Leads | Sessão 1a1 | Conversão | Página de
   obrigado | 180 dias"); usado como exclusão nas campanhas de captação de sessão (padrão do squad: exclusões em cascata; o
-  bootcamp criou o público mas não mostrou a exclusão, ponto de atenção registrado na fonte).
+  bootcamp criou o público mas não mostrou a exclusão, ponto de atenção).

@@ -1,6 +1,6 @@
 ---
 name: ht-vitrine
-description: 'Squad High Ticket / método FHT. Monta e audita a vitrine do expert para vender o HT e a sessão 1a1: tipo de perfil, foto, arroba, campo Nome com palavra-chave, bio (promessa fixa + CTA da ação do momento), link, os 3 posts fixados (Quem sou eu no herói relutante, Evidência, Campanha vigente), YouTube e LinkedIn. Use quando o estrategista disser "arruma o Instagram do expert", "escreve a bio", "monta os fixados", "o perfil vende o HT?", "audita a vitrine", "pessoal ou institucional?", "bio do canal do YouTube". Entrega rascunho para o estrategista aprovar; nada é publicado. NÃO usar para lançamento pago semanal, 5+1 ou Funil 8 (método LPSG da Turbo), nem para calendário de conteúdo (ht-reels-com-cta) ou produção da arte final (ht-designer).'
+description: 'Monta e audita a vitrine do expert para vender o HT: perfil, foto, arroba, nome, bio, link, 3 posts fixados, YouTube e LinkedIn. Use para "arruma o Instagram do expert", "escreve a bio", "monta os fixados", "audita a vitrine". Só rascunho, nada é publicado. NÃO use para calendário de conteúdo (ht-reels-com-cta) nem arte final.'
 ---
 
 # Vitrine do expert (redes sociais como vitrine do HT)
@@ -78,7 +78,7 @@ por IA em `references/perfil-e-bio.md` (seção 2).
    sem aluno ainda, resultado próprio ou autoridade ligada ao avatar. Seção 2 da referência.
 3. **Campanha vigente** (volante): na etapa 2 da rota é o convite para a sessão 1a1; depois, a ação ativa do momento (aula
    semanal, imersão, live). Data ou recorrência, destino e CTA simples. Seção 3 da referência.
-- Os três em carrossel (imagem estática única é o erro mais comum dos laboratórios). Post de conteúdo (ex.: "7 mitos") não é
+- Os três em carrossel (imagem estática única é o erro mais comum). Post de conteúdo (ex.: "7 mitos") não é
   evidência.
 - Ordem de fixação: desfixar todos e fixar de novo na ordem, conferindo no celular qual aparece primeiro (a interface muda).
 - Destaques: não são prioridade; o que existir não pode contradizer a promessa. Arquivar post antigo que joga contra.
@@ -145,7 +145,7 @@ Sem a/b/c: o agente decide pela recomendação e lista em "Assumi". Publicar, ar
 - [ ] Nenhum número, depoimento ou história inventados; tudo com fonte.
 
 **Auditoria** (rodar `references/auditoria-vitrine.md` na ordem foto → nome → arroba → bio → link → 3 fixados → YouTube →
-LinkedIn). Erros típicos dos laboratórios que derrubam a entrega: marca no lugar do nome; palavras diferentes para a mesma
+LinkedIn). Erros típicos que derrubam a entrega: marca no lugar do nome; palavras diferentes para a mesma
 promessa; Quem sou eu sobre paixão, missão ou currículo; história fora de ordem; desfecho que dispensa o método; vários HTs;
 link encurtado ou expirado; telefone exposto; "carteirada" na primeira linha; excesso de emoji ou emoji infantil; prova que
 não sustenta a promessa; vídeo único no lugar do carrossel de provas; jargão do meio; expressão regional que o avatar não
@@ -161,25 +161,11 @@ entende.
 
 ## 8. Ferramentas de apoio (por nome, sem copiar)
 
-- Pesquisa do perfil atual: `instagram-analise-estrategica-turbo`, `leitura-web-turbo`.
+- Pesquisa do perfil atual: `instagram-analise-estrategica`, `leitura-web`.
 - Texto: `avoid-ai-writing` e `humanizer` como filtro final da bio e das legendas; `voice-builder` para calibrar a voz do expert.
-- Peça visual: `carrossel-instagram-publicacao`, `gerador-instagram-turbo` (carrosséis), `youtube-thumbnail` e `banner-design`
-  (banner do canal), `design-tokens-turbo` (cores e fontes da marca), `frontend-design:frontend-design` se virar página.
+- Peça visual: `carrossel-instagram-publicacao`, `gerador-instagram` (carrosséis), `youtube-thumbnail` e `banner-design`
+  (banner do canal), `design-tokens` (cores e fontes da marca), `frontend-design:frontend-design` se virar página.
 
-## 9. Fontes e lacunas
+## 9. Limites
 
-**Fontes:** trilha 08 (bootcamp, aulas 02 a 10, lidas por inteiro na revisão R3); desafio abr/2026, bootcamp 87 e laboratório
-88 de vitrine (lidos por inteiro na revisão R3) e bootcamp de SLG 97 (dois públicos, três mentores); rota 3, resumo e transcrição
-04; demais laboratórios e bootcamps de vitrine dos desafios (jul/2026 RJ 02-03, jun/2026 SP 15-16, jan/2026 118-121, dez/2025
-139, mai/2025 154-155, mar/2025 174-175, jan/2025 183-187) via RESUMOs da trilha 22, partes E, F, G e busca por termo (limite de
-150 caracteres confirmado em jun/2026 SP e jul/2026 RJ); Live FHT 026 (parte H); catálogo
-(fht-vitrine-perfil, fht-posts-fixados, fht-youtube-e-linkedin-vitrine, fht-auditoria-vitrine); padrões do squad;
-GPT "IA do Bootcamp de Rede Social como Vitrine FHT" (citado, prompt não disponível).
-
-**Lacunas (não inventar):** limite de 150 caracteres da bio, trava de ~14 dias do campo Nome, ~14-15 caracteres do arroba e
-carrossel de até 20 cards são falas de aula (conferir na interface do dia); o nº de cards de cada carrossel é sugestão do squad;
-regras de cada conselho profissional não estão no material; o checklist oficial
-da etapa 2 da Central do Desafio, o modelo de Canva e o mapa mental não foram lidos; o prompt do GPT de vitrine não existe nos
-arquivos; ordem de exibição dos fixados depende da versão do app; o material não prescreve quais destaques criar nem dá
-métrica de conversão da vitrine (só casos orais). Fontes divergem sobre Linktree x link único e sobre o 2º fixado (Produto x
-Evidência): vale o padrão do squad (link direto; 2º = Evidência).
+**Não inventar:** limite de 150 caracteres da bio, trava de ~14 dias do campo Nome, ~14-15 caracteres do arroba e carrossel de até 20 cards são referências faladas (conferir na interface do dia); o nº de cards de cada carrossel é sugestão do squad; as regras de cada conselho profissional não estão no método; a ordem de exibição dos fixados depende da versão do app; não há prescrição de destaques nem métrica de conversão da vitrine. Há divergência sobre Linktree x link único e sobre o 2º fixado (Produto x Evidência): vale o padrão do squad (link direto; 2º = Evidência).

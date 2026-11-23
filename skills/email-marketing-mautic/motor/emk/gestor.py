@@ -1,4 +1,4 @@
-"""Gestor: segmentos e criacao do e-mail no Mautic. Quem ESCREVE e o copywriter do kit, quem revisa e o revisor;
+"""Gestor: segmentos e criacao do e-mail no Mautic. Quem ESCREVE e o copywriter, quem revisa e o revisor;
 aqui o texto aprovado vira um e-mail de segmento DESPUBLICADO. Criar nunca envia (ver disparo.py)."""
 import json
 import os

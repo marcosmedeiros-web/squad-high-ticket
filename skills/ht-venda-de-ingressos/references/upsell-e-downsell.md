@@ -1,7 +1,5 @@
 # Upsell em outros produtos e downsell no evento ao vivo
 
-Fonte: trilha 17, aulas 32 (upsell/downsell de outros produtos) e 29 (downsell em evento ao vivo); RESUMO-parte-B §5.7 e §5.9.
-
 ## 1. Upsell do ingresso na página pós-compra de outro produto
 Estrutura:
 1. Contador e aviso "assista para concluir sua inscrição".

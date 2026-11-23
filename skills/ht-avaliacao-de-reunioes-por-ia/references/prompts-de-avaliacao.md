@@ -1,10 +1,9 @@
 # Prompts de avaliação
 
-Atenção: o prompt completo do FHT não está nos arquivos. O modelo 1 traz só o que foi ditado em aula (marcado). Os modelos 2 a 4
-são reconstrução do squad sobre o roteiro oficial; nunca apresentar como "o prompt do FHT". Pesos e sub-itens saem do manual e do
+Atenção: os modelos abaixo são reconstrução do squad sobre o roteiro oficial; nunca apresentar como "o prompt do método". Pesos e sub-itens saem do manual e do
 roteiro do expert e são calibrados com reunião real.
 
-## Modelo 1. IA 1, sessão de diagnóstico (base ditada na aula 4 + manual do expert)
+## Modelo 1. IA 1, sessão de diagnóstico
 ```markdown
 # Avaliação técnica de sessão de diagnóstico: [programa]
 
@@ -17,27 +16,27 @@ Responda exclusivamente em português brasileiro.
 - Avalie cada etapa abaixo conforme os critérios.
 - A transcrição tem timestamps (minutos:segundos). Ao justificar "parcial" ou "não cumprida", cite o timestamp.
 - Classifique cada etapa como: "cumprida", "parcial" ou "não cumprida".
-- Regra de corte: todos os sub-itens = cumprida; [faltando até 2] = parcial; [faltando mais / etapa ausente] = não cumprida. (A aula 4 só deu o exemplo "se tiver dois x, vamos supor, já dá parcial"; o limite exato se fixa na calibração.)
+- Regra de corte: todos os sub-itens = cumprida; [faltando até 2] = parcial; [faltando mais / etapa ausente] = não cumprida. (vamos supor, já dá parcial", o limite exato se fixa na calibração.)
 
-## Etapa 1: Apresentação (todos obrigatórios)  [ditado na aula]
+## Etapa 1: Apresentação (todos obrigatórios)
 - Cumprimenta o aluno pelo nome
 - Quebra o gelo
 - Faz apresentação pessoal
 - Explica o objetivo da sessão
 - Afirma que estudou previamente o negócio do aluno
-- Menciona que conversou com outros mentores ("quando houve" é ressalva do squad; a aula lista o item sem condição)
+- Menciona que conversou com outros mentores ("quando houve" é ressalva do squad; o método lista o item sem condição)
 - Busca entender a perspectiva do aluno e dá um breve resumo do negócio
 
-## Etapa 2: Visão estratégica (todos obrigatórios)  [ditado na aula]
+## Etapa 2: Visão estratégica (todos obrigatórios)
 - Explica o que é um acelerador de resultados
 - Explica o ciclo de acompanhamento
 - Reforça a importância do acompanhamento para gerar resultado
-- Explica a diferença entre curso e acelerador (aparece na observação da IA na aula e no roteiro da trilha 19)
+- Explica a diferença entre curso e acelerador
 
 ## Etapa 3: Jornada de sucesso  [do manual do expert]
-- [ex. da trilha 19: define ponto de partida, etapas, ponto de chegada, materiais complementares]
+- [ex.: define ponto de partida, etapas, ponto de chegada, materiais complementares]
 ## Etapa 4: Oferta  [do manual]
-## Etapa 5: Recap final  [do manual; trilha 19: pitch resumido, entregáveis que dependem do expert, dúvidas]
+## Etapa 5: Recap final  [do manual; pitch resumido, entregáveis que dependem do expert, dúvidas]
 ## Etapa 6: Próximos passos  [do manual; obrigatórios e opcionais]
 ## Etapa 7: Segunda call  [do manual]
 
@@ -46,7 +45,7 @@ Responda apenas com JSON válido, sem texto fora dele:
 {"etapas":[{"etapa":"Apresentação","status":"cumprida|parcial|não cumprida","observacao":"...","timestamps":["mm:ss"]}, ...]}
 ```
 
-## Modelo 2. IA 1, sessão 1a1 de venda (reconstrução do squad sobre o roteiro de 6 etapas da trilha 09 e decisões do protocolo)
+## Modelo 2. IA 1, sessão 1a1 de venda
 ```markdown
 # Avaliação técnica de sessão 1a1 de venda: [programa]
 
@@ -92,7 +91,7 @@ Mesmo JSON do modelo 1, com as etapas acima.
 Você recebe a transcrição completa e a avaliação por etapa (JSON). Atribua uma nota geral de 0 a 100 e escreva um resumo curto.
 
 ## Pesos
-[Diagnóstico, regra da aula: Jornada de sucesso, Oferta e Recap final pesam mais; Apresentação tira no máximo 10 pontos.]
+[Diagnóstico, Regra do método: Jornada de sucesso, Oferta e Recap final pesam mais; Apresentação tira no máximo 10 pontos.]
 Proposta inicial do squad para calibrar (diagnóstico): Apresentação 10 · Visão estratégica 10 · Jornada 30 · Oferta 25 · Recap 15 · Próximos passos 7 · Segunda call 3.
 Proposta inicial do squad para calibrar (venda): Boas-vindas 5 · Raio-X e leitura 20 · Herói 10 · Acordo 10 · Oferta 30 · CTA e objeções 25.
 "Parcial" vale metade do peso da etapa; "não cumprida" vale zero (convenção a calibrar).
@@ -106,14 +105,14 @@ JSON: {"nota_geral": 0-100, "resumo": "..."}
 ```
 
 ## Modelo 4. Avaliação de quem conduziu (mentor ou closer), 1 a 5 por bloco
-Fonte: palestra de encontro nov/2025 (agente que avalia mentor por bloco). Para cada bloco do roteiro: nota 1 a 5, 1 recomendação.
+Fonte: referência (agente que avalia mentor por bloco). Para cada bloco do roteiro: nota 1 a 5, 1 recomendação.
 Alertas obrigatórios (sim/não com timestamp): autopromoção; oferta de produto de terceiros; fechamento abrupto; desvalorização do
 aluno; promessa fora da oferta vigente. Saída em JSON. Uso: só pelo gestor (feedback humano), nunca enviado direto à pessoa sem OK.
 
 ## Relatórios pré e pós-sessão (variante)
-- Pré-sessão: entrada = Raio-X e dados do lead; saída = 3 áreas a aprofundar, objeções prováveis, caso parecido do catálogo.
+- Pré-sessão: entrada = Raio-X e dados do lead; saída = 3 áreas a aprofundar, objeções prováveis, caso parecido da biblioteca de casos.
 - Pós-sessão: o modelo 2 + o que fazer no follow-up (data e mensagem em rascunho).
 
-## Como adaptar com uma IA (frase do professor, parafraseada)
+## Como adaptar com uma IA (frase de referência, parafraseada)
 Colar o prompt-base, o manual do entregável e uma transcrição real e pedir: "transforme este prompt em um avaliador das minhas
 reuniões, em Markdown".

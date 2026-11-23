@@ -1,6 +1,6 @@
 ---
-name: ckm:banner-design
-description: "Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with visuals from the Codex of the owner's ChatGPT subscription or SVG/CSS (no API key). Actions: design, create, generate banner. Platforms: Facebook, Twitter/X, LinkedIn, YouTube, Instagram, Google Display, website hero, print. Styles: minimalist, gradient, bold typography, photo-based, illustrated, geometric, retro, glassmorphism, 3D, neon, duotone, editorial, collage. Uses ui-ux-pro-max, frontend-design skills."
+name: banner-design
+description: 'Design banners for social media, ads, website heroes and print, with several art direction options; visuals by SVG/CSS or an image generator already available (no API key). Use for "banner", "capa do YouTube", "header do LinkedIn", "banner de anúncio", "hero do site". NÃO usar para vídeo nem para página inteira (pagina-design-premium).'
 argument-hint: "[platform] [style] [dimensions]"
 license: MIT
 metadata:
@@ -23,20 +23,21 @@ Design banners across social, ads, web, and print formats. Generates multiple ar
 
 ## Workflow
 
-### Step 1: Gather Requirements (AskUserQuestion)
+### Step 1: Gather Requirements (ask the minimum)
 
-Collect via AskUserQuestion:
+Take everything you can from the request and the project first (copy, brand files, previous pieces). Ask only what is truly
+missing, in one message. For the rest, use the defaults and list them at the end: "Assumi: … (é só pedir para mudar)".
 1. **Purpose** — social cover, ad banner, website hero, print, or creative asset?
-2. **Platform/size** — which platform or custom dimensions?
+2. **Platform/size** — which platform or custom dimensions? (default: inferred from purpose)
 3. **Content** — headline, subtext, CTA, logo placement?
-4. **Brand** — existing brand guidelines? (check `docs/brand-guidelines.md`)
-5. **Style preference** — any art direction? (show style options if unsure)
-6. **Quantity** — how many options to generate? (default: 3)
+4. **Brand** — existing brand guidelines? (check `docs/brand-guidelines.md` or the project's design tokens)
+5. **Style preference** — default: 3 art directions picked from the brand and the niche
+6. **Quantity** — default: 3
 
 ### Step 2: Research & Art Direction
 
 1. Activate `ui-ux-pro-max` skill for design intelligence
-2. Use Chrome browser to research Pinterest for design references:
+2. If a browser tool is available, research Pinterest for design references (optional):
    ```
    Navigate to pinterest.com → search "[purpose] banner design [style]"
    Screenshot 3-5 reference pins for art direction inspiration
@@ -48,26 +49,23 @@ Collect via AskUserQuestion:
 
 For each art direction option:
 
-1. **Create HTML/CSS banner** using `frontend-design` skill
+1. **Create HTML/CSS banner** following the `designer-senior` skill
    - Use exact platform dimensions from size reference
    - Apply safe zone rules (critical content in central 70-80%)
    - Max 2 typefaces, single CTA, 4.5:1 contrast ratio
-   - Inject brand context via `inject-brand-context.cjs`
+   - Apply the brand context (colors, fonts, logo) from the project's brand guidelines or `design-tokens`
 
-2. **Generate visual elements** (no API key, no paid credit — ordem do Leo, 21/10/2026, Telegram 5100), in this order
-   (the kit's `COMO-CRIAR-IMAGEM-E-VIDEO.md`):
+2. **Generate visual elements** (no API key, no paid credit), in this order:
 
-   **a) The Codex of the owner's ChatGPT subscription** (illustrations, hero visuals, photo-like scenes). Quota first:
-   `bash ~/.claude/head-turbo/bin/codex-cota.sh` (rc 0 = PODE; rc 2 = could not read, which is NOT "has quota"). Then, in an
-   empty folder for the image:
-   ```bash
-   mkdir -p assets/banners/visual && codex exec --disable apps --disable plugins -c 'web_search="disabled"' --skip-git-repo-check \
-     -s workspace-write -C assets/banners/visual "Gere UMA imagem com a ferramenta de geração de imagem: <banner visual prompt>, aspect ratio <platform-ratio>, no text, no letters. Salve como visual-01.png nesta pasta e diga o caminho completo." < /dev/null
-   ```
-   Check the PNG exists before using it (if not, the CLI copy is in `~/.codex/generated_images/`).
+   **a) By code (default)** — backgrounds, gradients, patterns and geometric/flat illustrations in SVG/CSS inside the banner
+   HTML itself.
 
-   **b) Without Codex or quota: by code** — backgrounds, gradients, patterns and geometric/flat illustrations in SVG/CSS
-   inside the banner HTML itself.
+   **b) An image generator already available** (in this environment, or one the person already uses, e.g. ChatGPT) for
+   illustrations, hero visuals and photo-like scenes: write the prompt (aspect ratio of the platform, "no text, no letters"),
+   and save the result as `assets/banners/visual/visual-01.png`. If the person generates it outside, hand over the prompt ready
+   to paste and ask them to save the image there.
+
+   **c) A real photo** the person sends (product, expert, place).
 
    **Aspect ratios:** match to platform - e.g., Twitter header = `3:1`, Instagram story = `9:16`
 
@@ -80,27 +78,18 @@ For each art direction option:
 
 ### Step 4: Export Banners to Images
 
-After designing HTML banners, export each to PNG using `chrome-devtools` skill:
+After designing HTML banners, export each to PNG at the exact platform size. Check if Playwright is available; if not,
+ask for OK and install it (`npm i -D playwright && npx playwright install chromium`, saying what will be installed):
 
-1. **Serve HTML files** via local server (python http.server or similar)
-2. **Screenshot each banner** at exact platform dimensions:
-   ```bash
-   # Export banner to PNG at exact dimensions
-   node .claude/skills/chrome-devtools/scripts/screenshot.js \
-     --url "http://localhost:8765/banner-01-minimalist.html" \
-     --width 1500 --height 500 \
-     --output "assets/banners/{campaign}/{variant}-{size}.png"
-   ```
-3. **Auto-compress** if >5MB (Sharp compression built-in):
-   ```bash
-   # With custom max size threshold
-   node .claude/skills/chrome-devtools/scripts/screenshot.js \
-     --url "http://localhost:8765/banner-02-gradient.html" \
-     --width 1500 --height 500 --max-size 3 \
-     --output "assets/banners/{campaign}/{variant}-{size}.png"
-   ```
+```bash
+npx playwright screenshot --viewport-size=1500,500 "file://$PWD/banner-01-minimalist.html" \
+  "assets/banners/{campaign}/minimalist-1500x500.png"
+```
 
-**Output path convention** (per `assets-organizing` skill):
+Without OK to install: deliver the HTML files and the manual step (open in the browser at the exact size and save the capture).
+If a PNG is over 5 MB, export as JPG or compress before delivering.
+
+**Output path convention:**
 ```
 assets/banners/{campaign}/
 ├── minimalist-1500x500.png
@@ -164,7 +153,7 @@ Full 22 styles: `references/banner-sizes-and-styles.md`
 - **Typography**: max 2 fonts, min 16px body, ≥32px headline
 - **Text ratio**: under 20% for ads (Meta penalizes heavy text)
 - **Print**: 300 DPI, CMYK, 3-5mm bleed
-- **Brand**: always inject via `inject-brand-context.cjs`
+- **Brand**: always apply the project's brand guidelines or design tokens
 
 ## Security
 

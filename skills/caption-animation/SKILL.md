@@ -1,6 +1,6 @@
 ---
 name: caption-animation
-description: Legenda animada palavra a palavra (karaokê) sincronizada por Whisper — destaque da palavra ativa, pop/scale-in, burn-in ou SRT/VTT. Use para — legenda animada, legenda karaokê, legenda palavra por palavra, queimar legenda no vídeo, sincronizar legenda com a narração, transformar SRT em legenda animada. Complementa cortes-tiktok-turbo, que decide o corte; aqui é só a legenda.
+description: 'Legenda animada palavra a palavra (karaokê) sincronizada por Whisper, com destaque da palavra ativa, pop e burn-in ou SRT/VTT. Gatilhos: "legenda animada", "legenda karaokê", "queimar legenda no vídeo", "sincronizar legenda com a narração". NÃO usar para escolher o corte (cortes-tiktok).'
 version: 0.1.0
 ---
 

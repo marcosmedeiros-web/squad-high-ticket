@@ -56,13 +56,13 @@ Se a lista ou o squad mudar, regerar esta tabela: ela não é fonte, é índice.
 ## Agente orquestrador (não é skill)
 
 O `ht-diretor` faz o papel do Orquestrador HT da lista: diz em que ciclo o expert está (criar, vender, entregar, renovar), o
-próximo passo da rota e qual skill usar, e consulta o catálogo de GPTs da FHT se o estrategista tiver o acervo do método (`fontes_metodo` no perfil). A lógica
+próximo passo da rota e qual skill usar, e lê o material de referência que a pessoa indicar, se houver. A lógica
 de diagnóstico está na seção 3.5 do `SKILL.md` deste protocolo.
 
 ## Agente de apoio
 
-`ht-consultor-casos`: busca precedentes do mesmo nicho ou de nicho vizinho (no acervo do método, se o estrategista apontou um
-em `fontes_metodo`, e na biblioteca de casos do `ht-pesquisa-e-potencial`), com fonte e sem nome de aluno. Abre todo projeto
+`ht-consultor-casos`: busca precedentes do mesmo nicho ou de nicho vizinho (no material de referência que a pessoa indicar, se
+houver, e na biblioteca de casos do `ht-pesquisa-e-potencial`), com fonte e sem nome de aluno. Abre todo projeto
 antes da oferta (Consultor → Pesquisador → Arquiteto). O banco de sacadas ainda não existe neste plugin.
 
 ## Skills fora da numeração

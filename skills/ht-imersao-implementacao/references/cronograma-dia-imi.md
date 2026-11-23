@@ -1,17 +1,12 @@
 # IMI: grade do dia, variantes de 2 e 3 dias e roteiros das falas
 
-Fontes: trilha 22, preparação da imersão fev/2026 (aula 37/47, transcrita em 22/11/2026: lógica de blocos de 1, 2 e 3 dias,
-laser coaching, pausa de vendas, repeat), construção de pré-pitch (aula 40), construção de pitch (aula 43/50), laboratórios
-(44, 47, 50), desafio out/2025 (aula 11: cronograma de 1 dia; aula 18: laser coaching); trilha 17 aula 12 (dia real do FHT,
-9h a 20h30, um intervalo ao meio-dia); catálogo fht-planejar-imi-online-1-dia, fht-laser-coaching. Horários são modelo.
-
 ## 1. Grade de 1 dia (sábado; colunas: início · duração · responsável · tema · links)
 
 | Início | Duração | Bloco | Função |
 |---|---|---|---|
 | 08:30 | 30 | Sala aberta, música, slide de boas-vindas, equipe no chat | receber |
 | 09:00 | 90 a 120 | **Talk de entrada** | começar ganhando: conexão, procedência do expert e do método, quebra das objeções de chegada, 4 Es e combinados |
-| 10:45 | 60 a 75 | **Palestra de oportunidade** + exercício | escancarar a oportunidade por trás do que o expert faz; o participante se enxerga (ex. FHT: tipos de acelerador e projeção de faturamento) |
+| 10:45 | 60 a 75 | **Palestra de oportunidade** + exercício | escancarar a oportunidade por trás do que o expert faz; o participante se enxerga (ex.: tipos de acelerador e projeção de faturamento) |
 | 12:00 | 5 a 10 | **CTA do laser coaching** | convite (com o nome do entregável real, nunca "laser coaching") para quem quer ser atendido ao vivo à tarde; formulário |
 | 12:10 | 60 | Almoço (exercício para fazer no almoço, se fizer sentido) | pausa |
 | 13:10 | 15 | P&R (coringa para ajustar o tempo) | retomar |
@@ -23,7 +18,7 @@ laser coaching, pausa de vendas, repeat), construção de pré-pitch (aula 40), 
 | depois | 20 a 40 | **Repeat** | pitch de novo pela via das objeções da pausa + novo CTA + pausa |
 | ~18:00 a 20:00 | 10 | Encerramento | próximos passos, NPS |
 
-Somar ~4h30 de conteúdo e deixar cerca de metade do tempo do dia para a venda (catálogo). O FHT abriu a sala às 9h e foi até
+Somar ~4h30 de conteúdo e deixar cerca de metade do tempo do dia para a venda (catálogo). O método abriu a sala às 9h e foi até
 20h30 com um único intervalo ao meio-dia.
 
 ## 2. Variantes de 2 e 3 dias (mesma lógica de blocos)
@@ -35,7 +30,7 @@ O primeiro bloco da manhã é sempre o mesmo, online ou presencial, 1, 2 ou 3 di
   tarde livre de venda e encerramento.
 - **3 dias**: dia 1 manhã igual; dia 1 tarde **sem venda** (mais consciência); dia 2 P&R, conteúdo, CTA; dia 2 tarde conteúdo,
   pré-pitch, pitch, pausa de vendas e laser coaching; dia 3 manhã repeat com pausa de vendas; dia 3 tarde conteúdo e
-  encerramento. Mais dias, mais conversão (imersão de 3 dias do FHT converte 15% a 20%), mais complexidade.
+  encerramento. Mais dias, mais conversão (imersão de 3 dias do método converte 15% a 20%), mais complexidade.
 
 ## 3. Roteiros das falas (mapa de tópicos para o ht-roteirista-palco)
 
@@ -71,7 +66,7 @@ Três critérios: ajuda a vender o programa, está "vestida" de conteúdo, o con
    de iniciante, intermediário e avançado), **como o participante replica sozinho**. A narrativa é "como você faz sozinho em
    casa"; o pitch depois diz "você não precisa fazer sozinho".
 5. Fechamento e transição para o pitch (não "queimar" a transição).
-Resultado citado: o pré-pitch por entregáveis dobrou a conversão do FHT de 7% para 14%. O FHT distribui essa estrutura por várias
+Resultado citado: o pré-pitch por entregáveis dobrou a conversão do método de 7% para 14%. O método distribui essa estrutura por várias
 palestras ao longo da imersão; o recomendado para o aluno é uma palestra. Outras duas opções de formato foram só citadas.
 Não usar os mesmos slides no pré-pitch e no pitch.
 

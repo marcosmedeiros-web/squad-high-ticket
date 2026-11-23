@@ -1,8 +1,6 @@
 # CTA do Reels e rodízio semanal
 
-Marcação: **[FHT]** = material (fonte); **[proposta da skill]** = reconstrução a testar.
-
-## 1. O que é o CTA e a prioridade [FHT: trilha 14 aula 12; rota 3 resumo 08]
+## 1. O que é o CTA e a prioridade
 
 - CTA é a chamada final: o que a pessoa faz depois de assistir. O objetivo é ação, não view nem like.
 - **Prioridade: cadastro na aula semanal**, porque lá há tempo para aprofundar e fazer os CTAs diretos (sessão 1a1) e
@@ -15,7 +13,7 @@ Marcação: **[FHT]** = material (fonte); **[proposta da skill]** = reconstruç�
 - Conectar o CTA ao conteúdo antes de pedir a ação.
 - O CTA do Reels precisa bater com o link e a linha de CTA da bio (padrão do squad, `ht-vitrine`).
 
-## 2. Moldes [FHT: aula 12 e rota 3 resumo 08; adaptação marcada]
+## 2. Moldes
 
 **Aula semanal (prioridade):**
 ```
@@ -29,18 +27,18 @@ está em `03-sessao/` e na página) + "clique no link da bio e se cadastre" (ou 
 **Comentário (palavra-chave para SLG):** pergunta-ponte + "comenta [PALAVRA] aqui embaixo que eu te mando [o quê] no
 direct". Quem comenta entra na lista da `ht-slg` (mensagens são dela, em rascunho, com OK do estrategista).
 **Isca:** "comenta [PALAVRA]" ou "link da bio" para baixar [material]. Tipos de isca não foram ensinados no bootcamp
-("não vamos entrar nisso agora"); isca nova é decisão do estrategista.
-**Variante convite [FHT: CTA do professor]:** "isso é só a ponta do iceberg" + convite para a aula, dizendo que lá o
+("não vamos entrar nisso agora"); isca nova é decisão assumida no padrão, listada em "Assumi".
+**Variante convite:** "isso é só a ponta do iceberg" + convite para a aula, dizendo que lá o
 conteúdo é mais denso porque há mais tempo.
 
 Exemplos de CTA de aula citados no material (molde): promessa de criar, vender, entregar e renovar HT, terça às 17 h;
 construir imóveis para vender, segunda às 19 h; viver de yoga corporativo, terça às 19 h. Correções de aula: CTA de "entra no
 canal" trocado por cadastro na aula; "continue me seguindo" trocado por CTA ao HT.
 
-Regras de escrita [proposta da skill]: uma ação só por CTA; a mesma palavra da promessa da bio; dia e hora conferidos com a
+Regras de escrita: uma ação só por CTA; a mesma palavra da promessa da bio; dia e hora conferidos com a
 `ht-aula-semanal`; sem urgência inventada; no máximo 2 frases antes da ação.
 
-## 3. Os 4 CTAs e o rodízio da fonte (7 dias) [FHT: aula 20]
+## 3. Os 4 CTAs e o rodízio da fonte (7 dias)
 
 1. Aula semanal (link na bio). 2. Sessão 1a1 (link na bio). 3. Comentário (palavra-chave; engaja e alimenta o SLG; público
 mais quente). 4. Isca (material; por comentário, direct ou link na bio).
@@ -48,11 +46,11 @@ Rodízio da fonte para **7 dias**: **2 dias aula semanal** (de preferência os q
 **3 dias alternando comentário e isca**. Aula semanal e sessão 1a1 ficam sempre no link da bio. Os vídeos são vistos em dias
 diferentes, então sempre há algum CTA rodando.
 "Me segue" não está errado, mas não é um dos 4 (não aponta direto para o HT); usar rápido, no meio do vídeo, com bom senso.
-Na distribuição paga vira ferramenta para baratear seguidor [FHT: aulas 24 e 30].
+Na distribuição paga vira ferramenta para baratear seguidor.
 
-## 4. Rodízio aplicado com 5 Reels por semana [proposta da skill, aplicando o padrão do squad]
+## 4. Rodízio aplicado com 5 Reels por semana
 
-A fonte pensa em 7 por semana (1 por dia; aulas 04 e 20). A decisão do dono é 5 por semana. Mantendo a proporção e a
+A fonte pensa em 7 por semana (1 por dia). A decisão do dono é 5 por semana. Mantendo a proporção e a
 prioridade da aula:
 
 **Com aula semanal ativa** (exemplo: aula na terça às 17 h; ajustar ao dia real):
@@ -68,10 +66,10 @@ prioridade da aula:
 Proporção: 2 aula · 2 sessão · 1 comentário-ou-isca (na fonte eram 3 desses em 7 dias; com 5 slots, sobra 1).
 **Sem aula semanal:** 3 sessão 1a1 + 2 alternando comentário e isca, até a aula existir.
 **Com evento em captação** (imersão, live direto ao ponto): trocar 1 ou 2 slots de comentário/isca pelo CTA do evento
-durante a captação, sempre com o link do evento na bio (a parte G, FEV26 aula 34, manda todos os pontos de contato
-apontarem para a página do evento). Troca de slot é decisão do estrategista; o calendário do evento é da `ht-captacao-e-presenca`.
+durante a captação, sempre com o link do evento na bio (todos os pontos de contato
+apontam para a página do evento). Troca de slot é decisão assumida no padrão, listada em "Assumi"; o calendário do evento é da `ht-captacao-e-presenca`.
 
-## 5. Grade da semana (formato do arquivo `roteiros-semana`) [proposta da skill]
+## 5. Grade da semana (formato do arquivo `roteiros-semana`)
 
 | Slot | Data | Horário de teste | Tema | Âncora | Framework | CTA | Destino (link) | Estado |
 |---|---|---|---|---|---|---|---|---|

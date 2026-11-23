@@ -1,8 +1,6 @@
 # Jornada do lead, página de captura, obrigado e convites por lista
 
-Fonte: trilha 17, aulas 06 (jornada do lead e página de captura) e 07 (página de obrigado, inscrição confirmada, convite para
-listas), 10 e 11 (comunidade, formulários); parte-G (mapeador de jornada, redator de página, pesquisa T1, confirmação de
-inscrição, convite para listas). Os white labels da FHT citados nas aulas não estão nos materiais: estruturas reconstruídas.
+Os modelos prontos de página, pesquisa de avatar e convites não vêm no pacote: as estruturas abaixo são reconstruídas.
 
 ## 1. Os 8 pontos de contato
 
@@ -55,7 +53,7 @@ longa para e-mail.
 Estrutura: **gancho do contexto da lista + benefício (definição de resultado) + CTA**. Várias comunicações até a data
 (ex.: faltam 7, faltam 6…).
 
-| Lista | Gancho (exemplos de estrutura das aulas) |
+| Lista | Gancho (exemplos de estrutura) |
 |---|---|
 | Inscritos da aula semanal / lives | "você já acompanha as lives; agora chegou a hora do passo a passo que falta" |
 | Inscritos de imersão presencial anterior | "[cidade] passou, mas a segunda chance não" |
@@ -66,7 +64,7 @@ Estrutura: **gancho do contexto da lista + benefício (definição de resultado)
 
 Sem lista, a etapa é pulada. Disparo: e-mail e API oficial, com OK do estrategista.
 
-## 6. Comunidade de WhatsApp (passo a passo da aula 10)
+## 6. Comunidade de WhatsApp (passo a passo)
 1. Criar **comunidade** (não grupo) com o nome do evento. 2. Desativar o grupo geral criado automaticamente. 3. Configurações:
 só admins adicionam membros e grupos. 4. Capa e descrição do evento. 5. Convidar via link e colocar o link no fim do formulário.
 6. Trocar o link quando a comunidade lotar. 7. Números de apoio como admins (backup). WhatsApp Business não cria comunidade.

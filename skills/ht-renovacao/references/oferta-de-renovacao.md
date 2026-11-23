@@ -1,6 +1,6 @@
 # Mapa da oferta de renovação (fase 2)
 
-Estrutura descrita na fase 2 (o mapa mental "Criador de oferta de renovação" do FHT não foi lido; isto segue a explicação em voz).
+Estrutura descrita na fase 2 (o mapa mental "Criador de oferta de renovação" do método não foi lido; isto segue a explicação em voz).
 
 ## 1. Avatar que vai renovar
 - Programa: alunos ativos [n]; elegíveis à renovação [n].
@@ -15,7 +15,7 @@ Estrutura descrita na fase 2 (o mapa mental "Criador de oferta de renovação" d
 ## 3. Sugestões e objeções → resposta na oferta
 | Objeção / pedido | Quem trouxe | Resposta (entregável novo, ajuste, condição, prova) | Custo de entrega |
 |---|---|---|---|
-Exemplo de tipo (FHT): "sinto falta do fundador" → sessão mensal com ele; "conteúdo lento para avançados" → aulas rápidas no
+Exemplo de tipo: "sinto falta do fundador" → sessão mensal com ele; "conteúdo lento para avançados" → aulas rápidas no
 mastermind. Quando a resposta nasceu de um aluno, o pitch cita a contribuição dele.
 
 ## 4. Oferta atual → oferta de renovação

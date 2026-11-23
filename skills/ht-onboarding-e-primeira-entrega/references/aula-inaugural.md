@@ -1,8 +1,7 @@
 # Aula inaugural (onboarding em grupo, acima de 5 alunos)
 
-Estrutura descrita na trilha 19 (aula 04, mapa "Aula Inaugural modelo FHT", não aberto; ordem vista na aula: expert abre, sócio
-apresenta a equipe, mentores conduzem o resto), parte-G (5 passos), parte-H e parte-I.
-Os tempos são **proposta do squad** para ~90 min; o material não dá a minutagem. Ajustar ao tamanho da turma.
+Estrutura do método (ordem: expert abre, sócio apresenta a equipe, mentores conduzem o resto).
+Os tempos são **proposta do squad** para ~90 min; o método não dá a minutagem. Ajustar ao tamanho da turma.
 
 ## Objetivo e output
 - Objetivo: fazer o aluno confirmar que tomou a melhor decisão, sincronizar todos e colocar cada um no primeiro passo.
@@ -36,4 +35,4 @@ Os tempos são **proposta do squad** para ~90 min; o material não dá a minutag
 
 ## Variante: onboarding com poucos alunos
 Até 5 alunos, a mesma sequência vira call individual de ~1 h (ver `mensagens-de-entrada.md`, seção 4). Até os 10 primeiros, o
-grupo VIP com o mentor substitui a comunidade geral (parte-F).
+grupo VIP com o mentor substitui a comunidade geral.

@@ -1,6 +1,6 @@
 ---
 name: ht-captacao-e-presenca
-description: 'Squad High Ticket, método FHT. Faz o lead chegar, estar presente e ser trabalhado depois de um evento de venda do HT (imersão online ou presencial): jornada do lead em 8 pontos, página de captura por dobras, obrigado que leva direto à pesquisa de avatar, convite por lista, estratégias de atração e filtros de comprometimento, confirmação dupla (tipo 1 e tipo 2), lembretes por dia, comunidade de WhatsApp e API oficial, central e checklist técnico, recuperação de vendas pós-evento (ligação, encontro de fechamento, fluxo de 11 dias para a sessão 1a1) e debriefing. Use quando o estrategista disser "página da imersão", "como enchemos o evento", "confirmação de presença", "lembretes", "o que fazer depois da imersão", "recuperar vendas", "debrief". NÃO usar para vender ingresso (ht-venda-de-ingressos), campanha Meta (ht-trafego-high-ticket) nem lançamento LPSG/5+1 da Turbo.'
+description: 'Faz o lead chegar, estar presente e ser trabalhado depois de um evento de venda do HT: jornada do lead, página de captura, confirmação dupla, lembretes, WhatsApp, checklist técnico, recuperação pós-evento e debriefing. Use para "página da imersão", "como enchemos o evento", "confirmação de presença", "recuperar vendas". NÃO usar para ingresso (ht-venda-de-ingressos) nem campanha Meta.'
 ---
 
 # Captação, presença e recuperação do evento high ticket
@@ -10,7 +10,7 @@ description: 'Squad High Ticket, método FHT. Faz o lead chegar, estar presente 
 O maior gargalo de qualquer evento de venda do HT é ter gente na sala; o segundo é que inscrito não é presente; o terceiro é
 achar que o evento acaba quando a transmissão termina. Esta skill cobre o caminho inteiro do lead: do convite ao cadastro, da
 inscrição à confirmação, da confirmação à presença, e da presença (ou ausência) à venda nos dias seguintes. No caso de
-referência da recuperação, uma imersão que tinha feito 3 vendas terminou com 13 depois de rodar o método (trilha 17, aula 53).
+referência da recuperação, uma imersão que tinha feito 3 vendas terminou com 13 depois de rodar o método.
 
 **Entrega** (em `05-eventos/<AAAA-MM-tipo-nome>/captacao-e-presenca/`):
 1. `jornada-do-lead.md`: os 8 pontos com a ferramenta, a copy e a métrica de cada um.
@@ -25,31 +25,31 @@ referência da recuperação, uma imersão que tinha feito 3 vendas terminou com
 
 1. Carregar `ht-protocolo`.
 2. Ler em `experts/<slug>/ht/`: `05-eventos/<evento>/` (formato, data, **definição de resultado / Big Idea**, metas de presentes
-   e de leads e orçamento da `ht-decisao-de-evento`; grade e pitch da `ht-palestras-e-pitch`; decisão de entrada do evento, que é do estrategista);
+   e de leads e orçamento da `ht-decisao-de-evento`; grade e pitch da `ht-palestras-e-pitch`; entrada do evento definida na ficha);
    `04-demanda/` (listas, aula semanal, vitrine); `02-oferta/` (o HT que o pitch vende); `10-trafego/` e `11-automacoes/`
    (o que já existe: pixel, API oficial, formulários); `13-aprendizados/` (eventos anteriores).
 3. Pré-requisito do método: **definição de resultado do evento pronta** (a copy toda nasce dela; sem ela "é quase garantido" que
-   a copy sai desalinhada, aula 05) e **HT validado** (o evento é canal de um HT que já vende em 1a1).
+   a copy sai desalinhada) e **HT validado** (o evento é canal de um HT que já vende em 1a1).
 4. Entradas obrigatórias: data, horário, formato, capacidade (sala ou plano do Zoom), meta de presentes, entrada (gratuita, credencial ou paga), listas.
    Perguntar no máximo 3 coisas se faltar: (a) "Qual a definição de resultado e a data do evento?"; (b) "Entrada gratuita,
-   credencial ou paga?" (decisão do estrategista por evento, quadro na `ht-venda-de-ingressos`); (c) "Quem do time liga para os inscritos e quem faz a
+   credencial ou paga?" (padrão assumido por evento, quadro na `ht-venda-de-ingressos`); (c) "Quem do time liga para os inscritos e quem faz a
    recuperação no dia seguinte?".
 
 ## 3. Passo a passo
 
 ### Passo 1. Metas de captação e presença
 Partir da meta de presentes da `ht-decisao-de-evento` e trabalhar de trás para frente com o **padrão do squad** de comparecimento:
-gratuito 25% dos cadastrados comparecem; credencial ou pago 70%; entrada no grupo 50% dos cadastrados. Exemplo da aula: 1.000
-ao vivo pedem ~4.000 leads no gratuito. Quanto maior a lista, menor o comparecimento percentual. Meta mínima sugerida nas aulas
+gratuito 25% dos cadastrados comparecem; credencial ou pago 70%; entrada no grupo 50% dos cadastrados. Exemplo do método: 1.000
+ao vivo pedem ~4.000 leads no gratuito. Quanto maior a lista, menor o comparecimento percentual. Meta mínima sugerida pelo método
 para o primeiro evento online: 100 pessoas ao vivo (300 a 400 leads). Confirmar **110% a 120%** da capacidade desejada quando a
 sala tem limite. Registrar a conta no `jornada-do-lead.md`.
 
-### Passo 2. Jornada do lead em 8 pontos (aula 06)
+### Passo 2. Jornada do lead em 8 pontos
 1. Convite (post, story, anúncio, e-mail, WhatsApp) → 2. copy do convite → 3. clique no link → 4. **página de captura** →
 5. inscrição (nome, e-mail, telefone) → 6. **formulário de confirmação tipo 1** (pesquisa de avatar) → 7. página de
 obrigado / redirecionamento para a **comunidade de avisos** do WhatsApp → 8. **notificação de inscrição confirmada**.
 Regras: sempre página de captura (nunca mandar direto para o grupo: perde o alinhamento com a promessa e o registro de origem);
-**redirecionar a inscrição direto para o formulário** (no FHT a confirmação subiu de ~20% para ~80% dos cadastros); pedir o
+**redirecionar a inscrição direto para o formulário** (no método a confirmação subiu de ~20% para ~80% dos cadastros); pedir o
 e-mail de novo no fim do formulário ou passar por campo oculto/UTM; evento pago: inscrição → checkout → obrigado do checkout =
 formulário → comunidade. Detalhe e métricas em `references/jornada-pagina-e-obrigado.md`.
 
@@ -62,7 +62,7 @@ entrega, para transferir autoridade), resumo + CTA, FAQ com as dúvidas que apar
 Sem prova ou evento anterior: pular a dobra, nunca inventar. Copy pelo núcleo de copy; página pelo `ht-web-designer`.
 
 ### Passo 4. Obrigado, formulário tipo 1 e inscrição confirmada
-- **Formulário tipo 1 = pesquisa de avatar** (12 a 13 perguntas no modelo FHT: @ do Instagram, sexo, escolaridade, estado,
+- **Formulário tipo 1 = pesquisa de avatar** (12 a 13 perguntas no modelo do método: @ do Instagram, sexo, escolaridade, estado,
   idade, nicho/área, faturamento, se já foi aluno de algum programa do expert, se conhece o expert; adaptar as específicas).
   Serve para qualificar, para a recuperação priorizar e para comparar quem chega com o avatar (se divergir, mudar criativo e
   público). Fim do formulário: botão para a comunidade.
@@ -71,18 +71,18 @@ Sem prova ou evento anterior: pular a dobra, nunca inventar. Copy pelo núcleo d
 - Modelos em `references/jornada-pagina-e-obrigado.md`.
 
 ### Passo 5. Atração de público: orgânico primeiro, depois as estratégias
-- **Convite por lista** (aula 07): toda lista que o expert já construiu (aula semanal, lives, imersões passadas, reacts, quem
+- **Convite por lista**: toda lista que o expert já construiu (aula semanal, lives, imersões passadas, reacts, quem
   comprou livro ou curso, "agora não" da sessão 1a1) recebe um convite com **gancho do contexto daquela lista + benefício
   (definição de resultado) + CTA**, e várias comunicações até a data. A captação orgânica também alimenta o pixel.
 - **Teoria das setas** na captação: bio, 3 fixados, stories (≥ 1 por semana), Reels com CTA (meta de 5 por semana, padrão
   do squad), site, lista de "agora não".
-- **Estratégias de atração** (lives 017 e 039): escolher 2 ou 3 e empilhar a cada evento. Menu em `references/atracao-de-publico.md`
+- **Estratégias de atração** escolher 2 ou 3 e empilhar a cada evento. Menu em `references/atracao-de-publico.md`
   (evento bônus de um lançamento, evento caro como 1º produto, presencial gratuito com confirmação, credencial simbólica,
   confirmação com prova de ida, afiliados, temporada de aquecimento, relâmpago para a base, funil de conteúdo semanal, perpétuo,
   time comercial). Venda de ingresso vai para `ht-venda-de-ingressos`; afiliados para `ht-afiliados-e-consultores`; tráfego
   pago para `ht-trafego-high-ticket` (campanha nasce PAUSADA, com o prefixo de campanha do perfil (`trafego.prefixo_campanha`), se houver); criativos para `ht-criativos-high-ticket`.
-- **Filtros de comprometimento** (live 004): comprometimento só existe por **tempo ou dinheiro**; cobrar para comprometer,
-  não para lucrar; qualificar pela necessidade de acompanhamento. A escolha gratuita/credencial/paga é do estrategista, por evento (padrão recomendado: mostrar prós e contras e deixar ele decidir).
+- **Filtros de comprometimento** (regra do método): comprometimento só existe por **tempo ou dinheiro**; cobrar para comprometer,
+  não para lucrar; qualificar pela necessidade de acompanhamento. A escolha gratuita/credencial/paga segue o padrão assumido por evento (mostrar prós e contras e listar em "Assumi: … (é só pedir para mudar)").
 
 ### Passo 6. Comunidade de WhatsApp e canal de disparo
 - Usar **comunidade** (não grupo: protege os números dos participantes); apagar/desativar o grupo geral que nasce sozinho;
@@ -110,7 +110,7 @@ Sem prova ou evento anterior: pular a dobra, nunca inventar. Copy pelo núcleo d
 
 ### Passo 8. Lembretes e aquecimento da semana
 Lembrete vai para todo mundo (confirmar é a pessoa dar a palavra; lembrete é não deixar esquecer). WhatsApp (grupo e, quando
-fizer sentido, individual pela API) e **e-mail** ("não subestime o e-mail"). Calendário da semana do evento (modelo FHT):
+fizer sentido, individual pela API) e **e-mail** ("não subestime o e-mail"). Calendário da semana do evento (modelo do método):
 segunda "é no próximo sábado"; 4 dias: vantagem do formato (no online, sem avião nem hotel) quebrando a objeção de que online é
 raso; 3 dias: conteúdo com curiosidade ligado ao que será ensinado ou quebra de objeção com nichos improváveis; 2 dias:
 entregáveis do dia e gratuidade; véspera: "é amanhã" + orientações e link da central; no dia: "é hoje", "estamos ao vivo",
@@ -128,7 +128,7 @@ com aquecimento caprichado (público quente). Modelos em `references/confirmacao
   mil presentes vendeu 2 no dia do pitch porque ninguém estava de fato assistindo; recortar o pitch e pôr na central recuperou.
 - Checklist completo em `references/whatsapp-central-e-tecnica.md`. Execução da página: `ht-web-designer`.
 
-### Passo 10. Recuperação de vendas pós-evento (aula 53, transcrita hoje)
+### Passo 10. Recuperação de vendas pós-evento 
 Seis passos, começando no dia seguinte ao evento:
 1. **Lista**: inscritos menos compradores (marcar quem comprou antes de qualquer contato). Lista grande: priorizar pelos mais
    qualificados da pesquisa de avatar.
@@ -152,7 +152,7 @@ porquê com perguntas de situação e problema; sem interesse real, agradecer e 
 `references/recuperacao-pos-evento.md`. Sessões agendadas seguem para `ht-agendamento-e-follow-up` e `ht-roteiro-sessao-1a1`.
 
 ### Passo 11. Debriefing
-Estrutura do debriefing das imersões da aula 03 (trilha 18): o que foi o evento e por que foi criado; para quem (pagantes e
+Estrutura do debriefing das imersões: o que foi o evento e por que foi criado; para quem (pagantes e
 não pagantes); avatar real pela pesquisa; oferta; comparecimento (confirmados x check-ins x presentes por dia, gratuito x pago);
 vendas por dia; **conversão sobre elegíveis** (quem podia comprar: tirar time, alunos ativos e convidados que não são público);
 despesa x receita (ingresso, HT, downsell); aprendizados (o que funcionou, o que quebrou, o que muda na próxima). Primeira
@@ -170,18 +170,19 @@ execução é sempre a pior; reaproveitar o que funcionou e mudar uma variável 
 7. Link de aplicação nunca no chat; central única e atualizada.
 8. O evento não acaba no encerramento: recuperação começa no dia seguinte e a lista nunca fica parada.
 9. Nada de inventar prova: dobra sem prova é pulada.
-10. **Entrada do evento**: gratuita, credencial ou paga é decisão do estrategista por evento; mostrar prós e contras. **Padrão do squad** para planejar presença.
+10. **Entrada do evento**: gratuita, credencial ou paga segue o padrão assumido por evento; mostrar prós e contras e listar em "Assumi". **Padrão do squad** para planejar presença.
     **Padrão do squad**: agendamento da sessão da recuperação com 2 horários, em até 2 dias.
 11. Copy de IA é base: revisar (travessão, colchetes, frases genéricas) e colocar a voz do expert antes do revisor.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-- Entrada do evento (gratuita, credencial ou paga) e, se credencial, o valor.
-- Meta de presentes e quanto confirmar acima da capacidade; abrir sala extra ou parar a captação.
-- Disparo para cada lista (é envio a lead) e ligar a API oficial para o fluxo de check-in e lembretes.
-- Downsell no encerramento (sessão 1a1 gratuita como presente, ou vendida a valor simbólico, como citado na aula 53).
-- Quem do time liga e faz o encontro de fechamento (o expert ou um mentor).
-- Usar ferramenta paga (formulário, gestor de grupo, CRM) ou ficar no gratuito.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Entrada do evento** (gratuita, credencial ou paga): vem da ficha do evento; sem ficha, assume a recomendação de `ht-decisao-de-evento`. Valor de credencial é preço: "posso seguir?".
+- **Meta de presentes e quanto confirmar acima da capacidade**: o agente calcula pelo padrão e lista em "Assumi"; abrir sala extra ou parar a captação é avisado na hora.
+- **Disparo para cada lista e ligar a API oficial** (check-in e lembretes): envio a lead, "posso seguir?".
+- **Downsell no encerramento**: assume a sessão 1a1 gratuita como presente; vender a valor simbólico é preço: "posso seguir?".
+- **Quem liga e faz o encontro de fechamento**: assume o expert (um mentor, se o expert não tiver agenda).
+- **Ferramenta**: assume a gratuita; ferramenta paga (formulário, gestor de grupo, CRM) é gasto: "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -222,27 +223,13 @@ execução é sempre a pior; reaproveitar o que funcionou e mudar uma variável 
 
 ## 8. Ferramentas de apoio
 
-`designer-senior-turbo`, `pagina-design-premium`, `publicar-pagina-cloudflare` (página e central), `conectar-whatsapp-oficial`
+`designer-senior`, `pagina-design-premium`, `publicar-pagina-cloudflare` (página e central), `conectar-whatsapp-oficial`
 (API oficial), `automacao-fluxos` (formulário → comunidade → notificações, fluxo de check-in), `email-marketing-mautic`
 (inscrição confirmada e lembretes), `countdown-video` (contagem da semana), `anthropic-skills:xlsx` (planilhas de confirmação e
-recuperação), `analytics-dashboard` (painel do dia), `avoid-ai-writing` e `humanizer` (revisão da copy de IA).
+recuperação), `analytics-dashboard` (painel do dia), `avoid-ai-writing` e `humanizer` (revisão da copy de IA).## 9. Limites (não inventar)
 
-## 9. Fontes e lacunas
-
-**Fontes**: trilha 17, Bootcamp Copy de Captação (aulas 05 a 08) e Ferramentas de Captação (09 a 11), transcritas hoje;
-trilha 17 aula 53 = trilha 22 out/2025 aula 70, Bootcamp Recuperação de Vendas (transcrita hoje, lida inteira); trilha 18,
-Debriefing das Imersões FL (transcrita hoje, lida inteira); trilha 22, desafio de imersão fev/2026 aula 46 (aquecimento,
-lembretes e confirmação) e out/2025 (aulas 16 a 20 via `parte-G`); lives 004, 017, 023 e 039; `_skills-mapa/parte-D` bloco 3,
-`parte-G` (jornada, página, pesquisa T1, convites, confirmação, lembretes, API, chips, central, técnica, recuperação,
-debriefing), `parte-H` (confirmação tipo 1/2, filtros, evento bônus), `parte-I` (11 estratégias, confirmação);
-`CATALOGO-SKILLS-FHT.md` 5.3 e Conflito 22.
-
-**Conflitos expostos**: comparecimento do gratuito (25% x 30% x 40% x 20% a 80%) e entrada no grupo (~80% x menos de 1/3):
-resolvido para planejamento pelo padrão do squad; confirmação de 110% a 120% vem de uma live, sem conferência em outra fonte.
-
-**Lacunas**: (1) os white labels citados nas aulas (página, pesquisa de avatar, inscrição confirmada, convites, mensagens de
-check-in, planilha de recuperação, "link dos links") não estão nos materiais: os modelos daqui são reconstruídos das falas;
-(2) o bootcamp específico de comparecimento foi prometido e não existe; (3) a 12ª estratégia de atração foi adiada na live 039;
-(4) a aula 08 (criativos de captação) é usada só como briefing: roteiro e edição são da `ht-criativos-high-ticket`; (5) operação
-de evento com milhares de presentes e suporte em tempo real do dia não têm método nas fontes; (6) números de caso (78 de 100,
-8 de 10, 3 para 13) vêm de relatos em aula: referência, conferir.
+Comparecimento do gratuito varia muito (25% a 40%, até 20% a 80% conforme o lead): planejar pelo padrão do squad. Confirmação de
+110% a 120% é referência de uma live, sem conferência em outra fonte. Os modelos de página, pesquisa de avatar, inscrição confirmada,
+convites, mensagens de check-in e planilha de recuperação deste pacote são reconstruídos como estruturas, não cópias de um modelo
+pronto. Operação de evento com milhares de presentes e suporte em tempo real do dia não têm método fechado: não inventar. Números de
+caso (78 de 100, 8 de 10, 3 para 13) são referência, conferir. A produção de criativos de captação é da `ht-criativos-high-ticket`.

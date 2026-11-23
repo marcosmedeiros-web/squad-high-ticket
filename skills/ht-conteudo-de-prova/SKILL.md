@@ -1,13 +1,13 @@
 ---
 name: ht-conteudo-de-prova
-description: 'Squad High Ticket / método FHT. Monta as linhas editoriais de prova que vendem HT sem precisar de autoridade prévia - podcast HT com quem teve resultado (com seeding do programa e CTA para funil HT), cortes dos conteúdos densos com CTA para a origem (analogia F1) e consultoria ao vivo com um escolhido da audiência, em que os não escolhidos qualificados viram sessão 1a1. Use quando o estrategista disser "monta o podcast do expert", "pauta de entrevista com aluno", "plano de cortes da live", "quero fazer consultoria ao vivo", "conteúdo que mostra que ele sabe fazer", "formulário de aplicação da consultoria". NÃO use para Reels curtos e rodízio de CTA (ht-reels-com-cta), para a aula semanal em si (ht-aula-semanal), para depoimento, Toque de Midas e catálogo de resultados (ht-provas-e-cases) nem para nada de LPSG/5+1/Funil 8 da Turbo.'
+description: 'Monta as linhas de prova que vendem HT: podcast com quem teve resultado, cortes com CTA para a origem e consultoria ao vivo com um escolhido da audiência. Use para "monta o podcast do expert", "plano de cortes da live", "quero fazer consultoria ao vivo". NÃO use para Reels (ht-reels-com-cta), aula semanal nem depoimento (ht-provas-e-cases).'
 ---
 
 # Conteúdo de prova: podcast HT, cortes e consultoria ao vivo
 
 ## 1. Para que serve e o que entrega
 
-Serve para o expert demonstrar, em conteúdo denso, que sabe gerar resultado: entrevistando quem já teve resultado com o método dele (podcast HT), resolvendo ao vivo o problema de uma pessoa da audiência (consultoria ao vivo) e espalhando os melhores trechos disso tudo em cortes que mandam de volta para a origem. No FHT esses formatos fazem parte do cardápio de cinco linhas editoriais (aula semanal, consultoria ao vivo, Reels raiz, podcast HT e cortes), e todas terminam ligadas a um funil de venda HT.
+Serve para o expert demonstrar, em conteúdo denso, que sabe gerar resultado: entrevistando quem já teve resultado com o método dele (podcast HT), resolvendo ao vivo o problema de uma pessoa da audiência (consultoria ao vivo) e espalhando os melhores trechos disso tudo em cortes que mandam de volta para a origem. No método esses formatos fazem parte do cardápio de cinco linhas editoriais (aula semanal, consultoria ao vivo, Reels raiz, podcast HT e cortes), e todas terminam ligadas a um funil de venda HT.
 
 **Entrega** (uma pasta em `experts/<slug>/ht/04-demanda/conteudo-de-prova/`):
 - `plano-linhas-de-prova.md`: quais dos três formatos rodar, em que ordem, frequência, funil de destino de cada um (direto ou indireto) e métrica semanal.
@@ -37,37 +37,37 @@ Serve para o expert demonstrar, em conteúdo denso, que sabe gerar resultado: en
 ### 3.1 Plano das linhas de prova
 1. Listar os formatos densos que o expert já faz ou pode fazer: aula semanal (da ht-aula-semanal), consultoria ao vivo, Reels raiz (da ht-reels-com-cta), podcast HT. Cortes são o quinto formato e sempre nascem dos outros.
 2. Escolher pelo que existe e pela energia do expert. O material permite combinar vários; a regra é ver a disposição de energia.
-   - Sem nenhum caso de resultado ainda: não começar pelo podcast (o próprio material avisa; a Live 026 lembra que alguém da aula semanal que aplicou o conteúdo já pode ser entrevistado). Recomendação desta skill, não do material: começar pela consultoria ao vivo, que gera o primeiro caso na frente da audiência.
-   - Com aula semanal rodando: **1 a 2 cortes dirigidos por aula**, só dos trechos mais fortes, escolhidos pelo estrategista (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Contexto: na rota 3 (jan/2025) o mentor do bootcamp diz que dá para cortar a aula, mas que ele não faz e que o foco da aula é o cadastro; na Live 026 os cortes da Live FHT entram no cardápio com CTA para a origem; na Live 021 o alerta é que corte mal feito deixa o conteúdo raso, por isso o limite de 1 a 2.
+   - Sem nenhum caso de resultado ainda: não começar pelo podcast (quem aplicou o conteúdo da aula semanal já pode ser entrevistado). Recomendação desta skill: começar pela consultoria ao vivo, que gera o primeiro caso na frente da audiência.
+   - Com aula semanal rodando: **1 a 2 cortes dirigidos por aula**, só dos trechos mais fortes, escolhidos pelo estrategista (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Contexto: o foco da aula é o cadastro; os cortes entram no cardápio com CTA para a origem; corte mal feito deixa o conteúdo raso, por isso o limite de 1 a 2.
 3. Ligar cada formato a um funil HT: **direto** (sessão individual ou imersão) ou **indireto** (outra linha editorial, como aula semanal ou consultoria, que depois leva ao funil direto). Nenhum formato sai sem destino.
 4. Definir a métrica semanal por formato: aplicações, sessões marcadas e vendas que vieram dele (o material destaca que essas linhas permitem medir o retorno semana a semana).
 5. Registrar o ciclo que o plano alimenta: vende, gera resultado, entrevista, Toque de Midas, mais autoridade, mais vendas. A parte de Toque de Midas é da ht-provas-e-cases.
 
 ### 3.2 Podcast HT (entrevista com quem teve resultado)
 1. **Quem entrevistar:** pessoas que tiveram resultado implementando a metodologia do expert. Não precisa ser só aluno pagante: pode ser alguém da aula semanal que aplicou o conteúdo. Puxar a lista do catálogo de resultados (ht-provas-e-cases).
-2. **Formato:** entrevista fechada no Zoom (ou gravação equivalente), sem audiência assistindo, para a pessoa ficar à vontade. Só o expert, ou alguém da equipe, e o convidado. O material registra que a entrevista pode ser linha editorial do expert ou um processo da equipe interna (no FHT, às vezes é o editor de vídeo que entrevista, seguindo um roteiro).
+2. **Formato:** entrevista fechada no Zoom (ou gravação equivalente), sem audiência assistindo, para a pessoa ficar à vontade. Só o expert, ou alguém da equipe, e o convidado. A entrevista pode ser linha editorial do expert ou um processo da equipe interna (às vezes é o editor de vídeo que entrevista, seguindo um roteiro).
 3. **Pauta:** usar os tópicos do material (situação antes, o que fez para superar, obstáculos, como resolveu, resultado, o que mais ajudou, dica para quem está começando) e montar a pauta pelo modelo de `references/roteiro-podcast-ht.md`. O material só tem tópicos; o encadeamento do modelo é proposta da skill.
 4. **Seeding:** durante a entrevista, buscar fazer seeding do programa (o entregável, o momento da jornada ou a sacada do mentor que destravou o convidado), sem pitch.
 5. **CTA final:** para algum funil de venda HT (direto ou indireto), com a mesma promessa da oferta. Preço nunca no podcast.
-6. **Autorização:** antes de gravar, o convidado autoriza uso público e uso em cortes; nicho de saúde exige conferir as regras do conselho profissional do expert para depoimento de resultado (o FHT não trata disso: ver Lacunas). Sem autorização escrita, a entrevista vira só material interno de prova.
-7. **Depois de gravar:** entra no catálogo de resultados como prova por nicho (no FHT, o caso no catálogo aponta para a entrevista completa) e vira matéria-prima de cortes (3.4) e de Toque de Midas (ht-provas-e-cases). Conferir onde a entrevista pode virar post fixado de Evidência com a ht-vitrine.
+6. **Autorização:** antes de gravar, o convidado autoriza uso público e uso em cortes; nicho de saúde exige conferir as regras do conselho profissional do expert para depoimento de resultado (o método não trata disso: ver Limites). Sem autorização escrita, a entrevista vira só material interno de prova.
+7. **Depois de gravar:** entra no catálogo de resultados como prova por nicho (o caso no catálogo aponta para a entrevista completa) e vira matéria-prima de cortes (3.4) e de Toque de Midas (ht-provas-e-cases). Conferir onde a entrevista pode virar post fixado de Evidência com a ht-vitrine.
 
 ### 3.3 Consultoria ao vivo na audiência
 1. **O que é:** consultoria individual, ao vivo, com o expert (ou mentor) e uma pessoa escolhida da audiência. Referência citada no material: a mesa em que dois especialistas atendiam uma pessoa ao vivo.
-2. **Tema:** o ponto em que o avatar mais trava, resolvido de ponta a ponta na frente de todos (no FHT, o exemplo é construir ao vivo a oferta do HT de uma pessoa). Sai de `01-pesquisa/`.
+2. **Tema:** o ponto em que o avatar mais trava, resolvido de ponta a ponta na frente de todos (o exemplo é construir ao vivo a oferta do HT de uma pessoa). Sai de `01-pesquisa/`.
 3. **Aplicação obrigatória:** a audiência preenche um formulário para concorrer. Ele serve a dois fins ao mesmo tempo: escolher quem recebe a consultoria e qualificar leads para o HT. Modelo do formulário em `references/consultoria-ao-vivo.md`.
 4. **Pergunta de repescagem no formulário:** se não for escolhido desta vez, a pessoa quer um contato individual do time para conversar sobre um acompanhamento? É ela que transforma a consultoria em fila de sessão 1a1.
 5. **Escolha:** um escolhido por consultoria, pelo critério do modelo (caso que ensina o máximo para a audiência e tem o perfil do avatar).
 6. **Não escolhidos qualificados:** quem tem perfil para o HT e respondeu sim na repescagem recebe contato individual e é convidado para a sessão 1a1 (passa para ht-agendamento-e-follow-up e ht-roteiro-sessao-1a1). Quem não respondeu sim, mas é qualificado, entra na lista da ht-slg.
-7. **Contexto que funciona:** a oferta precisa ser feita para a turma presente (ao vivo, na aula semanal ou numa live), com aplicação. O material relata que uma oferta de consultoria gratuita mandada por mensagem a 600 pessoas não teve nenhuma resposta. Não repetir esse formato.
-8. **Frequência:** o FHT anunciou uma por semana. Ajustar à energia do expert (decisão do estrategista, seção 5).
+7. **Contexto que funciona:** a oferta precisa ser feita para a turma presente (ao vivo, na aula semanal ou numa live), com aplicação. Uma oferta de consultoria gratuita mandada por mensagem a 600 pessoas não teve nenhuma resposta. Não repetir esse formato.
+8. **Frequência:** padrão de uma por semana. Ajustar à energia do expert (assumo o padrão e listo em "Assumi").
 9. **Roteiro ao vivo:** abertura com o porquê, apresentação do escolhido, diagnóstico rápido, construção ao vivo, recapitulação do que a audiência aprendeu, CTA (modelo em `references/consultoria-ao-vivo.md`, marcado como proposta da skill onde o material não detalha).
-10. **Variantes citadas, sem receita:** a linha em formato de episódio em que o expert monta ao vivo o plano completo de um empresário convidado ("O plano perfeito", Live 058) e a ideia de uma linha de "desconstrução" em que o expert faz ao vivo a engenharia reversa do resultado de um aluno, para gerar entrevistas e material de Toque de Midas (Live 022, dita como plano). Usar só como ideia de formato e decidir com o estrategista, nunca como método do FHT.
+10. **Variantes citadas, sem receita:** a linha em formato de episódio em que o expert monta ao vivo o plano completo de um empresário convidado ("O plano perfeito") e a ideia de uma linha de "desconstrução" em que o expert faz ao vivo a engenharia reversa do resultado de um aluno, para gerar entrevistas e material de Toque de Midas (dita como plano). Usar só como ideia de formato, nunca como método.
 
 ### 3.4 Cortes com CTA para a origem
 1. **Lógica F1:** a corrida inteira, a corrida resumida e os melhores momentos. Aqui: o conteúdo denso inteiro (aula semanal, live, consultoria, podcast), uma versão compactada quando fizer sentido e os cortes (highlights, as melhores sacadas).
-2. **De onde cortar:** só de conteúdo denso que já existe: aula semanal, lives, consultorias ao vivo, podcast. Usar `transcrever-youtube-turbo` ou `watch` para achar os trechos com tempo.
-3. **Direção antes do editor:** quem conhece o método (expert ou estrategista) escolhe os trechos e escreve a instrução de cada corte: arquivo de origem, tempo de início com as primeiras palavras, tempo de fim com as últimas palavras, a ideia que o corte prova. O editor só corta depois. Essa regra vem do Toque de Midas (live 022) e a skill a aplica a todo corte: sem direção, o corte vira loteria.
+2. **De onde cortar:** só de conteúdo denso que já existe: aula semanal, lives, consultorias ao vivo, podcast. Usar `transcrever-youtube` ou `watch` para achar os trechos com tempo.
+3. **Direção antes do editor:** quem conhece o método (expert ou estrategista) escolhe os trechos e escreve a instrução de cada corte: arquivo de origem, tempo de início com as primeiras palavras, tempo de fim com as últimas palavras, a ideia que o corte prova. O editor só corta depois. Essa regra vem do Toque de Midas e a skill a aplica a todo corte: sem direção, o corte vira loteria.
 4. **Todo corte tem CTA para o formato de origem.** Molde do material: o vídeo foi um trecho da [origem], que acontece toda [dia] às [hora]; vai lá e se inscreve. Os CTAs finais seguem o rodízio da ht-reels-com-cta; o destino padrão é a origem (funil indireto), e a origem leva ao funil direto.
 5. **Formato de publicação:** o corte publicado como Reels segue as regras da ht-reels-com-cta (duração até 90 s pelo padrão do squad, legenda, edição, horário, frequência, distribuição). Esta skill entrega o plano de cortes e o CTA; a edição e a postagem são de lá.
 6. **Qualidade:** o material alerta que o método de picotar conteúdo raiz funciona, mas corte mal executado, sem sentido, deixa o conteúdo raso. Corte que não se sustenta sozinho (sem contexto, ideia pela metade) não entra.
@@ -84,17 +84,15 @@ Serve para o expert demonstrar, em conteúdo denso, que sabe gerar resultado: en
 - Todo corte tem CTA para a origem; corte só com instrução escrita (origem, tempos, primeiras e últimas palavras).
 - Preço, condições e bônus nunca aparecem nesses formatos; preço e oferta só saem de `02-oferta` e só são falados na sessão 1a1 ou no evento.
 - Padrão do squad: aula semanal de 1 h (a origem principal dos cortes) e Reels até 90 s, com o raiz longo como variante (vale para o corte publicado como Reels).
-- Nada de LPSG, 5+1, Funil 8 ou Turbo Express.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-Apresentar opções com prós e contras; não decidir:
-- **Qual formato começa e com que frequência** (consultoria ao vivo semanal, podcast quinzenal, só cortes da aula semanal), conforme energia e agenda do expert. Prós de começar pela consultoria: gera caso e leads já na primeira semana. Contra: expõe o expert ao vivo e exige audiência presente.
-- **Quem conduz a entrevista** (o expert, que faz seeding melhor, ou a equipe, que escala e libera o expert).
-- **Publicar ou não um caso** quando o convidado autorizou só parte, ou quando o nicho é de saúde e a regra do conselho não está clara.
-- **Destino do CTA** quando há mais de um funil ativo (aula semanal x sessão 1a1 x imersão).
-- Padrão recomendado (não volta como pergunta, salvo se o perfil disser outra coisa): cortes da aula semanal, 1 a 2 dirigidos por aula (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`; nenhum corte e corte de toda aula eram as outras opções).
-- **Ligar qualquer envio** a lead ou aluno (convite da consultoria, contato com não escolhidos, aviso do episódio): só com OK do estrategista.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Formato e frequência**: padrão cortes da aula semanal, 1 a 2 dirigidos por aula (dá para mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Consultoria ao vivo semanal entra quando há audiência presente e o expert topa se expor (gera caso e lead já na primeira semana).
+- **Quem conduz a entrevista**: assume o expert (faz seeding melhor); a equipe entra quando ele não tiver agenda.
+- **Publicar um caso** com autorização parcial, ou em nicho de saúde com regra do conselho incerta: o agente deixa de fora; publicar: "posso seguir?".
+- **Destino do CTA** com mais de um funil ativo: assume a aula semanal (ou a sessão 1a1, se não houver aula).
+- **Ligar qualquer envio** a lead ou aluno (convite da consultoria, contato com não escolhidos, aviso do episódio): "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -128,23 +126,18 @@ Apresentar opções com prós e contras; não decidir:
 
 ## 8. Ferramentas de apoio (por nome, sem copiar)
 
-- Achar trechos e transcrever: `transcrever-youtube-turbo`, `watch`.
-- Cortar, legendar e montar: `cortes-tiktok-turbo`, `short-form-video`, `capcut-edit`, `caption-animation`, `lower-thirds` (nome e resultado do convidado), `testimonial-video` (só quando o corte for de depoimento, alinhado com ht-provas-e-cases).
+- Achar trechos e transcrever: `transcrever-youtube`, `watch`.
+- Cortar, legendar e montar: `cortes-tiktok`, `short-form-video`, `capcut-edit`, `caption-animation`, `lower-thirds` (nome e resultado do convidado), `testimonial-video` (só quando o corte for de depoimento, alinhado com ht-provas-e-cases).
 - Gancho do corte: `hook-generator`. Texto: `avoid-ai-writing`, `humanizer`, `voice-builder`.
 - Capa do episódio: `youtube-thumbnail`, `banner-design`.
 - Formulário e avisos: `automacao-fluxos`, `conectar-whatsapp-oficial` (envio só com OK do estrategista).
 
-## 9. Fontes e lacunas
+## 9. Limites
 
-**Fontes:** Lives FHT 021, 022 e 026 lidas por inteiro na revisão R11 (23/11); rota 3, bootcamp de aula semanal (jan/2025, transcrição inteira: posição sobre cortes da aula). Live FHT 026 (cardápio de 5 formatos, consultoria ao vivo, podcast HT, cortes e analogia F1, tópicos de entrevista, funil direto e indireto); Live FHT 022 (entrevista como linha editorial ou processo da equipe, instruções de corte); Live FHT 021 (risco do corte mal executado); Live FHT 058 (variante "O plano perfeito", só citação); Live FHT 061 (podcast completo dentro do catálogo de resultados); IMA, Talk de entrada dia 2 (acervo de entrevistas como prova, pergunta da dica para quem começa); Trilha 08 RESUMO (podcast como post de Evidência); Trilha 14 RESUMO Funil de Reels parte 2 (edição e postagem, para a ligação com ht-reels-com-cta); CATALOGO-SKILLS-FHT.md (fht-podcast-e-cortes, fht-consultoria-ao-vivo-na-audiencia, fht-linhas-editoriais-conectadas-a-funil); parte-H.
-
-**Lacunas (não inventar):**
-- Script de entrevista e roteiro do podcast: o material só tem tópicos de perguntas. O roteiro de `references/roteiro-podcast-ht.md` é proposta da skill.
-- Roteiro da consultoria ao vivo e critério formal de escolha: o material não detalha; os modelos são proposta da skill.
-- Duração, plataforma, periodicidade e formato de publicação do podcast (áudio, vídeo, YouTube): não definidos no material.
+**Não inventar:**
+- Script de entrevista e roteiro do podcast: o método só traz tópicos de perguntas. O roteiro de `references/roteiro-podcast-ht.md` é proposta da skill.
+- Roteiro da consultoria ao vivo e critério formal de escolha: o método não detalha; os modelos são proposta da skill.
+- Duração, plataforma, periodicidade e formato de publicação do podcast (áudio, vídeo, YouTube): não definidos pelo método.
 - Quantos cortes por conteúdo denso e duração ideal do corte: não definidos; vale o padrão do squad (Reels até 90 s) quando o corte vira Reels.
-- Taxa de conversão de não escolhidos para sessão e de sessão para venda vinda da consultoria ao vivo: sem número no material.
-- O roteiro que a equipe de conteúdo do FHT usa para entrevistar foi citado e não está nos arquivos.
-- Regras de conselho profissional (saúde, direito etc.) para depoimento de resultado: fora do material FHT; conferir caso a caso antes de publicar.
-- A palestra de aluno "canal de aquisição B2B via podcast" (encontro jun/2026) não tem texto nem slide nos arquivos.
-- Números da Live 026 (123 pessoas na live, "40 e tantas" levantando a mão para a consultoria) vêm de legenda: marcar "conferir" se forem citados.
+- Taxa de conversão de não escolhidos para sessão e de sessão para venda vinda da consultoria ao vivo: sem número de referência.
+- Regras de conselho profissional (saúde, direito etc.) para depoimento de resultado: fora do método; conferir caso a caso antes de publicar.

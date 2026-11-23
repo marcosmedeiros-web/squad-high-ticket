@@ -1,10 +1,5 @@
 # Turnê de pequenos presenciais (passo a passo)
 
-Fonte principal: encontro FHT nov/2025, Felipe Vasconcelos, "Como fizemos 1,4 milhão em HT em 30 dias com uma turnê de pequenos
-eventos" (resumo dos slides; nicho apicultura). Apoio: trilha 18 aula 18 (aluno planejando imersão de 1 dia, cerca de 100 pessoas
-por cidade, 6 cidades), Live 027 (presencial pequeno antes de escalar), GPS do presencial (esforço e risco). Números do caso,
-referência a conferir; o título fala em 1,4 milhão e o slide em R$ 1.513.558,07 com 77 alunos.
-
 ## 1. A lógica
 
 - O volume não vem de um evento grande, vem de **muitos eventos pequenos**: vender uma "turnê" como cantores fazem, e o cliente

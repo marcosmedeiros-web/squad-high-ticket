@@ -1,9 +1,5 @@
 # Checklist de evento presencial de baixo custo
 
-Fontes: encontro FHT nov/2025 (Felipe Vasconcelos, ação 2 "reduzir custos"), GPS do presencial (trilha 18 aula 19: onde o custo
-escapa), RESUMO desafio 30d RJ jul/2026 (encontro num hub), Live 027 (primeiro presencial pequeno), encontro nov/2025 (dois mentorados
-do FHT: custo fixo x variável). Valores são de casos, referência a conferir.
-
 ## 1. Princípio
 
 Custo fixo alto (espaço, som, luz, gravação) e variável baixo (coffee, crachá, brinde). O que vende é conteúdo e venda (80/20);
@@ -13,9 +9,9 @@ estrutura de "evento grande" (LED, cenografia, brindes personalizados) não aume
 
 - [ ] Hotel com sala para até cerca de 150 pessoas, usando a estrutura do próprio hotel (som, projetor).
 - [ ] Hub, coworking ou auditório de cerca de 100 lugares com data show (caso: cerca de R$ 15 mil para 100 pessoas com coffee,
-      contra cerca de R$ 240 mil de um evento para 200 no estilo FHT).
+      contra cerca de R$ 240 mil de um evento para 200 no estilo tradicional).
 - [ ] Espaço cedido (universidade, clínica, empresa parceira) quando o expert tiver acesso: risco quase zero.
-- [ ] Primeiro presencial: 30 a 50 pessoas, 1 dia (Live 027 cita sala de 60 m²).
+- [ ] Primeiro presencial: 30 a 50 pessoas, 1 dia.
 
 ## 3. Estrutura
 

@@ -1,6 +1,6 @@
 ---
 name: ht-aula-semanal
-description: 'Squad High Ticket / método FHT. Monta e opera o funil de aula semanal do expert (linha editorial 1): nome e promessa, dia e horário fixos, plataforma, banco de 24 a 100 temas, roteiro (jeito errado x certo ou aulão) com seeding, CTA com formulário de NPS e pergunta da sessão 1a1, página de inscrição, obrigado e pesquisa de avatar, notificações (inscrição, semana, replay, convite de listas), geração de lista, pós-live e auditoria. Use quando o estrategista disser "monta a aula semanal do expert", "temas da live semanal", "roteiro da aula desta semana", "CTA da live", "página da aula", "notificações da live", "audita a aula semanal". NÃO usar para lançamento pago semanal, 5+1, Funil 8 ou aulas de evento pago (método LPSG da Turbo), nem para live de oferta (ht-live-direto-ao-ponto) ou temporada de lives curtas (ht-lives-curtas-45-dias).'
+description: 'Monta o funil de aula semanal do expert: promessa, dia fixo, temas, roteiro, CTA com NPS e pergunta da sessão 1a1, páginas, notificações e auditoria. Use com "monta a aula semanal", "temas da live semanal", "CTA da live", "audita a aula semanal". NÃO usar para live de oferta (ht-live-direto-ao-ponto).'
 ---
 
 # Aula semanal (funil de aula semanal do HT)
@@ -10,7 +10,7 @@ description: 'Squad High Ticket / método FHT. Monta e opera o funil de aula sem
 A aula semanal é uma aula ao vivo gratuita, toda semana no mesmo dia e horário, sobre um tema ligado à definição de resultado do
 HT. O objetivo não é plateia ao vivo: é construir uma **lista qualificada e perpétua** (quem se inscreve para aprender o tema),
 aumentar autoridade e tempo de tela com o expert, e alimentar todas as ações de venda (sessão 1a1, imersão, SHT, campanha
-vigente). No FHT, cerca de 20% das vendas de mentoria vêm desse funil (número de aula, referência). "Começou, não para mais."
+vigente). No caso de referência do método, cerca de 20% das vendas do HT vêm desse funil (número de referência). "Começou, não para mais."
 
 **Entrega** (arquivos em `04-demanda/aula-semanal/`, nome `AAAA-MM-DD-<assunto>.md`):
 1. `plano-aula-semanal.md`: nome, promessa geral, dia, horário, duração, plataforma, material de apresentação, destino do CTA,
@@ -58,7 +58,7 @@ expert. Regras e exemplos em `references/planejamento-e-promessa.md` (seção 1)
 - Mesmo dia e hora toda semana; nunca quinzenal; não pula feriado. Viagem: gravar antes e publicar como Estreia, avisando que é
   gravada. O melhor horário é o que o expert sustenta sem falhar (só descartar o claramente incompatível com o avatar, ex.: CLT
   às 15h). Comunicar "horário de Brasília".
-- Duração: **1 h** (padrão do squad). Fonte varia de 45 min a 1 h (trilha 14) e até 2 h (live 013); conteúdo maior se divide.
+- Duração: **1 h** (padrão do squad). A referência varia de 45 min a 2 h; conteúdo maior se divide.
 - Plataforma padrão: **YouTube direto** (já fica gravado e público, um clique, vira ativo de busca). StreamYard ou OBS para cenas
   e convidados; Zoom/Meet só com motivo (interação, nicho com risco de censura) e aceitando menos gente e mais trabalho;
   Instagram não (a live morre em dias). Uma plataforma só. Tabela de prós e contras em `references/planejamento-e-promessa.md`
@@ -81,18 +81,18 @@ Tabela, prompts e checklist em `references/banco-de-temas.md`.
   parecida com o avatar, 1 a 3 objeções da live quebradas) · como (jeito errado, depois o certo em 3 a 4 passos) · aprendizado
   no chat ("não vale falar tudo") · CTA · antecipação da próxima.
 - **Modelo 2, aulão**: saudação, promessa das aulas, tema, procedência, conteúdo corrido, CTA; seeding em qualquer ponto.
-- Conteúdo denso, sem medo de ensinar demais ("quando entrega, entrega; quando vende, vende", paráfrase da live 013: segurar
+- Conteúdo denso, sem medo de ensinar demais ("quando entrega, entrega; quando vende, vende", segurar
   conteúdo para gerar desejo deixa a aula rasa). **Seeding** natural (alunos, resultados, o programa) sem preço e sem pitch.
 - Roteiro é guia em tópicos, nunca texto lido. Sem caso autorizado: o benefício usa só objeções; nada de inventar resultado.
 Molde com falas-modelo e minutagem para 1 h em `references/roteiro-da-aula.md`.
 
-**Passo 5. CTA com NPS e a pergunta da sessão.** Padrão do FHT (cerca de 95% dos casos): presente (o mapa mental da aula, o
+**Passo 5. CTA com NPS e a pergunta da sessão.** Padrão do método (cerca de 95% dos casos): presente (o mapa mental da aula, o
 mesmo que o expert usou para preparar) em troca de um formulário com nome, e-mail, telefone, **NPS 0 a 10** ("o quanto
 recomenda esta aula"), justificativa da nota, sugestão de tema e **a pergunta da sessão** com o nome da sessão 1a1 do expert
 ("quer falar com alguém do time sobre um acompanhamento / diagnóstico?" sim ou não). O presente só libera no fim do formulário.
 - Fala do CTA em 3 tempos: antecipação (o presente e a escassez real de horários), história (por que essas pessoas estão aqui:
   têm o problema e não sabem resolver), oferta da reunião com o especialista. Pedir que só marque sim quem quer de verdade.
-- Sim no formulário entra na fila do comercial e é contatado em até 30 min (ajuste da palestra de jun/2026); agenda só quem tem
+- Sim no formulário entra na fila do comercial e é contatado em até 30 min ; agenda só quem tem
   perfil (Calendly ou formulário com lógica condicional). Os demais ficam na lista. A aula costuma acabar à noite: o plano escreve
   quem atende a fila (`ht-sdr` rascunha, quem envia é quem a pessoa indicar) e a regra fora do horário (sim depois das 21h: contato
   na abertura do dia seguinte, com mensagem automática de recebimento só se a pessoa ligar). Sem dono, o plano propõe um e lista em "Assumi".
@@ -133,9 +133,9 @@ vigente); replay público em playlist (não tirar do ar para gerar escassez); tr
 vira resumo estruturado por IA para os participantes e matéria-prima de temas e cortes (`ht-conteudo-de-prova`). Zoom/Meet:
 baixar, editar, subir. Registrar os números da semana. Rotina em `references/pos-live-e-metricas.md`.
 
-**Passo 10. Conciliar com lançamento e eventos.** Regra (trilha 14, mar/2026; padrão recomendado, que a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): a aula semanal
+**Passo 10. Conciliar com lançamento e eventos.** Regra (padrão recomendado, que a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): a aula semanal
 **não para nunca**, inclusive quando o lançamento é para o mesmo público; em lançamento ela fica no seu dia (ou num horário
-próprio no mesmo dia) e a live de aquecimento vai em outro. A rota 3 (jan/2025) trocava a aula pela aula 1 do evento; o padrão do squad é
+próprio no mesmo dia) e a live de aquecimento vai em outro. Uma variação antiga trocava a aula pela primeira aula do evento; o padrão do squad é
 não parar. Convidar os grupos do lançamento para o grupo da aula, não mandar o aviso da aula nos grupos do lançamento.
 
 **Convidar para a live direto ao ponto (LDP) sem misturar a aula** (regra operacional do squad que concilia este passo com a
@@ -176,8 +176,8 @@ A skill decide pelo padrão ou pela recomendação, sem lote de perguntas, e lis
 - **Ligar as automações** de e-mail e WhatsApp e o contato do comercial com quem marcou sim.
 - **Convidar para a LDP nas aulas** dentro da captação (Passo 10): propor quais aulas (no máximo 2) e o texto do convite.
 - **Quem atende os sims**: propor um responsável e a regra fora do horário (Passo 5).
-- **Convidar para evento pago dentro da aula** (ingresso, credencial): a própria Live FHT fecha algumas aulas com o convite para a
-  imersão com credencial paga (lives 021, 022 e 026, valor de fala, conferir) e um aluno relatou que vende ingresso na aula e dá
+- **Convidar para evento pago dentro da aula** (ingresso, credencial): há casos de referência em que a aula fecha com o convite para a
+  imersão com credencial paga (conferir) e de aluno que vende ingresso na aula e dá
   certo; exige tirar a promessa "não vou vender nada" do convite e não fazer toda semana. Oferta do HT dentro da aula continua fora.
 - **Mostrar resultado de paciente/cliente** em nicho regulado.
 
@@ -217,37 +217,16 @@ vender" quebrada; convite pós-evento antes de as ações acabarem; números cit
 
 ## 8. Ferramentas de apoio (por nome, sem copiar)
 
-- Pesquisa de temas: `niche-research`, `leitura-web-turbo`, `transcrever-youtube-turbo` (aulas e lives de referência do nicho),
+- Pesquisa de temas: `niche-research`, `leitura-web`, `transcrever-youtube` (aulas e lives de referência do nicho),
   `watch` (assistir aula de referência ou a própria aula para auditar).
 - Texto: `voice-builder` (voz do expert para as notificações), `hook-generator` (títulos de capa), `avoid-ai-writing` e
   `humanizer` (filtro final).
-- Página: `pagina-design-premium`, `frontend-design:frontend-design`, `page-optimizer-turbo`, `publicar-pagina-cloudflare`.
-- Visual: `youtube-thumbnail` (capa da aula), `banner-design` (banner do canal), `gerador-instagram-turbo` (stories de convite).
+- Página: `pagina-design-premium`, `frontend-design:frontend-design`, `page-optimizer`, `publicar-pagina-cloudflare`.
+- Visual: `youtube-thumbnail` (capa da aula), `banner-design` (banner do canal), `gerador-instagram` (stories de convite).
 - Automação: `email-marketing-mautic`, `conectar-whatsapp-oficial`, `automacao-fluxos` (envio só com OK do estrategista).
-- Tráfego e dados: `meta-ads-cli-turbo` e a ferramenta de tráfego do perfil (`trafego.ferramenta`, pelo gestor de tráfego), `analytics-dashboard`, `anthropic-skills:xlsx`.
-Elas executam; o método é este. Se alguma trouxer regra de LPSG, vale o FHT.
+- Tráfego e dados: `meta-ads-cli` e a ferramenta de tráfego do perfil (`trafego.ferramenta`, pelo gestor de tráfego), `analytics-dashboard`, `anthropic-skills:xlsx`.
+Elas executam; o método é este. Se alguma trouxer regra diferente, vale o método deste squad.
 
-## 9. Fontes e lacunas
+## 9. Lacunas (não inventar)
 
-**Fontes:** trilha 14, Bootcamp de Aula Semanal: **transcrição da Parte 1** (28/01/2026, lida inteira na revisão R11: benefícios,
-temas e agente, os dois roteiros, CTA padrão, transmissão, pós-transmissão, perguntas) e **transcrição da Parte 2** (11/03/2026,
-duas mentoras FHT, lida inteira: promessa, dia e horário, páginas, pesquisa de avatar, notificações, geração de lista, criativos,
-remarketing, verba, perguntas sobre lançamento e venda na aula); `rota3/transcricoes/07-bootcamp-funil-de-aula-semanal` (jan/2025,
-versão anterior da Parte 1, lida inteira: ferramentas de tema, roteiro antigo, CTAs alternativos, plataformas, notificações,
-conciliação com lançamento); `RESUMO-aula-semanal.md` e `rota3/resumos/07-funil-de-aula-semanal.md` como apoio; Live FHT 013
-(transcrição inteira: premissas do funil, criativo raiz, NPS com justificativa e pergunta ao time comercial, caso de 13 semanas);
-Lives 021, 022 e 026 (transcrições inteiras: a própria Live FHT como aula semanal, CTA de NPS e convite para imersão no fim);
-resumo das lives 27 a 39 (live 027); palestra de aluno no Encontro FHT jun/2026 (só resumo dos slides: pitch da sessão em 3
-etapas, ligação em até 30 min, agenda condicional); catálogo (fht-aula-semanal-planejamento até fht-auditoria-aula-semanal,
-fht-aula-semanal-paginas, fht-trafego-da-aula-semanal, conflito 20); partes C, H, I e G; padrões do squad.
-
-**Lacunas (não inventar):** (1) os prompts dos GPTs "Gerador de Temas" e "Roteiro de Aula Semanal" não existem nos arquivos; os
-prompts das referências são reconstrução desta skill; (2) o doc de roteiro white label e o "Link dos Links" não foram capturados;
-(3) a pesquisa de avatar white label tem título e nenhuma pergunta: as perguntas vêm dos exemplos ditos na Parte 2 (emagrecimento,
-leilão, FHT); (4) não há meta numérica de inscritos, CPL, presença ou taxa NPS → sim → venda para aula semanal; os números do
-caso de 13 semanas, dos 20% das vendas e de "40 a 80 ao vivo geram 10 a 20 reuniões" são de fala ou slide (conferir); (5) os
-tutoriais de YouTube, OBS e StreamYard prometidos não estão nos arquivos; (6) a Parte 1 diz que o 80-20 do funil é a
-construção de lista (página, pesquisa, grupo, notificações e captação, que a Parte 2 cobre); não há outra regra 80-20 além disso;
-(7) o framework completo da sessão 1:1 da palestra de jun/2026 ficou como bônus fora do slide; (8) a
-duração diverge entre fontes (resolvida pelo padrão do squad); (9) as duas abas da planilha de tráfego estão deslocadas em um
-dia entre si: adaptar ao dia da aula.
+(1) Os prompts de IA para temas e roteiro das referências são reconstrução desta skill; (2) o roteiro "white label" e o "Link dos Links" são modelos do método, não texto pronto do expert; (3) a pesquisa de avatar vem com exemplos por nicho, não com perguntas fixas; (4) não há meta numérica de inscritos, CPL, presença ou taxa NPS → sim → venda para a aula semanal; os números do caso de 13 semanas, dos 20% das vendas e de "40 a 80 ao vivo geram 10 a 20 reuniões" são de referência (conferir); (5) tutoriais de YouTube, OBS e StreamYard não fazem parte do método; (6) o 80-20 do funil é a construção de lista (página, pesquisa, grupo, notificações e captação); não há outra regra 80-20 além disso; (7) o framework completo da sessão 1:1 fica fora desta skill (é do `ht-roteiro-sessao-1a1`); (8) a duração varia de 45 min a 2 h (resolvida pelo padrão de 1 h); (9) as duas abas da planilha de tráfego podem estar deslocadas em um dia entre si: adaptar ao dia da aula.

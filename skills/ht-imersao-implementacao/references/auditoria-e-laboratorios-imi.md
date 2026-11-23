@@ -1,10 +1,5 @@
 # IMI: mapa de peças, checklist técnico, auditoria dos laboratórios e debriefing
 
-Fontes: trilha 22, laboratórios de talk (aula 44), pré-pitch (aula 47, transcrita em 22/11/2026) e pitch (aula 50), plantões e
-laboratórios de tráfego (35, 39, 45), aquecimento (46, transcrita em 22/11/2026), preparação técnica (51/52), offboarding
-out/2025 (71); RESUMOs das turmas out/2025 e fev/2026; catálogo fht-auditoria-imersao, fht-confirmacao-de-presenca,
-fht-lembretes-pre-evento, fht-producao-tecnica-e-central-do-evento.
-
 ## 1. Mapa de peças (um pedido por linha)
 
 | Peça | Especificação | Skill / agente | Prazo |
@@ -24,7 +19,7 @@ fht-lembretes-pre-evento, fht-producao-tecnica-e-central-do-evento.
 
 ## 2. Checklist técnico (semana do evento)
 
-- [ ] Zoom com plano dimensionado pelo pico (o FHT chegou a ~1.000); host e co-host; segundo host de reserva; evitar duas contas.
+- [ ] Zoom com plano dimensionado pelo pico (o método chegou a ~1.000); host e co-host; segundo host de reserva; evitar duas contas.
 - [ ] Internet principal e reserva, energia (nobreak), câmera e microfone testados; slides e vídeos abrindo no computador do evento.
 - [ ] Links na mão: sala, central, CTA, agenda ou checkout; central com os 3 estados configurados.
 - [ ] Teste de ponta a ponta do CTA (agendar ou comprar de verdade e cancelar).

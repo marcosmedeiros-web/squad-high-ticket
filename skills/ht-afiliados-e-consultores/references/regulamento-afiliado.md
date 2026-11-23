@@ -1,6 +1,6 @@
 # Regulamento do programa de afiliados (modelo)
 
-Modelo reconstruído das regras ditas nas aulas (Live 023; trilha 22, aula 200 e offboardings). **Validar com o jurídico do
+Modelo reconstruído das regras do método. **Validar com o jurídico do
 expert antes de publicar.** Campos entre colchetes vêm da tabela de comissão aprovada pelo estrategista.
 
 ## 1. O que é

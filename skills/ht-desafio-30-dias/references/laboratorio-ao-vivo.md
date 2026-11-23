@@ -1,8 +1,6 @@
 # Laboratório ao vivo: condução e erros típicos por etapa
 
-Fonte: parte-E (conduzir laboratório; auditar Master Plan, vitrine, AR, Raio-X, SLG), parte-F (laboratório de correção,
-roleplay feedback checklist); laboratórios de abr/2026 (92, 95) por amostra. Os checklists consolidam o que os mentores
-corrigiram nas turmas; amostra, não censo.
+Os checklists consolidam o que é corrigido com frequência nas turmas; amostra, não censo.
 
 ## 1. Condução (60 a 120 min)
 1. Abrir: regras (só feedback, sorteio, microfones fechados, câmera aberta tem preferência).
@@ -16,12 +14,12 @@ corrigiram nas turmas; amostra, não censo.
 Ritmo: 4 a 12 alunos por aula (AR 20 a 25 min por aluno; vitrine ~12 perfis). Ordem na sessão 1a1: roteiro, Raio-X, deck.
 Princípio: "ação e velocidade, não perfeição".
 
-**Variante: laboratório de sessões gravadas** (jan/2025). Na etapa de campo, formulário para o aluno submeter gravações de sessões
+**Variante: laboratório de sessões gravadas**. Na etapa de campo, formulário para o aluno submeter gravações de sessões
 reais (retroativas, com ou sem venda, link aberto) até um prazo antes do encontro (caso: segunda 18h para terça 9h); o mentor
 analisa antes e corrige ao vivo as mais representativas. Antes dele, um encontro de engenharia reversa de sessões que venderam.
 Foi nessa turma que os laboratórios nasceram e tiveram o NPS mais alto.
 
-## 2. Erros típicos por etapa (modelo FHT; para o aluno do expert, montar o equivalente a partir dos primeiros laboratórios)
+## 2. Erros típicos por etapa (modelo do método; para o aluno do expert, montar o equivalente a partir dos primeiros laboratórios)
 
 **Master Plan**
 - Imersão listada como HT (é canal de venda); canais de captação listados como canal de venda (canal de venda é onde há oferta).
@@ -43,7 +41,7 @@ Foi nessa turma que os laboratórios nasceram e tiveram o NPS mais alto.
 - Garantia para resultado abstrato; preço sem garantia ou com entrada alta; bônus que é entrega; saída de IA colada sem revisar.
 
 **Raio-X**
-- Perguntas invertidas sem marcação; repetidas; que induzem para a mentoria; compromisso com o programa em vez de com a carreira;
+- Perguntas invertidas sem marcação; repetidas; que induzem para o programa; compromisso com o programa em vez de com a carreira;
   gráfico que não carrega; mais de 25 a 30 perguntas (padrão do squad: 5 por área, no máximo 1 de percepção).
 
 **Sessão 1a1 / roleplay** (checklist completo na `ht-treino-comercial`)

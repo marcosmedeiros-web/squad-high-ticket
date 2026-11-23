@@ -1,9 +1,9 @@
 ---
 name: ht-protocolo
-description: 'Protocolo transversal do Squad High Ticket (método FHT, Fórmula High Ticket). TODO agente ht-* carrega esta skill primeiro, antes de qualquer outra. Traz o mapa do método (4 ciclos, 4 alavancas, a rota oferta → sessão 1a1 → demanda → um-para-muitos → entrega → renovação), qual das 46 skills cobre cada etapa, o primeiro passo (ler o perfil opcional em ~/.config/squad-ht/perfil.md; sem ele, trabalhar direto com os padrões recomendados), os nomes fixos dos 32 agentes, o que fazer sem acesso a ferramenta (entregar pronto para fazer à mão), as regras comuns (quem pede é o estrategista, nada sai sem OK dele, preço só de 02-oferta, nada inventado, handoff e revisão obrigatórios), os padrões recomendados do método e o glossário FHT. Use quando um agente HT começa qualquer tarefa, quando há dúvida de "em que etapa estamos", "qual skill uso", "o que significa SNA/SLG/IMA/GIC", "qual regra vale". NÃO usar para lançamento pago semanal, 5+1, Funil 8 ou Turbo Express: isso é outro método (LPSG) e não se mistura com o FHT.'
+description: 'Base que todo agente ht- carrega primeiro: mapa do método (ciclos, alavancas, rota), qual skill cobre cada etapa, nomes fixos dos agentes, regras comuns e glossário. Use em "em que etapa estamos", "qual skill uso", "o que é SLG/IMA/GIC", "qual regra vale". NÃO usar para lançamento pago de evento.'
 ---
 
-# Protocolo do Squad High Ticket (FHT)
+# Protocolo do Squad High Ticket
 
 ## 1. Para que serve e o que entrega
 
@@ -20,8 +20,8 @@ Ao carregar, o agente deve conseguir responder em 3 linhas: (1) ciclo e etapa da
    sem ele, o agente trabalha direto, sem parar e sem pedir configuração, com os padrões: quem aprova é a pessoa que está pedindo,
    chamada de "você" (é o "estrategista" deste protocolo); pasta raiz `~/squad-ht` (cada expert em `~/squad-ht/<expert>/ht/`; o
    nome do expert só é perguntado se for preciso criar a pasta); tráfego sem ferramenta definida (seção 4, regra 2); sem prefixo
-   de campanha; sem acervo do método; e os padrões recomendados da seção 5. Com perfil, ele pode trazer `estrategista`, `agencia`,
-   `raiz_projetos`, `trafego.ferramenta`, `trafego.prefixo_campanha`, `fontes_metodo` e `padroes`; campo ausente ou vazio cai no
+   de campanha; e os padrões recomendados da seção 5. Com perfil, ele pode trazer `estrategista`, `agencia`,
+   `raiz_projetos`, `trafego.ferramenta`, `trafego.prefixo_campanha` e `padroes`; campo ausente ou vazio cai no
    padrão. **Os padrões do perfil valem acima do texto de qualquer skill ou agente.** Se a pessoa pedir "personaliza o squad",
    roda a skill opcional `ht-configurar`; o squad nunca a oferece nem sugere por conta própria.
    **Nomes fixos**: cada agente se apresenta sempre com o nome da tabela da seção 2.1, no formato "Nome, Função HT" (ex.:
@@ -47,10 +47,9 @@ Ao carregar, o agente deve conseguir responder em 3 linhas: (1) ciclo e etapa da
    o resto, lista a dependência em "Lacunas" no bloco de entrega e avisa o Diretor, que pede ao dono. Exceções em que a ausência
    **trava** em vez de virar lacuna: sem Aprovação 1 (portão inicial); sem `autorizacoes.md`, nenhuma prova
    de aluno é usada em material (ausência = nenhuma autorização); sem oferta (proposta ou vigente), nada de preço.
-7. **Fontes do método**: quando uma skill cita `FORMULA HIGH TICKET/` (trilhas, mapa, rota 3), é o acervo de aulas do método FHT,
-   que **não vem neste plugin**. Se o estrategista tem acesso legítimo ao acervo e apontou a pasta em `fontes_metodo` no perfil,
-   o agente lê de lá. Sem acervo, registra "fonte não disponível" e não cita trecho que não leu; a skill já traz o método em
-   paráfrase.
+7. **Fontes do método**: o método já vem dentro das skills, em paráfrase. Se a pessoa indicar uma pasta com material próprio
+   de referência, o agente pode ler de lá; sem isso, segue pelas skills, registra "fonte não disponível" quando faltar algo e
+   não cita trecho que não leu.
 
 ### 2.1 Os 32 agentes e seus nomes (fixos)
 
@@ -91,10 +90,10 @@ O nome de cada agente é fixo: não vem do perfil e não se troca. O `name` téc
 | ht-revisor-metodo-copy | Helena, Revisora de método e copy HT | portão de todo texto |
 | ht-revisor-visual | Vera, Revisora visual HT | portão de toda peça visual |
 
-## 3. Mapa do método FHT
+## 3. Mapa do método do Squad HT
 
 ### 3.1 Os 4 ciclos (a jornada de qualquer HT)
-**Criar → Vender → Entregar → Renovar.** É também a definição do próprio AR do FHT ("criação, venda, entrega e renovação").
+**Criar → Vender → Entregar → Renovar.** É também a definição do próprio AR ("criação, venda, entrega e renovação").
 Ordem do método: vender antes de entregar, entregar antes de escalar, e só ir de um para muitos depois de validar em 1a1.
 
 ### 3.2 As 4 alavancas de crescimento (diagnóstico do negócio)
@@ -129,13 +128,12 @@ Transversal: Master Plan (7 anos, número mágico) e gestão (Central, KPIs, IA 
 | 6 Renovação e upgrade | Renovar / renovação e upgrade | 43 ht-renovacao · 44 ht-upgrade-e-gic |
 | Gestão | Todas | 45 ht-central-e-kpis · 46 ht-avaliacao-de-reunioes-por-ia |
 
-Escopo de cada uma das 46 e o agente dono: `references/mapa-das-46-skills.md`. O que cada skill absorve do catálogo de 250:
-`FORMULA HIGH TICKET/_skills-mapa/LISTA-HT-COMPLETA.md` e `CATALOGO-SKILLS-FHT.md`.
+Escopo de cada uma das 46 e o agente dono: `references/mapa-das-46-skills.md`..
 
 ### 3.5 Como diagnosticar "onde o expert está" (orquestrar a rota)
 0. **O expert já vende algo com acompanhamento a 5x ou mais da média do nicho? Por qual canal, a que preço, quantas vendas e
    quando foi a última?** Esta é sempre a primeira pergunta; a resposta vai para `00-plano/estado.md` com a fonte (planilha de
-   vendas, Hotmart, dado do expert) e classifica o ponto de partida (classificação operacional do squad, não termo de aula):
+   vendas, Hotmart, dado do expert) e classifica o ponto de partida (classificação operacional do squad):
    - **A, não vende nada**: segue a pergunta 1.
    - **B, vende só produto barato** (curso, low ticket, evento pago): etapa 0; o produto barato é ativo (lista, média do nicho
      quando custa R$ 1 mil ou mais) e não é o HT.
@@ -150,7 +148,7 @@ Escopo de cada uma das 46 e o agente dono: `references/mapa-das-46-skills.md`. O
 4. A agenda enche sozinha? Não → etapa 3. Sim e oferta validada → etapa 4 pode começar.
 5. Há alunos ativos? → etapa 5 corre em paralelo desde a primeira venda.
 6. Há alunos a 2-3 meses do fim do ciclo? → etapa 6.
-Um material por vez, só no momento indicado (regra da rota 3). O plano de ação do expert vale mais que a rota.
+Um material por vez, só no momento indicado (regra da rota). O plano de ação do expert vale mais que a rota.
 
 ### 3.6 Portão do um-para-muitos e calendário (regra operacional única)
 - **Dia único de checagem**: o portão de prontidão de qualquer evento um-para-muitos (LDP, webinário, imersão) é conferido em
@@ -178,7 +176,7 @@ Um material por vez, só no momento indicado (regra da rota 3). O plano de açã
    de Anúncios (ou para quem sobe por ela) e nunca exige CLI nem acesso. Nos dois casos a campanha nasce **PAUSADA**, leva o
    prefixo de campanha do perfil (`trafego.prefixo_campanha`) na nomenclatura, se houver, e só ativa com OK.
 3. **Nunca inventar** número, depoimento, caso, resultado de aluno, print ou nome. Sem dado: escrever `[FALTA: …]`.
-   Número das aulas vem de legenda automática: é **referência, nunca garantia**; número com ruído vai marcado "conferir".
+   Número de referência do método é **referência, nunca garantia**; número incerto vai marcado "conferir".
    Antes de ir para material de venda, todo número é trocado pelo número próprio do expert ou conferido na transcrição.
 4. **Preço e oferta só saem de `02-oferta/`**. Nenhum agente cria, muda ou arredonda preço, parcela, entrada, bônus ou
    garantia por conta própria; divergência vira pergunta ao estrategista. **Regra de leitura da oferta** (vale para toda skill que
@@ -205,7 +203,7 @@ Um material por vez, só no momento indicado (regra da rota 3). O plano de açã
 11. **Debrief**: ao fim de cada ação (evento, ciclo de 20 sessões, campanha, renovação), registrar em `13-aprendizados/` o que
     funcionou, o que quebrou e o número real (o agente manda o rascunho pelo handoff; quem grava ali é o Diretor).
 12. **Nível de evidência** em toda entrega: verificado (observado/testado), feito sem teste, inferido. "Pronto" só com tudo verificado.
-13. **Citação**: no máximo 15 palavras literais de aula ou material; o resto em paráfrase. Sem copiar trecho longo.
+13. **Citação**: no máximo 15 palavras literais de qualquer material; o resto em paráfrase. Sem copiar trecho longo.
 14. **Dados de aluno e lead** (gravações, Raio-X, conversas): ficam na pasta do projeto, sem nome em material público, sem
     copiar para fora. Depoimento só com autorização registrada.
 15. **Modelo por camada**: Opus em estratégia, direção e revisão adversarial; Sonnet em execução e revisão de rotina.
@@ -241,7 +239,7 @@ chave, vale o desta seção.
 - `eht_nao_renova`: a Experiência HT não renova; é escada para o próximo produto.
 - `dupla`: +50% sobre o individual.
 - `entregavel_ate_n`: entregável individual sempre "até N"; frequência fixa só em encontro de grupo.
-- `duracao_entregaveis_1a1`: entregável 1a1 com o alvo do manual, teto na duração real e parte 2 prevista (diagnóstico: alvo 1h20, teto 2h).
+- `duracao_entregaveis_1a1`: entregável 1a1 com o alvo do padrão, teto na duração real e parte 2 prevista (diagnóstico: alvo 1h20, teto 2h).
 - `capacidade_entrega`: expert sozinho até 20 alunos; mentor 1:70; navegador 1:100.
 - `faixas`: 4 níveis de resultado como padrão.
 - `comunidade`: WhatsApp até ~10 alunos, Telegram até ~150, Circle a partir daí.
@@ -249,7 +247,7 @@ chave, vale o desta seção.
 - `master_plan_conservador`: renovação 50% e margem (lucro) de 40% sobre o recebido, ou seja, custo de 60%, até haver dado próprio.
 
 **Sessão 1a1**
-- `roteiro_sessao`: versão de 6 etapas da trilha 09.
+- `roteiro_sessao`: versão de 6 etapas.
 - `duracao_sessao`: alvo de 1h15, teto de 1h30.
 - `agendamento`: 2 horários oferecidos, sessão marcada em até 2 dias.
 - `acordo_sim_ou_nao`: usar o acordo do sim ou não, sem a metáfora "em cima do muro".
@@ -302,10 +300,10 @@ responde "pode" ou diz o que mudar. Resposta e o que foi assumido vão por exten
    10 itens, em linguagem simples) junto do "posso seguir?" da aprovação da vez. Nada de lote de perguntas.
 4. Se a pessoa mudar algo, a mudança é gravada por extenso no `D<n>` e replicada nos códigos de origem ("DA-1 → mudado em D7: …").
 
-## 7. Glossário FHT (1 linha cada)
+## 7. Glossário do Squad HT (1 linha cada)
 
-- **FHT**: Fórmula High Ticket, o método de criar, vender, entregar e renovar produtos de ticket alto.
-- **HT**: high ticket; produto com acompanhamento que custa um múltiplo da média do nicho (a aula fala em 3 a 20 vezes; o padrão `preco_ht` fixa 5x a 10x). É relativo ao nicho, não um valor absoluto.
+- **Método do Squad HT**: o método de criar, vender, entregar e renovar produtos de ticket alto.
+- **HT**: high ticket; produto com acompanhamento que custa um múltiplo da média do nicho (a faixa ampla vai de 3 a 20 vezes; o padrão `preco_ht` fixa 5x a 10x). É relativo ao nicho, não um valor absoluto.
 - **AR (Acelerador de Resultados)**: programa de acompanhamento personalizado em que o expert direciona, acompanha e dá feedback na implementação. Tipos: negócio, carreira, habilidade, conquista pessoal.
 - **Definição do AR**: frase-framework "programa de acompanhamento personalizado para [avatar] que querem [resultado]…" com as etapas do veículo.
 - **Roma**: o destino/promessa do projeto ("ajudo [avatar] a [resultado]"); no AR o foco é o veículo, não a Roma.
@@ -313,7 +311,7 @@ responde "pode" ou diz o que mudar. Resposta e o que foi assumido vão por exten
 - **Jornada do avatar**: 4 etapas x 4-5 passos com verbo, ações auditáveis do aluno, nunca entregáveis nem módulos.
 - **4 pilares de entregáveis**: Direcionamento, Implementação, Acompanhamento e Feedback, Ambiente.
 - **"Até N"**: regra de quantidade do entregável individual, acionado pelo aluno, nunca frequência fixa.
-- **SNA (Sistema de Navegação Ativa)**: checklist micro, semana a semana, do que o aluno executa (planilha ou Google Agenda); o white label da FHT tem 5 semanas com barra de progresso. Veio do Insider; a mentoria FHT em si usa "próximas ações" no lugar.
+- **SNA (Sistema de Navegação Ativa)**: checklist micro, semana a semana, do que o aluno executa (planilha ou Google Agenda); o modelo padrão tem 5 semanas com barra de progresso; uma variante mais simples usa só "próximas ações".
 - **Plano de ação**: macro (mês a mês) a partir do diagnóstico; o SNA é o micro.
 - **Navegador**: pessoa do CS que tira dúvida superficial com prazo de resposta em dias úteis declarado; no começo é o próprio expert (capacidade: padrão `capacidade_entrega`).
 - **Peixe assado**: "faço por você" (serviço); difícil de escalar; no AR só como bônus.
@@ -330,7 +328,7 @@ responde "pode" ou diz o que mudar. Resposta e o que foi assumido vão por exten
 - **Central 1x1**: planilha de controle comercial, uma linha por lead, origem ao fechamento.
 - **Vitrine**: perfil (bio, 3 fixados) que vende o HT; fixados: Quem sou eu, Evidência, Campanha.
 - **SLG (Social Lead Generation)**: prospecção social com lista de 100, qualificação e 3 mensagens (desarmadora, condução, arremate).
-- **Funil 100-20-1**: referência do SLG: 100 mensagens, 20 respostas, 1 venda (número de aula, referência).
+- **Funil 100-20-1**: referência do SLG: 100 mensagens, 20 respostas, 1 venda (número de referência).
 - **Prospecção arpão**: convite direto a pessoa específica, sem tráfego, falando de oportunidade (apelido criado por uma aluna, não termo da metodologia).
 - **Kinder Ovo**: sessão individual dada como bônus num produto barato, onde se oferece o HT.
 - **Sessão 1a1**: call de venda individual com Raio-X, história e oferta; alvo 1h15, teto 1h30.
@@ -356,14 +354,14 @@ responde "pode" ou diz o que mudar. Resposta e o que foi assumido vão por exten
 - **Bootcamp**: dia de implementação nos 4 Es em que o aluno sai com algo pronto.
 - **Talk de entrada / talk de abertura**: primeira palestra do evento (boas-vindas, combinados, história de quem fala e procedência do método); quem faz a talk faz o pitch.
 - **Pré-pitch / seeding**: plantar o HT sem vender e apresentar os entregáveis com cara de conteúdo antes do pitch; pode ser feita por outra pessoa.
-- **Pitch P1-P10** (Live 028): P1 anunciação, P2 estudo de caso (Toque de Midas), P3 gancho, P4 o que é o programa, P5 resultados já gerados, P6 para quem é e para quem não é, P7 entregáveis, P8 duração, P9 preço com ancoragem e formas de pagamento, P10 bônus, garantia e CTA. Na fala, P8 a P10 são partes da oferta; a numeração fechada é do resumo. Não confundir com P1-P24 da planilha do presencial, que numera palestras.
-- **Pitch para sessão de avaliação** (Construção de Pitch, desafio de imersão online, fev/2026): mesma ordem, sem preço no palco; o CTA leva a agendar a sessão 1a1, feita na mesma semana. Gratuita ou paga conforme volume de pedidos e tamanho do time comercial.
+- **Pitch P1-P10**: P1 anunciação, P2 estudo de caso (Toque de Midas), P3 gancho, P4 o que é o programa, P5 resultados já gerados, P6 para quem é e para quem não é, P7 entregáveis, P8 duração, P9 preço com ancoragem e formas de pagamento, P10 bônus, garantia e CTA. Na fala, P8 a P10 são partes da oferta; a numeração fechada é do resumo. Não confundir com P1-P24 da planilha do presencial, que numera palestras.
+- **Pitch para sessão de avaliação**: mesma ordem, sem preço no palco; o CTA leva a agendar a sessão 1a1, feita na mesma semana. Gratuita ou paga conforme volume de pedidos e tamanho do time comercial.
 - **Re-pitch**: repetição do pitch no dia seguinte, com tom emocional e quebra de objeções.
 - **Sessão de avaliação**: nome dado à sessão 1a1 no CTA do evento ("análise de potencial"), vendida pelo benefício para a pessoa.
 - **Laser coaching**: entrega ao vivo de um entregável a alguém da plateia depois do pitch.
 - **Mesa de fundo / break de vendas**: operação de fechamento na pausa pós-pitch.
 - **Lote zero**: primeira venda de ingressos antes da abertura geral.
-- **GPS (imersão presencial)**: passo a passo em Notion da FHT, da decisão ao debriefing, com checklist por fase: planejamento, logística (8 a 12 semanas para quem começa), preparação da captação, captação, preparação da imersão, aquecimento e confirmação, execução (5 dias antes ao desmonte), aprovações e entrega do HT, debriefing e análise.
+- **GPS (imersão presencial)**: passo a passo (em Notion ou planilha), da decisão ao debriefing, com checklist por fase: planejamento, logística (8 a 12 semanas para quem começa), preparação da captação, captação, preparação da imersão, aquecimento e confirmação, execução (5 dias antes ao desmonte), aprovações e entrega do HT, debriefing e análise.
 - **Cancelamento tipo 1**: quem aplicou no evento e não paga a primeira parcela; combatido com aprovação rápida logo após o evento.
 - **Hot seat**: rodadas cronometradas em mesas de 5 a 7 em que cada um recebe ideias do grupo.
 - **Laboratório**: tema ensinado, alunos executam e enviam, correção ao vivo em grupo.
@@ -374,26 +372,25 @@ responde "pode" ou diz o que mudar. Resposta e o que foi assumido vão por exten
 - **Renovação**: nova compra ao fim do ciclo de 12 meses; preço recomendado pelo agente e aprovado no plano (padrão `preco_renovacao`).
 - **Upgrade**: subida de nível ou de produto (ex.: AR → GIC).
 - **4 alavancas**: aquisição, retenção, upgrade, renovação.
-- **Rotas 1 a 4**: trilhas da área de membros; a rota 3 vai do zero a R$ 100 mil acumulados, a 4 vem depois.
+- **Rota**: a sequência criar, vender, entregar e renovar; a primeira rota vai do zero a R$ 100 mil acumulados.
 
-## 8. Proibição: não misturar o método LPSG
+## 8. Proibição: não misturar lançamento pago de evento
 
-O Squad High Ticket **não usa** e **não cita como método**: lançamento pago semanal, 5+1, Funil 8, Turbo Express, cap 4+4,
-nem as skills `lpsg-*`, `oferta-lpsg-turbo`, `closer-lpsg-turbo`, `lpsg-master-turbo`, `lancamento-pago-semanal-turbo`,
-`funil-8-turbo`, `turbo-express`, `estrutura-aulas-lpsg-turbo`, `mensageria-lpsg-turbo`, nem os agentes `*-turbo` como dono de
-etapa. Termos parecidos têm sentido diferente: "pitch" do FHT é o P1-P10 do evento (ou a variante para sessão de avaliação); "oferta" é a do AR em 02-oferta; "closer"
-é o ht-closer da sessão 1a1. Pedido que é de LPSG: o agente para e devolve ao Diretor dizendo que é de outro método, fora do squad.
-Ferramentas genéricas (vídeo, design, texto, tráfego, documentos, a ferramenta de tráfego do perfil, se houver), inclusive as skills de
-execução do kit Turbo (Turbo Academy) que vêm neste plugin com autorização (`squad-high-ticket:<nome>`), podem ser usadas por
-nome; elas executam, não definem método. Se uma delas trouxer regra de método LPSG, a regra do FHT vence.
+O Squad High Ticket **não usa** e **não cita como método** o lançamento pago de evento (evento pago semanal com régua de
+mensagens, produto de entrada barato como funil principal), nem agentes de outros squads como dono de etapa. Termos parecidos
+têm sentido diferente: "pitch" aqui é o P1-P10 do evento (ou a variante para sessão de avaliação); "oferta" é a do AR em
+02-oferta; "closer" é o ht-closer da sessão 1a1. Pedido de lançamento pago de evento: o agente para e devolve ao Diretor dizendo
+que é de outro método, fora do squad. Ferramentas genéricas (vídeo, design, texto, tráfego, documentos, a ferramenta de tráfego
+do perfil, se houver), inclusive as skills de execução que vêm neste plugin (`squad-high-ticket:<nome>`), podem ser usadas por
+nome; elas executam, não definem método. Se uma delas trouxer regra de outro método, a regra do método do Squad HT vence.
 
 ## 9. Critério de pronto do protocolo (o agente confere antes de agir)
 
 - [ ] Li `~/.config/squad-ht/perfil.md` se existe; sem ele, sigo os padrões da seção 5 e não paro por isso.
 - [ ] Sei o `<slug>` e li `00-plano/`, `02-oferta/` e a minha subpasta.
 - [ ] Existe pedido do Diretor e, se não for pesquisa/oferta, a Aprovação 1.
-- [ ] Sei a etapa da rota e a skill; a tarefa não é LPSG.
-- [ ] Preço, oferta e números que vou usar têm fonte (02-oferta, dado do expert ou aula marcada "referência/conferir").
+- [ ] Sei a etapa da rota e a skill; a tarefa não é lançamento pago de evento.
+- [ ] Preço, oferta e números que vou usar têm fonte (02-oferta, dado do expert ou referência do método marcada "conferir").
 - [ ] Sei onde gravo e quem revisa; decido pelo padrão o que dá, listo em "Assumi" e pergunto no máximo 2 coisas impossíveis de adivinhar.
 
 ## 10. Saída e handoff
@@ -403,12 +400,10 @@ pedido de revisão em `12-revisoes/pedidos/`. O Diretor só marca a etapa como c
 
 ## 11. Fontes e lacunas
 
-**Fontes**: o método FHT (Fórmula High Ticket), em paráfrase: rota 3 (ordem da rota, AR, 4 pilares, 4 Es, Master Plan), trilha
-18 (GPS da imersão presencial, fases, cancelamento tipo 1), trilha 22 (construção de pitch para sessão de avaliação) e trilha 23,
-Live 028 (pitch P1-P10). O acervo de aulas não vem no plugin (seção 2, passo 7).
+**Fontes**: o método do Squad HT, em paráfrase (ordem da rota, AR, 4 pilares, 4 Es, Master Plan, GPS da imersão presencial,
+cancelamento tipo 1, pitch P1-P10 e pitch para sessão de avaliação).
 
 **Lacunas**: (1) o banco de sacadas do `ht-consultor-casos` ainda não existe neste plugin; (2) regras do GIC em aberto (padrão
-`regras_gic`); (3) prompts internos dos GPTs da FHT não existem nos arquivos: skill que reconstrói um GPT nunca se apresenta como
-"o GPT da FHT"; (4) vários números de aula (funil 100-20-1, número mágico, faixas de preço por nicho) têm ruído de legenda e
-ficam como referência a conferir; (5) sobre a abertura do pitch, o padrão `abertura_pitch` segue a construção de pitch mais
-recente (emoção e indignação, depois racional); a Live 028 pedia racional do começo ao fim e fica como contexto.
+`regras_gic`); (3) skill que reconstrói um assistente de IA do método nunca se apresenta como o original; (4) vários números de referência
+(funil 100-20-1, número mágico, faixas de preço por nicho) ficam como referência a conferir; (5) sobre a abertura do pitch, o
+padrão `abertura_pitch` é emoção e indignação, depois racional.

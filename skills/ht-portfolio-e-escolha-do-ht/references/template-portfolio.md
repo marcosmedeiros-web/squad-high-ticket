@@ -49,17 +49,17 @@ HT 2, <nome> … / HT 3, <nome> …
 ## 8. Lacunas
 ```
 
-## Exemplo de referência (FHT, ditado na trilha 07, aula 06; tickets com ruído de legenda)
-- HT 1, AR (mentoria FHT). O que é: programa de acompanhamento individualizado no processo de criação, venda, entrega e
+## Exemplo de referência (tickets com ruído, conferir)
+- HT 1, AR (mentoria do método). O que é: programa de acompanhamento individualizado no processo de criação, venda, entrega e
   renovação de produtos HT. Pra quem: quem quer montar negócio digital de alto faturamento e margem; quem já trabalha com
   infoproduto; quem está começando no digital. Roma: criar, vender, entregar e renovar produtos high ticket. Ticket: R$ 80 mil
   (conferir). Canais: imersão, sessão 1a1 e SHT.
 - HT 2, GIC. O que é: grupo de inteligência coletiva para quem já tem grande resultado com HT. Pra quem: quem já faturou pelo
   menos R$ 2 milhões com HT. Roma: compartilhar e acessar os insights e estratégias que mais geram resultado. Ticket: R$ 160 mil
   (conferir). Canais: encontros ou sessão 1a1.
-- HT 3, EHT: visita presencial ao escritório (sem mais detalhes na aula).
-- Na live 062 a FHT cita o portfólio atual entre cerca de R$ 40 mil e R$ 260 mil por ano; o AR já foi vendido a R$ 100 mil à vista
-  na primeira turma (lives 057 e 061). Valores de momentos diferentes: referência do formato, nunca do preço do expert.
+- HT 3, EHT: visita presencial ao escritório (detalhar com o expert).
+- O portfólio atual do exemplo vai entre cerca de R$ 40 mil e R$ 260 mil por ano; o AR já foi vendido a R$ 100 mil à vista
+  na primeira turma. Valores de momentos diferentes: referência do formato, nunca do preço do expert.
 
 ## Exemplo da planilha baixada (AR de pós-gestação)
 AR para recuperar barriga e corpo após a maternidade, tratando diástase, por 1 ano; para mulheres que querem recuperar a

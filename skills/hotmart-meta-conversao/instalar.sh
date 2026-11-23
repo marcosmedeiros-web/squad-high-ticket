@@ -1,7 +1,7 @@
 #!/bin/bash
 # instalar.sh - instala o receptor Hotmart + API de Conversões DESLIGADO e SECO. Não liga nada.
 #
-# Contrato (o mesmo dos outros componentes do kit):
+# Contrato (o mesmo dos outros componentes do pacote):
 #   · não interativo, sem sudo, idempotente (rodar de novo com o mesmo pacote não muda nada);
 #   · toda recusa imprime `MOTIVO=<slug>` na primeira linha do stderr e sai com um código próprio;
 #   · instala units `--user`, faz daemon-reload e NÃO roda enable/start: imprime o comando exato;
@@ -11,7 +11,7 @@
 # Uso:
 #   bash instalar.sh --perfil <perfil.env> --destino <dir> [opções]
 #     --perfil ARQ      o SEU perfil.env (modelo em perfil/perfil.exemplo.env), fora do pacote
-#     --destino DIR     onde o componente mora (caminho absoluto; ex.: ~/kit/hotmart-meta)
+#     --destino DIR     onde o componente mora (caminho absoluto; ex.: ~/apps/hotmart-meta)
 #     --python ARQ      python3 >= 3.10 (padrão: o python3 do PATH)
 #     --so-conferir     só confere (perfil, segredos, porta) e não escreve nada
 #     --com-capi        escreve o drop-in que ARMA a chamada à Meta (ainda depende do CAPI_MODO)

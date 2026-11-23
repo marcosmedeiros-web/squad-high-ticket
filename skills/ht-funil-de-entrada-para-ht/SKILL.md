@@ -1,9 +1,9 @@
 ---
 name: ht-funil-de-entrada-para-ht
-description: 'Funil de entrada que alimenta o HT no Squad High Ticket (método FHT). Desenha e especifica o produto barato que serve de PENEIRA para a sessão 1a1, não de lucro: o funil das 3 peneiras (minicurso pago derivado da Roma do AR → aulas que elevam a dor com pitch na aula 3 e repeat na 4 → aplicação paga reembolsável → sessão 1a1), o curso como máquina de vendas do HT (módulo 0 de convites), o funil com lucro na captura (CAC, ACV, complementos e upsell) e as fontes de lead qualificado (bônus Kinder Ovo, sessão vendida como produto, consultoria gratuita com formulário). Use quando o estrategista disser "quero só lead quente na sessão", "monta um minicurso que vende a mentoria", "funil das três peneiras", "o lead frio não fecha na call", "meu curso pode vender o HT?", "qual o CAC e o ACV". NÃO usar para Funil 8, low ticket como negócio ou lançamento pago semanal (Turbo).'
+description: 'Desenha o funil de entrada que alimenta o HT: produto barato como PENEIRA para a sessão 1a1 (três peneiras: minicurso, aplicação paga reembolsável, sessão), curso como máquina de vendas do HT, funil com lucro na captura (CAC, ACV) e fontes de lead qualificado. Use para "só lead quente na sessão", "funil das três peneiras", "qual o CAC e o ACV". NÃO usar para low ticket como negócio.'
 ---
 
-# Funil de entrada para o HT (método FHT)
+# Funil de entrada para o HT
 
 ## 1. Para que serve e o que entrega
 
@@ -13,13 +13,13 @@ quente. O objetivo é **venda do AR**, não lucro no produto de entrada ("não t
 do case). Só a variante C (lucro na captura) trata o produto de entrada como fonte de caixa, e mesmo assim para pagar o tráfego.
 
 Variantes do método:
-- **A. Três peneiras** (Sala CoLab): minicurso pago ~R$ 49,70 → conteúdo que eleva dor e desejo, pitch na aula 3 e repeat na
-  aula 4 → aplicação paga ~R$ 500, reembolsável → sessão 1a1. É a variante padrão desta skill.
-- **B. Curso como máquina de vendas do HT** (live 049): curso de preço baixo com módulo 0 "comece por aqui" que convida para
+- **A. Três peneiras**: minicurso pago ~R$ 49,70 → conteúdo que eleva dor e desejo, pitch na 3ª aula e repeat na
+  4ª aula → aplicação paga ~R$ 500, reembolsável → sessão 1a1. É a variante padrão desta skill.
+- **B. Curso como máquina de vendas do HT**: curso de preço baixo com módulo 0 "comece por aqui" que convida para
   imersão, live semanal e avaliação de negócio; resumo de módulo que captura contato.
-- **C. Funil com lucro na captura** (palestra nov/2025): produto principal + 2 a 3 complementos + upsell; aumenta investimento só
+- **C. Funil com lucro na captura**: produto principal + 2 a 3 complementos + upsell; aumenta investimento só
   quando sobe o ACV; aulas que qualificam e levam à sessão estratégica.
-- **D. Fontes de lead qualificado** (live 038): bônus Kinder Ovo num produto barato já existente; sessão de avaliação vendida
+- **D. Fontes de lead qualificado**: bônus Kinder Ovo num produto barato já existente; sessão de avaliação vendida
   como produto (R$ 97 a ~R$ 3 mil, abatida no HT); consultoria gratuita filtrada por formulário.
 
 **Entrega** (em `experts/<slug>/ht/04-demanda/funil-de-entrada/`):
@@ -53,7 +53,7 @@ Fluxograma e checklist de montagem da variante A: `references/tres-peneiras-pass
 
 ### Passo 1. Promessa do minicurso (peneira 1: exclui o frio)
 - Derivar da Roma do AR trocando poucas palavras, no vocabulário do avatar. O minicurso promete um passo do caminho, não o destino.
-- Nome simples; preço baixo (referência do case R$ 49,70; o preço é decisão do estrategista).
+- Nome simples; preço baixo (referência do caso R$ 49,70; o agente assume o preço e lista em "Assumi").
 - Filtro de quem compra: exigir um dado que qualifica (no case, número do registro profissional) e excluir quem não decide.
 
 ### Passo 2. Conteúdo que eleva a dor sem saciar (peneira 2: exclui o morno)
@@ -61,12 +61,12 @@ Fluxograma e checklist de montagem da variante A: `references/tres-peneiras-pass
   um pedaço e revela o próximo problema) e **custo de oportunidade** (o que a pessoa deixa de ganhar).
 - Ensinar o **o quê e o porquê, não o como**. Frase de aterrissagem entre aulas lembrando que aquilo não basta para chegar à Roma.
 - Estrutura de referência do case (5 aulas): história e erro · pilares do AR · quick win + **pitch** · custo de oportunidade +
-  **repeat** · "aula zero" de quebra de objeções já liberada na entrada. Duração: no case a aula 1 teve ~25 min e as outras
+  **repeat** · "aula zero" de quebra de objeções já liberada na entrada. Duração: no case a 1ª aula teve ~25 min e as outras
   ~1 h (pitch incluído); para aquele avatar (cirurgião) aula curta parecia fraca e 1 h não atrapalhou, mas houve queixa de
   aulas longas e a rodada seguinte, em teste, foi para 7 aulas de 30 a 40 min. Duração é decisão por avatar, não regra.
   Detalhe e roteiro por aula em `references/conteudo-do-minicurso-e-pitch.md`.
-- **Pitch na aula 3** igual ao pitch da IMA do FHT (o que é, o que não é, para quem é e não é, resultados, pilares, preço,
-  garantia), com o preço dito; **repeat na aula 4** (prova antes, prova emocional, repeat, parabéns a quem decidiu).
+- **Pitch na 3ª aula** igual ao pitch da IMA do método (o que é, o que não é, para quem é e não é, resultados, pilares, preço,
+  garantia), com o preço dito; **repeat na 4ª aula** (prova antes, prova emocional, repeat, parabéns a quem decidiu).
 - A pessoa precisa chegar ao pitch depois das aulas de dor e desejo (ver o pitch antes queima a construção). No case isso foi
   feito pela ordem de liberação e pelas mensagens de "assista na sequência", não por trava técnica; travar a aula do pitch
   por pré-requisito na plataforma é opção, se ela permitir (conferir). Nada de vender outro produto barato no momento do pitch.
@@ -96,7 +96,7 @@ Fluxograma e checklist de montagem da variante A: `references/tres-peneiras-pass
 ### Passo 6. Aplicação paga (peneira 3: seleciona o muito quente)
 - Link de aplicação em **todos** os pontos: abaixo da aula do pitch e do repeat, numa aula só com o link e o passo a passo, no
   e-mail, no grupo e no WhatsApp individual logo depois de a pessoa ver o pitch.
-- Formulário de aplicação da FHT terminando em pagamento (referência R$ 500), apresentado como **garantia**: se o caso não tiver
+- Formulário de aplicação do método terminando em pagamento (referência R$ 500), apresentado como **garantia**: se o caso não tiver
   como dar resultado, o valor volta. Recusa antes ou depois da sessão com devolução (no case: 6 de 24 recusados e reembolsados).
 - Pagou → mensagem **na hora** para agendar a sessão o mais rápido possível (2 a 3 dias esfria); 2 horários, sessão em até 2 dias
   (padrão do squad).
@@ -118,14 +118,13 @@ Fluxograma e checklist de montagem da variante A: `references/tres-peneiras-pass
 - A aplicação "reembolsável se não houver fit" é diferente da garantia do AR (padrão recomendado: condicional, mensurável, ligada à execução):
   não confundir nem misturar as duas na copy.
 - Número de case é **amostra pequena** (um ciclo, 18 vendas): nunca vira promessa ao expert nem material de venda.
-- Diferença com o Funil 8 da Turbo: lá o produto barato é motor de lucro e base; aqui é peneira do AR. Não usar `funil-8-turbo`
-  nem misturar os dois métodos.
+- Diferença com low ticket como negócio: lá o produto barato é motor de lucro e base; aqui é peneira do AR. Não misturar os dois métodos.
 
-## 5. Quando a decisão é do estrategista
+## 5. Padrões assumidos (o agente decide e lista em "Assumi: … (é só pedir para mudar)")
 
 - **Variante** (A, B, C, D) para o expert.
 - **Preço do minicurso** e **valor da aplicação** (referências: R$ 49,70 e R$ 500; a sessão paga vendeu mais a R$ 500 que a
-  R$ 197 num teste da FHT; faixa citada R$ 97 a ~R$ 3 mil). Opções com prós e contras: aplicação mais cara filtra mais e reduz
+  R$ 197 num teste do método; faixa citada R$ 97 a ~R$ 3 mil). Contras a avisar: aplicação mais cara filtra mais e reduz
   volume.
 - **Reembolso e abatimento** da aplicação no AR.
 - **Complementos e upsell** (variante C): mais ACV x risco de dividir a atenção e baixar a aplicação.
@@ -136,7 +135,7 @@ Fluxograma e checklist de montagem da variante A: `references/tres-peneiras-pass
 
 **Pronto quando:**
 - [ ] Variante escolhida com o motivo; promessa do minicurso derivada da Roma do AR (frase lado a lado).
-- [ ] Índice de aulas com o tipo de conteúdo de cada uma, pitch na aula 3, repeat na 4, frase de aterrissagem.
+- [ ] Índice de aulas com o tipo de conteúdo de cada uma, pitch na 3ª aula, repeat na 4, frase de aterrissagem.
 - [ ] Página, checkout com pesquisa, filtro de qualificação e prazo de acesso especificados.
 - [ ] Automação de consumo e tag "viu o pitch" desenhadas (sem ligar envio).
 - [ ] Aplicação paga com garantia de devolução, links em todos os pontos e disparo imediato de agendamento.
@@ -165,21 +164,12 @@ Fluxograma e checklist de montagem da variante A: `references/tres-peneiras-pass
 
 ## 8. Ferramentas de apoio
 
-`gerador-slides-turbo` ou `slides-uipm-turbo` (aulas), `criacao-guia-gravacao` (pauta de gravação das aulas), `pagina-design-premium`
+`gerador-slides` ou `slides-uipm` (aulas), `criacao-guia-gravacao` (pauta de gravação das aulas), `pagina-design-premium`
 e `publicar-pagina-cloudflare` (landing), `hotmart-meta-conversao` (Purchase do checkout), `email-marketing-mautic`,
 `automacao-fluxos` e `conectar-whatsapp-oficial` (sequência de consumo, só com OK), `anthropic-skills:xlsx` (painel e CAC/ACV),
-`watch` (rever aula e achar trecho que derruba retenção).
+`watch` (rever aula e achar trecho que derruba retenção).## 9. Limites (não inventar)
 
-## 9. Fontes e lacunas
-
-**Fontes:** `RESUMO-erico-rocha-e-sala-colab.md` (funil das três peneiras: §3, §4 passos 1 a 14, §5, §7, §8, anexo C) e a
-transcrição da Sala CoLab (aula 102, lida inteira na revisão de 23/11; criativos campeões simples); live 049 (curso como máquina de vendas do HT) em
-`RESUMO-lives-fht-40-a-52.md` (módulo 0, 63 aulas em 5 dias e resumo do módulo conferidos na transcrição); live 038 (Kinder Ovo, sessão paga, consultoria gratuita) em `RESUMO-lives-fht-27-a-39.md` (trechos de R$ 97 a 3 mil e de R$ 500 x R$ 197 conferidos na transcrição);
-palestra "Como ter lucro para fazer sessão estratégica e vender HT" (nov/2025) em `RESUMO-palestras-encontros-fht.md`; live 058
-(transcrição nova: base de compradores de curso convertida por live direto ao ponto); catálogo `fht-funil-minicurso-tres-peneiras`,
-`fht-curso-e-funil-de-entrada-como-captacao-ht`, `fht-fontes-de-lead-qualificado-1a1`; padrões do squad.
-
-**Lacunas (não inventar):** a pasta "três peneiras" (fluxograma, 12 mensagens de grupo, e-mails, WhatsApp individual, tabela de
-quando enviar e quem excluir) fica na área de membros e não foi baixada; não há textos das mensagens, só a estrutura; não há
-CPA do minicurso nem custo por aplicação no material; a palestra do lucro na captura é só slide; o case tem um ciclo e
-amostra pequena (100% de conversão em 18 sessões); preço ideal do minicurso por nicho não é discutido.
+A pasta "três peneiras" (fluxograma, 12 mensagens de grupo, e-mails, WhatsApp individual, tabela de quando enviar e quem excluir) não
+vem no pacote: há só a estrutura, não os textos das mensagens. Não há CPA do minicurso nem custo por aplicação de referência. A
+variante C é só estrutura de slide. O caso de referência tem um ciclo e amostra pequena (100% de conversão em 18 sessões). Preço ideal
+do minicurso por nicho não é definido.

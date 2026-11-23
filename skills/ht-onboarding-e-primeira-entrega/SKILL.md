@@ -1,6 +1,6 @@
 ---
 name: ht-onboarding-e-primeira-entrega
-description: 'Squad High Ticket / método FHT. Monta tudo o que acontece entre a venda do HT e a primeira entrega do aluno: diagnóstico de prontidão (vender antes de entregar), linha do tempo pós-venda, aprovação ou reprovação da aplicação, áudio e mensagem de aprovação, onboarding individual (até 5 alunos) ou aula inaugural (acima de 5), salas de suporte ao vivo, ligação de ativação e os momentos que tornam a entrada do aluno inesquecível. Use quando o estrategista disser "vendeu, e agora?", "monta o onboarding do aluno", "roteiro da aula inaugural", "mensagem de aprovação", "aprovo ou reprovo essa aplicação?", "o aluno entrou e está perdido", "quero uma entrada de aluno marcante". NÃO usar para roteiro dos entregáveis 1a1 (ht-entregaveis-1a1), desafio de 30 dias (ht-desafio-30-dias), NPS e catálogo (ht-provas-e-cases), nem para pós-venda de LPSG/5+1 da Turbo (cs-lpsg-turbo).'
+description: 'Monta o que acontece entre a venda do HT e a primeira entrega: prontidão, aprovação, aula inaugural, salas de suporte, ativação e mensagens de entrada. Use com "o aluno comprou, e agora?", "monta o onboarding", "aula inaugural". NÃO usar para os entregáveis (ht-entregaveis-1a1) nem o CS contínuo (ht-cs).'
 ---
 
 # Onboarding e primeira entrega do HT
@@ -8,9 +8,9 @@ description: 'Squad High Ticket / método FHT. Monta tudo o que acontece entre a
 ## 1. Para que serve e o que entrega
 
 Os primeiros dias depois do sim decidem se o aluno confirma que fez a melhor compra da vida ou começa a pensar em cancelar.
-No FHT, o cancelamento de quem entra caiu de 34% para 15% (trilha 19, aula 02; número de aula, conferir antes de usar em venda)
+Num caso de referência do método, o cancelamento de quem entra caiu de 34% para 15% (número de referência, conferir antes de usar em venda)
 com um conjunto de mudanças de entrega: aprovação e aula inaugural mais rápidas (de cerca de 10 dias para 1 a 2), próximo passo
-em toda mensagem, salas de suporte ao vivo e o desafio de ativação. A aula não isola o efeito de cada uma. Esta skill
+em toda mensagem, salas de suporte ao vivo e o desafio de ativação. O caso não isola o efeito de cada uma. Esta skill
 desenha essa passagem inteira para o HT do expert, já pensando em escala: o que o suporte faz sozinho, o que o mentor faz e o
 que só o expert faz.
 
@@ -50,10 +50,10 @@ Detalhe em `references/linha-do-tempo-e-aprovacao.md` (seção 1).
 ### Passo 2. Linha do tempo pós-venda
 Modelo dia a dia em `references/linha-do-tempo-e-aprovacao.md` (seção 2).
 - Sequência: aplicação paga (sinal pago com a call aberta) → análise → aprovação → áudio + mensagem → acessos e comunidade liberados →
-  ligação confirmando que entrou → aula inaugural ou onboarding individual → primeiro entregável solicitado (no padrão FHT:
+  ligação confirmando que entrou → aula inaugural ou onboarding individual → primeiro entregável solicitado (no padrão do método:
   Raio-X do aluno e pedido do diagnóstico) → salas de suporte (se entrada em grupo) → abordagem individual do suporte uns dias
   depois → primeira vitória antes do vencimento da 1ª parcela.
-- **Alvo: aula inaugural ou onboarding em até 1 a 2 dias** depois da venda (FHT atual: vendeu no domingo, inaugural na terça;
+- **Alvo: aula inaugural ou onboarding em até 1 a 2 dias** depois da venda (caso atual de referência: vendeu no domingo, inaugural na terça;
   venda na 1a1, onboarding no dia seguinte). A linha do tempo de primeira turma das lives cita 7 a 15 dias: aceitar só na turma
   piloto e avisando a data na venda. Quanto mais longe, maior o cancelamento.
 - Programa de 12 meses, ajustável de 11 a 13 para cair no ciclo de renovação: a data de término sai já no onboarding.
@@ -64,17 +64,17 @@ Fluxo, ficha e critérios em `references/linha-do-tempo-e-aprovacao.md` (seção
 - Primeira pergunta: faz sentido selecionar neste HT? (Sim quando há garantia, oferta exclusiva ou evento 1:N, onde a
   reprovação gera escassez real.) Não é obrigatório.
 - O canal muda o como: na venda 1a1, a aptidão costuma ser decidida na própria sessão (o expert já viu o Raio-X e a história);
-  na venda 1:N (imersão, live, palco), quem paga a aplicação preenche a ficha e entra na análise depois (trilha 19, aula 03).
+  na venda 1:N (imersão, live, palco), quem paga a aplicação preenche a ficha e entra na análise depois.
 - Ficha de aplicação: dados de contato, Instagram, nicho e subnicho, faturamento, se já tem clientes, mais o que filtra o
   avatar do expert. Resposta curta e vazia na ficha é sinal de alerta.
 - **Sim óbvio** aprova direto. **Dúvida**: ligar ou validar em dupla (mentor + expert). **Reprovado**: explicar o motivo e
   devolver o valor da aplicação. Existe repescagem.
 - Quem dá garantia (condicional, ligada à execução) aprova com mais cuidado: o aluno errado vira pedido de garantia.
-- O critério de seleção é comprometimento, não dinheiro (live 057).
+- O critério de seleção é comprometimento, não dinheiro.
 
 ### Passo 4. Notificação de aprovação (2 mensagens, nesta ordem)
 Roteiros em `references/mensagens-de-entrada.md`.
-1. **Áudio personalizado de até 2 min** (referência real do FHT: 1 min 15 s), gravado por quem analisou: contexto do aluno,
+1. **Áudio personalizado de até 2 min** (referência real: 1 min 15 s), gravado por quem analisou: contexto do aluno,
    por que foi aprovado, pontos fortes, expectativa ("agora são 12 meses juntos"), tom acolhedor. Cita caso parecido se houver.
 2. **Mensagem escrita** logo em seguida, com o próximo passo concreto: data, hora e link da aula inaugural (ou do onboarding
    individual) e o canal de suporte exclusivo. Nesta fase o aluno ainda não tem acesso a nada: a mensagem é o único mapa dele.
@@ -86,7 +86,7 @@ Roteiros em `references/mensagens-de-entrada.md`.
   comunidade, agenda, suporte) conferidos na tela, regras e como pedir entregável, próximo passo (preencher o formulário do
   primeiro entregável e pedir a sessão), confirmação dos canais.
 - O onboarding individual explica como o programa funciona e confere acessos; não é o momento de tirar dúvidas de conteúdo
-  (essas vão para o primeiro entregável). No FHT quem conduz é o suporte, com um mapa mental de roteiro e um slide do time.
+  (essas vão para o primeiro entregável). No método quem conduz é o suporte, com um mapa mental de roteiro e um slide do time.
 - **Acima de 5: aula inaugural** em grupo. Roteiro com tempos em `references/aula-inaugural.md`. Ela vende o programa de novo:
   o expert abre com história, parabéns e resultados, o sócio ou o expert apresenta a equipe (inclusive suporte e financeiro, para
   a cobrança da parcela não parecer golpe vinda de outro número) e passa a condução ao mentor (primeira transferência de autoridade);
@@ -97,12 +97,12 @@ Roteiros em `references/mensagens-de-entrada.md`.
 
 ### Passo 6. Ativação: a primeira vitória antes da 1ª parcela
 - Ativação é a fase em que o aluno precisa de vitórias rápidas e engajamento, principalmente antes de pagar a primeira parcela.
-- No FHT, o desafio de ativação é casado com cada turma que entra, entra na oferta como bônus contra a objeção "não tenho
+- No método, o desafio de ativação é casado com cada turma que entra, entra na oferta como bônus contra a objeção "não tenho
   dinheiro para as primeiras parcelas" e mede sucesso por avanço do aluno nos 30 dias, não por chegar à Roma. A cada edição,
-  os alunos de turmas anteriores que travaram são convidados de novo (trilha 19, aulas 04 e 05). Desenho do desafio:
+  os alunos de turmas anteriores que travaram são convidados de novo. Desenho do desafio:
   ht-desafio-30-dias. Usar o desafio como bônus é oferta: só se estiver em `02-oferta/`.
 - Venda 1a1 com datas de entrada diferentes: o mesmo roteiro do desafio vira um SNA por aluno, com uma aba por semana liberada
-  só depois que a anterior foi cumprida (trilha 19, aula 04).
+  só depois que a anterior foi cumprida.
 - Ferramentas, por tamanho de turma: aula inaugural + salas de suporte + desafio de 30 dias (ht-desafio-30-dias) quando há base
   (~10 a 15 alunos); abaixo disso, SNA de 5 semanas no individual (ht-entregaveis) e acompanhamento por WhatsApp.
 - **Ligação de ativação**: confirmar que entrou, que acessou e que pediu o primeiro entregável. Quem não pediu em poucos dias
@@ -114,11 +114,11 @@ Roteiros em `references/mensagens-de-entrada.md`.
 - Plantões em **3 janelas** de horário com o time de suporte, divulgados no fim da aula inaugural e por mensagem a todos os
   novos (inclusive os do individual). Servem para acesso e ansiedade; **não entregam conteúdo**. Entrar junto na tela do aluno
   se preciso.
-- Cronologia de referência do FHT: evento termina domingo, inaugural quarta de manhã, sala quarta à tarde, duas salas na
+- Cronologia de referência: evento termina domingo, inaugural quarta de manhã, sala quarta à tarde, duas salas na
   quinta, na segunda seguinte o suporte aborda cada aluno individualmente (acessos, dúvidas, se está tudo certo).
 
 ### Passo 8. Experiência inesquecível da entrada
-Mapa completo em `references/momentos-marcantes.md`. O princípio vem das fontes: a entrega começa no sim, o aluno precisa sentir
+Mapa completo em `references/momentos-marcantes.md`. O princípio: a entrega começa no sim, o aluno precisa sentir
 que foi escolhido, visto e conduzido. Momentos com base no método: áudio personalizado de aprovação, ligação de boas-vindas,
 inaugural que vende de novo e mostra a equipe, kit de boas-vindas quando a oferta prevê, primeira vitória rápida, aluno nunca
 sem próximo passo, contato ativo antes do pedido. Cada momento tem dono, prazo e roteiro. Nada de mimo que a operação não
@@ -128,7 +128,7 @@ sustenta para todos os alunos.
 - Card do aluno na base (Base de Alunos, ht-escala-da-entrega): status aplicou → validação dupla → notificar aprovação →
   aprovado/onboarding → aguardando pagamento → concluído (ou reprovado). Cada linha é uma **conta** (individual, dupla, trio).
 - Abrir o documento de ações do aluno (núcleo) com as informações gerais e as respostas da ficha (ht-entregaveis-1a1).
-- Mensagens automáticas (lembretes da inaugural, boas-vindas) só ligam com OK do estrategista (ht-gestor-automacoes).
+- Mensagens automáticas (lembretes da inaugural, boas-vindas) só ligam com OK da pessoa (ht-gestor-automacoes).
 
 ## 4. Regras inegociáveis do método
 
@@ -142,19 +142,19 @@ sustenta para todos os alunos.
 8. Prometer na venda o que se entrega; se a entrega será com mentor, isso foi dito na venda (risco ético de vender "com o
    expert" e entregar com outro).
 9. Reprovado recebe motivo e devolução; nunca silêncio.
-10. Envio a aluno só com OK do estrategista (protocolo, regra 2). Rascunho até lá.
+10. Envio a aluno só com OK da pessoa (protocolo, regra 2). Rascunho até lá.
 - Padrões que se aplicam: garantia condicional e mensurável, ligada à execução (o onboarding explica as condições); sinal pago com
   a call aberta; programa de 12 meses, ajustável de 11 a 13; capacidade de referência do squad; comunidade pelo tamanho (WhatsApp
   até ~10, Telegram até ~150, Circle depois); 2 horários e sessão em até 2 dias.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que a skill assume e o que pede OK simples
 
 - **Selecionar ou não** neste HT (com prós: exclusividade, escassez, proteção da garantia; contras: devolução, atrito).
-- **Reprovar um aplicante** em caso de dúvida: o agente monta o resumo (ficha, sinais, recomendação) e o estrategista decide com o expert.
-- **Kit de boas-vindas físico** (custo, frete, para quem): opções com custo por aluno.
+- **Reprovar um aplicante** em caso de dúvida: o agente monta o resumo (ficha, sinais, recomendação) e leva ao expert; a reprovação só sai com o OK dele.
+- **Kit de boas-vindas físico** (custo, frete, para quem): a skill propõe pelo padrão com o custo por aluno e lista em "Assumi".
 - **Ferramenta de comunidade** fora do padrão do squad (ex.: já ter Circle pago) e **canal de suporte** (número próprio, WhatsApp
   oficial, horário de atendimento e prazo de resposta declarado).
-- Qualquer texto que fale em nome do expert. Formato: decisão numerada, a) recomendada, prós, contras e custo em uma linha.
+- Qualquer texto que fale em nome do expert. Sai como rascunho e só vai com o OK simples da pessoa.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -172,7 +172,7 @@ sustenta para todos os alunos.
 **Auditoria (erros típicos)**:
 1. Montar plataforma, manual ou equipe antes da primeira venda.
 2. Mensagem de boas-vindas sem próximo passo.
-3. Mais de 2 dias entre venda e recepção sem motivo (o FHT já teve ~10 dias e cancelava mais).
+3. Mais de 2 dias entre venda e recepção sem motivo (um caso de referência já teve ~10 dias e cancelava mais).
 4. Aula inaugural para 3 alunos (era call individual) ou call individual para 40 (era inaugural).
 5. Aluno sem acesso a comunidade ou área de membros depois da inaugural (aluno sem acesso pensa em cancelar).
 6. Inaugural que vira aula de conteúdo e esquece entregáveis, regras e próximo passo.
@@ -189,27 +189,16 @@ sustenta para todos os alunos.
   aplicante e aluno na base de `06-entrega/privado/` (do ht-cs) ou em `06-entrega/onboarding/privado/`.
 - Mensagens, áudio e roteiro da inaugural → **ht-revisor-metodo-copy**. Slides da inaugural → ht-diretor-arte / ht-designer →
   **ht-revisor-visual**.
-- Automações de lembrete e boas-vindas → ht-gestor-automacoes (só liga com OK do estrategista). Datas de término e ciclos →
+- Automações de lembrete e boas-vindas → ht-gestor-automacoes (só liga com OK da pessoa). Datas de término e ciclos →
   ht-controller e ht-gestor-renovacao. Primeiro entregável → ht-entregaveis-1a1. Desafio de ativação → ht-desafio-30-dias.
 
 ## 8. Ferramentas de apoio
 
-`gerador-slides-turbo` ou `slides-uipm-turbo` (slides da inaugural), `anthropic-skills:pptx`, `humanizer` e `avoid-ai-writing`
+`gerador-slides` ou `slides-uipm` (slides da inaugural), `anthropic-skills:pptx`, `humanizer` e `avoid-ai-writing`
 (mensagens), `voice-builder` (voz do expert no áudio), `criacao-guia-gravacao` (guia para o expert gravar o áudio e a abertura),
 `conectar-whatsapp-oficial` e `automacao-fluxos` (lembretes, só com OK), `email-marketing-mautic` (e-mails de acesso),
 `anthropic-skills:xlsx` (linha do tempo e base de alunos).
 
-## 9. Fontes e lacunas
+## 9. Lacunas (não inventar)
 
-**Fontes**: trilha 19, aulas 02 (introdução, 34% → 15%), 03 (aprovação x reprovação), 04 (onboarding e ativação, salas de
-suporte), 17 (transferência de autoridade), RESUMO §3 a §8 e white labels §5.1 e §5.2; parte-D bloco 6
-(diagnosticador-prontidao, decisor-aprovacao, redator-notificacao, planejador-onboarding, roteirista-aula-inaugural,
-organizador-salas); parte-G (conduzidor-onboarding-aula-inaugural, 5 passos); parte-H (montar-onboarding-ht-e-aula-inaugural);
-parte-I (plano-primeira-venda-e-entrega-inicial, onboarding-e-aula-inaugural-ht); lives FHT 057 e 061 (turma piloto, over
-delivery, acompanhamento de duas vias, comprometimento como critério; transcritas hoje); gravação real de diagnóstico (kit de
-boas-vindas como bônus de turma, exemplo de sessão).
-
-**Lacunas**: (1) os mapas mentais "Onboard modelo FHT" e "Aula Inaugural modelo FHT" não foram abertos: o roteiro da inaugural
-é reconstruído do que as aulas descrevem, e os tempos de cada bloco são proposta do squad (marcados como tal); (2) não há prazo
-máximo oficial entre venda e inaugural além do caso FHT (1 a 2 dias) e da linha de primeira turma (7 a 15 dias); (3) o conteúdo
-de um kit de boas-vindas não é detalhado no material; (4) contrato e termo de compra são citados ("ajudam"), sem modelo.
+(1) Os mapas mentais "Onboard" e "Aula Inaugural" são do projeto de cada expert: o roteiro da inaugural é reconstruído do método, e os tempos de cada bloco são proposta do squad (marcados como tal); (2) não há prazo máximo oficial entre venda e inaugural além do caso de referência (1 a 2 dias) e da linha de primeira turma (7 a 15 dias); (3) o conteúdo de um kit de boas-vindas não é detalhado; (4) contrato e termo de compra são citados ("ajudam"), sem modelo: validar com o jurídico do expert.

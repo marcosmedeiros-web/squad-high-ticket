@@ -1,10 +1,5 @@
 # IMA: grade minuto a minuto (3 dias) e adaptações
 
-Fonte: planilha "Cronograma IMA" do Bootcamp (abas DIA 1, DIA 2, DIA 3, transcrita no RESUMO da trilha 18), aulas 04, 06, 11,
-14, 16 e 18 da trilha 18, e a lógica de blocos de 1, 2 e 3 dias da trilha 22 (preparação da imersão, fev/2026). Horários são
-modelo; o evento real do FHT foi de sexta 9h a domingo 22h20. Colunas da grade: Início · Duração · Responsável · Tema ·
-Anotações e links (slide, vídeo, roteiro).
-
 ## 1. Dia 1: conteúdo puro (sem pitch)
 
 | Início | Duração | Bloco |
@@ -28,8 +23,8 @@ Anotações e links (slide, vídeo, roteiro).
 | 22:20 | 10 | Encerramento do dia 1 |
 | 22:30 | | Fim (não passar daqui: atrasa o dia 2 e empurra o pitch) |
 
-A planilha modelo do FHT vai até ~00h07; a própria aula de encerramento recomenda não esticar o dia 1. Ajuste da squad: corte
-para ~22h30, conforme o catálogo (auditoria da imersão).
+O modelo de referência vai até ~00h07, mas o recomendado é não esticar o dia 1. Ajuste do squad: corte
+para ~22h30.
 
 ## 2. Dia 2: conteúdo + pitch (racional)
 
@@ -51,8 +46,7 @@ para ~22h30, conforme o catálogo (auditoria da imersão).
 | depois | ~40 | Conteúdo leve (P16) e P&R |
 | ~21:30 a 22:30 | 10 | Encerramento do dia 2 ("decida hoje e durma tranquilo") |
 
-A planilha modelo põe o pitch às 18h28 depois de uma pré-pitch longa; a aula do pitch (transcrita hoje) diz que o histórico que
-funciona é por volta de 16h30 a 17h e no máximo 18h, colado num lanche longo. A grade acima segue a aula.
+O modelo de referência põe o pitch às 18h28 depois de uma pré-pitch longa; o que funciona historicamente é por volta de 16h30 a 17h e no máximo 18h, colado num lanche longo. A grade acima segue isso.
 
 ## 3. Dia 3: conteúdo + re-pitch (emocional) + downsell
 
@@ -77,7 +71,7 @@ funciona é por volta de 16h30 a 17h e no máximo 18h, colado num lanche longo. 
 
 ## 4. Princípios da grade
 
-- Dia 1 valor puro; dia 2 racional (pré-pitch + pitch); dia 3 emocional (vídeos, decisões, re-pitch). Abas antigas do FHT
+- Dia 1 valor puro; dia 2 racional (pré-pitch + pitch); dia 3 emocional (vídeos, decisões, re-pitch). Modelos antigos
   chamavam assim: "pitch racional" e "pitch emocional".
 - Palestrantes em **blocos grandes** (um palestrante segura 4 a 6 h seguidas; menos tempo útil perdido no backstage).
 - Exercício, P&R ou feedback relâmpago entre blocos; P&R é o "coringa" para ajustar o tempo.
@@ -88,7 +82,7 @@ funciona é por volta de 16h30 a 17h e no máximo 18h, colado num lanche longo. 
 
 ## 5. Adaptações
 
-**IMA de 2 dias** (lógica de blocos da trilha 22): dia 1 manhã = bloco de abertura padrão (talk de entrada, conteúdo,
+**IMA de 2 dias** (lógica de blocos): dia 1 manhã = bloco de abertura padrão (talk de entrada, conteúdo,
 seeding); dia 1 tarde = conteúdo, pré-pitch, pitch, pausa de vendas; dia 2 manhã = talk de entrada + re-pitch (repeat com as
 objeções da véspera) + pausa de vendas mais curta no meio da manhã; dia 2 tarde = conteúdo, downsell, encerramento.
 (Adaptação do squad; marcar no plano.)

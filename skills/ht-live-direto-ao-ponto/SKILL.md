@@ -1,6 +1,6 @@
 ---
 name: ht-live-direto-ao-ponto
-description: 'Monta a Semente High Ticket (SHT) no formato LDP, a live direto ao ponto do método FHT do Squad High Ticket, com o funil inteiro pronto. Checa prontidão (oferta validada em 1a1 e demanda reprimida), calcula meta de vagas, inscritos e presentes, escolhe narrativa (herói relutante ou oferta indecente) e CTA (aplicação grátis, aplicação paga ou entrada direta), escreve convites, criativo, página, pesquisa, lembretes, roteiro bloco a bloco com as 4 objeções, formulário de aplicação, recuperação pós-live e auditoria. Use quando o estrategista disser "vamos fazer uma live direto ao ponto", "semente HT do expert", "SHT", "LDP", "live de venda para a lista", "colher a lista depois do lançamento". NÃO usar para LCO (live de conteúdo e oferta, fora do material), aula semanal, webinário recorrente, renovação, nem lançamento pago semanal/5+1 (método LPSG da Turbo).'
+description: 'Monta a Semente High Ticket no formato LDP (live direto ao ponto) com o funil pronto: prontidão, metas, narrativa, CTA, convites, página, roteiro com 4 objeções e recuperação. Use com "live direto ao ponto", "semente HT", "LDP". NÃO usar para aula semanal, webinário ou renovação.'
 ---
 
 # Live Direto ao Ponto (Semente High Ticket, formato LDP)
@@ -8,8 +8,8 @@ description: 'Monta a Semente High Ticket (SHT) no formato LDP, a live direto ao
 ## 1. Para que serve e o que entrega
 
 A LDP é uma live de 1 a 4 horas em que o expert convida a própria lista para uma **oferta declarada**: não tem aula, o conteúdo
-é a apresentação do programa, do preço e do caminho para entrar. A aula a coloca entre as campanhas de maior retorno sobre investimento do
-FHT (simples, pouco ou nenhum investimento), e o pós-live alimenta a sessão 1a1 com lista qualificada.
+é a apresentação do programa, do preço e do caminho para entrar. O método a coloca entre as campanhas de maior retorno sobre investimento
+(simples, pouco ou nenhum investimento), e o pós-live alimenta a sessão 1a1 com lista qualificada.
 
 **Entrega**: a pasta do evento `05-eventos/AAAA-MM-ldp-<nome>/` com o **Pacote LDP**, em markdown:
 1. `plano.md`: prontidão, ativos, data, metas (vagas, presentes, inscritos), narrativa, CTA, orçamento, linha "Assumi".
@@ -39,11 +39,11 @@ FHT (simples, pouco ou nenhum investimento), e o pós-live alimenta a sessão 1a
    plano, o portão é o dia 25). O mesmo dia vale no Diretor, no `ht-gestor-projetos` e no `ht-estrategista-eventos`; mudou a data
    da live, o portão anda junto. Resultado registrado em `plano.md`: go, go condicional (com o "posso seguir?" respondido) ou no-go.
    Os dois critérios são obrigatórios; falhou um, parar e devolver ao Diretor:
-   - Oferta **validada**: a exigência da aula é já ter vendido esta oferta (sem venda, a oferta tende a sair confusa no pitch
+   - Oferta **validada**: a exigência do método é já ter vendido esta oferta (sem venda, a oferta tende a sair confusa no pitch
      e a lista se queima). O protocolo considera validada a oferta testada em 20 sessões com 10% a 20% de conversão; com
      vendas mas menos de 20 sessões, registrar o número, tratar como go condicional e dizer isso em linguagem simples no "Assumi".
    - **Demanda reprimida**: lista de clientes, alunos, ex-clientes, e-mail, WhatsApp, newsletter ou audiência que já conhece o
-     expert. Referência da aula: 300 pessoas já serviram. Sem demanda reprimida o formato certo é a LCO, que não está no
+     expert. Referência: 300 pessoas já serviram. Sem demanda reprimida o formato certo é a LCO, que não está no
      material: registrar a lacuna e propor outro canal (`ht-decisao-de-evento`).
    - Sinais de formato errado: pedir LDP para renovação (renovação é consultiva, 1a1); misturar com a aula semanal (fazer a
      LDP no lugar da aula, usar o grupo ou a página da aula como os da LDP, ou ofertar dentro da aula). **Convidar** para a LDP a
@@ -53,12 +53,12 @@ FHT (simples, pouco ou nenhum investimento), e o pós-live alimenta a sessão 1a
 3. **Data**: quinta às 19h ou 20h como padrão, ajustando ao nicho (o dia em que o avatar não trabalha ou não viaja), fora de
    feriado, Carnaval e recesso de fim de ano (`ht-protocolo` §3.6; data deslocada: propor a nova data e pedir o OK simples, por ser data pública). Não no mesmo dia e
    horário da aula semanal. Captação
-   de 10 a 11 dias (segunda de uma semana até quinta da seguinte); a equipe da aula já fez com 3 e com 15 dias, e 10 a 11 é o
+   de 10 a 11 dias (segunda de uma semana até quinta da seguinte); há casos de referência com 3 e com 15 dias, e 10 a 11 é o
    ponto ótimo. Live de 1 a 4 horas. Ação própria: lista, grupo e página separados da aula semanal.
 4. **Metas** (de trás para frente; calculadora em `references/metas-cronograma-ldp.md`):
-   meta de vendas = **número de vagas reais**; presentes = vendas ÷ conversão (planejar 2% a 3%; faixa da aula 2% a 5%);
-   inscritos = presentes ÷ comparecimento (20% a 30%). Exemplo da aula: 1 venda ≈ 37 presentes ≈ 150 inscritos.
-5. **Promessa**: framework da aula (oferta, não conteúdo), 7 elementos: data e hora, "live direto ao ponto para apresentar" + nome do programa, acompanhamento individual, definição de
+   meta de vendas = **número de vagas reais**; presentes = vendas ÷ conversão (planejar 2% a 3%; faixa de referência 2% a 5%);
+   inscritos = presentes ÷ comparecimento (20% a 30%). Exemplo de referência: 1 venda ≈ 37 presentes ≈ 150 inscritos.
+5. **Promessa**: framework do método (oferta, não conteúdo), 7 elementos: data e hora, "live direto ao ponto para apresentar" + nome do programa, acompanhamento individual, definição de
    resultado do AR, vagas limitadas, chance de aplicar ou condição especial, sem gravação e sem replay.
 6. **Narrativa** (uma só para convite, criativo, página e live): herói relutante é o padrão e vale na dúvida; oferta indecente só
    se a audiência já conhece o programa e existe uma janela real (turma nova, vagas remanescentes, condição que de fato nunca
@@ -111,7 +111,7 @@ FHT (simples, pouco ou nenhum investimento), e o pós-live alimenta a sessão 1a
   lançamento clássico do produto principal.
 - Padrões que se aplicam (a pessoa pode mudar em `padroes` do perfil): preço do HT vem de 02-oferta (5x a 10x a média do
   nicho); dupla +50% se a oferta tiver dupla; se o CTA levar a sessão de avaliação, a sessão usa o acordo do sim ou não, sem a
-  metáfora "em cima do muro"; planejar 25% de comparecimento para evento gratuito, dentro da faixa da aula de 20% a 30%.
+  metáfora "em cima do muro"; planejar 25% de comparecimento para evento gratuito, dentro da faixa de referência de 20% a 30%.
 
 ## 5. O que a skill decide e lista em "Assumi"
 
@@ -119,7 +119,7 @@ Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em 
 - **Caminho do CTA**: padrão = aplicação com avaliação, gratuita (mais aplicações, menos qualificadas; a lista pequena
   pede isso). Aplicação paga (filtra, precisa de lista grande) e entrada direta (fecha mais rápido, sem filtro, exige oferta já
   muito clara) só se a lista ou a oferta pedir; a escolha vai em "Assumi".
-- **Valor da aplicação ou entrada**, se `02-oferta/` não definir: propor pelo padrão (faixa citada na aula: R$ 500 a R$ 2.000) e listar em "Assumi".
+- **Valor da aplicação ou entrada**, se `02-oferta/` não definir: propor pelo padrão (faixa de referência: R$ 500 a R$ 2.000) e listar em "Assumi".
 - **Número de vagas** (escassez real versus capacidade de entrega): usar a capacidade da oferta.
 - **Narrativa**, quando o expert já vendeu o programa (herói relutante ou oferta indecente): usar a que o método recomenda para o caso.
 - **Verba de tráfego** e **condição especial** (bônus, preço) da live: verba pede o OK simples ("posso seguir?"); preço e bônus só com nova versão de `02-oferta/`.
@@ -133,10 +133,10 @@ taxas usadas; [ ] promessa com todos os elementos do passo 5; [ ] uma narrativa 
 (versão); [ ] todas as peças da lista do item 1 escritas e em revisão; [ ] 4 objeções eleitas com resposta; [ ] cronograma
 com dono e prazo; [ ] plano de recuperação com planilha; [ ] "Assumi" escrito em linguagem simples, com o "posso seguir?" da aprovação da vez.
 
-**Auditoria** (rodar `references/pos-live-e-auditoria-ldp.md`, seção 3; os erros típicos da aula): formato certo; oferta
+**Auditoria** (rodar `references/pos-live-e-auditoria-ldp.md`, seção 3; os erros típicos do método): formato certo; oferta
 validada; promessa de oferta (não de conteúdo); escassez real; aprovação real; modo de aplicação fixo; cadastro curto e sem
 obrigado; link repetido; live segurada; sem microfone aberto; sem replay; não misturada com a aula semanal; copy do expert
-adaptada (não copiar modelo nem copy de outro expert ao pé da letra); números de aula marcados como referência.
+adaptada (não copiar modelo nem copy de outro expert ao pé da letra); números de referência marcados como tal.
 
 ## 7. Saída e handoff
 
@@ -152,20 +152,11 @@ adaptada (não copiar modelo nem copy de outro expert ao pé da letra); números
 
 `ht-palestras-e-pitch` (se quiser aprofundar oferta e objeções do roteiro), `ht-objecoes` (árvore), `ht-captacao-e-presenca`
 (grupo, lembretes, WhatsApp), `ht-criativos-high-ticket` e `ht-trafego-high-ticket`; `hook-generator` e `avoid-ai-writing` ou
-`humanizer` na copy; `pagina-design-premium` ou `designer-senior-turbo` e `publicar-pagina-cloudflare` para a página;
+`humanizer` na copy; `pagina-design-premium` ou `designer-senior` e `publicar-pagina-cloudflare` para a página;
 `conectar-whatsapp-oficial` e `automacao-fluxos` para grupo e lembretes; `email-marketing-mautic` para os 2 e-mails;
-`meta-ads-cli-turbo` ou a ferramenta de tráfego do perfil (`trafego.ferramenta`) para a campanha; `ad-creative-video` ou `capcut-edit` para o vídeo do convite;
+`meta-ads-cli` ou a ferramenta de tráfego do perfil (`trafego.ferramenta`) para a campanha; `ad-creative-video` ou `capcut-edit` para o vídeo do convite;
 `anthropic-skills:xlsx` para a planilha de recuperação.
 
-## 9. Fontes e lacunas
+## 9. Lacunas (não inventar)
 
-**Fontes**: trilha 16 (Bootcamp de SHT formato LDP, 3h09, transcrição lida por inteiro na revisão R6 de 23/11/2026) e seu
-RESUMO; catálogo, entradas
-fht-sht-planejar, fht-sht-promessa-narrativa-e-cta, fht-sht-convites-e-captacao, fht-sht-roteiro-da-live, fht-sht-auditoria,
-fht-recuperacao-pos-evento, fht-semente-de-ingresso (partes C, H, I); trilha 17, aula 53 (recuperação de vendas pós-imersão,
-usada como adaptação na recuperação, marcado na referência).
-
-**Lacunas**: textos dos lembretes e a versão de WhatsApp das narrativas não foram ditados (ficaram no documento de apoio da
-aula, sem link); os modelos de lembrete nesta skill são rascunhos do squad seguindo a cadência da aula. A LCO (variante sem
-demanda reprimida) não está no material. Duração de cada bloco do roteiro não foi dada. Conta de datas do cronograma da aula
-tem ruído de legenda. Valores dos casos (inclusive o de ~R$ 232 mil) são referência a conferir.
+Os textos dos lembretes e a versão de WhatsApp das narrativas são rascunhos do squad seguindo a cadência do método. A LCO (variante sem demanda reprimida) não faz parte desta skill. A duração de cada bloco do roteiro é estimativa. Valores dos casos (inclusive o de ~R$ 232 mil) são referência a conferir.

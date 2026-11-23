@@ -1,8 +1,6 @@
 # Onboarding da turma
 
-Fonte: trilha 22, onboardings de jul/2026 RJ (01), jun/2026 SP (14), mai/2026 (72), abr/2026 (86), jan/2026 RJ (114), dez/2025
-(137), mai/2025 (153), mar/2025 (166) e jan/2025 (182), todos lidos na revisão R8, e desafio de imersão fev/2026 (28, lido pelo
-escritor); partes E, F e G. Roteiro parafraseado, ~45 a 75 min.
+Roteiro parafraseado, ~45 a 75 min.
 
 ## 1. Roteiro
 1. **Abertura e energia** (5 min): boas-vindas; "quem tem urgência de [ação-alvo]? digite eu".
@@ -41,7 +39,7 @@ Boas-vindas; link da central (fixado); agenda; primeira tarefa com prazo; canal 
 ## 4. Perguntas frequentes vistas no onboarding
 - Dá para começar sem diagnóstico? Sim, as duas coisas correm juntas.
 - Tenho várias ideias de produto: escolher uma e focar; reunião estratégica para decidir.
-- Posso usar outro e-mail nas planilhas? Pode, mas o formulário de tarefa usa sempre o mesmo e-mail da mentoria.
+- Posso usar outro e-mail nas planilhas? Pode, mas o formulário de tarefa usa sempre o mesmo e-mail do programa.
 - Venda por Pix vale como resultado? Sim, com prova de entrada do dinheiro.
 - Posso pedir para alguém do meu time fazer tarefas (ex.: quem cuida do Instagram)? Pode; a cadeira e a responsabilidade são do
   aluno, e é ele quem envia a tarefa.

@@ -1,13 +1,13 @@
 # Planilha de avaliação e mensagens de alerta
 
-## 1. Colunas (aula 5), uma aba por tipo de reunião
+## 1. Colunas, uma aba por tipo de reunião
 Nome da reunião · Data · Duração · Participantes · Link da transcrição · Nota geral · Resumo · [Etapa 1] status · [Etapa 1]
 observação · [Etapa 2] status · [Etapa 2] observação · ... (todas as etapas do prompt) · Revisada por humano? · Nota humana ·
 Ação (refazer, feedback, ok) · Responsável.
 As quatro últimas são acréscimo do squad para calibração e acompanhamento.
 Casamento do "Append or Update": coluna Nome da reunião (por isso o padrão de nome no calendário).
 
-## 2. Mensagens (montadas na aula 6; texto final revisado; envio só com OK do estrategista)
+## 2. Mensagens (texto final revisado, envio só com OK do estrategista)
 Erro do fluxo:
 ```
 ATENÇÃO: erro no fluxo de avaliação.

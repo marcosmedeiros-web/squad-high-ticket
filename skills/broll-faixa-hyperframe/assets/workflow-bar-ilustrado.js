@@ -13,9 +13,9 @@ const N=130, BATCH=4, batches=[]
 for(let i=0;i<N;i+=BATCH){const g=[];for(let j=i;j<Math.min(i+BATCH,N);j++)g.push(j);batches.push(g)}
 log(`desenhando ${N} barras em ${batches.length} lotes`)
 
-const BRIEF=`Você é motion designer. Vai criar b-rolls Hyperframe de BARRA HORIZONTAL (1080x844) que vão preencher a faixa preta de baixo de uma VSL. Cada barra ILUSTRA o que o {{DONO}} fala naquele trecho.
+const BRIEF=`Você é motion designer. Vai criar b-rolls Hyperframe de BARRA HORIZONTAL (1080x844) que vão preencher a faixa preta de baixo de uma VSL. Cada barra ILUSTRA o que o apresentador fala naquele trecho.
 
-## O MAIS IMPORTANTE (o chefe ODIOU a versao anterior que so queimava a frase)
+## O MAIS IMPORTANTE (versao que so queima a frase e reprovada)
 - NUNCA escreva a frase falada inteira como legenda. PROIBIDO.
 - Em vez disso: ENTENDA a ideia da fala e crie um b-roll com KICKER curto (label de acento) + HEADLINE PUNCHY (resuma a ideia em 3-7 palavras, CAIXA ALTA) + ELEMENTOS VISUAIS que ILUSTRAM: numero contando, barra crescendo/encolhendo, icones, comparacao lado a lado, carimbo (back.out), seta, checklist, gauge. Igual aos b-rolls de um VSL profissional.
 - Ex: fala "demitiu 4 mil pessoas" -> headline "−4.000 POSTOS" + numero gigante contando + barra de equipe encolhendo. Fala "agente atende 24h" -> headline "ATENDE 24H SEM PARAR" + icones de canais + relogio. Use a fala SO como inspiracao do conceito.

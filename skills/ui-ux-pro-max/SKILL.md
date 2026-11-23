@@ -1,6 +1,6 @@
 ---
 name: ui-ux-pro-max
-description: "UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product types, 99 UX guidelines, and 25 chart types across 10 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, and HTML/CSS). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, and check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, and mobile app. Elements: button, modal, navbar, sidebar, card, table, form, and chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, and flat design. Topics: color systems, accessibility, animation, layout, typography, font pairing, spacing, interaction states, shadow, and gradient. Integrations: shadcn/ui MCP for component search and examples."
+description: 'UI/UX design intelligence for web and mobile: styles, palettes, font pairings, UX rules by priority, charts and stack guidelines. Use for "review this UI", "choose style and palette", "improve UX", "check accessibility", "build a dashboard". NÃO usar para copy nem para publicar a página.'
 ---
 
 # UI/UX Pro Max - Design Intelligence
@@ -301,34 +301,13 @@ This Skill is not needed in the following situations:
 
 ## How to Use
 
-Search specific domains using the CLI tool below.
+The rules above (Quick Reference) and the checklists below are enough to apply this skill. The searchable database
+(`scripts/search.py` + data files) is optional and does not ship with this package: if it exists in
+`skills/ui-ux-pro-max/scripts/`, use the CLI commands below; if not, skip every `search.py` step and apply the Quick Reference,
+Common Rules and Pre-Delivery Checklist directly, saying so in one line ("Assumi: sem o banco de busca, apliquei as regras da skill").
 
----
-
-## Prerequisites
-
-Check if Python is installed:
-
-```bash
-python3 --version || python --version
-```
-
-If Python is not installed, install it based on user's OS:
-
-**macOS:**
-```bash
-brew install python3
-```
-
-**Ubuntu/Debian:**
-```bash
-sudo apt update && sudo apt install python3
-```
-
-**Windows:**
-```powershell
-winget install Python.Python.3.12
-```
+The CLI needs Python 3. Check with `python3 --version`; if missing, ask for OK and install it (macOS `brew install python3`,
+Ubuntu/Debian `sudo apt install python3`, Windows `winget install Python.Python.3.12`), saying what will be installed.
 
 ---
 

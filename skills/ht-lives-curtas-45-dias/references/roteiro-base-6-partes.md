@@ -1,8 +1,6 @@
 # Roteiro-base das lives curtas (6 partes)
 
-Legenda: **[FHT]** = está no slide da palestra de alunos do Dia 2 do Encontro FHT (nov/2025); **[proposta da skill]** = criado aqui.
-
-## 1. As 6 partes [FHT]
+## 1. As 6 partes
 1. Abertura com impacto emocional.
 2. Storytelling breve ou metáfora emocional.
 3. Entrega de valor (explicação prática e emocional).
@@ -10,9 +8,9 @@ Legenda: **[FHT]** = está no slide da palestra de alunos do Dia 2 do Encontro F
 5. Reforço.
 6. Encerramento com CTA suave emocional e uma ação reflexiva.
 
-O roteiro-base foi feito em formato de prompt, para a IA ajudar o expert a montar cada live. A live tem de 10 a 15 minutos. [FHT]
+O roteiro-base foi feito em formato de prompt, para a IA ajudar o expert a montar cada live. A live tem de 10 a 15 minutos.
 
-## 2. Tempo de referência para 12 minutos [proposta da skill; o slide não dá tempos]
+## 2. Tempo de referência para 12 minutos
 | Parte | Tempo | O que precisa sair dela |
 |---|---|---|
 | 1. Abertura | 0:00-1:00 | a dor ou desejo do tema dito como o avatar sente, numa frase; promessa do que a pessoa leva hoje |
@@ -22,14 +20,14 @@ O roteiro-base foi feito em formato de prompt, para a IA ajudar o expert a monta
 | 5. Reforço | 9:30-11:00 | retomar a ideia central em uma frase e responder a uma objeção do tema |
 | 6. CTA suave + ação reflexiva | 11:00-12:00 | uma pergunta para a pessoa pensar ou fazer hoje, e o convite para o destino do plano |
 
-## 3. Molde de CTA suave com destino [proposta da skill]
-O slide pede CTA suave e emocional; a regra do FHT (Live 026) pede que todo conteúdo termine ligado a um funil HT. Molde que atende às duas:
+## 3. Molde de CTA suave com destino
+O método pede CTA suave e emocional; a regra do método pede que todo conteúdo termine ligado a um funil HT. Molde que atende às duas:
 - Ação reflexiva: "Hoje, antes de dormir, [pequena ação ligada ao tema]."
 - Convite: "Se isso faz sentido para você, [destino: amanhã às [hora] tem mais uma aqui / toda [dia] às [hora] tem a aula completa /
   me manda [palavra] no direct que a gente conversa]."
 O destino de cada fase é o que o estrategista aprovou no `plano-temporada.md`.
 
-## 4. Prompt para montar cada live [proposta da skill]
+## 4. Prompt para montar cada live
 ```
 Monte o roteiro de uma live curta de 12 minutos de [expert] para [avatar].
 Tema: [tema da tabela]. Pilar: [pilar]. Âncora: [frase do avatar].
@@ -42,7 +40,7 @@ Não invente caso nem número. Se precisar de exemplo, marque [EXEMPLO A CONFIRM
 Devolva em tópicos de fala (não texto corrido para ler), com o tempo de cada parte.
 ```
 
-## 5. Checklist da live [proposta da skill]
+## 5. Checklist da live
 - [ ] Cabe em 10 a 15 minutos lido em voz alta.
 - [ ] Uma ideia só.
 - [ ] Seeding cita o programa sem ofertar.

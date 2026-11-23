@@ -1,6 +1,6 @@
 ---
 name: lower-thirds
-description: Lower third animado (tarja de nome e cargo) com entrada/saída, tempo de permanência, zona segura de broadcast e hierarquia nome-vs-função; templata um design pra muitos nomes. Use para — tarja com o nome, lower third, crédito na tela, identificação do convidado, nome do palestrante na aula. Serve pras aulas do 5+1 e pra depoimento gravado.
+description: 'Lower third animado (tarja de nome e cargo) com entrada/saída, permanência, zona segura de broadcast e um design templatado para muitos nomes. Use para "tarja com o nome", "lower third", "crédito na tela", "nome do palestrante", "identificação do convidado". NÃO usar para legenda da fala (caption-animation).'
 version: 0.1.0
 ---
 

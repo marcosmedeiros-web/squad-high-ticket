@@ -1,6 +1,6 @@
 ---
 name: ht-agendamento-e-follow-up
-description: 'Squad High Ticket / método FHT. Cuida do caminho entre o "sim" do lead e a decisão final: aplicação (gratuita ou paga) e seleção, primeiro contato em minutos, agendamento com 2 horários e sessão em até 2 dias, formalização, cadência de lembretes com confirmação afirmativa, no-show e reagendamento, follow-up de quem não fechou (retorno combinado, ligação, negociação com piso, encerramento gentil) e repescagem em 1 mês, com métricas de comparecimento. Use quando o estrategista disser "muito no-show", "como confirmo a sessão", "o lead sumiu depois da call", "monta a cadência de lembretes", "formulário de aplicação", "reativa os leads antigos". Produz RASCUNHO para o estrategista aprovar; não envia, não liga, não agenda. NÃO usar para recuperação de carrinho de lançamento LPSG (Turbo), abordagem até o sim (ht-slg) ou condução da call (ht-roteiro-sessao-1a1).'
+description: 'Cuida do caminho entre o "sim" do lead e a decisão: aplicação e seleção, agendamento com 2 horários, lembretes com confirmação afirmativa, no-show, follow-up e repescagem em 1 mês. Use para "muito no-show", "como confirmo a sessão", "o lead sumiu depois da call", "reativa os leads antigos". Gera RASCUNHO. NÃO usar para abordagem até o sim (ht-slg) nem condução da call (ht-roteiro-sessao-1a1).'
 ---
 
 # Agendamento, lembretes, no-show e follow-up da sessão 1a1
@@ -50,7 +50,7 @@ realização) → venda → follow-up. Modelo em `references/planilha-de-control
 
 **Passo 2. Aplicação e seleção, se o projeto usar** (`references/aplicacao-e-selecao.md`). Ficha curta e com propósito;
 aplicação paga como filtro reembolsável; ao pagar, agendamento imediato; critérios de sim, dúvida e não; devolução e motivo a
-quem é reprovado. Só chamar de "aplicação" se a seleção for real. Valor: decisão do estrategista (seção 5).
+quem é reprovado. Só chamar de "aplicação" se a seleção for real. Valor: o agente assume o padrão (seção 5).
 
 **Passo 3. Primeiro contato em minutos** (`references/agendamento-e-lembretes.md`, seção 1). Chamar o lead logo que ele disse
 sim ou se inscreveu (referência de palestra: ligação em até 30 minutos). Número com foto de pessoa real, mensagem curta, sem
@@ -93,8 +93,8 @@ agendamentos (conferir).
 
 ## 4. Regras inegociáveis do método
 
-- Velocidade: lead quente esfria em horas; contato em minutos, sessão em até 2 dias (decisão 17).
-- 2 horários oferecidos, não "qual horário fica bom pra você?" aberto (decisão 17).
+- Velocidade: lead quente esfria em horas; contato em minutos, sessão em até 2 dias (padrão do método).
+- 2 horários oferecidos, não "qual horário fica bom pra você?" aberto (padrão do método).
 - Confirmação afirmativa, nunca pergunta que abre espaço para cancelar.
 - Vender a sessão, não o atendente; nunca prometer o expert e entregar outra pessoa.
 - Mensagem curta, humana, de número com foto de pessoa; nada de texto de varejo, emoji em excesso ou link cru na abertura.
@@ -109,16 +109,15 @@ agendamentos (conferir).
 - WhatsApp nunca em massa; nenhuma mensagem automática a lead liga sem OK do estrategista (protocolo, regra 2).
 - SDR e Closer produzem rascunho: a skill não envia, não liga e não marca na agenda de ninguém.
 
-## 5. Quando a decisão é do estrategista
+## 5. Padrões assumidos (o agente decide e lista em "Assumi: … (é só pedir para mudar)")
 
-Formato do protocolo (decisão numerada, a/b/c, prós, contras, custo em uma linha; recomendação na a).
-- **Aplicação antes da sessão:** a) sessão gratuita sem aplicação (padrão do canal 1a1 no começo; mais volume, mais falta);
-  b) aplicação gratuita com ficha (filtra sem barreira de pagamento); c) aplicação paga reembolsável (referência de aula R$ 500
-  a R$ 2.000; a FHT usa R$ 2.000; filtra e compromete, reduz volume). O valor, se houver, entra em `02-oferta`.
+- **Aplicação antes da sessão:** padrão = sessão gratuita sem aplicação (canal 1a1 no começo; mais volume, mais falta). Alternativas:
+  aplicação gratuita com ficha (filtra sem barreira de pagamento) ou aplicação paga reembolsável (referência do método R$ 500
+  a R$ 2.000; o método usa R$ 2.000; filtra e compromete, reduz volume). O valor, se houver, entra em `02-oferta`.
 - **Quem agenda e faz o follow-up:** expert, SDR do expert ou secretária (custo e qualidade do primeiro contato).
 - **Ligar automação de lembretes** e por qual canal (WhatsApp oficial, e-mail), com quais textos.
 - **Ferramenta de agenda:** agendamento manual com 2 horários (padrão do método) x link de calendário com lógica condicional.
-- **Técnicas de abertura de caso** (ex.: a sequência "só o nome, áudio mudo, depois me fala" citada em live): usar ou não.
+- **Técnicas de abertura de caso** (ex.: a sequência "só o nome, áudio mudo, depois me fala" citada em conteúdo do método): usar ou não.
 - **Condição da repescagem e piso de negociação:** mexem em preço, logo saem de `02-oferta` com OK do estrategista.
 - **Política de reagendamento** (quantas vezes) e quando encerrar um lead.
 
@@ -157,27 +156,11 @@ reprovado sem motivo ou sem devolução; automação de lembrete ligada sem OK.
 - Texto: `avoid-ai-writing`, `humanizer`, `voice-builder`.
 - Automação (só com OK do estrategista): `automacao-fluxos`, `conectar-whatsapp-oficial`, `email-marketing-mautic`.
 - Planilha de controle: `anthropic-skills:xlsx`.
-- Análise de gravação para follow-up: `watch`, `transcrever-youtube-turbo` (só arquivos do projeto; dado de lead fica na pasta).
+- Análise de gravação para follow-up: `watch`, `transcrever-youtube` (só arquivos do projeto; dado de lead fica na pasta).
 
-## 9. Fontes e lacunas
+## 9. Limites (não inventar)
 
-**Fontes:** trilha 09 (RESUMOs vendas por sessão 1a1 e apresentação de oferta: etapas do canal, acordo e "já saímos agendando");
-trilha 11 (quebra de objeções: 3 passos, universais); rota 3, resumo 05 (4 etapas do canal); desafios da trilha 22 (jan/2026
-plantão 132: agendar em 2 dias, só o período, duas opções, confirmação afirmativa, no-show, break estratégico; mai/2025 plantões
-161, 163, 164: confirmação no dia, 1 a 3 dias, no-show, reativação, follow-up amarrado em data, fechar na hora; dez/2025 aula 147:
-WhatsApp como micro-compromisso, lead difícil de agendar; jun/2026 SP aula 26: follow-up no dia seguinte, PDF do Raio-X,
-negociação com piso; abr/2026 laboratório de SLG: horários por período, câmera aberta; jul/2026 RJ); lives FHT 038, 043, 054 e
-palestras do encontro jun/2026 (micro-etapas do funil comercial, notificação de curiosidade, formalização, aplicação de R$ 2.000,
-ligação em até 30 minutos, encaminhamento condicional); partes C, D, E, F, G, H, I; catálogo (fht-agendamento-e-no-show,
-fht-follow-up-pos-sessao, fht-aplicacao-paga-e-selecao); padrões do squad (sinal de R$ 500 a R$ 1.000 na sessão; conversão de
-referência de 10% a 20%; mínimo de 20 sessões; 2 horários e sessão em até 2 dias).
-
-**Lacunas (não inventar):** o "Guia de Follow Up Pós execução de Sessão 1A1" e o "Checklist Guia de Condução" da FHT não têm
-conteúdo nos arquivos; números de aula com ruído (cerca de 14 follow-ups até marcar; 3 ligações ≈ +60% de chance de atender;
-~20% atendem; 90% somem sem aplicação paga; ~12 agendamentos para avaliar processo) ficam como "conferir"; não há regra oficial
-de quantas vezes reagendar nem de intervalo exato entre toques de follow-up além de "~1 semana" e "1 mês"; fontes divergem
-entre 1 a 3 dias e até 2 dias para a sessão (vale a decisão 17) e entre 2 e 3 horários oferecidos (vale a decisão 17: 2; o
-laboratório de SLG de abr/2026 chama 3, um por período, de "melhor dos mundos"); a mensagem antes da sessão foi elogiada no
-laboratório de abr/2026 em forma de pergunta ("tá tudo certo pra gente conversar às 14h?"), enquanto o plantão de jan/2026 (aula
-132, conferido) manda afirmar ("só passando pra dizer que já está tudo certo"): a skill segue a forma afirmativa; a
-aula 150 do desafio de dez/2025 ("Como potencializar leads para a sessão") não tem legenda.
+Não há regra oficial de quantas vezes reagendar nem de intervalo exato entre toques de follow-up além de
+"~1 semana" e "1 mês"; números de referência com ruído (cerca de 14 follow-ups até marcar; 3 ligações ≈ +60% de chance de atender;
+~20% atendem; 90% somem sem aplicação paga) ficam como "conferir"; sessão em até 2 dias e 2 horários oferecidos valem como padrão do
+método; a mensagem antes da sessão segue a forma afirmativa ("só passando pra dizer que já está tudo certo").

@@ -1,11 +1,7 @@
 # Moldes de roteiro por objetivo (para preencher com a ficha do expert)
 
-Os moldes abaixo são **estruturas** reconstruídas a partir dos exemplos das aulas, escritas com palavras nossas; `< >` é o que
+Os moldes abaixo são **estruturas** reconstruídas a partir dos exemplos de referência, escritas com palavras nossas; `< >` é o que
 vem da ficha de briefing e de `02-oferta/`. Nenhum número, caso ou vaga entra sem fonte. Tempos são referência.
-
-Fontes: trilha 13 `RESUMO-criativos.md` §3.12, §5.3, §5.4 e `RESUMO-trafego.md` §3.9, §5.1, §5.2; trilha 17 aula
-"Criativos" do bootcamp de copy de captação e `RESUMO-parte-B` §5.2-5.3 (via `parte-D`); trilha 14 Parte 2 da aula semanal
-(remarketing); Sala CoLab (minicurso); palestra de webinários (fev/2026).
 
 ## 1. Convite à sessão 1a1
 
@@ -49,7 +45,7 @@ Estrutura: frase de impacto (gancho) → dor → benefício específico → data
 - **Lote zero de ingresso**: fala só da oferta (lote exclusivo, "mais acessível", nunca "barato") e chama para o grupo.
 - **Perpétuo de ingresso (criativo raiz)**: tudo num vídeo simples (benefício, data, horário, onde, o que aprende); variações
   por dor, desejo, quebra de objeção, história pessoal e encenação.
-- Fidelidade: a fala "não vai ter venda" só se o evento não tiver pitch. Evento FHT com pitch: não prometer ausência de oferta.
+- Fidelidade: a fala "não vai ter venda" só se o evento não tiver pitch. Evento com pitch: não prometer ausência de oferta.
 
 ## 3. Aula semanal
 

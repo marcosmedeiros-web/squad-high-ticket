@@ -1,13 +1,13 @@
 ---
 name: ht-palestras-e-pitch
-description: 'Squad High Ticket / método FHT. Escreve e audita tudo que vai ao palco de um evento que vende HT (imersão, encontro, live longa, palestra de terceiros) - estrutura de palestra (4 critérios, 4 perguntas, Ajustes, Ação-segredo, Ação direta, 4 Es, 3 As), grade de palestras, talk de abertura e talks de entrada, seeding e pré-pitch, pitch P1 a P10 (venda direta ou para sessão de avaliação), repeat, re-pitch e palestra de decisões, palestra de mentalidade, downsell, encerramentos, laser coaching, mesa de fundo e break de vendas, ensaio de voz. Use quando o estrategista disser "escreve o pitch da imersão", "monta a talk de abertura", "faz a pré-pitch", "roteiro do re-pitch", "palestra de decisões", "downsell do fim do evento", "revisa os slides do pitch". NÃO usar para pitch de lançamento LPSG/5+1 (é da Turbo) nem para a sessão 1a1 (ht-roteiro-sessao-1a1).'
+description: 'Escreve e audita tudo que vai ao palco de um evento que vende HT: estrutura de palestra, talk de abertura, seeding e pré-pitch, pitch P1 a P10, repeat, re-pitch, palestra de decisões, downsell, laser coaching, break de vendas e ensaio de voz. Use para "escreve o pitch da imersão", "monta a talk de abertura", "faz a pré-pitch", "roteiro do re-pitch". NÃO usar para sessão 1a1 (ht-roteiro-sessao-1a1).'
 ---
 
 # Palestras e pitch (palco do evento de venda de HT)
 
 ## 1. Para que serve e o que entrega
 
-Transforma a oferta aprovada do expert em tudo o que é falado no palco de um evento que vende o HT, na ordem do método FHT:
+Transforma a oferta aprovada do expert em tudo o que é falado no palco de um evento que vende o HT, na ordem do método:
 cada palestra com função na venda, o seeding plantando os entregáveis, a pré-pitch que vende sem parecer venda, o pitch
 descritivo P1-P10, o pós-pitch que quebra objeções e os fechamentos. A venda começa na primeira palavra do evento.
 
@@ -23,7 +23,7 @@ descritivo P1-P10, o pós-pitch que quebra objeções e os fechamentos. A venda 
 
 ## 2. Antes de começar
 
-1. Carregar `ht-protocolo` (regras comuns, decisões vigentes, proibição de misturar LPSG).
+1. Carregar `ht-protocolo` (regras comuns, decisões vigentes).
 2. Ler em `experts/<slug>/ht/`:
    - `02-oferta/` (oferta vigente aprovada: nome, definição, pilares, entregáveis, duração, preço, entrada, parcelas, bônus,
      garantia, dupla). **Nenhum número de preço sai de outro lugar.**
@@ -61,7 +61,7 @@ Para cada uma: mapa mental com Roma → prova → procedência → conteúdo (um
 Mapa mental aprovado antes de qualquer slide. Detalhe: `references/estrutura-de-palestra.md`.
 
 ### Passo 4. Talk de abertura e talks de entrada
-Base: o white label oficial de 7 pontos (recepcionar, reforçar a promessa, por que esta imersão, alinhar expectativa, antecipar
+Base: o modelo oficial de 7 pontos (recepcionar, reforçar a promessa, por que esta imersão, alinhar expectativa, antecipar
 quem apresenta com o expert, antecipar a existência da mentoria, motivar com o "imagine"), escrito em bullets e falado com
 história (cerca de 35 min no presencial; cerca de 45 min no online). Roteiro expandido do dia 1 com prova primeiro, versão online
 com ciclo dos 4 Es, talk do dia 2 (insights, antecipação da tarde por causa do pitch) e do dia 3 ("meu time me disse", preparada
@@ -74,7 +74,7 @@ na reunião de objeções das 7h às 9h). Sem oferta, sem curso, sem networking.
    fechamento com a soma dos pilares). Tipo 2 (case de aluno) e Tipo 3 (quick money) só se o Tipo 1 não encaixar.
    Em cada entregável: "como faço com meus alunos" → "como você faz sozinho na sua casa"; sem "o que não é"; a história é a da
    descoberta da variável, não a biografia do expert.
-Referência: com pré-pitch o FHT foi de 7% para 14% de conversão (número de aula). Detalhe: `references/pre-pitch-e-seeding.md`.
+Referência: com pré-pitch o método foi de 7% para 14% de conversão. Detalhe: `references/pre-pitch-e-seeding.md`.
 
 ### Passo 6. Pitch P1 a P10
 P1 anunciação → P2 vídeo de case (opcional) e silêncio → P3 história de quem faz o pitch e procedência do método (obrigatórios,
@@ -123,21 +123,21 @@ Rodar a auditoria de palco (seção 6) e a do `references/voz-ensaio-e-auditoria
    "inscrição encerra no almoço": continua vendendo.
 8. Downsell nunca de graça; muito pitch no fim tira valor.
 9. Recusar venda só quando sincero; acordo e desapego sem a metáfora "em cima do muro" (padrão recomendado, quando a fala usar acordo).
-10. Nenhum número de aula vira número do expert; caso e depoimento só com evidência e autorização (ht-protocolo, regras 3 e 14).
-11. Proibido usar estrutura de aula/pitch do LPSG/5+1 (outro método, fora do escopo deste squad).
+10. Nenhum número de referência vira número do expert; caso e depoimento só com evidência e autorização (ht-protocolo, regras 3 e 14).
+11. Proibido usar estrutura de aula ou pitch de outro método (lançamento pago de evento): fora do escopo deste squad.
 
 ## 5. O que a skill decide e lista em "Assumi"
 
 Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em "Assumi: X, Y, Z (é só pedir para mudar)"; vira oficial na aprovação do plano.
 - **Variante de CTA do pitch**: padrão do presencial de 3 dias = venda direta com entrada no evento (mais caixa no evento, exige
-  mesa de fundo e financeiro); padrão do online de 1 dia para ticket alto = pitch para sessão de avaliação gratuita (FHT 2026; mais
+  mesa de fundo e financeiro); padrão do online de 1 dia para ticket alto = pitch para sessão de avaliação gratuita (mais
   sessões e quebra de objeção individual, exige time comercial na mesma semana); sessão de avaliação paga só quando há 150 a 200
   interessados e pouco time (com 30 a 40, não compensa). Escolher pelo formato do evento e listar em "Assumi".
 - **Valor da entrada/aplicação no evento** se 02-oferta não trouxer (propor pelo padrão e listar em "Assumi"; fontes divergem; na sessão 1a1 o padrão é sinal de R$ 500 a R$ 1.000, até 10%).
 - **Produto e preço do downsell**: propor pelo padrão e listar em "Assumi".
 - **Expor alunos no palco** (case de aluno, depoimento, nome e número): exige autorização registrada; sem ela, não usa.
 - **Garantia no pitch** além da garantia condicional de 02-oferta e qualquer bônus novo: só com nova versão de `02-oferta/`, que pede o OK simples na Aprovação 1.
-- Oferecer produto mais barato no mesmo evento para "não perder interessado": padrão = não (recomendação das fontes); negociar parcelas.
+- Oferecer produto mais barato no mesmo evento para "não perder interessado": padrão = não (recomendação do método); negociar parcelas.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -176,25 +176,13 @@ velada. Lista completa: `references/voz-ensaio-e-auditoria.md` seção 3.
 
 ## 8. Ferramentas de apoio (por nome)
 
-- Slides: `gerador-slides-turbo`, `slides-uipm-turbo`, `anthropic-skills:pptx`, `designer-senior-turbo`.
+- Slides: `gerador-slides`, `slides-uipm`, `anthropic-skills:pptx`, `designer-senior`.
 - Vídeo de case e abertura: `testimonial-video`, `hyperframes`, `remotion`, `countdown-video`, `lower-thirds`, `caption-animation`.
 - Texto: `avoid-ai-writing`, `humanizer`, `voice-builder` (voz escrita do expert).
-- Ensaio e engenharia reversa de pitch gravado: `watch`, `transcrever-youtube-turbo`.
-- Página da central da imersão com os botões do CTA: `designer-senior-turbo`, `publicar-pagina-cloudflare`.
+- Ensaio e engenharia reversa de pitch gravado: `watch`, `transcrever-youtube`.
+- Página da central da imersão com os botões do CTA: `designer-senior`, `publicar-pagina-cloudflare`.## 9. Limites (não inventar)
 
-## 9. Fontes e lacunas
-
-**Fontes:** trilha 18 (aula 11 Pitch e aula 19 GPS, transcritas em 22/11/2026; aulas 2, 4, 6, 8, 10, 14 e 15 lidas por inteiro
-na revisão de 23/11; aulas 7, 12, 13, 16, 17, 18; roteiros white
-label do Drive; planilha de cronograma); trilha 22 desafio imersão fev/2026 (aula 38 palestras e talk, 40 pré-pitch, 43 pitch;
-44 lab talk, 47 lab pré-pitch e 50 lab pitch lidas por inteiro em 23/11) e out/2025 (aulas 11, 13, 14, 18); Lives FHT 008, 028, 033, 036, 037, 045;
-encontros FHT nov/2025 (Puglia e Luiza; Lucas Martineli "Decisões"; Giovanna Rosler) e fev/2026 (Cida Stier; Felipe Vasconcelos);
-catálogo seção 5.2 e partes D, G, I.
-
-**Lacunas:** (1) voz e prosódia: só conceito nos slides da Cida Stier; o checklist de ensaio é compilado das aulas de pitch, não
-é método de fonoaudiologia. (2) Os PPTs, mapas mentais e o "criador de pré-pitch" citados nas aulas não estão no acervo; os
-roteiros daqui são reconstrução a partir das falas. (3) Aulas 49 e 50 da trilha 17 (pré-pitch e pitch) não foram relidas
-porque são outra transcrição das aulas 40 e 43 da trilha 22. (4) Números do FHT (7% → 14%, 1/3 das vendas no dia do pitch,
-cancelamento tipo 1, sessão paga a cerca de R$ 197, dois terços das vendas no dia 3) são referência a conferir. (5) Aulas de
-laboratório de pitch do out/2025 e o vídeo completo do pitch do Lucas não foram lidos na íntegra (os labs de fev/2026, 44, 47 e
-50, foram lidos inteiros na revisão). (6) O template do mapa mental do pitch prometido na aula 2 da trilha 18 não está no acervo.
+Voz e prosódia: só há conceito; o checklist de ensaio é compilado de orientações de pitch e não é método de fonoaudiologia (indicar
+profissional). Os PPTs, mapas mentais e o "criador de pré-pitch" não vêm no pacote: os roteiros são reconstrução. Números do método
+(7% → 14%, 1/3 das vendas no dia do pitch, cancelamento tipo 1, sessão paga a cerca de R$ 197, dois terços das vendas no dia 3) são
+referência a conferir.

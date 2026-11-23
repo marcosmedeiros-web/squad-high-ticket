@@ -20,13 +20,13 @@ Cada item diz o fato, a fonte (detalhe em `fontes.md`) e o que o pacote faz com 
 6. **"Visitas na página de pagamento" do pixel da Hotmart não é abandono.** (H4) É o InitiateCheckout dela.
 7. **O exemplo de compra da documentação não é JSON válido** (vírgula sobrando antes de `}`). A suíte usa o texto
    literal para provar a quarentena com 200, e uma cópia consertada para o resto. O mesmo exemplo traz
-   `"status": "STARTED"` dentro de um `PURCHASE_APPROVED`: o kit decide pelo nome do evento, não pelo status.
+   `"status": "STARTED"` dentro de um `PURCHASE_APPROVED`: o receptor decide pelo nome do evento, não pelo status.
 8. **Telefone.** Na compra, `checkout_phone` vem sem DDD quando `checkout_phone_code` existe; no abandono, `phone`
    vem com DDD; fora do Brasil o DDI vem junto. O 55 só entra quando o país é BR. (D1, D2; `normaliza.py`)
 9. **UTM não chega no webhook; `xcod` chega.** (H2) O snippet do site põe `xcod=<id da visita>` no link do
    checkout e a compra volta com `data.purchase.origin.xcod`.
 10. **A Hotmart tem pixel e API de Conversões próprios** (Web, API ou ambos). (H3, H4) Ela não publica o event_id
-    que usa. Se o pixel dela manda Purchase, o kit não manda (o perfil recusa `purchase_em_dobro`).
+    que usa. Se o pixel dela manda Purchase, o receptor não manda (o perfil recusa `purchase_em_dobro`).
 11. **Leitura da API (vigia):** o filtro de data do `sales/history` é pela data do PEDIDO, e sem
     `transaction_status` só voltam APPROVED e COMPLETE. O vigia lê uma janela 10 dias maior que a de comparação.
     Paginação que não fecha (total que muda, transação repetida, laço de token) é "não consegui medir", nunca

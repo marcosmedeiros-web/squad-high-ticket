@@ -1,6 +1,6 @@
 ---
 name: ht-raio-x
-description: 'Squad High Ticket / método FHT. Cria, aplica e audita o Questionário Raio-X da sessão 1a1 (5 a 7 áreas, 5 perguntas de 0 a 10 por área, planilha com radar atual x desejado), escreve a fala de aplicação na call, o tratamento de notas extremas e o mapa de consequências para a leitura do gráfico. Use quando o estrategista disser "cria o Raio-X do expert", "perguntas do diagnóstico da sessão", "monta a planilha do Raio-X", "como aplico o Raio-X na call", "como leio o gráfico", "revisa esse Raio-X", "o gráfico saiu torto". Entrega rascunho para o estrategista aprovar. NÃO usar para o diagnóstico de entrega do aluno (ht-entregaveis-1a1), para o roteiro inteiro da sessão (ht-roteiro-sessao-1a1) nem para lançamento pago semanal, 5+1 ou Funil 8 (método LPSG, fora do escopo deste squad).'
+description: 'Cria, aplica e audita o Questionário Raio-X da sessão 1a1 (5 a 7 áreas, notas de 0 a 10, radar atual x desejado), com fala de aplicação e mapa de consequências. Use com "cria o Raio-X", "leitura do gráfico", "audita o Raio-X". NÃO usar para o diagnóstico do aluno (ht-entregaveis-1a1) nem o roteiro completo da sessão.'
 ---
 
 # Raio-X da sessão 1a1
@@ -16,7 +16,7 @@ outra skill.
 **Entrega** (pasta `03-sessao/raio-x/`):
 1. `AAAA-MM-DD-raio-x-<nome-da-sessao>.md`: as áreas (nome de uma palavra ou duas), as 5 perguntas de cada área, a marca de
    pergunta invertida (se houver), a fonte de cada área na oferta (qual entregável resolve) e a versão curta de 5 áreas.
-2. `AAAA-MM-DD-raio-x-<nome-da-sessao>.xlsx`: planilha no modelo FHT (especificação em `references/planilha-raio-x.md`),
+2. `AAAA-MM-DD-raio-x-<nome-da-sessao>.xlsx`: planilha no modelo do método (especificação em `references/planilha-raio-x.md`),
    notas de exemplo zeradas, testada com notas baixas e altas.
 3. `AAAA-MM-DD-aplicacao-e-leitura.md`: fala de abertura do questionário, regras de notas extremas, mapa de consequências
    por área (lado fraco e lado forte), roteiro da leitura do gráfico e a pergunta de transição para o herói relutante.
@@ -24,7 +24,7 @@ outra skill.
 
 ## 2. Antes de começar
 
-1. Carregar `ht-protocolo` (regras comuns, decisões, pasta com dono, proibição de misturar LPSG).
+1. Carregar `ht-protocolo` (regras comuns, decisões, pasta com dono, proibição de misturar evento pago de ingresso).
 2. Ler em `<raiz_projetos>/<expert>/ht/`:
    - `02-oferta/oferta-vigente.md` (pela regra de leitura da oferta do protocolo: antes da Aprovação 1, a proposta vN mais
      recente, e o Raio-X fica em rascunho): definição do AR, ponto A e B, jornada, pilares e entregáveis. **Sem oferta (vigente ou
@@ -45,7 +45,7 @@ outra skill.
   dá equilíbrio ao gráfico e é o ponto de partida da leitura.
 - Nome de cada área com 1 ou 2 palavras (nome longo quebra o rótulo do radar).
 - Ordem lógica, na ordem da jornada do AR: se o diferencial do expert começa por uma base (ex.: autoconhecimento antes da
-  técnica), essa área vem primeiro; área solta no meio confunde o lead (laboratório abr/2026).
+  técnica), essa área vem primeiro; área solta no meio confunde o lead (prática comum).
 - Sem áreas que o lead não pode ter (se tudo daria zero, talvez nem seja o avatar).
 - Montar desde já a versão de 5 áreas: ela substitui a de 7 quando a sessão passa de 30 minutos antes da leitura.
 
@@ -64,8 +64,7 @@ outra skill.
 - Escrever para outra pessoa aplicar: o vendedor sem o conhecimento do expert tem de conseguir fazer a pergunta.
 - Opcional por nicho: um campo de **indicador duro** (medidas, faturamento, taxa de fechamento) que vira dado de risco no
   gráfico. Só com fonte do expert sobre o cálculo.
-- O GPT da FHT "Criador de Questionário Raio-X" existe para gerar a primeira versão a partir da definição do AR; a skill pode
-  fazer o mesmo papel. Em qualquer caso, curadoria humana: conferir redundância, viés e se o lead consegue responder.
+- A skill gera a primeira versão a partir da definição do AR. Em qualquer caso, curadoria humana: conferir redundância, viés e se o lead consegue responder.
 
 **Passo 3. Montar a planilha.** Seguir `references/planilha-raio-x.md`: aba "Diagnóstico de Negócio", blocos por área, nota
 na coluna de resposta, total = soma × 0,02, tabela final Atual x Meta (1,0), dois radares com a mesma escala (0 a 100%).
@@ -110,10 +109,10 @@ pergunta que sempre gera 10, que o lead não entende ou que dá a mesma nota de 
   1h15, teto 1h30), tipo de pergunta (fato ou resultado com período) e conversão de referência de 10% a 20% (usada só para
   diagnóstico, não aqui).
 
-**Divergências das fontes (mostrar, não esconder):** dizer ou não o número de perguntas ao lead (uma mentora manda não dizer;
-outro diz "7 áreas, 35 perguntas" e relata sessão mais curta); "não precisa justificar" (ensinado em 2025-2026, criticado
-numa turma de 2025). Padrão da skill: não anunciar o total e usar o aviso de não justificar; a alternativa vai como teste
-para o estrategista aprovar.
+**Divergências do método (mostrar, não esconder):** dizer ou não o número de perguntas ao lead (uma linha manda não dizer;
+outra diz "7 áreas, 35 perguntas" e relata sessão mais curta); "não precisa justificar" (ensinado como padrão, criticado
+em algumas turmas). Padrão da skill: não anunciar o total e usar o aviso de não justificar; a alternativa vai como teste,
+listada em "Assumi".
 
 ## 5. O que o agente decide e lista em "Assumi"
 
@@ -152,17 +151,6 @@ sucinta, sem aprofundar a nota baixa; começar pelas áreas ruins; frase "a perf
 `anthropic-skills:xlsx` (planilha e radares) · `avoid-ai-writing` e `humanizer` (fala de aplicação e consequências) ·
 `voice-builder` (tom do expert) · `niche-research` (indicador duro e linguagem do nicho, só com fonte).
 
-## 9. Fontes e lacunas
+## 9. Lacunas (não inventar)
 
-**Fontes:** trilha 09, bootcamp Vendas através de Sessão 1:1, aulas 06 (Raio-X) e 07 (leitura do gráfico), e
-RESUMO-vendas-por-sessao-1a1.md §3, §5.3, §5.4, §6; rota 3, resumo 05 (regras, planilha, exemplos); planilhas
-`rota3/materiais/planilhas/sessao1a1-questionario-raio-x.xlsx` (5 áreas) e `sessao1a1-roteiro.xlsx` (é o Raio-X de 7 áreas);
-trilha 22, bootcamps e laboratórios de sessão 1a1 (abr/2026 aulas 93-95, transcritas; mai/2026 79-80; jul/2026 RJ
-07-09 e 12; dez/2025 143-144; jan/2026 128; engenharia reversa jan/2025 192-195); catálogo (fht-raio-x-questionario,
-fht-auditoria-raio-x, fht-aplicar-raio-x-na-sessao, fht-leitura-do-grafico), partes B, E, F, G; GPTS-DA-FHT.md;
-padrões do squad (formato da leitura, tempo da sessão, tipo de pergunta).
-
-**Lacunas (não inventar):** o bootcamp dedicado só ao Raio-X foi anunciado e não existe nos arquivos; o prompt do GPT criador
-de Raio-X não está disponível; a transcrição da aula 93 (abr/2026) acaba antes da aplicação do Raio-X; o arquivo do checklist
-oficial de condução não existe (o bootcamp abr/2026, aula 94, só descreve a estrutura: Raio-X em ~20 min, explicar a escala,
-pedir contexto só quando precisar, mudar de pergunta com delicadeza se o lead se alonga); não há benchmark numérico de nota média por nicho.
+O prompt de IA para criar o Raio-X é reconstruído por esta skill; o checklist oficial de condução não existe como arquivo (a estrutura é: Raio-X em ~20 min, explicar a escala, pedir contexto só quando precisar, mudar de pergunta com delicadeza se o lead se alonga); não há benchmark numérico de nota média por nicho.

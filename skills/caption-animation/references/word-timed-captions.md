@@ -40,7 +40,7 @@ const { captions } = toCaptions({ transcription }); // → Caption[]
 Tips:
 - Feed clean voice audio (denoise/normalize first). Background music wrecks word boundaries.
 - `large` is most accurate but 2–3x real-time on a laptop. Use `medium.en` unless accuracy is critical.
-- This kit uses only local Whisper (free); paid cloud transcription is not used.
+- Only local Whisper (free) is used; paid cloud transcription is not used. If whisper.cpp or Node is missing, say what will be installed and run the one-time install only after the user's OK.
 
 Map any token shape into `Token`:
 

@@ -1,10 +1,5 @@
 # Recuperação de vendas pós-imersão (método dos 6 passos)
 
-Fonte: trilha 17 / trilha 22, Bootcamp Recuperação de Vendas (desafio out/2025, aula 53/70, lida por inteiro na revisão R6),
-conduzido por dois mentores convidados que vêm da área comercial. Serve para IMI, IMA e, como adaptação, para LDP. Quem fala com
-lead é a equipe do expert; o squad produz rascunhos (ht-closer) e nada sai sem OK do estrategista. Casos citados (conferir): imersão
-de 1 dia com 8 vendas passou a 16 com a recuperação; outra com 0 passou a 3; uma aluna foi de 3 para 13.
-
 Por que existe: a imersão de 1 dia gera menos consciência que a de 3; muita gente gostou, tem medo ou dúvida e não é proativa;
 "a imersão não acaba no dia da imersão".
 

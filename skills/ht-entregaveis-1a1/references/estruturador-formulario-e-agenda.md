@@ -1,7 +1,5 @@
 # Estruturador, formulário de solicitação, agenda e documento de ações
 
-Fonte: trilha 19 aulas 05 a 08 (RESUMO §3, §4 passos 8 a 13, §5.4, §5.5, §5.10), parte-A e parte-F (documento de feedbacks).
-
 ## 1. Estruturador de entregável (preencher um por entregável)
 
 ```
@@ -18,7 +16,7 @@ DURAÇÃO-ALVO e TETO:
 PRÓXIMO ENTREGÁVEL QUE ESTE DISPARA:
 ```
 
-Exemplos do FHT (paráfrase das aulas):
+Exemplos do método (paráfrase):
 - Diagnóstico: objetivo = estruturar o HT do aluno; output = oferta criada; preparo = redes, nicho/subnicho, faturamento, ideia de
   HT; condução = espaço de anotação, jornada do avatar, oferta, ações recomendadas, próximos passos; ferramenta = mapa mental.
 - Reunião estratégica: objetivo = destravar o aluno em qualquer dificuldade; output = clareza + ações recomendadas; preparo =
@@ -47,7 +45,7 @@ gravação; checkup exige data da ação e material para revisão.
 - Um calendário por mentor (ou conta da empresa que reúne todos), com horários livres criados como eventos.
 - Na solicitação, o suporte oferece 2 horários e fecha em até 2 dias (padrão do squad).
 - Renomear o evento: `[Entregável] | [Mentor] - [Aluno]`; adicionar videochamada; convidar aluno e mentor.
-- Capacidade de referência citada em aula: 3 horários/dia para 5 mentores (estimativa, conferir pelo consumo real).
+- Capacidade de referência citada no método: 3 horários/dia para 5 mentores (estimativa, conferir pelo consumo real).
 - Zoom recomendado por estabilidade; IA de resumo e transcrição ligada (TLDV, Zoom, Meet ou ht-avaliacao-de-reunioes-por-ia).
 
 ## 4. Documento de ações recomendadas (núcleo do aluno)
@@ -65,4 +63,4 @@ RESULTADOS (registro → evidência, ver ht-provas-e-cases)
 ```
 
 Regras: quem conduz preenche; o aluno marca "feita?" e comenta; o próximo mentor lê antes de qualquer entrega; trocar as
-categorias do exemplo do FHT (nicho, avatar, promessa, conteúdo, captação, prova, oferta) pelas etapas da jornada do expert.
+categorias do exemplo do método (nicho, avatar, promessa, conteúdo, captação, prova, oferta) pelas etapas da jornada do expert.

@@ -1,7 +1,7 @@
 # Auditoria de abordagens SLG
 
 Referência da `ht-slg`. Usada em dois casos: (a) auditoria final dos rascunhos antes de entregar; (b) correção de prints de
-abordagens já enviadas pelo expert (como no laboratório). Elogiar o que está certo; o básico só precisa ser feito.
+abordagens já enviadas pelo expert. Elogiar o que está certo; o básico só precisa ser feito.
 
 ## 1. Os 12 critérios (nota ok / ajustar por mensagem)
 
@@ -18,7 +18,7 @@ abordagens já enviadas pelo expert (como no laboratório). Elogiar o que está 
 11. Perfil certo para o canal (perfil pessoal do expert; dono ou decisor no B2B; não o perfil da empresa).
 12. Priorização: leads quentes e qualificados primeiro; "não óbvio" ficou de fora.
 
-## 2. Erros dos laboratórios → ajuste
+## 2. Erros comuns → ajuste
 
 | Erro | Ajuste |
 |---|---|

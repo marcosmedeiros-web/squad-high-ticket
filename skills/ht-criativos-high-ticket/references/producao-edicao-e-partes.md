@@ -1,9 +1,5 @@
 # Produção: gravação em partes, Lego, edição e rotina
 
-Fontes: trilha 13 `RESUMO-criativos.md` §3.11, §5.2, aula 39; palestra "como um expert pode gravar 150 criativos em 30
-minutos" (jun/2026, resumo dos slides em `RESUMO-palestras-encontros-fht.md`); trilha 17 aula "Criativos" (transcrição nova:
-rotina de gravação, ideias do time, teleprompter, agente de copy); trilha 14 Parte 2 da aula semanal (gravação crua, stories).
-
 ## 1. Gravação em partes (5 × 4 × 5)
 
 Problema que resolve: expert que não segue roteiro longo ou improvisa sem estrutura.
@@ -16,7 +12,7 @@ Problema que resolve: expert que não segue roteiro longo ou improvisa sem estru
 6. Combinar em lote (5 × 4 × 5 = **100 combinações com 14 gravações**).
 7. Subir com CPF por combinação (`<CANAL>-VID-<G#>-<C#>-<CTA#>`), para ler qual gancho, corpo e CTA vencem.
 
-A palestra usou uma ferramenta paga de combinação automática; aqui, a montagem pode sair das skills `ad-creative-video`
+Existe ferramenta paga de combinação automática; aqui, a montagem pode sair das skills `ad-creative-video`
 (template + CSV), `hyperframes` ou `remotion`. Regras de continuidade: mesma roupa e luz entre as partes que vão se juntar;
 o corpo não pode depender de uma frase específica do gancho.
 
@@ -48,7 +44,7 @@ criativo.
 - Teleprompter para quem precisa ler; para quem trava com roteiro, o roteiro vira tópicos e o expert fala solto.
 - Agente de IA de copy de criativo como destravador: pedir 3 de vídeo e 3 de imagem a partir da promessa do evento, depois
   "mais 10"; o expert lê, aproveita o contexto e grava do jeito dele. Nunca publicar a saída crua.
-- Referências de volume: agência citada no bootcamp produz ~10 criativos novos por semana (perpétuo pede 10 a 20); bootcamp de
+- Referências de volume: agência de referência produz ~10 criativos novos por semana (perpétuo pede 10 a 20); a
   aula semanal sugere agendar ~30 gravações por mês; imersão começa com 5 vídeos + 5 estáticos e uma operação grande roda
   dezenas para achar 2 ou 3 que performam.
 

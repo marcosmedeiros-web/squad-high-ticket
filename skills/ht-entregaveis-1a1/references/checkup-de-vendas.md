@@ -1,17 +1,14 @@
 # Checkup de vendas + suporte em tempo real (entregável de análise antes e destrave durante)
 
-Fontes: parte-D bloco 8, parte-H (rodar-checkup-pre-evento-e-plantao-real-time), live 057 (origem do nome), trilha 21: 3 gravações
-lidas inteiras (live fechada 39 min, imersão presencial 78 min, sessão 1a1 65 min) + começo de 26 + títulos e termos das 312.
-
 ## Função e definição
 Pente fino na ação de venda do aluno ANTES de ir ao ar, antecipando os erros comuns. Condição: ação com data marcada e
 estrutura pronta. Antes se chamava "check-up de evento"; virou "de vendas" porque serve também à sessão 1a1. O nome saiu de um
-aluno (entrevista pós-resultado, live 057). Par natural: **suporte em tempo real** durante a execução (canal direto com resposta
+aluno (entrevista pós-resultado). Par natural: **suporte em tempo real** durante a execução (canal direto com resposta
 em minutos, vídeo se preciso). Depois vem a análise.
 
-Duração: manual ~55 min; **mediana real 92 min** (metade entre 78 e 108).
+Duração: manual ~55 min; **mediana nas sessões de referência: 92 min** (metade entre 78 e 108).
 
-Ações checadas nas 312 (títulos): sessão 1a1 164 · imersão 68 · live fechada de oferta 26 · evento 5 · sem tag 49. Temas mais
+Ações mais checadas: sessão 1a1 · imersão · live fechada de oferta · evento. Temas mais
 citados: pitch, ancoragem, Raio-X, pré-pitch, real time, repitch, quebra-gelo, toque de entrada, entrega ao vivo, downsell.
 
 Adaptação ao expert: o "checkup" vira a revisão da ação crítica do aluno antes de executá-la (ex.: apresentação para banca,
@@ -38,7 +35,7 @@ Já testou a oferta na sessão 1a1? · Base ou público frio? · Qual o ticket? 
 de implementação? · Qual é sua melhor palestra? · Você consegue entregar isso em uma hora? · Sem você, que caminho a pessoa
 faria? · Qual a conversão de vocês?
 
-## Correções vistas nas 2 gravações lidas na revisão (IMA de 1 dia presencial; sessão 1a1)
+## Correções vistas em outras sessões (IMA de 1 dia presencial; sessão 1a1)
 - Raio-X: todas as perguntas na mesma direção (10 = situação boa); pergunta invertida distorce o gráfico. O lead vê só o gráfico,
   nunca o questionário.
 - Acordo do sim ou não (sem a metáfora "em cima do muro") logo depois da história e antes da oferta, não no momento do preço.
@@ -67,6 +64,5 @@ pedir assim que a captação começa); insegurança com preço virando sessão d
 - Durante: seguir as 9 etapas; reescrever a fala pronta para o aluno usar; plano B.
 - Pós: lista de ajustes com dono e prazo; real time combinado; análise já indicada.
 
-## Números das gravações (exemplo de sessão)
-Ingresso simbólico de R$ 50, 20 inscritos; mentoria de 12x R$ 2.000; histórico de 3% a 5% de conversão interna; 27% das 312
-citam real time. Referências, não regra.
+## Números de sessões de referência (exemplo)
+Ingresso simbólico de R$ 50, 20 inscritos; mentoria de 12x R$ 2.000; histórico de 3% a 5% de conversão interna; o suporte em tempo real aparece em boa parte dos checkups. Referências, não regra.

@@ -2,12 +2,12 @@
 
 Referência da `ht-agendamento-e-follow-up`. Usada quando o projeto põe uma aplicação antes da sessão (comum em funis de um para
 muitos: live, aula semanal, minicurso das três peneiras, imersão) ou quando o volume de pedidos de sessão é maior que a agenda.
-O valor e a existência da aplicação são decisão do estrategista e ficam registrados em `02-oferta/`.
+O valor e a existência da aplicação seguem o padrão assumido e ficam registrados em `02-oferta/`.
 
 ## 1. Para que serve
 
 - Filtro: só chega à sessão quem tem perfil e está no momento.
-- Compromisso: aplicação paga reduz falta e sumiço (fala de aula: sem aplicação paga, cerca de 90% some no follow-up; conferir).
+- Compromisso: aplicação paga reduz falta e sumiço (referência do método: sem aplicação paga, cerca de 90% some no follow-up; conferir).
 - Escassez real: escolher de verdade quem entra protege o valor percebido e a entrega. Só usar a palavra "aplicação" se houver
   seleção; recusar quem não está no momento ("o HT pode mudar a vida ou afundar em dívida").
 
@@ -17,12 +17,12 @@ O valor e a existência da aplicação são decisão do estrategista e ficam reg
 |---|---|---|---|
 | Sem aplicação (sessão gratuita direta) | Pedido na página ou no SLG → agendamento | Mais volume, padrão do canal 1a1 no começo | Mais falta e mais lead frio |
 | Aplicação gratuita | Ficha → triagem → convite para a sessão | Filtra sem barreira de pagamento | Compromisso menor |
-| Aplicação paga reembolsável | Pagamento → ficha → triagem → sessão → aceito ou recusado com devolução | Filtro e compromisso fortes; referência de aula R$ 500 a R$ 2.000 (FHT: R$ 2.000) | Menos volume; exige checkout, ficha e política de devolução |
+| Aplicação paga reembolsável | Pagamento → ficha → triagem → sessão → aceito ou recusado com devolução | Filtro e compromisso fortes; referência do método R$ 500 a R$ 2.000 (o método usa R$ 2.000) | Menos volume; exige checkout, ficha e política de devolução |
 
 Aplicação não é o sinal da sessão: o sinal (R$ 500 a R$ 1.000, até 10% do valor) é pago com a call aberta, no fechamento.
 Se houver aplicação paga, como ela abate no programa é regra de `02-oferta`.
 
-## 3. Fluxo da aplicação paga (ordem citada nas lives)
+## 3. Fluxo da aplicação paga (ordem do método)
 
 1. Link de aplicação em todos os pontos de contato da ação (abaixo do pitch, no repeat, e-mail, grupo, WhatsApp).
 2. Pagamento da aplicação no checkout (comunicada como garantia: devolvida se não for aceito; texto exato em `02-oferta`).
@@ -36,7 +36,7 @@ Produto de checkout não publicado trava a página; produto precisa de área de 
 
 ## 4. Ficha (blocos e perguntas modelo)
 
-Ordem dos blocos citada na live da sessão de aprovação; potencial de faturamento por último.
+Ordem dos blocos da sessão de aprovação; potencial de faturamento por último.
 
 | Bloco | Perguntas modelo (abertas) |
 |---|---|

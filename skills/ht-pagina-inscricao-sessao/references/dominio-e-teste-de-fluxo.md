@@ -7,7 +7,7 @@ Referência da `ht-pagina-inscricao-sessao`.
 - **Domínio próprio:** profissionalismo (endereço estranho parece golpe) e exigência do tráfego (configuração de anúncio e
   verificação no BM pedem domínio). Pode ser o nome do expert ou do produto. Subdomínio vale (ex.: `sessao.dominiodoexpert.com.br`).
   Subdomínio gratuito da ferramenta é pouco profissional.
-- **Compra:** registro em provedor de domínio; compra e acesso são do expert (gasto: decisão do estrategista com o expert). O squad
+- **Compra:** registro em provedor de domínio; compra e acesso são do expert (gasto: com OK do expert). O squad
   nunca cria conta nem digita senha do expert.
 - **Propagação:** até 24 h (algumas ferramentas avisam até 72 h). Configurar com antecedência, nunca no dia de ligar o tráfego.
 - **SSL (https):** obrigatório; conferir o cadeado. Se não emitir em 72 h, suporte da ferramenta.
@@ -24,7 +24,7 @@ Referência da `ht-pagina-inscricao-sessao`.
 
 Regra do protocolo: verificar é observar o resultado de fora; editar ou ler a configuração não é verificar.
 
-**Checklist de 8 itens (reconstrução do squad a partir dos passos demonstrados nas aulas 03 a 07 da trilha 12; a aula não traz
+**Checklist de 8 itens (reconstrução do squad a partir dos passos demonstrados; o material não traz
 uma lista numerada), com a prova exigida no squad:**
 
 | # | Item | Prova a registrar |

@@ -1,8 +1,6 @@
 # LDP: modelos das peças (estrutura do método, redação do squad)
 
-Fonte da estrutura: trilha 16 (modelos ditados no bootcamp) e catálogo fht-sht-promessa-narrativa-e-cta e
-fht-sht-convites-e-captacao. A redação abaixo é do squad, seguindo a ordem e os elementos da aula; não é o texto do material
-FHT. Tudo entre colchetes vem do expert ou de `02-oferta/`. Nada de frequência, número ou história inventados: se o expert não
+A redação abaixo é do squad, seguindo a ordem e os elementos do método. Tudo entre colchetes vem do expert ou de `02-oferta/`. Nada de frequência, número ou história inventados: se o expert não
 recebe pedidos "todo dia", o texto diz a frequência real. Revisar sempre com `avoid-ai-writing` ou `humanizer` e na voz do expert.
 
 ## 1. Promessa (vai em todas as peças)
@@ -100,9 +98,9 @@ Nome · e-mail · WhatsApp (pedir de novo para casar a resposta com a pessoa)
    ( ) Quero muito uma vaga  ( ) Tenho interesse, quero entender  ( ) Só quero conhecer
 → botão "Entrar no grupo de avisos"
 ```
-Leitura: muita gente em "te conheci agora" é sinal de formato errado (alertar o estrategista). Pergunta 4 ordena a recuperação.
+Leitura: muita gente em "te conheci agora" é sinal de formato errado (alertar a pessoa). Pergunta 4 ordena a recuperação.
 
-## 7. Lembretes (cadência da aula; textos são rascunho do squad)
+## 7. Lembretes (cadência do método; textos são rascunho do squad)
 
 | Toque | Canal | Função | Rascunho |
 |---|---|---|---|
@@ -113,7 +111,7 @@ Leitura: muita gente em "te conheci agora" é sinal de formato errado (alertar o
 | Na hora | grupo + e-mail 2 | entrar | "Começou: [LINK]." |
 | +10 min | grupo | resgatar | "Já estou apresentando como funciona o [PROGRAMA]. Ainda dá tempo: [LINK]." |
 
-WhatsApp individual é opcional na mesma cadência. Disparo só com OK do estrategista e pela regra do canal (API oficial para massa a
+WhatsApp individual é opcional na mesma cadência. Disparo só com OK da pessoa e pela regra do canal (API oficial para massa a
 cliente; nunca número pessoal do expert).
 
 ## 8. Formulário de aplicação (instrumento de seleção)

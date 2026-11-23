@@ -2,7 +2,7 @@
 
 ## 1. Antes
 - Lista cara-crachá: 100% dos aptos que estarão no evento, com nome e o que disseram no 1 a 1.
-- Confirmação de presença levada a sério (referência de aula: confirmar com cerca de um mês de antecedência; reforço 1 a 1).
+- Confirmação de presença levada a sério (referência: confirmar com cerca de um mês de antecedência; reforço 1 a 1).
 - Encontro exclusivo de alunos é entregável e canal de renovação, não opcional; data marcada com antecedência. Referência de
   custo citada (relato, conferir): 100 pessoas num hub com projetor por volta de R$ 15 mil.
 - Programação: manhã com o melhor conteúdo, casos de alunos improváveis (alunos palestrando, perguntas 11-12 da pesquisa), hot seat
@@ -10,7 +10,7 @@
 
 ## 2. Identificação
 Adesivo ou bolinha no crachá (a fase 3 diz que qualquer sinal serve: bolinha amarela, branca, adesivo). Padrão do squad: verde =
-apto à renovação; amarelo = elegível a upgrade (cores da live 047). Serve para a equipe reconhecer de longe, inclusive no café, e
+apto à renovação; amarelo = elegível a upgrade. Serve para a equipe reconhecer de longe, inclusive no café, e
 pesa mais quanto maior a base (com poucos aptos a planilha já basta).
 
 ## 3. Pitch
@@ -30,12 +30,12 @@ pesa mais quanto maior a base (com poucos aptos a planilha já basta).
 - Sempre há alunos que esperam ser procurados: procurar.
 
 ## 5. Plano de contingência (renovação caindo)
-Sinais: poucas renovações depois do pitch, conversas de corredor negativas. Ação (caso Plat 2021, intro da trilha 20 e live 012):
+Sinais: poucas renovações depois do pitch, conversas de corredor negativas. Ação (caso Plat 2021):
 quem conduz assume a fraqueza diante dos aptos, pergunta o que faltou, acrescenta entregáveis (cartas na manga) e fecha ali. A
 oferta pode ser reconstruída ao vivo. Decisão de acrescentar entregável com custo: o estrategista (ou quem ele delegar no evento,
 registrado antes).
 
-## 5b. Exemplo de formato que funcionou (intro da trilha 20, relato oral)
+## 5b. Exemplo de formato que funcionou (relato oral)
 Expert de nicho de público final fez o evento das alunas (apresentação delas) um dia antes do seu evento de vendas e emendou um
 no outro: renovação total da turma, duas vezes seguidas (relato, conferir antes de usar como número). Serve de ideia de calendário,
 não de meta.

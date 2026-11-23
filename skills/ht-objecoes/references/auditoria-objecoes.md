@@ -1,8 +1,5 @@
 # Auditoria da planilha e das falas de objeção
 
-Fonte: catálogo fht-auditoria-planilha-de-objecoes (parte B); trilha 11 RESUMO §5.6 e §8 (correções de laboratório); trilha 22
-(dez/2025 143). Marcar ok / ajustar, com a reescrita.
-
 ## Por linha da planilha
 1. É objeção de fato (impede o próximo passo) ou é caso, característica, queixa?
 2. Está na voz do lead, em uma frase?
@@ -22,6 +19,6 @@ Fonte: catálogo fht-auditoria-planilha-de-objecoes (parte B); trilha 11 RESUMO 
 14. Lista de evidências a coletar gerada para `ht-provas-e-cases`?
 15. Objeções recorrentes que pedem mudança de oferta sinalizadas ao estrategista?
 
-## Erros típicos (laboratórios)
+## Erros típicos
 Caso no lugar de objeção; solução na empatia ou no racional; racional que explica o método; dinheiro sem conta; empatia que soa
 fria; case de outra dúvida; modelo colado; argumento agressivo; objeção plantada; resposta longa demais para a sessão.

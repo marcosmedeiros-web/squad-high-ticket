@@ -1,31 +1,31 @@
 ---
 name: criacao-guia-gravacao
-description: Gera o GUIA DE GRAVAÇÃO de webinário do {{DONO}} (réplica do processo validado do guia "Primeira Turbo", guia-webnario.{{DONO}}.ai). É a página que ele deixa aberta DURANTE a gravação da aula, com nomes pra cumprimentar e perguntas pra responder, e que depois vira o elenco do chat fabricado da sala (skill criacao-sala-webnar). Use quando o Chefe pedir "guia de gravação", "guia do webinário", "página com os nomes e perguntas da live", "monta o guia da aula X" ou variações. Saída = HTML avelloia parseável pelo parse-guia.mjs do webinar-platform, deployado em subdomínio .{{DONO}}.ai.
+description: 'Gera o guia de gravação do webinário: a página que o expert deixa aberta durante a aula, com nomes para cumprimentar e perguntas para responder, em HTML parseável. Gatilhos: "guia de gravação", "guia do webinário", "página com os nomes e perguntas da live", "monta o guia da aula". NÃO usar para a página de inscrição do webinário (ht-webinario-de-vendas).'
 ---
 
 # Criação do Guia de Gravação de Webinário
 
-Skill que replica o processo que gerou o guia "Primeira Turbo" (repo `<GITHUB_USER>/guia-webnario`, no ar em https://guia-webnario.{{DONO}}.ai). O guia é USO INTERNO da live: seção 1 traz os nomes que "chegam" na live pro {{DONO}} cumprimentar, seções 2 e 3 trazem as perguntas que ele responde ao vivo. Depois da gravação, o MESMO HTML pode alimentar um motor de chat fabricado da sala do webinário (skill `criacao-sala-webnar`, se você tiver essa peça montada) através de um parser que lê a marcação abaixo. Por isso a estrutura HTML é CONTRATO: não pode divergir do padrão abaixo.
+O guia é USO INTERNO da live: seção 1 traz os nomes que "chegam" na live pro expert cumprimentar, seções 2 e 3 trazem as perguntas que ele responde ao vivo. Depois da gravação, o MESMO HTML pode alimentar um motor de chat da sala do webinário (se você tiver essa peça montada) através de um parser que lê a marcação abaixo. Por isso a estrutura HTML é CONTRATO: não pode divergir do padrão abaixo.
 
 ## Exemplar validado (fonte da verdade)
 
-Sempre partir do exemplar, nunca desenhar do zero:
-1. Repo GitHub privado `<GITHUB_USER>/guia-webnario` (arquivo único `index.html`, ~483 linhas). Clonar com `gh repo clone <GITHUB_USER>/guia-webnario` (usando o SEU próprio GitHub token, se você tiver acesso a esse repo; senão, use o fallback abaixo).
-2. Fallback: `curl -s https://guia-webnario.{{DONO}}.ai` devolve o HTML completo.
+Sempre partir de um exemplar, nunca desenhar do zero:
+1. Se já existe um guia anterior do expert que passou no parser (arquivo único `index.html`), ele é o exemplar.
+2. Sem guia anterior: o template da seção "Template do index.html" abaixo é o exemplar.
 
 O jeito certo de gerar um guia novo é copiar o `index.html` do exemplar e trocar SÓ o conteúdo (título, hero, pessoas, perguntas, chave do localStorage), preservando CSS, JS e marcação byte a byte.
 
-## O processo (a conversa com o Chefe)
+## O processo
 
-MÁXIMO 1 pergunta por vez. Cada etapa espera a resposta antes da próxima.
+Pergunte o mínimo: só o que não dá para deduzir do material. O que faltar e tiver padrão razoável, assuma e liste em "Assumi: … (é só pedir para mudar)".
 
-1. **Tema e conteúdo.** Perguntar qual o TEMA da aula e pedir o material que existir: roteiro, tópicos, rascunho, transcrição, o que ele vai ensinar. Se a oferta (produto, preço, formato única/mensal, parcelamento, garantia, bônus) não vier junto, perguntar isso na mensagem seguinte, nunca na mesma.
-2. **Alunos reais.** Perguntar quais ALUNOS REAIS da comunidade incluir (nome a nome ou lista dele). Se ele não tiver lista, usar como base o roster de exemplo (tabela abaixo) só pra formato, perguntando os nomes reais antes.
+1. **Tema e conteúdo.** Perguntar qual o TEMA da aula e pedir o material que existir: roteiro, tópicos, rascunho, transcrição, o que ele vai ensinar. Se a oferta (produto, preço, formato única/mensal, parcelamento, garantia, bônus) não vier junto, buscar na pasta do projeto (02-oferta) antes de perguntar.
+2. **Alunos reais.** Perguntar quais ALUNOS REAIS da comunidade incluir (nome a nome ou lista do expert). Sem lista, o guia sai só com fictícios e você avisa isso na entrega; nunca inventar nome de aluno real.
 3. **Gerar o elenco e as perguntas** (regras de geração abaixo).
 4. **Montar o `index.html`** no padrão exato do exemplar (template abaixo).
 5. **Validar com o parser** (checklist abaixo). Só seguir pro deploy com o parser passando.
-6. **Publicar** com a skill `publicar-pagina-cloudflare` (Cloudflare Pages da conta do dono; a pasta tem só o `index.html`). A receita Vercel abaixo é a alternativa.
-7. **Entregar o link** e lembrar o Chefe: este guia depois alimenta o chat fabricado da sala, é o input da skill `criacao-sala-webnar`.
+6. **Publicar** com a skill `publicar-pagina-cloudflare` (Cloudflare Pages da conta do expert ou da agência; a pasta tem só o `index.html`), com o seu OK antes de pôr no ar. A receita Vercel abaixo é a alternativa.
+7. **Entregar o link**; se houver motor de chat da sala, este guia é o input dele.
 
 ## Regras de geração
 
@@ -37,7 +37,7 @@ MÁXIMO 1 pergunta por vez. Cada etapa espera a resposta antes da próxima.
 - Intercalar real e fictício na grade (o exemplar alterna r, p, r, p...).
 
 **Seção 2, perguntas de conteúdo (~22):**
-- Cada pergunta NASCE do conteúdo que o Chefe mandou: dúvida real de quem vive aquele nicho assistindo aquela aula, nunca pergunta genérica de IA.
+- Cada pergunta NASCE do conteúdo que veio: dúvida real de quem vive aquele nicho assistindo aquela aula, nunca pergunta genérica de IA.
 - Cada pergunta tem dono: uma persona FICTÍCIA da seção 1, com contexto de vida na fala ("minhas clientes agendam tudo pelo direct", "na advocacia eu tenho sigilo profissional", "eu recebo muito curioso que não compra"). A profissão do dono tem que casar com a pergunta.
 - Nunca atribuir pergunta a aluno REAL (não botar palavra na boca de gente de verdade).
 - Cobrir os eixos: funciona pro meu nicho?, diferença pra ferramenta que já uso, canais, controle/erro da IA, requisitos técnicos, custo recorrente, personalização de tom, integrações (agenda, pagamento), tempo/dificuldade de setup, segurança/sigilo, qualificação de lead, disponibilidade 24h.
@@ -70,7 +70,7 @@ Copiar o exemplar inteiro e trocar o conteúdo. Estrutura resumida do que existe
 <title>Guia do Webinário · {TEMA}</title>
 <meta name="robots" content="noindex, nofollow">
 <style>
-/* Família visual AVELLOIA, neo-brutalista. Tokens do template arqui-sistem.{{DONO}}.ai:
+/* Família visual AVELLOIA, neo-brutalista. Tokens do template:
    --bg:#faf5ec; --bg-alt:#f8f1e7; --surface:#fff; --fg:#1b1714; --fg-muted:#6c6253;
    --ember:#ff5a1f; --ember-dk:#b8380a; --line:#e8dccb; --ink:#160f0a; --gold:#c98a00;
    --danger:#dc2626; --shadow-brutal:5px 5px 0 0 var(--fg);
@@ -89,7 +89,7 @@ Copiar o exemplar inteiro e trocar o conteúdo. Estrutura resumida do que existe
 </header>
 
 <section class="hero" id="top"><div class="container">
-  <p class="eyebrow">// GUIA DE APOIO &middot; WEBINARIO AO VIVO &middot; @{{DONO}}.ai</p>
+  <p class="eyebrow">// GUIA DE APOIO &middot; WEBINARIO AO VIVO &middot; @{handle-do-expert}</p>
   <h1 class="hero-title">GUIA DO WEBINÁRIO<br><span class="ember">{TEMA}</span></h1>
   <p class="hero-sub">Deixa esta página aberta do lado durante a gravação. Seção 1: nomes chegando na live. Seção 2: perguntas de conteúdo. Seção 3: perguntas de oferta.</p>
   <p class="hero-hint">Clique em qualquer nome ou pergunta pra riscar como já usado. Fica salvo mesmo se recarregar a página.</p>
@@ -143,7 +143,7 @@ Copiar o exemplar inteiro e trocar o conteúdo. Estrutura resumida do que existe
 
 <footer class="site-footer"><div class="container footer-inner">
   <span class="brand-mark">&rsaquo;&lsaquo;</span>
-  <p>GUIA DO WEBINÁRIO {TEMA} &middot; uso interno da live &middot; @{{DONO}}.ai</p>
+  <p>GUIA DO WEBINÁRIO {TEMA} &middot; uso interno da live &middot; @{handle-do-expert}</p>
 </div></footer>
 
 <script>
@@ -156,17 +156,17 @@ Copiar o exemplar inteiro e trocar o conteúdo. Estrutura resumida do que existe
 </body></html>
 ```
 
-Nota: é uma página local do Chefe, o guia usa `localStorage` de propósito (não é artifact do claude.ai, a restrição de artifact não se aplica aqui).
+Nota: é uma página de uso interno do expert, o guia usa `localStorage` de propósito (não é artifact do claude.ai, a restrição de artifact não se aplica aqui).
 
-## Roster de alunos — exemplo de formato (base quando o Chefe não mandar lista)
+## Roster de alunos — exemplo de formato
 
-> Entradas fictícias só pra ilustrar o formato (nome + @handle + Cidade/UF). O Chefe manda a lista real dos alunos dele na hora; se não mandar, pergunte antes de inventar nomes.
+> Entradas fictícias só pra ilustrar o formato (nome + @handle + Cidade/UF). A lista real vem do expert; sem ela, nenhum nome real é inventado.
 
 Fulano Exemplo @fulano.exemplo Cidade Um/SP · Ciclana Modelo @ciclana.modelo Cidade Dois/PR · Beltrano Teste @beltrano.teste Cidade Três/PE · Aluna Demo @aluna.demo Cidade Quatro/MG · Cliente Amostra @cliente.amostra Cidade Cinco/BA · Pessoa Fictícia @pessoa.ficticia Cidade Seis/RS
 
 ## Checklist de validação (rodar ANTES do deploy, entregar a prova)
 
-1. **Parser roda?** Se você tem sua própria cópia do parser (`parse-guia.mjs`, parte da skill `criacao-sala-webnar`), rode local: `node parse-guia.mjs guia-novo.html guia-novo.json`. Saída esperada no stderr: `parse-guia: cast=74 (alumni=39, ficticios=35) questions=32 (conteudo=22, oferta=10)` com os números do guia novo. Se sair "nada reconhecido no HTML", a marcação divergiu do contrato. Sem o parser à mão, valide manualmente pelos itens 2-6 abaixo (todos dá pra conferir com `grep`/`jq` direto no HTML/no seu editor, sem depender de servidor nenhum).
+1. **Parser roda?** Se você tem sua própria cópia do parser (`parse-guia.mjs`, do motor de chat da sala), rode local: `node parse-guia.mjs guia-novo.html guia-novo.json`. Saída esperada no stderr: `parse-guia: cast=74 (alumni=39, ficticios=35) questions=32 (conteudo=22, oferta=10)` com os números do guia novo. Se sair "nada reconhecido no HTML", a marcação divergiu do contrato. Sem o parser à mão, valide manualmente pelos itens 2-6 abaixo (todos dá pra conferir com `grep`/`jq` direto no HTML/no seu editor, sem depender de servidor nenhum).
 2. **Badges certos?** No JSON, `is_alumni:true` bate exatamente com a lista de alunos reais (nem um a mais, nem um a menos) e nenhum aluno real tem `profession`.
 3. **Profissões casam com as perguntas?** Pra cada question do JSON, achar o dono no cast e conferir que a `profession` sustenta a pergunta (dentista pergunta de agenda, gestor de tráfego pergunta de campanha).
 4. **Nenhuma pergunta órfã?** Todo `owner_name` + `owner_handle` existe no cast, é fictício (`is_alumni:false`) e tem `profession`. Conferência rápida no JSON com `jq`.
@@ -175,14 +175,14 @@ Fulano Exemplo @fulano.exemplo Cidade Um/SP · Ciclana Modelo @ciclana.modelo Ci
 
 ## Publicar
 
-> **Publicar = skill `publicar-pagina-cloudflare` (padrão do kit):** Cloudflare Pages da conta do próprio dono, chave no cofre do kit (nunca em comando, log ou chat), URL `https://<projeto>.pages.dev` conferida de fora antes de dizer que está no ar; domínio próprio é opcional, depois (seção "Domínio próprio" da skill). A pasta publicada tem só o `index.html` do guia. A receita Vercel abaixo é a **alternativa**: só quando o dono pedir a Vercel.
+> **Publicar = skill `publicar-pagina-cloudflare` (padrão):** Cloudflare Pages da conta do expert ou da agência, chave guardada num gerenciador de credenciais ou variável de ambiente (nunca em comando, log ou chat), URL `https://<projeto>.pages.dev` conferida de fora antes de dizer que está no ar; domínio próprio é opcional, depois (seção "Domínio próprio" da skill). A pasta publicada tem só o `index.html` do guia. A receita Vercel abaixo é a **alternativa**: só quando você pedir a Vercel.
 
-### Alternativa: Vercel (receita verificada do guia Primeira Turbo)
+### Alternativa: Vercel
 
-O guia Primeira Turbo, de referência, é servido pela **Vercel** (confirmado: `curl -sI https://guia-webnario.{{DONO}}.ai` responde `server: Vercel`), com A record no Cloudflare apontando pra 76.76.21.21. Guia novo vai pelo padrão acima; este é o caminho da alternativa:
+Na Vercel, o domínio próprio usa A record no Cloudflare apontando pra 76.76.21.21. Guia novo vai pelo padrão acima; este é o caminho da alternativa (precisa das CLIs `gh` e `vercel`; sem elas, a skill oferece instalar com `brew install gh` e `npm i -g vercel`, com o seu OK):
 
 ```bash
-# suas próprias credenciais (arquivo .env local, cofre de senhas, ou como você preferir guardar)
+# suas próprias credenciais, de um gerenciador de credenciais ou variável de ambiente (nunca no chat)
 GH_TOKEN=$(grep "^GITHUB_TOKEN" .env | cut -d= -f2)
 VERCEL_TOKEN=$(grep "^VERCEL_TOKEN" .env | cut -d= -f2)
 CF_TOKEN=$(grep "^CLOUDFLARE_API_TOKEN" .env | cut -d= -f2)
@@ -194,17 +194,17 @@ GH_TOKEN=$GH_TOKEN gh repo create <GITHUB_USER>/guia-{slug} --private --source=.
 
 # 2) deploy Vercel (scope <VERCEL_SCOPE>)
 vercel --token $VERCEL_TOKEN --yes --prod --scope <VERCEL_SCOPE>
-vercel domains add guia-{slug}.{{DONO}}.ai guia-{slug} --token $VERCEL_TOKEN --scope <VERCEL_SCOPE>
+vercel domains add guia-{slug}.<dominio-do-expert> guia-{slug} --token $VERCEL_TOKEN --scope <VERCEL_SCOPE>
 
-# 3) DNS Cloudflare, zona {{DONO}}.ai (<CF_ZONE_ID>):
+# 3) DNS Cloudflare, zona <dominio-do-expert> (<CF_ZONE_ID>):
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/<CF_ZONE_ID>/dns_records" \
   -H "Authorization: Bearer $CF_TOKEN" -H "Content-Type: application/json" \
   --data '{"type":"A","name":"guia-{slug}","content":"76.76.21.21","ttl":1,"proxied":false}'
 
 # 4) VERIFICAR de fora antes de reportar
-curl -sI https://guia-{slug}.{{DONO}}.ai | head -5   # HTTP/2 200 + server: Vercel
+curl -sI https://guia-{slug}.<dominio-do-expert> | head -5   # HTTP/2 200 + server: Vercel
 ```
 
 ## Entrega
 
-Reportar curto com o link do guia no ar, os números (reais/fictícios/conteúdo/oferta), a prova do parser (linha de resumo do parse-guia) e o lembrete: este guia é o input do chat fabricado da sala, próximo passo é a skill `criacao-sala-webnar` apontando pra este HTML.
+Reportar curto com o link do guia no ar, os números (reais/fictícios/conteúdo/oferta), a prova do parser (linha de resumo do parse-guia) e, se houver motor de chat da sala, o lembrete de apontá-lo para este HTML.

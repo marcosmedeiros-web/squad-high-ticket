@@ -1,8 +1,8 @@
 # Pós-live e números da aula semanal
 
-Marcação: **[FHT]** = do material (trilha 14 Parte 1 e 2; rota 3; live 013); **[proposta da skill]**.
+Marcação: **[método]** = do método; **[proposta da skill]**.
 
-## 1. Rotina pós-live (mesmo dia) [FHT]
+## 1. Rotina pós-live (mesmo dia) [método]
 1. **Descrição** do vídeo: resumo curto e link de inscrição para as próximas aulas; links que façam sentido com o tema (sessão,
    imersão vigente), sem encher.
 2. **Comentário fixado** com o link (inscrição ou campanha vigente): muita gente não abre a descrição. Conferir se o link leva
@@ -30,7 +30,7 @@ aula em [dia, hora]. Não acrescente nada que não esteja na transcrição. Sem 
 - Métrica principal: inscritos qualificados (no avatar) e sims. Presença ao vivo é secundária (exemplos de fala: listas de 40 a
   100 mil com 30 a 50 ao vivo; conferir).
 - Para planejar comparecimento: referência gratuita 25% (padrão do squad), a ser trocada pelo número próprio do expert.
-- Origem do comprador: medir quem compareceu e comprou e de onde veio (live 013). Registro na Central 1x1 (`ht-central-e-kpis`).
+- Origem do comprador: medir quem compareceu e comprou e de onde veio. Registro na Central 1x1 (`ht-central-e-kpis`).
 - Leitura a cada 4 aulas: tema que trouxe mais gente (repetir primeiro no ciclo), criativo que traz avatar errado (trocar),
   presentes caindo (rever promessa, página, horário, notificação: testar um item de cada vez).
 

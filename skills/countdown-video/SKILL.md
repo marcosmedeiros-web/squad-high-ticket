@@ -1,6 +1,6 @@
 ---
 name: countdown-video
-description: Vídeo de contagem regressiva frame-accurate (sem drift) — timer mm:ss ou dd:hh:mm:ss, dígito com flip/roll, fundo em loop, duração configurável. Use para — contagem regressiva, countdown do carrinho, timer de abertura de vendas, vídeo de faltam X dias, tela de stream starting soon. Serve na véspera do evento e no fechamento do carrinho do LPSG.
+description: 'Vídeo de contagem regressiva frame-accurate (sem drift): timer mm:ss ou dd:hh:mm:ss, dígito com flip/roll, fundo em loop, duração configurável. Use para "contagem regressiva", "countdown", "timer de abertura de vendas", "vídeo de faltam X dias", "stream starting soon". NÃO usar para o vídeo de anúncio completo (ad-creative-video).'
 version: 0.1.0
 ---
 

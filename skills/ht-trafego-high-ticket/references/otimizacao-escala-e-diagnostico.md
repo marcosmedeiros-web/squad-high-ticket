@@ -1,7 +1,6 @@
 # Otimização em 3 níveis, escala e diagnóstico pelo funil
 
-Fontes: trilha 22 FEV26 aula 36 "Otimização de Captação" (transcrição nova, demonstração do gestor no gerenciador); OUT25
-aulas 8, 10, 12 e 15 e FEV26 §7, §9 (via `parte-G`); calculadora FHT (trilha 14, via `parte-C`); padrões recomendados do squad.
+
 
 ## 1. Quando olhar
 
@@ -19,7 +18,7 @@ aulas 8, 10, 12 e 15 e FEV26 §7, §9 (via `parte-G`); calculadora FHT (trilha 1
 | Leilão | CPM (custo por mil impressões) | R$ 20 a 30 em período normal; Black Friday R$ 60 a 104 (conferir) | público (muito pequeno encarece), época |
 | Anúncio | CTR do link | ≥ 1% (6% muito bom) | gancho e segmentação do criativo |
 | Clique → página | taxa de carregamento (connect rate) = visualizações da página de destino ÷ cliques no link | ≥ 80% (perda normal ~20%) | velocidade da página (tirar imagem, texto, mobile) |
-| Página | conversão = cadastros ÷ visualizações da página | 40% a 50% em captação gratuita (50% já é muito bom; turmas citam 30% a 40%); 70% na calculadora FHT | alinhamento criativo-página, promessa, tarja falando com o público |
+| Página | conversão = cadastros ÷ visualizações da página | 40% a 50% em captação gratuita (50% já é muito bom; turmas citam 30% a 40%); 70% na calculadora do método | alinhamento criativo-página, promessa, tarja falando com o público |
 | Resultado | CPL | ≈ 3x o CPC; meta = CPL máximo do plano | conforme a etapa que falhou |
 | Saturação | frequência | ~3,5 no quente = esgotado | abrir público frio, criativo novo |
 
@@ -27,21 +26,21 @@ Leituras combinadas: CPM alto + CTR bom + página baixa = problema na página (m
 Dobrar a conversão da página corta o CPL pela metade. Criar coluna personalizada de taxa de carregamento.
 Delay e iOS fazem Hotmart e gerenciador divergirem; custo real = valor do cartão, com imposto.
 
-Colunas mínimas (ordem que o gestor da aula usa): **Resultado · Custo por resultado · Valor usado**; somar CPM, CTR do link,
+Colunas mínimas (ordem recomendada): **Resultado · Custo por resultado · Valor usado**; somar CPM, CTR do link,
 cliques, visualizações da página de destino, taxa de carregamento e, para vídeo, hook rate e hold rate (fórmulas em
 `ht-criativos-high-ticket`).
 
 ## 3. Otimização em 3 níveis (ordem)
 
-**Nível 1, anúncio** (o que o FHT ensina):
+**Nível 1, anúncio** (o que o método ensina):
 - Dentro de cada conjunto, comparar: quem trouxe mais cadastro por menos x quem trouxe pouco e caro.
-- Manter o barato; desativar o que gastou bem acima do CPL meta sem trazer (critério da aula: gastou o dobro do CPL desejado
+- Manter o barato; desativar o que gastou bem acima do CPL meta sem trazer (critério: gastou o dobro do CPL desejado
   sem nenhum lead; exemplos de anúncios desligados com R$ 126 sem lead e R$ 500 com 5 leads quando a média era ~R$ 100).
 - Anúncio que gastou pouco: deixar rodar, não há dado.
 - Aceitar um anúncio um pouco mais caro que a média se ele é o que traz volume.
 - Desligar mídia relacionada (mistura métricas). Um anúncio dominando o gasto é a IA da Meta: isolar para forçar teste.
 - **Regra do squad (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`)**: não pausar anúncio dentro de campanha; usar a alavanca de campanha
-  (abaixo). Os critérios de corte acima são do FHT e ficam como contexto e leitura de desempenho, não como ação.
+  (abaixo). Os critérios de corte acima são do método e ficam como contexto e leitura de desempenho, não como ação.
 
 **Nível 2, conjunto**:
 - Conjunto caro sem anúncio salvando: desativar. Conjunto barato: aumentar verba.
@@ -61,9 +60,9 @@ cliques, visualizações da página de destino, taxa de carregamento e, para ví
 
 ## 4. Escala
 
-- Aumento de **20%** por vez (FEV26) e no máximo **30%** (OUT25). Acima disso: **duplicar a campanha** (escala horizontal; um
+- Aumento de **20%** por vez e no máximo **30%**. Acima disso: **duplicar a campanha** (escala horizontal; um
   gestor da casa chega a 10 campanhas).
-- Subir verba rápido demais disparou o CPL de ~R$ 20 para R$ 45 a 53 (caso de aula, referência).
+- Subir verba rápido demais disparou o CPL de ~R$ 20 para R$ 45 a 53 (caso de referência).
 - O pixel aprende: mais conversões baixam o CPL com o tempo; por isso a campanha de sessão não é recriada à toa.
 - CPL na meta: não mexer na estrutura; escalar com calma.
 - Campanhas Advantage+ abertas não competem entre si no leilão (regra do squad): não usar "canibalização" como diagnóstico;

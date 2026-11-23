@@ -1,6 +1,6 @@
 ---
 name: ht-imersao-aprendizado
-description: 'Monta a IMA (Imersão de Aprendizado) do método FHT do Squad High Ticket com o funil inteiro pronto, online ou presencial, de 1 a 3 dias: ensina o método do expert e vende o HT no meio (seeding de "acelerar o aprendizado", pitch de "acelerar o resultado"). Entrega planejamento (Big Idea, ingresso, HT, downsell, metas com no-show), cronograma do projeto, grade minuto a minuto, roteiros das falas não palestra (talks, encerramentos, pitch, re-pitch, downsell), operação de venda (break, mesa de fundo, lobby online), mapa de peças, checklist, recuperação e debriefing. Use quando o estrategista disser "imersão de aprendizado", "IMA", "imersão de 3 dias ensinando o método", "imersão como bônus do lançamento", "imersão para quem comprou o curso". NÃO usar para IMI (ht-imersao-implementacao), Mundo Paralelo/IMR, nem lançamento pago semanal/5+1 (LPSG da Turbo).'
+description: 'Monta a IMA (Imersão de Aprendizado) com o funil pronto, online ou presencial, de 1 a 3 dias: ensina o método do expert e vende o HT no meio. Entrega planejamento, grade, roteiros das falas, operação de venda e debriefing. Use para "imersão de aprendizado", "IMA", "imersão de 3 dias ensinando o método". NÃO use para IMI (ht-imersao-implementacao) nem IMR.'
 ---
 
 # Imersão de Aprendizado (IMA)
@@ -37,20 +37,20 @@ re-pitch e o downsell no dia 3. A imersão acelera o aprendizado; o HT acelera o
 
 1. **Confirmar o encaixe da IMA** (`references/planejamento-e-metas-ima.md`, seção 1): o avatar quer aprender rápido (acabou
    de comprar, está inativo, tem pressa); o método tem profundidade para 1 a 3 dias intensos (se "cabe em meio dia", o método
-   está raso); online só se houver como segurar atenção (o FHT vendeu 2 no dia do pitch de uma IMA online porque ninguém
+   está raso); online só se houver como segurar atenção (um caso de IMA online vendeu 2 no dia do pitch porque ninguém
    estava de fato assistindo). Se o objetivo é o aluno sair com algo pronto, o formato certo é a IMI.
 2. **Documento de planejamento** (modelo na referência, seção 2): data; o que é e Big Idea ("ensinar [método] do [A] ao [B]
    em N dias"); ingresso (ticket e meta); HT (ticket e meta, só citando `02-oferta/`); downsell (ticket e meta; tende a ser o
    ingresso do próximo evento); formato.
 3. **Fusão e timing**: definir se a IMA é canal do HT, produto HT por si ou bônus de ação rápida do produto principal. Como
-   bônus: pelo menos ~3 semanas entre o fim do carrinho e o evento (o FHT usou 28 dias). Fazendo presencial e online na mesma
+   bônus: pelo menos ~3 semanas entre o fim do carrinho e o evento (referência: 28 dias). Fazendo presencial e online na mesma
    onda: presencial primeiro, online 1 a 2 semanas depois, sem avisar o online a quem ganhou o presencial.
 4. **Metas** (referência, seção 3): vendas do HT → presentes elegíveis → presentes → confirmados, com ~30% de no-show sobre
-   confirmados no pago e mais no gratuito; conversão de HT de referência no presencial 14% a 25% (IMA FL 18,6%), online bem
-   menor (IMA FL online ~2,8%, conferir); nunca a taxa de uma live anterior. Projetar vendas por dia: ~1/3 a 45% no dia 2,
+   confirmados no pago e mais no gratuito; conversão de HT de referência no presencial 14% a 25% (referência 18,6%), online bem
+   menor (online ~2,8%, conferir); nunca a taxa de uma live anterior. Projetar vendas por dia: ~1/3 a 45% no dia 2,
    o restante no dia 3 até o almoço, e o "pinga-pinga" à tarde. Meta de downsell à parte (volume baixo).
 5. **Avatar do evento**: pesquisa de confirmação com perguntas que mostram quem vai estar na sala (tempo como aluno, perfil,
-   faixa de renda, primeira vez em evento, já tem HT). O resumo vai para o expert antes do pitch (o FHT refaz o avatar a cada
+   faixa de renda, primeira vez em evento, já tem HT). O resumo vai para o expert antes do pitch (refazer o avatar a cada
    evento: "o avatar do produto não é o avatar da sala").
 6. **Grade** com `references/grade-ima.md`: dia 1 conteúdo puro (palestras P1 a Pn com exercício ou P&R entre blocos, sem
    pitch, não passar de ~22h30); dia 2 abertura com vídeo e takeaways, conteúdo, palestra pré-pitch (~2 h), vídeo + pitch
@@ -85,18 +85,17 @@ re-pitch e o downsell no dia 3. A imersão acelera o aprendizado; o HT acelera o
   o HT parou de vender; pitch demais no fim tira valor do conteúdo.
 - Downsell não é para monetizar, é para manter no ciclo; nunca ingresso grátis para aluno.
 - Conversão medida sobre presentes **elegíveis**. Presencial com antecedência (de última hora o custo explode).
-- Padrões recomendados (o estrategista pode mudar em `padroes` do perfil): a entrada é decisão do estrategista; dupla custa +50%
-  sobre o individual, se a oferta tiver; programa de 11 a 13 meses ajustado para terminar num evento de renovação (como o FHT fez
-  com 13 meses); preço na ordem entrada, parcelado, à vista; comparecimento planejado pelo padrão do squad.
+- Padrões recomendados (editáveis em `padroes` do perfil): a entrada (gratuita, credencial ou paga) assumo pelo padrão e listo em "Assumi"; dupla custa +50%
+  sobre o individual, se a oferta tiver; programa de 11 a 13 meses ajustado para terminar num evento de renovação (referência: 13 meses); preço na ordem entrada, parcelado, à vista; comparecimento planejado pelo padrão do squad.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-- **Entrada da IMA**: gratuita, credencial, paga, mista (grátis para compradores do lançamento e paga para não alunos)
-  ou bônus de lançamento. Opções e números em `../ht-decisao-de-evento/references/entrada-do-evento.md`. Perguntar sempre.
-- **Formato** (online ou presencial) e **duração** quando a ficha deixou em aberto.
-- **Condição do evento** (entrada no evento, bônus de evento, extensão de duração, dupla): só como versão nova de `02-oferta/`.
-- **Downsell** (qual produto e ticket) e **ingresso** (preço e lotes).
-- Verba, local e fornecedores do presencial; ativação de campanhas, disparos e automações.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Entrada da IMA** (gratuita, credencial, paga, mista ou bônus de lançamento): assume a recomendação de `../ht-decisao-de-evento/references/entrada-do-evento.md`; valor de credencial ou ingresso é preço: "posso seguir?".
+- **Formato e duração** em aberto na ficha: assume online de 1 dia.
+- **Condição do evento** (entrada, bônus de evento, extensão de duração, dupla): só como versão nova de `02-oferta/`.
+- **Downsell e ingresso**: produto e ticket saem de `02-oferta/`; preço e lotes: "posso seguir?".
+- **Verba, local e fornecedores do presencial; ativação de campanhas, disparos e automações**: "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -106,7 +105,7 @@ as falas não palestra; [ ] pedidos abertos para palestras, pré-pitch e pitch; 
 pagamento); [ ] operação do break com papéis nomeados; [ ] mapa de peças com dono e prazo; [ ] checklist de execução;
 [ ] recuperação e debrief planejados.
 
-**Auditoria** (debriefs da IMA FL e correções do bootcamp; checklist completo em `references/operacao-de-venda-e-pos-ima.md`,
+**Auditoria** (debriefs de IMAs anteriores; checklist completo em `references/operacao-de-venda-e-pos-ima.md`,
 seção 9): oferta na abertura; "só 10% assistem o curso" na talk; pitch tarde; break curto; re-pitch ausente no dia 3; downsell
 cedo, caro ou grátis; dia 1 virando maratona; meta copiada; conversão sobre inscritos; palestras picadas entre muitos
 palestrantes; sem repasse de autoridade; online sem plano de atenção; ninguém olhando dados durante o evento; evento presencial
@@ -119,27 +118,17 @@ de última hora; avatar da sala não pesquisado; downsell sobrepondo o HT.
 - Captação, confirmação, lembretes, central: `ht-captacao-e-presenca`. Ingresso pago, lotes, lote zero: `ht-venda-de-ingressos`.
 - Página e central no ar: ht-web-designer. Slides e vídeos: ht-diretor-arte e ht-designer. Tráfego: ht-gestor-trafego.
 - Números: ht-controller. Recuperação: rascunhos ao ht-closer. Onboarding dos novos alunos: `ht-onboarding-e-primeira-entrega`.
-- Presencial de 3 dias com logística pesada: usar também `ht-imersao-presencial` (GPS, local, fornecedores, custos).
+- Presencial de 3 dias com logística pesada: usar também `ht-imersao-presencial` (cronograma, local, fornecedores, custos).
 - Revisão: ht-revisor-metodo-copy (roteiros, copy) e ht-revisor-visual (slides, página, central).
 
 ## 8. Ferramentas de apoio
 
-`gerador-slides-turbo` ou `slides-uipm-turbo` (slides das falas), `anthropic-skills:pptx` (deck), `anthropic-skills:xlsx`
+`gerador-slides` ou `slides-uipm` (slides das falas), `anthropic-skills:pptx` (deck), `anthropic-skills:xlsx`
 (grade e metas), `countdown-video` (countdown de abertura), `testimonial-video` (vídeo emocional e depoimentos),
 `lower-thirds` (nome de palestrante), `capcut-edit` ou `remotion` (vídeo de abertura), `pagina-design-premium` e
 `publicar-pagina-cloudflare` (página e central), `email-marketing-mautic` e `conectar-whatsapp-oficial` (lembretes, com OK),
 `analytics-dashboard` (dashboard de vendas ao vivo), `avoid-ai-writing` e `humanizer` (falas na voz do expert).
 
-## 9. Fontes e lacunas
+## 9. Limites
 
-**Fontes**: trilha 18, Bootcamp IMA (aulas 02 introdução, 03 debriefing das imersões FL, 04 e 06 cronogramas, 05 planejamento,
-07 talk dia 1, 08 conteúdo dia 1, 09 encerramento dia 1, 10 talk dia 2, 11 pitch, 12 break, 13 encerramento dia 2, 14 e 15 dia
-3, 16 re-pitch, 17 downsell (arquivo intitulado "Encerramento dia 3"), 18 encerramento; as de 02, 03, 04, 06, 08, 09, 10, 11, 14 e 15 transcritas hoje), RESUMO da trilha
-18 com a planilha do cronograma e os 9 roteiros white label do Drive, GPS Imersão Presencial (aula 19); catálogo,
-fht-planejar-ima, fht-talk-de-abertura, fht-pre-pitch-e-seeding, fht-pitch-de-evento, fht-repitch-repeat-e-objecoes-ao-vivo,
-fht-downsell-no-evento, fht-encerramentos-diarios, fht-mesa-de-fundo-e-break-de-vendas (partes D, G, H, I).
-
-**Lacunas**: o mapa mental do pitch (template prometido no bootcamp) e a planilha de cronograma estão fora dos arquivos de texto;
-a grade da referência vem da planilha transcrita no RESUMO. A IMA de 1 e 2 dias é adaptação pela lógica de blocos ensinada na
-trilha 22 (marcado). Preços do Mundo Paralelo e alguns números do debriefing têm ruído (conferir). O que o "livro-brinde" contém
-e como é produzido não está detalhado. O processo de aprovação do FHT na segunda-feira é citado no GPS sem o passo a passo.
+**Limites**: o mapa mental do pitch e a planilha de cronograma não vêm prontos; a IMA de 1 e 2 dias é adaptação por blocos (marcada). Alguns números do debriefing têm ruído (conferir). O conteúdo do "livro-brinde" e como é produzido não estão detalhados, nem o processo de aprovação na segunda-feira.

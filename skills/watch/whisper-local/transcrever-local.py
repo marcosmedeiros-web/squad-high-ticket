@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 """Transcrição LOCAL pra skill watch — faster-whisper, sem chave de API.
 
-Mesmo motor que a cortes-tiktok-turbo usa (faster-whisper · int8 · CPU).
+Mesmo motor que a cortes-tiktok usa (faster-whisper · int8 · CPU).
 O áudio nunca sai da máquina.
 
 Uso:
-  bash transcrever.sh <video-ou-audio> [--model medium] [--start MM:SS] [--end MM:SS]   (acha o venv: ~/.local/share/head-turbo/whisper-venv)
+  bash transcrever.sh <video-ou-audio> [--model medium] [--start MM:SS] [--end MM:SS]   (acha o venv: ~/.local/share/whisper-venv)
 
 Saída: linhas "[MM:SS] texto" no stdout — o formato que a watch entrega pro Claude.
 Aceita vídeo direto (mp4/mov/webm) ou áudio; decodifica via PyAV, sem ffmpeg manual.
@@ -33,7 +33,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("media")
     ap.add_argument("--model", default="medium",
-                    help="tiny/base/small/medium/large-v3 (padrão: medium, o mesmo da cortes-tiktok-turbo)")
+                    help="tiny/base/small/medium/large-v3 (padrão: medium, o mesmo da cortes-tiktok)")
     ap.add_argument("--lang", default="pt")
     ap.add_argument("--start", default=None, help="MM:SS — só transcreve a partir daqui")
     ap.add_argument("--end", default=None, help="MM:SS — para aqui")

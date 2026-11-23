@@ -1,15 +1,15 @@
 # Kit do afiliado: abertura do programa e materiais de convite
 
-Estruturas tiradas da trilha 17 (aula 31), da Live 023 e da aula 200 da trilha 22, parafraseadas. Os textos originais da FHT
-(drive e vídeo de convite) não estão nas fontes. Tudo é rascunho até o OK do estrategista e o parecer do revisor.
+Estruturas do método, parafraseadas. Os textos prontos (drive e vídeo de convite) são do expert e saem de cada projeto.
+Tudo é rascunho até o OK do estrategista e o parecer do revisor.
 
 ## 1. Convite para virar afiliado (vídeo ou mensagem)
-Estrutura do convite em vídeo que a FHT usou (aula 31, trechos ditados):
+Estrutura do convite em vídeo:
 1. Abre com a parceria e o valor da comissão por pessoa que entrar no programa pela indicação.
 2. Diz que a comissão continua nas renovações.
 3. Apresenta o evento (datas, o que é) e por que é só para convidados.
 4. Explica que cada afiliado tem um número limitado de convites para pessoas com potencial.
-5. Prova: conversão do evento anterior, taxa de renovação, resultados dos alunos (números do expert, nunca os da FHT).
+5. Prova: conversão do evento anterior, taxa de renovação, resultados dos alunos (números do expert, nunca os de outro expert).
 6. CTA para o webinário das regras (data e hora) e para o grupo.
 
 ## 2. Webinário de regras (roteiro, ~30 a 45 min)
@@ -24,7 +24,7 @@ Estrutura do convite em vídeo que a FHT usou (aula 31, trechos ditados):
 9. Formulário aberto ao vivo, com tempo marcado.
 
 ## 3. Script de convite do afiliado para o convidado
-Estrutura da mensagem que a FHT entregou aos afiliados (Live 023): gancho de oportunidade ("tem uma oportunidade para você");
+Estrutura da mensagem entregue aos afiliados: gancho de oportunidade ("tem uma oportunidade para você");
 pedido de atenção se a pessoa confia no afiliado; gratidão ao expert e o que ele ajudou a conquistar; prova curta do método;
 o convite limitado ("me disponibilizaram alguns convites"); por que a pessoa foi escolhida; o link.
 

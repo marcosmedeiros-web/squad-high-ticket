@@ -1,6 +1,6 @@
 # Planilha de controle de renovações
 
-Modelo FHT: arquivo `FORMULA HIGH TICKET/trilhas/_materiais/planilhas/20-renovacao__1UcuiCdP.xlsx`, aba "ACOMPANHAMENTO RENOVAÇÃO",
+Modelo de referência: planilha com a aba "ACOMPANHAMENTO RENOVAÇÃO",
 vazia, sem fórmulas, com duas validações de lista (E3:E1001 e I3:I1001; conferido no arquivo). Linha 1: rótulo do bloco D-G ("gestão das confirmações de presença e feedbacks") e do bloco H-J ("gestão de
 renovações"). Linha 2: cabeçalho.
 

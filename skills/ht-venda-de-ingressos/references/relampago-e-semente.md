@@ -1,8 +1,5 @@
 # Lançamento relâmpago por e-mail e semente de ingresso
 
-Fonte: trilha 17, aulas 26 (relâmpago) e 27 (semente); e-mails reais da pasta `_materiais/17-bonus-imersao-online/4. Lançamento
-Relâmpago/` (série de um evento virtual de julho/2024; o e-mail 2 não está na pasta). Estruturas parafraseadas.
-
 ## 1. Relâmpago: sequência de 4 dias
 
 | Dia | E-mail | Função | Elementos |
@@ -32,6 +29,6 @@ oferta do ingresso. Sempre com uma Big Idea que faça a pessoa querer ir.
 no 1 a 1 (`divulgacao-base-e-time-comercial.md`).
 
 **Cuidado**: criativo que gera lead barato mas confunde quem está comprando outro produto do expert ao mesmo tempo prejudica a
-empresa (caso da aula). Não rodar semente de ingresso sobreposto a lançamento para a mesma base.
+empresa (caso de referência). Não rodar semente de ingresso sobreposto a lançamento para a mesma base.
 
 Fronteira: a live direto ao ponto que vende o **HT** é da `ht-live-direto-ao-ponto`; aqui ela vende o **ingresso**.

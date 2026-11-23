@@ -1,10 +1,9 @@
 # Roteiro da sessão 1a1: modelo com falas, tempos e intenção
 
-Fonte: documento de roteiro da trilha 09 (`trilhas/_materiais/documentos/09-sessao-1a1__1QoiWx3i.txt`), RESUMO-vendas §5, rota 3
-resumo 05, trilha 22 (abr/2026 93-94, jul/2026 RJ 07-08, dez/2025 143). Falas parafraseadas: o agente reescreve na voz do
+Falas parafraseadas: o agente reescreve na voz do
 expert, mantendo a função. Colchetes = preencher com dado do projeto; preço sempre de `02-oferta/oferta-vigente.md` (versão).
 
-Tempos: alvo 1h15, teto 1h30 (padrão do squad). Totais das fontes: boas-vindas ~2 + ~3 min, Raio-X ~20, oferta ~30; a
+Tempos: alvo 1h15, teto 1h30 (padrão do squad). Totais de referência: boas-vindas ~2 + ~3 min, Raio-X ~20, oferta ~30; a
 divisão fina abaixo é inferência da skill e deve ser ajustada com a gravação das primeiras sessões.
 
 ## 0. Setup (antes da call)
@@ -20,8 +19,8 @@ divisão fina abaixo é inferência da skill e deve ser ajustada com a gravaçã
 
 **1a. Quebra-gelo (~2 min).** Algo fora do tema, que gere um sorriso: de onde fala, clima, algo visível no fundo, DDD, ponto em
 comum. Reagir à resposta e puxar um pouco (não fazer "batidão" de perguntas). Não pressupor nada da vida do lead ("seus
-filhos…" com quem não tem filhos quebra a conexão; laboratório abr/2026). Se quem conduz tem sotaque ou fala rápido, avisar que o
-lead pode interromper a qualquer momento (roleplay jul/2026 RJ). Se houver duas pessoas: "me conta o papel de cada
+filhos…" com quem não tem filhos quebra a conexão). Se quem conduz tem sotaque ou fala rápido, avisar que o
+lead pode interromper a qualquer momento. Se houver duas pessoas: "me conta o papel de cada
 um" e "alguém mais participa dessa decisão com você?".
 
 **1b. Pergunta inicial (3-5 min).** Uma só, aberta, e silêncio:
@@ -29,15 +28,15 @@ um" e "alguém mais participa dessa decisão com você?".
 Variante para B2B: "quais são hoje os seus três principais desafios em [tema]?". Se a pessoa já contou no quebra-gelo, pular.
 Anotar as frases literais de dor e de desejo (voltam na leitura, nos entregáveis e nos três sins). Deixar terminar; não
 responder por cima.
-Variante de mentor (roleplay jul/2026 RJ, opcional e curta): depois da resposta, uma pergunta de implicação ("e como isso te
-prejudica hoje, na prática?") e, se surgir número, fazer a conta com o lead (ex. de aula: oportunidade de R$ 10 mil por mês
-perdida = R$ 120 mil no ano). A trilha 09 pede pergunta breve e volta à condução; a implicação longa fica para a leitura.
+Variante de mentor (opcional e curta): depois da resposta, uma pergunta de implicação ("e como isso te
+prejudica hoje, na prática?") e, se surgir número, fazer a conta com o lead (ex.: oportunidade de R$ 10 mil por mês
+perdida = R$ 120 mil no ano). O padrão pede pergunta breve e volta à condução; a implicação longa fica para a leitura.
 
 **1c. Apresentação e objetivo (~1 min).**
 > Eu sou [nome], [papel em uma frase]. Hoje eu vou fazer um diagnóstico do seu [tema] para a gente enxergar seus pontos fortes,
 > seus pontos de atenção e as oportunidades dentro da sua realidade. No fim você vê isso num gráfico. Combinado?
 Se quem conduz não é o expert: apresentar-se como do time e dizer o papel. Não falar de método, mentoria ou oferta. O objetivo
-tem de dizer de quê ("seus desafios na [carreira/clínica/saúde]"), nunca "seus principais desafios" solto (laboratório abr/2026).
+tem de dizer de quê ("seus desafios na [carreira/clínica/saúde]"), nunca "seus principais desafios" solto.
 
 ## Etapa 2 · Raio-X e leitura do gráfico (0:07-0:33) · intenção: aflorar a necessidade
 
@@ -67,10 +66,10 @@ quando nos entregáveis para não virar monólogo.
 **Coleta (2 slides)** e silêncio:
 > Faz sentido para você? Ficou alguma dúvida sobre como funciona?
 > O que você acredita que consegue alcançar tendo esse acompanhamento? E sem ele, o que muda?
-Variações aceitas (trilha 09, aulas 14 e 15): "você entendeu como isso transforma [o seu resultado]?" no lugar de "faz sentido";
+Variações aceitas: "você entendeu como isso transforma [o seu resultado]?" no lugar de "faz sentido";
 pôr prazo ou número do nicho na segunda ("nos próximos meses", "quantos quilos você acredita…"). A primeira é checagem, a segunda
 é coleta de verdade: perguntar e calar.
-Limpeza da mesa antes do preço (3 perguntas ditas nas aulas): ficou claro tudo o que apresentei? tem algo que, para você, não faz
+Limpeza da mesa antes do preço (3 perguntas): ficou claro tudo o que apresentei? tem algo que, para você, não faz
 sentido agora ou atrapalharia? se couber no seu orçamento, você decide hoje? Toda dúvida de entrega é resolvida aqui.
 
 ## Ancoragem, preço, bônus, garantia (1:05-1:10)

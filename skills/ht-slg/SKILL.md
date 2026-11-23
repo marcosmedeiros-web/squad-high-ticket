@@ -1,13 +1,13 @@
 ---
 name: ht-slg
-description: 'Squad High Ticket / método FHT. Social Lead Generation para encher a agenda da sessão 1a1 sem tráfego: lista de 50 a 100 potenciais (do mais quente ao mais frio), qualificação por característica visível, as 3 mensagens (desarmadora, condução, arremate) personalizadas por lead e por fonte, rotina diária com a conta 100-20-1, fontes de lista (enquete, stories, isca qualificada, live, Kinder Ovo, arpão), nome do convite, delegação e auditoria de prints. Use quando o estrategista disser "monta a lista do expert", "escreve a desarmadora para esse perfil", "quantas abordagens para 20 sessões?", "audita as mensagens", "de onde tiro lead orgânico?". Produz RASCUNHO para o estrategista aprovar; não envia nada nem fala com lead. NÃO usar para LPSG/5+1/Funil 8 (Turbo), agendamento e lembretes (ht-agendamento-e-follow-up) ou anúncio pago (ht-trafego-high-ticket).'
+description: 'Social Lead Generation para encher a agenda da sessão 1a1 sem tráfego: lista de potenciais, qualificação, as 3 mensagens (desarmadora, condução, arremate), rotina com a conta 100-20-1 e fontes de lista. Use para "monta a lista do expert", "escreve a desarmadora", "quantas abordagens para 20 sessões?". Só rascunho. NÃO use para agendamento nem anúncio.'
 ---
 
 # SLG: Social Lead Generation para a sessão 1a1
 
 ## 1. Para que serve e o que entrega
 
-O SLG é a prospecção social do FHT: abrir conversa, com contexto e sem cara de venda, com quem já tem o perfil do cliente, e
+O SLG é a prospecção social do método: abrir conversa, com contexto e sem cara de venda, com quem já tem o perfil do cliente, e
 levá-lo até o "sim" para a sessão 1a1. Troca dinheiro de tráfego por tempo; custo quase zero, conversão alta porque a pessoa é
 filtrada antes. Objetivo único da conversa: **vender o agendamento, nunca o HT no direct.** A venda acontece na sessão.
 
@@ -40,9 +40,9 @@ filtrada antes. Objetivo único da conversa: **vender o agendamento, nunca o HT 
 ## 3. Passo a passo
 
 **Passo 1. Meta e conta reversa.** Da meta de vendas ou de sessões, calcular abordagens por dia com a conta 100-20-1 e as
-taxas de referência (cenários em `references/rotina-e-funil.md`, seção 2). O 100-20-1 da trilha 10 é o pior cenário com
+taxas de referência (cenários em `references/rotina-e-funil.md`, seção 2). O 100-20-1 é o pior cenário com
 lista 100% fria (20% de agendamento sobre abordagens); outras turmas citam 10%: mostrar os cenários, nunca prometer. Meta padrão do método: 20 sessões com oferta
-apresentada (25 no desafio), mesmo imperfeitas, antes de concluir qualquer coisa (padrão do squad).
+apresentada (25 em versão de desafio), mesmo imperfeitas, antes de concluir qualquer coisa (padrão do squad).
 
 **Passo 2. Lista de 50 a 100 potenciais** (`references/lista-e-qualificacao.md`, seção 1). Do mais quente ao mais frio:
 alunos e ex-alunos, ambiente profissional, social, grupos, network de eventos, quem segue e interage, depois desconhecidos
@@ -52,7 +52,7 @@ recebe WhatsApp: vira público de tráfego (passar ao `ht-trafego-high-ticket`).
 **Passo 3. Qualificação** (`references/lista-e-qualificacao.md`, seção 2). Três frentes: tem o problema, tem perfil para
 investir, tem contexto para aplicar. Só características visíveis no perfil e que sejam ponto de corte; o resto se valida na
 condução. "Não óbvio, passa." Mas no começo o filtro não pode ser estreito demais: as primeiras sessões também treinam o
-expert, e o funil afunila depois (bootcamp abr/2026). Cara de Pix vai para a sessão; sem perfil para o HT vai para a aula semanal ou outro funil.
+expert, e o funil afunila depois. Cara de Pix vai para a sessão; sem perfil para o HT vai para a aula semanal ou outro funil.
 
 **Passo 4. Análise do perfil e ponto de conexão.** Para cada lead: conferir a qualificação, achar a **fonte/contexto** (de
 onde veio: seguiu, curtiu, respondeu story, ex-aluno) e um **ponto de conexão** específico e verdadeiro (um post, um evento,
@@ -79,7 +79,7 @@ expert, à mão.
 arremate. Quando houver o "sim" e o WhatsApp, passar o lead ao `ht-agendamento-e-follow-up`.
 
 **Passo 9. Fontes de lista** (`references/fontes-de-lead.md`). Uma ou duas fontes por vez, esgotando uma antes de abrir outra
-(bootcamp abr/2026); enquete de qualificação nos stories toda semana (rende mais que caixinha); isca e tráfego ficam para depois. Lembrar: votos e visualizações de story somem em 48 h,
+;  enquete de qualificação nos stories toda semana (rende mais que caixinha); isca e tráfego ficam para depois. Lembrar: votos e visualizações de story somem em 48 h,
 lista de curtidas da live só aparece ao encerrar; print na hora.
 
 **Passo 10. Registro e leitura do funil.** Cada lead entra na Central 1x1 (origem "Social"; desarmadora, condução e arremate
@@ -105,7 +105,7 @@ sim/não). A cada lote ou semana, ler o funil por etapa e apontar onde falha (`r
 - Automação (ManyChat) só quando o lead pediu algo (palavra-chave para receber material) e só com OK do estrategista; a abordagem
   seguinte é humana.
 - Volume: alunos citam mandar cerca de 30 mensagens por dia sem bloqueio (fala de diagnóstico, não limite oficial; conferir). O
-  bloqueio citado nas aulas vem de texto igual em sequência (copia e cola), não do volume personalizado.
+  bloqueio vem de texto igual em sequência (copia e cola), não do volume personalizado.
 - Nunca convidar dentro de grupo; cada pessoa no privado.
 - Resiliência: perda em todas as etapas é normal; mais "não" que "sim". Só se para de falar com alguém quando a pessoa diz não.
 - O SDR (`ht-sdr`) produz rascunho; não envia, não fala com lead (protocolo, regra 2).
@@ -113,10 +113,10 @@ sim/não). A cada lote ou semana, ler o funil por etapa e apontar onde falha (`r
 ## 5. O que o agente decide e o que pede OK
 
 Sem lote de perguntas nem a/b/c: o agente decide pela recomendação e lista em "Assumi".
-- **Quem opera o SLG**: assume o expert (mais resposta) e lista em "Assumi". Equipe do expert depois da 2ª mensagem ou no WhatsApp é a alternativa; pessoa contratada só para SLG (referência de aula R$ 1.000 a 1.500 por mês, conferir) é gasto e pede "posso seguir?".
+- **Quem opera o SLG**: assume o expert (mais resposta) e lista em "Assumi". Equipe do expert depois da 2ª mensagem ou no WhatsApp é a alternativa; pessoa contratada só para SLG (referência R$ 1.000 a 1.500 por mês, conferir) é gasto e pede "posso seguir?".
 - **Ligar automação de isca** (palavra-chave no ManyChat) e qual pergunta de filtro: o agente propõe a pergunta; ligar a automação pede "posso seguir?".
 - **Sessão paga ou Kinder Ovo** como fonte: mexem na oferta (valor da sessão, bônus num produto barato), então dependem de
-  `02-oferta`. O agente não inclui sem estar na oferta e lista em "Assumi". Referência de aula: sessão de avaliação de R$ 97 a 3 mil, R$ 500 vendeu mais que R$ 197 (conferir).
+  `02-oferta`. O agente não inclui sem estar na oferta e lista em "Assumi". Referência: sessão de avaliação de R$ 97 a 3 mil, R$ 500 vendeu mais que R$ 197 (conferir).
 - **Nome e rotação do convite** (ex.: "diagnóstico", "análise", "auditoria"; "liberei mais 10 análises"): o agente propõe pelo padrão e lista em "Assumi".
 - **Abordar lista do expert que é sensível** (pacientes, clientes de serviço regulado) ou base antiga com áudio: o agente deixa de fora no primeiro lote, lista em "Assumi" e só inclui com "posso seguir?".
 - **Volume diário** muito acima das ~30 mensagens por dia citadas (risco de bloqueio da conta do expert): o agente mantém até ~30 e lista em "Assumi".
@@ -134,7 +134,7 @@ Sem lote de perguntas nem a/b/c: o agente decide pela recomendação e lista em 
 - [ ] Registro no formato da Central 1x1 pronto.
 - [ ] Nada enviado; tudo marcado "rascunho para aprovação".
 
-**Auditoria** (`references/auditoria-slg.md`): 12 critérios por mensagem e a tabela de erros dos laboratórios. Erros que
+**Auditoria** (`references/auditoria-slg.md`): 12 critérios por mensagem e a tabela de erros comuns. Erros que
 derrubam a entrega: copia e cola (nome errado, texto igual para todos); textão; tom de ChatGPT; "matar todas as etapas numa
 mensagem"; várias perguntas; abrir falando de faturamento; mensagem para o perfil da empresa; pular a condução; arremate sem
 ponte com o que a pessoa disse; característica de qualificação vaga ("disposto a fazer o que precisa"); abordar quem não decide.
@@ -152,25 +152,11 @@ ponte com o que a pessoa disse; característica de qualificação vaga ("dispost
 
 - Texto: `avoid-ai-writing`, `humanizer` (filtro obrigatório), `voice-builder` (voz do expert), `hook-generator` (gancho de
   stories e enquetes).
-- Pesquisa de perfis e do nicho: `instagram-analise-estrategica-turbo`, `leitura-web-turbo`, `niche-research`.
-- Peças de stories e carrossel com palavra-chave: `gerador-instagram-turbo`, `carrossel-instagram-publicacao`.
+- Pesquisa de perfis e do nicho: `instagram-analise-estrategica`, `leitura-web`, `niche-research`.
+- Peças de stories e carrossel com palavra-chave: `gerador-instagram`, `carrossel-instagram-publicacao`.
 - Planilha da lista e da Central: `anthropic-skills:xlsx`.
 - Automação de isca (só com OK): `automacao-fluxos`.
 
-## 9. Fontes e lacunas
+## 9. Limites
 
-**Fontes:** trilha 10 (aulas 02 a 10 lidas por inteiro na revisão R3; White Label de Mensagens, planilhas Lista de potenciais e
-Central 1A1); desafio abr/2026, bootcamp 97 e laboratório 98 de SLG (lidos por inteiro na revisão R3); rota 3, resumo e
-transcrição 06; demais laboratórios e bootcamps de SLG dos desafios (jul/2026 RJ itens 10-11, jun/2026 SP aulas 22-23, jan/2026
-aulas 129-130, dez/2025 aulas 146-147, mai/2025 159, mar/2025 178, via RESUMOs da
-trilha 22 e partes E, F, G); lives FHT 001-003, 020, 025, 027, 038, 043 (partes H e I: arpão, convite por oportunidade,
-Kinder Ovo, sessão paga, notificação de curiosidade); catálogo (fht-lista-de-potenciais-clientes, fht-slg-qualificacao,
-fht-slg-mensagens, fht-slg-agente-ia, fht-slg-auditoria-mensagens, fht-slg-rotina-e-funil, fht-slg-fontes-de-lead,
-fht-slg-delegar-para-equipe, fht-prospeccao-arpao, fht-nome-e-rotacao-do-convite-1a1, fht-fontes-de-lead-qualificado-1a1);
-GPT "FHT Social Lead Generation" (citado; prompt não disponível).
-
-**Lacunas (não inventar):** o material não dá cadência em dias entre mensagens do SLG (só "esperar um dia e mandar oi" num
-caso); o prompt interno do GPT da FHT não existe nos arquivos (o prompt da `references/agente-ia-e-delegacao.md` é nosso, não o
-deles); o 100-20-1 foi conferido na trilha 10, aula 08 (agendamentos, lista fria, pior cenário), mas outras turmas citam taxas
-menores; as ~30 mensagens por dia são fala de diagnóstico, não limite da Meta; o custo de pessoa de SLG é fala de aula;
-o mapa mental e a Central do Desafio não foram lidos; o detalhe da ferramenta interna de IA de SLG citada na Live 025 não existe.
+**Não inventar:** o método não dá cadência em dias entre mensagens do SLG (só "esperar um dia e mandar oi" num caso); o prompt de `references/agente-ia-e-delegacao.md` é do squad; o 100-20-1 é o pior cenário com lista fria, mas outras turmas citam taxas menores; as ~30 mensagens por dia são fala de diagnóstico, não limite da Meta; o custo de pessoa de SLG é referência falada.

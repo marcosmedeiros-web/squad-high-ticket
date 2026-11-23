@@ -1,8 +1,5 @@
 # Divulgação para a base (teoria das setas) e time comercial de ingressos
 
-Fonte: trilha 17, aulas 23 (divulgação para a base) e 28 (time comercial); scripts de venda direta Lista 1 e Lista 2 da pasta
-`_materiais/17-bonus-imersao-online/0. Divulgação para Base/` (evento de outro nicho; usar como estrutura).
-
 ## 1. Mapa de pontos de contato (tudo aponta para o evento, 1 a 2 meses antes)
 
 | Ponto | O que colocar | Dono |
@@ -42,7 +39,7 @@ Estrutura da mensagem Lista 2 (participante do evento atual): agradece; o próxi
 oferta para quem está ali; 2 por 1 e 3º com desconto; desconto extra se comprar hoje; prazo 23h59; bônus da gravação; onde
 aparece o 3º ingresso no carrinho.
 
-## 3. Time comercial de ingressos (aula 28)
+## 3. Time comercial de ingressos
 
 **Ordem das listas**: carrinho abandonado → proteção de checkout → inscritos das ações que não compraram → quem respondeu
 formulário/pesquisa → melhores notas de NPS. Presencial: priorizar pelo DDD da região do evento.
@@ -53,9 +50,9 @@ formulário/pesquisa → melhores notas de NPS. Presencial: priorizar pelo DDD d
 - Sequência de 3 do SDR na base de alunos (salva no CRM, 1 clique): (1) apresentação sem venda, "tem um recado do [expert]
   para você"; (2) vídeo do expert sobre o evento + "me fala o que achou"; (3) CTA para dizer se tem interesse.
 
-Referência do Bootcamp Lote Zero (aula 19): o comercial filtrou as alunas pelo DDD da cidade do evento e vendeu 111 ingressos
+Referência do Bootcamp Lote Zero: o comercial filtrou as alunas pelo DDD da cidade do evento e vendeu 111 ingressos
 (~R$ 92 mil) em cerca de um mês. A lista dos inscritos de cada ação (lote zero, semente) é lista quente para o comercial.
 
-Quanto mais caro o ingresso, mais consultiva a venda. Ingresso alto (caso FHT: R$ 5 mil com acompanhante, ~130 vendas num
-semente, aula 28) pode ser vendido no semente; outra prática é rodar o semente sem preço e passar a mão levantada ao comercial. No início o comercial pode ser o próprio expert. Objeções que o comercial
+Quanto mais caro o ingresso, mais consultiva a venda. Ingresso alto (caso de referência: R$ 5 mil com acompanhante, ~130 vendas num
+semente) pode ser vendido no semente; outra prática é rodar o semente sem preço e passar a mão levantada ao comercial. No início o comercial pode ser o próprio expert. Objeções que o comercial
 ouve viram FAQ da página.

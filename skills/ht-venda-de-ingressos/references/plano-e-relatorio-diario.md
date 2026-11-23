@@ -1,8 +1,5 @@
 # Plano de ingressos e relatório diário
 
-Fonte: trilha 17, aulas 21 (introdução: meta, medir todo dia, SOS Ingresso, Big Idea, squad) e 22; aula 19 (planilha de
-cronograma e metas de lotes, descrita e não capturada).
-
 ## 1. Plano (preencher)
 
 | Campo | Valor |
@@ -10,7 +7,7 @@ cronograma e metas de lotes, descrita e não capturada).
 | Evento, data, local, formato | |
 | Capacidade | |
 | Meta de ingressos (lotação + margem de ausência e gratuitos) | |
-| Entrada (decisão do estrategista) | gratuita / credencial / paga |
+| Entrada (decisão assumida no padrão, listada em "Assumi") | gratuita / credencial / paga |
 | Início da venda (1 a 2 meses antes; lote zero 4 a 6 meses) | |
 | Dias de venda | |
 | Velocidade necessária (meta ÷ dias) | |
@@ -23,7 +20,7 @@ cronograma e metas de lotes, descrita e não capturada).
 | Verba de tráfego pedida | |
 | Custo do evento (para a meta de CAC empatar) | |
 
-## 2. Metas por lote (estrutura da planilha do lote zero, aula 19)
+## 2. Metas por lote (estrutura da planilha do lote zero)
 
 | Lote | Preço | Abre | Fecha | Meta (ingressos) | % da meta total | Vendidos | % atingido |
 |---|---|---|---|---|---|---|---|
@@ -44,5 +41,5 @@ O que não vendeu: [ ]
 Proposta para amanhã: [ação nova concreta]
 ```
 
-Regra da aula: quem vê o número todo dia e propõe uma ação acaba achando a solução. O alerta que criou o grupo original veio
+Regra do método: quem vê o número todo dia e propõe uma ação acaba achando a solução. O alerta que criou o grupo original veio
 dois meses antes de um evento grande, com poucas vendas.

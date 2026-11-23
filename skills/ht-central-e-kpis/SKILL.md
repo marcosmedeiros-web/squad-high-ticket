@@ -1,6 +1,6 @@
 ---
 name: ht-central-e-kpis
-description: 'Squad High Ticket / método FHT. Monta e opera a gestão de números do HT: Central 1x1 (planilha white label do FHT, uma linha por lead, com as fórmulas corrigidas), funil comercial em microetapas, produtividade de SDR e closer, funil reverso (meta de vendas → leads, sessões e pessoas), painel de KPIs do programa (conversão por canal e origem, recebimento, consumo, NPS, renovação, Toques de Midas, custo por agendamento e por venda), diagnóstico pelas 4 alavancas (aquisição, retenção, upgrade, renovação + gestão) e a rotina do expert para executar o plano (mapa de atividades, time block, ciclos de compromisso). Use quando o estrategista disser "monta a Central 1x1", "como estão os números", "onde o funil trava", "quantos leads preciso", "painel do programa", "qual alavanca atacar", "o expert não tem tempo". NÃO usar para dashboard de lançamento LPSG da Turbo.'
+description: 'Monta e opera a gestão de números do HT: Central 1x1, funil comercial em microetapas, funil reverso, painel de KPIs, diagnóstico pelas 4 alavancas e rotina do expert. Use para "monta a Central 1x1", "como estão os números", "onde o funil trava", "quantos leads preciso", "qual alavanca atacar". NÃO usar para dashboard de evento de lançamento pago.'
 ---
 
 # Central 1x1 e KPIs do HT
@@ -11,7 +11,7 @@ Dá ao estrategista e ao expert uma leitura única dos números do HT e a próxi
 Central 1x1 do ciclo de sessões) e cresce para o painel do programa e o diagnóstico por alavanca.
 
 **Entrega** (conforme o pedido), em `experts/<slug>/ht/07-numeros/`:
-1. `central-1x1-<expert>.xlsx`: Central no modelo FHT, já com as fórmulas corrigidas e a aba de tráfego (inclui Reels).
+1. `central-1x1-<expert>.xlsx`: Central no modelo do método, já com as fórmulas corrigidas e a aba de tráfego (inclui Reels).
 2. `leitura-da-central-<data>.md`: taxas por etapa e por origem, gargalo, próxima ação, alerta de amostra pequena.
 3. `funil-reverso.md` (ou aba): meta de vendas → sessões → agendamentos → leads → abordagens → pessoas/horas.
 4. `produtividade-time.xlsx`: relatório de SDR e closer por dia, semana e mês contra meta.
@@ -34,7 +34,7 @@ Central 1x1 do ciclo de sessões) e cresce para o painel do programa e o diagnó
 ## 3. Passo a passo
 
 ### Passo 1. Central 1x1 (base de tudo no canal de sessão)
-Estrutura do white label FHT e correções em `references/central-1x1.md`. Resumo:
+Estrutura do modelo e correções em `references/central-1x1.md`. Resumo:
 - **Uma linha por lead**: Nome (com o @ do perfil) · Origem (Tráfego, Bônus, Social, Orgânico, Outbound) · Desarmadora · Condução ·
   Arremate (as 3 mensagens do SLG, sim/não) · Sessão agendada? · Sessão realizada? · Data da sessão · Oferta à vista · Oferta
   parcelada · Fazer follow-up (data) · Status conversão (Converteu / Não converteu) · Valor do contrato · Anotações da negociação ·
@@ -43,16 +43,16 @@ Estrutura do white label FHT e correções em `references/central-1x1.md`. Resum
   fria; "Bônus" = sessão dada como bônus (Kinder Ovo); "Tráfego" = anúncio.
 - **Acompanhamento geral**: leads gerados, sessões agendadas, comparecimento, conversão geral, conversão por origem, faturamento
   total, faturamento médio por sessão, custo médio por agendamento e por venda.
-- Há **duas versões** do white label: a do SLG (trilha 10, com as colunas das 3 mensagens) e a do Funil de Reels (trilha 14, sem
+- Há **duas versões** do modelo: a do SLG (com as colunas das 3 mensagens) e a do Funil de Reels (sem
   elas, com aba de tráfego de sessão e aba de Reels). As duas têm fórmulas com erro (a do SLG dá conversão de 125% no exemplo, o
-  sinal de "conferir fórmula se passar de 100%" das aulas). Usar a versão unificada com as fórmulas corrigidas da referência e
+  sinal de "conferir fórmula se passar de 100%"). Usar a versão unificada com as fórmulas corrigidas da referência e
   dizer ao estrategista o que mudou.
-- Custo por agendamento e por venda soma o tráfego da sessão **e** o dos Reels turbinados (versão da trilha 14 já faz isso).
+- Custo por agendamento e por venda soma o tráfego da sessão **e** o dos Reels turbinados (a versão do Funil de Reels já faz isso).
 - Preenchimento: no mesmo dia da abordagem e da sessão; objeções em texto curto padronizado (alimenta ht-objecoes).
 
 ### Passo 2. Ler a Central (ciclo da sessão)
 - Referências do protocolo: conversão de sessão 10% a 20% (padrão do squad); abaixo de 5% aciona diagnóstico de conversão
-  (ht-treino-comercial). Comparecimento: medir; referência de live 75% a 80% (conferir).
+  (ht-treino-comercial). Comparecimento: medir; referência 75% a 80% (conferir).
 - **Amostra mínima**: não concluir sobre produto, preço ou filtro antes de 20 sessões (25 no desafio). Análise de vendas pelo mentor
   depois de 5 sessões. Sempre dizer "N sessões" ao lado de cada taxa.
 - Volume de referência: 10 sessões por semana fora do desafio, 2 a 3 por dia útil; SLG de lista fria 100 abordagens → 20 reuniões
@@ -89,7 +89,7 @@ Lista completa, fonte e referência em `references/painel-kpis-e-alavancas.md`. 
 - **Resultado**: alunos por faixa de resultado, Toques de Midas disponíveis, resultados novos no catálogo.
 - **Renovação e upgrade**: aptos, confirmados, presentes, renovados (presentes x ausentes), elegíveis a upgrade, upgrades.
 - Semáforo: verde/amarelo/vermelho contra a meta do Master Plan ou a referência do protocolo; cada KPI mostra a fonte e o "N".
-- O material do FHT não descreve um painel pronto: o painel é síntese do squad sobre as métricas citadas (dizer isso).
+- O método não descreve um painel pronto: o painel é síntese do squad sobre as métricas citadas (dizer isso).
 - Formato: planilha (`anthropic-skills:xlsx`) ou página interna (`analytics-dashboard`), nunca pública.
 
 ### Passo 6. Diagnóstico pelas 4 alavancas
@@ -99,11 +99,11 @@ Lista completa, fonte e referência em `references/painel-kpis-e-alavancas.md`. 
    recebimento, caixa) como 5ª.
 3. Ordem típica de quem está começando: aquisição no 1a1 → entrega → retenção → upgrade e renovação.
 4. Escolher **uma** ação, com dono, prazo e métrica de execução e de resultado. As demais ficam em fila.
-5. Exemplo de raciocínio do FHT: se 100 alunos chegam ao marco, há 100 elegíveis a upgrade; resultado gera upgrade e evita
-   cancelamento (live 052).
+5. Exemplo de raciocínio do método: se 100 alunos chegam ao marco, há 100 elegíveis a upgrade; resultado gera upgrade e evita
+   cancelamento.
 
 ### Passo 7. Rotina do expert para executar o plano
-Modelo em `references/rotina-do-expert.md` (sala colab dez/25 e mai/25):
+Modelo em `references/rotina-do-expert.md`:
 - Fases: estabilizar, otimizar, crescer.
 - Mapa de atividades (atividade, domínio, tipo recorrente/espontânea/pontual/contínua, etapas, duração, cadência, quando termina).
 - Time block com 4 tipos de bloco: específicos, genéricos, reserva (~2 h/dia) e abertos; âncoras primeiro; tarefa cognitiva de manhã.
@@ -122,7 +122,7 @@ Modelo em `references/rotina-do-expert.md` (sala colab dez/25 e mai/25):
 3. Contrato ≠ recebido: faturamento do painel mostra os dois.
 4. Custo por agendamento e por venda inclui todo o tráfego que trouxe o lead (sessão e Reels).
 5. Uma ação por diagnóstico, ligada à alavanca de maior crescimento.
-6. Número de aula é referência; a meta vem do Master Plan do expert.
+6. Número de referência não é meta; a meta vem do Master Plan do expert.
 7. Dado de lead e aluno fica na pasta do projeto; painel não é publicado.
 8. Mudança de preço, de filtro ou de oferta a partir dos números: proposta ao estrategista, nunca alteração direta.
 
@@ -145,7 +145,7 @@ SDR/closer e remuneração, verba de tráfego para cobrir o funil reverso, compa
 - [ ] Rotina com time block, rituais e ciclo de compromisso.
 
 **Auditoria (erros típicos)**:
-1. Conversão acima de 100% (fórmula invertida do white label).
+1. Conversão acima de 100% (fórmula invertida do modelo).
 2. Faturamento médio por sessão dividido por agendadas em vez de realizadas; faturamento somando valor de linha não convertida
    (usar SUMIFS por "Converteu").
 3. Custo por agendamento dividido por leads.
@@ -168,19 +168,12 @@ SDR/closer e remuneração, verba de tráfego para cobrir o funil reverso, compa
 ## 8. Ferramentas de apoio
 
 `anthropic-skills:xlsx` (Central, funil reverso, produtividade), `analytics-dashboard` (painel interno), a ferramenta de tráfego do perfil (`trafego.ferramenta`) e
-`meta-ads-cli-turbo` (gasto e leads de tráfego, só leitura), `hotmart-meta-conversao` (vendas e recebimento), `ht-avaliacao-de-reunioes-por-ia`
+`meta-ads-cli` (gasto e leads de tráfego, só leitura), `hotmart-meta-conversao` (vendas e recebimento), `ht-avaliacao-de-reunioes-por-ia`
 (nota das sessões como KPI de qualidade).
 
-## 9. Fontes e lacunas
+## 9. Limites (não inventar)
 
-**Fontes**: white labels "Central 1A1" (`_materiais/planilhas/10-social-lead-generation__16k_wVG3.xlsx`, abas Central 1A1, Tráfego,
-Calc FHT, Dados; e `14-funil-de-reels__1fc_XB-P.xlsx`, com Tráfego Funil de Sessão 1A1 e Tráfego Funil de Reels com CTA; lidas célula
-a célula); Notion `notion-5a20.txt` (trilha 10 e 14); trilha 10 e desafios (RESUMO-desafio-30d-*:
-origem, outbound, metas de 20/25 sessões); parte-A (central e ciclo 100-20-1), parte-B (operador da central), parte-C (painel e aba de
-Reels), parte-E (registrar calls, sala colab de tempo), parte-G (calculadora de sessões, time block), parte-H (número mágico, painel de
-KPIs), parte-I (funil em microetapas, produtividade, funil reverso, plano anual, alavancas); lives 038, 040, 043, 051, 052.
-
-**Lacunas**: (1) não existe painel de KPIs pronto no material (síntese do squad); (2) referências da aba "Calc FHT" (CTR acima de 1%,
-connect rate acima de 80%, conversão de página "acima de 70%") estão no arquivo sem explicação em aula: conferir antes de usar;
-(3) números do funil reverso e de comparecimento são de live, conferir; (4) não há método de cobrança e inadimplência além de
-"70% a 80% de recebimento" citado; (5) as duas versões da Central divergem em colunas e fórmulas; a versão unificada é do squad.
+Não existe painel de KPIs pronto: o painel é síntese do squad sobre as métricas do método (dizer isso). As referências da aba "Calc HT"
+(CTR acima de 1%, connect rate acima de 80%, conversão de página "acima de 70%") não têm explicação de origem: conferir antes de usar.
+Números do funil reverso e de comparecimento são de referência, conferir. Não há método de cobrança e inadimplência além de "70% a 80%
+de recebimento". As duas versões da Central divergem em colunas e fórmulas; a versão unificada é do squad.

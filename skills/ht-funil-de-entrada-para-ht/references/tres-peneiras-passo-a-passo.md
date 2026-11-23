@@ -1,7 +1,6 @@
 # Funil das três peneiras: fluxograma e checklist de montagem
 
-Fonte: `RESUMO-erico-rocha-e-sala-colab.md` §3, §4 (passos 1 a 14), §6, §7, §8; transcrição da Sala CoLab (aula 102).
-O fluxograma original dos alunos não foi baixado; este é reconstruído pelo que foi falado.
+O fluxograma abaixo é reconstruído a partir da descrição do método.
 
 ## 1. Fluxograma
 
@@ -14,11 +13,11 @@ O fluxograma original dos alunos não foi baixado; este é reconstruído pelo qu
         ↓ tag "comprou"
 [Aula zero + aulas 1 e 2 (dor e desejo, sem o como)] ← automação: assista em ordem, prazo de acesso
         ↓
-[Aula 3: quick win + PITCH do AR com preço] → tag "viu o pitch" → mensagem de aplicação   → PENEIRA 2 (exclui o morno)
+[3ª aula: quick win + PITCH do AR com preço] → tag "viu o pitch" → mensagem de aplicação   → PENEIRA 2 (exclui o morno)
         ↓
-[Aula 4: custo de oportunidade + REPEAT]
+[4ª aula: custo de oportunidade + REPEAT]
         ↓
-[Aplicação paga (formulário FHT + pagamento), apresentada como garantia]                     → PENEIRA 3 (seleciona o quente)
+[Aplicação paga (formulário do método + pagamento), apresentada como garantia]                     → PENEIRA 3 (seleciona o quente)
         ↓ pagou → mensagem na hora
 [Agendamento imediato (2 horários, até 2 dias)]
         ↓
@@ -33,7 +32,7 @@ O fluxograma original dos alunos não foi baixado; este é reconstruído pelo qu
 
 1. [ ] Promessa do minicurso derivada da Roma do AR (lado a lado no documento).
 2. [ ] Índice das aulas com o tipo de conteúdo (ver `conteudo-do-minicurso-e-pitch.md`).
-3. [ ] Pitch (aula 3) e repeat (aula 4) roteirizados com o preço e a garantia de `02-oferta/`.
+3. [ ] Pitch (3ª aula) e repeat (4ª aula) roteirizados com o preço e a garantia de `02-oferta/`.
 4. [ ] Landing com avisos de exclusão; seções: para quem é e não é, programação, o que aprende, perguntas frequentes.
 5. [ ] Checkout com filtro (dado que qualifica) e exclusão de quem não decide; acesso imediato; pesquisa rápida.
 6. [ ] Criativos só da promessa do minicurso; campanha de Vendas PAUSADA com verba fixa e regra de reinvestimento.
@@ -41,9 +40,9 @@ O fluxograma original dos alunos não foi baixado; este é reconstruído pelo qu
 8. [ ] Plataforma com relatório de progresso, retenção por aula e segmentação "viu o pitch" (no case, Hotmart; em outra
        plataforma, conferir como ela mostra isso antes de escolher).
 9. [ ] Link de aplicação abaixo do pitch, do repeat, numa aula só do link, no e-mail, no grupo e no WhatsApp individual.
-10. [ ] Formulário de aplicação da FHT terminando em pagamento; regra de devolução escrita.
+10. [ ] Formulário de aplicação do método terminando em pagamento; regra de devolução escrita.
 11. [ ] Disparo imediato de agendamento ao pagar.
-12. [ ] Sessão pelo roteiro da FHT, com Raio-X.
+12. [ ] Sessão pelo roteiro do método, com Raio-X.
 13. [ ] Painel de peneiras ligado (ver `metricas-cac-acv.md`).
 14. [ ] Plano do próximo ciclo (IMA e novo minicurso) e debrief.
 

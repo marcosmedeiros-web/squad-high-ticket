@@ -1,4 +1,4 @@
-# Rotina do expert para executar o plano (sala colab dez/25 e mai/25)
+# Rotina do expert para executar o plano
 
 ## 1. Fase
 Estabilizar (apagar incêndio, criar base) · Otimizar (padronizar e delegar) · Crescer (alavancas).
@@ -31,4 +31,4 @@ Revisão: dia __
 Valor da hora = faturamento do mês ÷ horas trabalhadas. Delegar primeiro o que custa menos que a hora do expert, na ordem
 administrativo → entrega → marketing → vendas → liderança. Pergunta do 10x: "o que eu faria se quisesse 10 vezes mais?".
 
-Agenda real do expert só é alterada a pedido e com OK (agenda-lembretes-turbo não é usado sem pedido).
+Agenda real do expert só é alterada a pedido e com OK.

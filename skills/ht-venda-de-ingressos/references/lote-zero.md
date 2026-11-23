@@ -1,14 +1,11 @@
 # Lote zero: roteiro completo
 
-Fonte: trilha 17, Bootcamp Lote Zero (aulas 13 a 20), com um expert de congresso presencial de massoterapia, e aula 25.
-Pacote original de materiais não capturado; estrutura reconstruída das aulas.
-
 ## 1. O que é
 Pré-venda do lote mais acessível do evento, em um dia de carrinho, dentro de um grupo de WhatsApp. Mistura três ideias: deixar
 claro desde a inscrição que haverá uma oferta; um webinário que entrega valor (como no semente); abertura de carrinho e vídeos
 dentro do grupo. Injeta ingressos e caixa no começo.
 
-## 2. Os 8 passos do planejamento (aula 13)
+## 2. Os 8 passos do planejamento
 1. Estratégia de lançamento.
 2. Big Idea do lançamento.
 3. Oferta (preço do lote zero, bônus de ação rápida, preço do último lote como âncora).
@@ -30,7 +27,7 @@ Quinta 9h às 19h ................ Carrinho aberto só nos grupos; Vídeo 3 "ins
 Sexta ........................... Reabertura com áudio do expert (para quem teve problema técnico)
 ```
 
-## 4. Webinário dos 5 segredos (aula 15)
+## 4. Webinário dos 5 segredos
 Título: "5 segredos do [evento anterior] que vão [resultado]". Para cada segredo: (a) entregar valor aplicável de verdade;
 (b) mostrar como o evento anterior entregou; (c) plantar o que o próximo evento traz de novo. Temas que o caso usou (adaptar):
 a evolução da técnica e a novidade só para quem vai; o poder do ambiente e do networking; atualização de alto nível (ensinar um
@@ -45,7 +42,7 @@ Sem evento anterior: revelar os 5 segredos como "spoiler" do que o evento vai en
   "quem estiver ao vivo terá a chance de garantir o lote zero"; botão para o grupo.
 - **Narrativa do expert**: abre primeiro para quem acompanha, o lote é limitado, a audiência é grande e vai esgotar, prazo claro.
 
-## 6. Pontos de contato orgânicos (aula 16, modelo)
+## 6. Pontos de contato orgânicos (modelo)
 Aulas ao vivo do produto principal (convite no fim, link no chat); grupos antigos de lançamentos; post na comunidade e grupo de
 alunos; disparo pela API oficial começando pelo DDD da cidade do evento, depois capitais, depois o resto; área de membros
 (aviso, pop-up); suporte (todo atendimento convida); Telegram dos alunos; e-mail da base. Para quem começa no HT: lista da aula
@@ -58,7 +55,7 @@ Terceira edição, com uma "pré-venda" antes (imersão online de 1 dia vendendo
 comunicações para a mesma base: lista de 3.420, 248 vendas, conversão 7,25%, CAC ~R$ 120 e ROAS ~5. O próprio expert diz que não
 repetiria a pré-venda: o lote zero já é a pré-venda.
 
-## 8. Aprendizados do caso (aula 18)
+## 8. Aprendizados do caso
 - O que mais funcionou: o "gatilho do evento" (uma live com tema de revelação sempre que possível), o tema dos 5 segredos repetido
   de uma edição para a outra, a antecipação com teaser e depoimentos no tráfego, a captação orgânica (converteu mais que o tráfego),
   um único dia de carrinho e a oferta com bônus de ação rápida.
@@ -67,7 +64,7 @@ repetiria a pré-venda: o lote zero já é a pré-venda.
 - Organização: cronograma de todas as ações de venda para o estrategista (posts, início e fim de captação, lives e temas) e
   planilha de metas por lote e por ação (`plano-e-relatorio-diario.md` §2).
 
-## 9. Estratégias complementares do caso (aula 19, referências de legenda, conferir)
+## 9. Estratégias complementares do caso (referências de legenda, conferir)
 - Comercial filtrando alunos pelo DDD da cidade do evento: 111 vendas e ~R$ 92 mil em cerca de um mês.
 - Lives no perfil do evento (react, live com aluna de resultado, temas do nicho, a formatura): 10 a 15 ingressos por live em média;
   8 a 10 quando não era o expert, 10 a 20 com o expert.

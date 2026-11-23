@@ -6,7 +6,7 @@
     GET  /api/contacts/<cid>/segments               RELEITURA: o contato está mesmo no segmento?
     POST /api/emails/<eid>/contact/<cid>/send       e-mail modelo para um contato
     GET  /api/stats/email_stats                     RELEITURA: a linha do envio existe?
-  OpenWA do kit (chave operator escopada à sessão, só em 127.0.0.1):
+  OpenWA na própria VPS (chave operator escopada à sessão, só em 127.0.0.1):
     GET  /sessions/<id>                             sessão pronta?
     GET  /sessions/<id>/contacts/check/<número>     existe no WhatsApp? qual o @lid?
     GET  /sessions/<id>/groups                      o grupo é desta sessão?
@@ -272,10 +272,7 @@ def avisar(perfil, texto, dados_dir):
             f.write(json.dumps({'texto': texto}, ensure_ascii=False) + '\n')
         p.chmod(0o600)
         return True
-    if canal == 'avisar-dono':
-        cmd = ['bash', str(Path(perfil['head_turbo_home']) / 'vigias' / 'avisar-dono.sh'), texto]
-    else:
-        cmd = [canal.split(':', 1)[1], texto]
+    cmd = [canal.split(':', 1)[1], texto]
     try:
         r = subprocess.run(cmd, capture_output=True, timeout=60)
     except (OSError, subprocess.TimeoutExpired):

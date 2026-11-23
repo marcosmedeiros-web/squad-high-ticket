@@ -1,7 +1,7 @@
 # Auditoria da aula semanal
 
 Rodar antes de entregar o plano, antes de cada nova página ou copy, e a cada 4 aulas. Cada item: OK / ajustar (com o ajuste) /
-não se aplica. Base: erros citados na trilha 14 (Partes 1 e 2), rota 3 aula 07 e laboratórios (catálogo fht-auditoria-aula-semanal).
+não se aplica. Base: erros típicos do método e de laboratórios com experts.
 
 ## A. Estratégia
 1. A métrica do plano é lista qualificada e sims, não presença ao vivo?
@@ -50,7 +50,7 @@ não se aplica. Base: erros citados na trilha 14 (Partes 1 e 2), rota 3 aula 07 
 
 ## G. Pós-live e números
 33. Descrição, comentário fixado, replay na playlist, resumo por IA?
-34. Planilha da semana preenchida; números de aula citados com "conferir"; número próprio do expert substituindo referência?
+34. Planilha da semana preenchida; números de referência citados com "conferir"; número próprio do expert substituindo referência?
 35. Debrief a cada 4 aulas em `13-aprendizados/`?
 
 ## Erros típicos para procurar primeiro

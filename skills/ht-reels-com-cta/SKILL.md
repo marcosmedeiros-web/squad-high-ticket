@@ -1,16 +1,16 @@
 ---
 name: ht-reels-com-cta
-description: 'Squad High Ticket / método FHT. Monta e opera o Funil de Reels com CTA do expert, a linha editorial 2 (a 1 é a aula semanal): 4 âncoras do avatar na voz dele, banco de 40 temas, roteiros de até 90 s nos 5 frameworks FHT (jeito errado/certo, problema-solução, oportunidade, complexo-simples, antes-depois), Reels raiz denso como variante, gancho de 3 s, CTA com rodízio semanal (5 Reels/semana), gravação, edição, postagem em lote, P&D, métricas e replicação com um ajuste. Use quando o estrategista disser "monta os Reels do expert", "me dá os 40 temas", "roteiro de Reels que vende o HT", "qual CTA em cada dia", "como ele grava e edita", "qual Reels deu certo", "replica o vencedor". NÃO usar para turbinar Reels (ht-trafego-high-ticket), roteiro da aula semanal (ht-aula-semanal), criativo de anúncio (ht-criativos-high-ticket) nem LPSG/5+1/Funil 8 da Turbo.'
+description: 'Monta e opera o Funil de Reels com CTA do expert: 4 âncoras, banco de 40 temas, roteiros de até 90 s em 5 frameworks, gancho, CTA com rodízio semanal, gravação, edição, métricas e replicação. Use para "monta os Reels do expert", "me dá os 40 temas", "qual CTA em cada dia", "replica o vencedor". NÃO usar para turbinar Reels (ht-trafego-high-ticket) nem para a aula semanal.'
 ---
 
 # Funil de Reels com CTA (linha editorial 2 do HT)
 
 ## 1. Para que serve e o que entrega
 
-No FHT, Reels não é conteúdo por conteúdo: é a boca de um funil. Todo Reels nasce de uma âncora do avatar, prende nos 3
+No método, Reels não é conteúdo por conteúdo: é a boca de um funil. Todo Reels nasce de uma âncora do avatar, prende nos 3
 primeiros segundos, entrega algo de verdade em até 90 s e termina num CTA que leva a uma ação de venda do HT (prioridade:
 cadastro na aula semanal). A skill monta esse funil do zero, produz os roteiros da semana em lote e fecha o ciclo com a
-leitura de métricas e a replicação do que funcionou. [FHT: trilha 14, aulas 02 a 04 e 20]
+leitura de métricas e a replicação do que funcionou.
 
 **Entrega** (arquivos em `experts/<slug>/ht/04-demanda/reels/`, nome `AAAA-MM-DD-<assunto>.md`):
 1. `AAAA-MM-DD-plano-reels.md`: linha editorial 2 ligada ao funil, destinos de CTA disponíveis, frequência (5/semana),
@@ -48,26 +48,26 @@ leitura de métricas e a replicação do que funcionou. [FHT: trilha 14, aulas 0
 **Passo 0. Escolher o modo.** (A) montar o funil do zero: passos 1 a 12; (B) roteiros da semana com âncoras e temas já
 prontos: passos 4 a 12; (C) auditar Reels pronto: passo 11; (D) ciclo de métricas e replicação: passo 13.
 
-**Passo 1. Linha editorial ligada a funil.** [FHT: trilha 14 aulas 02 a 04; Live 026]
+**Passo 1. Linha editorial ligada a funil.**
 - Aula semanal é a linha 1; Reels com CTA é a linha 2; as duas rodam juntas. Sem aula semanal, o Reels começa assim mesmo,
   com outro destino de CTA, e o plano registra a recomendação de montar a aula (`ht-aula-semanal`).
 - Cada formato aponta para um funil direto (sessão 1a1, imersão) ou indireto (aula semanal, comentário/isca para SLG).
 - Fora do método: "panfletagem" (peça sem estratégia) e conteúdo "estilo Google" (técnico, achável em qualquer busca).
 - O mesmo vídeo pode ir para Shorts, TikTok e LinkedIn. Orgânico e pago andam juntos; o pago fica com o tráfego (passo 13).
-- Volume: **5 Reels por semana** (padrão do squad). As fontes dizem "1 por dia, no mínimo" (trilha 14, aulas 04 e 20) e
+- Volume: **5 Reels por semana** (padrão do squad). As fontes dizem "1 por dia, no mínimo" e
   "lote de 3 a 7 num dia"; a FEV26 já tinha reduzido a meta para 5/semana. Mostrar a fonte e aplicar a decisão.
-  Na aula 20 a regra é "pelo menos uma postagem por dia, independente do formato" (carrossel e corte de aula contam): um
+  A regra é "pelo menos uma postagem por dia, independente do formato" (carrossel e corte de aula contam): um
   corte da aula semanal com CTA (`ht-conteudo-de-prova`) pode ocupar um dos 5 slots, desde que siga as regras desta skill.
 - Registrar no plano: destinos de CTA ativos, dia/hora da aula, redes, responsáveis, dia do lote semanal.
 
-**Passo 2. As 4 âncoras.** [FHT: trilha 14 aulas 04 a 08; rota 3 resumo 08]
+**Passo 2. As 4 âncoras.**
 - Dores, desejos, objeções e oportunidades, **mínimo 5 de cada**, escritas na **1ª pessoa, como o avatar fala**.
 - Dor que o avatar sente e que o HT resolve; dor ligada ao nicho (não "síndrome do impostor" genérica); dor não é ação;
   dor que ele ainda nem sabe que tem não conecta. Desejo ele já quer; oportunidade ele ainda não sabe que existe.
 - Fontes: dúvidas mais recebidas, onde os alunos travam, comentários, caixinhas, DMs, Raio-X e NPS (dados de `01-pesquisa/`).
 - Gerar rascunho com o prompt de `references/ancoras-e-temas.md` e fazer curadoria linha a linha (zonas cinzentas e auditoria lá).
 
-**Passo 3. Banco de 40 temas (mínimo).** [FHT: aulas 08 e 09; na aula o pedido de 50 é corrigido ao vivo para 40]
+**Passo 3. Banco de 40 temas (mínimo).**
 - Âncora é o ângulo; tema é o assunto; a ordem é âncora → tema → conteúdo que resolve, quebra ou mostra.
 - Entrada: promessa, nicho, subnicho. Distribuir os temas pelas 4 âncoras (não deixar tudo em oportunidade).
 - Curadoria na voz do expert; nada de copiar e colar saída de IA. Tabela e prompt em `references/ancoras-e-temas.md`.
@@ -75,13 +75,13 @@ prontos: passos 4 a 12; (C) auditar Reels pronto: passo 11; (D) ciclo de métric
 **Passo 4. Grade da semana.** Escolher 5 temas do banco e, para cada um, âncora, framework e CTA do dia, seguindo o rodízio
 (passo 7). Variar âncoras e frameworks na semana. Grade-modelo em `references/cta-e-rodizio.md`.
 
-**Passo 5. Gancho de 3 s e promessa.** [FHT: aulas 10 e 11]
+**Passo 5. Gancho de 3 s e promessa.**
 - Gancho = quebra de padrão **visual** (objeto, lugar, gesto, cena inesperada) + **promessa falada** (a forma mais atrativa
   do tema, específica do avatar). Os 3 primeiros segundos decidem se a pessoa fica.
 - A nota de cena vai no campo do gancho, nunca dentro do roteiro falado. Adereço que imita dinheiro ou documento: versão fake.
 - Entregar 3 opções de gancho + promessa por Reels, com a recomendada marcada. Moldes em `references/frameworks-de-roteiro.md`.
 
-**Passo 6. Roteiro no framework.** [FHT: aulas 11, 13 a 16]
+**Passo 6. Roteiro no framework.**
 Cardápio (não há melhor nem pior; escolhe o que encaixa no tema):
 1. Jeito errado → consequência → jeito certo → benefício (o padrão da Parte 1).
 2. Problema → consequências → solução → benefícios.
@@ -92,7 +92,7 @@ Regras: o roteiro é **exatamente a fala** (pronto para teleprompter); específi
 (número próprio do expert, caso autorizado); **até 90 s** (padrão do squad). Moldes, exemplos e erros por framework em
 `references/frameworks-de-roteiro.md`.
 
-**Passo 7. CTA e rodízio.** [FHT: aulas 12 e 20]
+**Passo 7. CTA e rodízio.**
 - Molde da prioridade: ligação com o conteúdo + "se você quer [promessa do produto], toda [dia] às [hora] eu faço uma aula
   ao vivo…" + "clique no link da bio e se cadastre".
 - A promessa do CTA é a do **produto** (de `02-oferta/`), nunca o tema da aula da semana, senão o Reels vence em 7 dias.
@@ -101,19 +101,19 @@ Regras: o roteiro é **exatamente a fala** (pronto para teleprompter); específi
   alternando comentário e isca. Com 5 Reels/semana, a grade aplicada (proposta da skill) está em `references/cta-e-rodizio.md`.
 - "Me segue" não é um dos 4; usar com bom senso no meio do vídeo ou como variação de teste para baratear seguidor.
 
-**Passo 8. Reels raiz denso (variante, só com pedido ou quando o agente assume pela recomendação, em "Assumi").** [FHT: Live 026, Live 021]
+**Passo 8. Reels raiz denso (variante, só com pedido ou quando o agente assume pela recomendação, em "Assumi").**
 5 a 10 min, escrito palavra por palavra, gravado frase a frase, editor corta todo respiro, estrutura numerada gancho →
 introdução → contexto → conteúdo → fechamento com CTA para funil. Não substitui os 5/semana de até 90 s. Molde e regras em
 `references/reels-raiz-denso.md`.
 
-**Passo 9. Gravação e edição.** [FHT: aulas 17 a 19]
+**Passo 9. Gravação e edição.**
 - Gravação: cenário limpo e coerente com o avatar, de frente para a janela, áudio sem eco, lente limpa, vertical, cenas
   dinâmicas, teleprompter com o roteiro. Postar mesmo sem perfeição (regravar uma ou duas vezes, no máximo).
 - Edição (CapCut ou Edits): cortar respiros, zoom, **acelerar antes de legendar**, legenda conferida, destaque de palavras no
   mesmo padrão sempre, música baixa e cortada no fim, capa no padrão, apagar o clipe final do app.
 - Checklists e receita passo a passo em `references/gravacao-edicao-postagem.md`.
 
-**Passo 10. Legenda, postagem e produção em lote.** [FHT: aula 20]
+**Passo 10. Legenda, postagem e produção em lote.**
 - Legenda escrita a partir do roteiro, com o CTA do dia, sem hashtag no texto (o campo próprio do app aceita poucas).
 - Postar como Reel, capa no primeiro frame, conferir a grade, programar se quiser. Horários de teste: café, almoço, janta.
 - Lote semanal: roteirizar os 5, gravar os 5, editar os 5. Referência de tempo por Reels (aula, conferir): roteiro ~1 h,
@@ -122,12 +122,12 @@ introdução → contexto → conteúdo → fechamento com CTA para funil. Não 
 
 **Passo 11. Auditoria antes de postar.** Rodar `references/auditoria-reels.md` em cada roteiro e em cada vídeo editado.
 
-**Passo 12. P&D de conteúdo (quando faltar ideia ou o formato cansar).** [FHT: palestra de aluna no Encontro FHT Nov/2025, dia 1, só slides]
+**Passo 12. P&D de conteúdo (quando faltar ideia ou o formato cansar).**
 8 passos: conta secreta de pesquisa → pesquisar fora do Brasil e de outros nichos → salvar → planilha "Arsenal de P&D" →
 mixar → testar 5 vezes → validar (comentários, métricas, directs) → replicar 70% do que deu certo e testar 30% de novo.
 Planilha e rotina em `references/pd-de-conteudo.md`.
 
-**Passo 13. Métricas e replicação (toda semana, a partir da 2ª).** [FHT: aulas 21 a 23, 26, 30]
+**Passo 13. Métricas e replicação (toda semana, a partir da 2ª).**
 - Perfil profissional (o pessoal não dá todas as métricas). Pegar os **últimos 5 Reels**: visualizações, alcance, visitas
   ao perfil, seguidores, comentários, salvamentos, compartilhamentos; separar orgânico de pago.
 - Comparar só com o histórico do próprio perfil. Escolher os **2 melhores** (base: visualizações; desempate por seguidores).
@@ -144,7 +144,7 @@ Planilha e rotina em `references/pd-de-conteudo.md`.
 - Roteiro é a fala, com o porquê e prova; nada de cena misturada ao texto, nada de conteúdo raso ou "estilo Google".
 - Promessa do CTA = promessa do produto (02-oferta), não o tema da semana. Link na bio > automação. Seguidor não é lead.
 - Prova só real, do método do expert, com autorização registrada (`ht-provas-e-cases`). Sem prova: `[FALTA: …]`.
-  Exemplo de aluno da FHT é molde de estrutura, nunca prova para outro expert. Manter os números do caso consistentes
+  Exemplo de aluno do método é molde de estrutura, nunca prova para outro expert. Manter os números do caso consistentes
   (o exemplo do curso abre com 15 kg e depois diz 22 kg: erro a não repetir).
 - Um ajuste por vez na replicação; comparar só com o próprio histórico; consistência acima de volume.
 - Vídeo que pode ir para distribuição: até 90 s, sem filtro do Instagram, sem música em alta com direito autoral.
@@ -154,11 +154,10 @@ Planilha e rotina em `references/pd-de-conteudo.md`.
   (aula semanal de 1 h é da `ht-aula-semanal`); bio com promessa fixa e CTA trocado pela ação do momento, link direto: o CTA do
   Reels tem de bater com o link da bio da `ht-vitrine`. Conflito 20 do catálogo (90 s x raiz de 5 a 10 min; 1/dia x 5/semana)
   está resolvido por esse padrão.
-- Proibido método LPSG da Turbo: nada de 5+1, Funil 8, Turbo Express, `lpsg-*`, `criador-reels-turbo` como método.
 
 ## 5. O que o agente decide e o que pede OK
 
-O agente decide pela recomendação e lista em "Assumi", sem opções a/b/c. Pedem um "posso seguir?" simples (uma frase) os itens de publicar, gastar e usar imagem ou depoimento de aluno.
+O agente decide pela recomendação e lista em "Assumi", sem listar alternativas. Pedem um "posso seguir?" simples (uma frase) os itens de publicar, gastar e usar imagem ou depoimento de aluno.
 - **Publicar** qualquer roteiro, legenda ou vídeo (texto público novo, fala em nome do expert).
 - **Usar caso de aluno** no antes-depois ou como prova (exige autorização registrada; sem ela, só caso do próprio expert).
 - **Mudar a frequência** fora de 5/semana: o padrão fica em 5; só muda se a pessoa pedir (registro em `00-plano/decisoes.md` ou em `padroes` do perfil).
@@ -177,7 +176,7 @@ O agente decide pela recomendação e lista em "Assumi", sem opções a/b/c. Ped
 - [ ] Cada roteiro: 3 ganchos (visual + promessa) com o recomendado; corpo fiel ao framework; fala pura; até 90 s
       (contagem: ~2,3 a 2,8 palavras por segundo, conferir na gravação; proposta da skill); CTA com a promessa do produto.
 - [ ] Legenda de cada Reels com o mesmo CTA do vídeo, sem hashtag no texto.
-- [ ] Prova só com fonte (02-oferta, 06-entrega, provas autorizadas); número de aula marcado "referência/conferir".
+- [ ] Prova só com fonte (02-oferta, 06-entrega, provas autorizadas); números de referência marcado "referência/conferir".
 - [ ] Briefing de gravação e edição quando houver gravação nova; padrão de capa e destaque definido.
 - [ ] A partir da 2ª semana: relatório dos últimos 5, os 2 melhores, a variação com um ajuste e o handoff ao tráfego.
 - [ ] Auditoria de `references/auditoria-reels.md` rodada em cada Reels, com o que foi corrigido.
@@ -205,34 +204,13 @@ automática sem conferência; música alta ou em alta; capa fora do padrão; só
 
 ## 8. Ferramentas de apoio (por nome, sem copiar)
 
-- Texto: `hook-generator` (mais opções de gancho, filtradas pela regra FHT), `voice-builder` (voz do expert a partir de
+- Texto: `hook-generator` (mais opções de gancho, filtradas pela regra do método), `voice-builder` (voz do expert a partir de
   transcrições), `avoid-ai-writing` e `humanizer` (filtro final de roteiro e legenda).
 - Gravação e edição: `criacao-guia-gravacao` (guia de gravação), `capcut-edit` (receita de edição), `caption-animation`
   (legenda animada), `short-form-video` (corte e formato vertical), `broll-fullscreen` quando houver insert.
-- Pesquisa e métricas: `instagram-analise-estrategica-turbo` (Reels do expert e de referência), `watch` (assistir Reels de
-  referência para o P&D e para auditar o vídeo editado), `niche-research` (âncoras de mercado), `transcrever-youtube-turbo`.
-- Visual: `gerador-instagram-turbo` e `design-tokens-turbo` (padrão de capa e cores).
+- Pesquisa e métricas: `instagram-analise-estrategica` (Reels do expert e de referência), `watch` (assistir Reels de
+  referência para o P&D e para auditar o vídeo editado), `niche-research` (âncoras de mercado), `transcrever-youtube`.
+- Visual: `gerador-instagram` e `design-tokens` (padrão de capa e cores).
 - Planilha: `anthropic-skills:xlsx` (banco de temas, Arsenal de P&D, registro de métricas).
-Elas executam; o método é este. Se alguma trouxer regra de LPSG, vale o FHT.
+Elas executam; o método é este.
 
-## 9. Fontes e lacunas
-
-**Fontes:** trilha 14, Bootcamp Funil de Reels com CTA, transcrições lidas por inteiro na revisão R11 (23/11): aulas 02 a 12
-(Parte 1, a mesma gravação de `rota3/transcricoes/08-bootcamp-funil-de-reels`), 13 a 23 e 30; 24 a 29 (distribuição paga, da
-`ht-trafego-high-ticket`) consultadas nos trechos de bloqueio do Turbinar; resumos `RESUMO-funil-de-reels-parte1.md` e `-parte2.md`
-como apoio; `rota3/resumos/08-funil-de-reels.md`; Live FHT 026 (Reels raiz, transcrição inteira) e 021 (framework numerado e origem do
-formato, transcrição inteira); palestra de aluna no Encontro FHT Nov/2025, dia 1 (P&D, só resumo dos slides); planilha
-`14-funil-de-reels__1fc_XB-P.xlsx` (aba "Tráfego Funil de Reels com CTA"); `GPTS-DA-FHT.md`; catálogo (fht-linhas-editoriais-
-conectadas-a-funil até fht-comunicacao-voz-e-prosodia, conflitos e lacunas); parte C (bloco 2), parte A (bloco 4), parte H (Live
-026), parte I (P&D), parte G (FEV26 aula 34, meta de 5/semana); padrões do squad (bio e conteúdo).
-
-**Lacunas (não inventar):** (1) a planilha white label da Parte 1 (âncoras, temas, frameworks) e o mapa mental dos
-frameworks não estão nos arquivos; (2) os prompts dos GPTs "Gerador de Âncoras e Temas", "Gerador de Legendas" e
-"Analisador de Métricas" não existem; os prompts das referências são reconstrução desta skill, nunca "o GPT da FHT";
-(3) o material não dá meta numérica de visualização, retenção ou conversão Reels → cadastro; só "comparar com o próprio
-histórico"; (4) tipos de isca não foram ensinados no bootcamp; (5) a palestra de P&D não tem transcrição (568 bytes, só
-descrição), então os 8 passos vêm dos slides resumidos; (6) o framework numerado do Reels raiz (subcódigos 1.1, 1.2…) foi
-mostrado em tela e não existe como arquivo; (7) a planilha white label listava também um framework "Reels denso" ao lado dos quatro curtos (aula 08), sem o
-conteúdo dele nos arquivos: o molde de `references/reels-raiz-denso.md` é reconstrução; (8) voz e
-prosódia na gravação é da `ht-palestras-e-pitch` (checklist de ensaio, fonte fraca); (9) limite de hashtags no campo próprio
-e o tempo mínimo para contar visualização ("três segundos, se não me engano") vêm de fala de aula: conferir na interface do dia.

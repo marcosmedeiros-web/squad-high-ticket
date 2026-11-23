@@ -1,12 +1,10 @@
 # Confirmação de presença (tipo 1 e tipo 2) e lembretes
 
-Fonte: trilha 22, desafio de imersão fev/2026, aula 46 (aquecimento: lembretes e confirmação, transcrita hoje); trilha 17 aula 07
-(tipo 1); parte-G (gestor de confirmação, calendário de lembretes, out/2025); parte-H (tipo 1/tipo 2, desconfirmação, Lives 017
-e 021); parte-I (Live 039: confirmar 110% a 120%). Modelos parafraseados; rascunho até o OK do estrategista.
+Modelos parafraseados; rascunho até o OK do estrategista.
 
 ## 1. Metas
-- Planejar com o padrão do squad (gratuito 25%, credencial/pago 70%, entrada no grupo 50%). Referência das aulas: presenciais
-  da FHT ~30% dos inscritos; confirmação humana com prova de ida ~97%.
+- Planejar com o padrão do squad (gratuito 25%, credencial/pago 70%, entrada no grupo 50%). Referência do método: presenciais
+  do método ~30% dos inscritos; confirmação humana com prova de ida ~97%.
 - Sala com limite: confirmar 110% a 120% do desejado; sobrou, desconfirmar.
 
 ## 2. Calendário

@@ -1,7 +1,7 @@
 # Programa de consultores HT certificados
 
-Fonte única: Live FHT 042 (os 4 caminhos para ganhar dinheiro com HT; caminho 4). É uma descrição de live, não um bootcamp:
-o desenho abaixo é a estrutura citada mais as decisões que o estrategista precisa tomar. Marcar o projeto como "esqueleto".
+O método traz só a descrição deste caminho (consultor HT), sem currículo detalhado: o desenho abaixo é a estrutura mais os itens
+que a skill propõe pelo padrão. Marcar o projeto como "esqueleto".
 
 ## 1. O que é e como difere do afiliado
 
@@ -15,15 +15,15 @@ o desenho abaixo é a estrutura citada mais as decisões que o estrategista prec
 | Comissão | por HT vendido pelo evento | por venda própria |
 
 ## 2. Componentes citados
-1. Processo de certificação (a FHT cobra pela certificação, "como uma franquia").
+1. Processo de certificação (o programa cobra pela certificação, "como uma franquia").
 2. Treinamento de produto (oferta, entregáveis, para quem é e para quem não é).
-3. Treinamento de vendas (roteiro de sessão, Raio-X, objeções: conteúdo das skills 12, 13, 14 e 16).
+3. Treinamento de vendas (roteiro de sessão, Raio-X, objeções: conteúdo das skills `ht-roteiro-sessao-1a1`, `ht-raio-x` e `ht-objecoes`).
 4. Materiais de venda: slides, quebra de objeção, link de checkout.
 5. Ferramentas: automação, disparo (pela API oficial), CRM.
 6. Acompanhamento para otimizar a conversão (auditoria de sessão gravada).
 
 ## 3. Números citados (referência, não meta)
-Conversão média de 25% (FHT, sessão e presencial); comissão de até R$ 10 mil por venda; consultores com 4 a 5 vendas por semana.
+Conversão média de 25% (referência, sessão e presencial); comissão de até R$ 10 mil por venda; consultores com 4 a 5 vendas por semana.
 
 ## 4. Pré-requisitos antes de abrir
 - Oferta validada e conversão estável em sessão própria (régua do squad: 10% a 20% de referência).
@@ -31,9 +31,9 @@ Conversão média de 25% (FHT, sessão e presencial); comissão de até R$ 10 mi
 - Margem que comporte a comissão sem comprometer a entrega.
 - Capacidade de entrega para o volume extra (regra de capacidade de entrega do squad).
 
-## 5. Decisões do estrategista
+## 5. O que a skill propõe e lista em "Assumi"
 Preço da certificação (ou gratuita); comissão por venda e por renovação; vagas; regras do perfil do consultor (o que pode
-postar, uso da marca); exclusividade; meta mínima para manter a certificação; quem audita as sessões.
+postar, uso da marca); exclusividade; meta mínima para manter a certificação; quem audita as sessões. Tudo vem como proposta pelo padrão, com "é só pedir para mudar".
 
 ## 6. Lacunas
-Sem currículo da certificação, sem prova, sem regras de perfil e sem contrato nas fontes.
+Sem currículo da certificação, sem prova, sem regras de perfil e sem contrato: tudo isso é construído por projeto.

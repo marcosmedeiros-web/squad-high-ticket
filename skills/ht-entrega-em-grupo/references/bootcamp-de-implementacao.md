@@ -1,7 +1,6 @@
 # Bootcamp / dia de implementação: estruturador e grade
 
-Fontes: trilha 19 aulas 11 e 12 (RESUMO §3, §5.8, §5.9), parte-A (fht-bootcamp-implementation-day, template de cronograma),
-parte-F (aula-bootcamp-formato-4es, tempos observados). Nome genérico: evento de implementação; no FHT, DIV (dia de
+Nome genérico: evento de implementação; também chamado DIV (dia de
 implementação virtual). Bootcamp, DIV, desafio e plantão são formatos de entrega em grupo.
 
 ## 1. Cabeçalho
@@ -42,15 +41,15 @@ REGRAS DO DIA (câmera aberta, chat, como pedir exame, horário)
 CONTEÚDO nn: [nome]
 ENSINO      O que é? · Por que é importante (benefício)? · Como fazer?    [tempo]
 EXEMPLO     de preferência caso de aluno com resultado (reforça a venda) [tempo]
-EXERCÍCIO   proposta · tempo · links úteis (white label para copiar)      [tempo]
+EXERCÍCIO   proposta · tempo · links úteis (modelo para copiar)      [tempo]
 EXAME       feedback ao vivo em 1 a 3 alunos; critério do feedback       [tempo]
 ```
 
-Tempos observados em bootcamps do FHT (parte-F, referência): definição do programa 5 a 10 min; jornada 10 a 15 min; cada pilar
+Tempos observados em bootcamps de referência: definição do programa 5 a 10 min; jornada 10 a 15 min; cada pilar
 de entregáveis ~10 min; Raio-X ~10 min; história ~10 min + 5 de feedback. Operação do exercício: cada aluno copia o modelo,
 libera acesso de edição ao mentor e escreve "feito" no chat.
 
-Exame na prática (aula 12): pedir que alguém mande a tarefa; se ninguém manda, chamar pelo nome. Dar o feedback na tela,
+Exame na prática : pedir que alguém mande a tarefa; se ninguém manda, chamar pelo nome. Dar o feedback na tela,
 contra o próprio framework (o que faltou: "para quem não é", contexto do porquê, o que é/benefício/como fazer em cada conteúdo).
 Planilha de tempos por bloco ajuda a "estourar consciente" em vez de estourar sem perceber.
 
@@ -69,7 +68,7 @@ Planilha de tempos por bloco ajuda a "estourar consciente" em vez de estourar se
 | 17:30 | Próximos passos (o que fazer amanhã; próximo entregável individual a pedir) |
 | 17:50 | NPS e encerramento (bônus, se houver) |
 
-Variante curta (2 a 3 h): introdução + 1 ciclo de 4 Es + próximos passos. Ajustar tempos a cada edição; o FHT já estourou.
+Variante curta (2 a 3 h): introdução + 1 ciclo de 4 Es + próximos passos. Ajustar tempos a cada edição; já estourou em casos reais.
 
 ## 5. Depois
 - Subir a gravação bruta no mesmo dia ou no seguinte; depois fragmentar em aulas por tema.

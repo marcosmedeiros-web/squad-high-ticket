@@ -86,12 +86,7 @@ def conferir(motor):
     if usa_hm:
         ler_segredo(p['hottok_arquivo'], ('HOTMART_HOTTOK',))
         linhas.append('Hotmart: hottok ok (valor não exibido)')
-    if p['aviso_canal'] == 'avisar-dono':
-        a = Path(p['head_turbo_home']) / 'vigias' / 'avisar-dono.sh'
-        if not a.is_file():
-            raise Recusa('canal_ausente', f'AF_AVISO_CANAL=avisar-dono e não há {a}', rc=10)
-        linhas.append(f'aviso: {a}')
-    elif p['aviso_canal'] == 'arquivo':
+    if p['aviso_canal'] == 'arquivo':
         linhas.append(f'aviso: SECO, os alarmes ficam em {p["af_dados_dir"]}/avisos.jsonl')
     else:
         alvo = p['aviso_canal'].split(':', 1)[1]

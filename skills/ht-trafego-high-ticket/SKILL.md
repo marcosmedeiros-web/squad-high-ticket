@@ -1,9 +1,9 @@
 ---
 name: ht-trafego-high-ticket
-description: 'Tráfego pago Meta do Squad High Ticket (método FHT). Monta, sobe PAUSADA, otimiza e diagnostica as campanhas que alimentam o HT, executando pela ferramenta de tráfego do perfil (`trafego.ferramenta`) ou, sem ferramenta definida, entregando a campanha especificada campo a campo para a pessoa subir no Gerenciador de Anúncios (nunca exige CLI nem acesso), e com o prefixo de campanha do perfil (`trafego.prefixo_campanha`), se houver. Cobre setup de ativos e pixel/evento Lead, públicos, campanha contínua de leads para a sessão 1a1 (00/01/02), captação de imersão (gratuita ou ingresso), tráfego da aula semanal (captação, lembrete, replay), distribuição de Reels, tráfego do minicurso e do webinário, nomenclatura, planilha D-1, otimização em 3 níveis, escala e erros comuns. Use quando o estrategista disser "sobe a campanha da sessão", "monta o tráfego da imersão", "quanto investir para ter 100 ao vivo", "o CPL está caro", "turbina o Reels", "por que a campanha não gasta". NÃO usar para lançamento pago semanal/5+1/Funil 8 (fora do escopo deste squad) nem para escrever o criativo (ht-criativos-high-ticket).'
+description: 'Tráfego pago Meta do Squad High Ticket: monta, sobe PAUSADA, otimiza e diagnostica campanhas que alimentam o HT (sessão 1a1, captação de imersão, aula semanal, Reels, remarketing), pela ferramenta do perfil ou entregando a campanha campo a campo. Use para "sobe a campanha da sessão", "como está o CPL", "qual criativo trocar". Ativar só com OK. NÃO usar para criativo (ht-criativos-high-ticket).'
 ---
 
-# Tráfego High Ticket (Meta Ads, método FHT)
+# Tráfego High Ticket (Meta Ads)
 
 ## 1. Para que serve e o que entrega
 
@@ -79,25 +79,24 @@ Escolher a estrutura do destino (detalhe, configuração e nomes em `references/
 
 Regras de montagem que valem para todos:
 - Orçamento **no conjunto** na fase de teste e **exclusões em cascata** (regra do squad, escrita para a campanha de sessão;
-  o bootcamp de imersão da trilha 17 usa o mesmo desenho). Depois de validado, pode migrar para orçamento na campanha com
-  limite mínimo de gasto por conjunto (forma mostrada no FEV26). As fontes divergem: o bootcamp de tráfego da trilha 13
-  recomenda orçamento na campanha nas primeiras campanhas (ainda não se sabe qual público performa); o da trilha 17 prefere no
+  o desenho de captação de imersão é o mesmo). Depois de validado, pode migrar para orçamento na campanha com
+  limite mínimo de gasto por conjunto. Há duas escolas: orçamento na campanha nas primeiras campanhas (ainda não se sabe qual público performa) ou no
   conjunto (otimiza por conjunto; na campanha a Meta tende a gastar no público maior). Vale o padrão recomendado
-  (o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): no teste, orçamento no conjunto; a recomendação da trilha 13 fica só como contexto.
-- Gênero: todos por padrão; se o público comprador é muito concentrado (caso de aula: ~80% homens), restringir só nos
-  conjuntos frios (semelhante e interesses) e manter todos nos quentes (trilha 17).
+  (pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): no teste, orçamento no conjunto; a outra escola fica só como contexto.
+- Gênero: todos por padrão; se o público comprador é muito concentrado (exemplo: ~80% homens), restringir só nos
+  conjuntos frios (semelhante e interesses) e manter todos nos quentes.
 - Mínimo de 5 criativos antes do segundo conjunto; 6 a 10 anúncios por campanha, no máximo 6 por conjunto.
-- **Imagem e vídeo no mesmo conjunto** por padrão (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`; o bootcamp de criativos usava imagem só em
+- **Imagem e vídeo no mesmo conjunto** por padrão (padrão recomendado; pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`; há quem use imagem só em
   remarketing, o padrão do squad é misturar).
 - Idade do avatar (de `01-pesquisa/`) **só na segmentação**; localização Brasil (ou região); posicionamentos automáticos; melhorias automáticas do
   criativo desmarcadas; CTA "Saiba mais"; destino = página do funil com UTMs; complementos do navegador: nenhum.
 - Público fechado (remarketing, visitantes 180d, cadastrados): conferir que a **expansão de público personalizado** está
   desligada (`targeting_relaxation_types` com `custom_audience: 0` e `lookalike: 0`) e reler o alcance estimado. Alcance muito
-  maior que o público = vazou. Isto é regra do squad e vale acima da aula: os bootcamps (trilha 13 e FEV26) deixam o Público
-  Advantage ligado no começo para a Meta aprender e testam desligado depois; nos conjuntos abertos (semelhante, interesses)
-  pode seguir a aula.
+  maior que o público = vazou. Isto é regra do squad e vale acima de qualquer outra orientação: há quem deixe o Público
+  Advantage ligado no começo para a Meta aprender e teste desligado depois; nos conjuntos abertos (semelhante, interesses)
+  pode seguir essa prática.
 - Interesses: 3 a 5 principais juntos no começo; depois testar isolado. Termo que só existe no Brasil (MEI, INSS) não aparece
-  na busca de interesses: usar o equivalente amplo; interesse que só aparece em inglês pode ser usado (FEV26 aula 33).
+  na busca de interesses: usar o equivalente amplo; interesse que só aparece em inglês pode ser usado.
 
 ### Passo 3b. Briefing do criativo: trava de atributo pessoal (compliance Meta)
 Todo pedido de criativo que esta skill escreve (ao `ht-criativos-high-ticket` e à copy) leva a trava escrita: **o texto não afirma
@@ -113,12 +112,12 @@ aprovado em copy: volta com o trecho e a reescrita sugerida. Checklist completo:
 público de quem já é lead (obrigado 180d) dos conjuntos: acréscimo técnico, a aula não demonstra. Criativo com escassez de
 horários e segmentação no próprio texto; rotação do nome da sessão (auditoria, análise, diagnóstico) quando esgotar.
 **B. Imersão.** Campanha termina na hora do início do evento. Captação curta: olhar 2x/dia, mexer 1x/dia ou em dias alternados.
-Conta nova libera gasto devagar. Ritmo de verba (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): funil novo começa com verba menor por 4 a 5
-dias (OUT25, via `parte-G`); validado, vai com a verba cheia. No bootcamp da trilha 17 o gestor da FHT começou cheio desde o
+Conta nova libera gasto devagar. Ritmo de verba (padrão recomendado; pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): funil novo começa com verba menor por 4 a 5
+dias; validado, vai com a verba cheia. Há quem comece cheio desde o
 dia 1; o padrão do squad é começar menor.
 **C. Aula semanal.** Divisão de verba de referência: 80% nas aulas (captação 80%, lembrete 10%, replay 10%) e 20% em
 distribuição de conteúdo (descoberta 70%, relacionamento 30%). Captação nunca para; criativo raiz sem data roda o ano todo.
-Remarketing para cadastrados no calendário da aula (detalhe e conflito do replay em `references/campanhas-por-canal.md`).
+Remarketing para cadastrados no calendário da aula semanal (detalhe e conflito do replay em `references/campanhas-por-canal.md`).
 **D. Distribuição de Reels.** Escolher os 2 melhores pelo orgânico (24 a 48 h depois de postar); turbinar com objetivo
 "Visitar o perfil", público sugerido, R$ 6/dia por vídeo (Android ou gerenciador; iPhone cobra ~30% a mais), 3 a 4 dias;
 no gerenciador, desligar o Criativo Advantage. Monitorar a cada 3 dias (cartão, bloqueio, custo por seguidor). Manter o mais
@@ -143,15 +142,15 @@ direito autoral, baixa qualidade. Seguidor novo vai para o SLG (`ht-slg`); regis
 
 ### Passo 6. Acompanhar e otimizar (rotina D-1)
 Régua completa em `references/otimizacao-escala-e-diagnostico.md`. Resumo:
-1. **Esperar dado**: 3 a 7 dias conforme a verba antes da primeira decisão de estrutura (FEV26); depois, olhar todo dia.
+1. **Esperar dado**: 3 a 7 dias conforme a verba antes da primeira decisão de estrutura; depois, olhar todo dia.
 2. **Planilha D-1** todo dia: leads, gasto, alcance, impressões, cliques, CPL e desvio da meta, por campanha e por criativo.
 3. **Três níveis, nesta ordem**: anúncio (o que traz cadastro mais barato x o que gastou sem trazer), conjunto (qual público
    traz mais por menos), campanha (verba). CPL dentro da meta = **não mexer**.
 4. **Ler o funil, não só o CPL**: CPM → CTR (≥ 1%) → taxa de carregamento (≥ 80%) → conversão da página (≥ 40% a 50% em
-   captação gratuita; 70% na calculadora FHT) → CPL (≈ 3x CPC como referência). O gargalo diz onde mexer: CTR baixo = gancho e
+   captação gratuita; 70% na calculadora do método) → CPL (≈ 3x CPC como referência). O gargalo diz onde mexer: CTR baixo = gancho e
    segmentação do criativo; carregamento baixo = velocidade da página; conversão baixa = alinhamento criativo-página.
    Página antes de criativo e público quando o CTR está bom e a página converte pouco.
-5. **Escalar** em degraus de 20% (FEV26) a no máximo 30% (OUT25) por vez; acima disso, duplicar a campanha (escala horizontal).
+5. **Escalar** em degraus de 20% a no máximo 30% por vez; acima disso, duplicar a campanha (escala horizontal).
    Todo plano com escada de verba **mostra a conta**: tabela dia a dia (ou por degrau) com verba/dia, quantos dias em cada degrau
    e o acumulado, fechando com o total aprovado. Se 20% por degrau não fecha com o total e o prazo, dizer qual cede (degrau, dias
    ou total), decidir pelo que cede menos e listar em "Assumi" (total maior pede "posso seguir?"); nunca apresentar "degraus de 20%" e um total que não batem.
@@ -177,7 +176,7 @@ pixels, vídeo bloqueado, pagamento, conta nova limitada, BM errado, Turbinar bl
 - Regras do squad que se aplicam: exclusões em cascata e orçamento no conjunto no teste; comparecimento para planejar
   (gratuita 25%, credencial ou paga 70%, grupo 50%); Reels até 90 s como condição para turbinar; a entrada da imersão
   (gratuita, credencial ou paga, assumida pela recomendação e listada em "Assumi") decide o objetivo.
-- Número de aula é referência, não meta do expert: depois do primeiro ciclo, a meta passa a ser o histórico da própria conta.
+- Número de referência não é meta, não meta do expert: depois do primeiro ciclo, a meta passa a ser o histórico da própria conta.
 
 ## 5. O que o agente decide e o que pede OK
 
@@ -185,24 +184,21 @@ pixels, vídeo bloqueado, pagamento, conta nova limitada, BM errado, Turbinar bl
 antes de aplicar, ler o perfil e seguir o que estiver lá; não volta como pergunta):
 - **Otimização na campanha, não no anúncio**: não pausar anúncio dentro de campanha; mexer na
   campanha (campanha nova isolando o vencedor, pausar ou ativar campanha, verba em degraus de ~20%). Anúncio caro pode estar
-  gerando atenção que outro converte: olhar visitas ao perfil antes de qualquer leitura (a trilha 13 conta de criativo "sem
-  conversão" que gerava lead pelo perfil). O FHT ensina pausar o anúncio que gastou 2x o CPL meta sem lead; o padrão do squad é
+  gerando atenção que outro converte: olhar visitas ao perfil antes de qualquer leitura (já houve criativo "sem
+  conversão" que gerava lead pelo perfil). O método ensina pausar o anúncio que gastou 2x o CPL meta sem lead; o padrão do squad é
   não pausar.
-- **Formato**: imagem e vídeo juntos por padrão. O bootcamp de criativos usava imagem só no
+- **Formato**: imagem e vídeo juntos por padrão. Há quem use imagem só no
   remarketing. Se o CPL da imagem em frio sair muito acima, o número vai à pessoa como leitura simples, sem trocar o padrão.
-- **Orçamento no teste**: no conjunto, com exclusões em cascata. O FEV26 e o
-  bootcamp da trilha 13 usaram orçamento na campanha nas primeiras campanhas; o padrão do squad é no conjunto. Validado, pode
+- **Orçamento no teste**: no conjunto, com exclusões em cascata. Há quem use orçamento na campanha nas primeiras campanhas; o padrão do squad é no conjunto. Validado, pode
   migrar para orçamento na campanha com limite mínimo de gasto por conjunto.
-- **Verba na largada**: funil novo começa menor (4 a 5 dias, OUT25); validado, vai cheio. A
-  trilha 17 começava cheia desde o dia 1.
+- **Verba na largada**: funil novo começa menor (4 a 5 dias); validado, vai cheio. Há quem comece cheio desde o dia 1.
 
 **Pedem um "posso seguir?" simples** (uma frase com o resumo, sem a/b/c; nada é gasto nem ativado sem o OK): a **verba e o prazo** de cada campanha e **ativar** cada uma.
 
 **O agente decide pela recomendação e lista em "Assumi":**
 - **Entrada da imersão**: o agente assume gratuita (a recomendada) e lista em "Assumi". Alternativa, só como referência: gratuita (Leads, mais volume, comparecimento ~25%) x credencial ou paga (Vendas, menos volume,
-  comparecimento ~70%, ingresso paga parte do tráfego). Dado da própria FHT para pôr nos prós da gratuita (trilha 17, bootcamp
-  de campanhas, referência a conferir): depois das imersões de Goiânia e Curitiba, o custo de levar uma pessoa à mentoria saiu
-  mais barato com lead gratuito do que com ingresso, e a FHT passou a captar gratuito; 25% de comparecimento tanto no online
+  comparecimento ~70%, ingresso paga parte do tráfego). Dado de caso de referência para pôr nos prós da gratuita (conferir): depois de duas imersões presenciais, o custo de levar uma pessoa ao programa saiu
+  mais barato com lead gratuito do que com ingresso, e o caso passou a captar gratuito; 25% de comparecimento tanto no online
   quanto no presencial (online de 1 dia: ~1.324 leads, pico de 334 ao vivo).
 - **Escala acima de 30%** ou dobrar verba de uma vez; abrir campanha de escala horizontal: o agente mantém degraus de ~20 a 30% e lista em "Assumi"; subir a verba é gasto e pede "posso seguir?".
 - Inviabilidade da meta (conta que não fecha): o agente diz em linguagem simples que a conta não fecha e propõe o caminho mais simples (mais dias ou meta menor), listado em "Assumi"; mais verba pede "posso seguir?".
@@ -244,22 +240,12 @@ antes de aplicar, ler o perfil e seguir o que estiver lá; não volta como pergu
 
 ## 8. Ferramentas de apoio
 
-- A ferramenta de tráfego do perfil (`trafego.ferramenta`; escrita só com OK e PAUSED) e as skills `meta-ads-cli-turbo`
-  (sintaxe e armadilhas da API) e `meta-ads-cli-setup-turbo` (setup de app e token), usadas como executoras.
+- A ferramenta de tráfego do perfil (`trafego.ferramenta`; escrita só com OK e PAUSED) e as skills `meta-ads-cli`
+  (sintaxe e armadilhas da API) e `meta-ads-cli-setup` (setup de app e token), usadas como executoras.
 - `hotmart-meta-conversao` (pixel/Purchase de checkout Hotmart), `analytics-dashboard` (painel), `anthropic-skills:xlsx`
-  (planilha D-1), `instagram-analise-estrategica-turbo` (escolher o Reels a turbinar), `page-optimizer-turbo` (página lenta).
+  (planilha D-1), `instagram-analise-estrategica` (escolher o Reels a turbinar), `page-optimizer` (página lenta).## 9. Limites (não inventar)
 
-## 9. Fontes e lacunas
-
-**Fontes:** trilha 13 bootcamp "Tráfego para Sessão 1:1" (aulas 01 a 27, transcrição lida inteira na revisão) e
-`RESUMO-trafego.md` (setup, públicos, campanha 00/01/02, nomenclatura); trilha 17 bootcamp "Campanhas de tráfego para
-captação" (transcrição lida inteira na revisão: planilha de metas, LOW x segmentada, orçamento no conjunto, planilha D-1,
-decisão da FHT pela imersão gratuita) e `RESUMO-parte-A`; trilha 22 FEV26 aula 36 "Otimização de Captação" e aula 33
-"Configurações de tráfego do zero" (transcrições novas; a 33 lida inteira na revisão), OUT25 aulas 8, 10, 12 e 15 (via `parte-G`); trilha 14
-`RESUMO-funil-de-reels-parte2.md` (distribuição), `RESUMO-aula-semanal.md` e a transcrição nova da Parte 2 (remarketing,
-captação perpétua); `CATALOGO-SKILLS-FHT.md` §3; padrões recomendados do squad (nomenclatura, expansão de público, otimização na campanha).
-
-**Lacunas (não inventar):** o bootcamp "Otimização de Tráfego para a Sessão 1:1" (11/12) não está no material: não há meta de
-CPL, CTR ou taxa de agendamento específica da sessão; a planilha de tráfego da imersão e a "colinha" de colunas do Douglas não
-foram capturadas; instalação de pixel por plataforma além de Hotmart Pages/Green só citada; API de conversões só mencionada;
-benchmarks de CPM e conversão são de turmas específicas (conferir no histórico da conta); método ACE de distribuição só citado.
+Não há meta de CPL, CTR ou taxa de agendamento específica da sessão 1a1 de referência. A planilha de tráfego da imersão e a "colinha"
+de colunas não vêm no pacote. Instalação de pixel por plataforma além de Hotmart Pages/Green é só citada; API de conversões só
+mencionada; benchmarks de CPM e conversão são de casos específicos (conferir no histórico da conta); método ACE de distribuição só
+citado.

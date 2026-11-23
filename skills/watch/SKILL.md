@@ -1,7 +1,7 @@
 ---
 name: watch
 version: "0.2.0"
-description: "ASSISTE um vídeo de verdade (URL ou arquivo local) — baixa com yt-dlp, extrai frames com ffmpeg e puxa a transcrição com timestamp (legendas nativas ou Whisper), e responde vendo o que está NA TELA, não só o que foi dito. Use quando o pedido envolver: assistir vídeo, ver vídeo, analisar vídeo, o que aparece no vídeo, o que ele mostra na tela, engenharia reversa de Reels/VSL/anúncio, analisar criativo de concorrente, quebrar a estrutura de um vídeo, ver o gancho dos primeiros segundos, analisar slide/print/demo dentro do vídeo, diagnosticar bug em gravação de tela, resumir vídeo longo, o que acontece em tal minuto. Também roda em .mp4/.mov/.mkv/.webm local. FRONTEIRA no Squad Turbo: se o pedido é SÓ o texto falado (transcrever aula, pegar a transcrição, minerar fala do expert), prefira transcrever-youtube-turbo. Esta skill é a única que enxerga a IMAGEM — use quando o visual importa (slides, demonstração, edição, corte, expressão, o que está escrito na tela). Custo alto de tokens: cada frame é uma imagem — em vídeo longo, focar um trecho com --start/--end. SEM CHAVE DE WHISPER: quando o vídeo não tem legenda, use o fallback LOCAL (whisper-local/ dentro desta skill · faster-whisper na CPU · o áudio não sai da máquina) — ver seção 'Fallback local' no corpo."
+description: 'Assiste um vídeo de verdade (URL ou arquivo local): baixa, extrai frames e transcrição com timestamp e responde vendo o que está NA TELA. Gatilhos: "assiste esse vídeo", "analisa o vídeo", "o que aparece na tela", "engenharia reversa do Reels/anúncio", "o gancho dos primeiros segundos". NÃO usar para só transcrever a fala (transcrever-youtube).'
 argument-hint: "<video-url-or-path> [question]"
 allowed-tools: Bash, Read, AskUserQuestion
 homepage: https://github.com/bradautomates/claude-video
@@ -55,7 +55,7 @@ Branch on two fields:
   3. Offer to install the local Whisper (`bash "${SKILL_DIR}/whisper-local/instalar.sh"`, free, the audio never leaves the machine) and ask the watch-preference questions below, then write the selected values into `~/.config/watch/.env` and set `SETUP_COMPLETE=true`.
 - **`can_proceed: false` and `first_run: false`** → setup was finished before but the environment regressed (e.g. `missing_binaries` after an OS change). Run the installer to remediate, then proceed. Don't re-ask preferences.
 
-A missing local Whisper is *encouraged to fix, not required*: on a genuine first run `status` will read `needs_key` (in this kit "key" means the local Whisper is installed) even when binaries are present — that's your cue to offer the install, not a blocker.
+A missing local Whisper is *encouraged to fix, not required*: on a genuine first run `status` will read `needs_key` (here "key" means the local Whisper is installed) even when binaries are present — that's your cue to offer the install, not a blocker.
 
 On follow-up `/watch` calls in the same session, use the silent check:
 
@@ -81,9 +81,9 @@ The installer is idempotent — safe to re-run:
 python3 "${SKILL_DIR}/scripts/setup.py"
 ```
 
-On macOS with Homebrew, it auto-installs `ffmpeg` and `yt-dlp`. On Linux/Windows, it prints the exact install commands for the user to run. It scaffolds `~/.config/watch/.env` with commented placeholders and default watch settings at `0600` perms.
+On macOS with Homebrew, it installs `ffmpeg` and `yt-dlp` (`brew install ffmpeg yt-dlp`): tell the user what will be installed and get an OK before running it. On Linux/Windows, it prints the exact install commands for the user to run. It scaffolds `~/.config/watch/.env` with commented placeholders and default watch settings at `0600` perms.
 
-**If the local Whisper is still missing after install:** ask the user (`AskUserQuestion`) whether to install it now: `bash "${SKILL_DIR}/whisper-local/instalar.sh"` (about 220 MB, plus the model on first use). No API key is ever asked: this kit uses only free tools.
+**If the local Whisper is still missing after install:** ask the user (`AskUserQuestion`) whether to install it now: `bash "${SKILL_DIR}/whisper-local/instalar.sh"` (about 220 MB, plus the model on first use). No API key is ever asked: only free tools are used.
 
 **First-run watch preference:** after the installer has scaffolded `~/.config/watch/.env`, use `AskUserQuestion` to ask one question:
 
@@ -226,24 +226,23 @@ The script gets a timestamped transcript in one of two ways:
 2. **Local Whisper fallback.** If no captions came back (or the source is a local file), the script runs the LOCAL faster-whisper
    (`whisper-local/transcrever.sh`: int8, CPU, the audio never leaves the machine, no API key). Use `--no-whisper` to skip it.
 
-## Whisper local (o único fallback do kit)
+## Whisper local (o único fallback)
 
-Head Turbo, 21/10/2026: só ferramenta grátis. A transcrição sem legenda é feita LOCALMENTE com faster-whisper (mesmo motor da skill
-cortes-tiktok-turbo · int8 · CPU · o áudio nunca sai da máquina); o `watch.py` chama `whisper-local/transcrever.sh` sozinho. Para
+Só ferramenta grátis. A transcrição sem legenda é feita LOCALMENTE com faster-whisper (mesmo motor da skill
+cortes-tiktok · int8 · CPU · o áudio nunca sai da máquina); o `watch.py` chama `whisper-local/transcrever.sh` sozinho. Para
 transcrever à mão um arquivo ou um trecho:
 
 ```bash
-bash ~/.claude/skills/watch/whisper-local/transcrever.sh "<work-dir>/video.mp4" --model medium
+bash "${SKILL_DIR}/whisper-local/transcrever.sh" "<work-dir>/video.mp4" --model medium
 ```
-(o `transcrever.sh` acha o venv sozinho: `$WHISPER_VENV`, `~/.local/share/head-turbo/whisper-venv` ou o antigo dentro da skill)
+(o `transcrever.sh` acha o venv sozinho: `$WHISPER_VENV`, `~/.local/share/whisper-venv` ou o antigo dentro da skill)
 
 A saída são linhas `[MM:SS] texto` — o mesmo formato do relatório.
 
 Notas:
 - **venv não existe?** (`transcrever.sh` sai com `MOTIVO=whisper-venv-ausente rc=3` — o zip não carrega os
-  218 MB): rode uma vez `bash ~/.claude/skills/watch/whisper-local/instalar.sh` e siga normalmente. O venv fica em
-  `~/.local/share/head-turbo/whisper-venv`, FORA da pasta de skills — dentro dela ele reprova o instalador do kit e o
-  verifica-kit (achado 13, 21/09/2026).
+  218 MB): com o OK do usuário (instala o faster-whisper, ~220 MB), rode uma vez `bash "${SKILL_DIR}/whisper-local/instalar.sh"` e siga normalmente. O venv fica em
+  `~/.local/share/whisper-venv`, FORA da pasta de skills (dentro dela, pesa na instalação e nas varreduras).
 - `--start MM:SS --end MM:SS` transcreve só o trecho (casa com o modo focado).
 - `--model tiny` para triagem rápida de vídeo longo; `medium` (padrão) para o
   resultado final. Modelos já baixados em `~/.cache/huggingface`.

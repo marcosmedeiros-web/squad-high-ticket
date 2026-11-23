@@ -1,6 +1,6 @@
 ---
 name: ht-treino-comercial
-description: 'Squad High Ticket / método FHT. Treina e mede quem vende o HT por sessão 1a1: organiza e conduz roleplay (cliente simulado com objeções reais e feedback por etapa), faz check-up do material antes das sessões, audita gravação ou transcrição de sessão contra o roteiro FHT (status por etapa, timestamp, nota), diagnostica conversão baixa na ordem avatar, oferta, execução, desmonta a call que vendeu (engenharia reversa) e monta o time comercial (quando delegar, kit do vendedor, remuneração sobre recebimento, fluxo SDR-closer). Use quando o estrategista disser "faz um roleplay da sessão", "analisa essa gravação", "por que não está vendendo", "fiz 15 sessões e vendi uma", "engenharia reversa dessa call", "posso contratar closer?", "quanto pago o vendedor". NÃO usar para escrever o roteiro (ht-roteiro-sessao-1a1) nem para LPSG, 5+1 ou Funil 8 (Turbo).'
+description: 'Treina e mede quem vende o HT por sessão 1a1: roleplay, check-up do material, auditoria de gravação contra o roteiro, diagnóstico de conversão baixa, engenharia reversa da call e time comercial. Use para "faz um roleplay", "analisa essa gravação", "por que não está vendendo", "posso contratar closer?". NÃO usar para escrever o roteiro (ht-roteiro-sessao-1a1).'
 ---
 
 # Treino comercial da sessão 1a1
@@ -40,7 +40,7 @@ aprende com o que deu certo (engenharia reversa) e prepara a passagem da sessão
 - Antes da primeira sessão real: **check-up** dos materiais e **roleplay** completo.
 - Primeiras sessões: só observar; a análise vale a partir de **5 sessões** (as primeiras quase sempre têm ajustes óbvios).
 - Conclusão sobre conversão e preço: só depois de **20 sessões** (padrão do squad; 25 no desafio).
-- Expectativa para alinhar com o expert (referências da trilha 09, aula 13, a conferir): a maioria das sessões termina em não;
+- Expectativa para alinhar com o expert (a conferir): a maioria das sessões termina em não;
   casos citados levaram 14 e 30 sessões até a primeira venda. Quem não tem urgência de caixa pode fazer as primeiras sessões com
   pessoas de baixo potencial de compra, só para aprender; quem precisa vender começa pelos potenciais.
 
@@ -54,7 +54,7 @@ Um ponto por observador; prioridade aos de maior impacto.
 ajustes numerados. Conferir links abertos e o gráfico carregando.
 
 **Passo 4. Auditoria de sessão gravada** (`references/rubrica-auditoria-sessao.md`).
-- Transcrever com tempo (`transcrever-youtube-turbo` ou `watch` para ver tela e gráfico).
+- Transcrever com tempo (`transcrever-youtube` ou `watch` para ver tela e gráfico).
 - Para cada etapa do roteiro de 6 etapas, marcar cumprida, parcial ou não cumprida, com observação e timestamp.
 - Medir os tempos reais contra o padrão do squad (alvo 1h15, teto 1h30) e a proporção fala do vendedor x fala do lead.
 - Registrar a objeção final e em que etapa ela poderia ter sido quebrada.
@@ -84,13 +84,13 @@ conduz a sessão, suporte agenda o diagnóstico de entrega. Rotina: gravar tudo,
 
 ## 4. Regras inegociáveis do método
 
-- O padrão de avaliação é o roteiro de 6 etapas da trilha 09 (padrão do squad) e os padrões recomendados de garantia condicional e mensurável, ordem do preço (entrada,
+- O padrão de avaliação é o roteiro de 6 etapas (padrão do squad) e os padrões recomendados de garantia condicional e mensurável, ordem do preço (entrada,
   parcelado, à vista), sinal com a call aberta e acordo do sim ou não sem "em cima do muro".
 - Feedback cirúrgico e numerado, sempre com o fundamento; sem elogio vazio e sem humilhação (reconhecer a coragem de quem
   apresentou e ser específico).
 - Analisar com amostra suficiente: 5 sessões para análise, 20 para concluir sobre conversão ou preço. Dizer "N de M analisadas".
 - Nada de inventar fala, nota ou resultado de sessão; o que a gravação não mostra é "não observável".
-- Roleplay com IA no papel de cliente é desenho do squad (a FHT faz roleplay humano); deixar isso claro no relatório.
+- Roleplay com IA no papel de cliente é desenho do squad (o método original faz roleplay humano); deixar isso claro no relatório.
 - Gravação de lead só com aviso ao lead e guardada em `privado/`.
 - O treino não fala com lead: produz material para o expert e o vendedor já definido no projeto (sem definição, assume o expert e lista em "Assumi").
 
@@ -128,22 +128,7 @@ Conferir se o relatório cobre cada um quando aplicável.
 
 ## 8. Ferramentas de apoio (por nome, sem copiar)
 
-`watch` (ver a gravação, gráfico e slides) · `transcrever-youtube-turbo` (transcrição com tempo) · `anthropic-skills:xlsx`
+`watch` (ver a gravação, gráfico e slides) · `transcrever-youtube` (transcrição com tempo) · `anthropic-skills:xlsx`
 (funil e rubrica) · `analytics-dashboard` (painel de conversão) · `anthropic-skills:docx` (kit do vendedor) · `avoid-ai-writing`
 (feedback em texto limpo).
 
-## 9. Fontes e lacunas
-
-**Fontes:** trilha 22, roleplays (mar/2025 179, mai/2025 160, jul/2026 RJ 12, jun/2026 SP 25 via resumo), laboratórios (fev/2025
-197, mar/2025 180, dez/2025 144, jan/2026 128, abr/2026 95 transcrita em 22/11, mai/2026 80, jul/2026 RJ 09) e engenharia reversa
-(jan/2025 192-195); trilha 15, Bootcamp de IA (RESUMO: fluxo de avaliação de reunião, status por etapa, nota 0-100 com peso,
-alerta abaixo de 70, calibração); trilha 09 (benchmarks e erros, RESUMO-vendas §7-8, RESUMO-apresentacao §7-8); rota 3 resumos
-01-02 e 03-10 (check-up, análise após 5 sessões, documento de ações recomendadas); planilha Central 1A1
-(`trilhas/_materiais/planilhas/10-social-lead-generation__16k_wVG3.xlsx`); catálogo fht-roleplay-sessao-1a1,
-fht-auditoria-sessao-1a1, fht-diagnostico-de-conversao-1a1, fht-engenharia-reversa-de-sessao-que-vendeu, fht-time-comercial
-(partes B, E, F, G, H, I); padrões do squad.
-
-**Lacunas (não inventar):** a rubrica da trilha 15 é a da sessão de diagnóstico de entrega, não a de vendas; os prompts, os pesos
-completos e a planilha "Avaliação da reunião" não estão nos arquivos; não há GPT de roleplay na FHT (citado, sem link); o
-formulário "Análise de Vendas" é só citado; não há treinamento formal de vendedor, metas por vendedor nem tabela de comissão nos
-arquivos (só princípios de lives e palestras); números de conversão variam entre turmas (de 1 em 20 a 10%-20%; vale o padrão do squad).

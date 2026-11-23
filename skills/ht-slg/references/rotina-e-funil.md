@@ -10,15 +10,15 @@ Há perda em todas as etapas. A parte do expert é abrir conversa, o que está n
 
 **Referências citadas:**
 
-| Referência | Números | Fonte |
-|---|---|---|
-| 100-20-1 (lista 100% fria, "o pior cenário" da aula) | 100 abordagens → 20 agendamentos → 1 venda (5% de conversão da sessão) | Trilha 10 aula 08 (conferido na transcrição: 20% de agendamento sobre abordagens, com lista fria; lista conhecida aborda menos e vende mais) |
-| Variante de funil hipotético | 100 → 40 respondem → 25 qualificados → 10 agendam → 7 comparecem → 2 vendas | Desafio dez/2025, aula 146 |
-| Resposta realista | Em 10 abordagens, 1 a 2 respostas; 100 mensagens com 10 respostas é normal | Trilha 10; dez/2025 |
-| Volume para agenda | 100 a 200 mensagens para 10 a 20 agendamentos é normal | Dez/2025 |
-| Comparecimento | 70% a 80% (no-show até 20%) | Desafios mai/2025, jan/2026 |
-| Conversão da sessão | 10% a 20% (padrão do squad); abaixo de 5% aciona diagnóstico de conversão | padrão do squad |
-| Lista quente | Com conhecidos e audiência, ~40 contatos podem dar 20 reuniões | Rota 3 (parte A) |
+| Referência | Números |
+|---|---|
+| 100-20-1 (lista 100% fria, "o pior cenário") | 100 abordagens → 20 agendamentos → 1 venda (5% de conversão da sessão) |
+| Variante de funil hipotético | 100 → 40 respondem → 25 qualificados → 10 agendam → 7 comparecem → 2 vendas |
+| Resposta realista | Em 10 abordagens, 1 a 2 respostas; 100 mensagens com 10 respostas é normal |
+| Volume para agenda | 100 a 200 mensagens para 10 a 20 agendamentos é normal |
+| Comparecimento | 70% a 80% (no-show até 20%) |
+| Conversão da sessão | 10% a 20% (padrão do squad); abaixo de 5% aciona diagnóstico de conversão |
+| Lista quente | Com conhecidos e audiência, ~40 contatos podem dar 20 reuniões |
 
 ## 2. Conta reversa (da meta às abordagens por dia)
 
@@ -31,10 +31,10 @@ abordagens_por_dia   = abordagens / dias_úteis_do_prazo
 ```
 
 Cenários de taxa de agendamento por abordagem (apresentar os três; trocar pelo real depois do 1º lote):
-- **Referência da trilha 10 (100-20-1):** 0,20. A aula apresenta como o pior cenário, com lista 100% fria.
-- **Variante dez/2025:** 0,10 (funil 100-40-25-10; e "100 a 200 mensagens para 10 a 20 agendamentos é normal").
-- **Cenário conservador do squad:** 0,05 (para planejar quando o expert não tem lista nenhuma; não é número da FHT).
-As fontes divergem (a trilha 10 chama 20% de pessimista; outras turmas falam em 10 respostas por 100 mensagens): apresentar os
+- **Referência (100-20-1):** 0,20. Apresentado como o pior cenário, com lista 100% fria.
+- **Variante:** 0,10 (funil 100-40-25-10; e "100 a 200 mensagens para 10 a 20 agendamentos é normal").
+- **Cenário conservador do squad:** 0,05 (para planejar quando o expert não tem lista nenhuma; não é número de referência do método).
+As fontes divergem (o 100-20-1 chama 20% de pessimista; outras turmas falam em 10 respostas por 100 mensagens): apresentar os
 três ao estrategista e trocar pelo real depois do 1º lote de 20 a 30 abordagens.
 
 Exemplo de cálculo (ilustração, não promessa): meta de 20 sessões realizadas em 10 dias úteis →
@@ -47,13 +47,12 @@ o prazo).
 - **3 janelas de 30 minutos por dia** dedicadas ao SLG (manhã, tarde, noite), até agendar a meta (20 sessões).
 - Cada janela: responder quem respondeu primeiro (condução e arremate no timing), depois novas desarmadoras do lote aprovado.
 - Não esperar resposta imediata (ninguém está esperando mensagem às 11h30); esperar com calma.
-- Enquete nos stories toda semana (funciona melhor que caixinha, bootcamp abr/2026); print das respostas no mesmo dia (somem em
+- Enquete nos stories toda semana (funciona melhor que caixinha); print das respostas no mesmo dia (somem em
   48 h).
-- Uma ou duas fontes por vez: esgotar uma antes de abrir outra ("senão congela", bootcamp abr/2026).
+- Uma ou duas fontes por vez: esgotar uma antes de abrir outra ("senão congela").
 - Live ou aula semanal: print de quem comentou e da lista de curtidas ao encerrar; abordar no mesmo dia ou no seguinte.
 - Story "separei [N] horários para [diagnóstico de avatar]" a cada 7 a 10 dias.
-- Metas de ritmo citadas: mínimo de 5 abordagens na tarefa do bootcamp, com o desafio de 100 mensagens em um dia livre
-  (abr/2026); 10 pessoas por rodada de exercício (trilha 10). Ninguém agenda sem abrir conversa: a parte do expert é abrir.
+- Metas de ritmo citadas: mínimo de 5 abordagens por tarefa, com o desafio de 100 mensagens em um dia livre; 10 pessoas por rodada de exercício. Ninguém agenda sem abrir conversa: a parte do expert é abrir.
 - Registrar na Central 1x1 ao fim de cada janela.
 - Fim da semana: ler o funil (seção 4) e ajustar uma coisa por vez.
 

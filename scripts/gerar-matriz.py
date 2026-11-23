@@ -211,7 +211,7 @@ def main():
                "`skills/*/SKILL.md`. Não editar à mão: rodar o script de novo." % agora)
     out.append("")
     out.append("- Agentes com arquivo: %d de %d do squad." % (len(agentes), len(AGENTES_DO_SQUAD)))
-    out.append("- Skills no plugin: %d (%d ht-, %d de execução do kit Turbo)." % (
+    out.append("- Skills no plugin: %d (%d ht-, %d de execução)." % (
         len(skills), sum(1 for s in skills if s.startswith("ht-")), sum(1 for s in skills if not s.startswith("ht-"))))
     out.append("- Alertas: %d (lista no fim)." % len(alertas))
     out.append("- P = pré-carregada (campo `skills` do cabeçalho); C = citada no corpo (invocada pela ferramenta Skill).")
@@ -230,7 +230,7 @@ def main():
         out.append("")
         out.append("Agentes do squad ainda sem arquivo: " + ", ".join("`%s`" % a for a in faltam) + ".")
     out.append("")
-    out.append("## Por skill ht- (método FHT)")
+    out.append("## Por skill ht- (método do Squad HT)")
     out.append("")
     out.append("| Nº | Skill | Pré-carregada por (P) | Citada por (C) |")
     out.append("|---|---|---|---|")
@@ -240,7 +240,7 @@ def main():
             s, ", ".join("`%s`" % a for a in uso[s]["pre"]) or "nenhum",
             ", ".join("`%s`" % a for a in uso[s]["cit"]) or "nenhum"))
     out.append("")
-    out.append("## Por skill de execução (do kit Turbo, `squad-high-ticket:<nome>`)")
+    out.append("## Por skill de execução (`squad-high-ticket:<nome>`)")
     out.append("")
     out.append("| Skill | name no cabeçalho | Pré-carregada por (P) | Citada por (C) |")
     out.append("|---|---|---|---|")

@@ -4,8 +4,8 @@ Regra geral: toda frase que vira âncora, dor ou Roma tem **fonte** (print, resp
 **hipótese**. Amostra sempre contada ("38 comentários de 12 posts", "7 entrevistas"). Dado identificável de lead ou paciente fica
 em `01-pesquisa/privado/`; no dossiê vai só a frase, sem nome.
 
-O que é método FHT e o que é modelo do squad está marcado em cada bloco. "Modelo do squad" = reconstruído a partir do método
-para preencher lacuna; nunca apresentar como material da FHT.
+O que é regra do método e o que é modelo do squad está marcado em cada bloco. "Modelo do squad" = reconstruído a partir do método
+para preencher lacuna.
 
 ---
 
@@ -13,31 +13,31 @@ para preencher lacuna; nunca apresentar como material da FHT.
 
 ### A1. Fontes, como coletar e o que tirar de cada uma
 
-| Fonte | Como coletar | O que tirar | Origem no método |
-|---|---|---|---|
-| **Clientes/alunos com resultado** | Entrevista individual gravada (Zoom), cerca de 1 a 2 h no caso da FHT; 3 a 10 pessoas | Por que compraram, o que foi difícil, o que funcionou, o que mais usaram, o que fariam diferente; resultado com número | Live 061 (FHT montou a oferta com entrevistas da turma piloto de 16); live 055 (ciclo de renovação: entrevistar quem teve resultado) |
-| **Dúvidas recorrentes** | DMs, comentários, caixinhas, chat de aula ou live, WhatsApp de atendimento; últimos 60 a 90 dias | Dores e objeções na frase do avatar; onde ele trava | Trilha 14 (âncoras: "dúvidas que mais recebe, onde os alunos travam, perguntas em comentários e caixinhas") |
-| **Comentários dos posts de maior alcance** | ferramenta do perfil que lê o Instagram (ex.: Graph API da Meta, lista de posts e insights por post, só leitura) para ranquear; texto do comentário por print ou exportação | O que gerou conversa; desejos e objeções públicas | Palestra de aluna, Nov/2025 (validar por comentários, métricas e directs); Palestra de aluna, Jun/2026 (pesquisa de leads: comentários, DMs) |
-| **Enquete nos stories** | Enquete de faixa (ex.: faturamento, peso, tempo de profissão) ou de dor; print dos votos em até 48 h | Tamanho de cada faixa; quem votou na faixa certa vira lead para 1a1 | Parte B/F (slg-enquete-stories) |
-| **Caixinha de pergunta** | Sequência de stories com caixinha ("qual sua maior dificuldade com X?") | Perguntas cruas, sem viés do expert | Parte B/F (sequência de 5 stories com caixinha) |
-| **NPS de aula/live** | Formulário no fim: nome, e-mail, telefone, nota 0 a 10 e pergunta de interesse em falar com o time | Satisfação, motivo, e quem levanta a mão para HT | Trilha 14 aula semanal (padrão em cerca de 95% dos casos FHT) |
-| **Pesquisa na página de obrigado** | Formulário logo após a inscrição em aula, evento ou lançamento | Perfil e qualificação (quem é público de HT) | Palestra de aluno, Nov/2025 (cerca de 90% de resposta, número de slide, conferir); live 032 (pergunta qualificativa na pesquisa de avatar do lançamento) |
-| **Pré e pós-sessão 1a1, antes de SHT ou imersão, NPS pós-imersão** | Formulário ou respostas do Raio-X | Objeções reais de quem chegou perto de comprar | Palestra de aluna, Jun/2026; Palestra de alunas, Nov/2025 |
-| **Dados de venda** | Lista de compradores (Hotmart, Central 1x1) x quem não comprou | Diferença de perfil comprador x não comprador | Palestra de alunas, Nov/2025 (documento comprador x não comprador); Palestra de aluno, Nov/2025 (um comprador vale mais que qualquer respondente) |
+| Fonte | Como coletar | O que tirar |
+|---|---|---|
+| **Clientes/alunos com resultado** | Entrevista individual gravada (Zoom), cerca de 1 a 2 h; 3 a 10 pessoas | Por que compraram, o que foi difícil, o que funcionou, o que mais usaram, o que fariam diferente; resultado com número |
+| **Dúvidas recorrentes** | DMs, comentários, caixinhas, chat de aula ou live, WhatsApp de atendimento; últimos 60 a 90 dias | Dores e objeções na frase do avatar; onde ele trava |
+| **Comentários dos posts de maior alcance** | ferramenta do perfil que lê o Instagram (ex.: Graph API da Meta, lista de posts e insights por post, só leitura) para ranquear; texto do comentário por print ou exportação | O que gerou conversa; desejos e objeções públicas |
+| **Enquete nos stories** | Enquete de faixa (ex.: faturamento, peso, tempo de profissão) ou de dor; print dos votos em até 48 h | Tamanho de cada faixa; quem votou na faixa certa vira lead para 1a1 |
+| **Caixinha de pergunta** | Sequência de stories com caixinha ("qual sua maior dificuldade com X?") | Perguntas cruas, sem viés do expert |
+| **NPS de aula/live** | Formulário no fim: nome, e-mail, telefone, nota 0 a 10 e pergunta de interesse em falar com o time | Satisfação, motivo, e quem levanta a mão para HT |
+| **Pesquisa na página de obrigado** | Formulário logo após a inscrição em aula, evento ou lançamento | Perfil e qualificação (quem é público de HT) |
+| **Pré e pós-sessão 1a1, antes de SHT ou imersão, NPS pós-imersão** | Formulário ou respostas do Raio-X | Objeções reais de quem chegou perto de comprar |
+| **Dados de venda** | Lista de compradores (Hotmart, Central 1x1) x quem não comprou | Diferença de perfil comprador x não comprador |
 
 Prioridade quando o tempo é curto: entrevistas com clientes que tiveram resultado → dúvidas recorrentes → comprador x não
 comprador → enquete e caixinha → o resto.
 
-### A2. Roteiro de entrevista com cliente que teve resultado (método FHT, perguntas parafraseadas das lives 055 e 061)
+### A2. Roteiro de entrevista com cliente que teve resultado (método, perguntas parafraseadas)
 1. Como você estava antes de entrar? (ponto de partida com número)
 2. O que fez você decidir comprar? Qual era sua maior dúvida ou medo antes?
 3. O que foi mais difícil no caminho?
-4. O que mais funcionou? Qual entrega ou conversa fez diferença? (é aqui que nascem os entregáveis: na FHT, "check-up" e
+4. O que mais funcionou? Qual entrega ou conversa fez diferença? (é aqui que nascem os entregáveis: por exemplo, "check-up" e
    "suporte em tempo real" vieram do nome que os próprios alunos deram ao que receberam)
 5. O que não funcionou ou não usou?
 6. Qual resultado você teve, com número e prazo?
 7. O que faria você continuar ou indicar?
-Gravar, transcrever (`transcrever-youtube-turbo` ou fallback local da `watch`), guardar em `privado/`.
+Gravar, transcrever (`transcrever-youtube` ou fallback local da `watch`), guardar em `privado/`.
 
 ### A3. Enquete e caixinha (modelo do squad, a partir das receitas de SLG)
 - Enquete de faixa, 2 opções, ligada ao critério do avatar: "Hoje você fatura acima ou abaixo de R$ X por mês com [tema]?"
@@ -47,8 +47,8 @@ Gravar, transcrever (`transcrever-youtube-turbo` ou fallback local da `watch`), 
   do `ht-slg` (abordagem é rascunho; quem fala com lead é a equipe do expert, com OK do estrategista).
 
 ### A4. Questionário de pesquisa de avatar (modelo do squad)
-A FHT tem o white label "Pesquisa de Avatar" só com o título (trilha 14). Este modelo junta as 6 perguntas de dores e desejos
-do Market Fit (trilha 05) com as perguntas de qualificação citadas nas lives. Usar na página de obrigado, no NPS ou como
+Não há questionário oficial de pesquisa de avatar. Este modelo junta as 6 perguntas de dores e desejos
+do Market Fit com as perguntas de qualificação usuais. Usar na página de obrigado, no NPS ou como
 formulário enviado à base (envio a lead só com OK do estrategista).
 
 1. Nome, WhatsApp, e-mail (opcional na pesquisa anônima).
@@ -70,17 +70,17 @@ marcar quem respondeu "sim" na 10 e as faixas de maior dor.
 ## Modo B: sem audiência (ou audiência que não é o avatar)
 
 Sem audiência não é sem pesquisa. O método diz que todo mundo já tem audiência (conhecidos, grupos, alunos, rede) e que as
-primeiras vendas vêm das "frutas mais baixas do pé" (trilha 05, aula 06).
+primeiras vendas vêm das "frutas mais baixas do pé".
 
-### B1. Lista de 50 (aba 3 do Market Fit, método FHT)
+### B1. Lista de 50 (aba 3 do Market Fit)
 Seis colunas, do mais quente ao mais frio: alunos (online, offline, ativos, inativos); grupos de que participa; conhecidos do
 ambiente social; ambiente profissional; redes sociais (quem segue, curtiu, mandou direct, respondeu story); network de eventos.
 Depois, lista fria por prospecção ativa (Google Meu Negócio por cidade, LinkedIn por profissão e cidade). Tráfego pago só depois.
-Dica dos professores: a agenda do celular rende dezenas de nomes. Cada linha: nome, telefone, fonte, quente/frio, faz parte do
+Dica: a agenda do celular rende dezenas de nomes. Cada linha: nome, telefone, fonte, quente/frio, faz parte do
 avatar (sim/não). A lista serve à pesquisa agora e ao `ht-slg` depois.
 
 ### B2. Conversa de descoberta com o avatar (modelo do squad)
-O método manda "conversar com o avatar e ouvir as palavras dele" (trilha 05, caso da fisioterapia de escoliose) mas não dita
+O método manda "conversar com o avatar e ouvir as palavras dele" (caso da fisioterapia de escoliose) mas não dita
 roteiro. Roteiro curto, 15 a 20 min, 5 a 10 pessoas da lista que são o avatar, por ligação ou vídeo. Não vender.
 1. Me conta como está hoje [tema] para você.
 2. O que mais te incomoda nisso? Desde quando?
@@ -91,18 +91,17 @@ roteiro. Roteiro curto, 15 a 20 min, 5 a 10 pessoas da lista que são o avatar, 
 7. O que faria você confiar em alguém para te acompanhar nisso?
 Anotar as frases literais (são a matéria das âncoras e da Roma). Se a pessoa pedir ajuda, registrar como lead quente para 1a1.
 
-### B3. Pesquisa externa (método FHT para temas de aula semanal e ferramentas do squad)
+### B3. Pesquisa externa (para temas de aula semanal e ferramentas do squad)
 - **AlsoAsked** (palavra-chave do negócio, português/Brasil): perguntas reais por volume de busca. Filtrar as que são do avatar.
 - **Planejador de palavras-chave do Google**: valida volume do tema.
 - **Busca do YouTube em aba anônima**, filtrada por visualizações: temas com demanda.
-- **Concorrentes**: perfis, páginas e anúncios do nicho (`niche-research`, `leitura-web-turbo`); comentários dos posts dos
+- **Concorrentes**: perfis, páginas e anúncios do nicho (`niche-research`, `leitura-web`); comentários dos posts dos
   concorrentes também são voz do avatar.
 - **Média de preço do nicho**: 5 a 10 produtos digitais (curso, mentoria, consultoria, consulta) com preço e link.
 Tudo marcado "externo" no dossiê; dado externo nunca substitui a voz do avatar real.
 
 ### B4. As primeiras sessões 1a1 como pesquisa
-O método recomenda começar pela sessão 1a1 porque valida a oferta, mostra objeções e dá clareza a cada reunião (trilha 05,
-aula 08; trilha 07). No modo B o dossiê termina com o plano: lista de 50 → primeiras sessões (`ht-slg`, `ht-raio-x`) → atualizar
+O método recomenda começar pela sessão 1a1 porque valida a oferta, mostra objeções e dá clareza a cada reunião. No modo B o dossiê termina com o plano: lista de 50 → primeiras sessões (`ht-slg`, `ht-raio-x`) → atualizar
 âncoras e objeções depois de 5 sessões (análise) e de 20 (decisão sobre preço e filtro).
 
 ---

@@ -1,8 +1,5 @@
 # Mentores: recrutar, contratar, treinar, transferir autoridade e acompanhar
 
-Fontes: trilha 19 aulas 15 a 17 (RESUMO §3, §5.11, complemento da §10), parte-D (recrutador, treinador), parte-H (diário e
-qualidade por IA, matchmaking, direção sem neutralidade), parte-I (formar e treinar), live 057 (papéis mentor e estrategista).
-
 ## 1. Perfil e origem
 - Critério central: "mão suja de terra" (fez na prática e teve resultado no que vai acompanhar).
 - Mentor dá direção clara, assume posição e lida bem com cliente; quem não confia no que fala não deve mentorar.
@@ -18,7 +15,7 @@ qualidade por IA, matchmaking, direção sem neutralidade), parte-I (formar e tr
 | Full time | Fixo mensal, agenda e dedicação exclusiva; pode assumir retenção e upgrade | Depois que fluiu por entrega e há caixa |
 Fluxo: lista de espera (quem se oferece; acionada quando há vaga e o candidato tem resultado) → abordagem → cadastro → termos e
 contrato formal (o que pode e não pode) → onboarding → treinamento. Exercício de 5 min: listar candidatos com resultado e boa
-convivência. Contrato e valores: decisão do estrategista com o expert (o material não dá modelo).
+convivência. Contrato e valores: a skill propõe e o jurídico do expert valida (o método não dá modelo).
 
 ## 3. Mentor training (template para o projeto)
 
@@ -39,7 +36,7 @@ PASSO 2 · Treinamento, um entregável por vez, na ordem de prioridade:
 PASSO 3 · Acessos: e-mail de mentor no domínio da empresa, ferramenta de chamada, logins (2 fatores em horário comercial)
 PASSO 4 · Processo: manual, diário do mentor, comunidade de mentores, link de links dos materiais
 ```
-Treino recorrente (o FHT faz semanal) quando o método muda; projeto menor pode fazer mensal.
+Treino recorrente (semanal, no caso de referência) quando o método muda; projeto menor pode fazer mensal.
 
 ## 4. Transferência de autoridade (roteiro)
 1. Na venda, já dizer quem acompanha (time de mentores) e por quê.
@@ -54,6 +51,6 @@ Nunca transferir para quem não foi treinado.
   canal com histórico. Pagamento por entrega condicionado ao áudio.
 - Métricas por mentor: entregáveis executados, NPS médio, Toques de Midas, nota da avaliação por IA de cada call.
 - Mentor que performa treina os novos. Recomendação errada: ligar no mesmo dia para corrigir com o aluno.
-- Matchmaking: cruzar o Raio-X do aluno com o perfil do mentor (nicho, tema, estilo); o FHT citou ferramenta que dá
+- Matchmaking: cruzar o Raio-X do aluno com o perfil do mentor (nicho, tema, estilo); há caso de referência com ferramenta que dá
   compatibilidade em percentual, sem detalhe de construção.
-- Reunião periódica de mentores para casos difíceis (vista nas gravações: caso levado ao colegiado).
+- Reunião periódica de mentores para casos difíceis (prática comum: caso levado ao colegiado).

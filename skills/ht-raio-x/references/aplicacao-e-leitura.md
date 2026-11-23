@@ -1,7 +1,6 @@
 # Aplicação do Raio-X na call e leitura do gráfico
 
-Fonte: trilha 09 aulas 06-07 (RESUMO §5.3-5.4); rota 3 resumo 05 (etapas 2 e 3); trilha 22 abr/2026 93-95, mai/2026 80,
-jul/2026 RJ 07 e 12, dez/2025 143, engenharia reversa jan/2025 192. Falas parafraseadas: adaptar à voz do expert.
+Falas parafraseadas: adaptar à voz do expert.
 
 ## 1. Abertura do questionário (modelo para adaptar)
 
@@ -9,9 +8,9 @@ jul/2026 RJ 07 e 12, dez/2025 143, engenharia reversa jan/2025 192. Falas parafr
 > uma nota de 0 a 10, sendo 0 muito ruim e 10 muito bom. Não é prova: quanto mais sincera a nota, melhor o diagnóstico. E não
 > precisa justificar a nota, a não ser que eu peça. Vamos lá?
 
-- Não anunciar "são 35 perguntas" (padrão da skill; a variante de anunciar é teste a aprovar pelo estrategista). Citar as áreas
-  ("vou olhar sete pilares") pode (laboratório abr/2026).
-- Explicar a escala uma vez, no início; depois só a pergunta, sem repetir "de 0 a 10" em todas (roleplay jul/2026 RJ). Se o lead
+- Não anunciar "são 35 perguntas" (padrão da skill; a variante de anunciar é teste listado em "Assumi"). Citar as áreas
+  ("vou olhar sete pilares") pode.
+- Explicar a escala uma vez, no início; depois só a pergunta, sem repetir "de 0 a 10" em todas. Se o lead
   responde "sim" ou "não", lembrar que precisa da nota para montar o gráfico.
 - Se a pessoa começa a justificar cada nota: "segura um pouquinho, eu aprofundo isso depois".
 - Ritmo: tom de conversa de consultório; ler a pergunta, ouvir a nota, anotar. Não ler a tela de forma robótica.
@@ -64,7 +63,7 @@ sem tom de condenação ("está péssimo"); usar "ponto de atenção" e "isso po
    ele explicou.
 5. Fechar com a **consequência geral em 12 meses** se nada mudar. Pode ser em pergunta, para o lead dizer com a própria boca
    ("há quanto tempo você tenta resolver isso? sem mudar nada, como você acha que vai estar daqui a um ano?"); a resposta antecipa
-   objeções de tempo e de "será que um ano basta" (roleplay jul/2026 RJ).
+   objeções de tempo e de "será que um ano basta".
 6. "Faz sentido para você?" e silêncio (a pessoa conclui sozinha, foi ela que deu as notas).
 7. Permissão: "Você gostaria da minha ajuda para chegar aqui [aponta o azul]?" → o sim abre a história do herói relutante.
 

@@ -1,8 +1,6 @@
 # Setup de ativos Meta, pixel, evento Lead e públicos
 
-Fontes: trilha 13 `RESUMO-trafego.md` §3.8, §3.11, §4 etapas A e B, §8; trilha 22 FEV26 aula 33 "Configurações de tráfego do
-zero" (transcrição nova); OUT25 aula 6 e aula 12 (via `parte-G`: configurador-trafego-do-zero, instalador-evento-lead-pixel,
-criador-publicos-captacao-meta).
+
 
 Se o expert já tem BM e conta, conferir primeiro o acesso pela ferramenta de tráfego do perfil (token, escopos, conta, IG; ver `execucao-ferramenta-trafego.md`). O checklist abaixo é para expert novo
 ou para auditar o que existe. Login, senha, 2FA, cartão e aceite de termos são **sempre do expert ou do estrategista**, nunca do agente.
@@ -14,8 +12,8 @@ ou para auditar o que existe. Login, senha, 2FA, cartão e aceite de termos são
 3. Instagram profissional (criador de conteúdo), vinculado à Página em Contas vinculadas.
 4. Gerenciador de Negócios (BM) do expert. Usar o que já existe; **nunca BM de terceiro**. Ter BM de backup.
 5. Conta de anúncios: **moeda BRL e fuso São Paulo não mudam depois** (errou, cria outra conta).
-6. Pagamento: cartão de crédito recomendado. A aula FEV26 diz que, cadastrado Pix ou boleto, a conta fica presa a esse meio, e
-   com cartão dá para trocar depois; a trilha 13 diz que boleto e cartão podem ser trocados. **Conferir na conta** antes de
+6. Pagamento: cartão de crédito recomendado. Uma orientação diz que, cadastrado Pix ou boleto, a conta fica presa a esse meio, e
+   com cartão dá para trocar depois; outra diz que boleto e cartão podem ser trocados. **Conferir na conta** antes de
    escolher. Dados fiscais: CNPJ ou CPF (a Meta emite nota mensal).
 7. Conferir no BM: Página, Instagram e conta atribuídos; pessoas com acesso. Dar **acesso total** a quem vai resolver bloqueio
    e pagamento (só quem tem acesso total fala com o suporte e recebe aviso de problema). Convidado no BM também precisa ser
@@ -31,7 +29,7 @@ ou para auditar o que existe. Login, senha, 2FA, cartão e aceite de termos são
 - Conectar o pixel à conta de anúncios (Ativos conectados).
 - Instalar em **todas** as páginas do funil (captura, obrigado, grupo, vendas). Hotmart Pages: ID do pixel + token da API de
   conversões (Gerenciador de Eventos > Conjunto de dados > Configurações > Gerar token) em Integração Facebook, com o
-  nome de evento PageView em todas as páginas; o Lead sai de uma conversão personalizada por URL do obrigado (FEV26 aula 33).
+  nome de evento PageView em todas as páginas; o Lead sai de uma conversão personalizada por URL do obrigado.
   O mesmo ID e token valem para todas as páginas do mesmo pixel. WordPress: script no head. Green: duplicar a linha de PageView para Lead (L maiúsculo) no
   JavaScript customizado, sem tags script.
 - Verificar o domínio no BM.
@@ -42,7 +40,7 @@ ou para auditar o que existe. Login, senha, 2FA, cartão e aceite de termos são
 ## 3. Evento Lead (o ponto que mais quebra)
 
 - Disparar Lead **só com cadastro real**: na página de obrigado, ou numa página de redirecionamento de ~5 s antes do grupo.
-- Evento no clique do botão conta lead falso. Caso de aula: 38 leads no gerenciador para 8 na base.
+- Evento no clique do botão conta lead falso. Caso de referência: 38 leads no gerenciador para 8 na base.
 - Sem página de obrigado: evento personalizado no gerenciador de eventos (não é retroativo) ou conversão personalizada pela
   URL (slug) do obrigado.
 - Aviso "não recebemos nenhuma atividade de conversão" = evento não configurado ou não disparando.
@@ -66,10 +64,10 @@ Todos atualizam sozinhos; público pequeno vale criar já.
 | Interesses | 3 a 5 do nicho juntos; depois isolados | conjunto 02 |
 
 Regras de público:
-- Nome do público = fonte + recorte + janela (FEV26 aula 33): `Site geral 30d`, `Seguidores - @perfil`, `Envolvimento IG - 365d`,
+- Nome do público = fonte + recorte + janela: `Site geral 30d`, `Seguidores - @perfil`, `Envolvimento IG - 365d`,
   `Envolvimento FB - 365d`. Com mais de um perfil conectado, o `@` evita usar o público da conta errada.
 - Público de envolvimento do Facebook aceita até 730 dias; janela maior contém a menor, então não somar as duas no mesmo
-  conjunto (trilha 17).
+  conjunto.
 - Semelhante pede base de ~1.000 (seguidores, leads ou visitas).
 - Frequência ~3,5 no quente = público esgotado: abrir para frio.
 - Público pequeno encarece o CPM; seguidores de perfil recém-profissionalizado (ex.: ~1.900) não sustentam campanha.
@@ -78,6 +76,6 @@ Regras de público:
 
 ## 5. Teste do fluxo (prova antes de subir)
 
-Checklist de 8 itens (trilha 12, via catálogo `fht-infra-dominio-e-teste-de-fluxo`): domínio com SSL · tag · formulário ·
+Checklist de 8 itens: domínio com SSL · tag · formulário ·
 página publicada · etiqueta · obrigado · teste feito · publicado. Preencher como lead, cair no obrigado, ver o Lead no Testar
 eventos e o contato com a tag na ferramenta. Nunca editar a página em duas abas ao mesmo tempo. Registrar data e resultado.

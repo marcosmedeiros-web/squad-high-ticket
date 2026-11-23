@@ -1,7 +1,5 @@
 # Perpétuo de ingresso e página de vendas
 
-Fonte: trilha 17, aula 24 (perpétuo, criativos, páginas), aula 28 (FAQ alimentado pelo comercial), RESUMO-parte-B §5.2.
-
 ## 1. Briefing do perpétuo (para `ht-gestor-trafego` e `ht-criativos-high-ticket`)
 - Objetivo: venda todo dia e leitura da velocidade (é o "surdo da escola de samba" que dita o ritmo).
 - Meta mínima: custo de aquisição do ingresso empatar o custo do evento.

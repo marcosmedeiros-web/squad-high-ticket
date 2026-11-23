@@ -1,13 +1,13 @@
 ---
 name: ht-produtos-ht-complementares
-description: 'Squad High Ticket / método FHT. Desenha os produtos HT complementares ao Acelerador de Resultados: consultoria individual (CI) como caixa e porta de venda do AR (problema único, pitch no fim, abatimento do valor pago), peixe assado ("faço por você": quando usar, escopo, briefing, prazo, termo e limites) e experiência high ticket (EHT: bastidores, retiro, viagem, cruzeiro, venda dentro do evento, ancoragem do AR). Use quando o estrategista disser "cria uma consultoria que leve pro AR", "o cliente quer que a gente faça por ele", "precisa de caixa rápido", "monta uma experiência pros alunos top", "vale um ingresso VIP de bastidores?". NÃO usar para decidir o portfólio inteiro (ht-portfolio-e-escolha-do-ht), para o GIC/mastermind (ht-upgrade-e-gic), para a sessão 1a1 gratuita de venda (ht-roteiro-sessao-1a1) nem para produto de entrada low ticket ou LPSG (Turbo).'
+description: 'Desenha produtos HT complementares ao AR: consultoria individual (CI), peixe assado ("faço por você") e experiência high ticket (EHT), com escopo, termo e limites. Use para "consultoria que leve pro AR", "o cliente quer que façamos por ele", "experiência VIP". NÃO usar para portfólio (ht-portfolio-e-escolha-do-ht), GIC (ht-upgrade-e-gic) nem sessão 1a1 de venda.'
 ---
 
 # Produtos HT complementares: consultoria individual, peixe assado e experiência HT
 
 ## 1. Para que serve e o que entrega
 
-O AR é o centro do portfólio; CI, peixe assado (PA) e EHT são produtos de difícil escala que o FHT usa por motivo específico:
+O AR é o centro do portfólio; CI, peixe assado (PA) e EHT são produtos de difícil escala que o método usa por motivo específico:
 **caixa rápido, porta de venda do AR, relacionamento com clientes de alto nível ou validação de método**. Esta skill desenha cada
 um com regras, limites e ligação explícita ao AR, para que ele some ao portfólio em vez de tirar foco ou canibalizar a oferta.
 
@@ -34,64 +34,62 @@ um com regras, limites e ligação explícita ao AR, para que ele some ao portf�
 ## 3. Passo a passo
 
 ### Passo 1. Confirmar o motivo e o lugar no portfólio
-Cada complementar precisa de um motivo declarado (lives 031, 053, 055, 062):
+Cada complementar precisa de um motivo declarado:
 - **CI**: caixa e porta para o AR; extra para quem já está no AR/GIC; solução fora do escopo entregue por parceiro.
 - **PA**: validar o método, injetar caixa, estreitar relacionamento ou posição estratégica. Nunca como produto de escala.
 - **EHT**: caixa e relacionamento com o topo da base; ancoragem e degrau para os programas.
-Se o motivo for "ter mais produtos", parar: o risco da live 062 é o produto novo tirar foco ou fazer o AR parecer pior.
+Se o motivo for "ter mais produtos", parar: o risco é o produto novo tirar foco ou fazer o AR parecer pior.
 
 ### Passo 2. Consultoria individual (CI)
 Fichas e roteiro: `references/fichas-ci-pa-eht.md`, seção CI.
 1. **Escolher o problema único**: o principal travamento do aluno na jornada do AR (vem do dossiê e da jornada), resolvido numa
-   call com solução executável no curto prazo. No método, CI é pontual e de curto prazo ("não tem consultoria por 10 anos",
-   live 062); a trilha 07 admite algum acompanhamento e poucos entregáveis com o especialista à disposição. Regra do squad: o
+   call com solução executável no curto prazo. No método, CI é pontual e de curto prazo ("não tem consultoria por 10 anos"); admite-se algum acompanhamento e poucos entregáveis com o especialista à disposição. Regra do squad: o
    padrão é uma sessão (ou poucas, com escopo fechado no mesmo problema); passou disso, é um AR e vai para a `ht-entregaveis`.
 2. **Teste da roda**: se o problema já deveria estar resolvido dentro do AR, não vira CI ("vender o carro e cobrar a roda à
-   parte", live 062). CI só para o que é extra ou fora do escopo.
+   parte"). CI só para o que é extra ou fora do escopo.
 3. **Formato**: sessão individual com preparo (formulário de entrada), condução e saída escrita (próximos passos). Duração e
-   preparo seguem o padrão de entregável 1a1 do squad (`ht-entregaveis-1a1`); a FHT oferece, como bônus de membro, uma
-   consultoria de cerca de 2 h para avaliar a ideia de HT (live 057).
-4. **Quem entrega**: idealmente o time, não o expert (live 031).
+   preparo seguem o padrão de entregável 1a1 do squad (`ht-entregaveis-1a1`); o método oferece, como bônus de membro, uma
+   consultoria de cerca de 2 h para avaliar a ideia de HT.
+4. **Quem entrega**: idealmente o time, não o expert.
 5. **Fim da CI como porta**: termina com o pitch do AR, oferecido só a quem tem potencial; quem entra no AR tem o valor da CI
-   abatido (exemplo citado: experiência de consultoria de cerca de R$ 15 mil abatida de um AR de cerca de R$ 45 mil, live 031,
-   conferir). Conversão de referência de CI para AR: 40% a 50% (live 031). Registrar como meta a validar, não promessa.
-6. **Variações citadas**: consultoria vendida barata como ponte para o HT, que precisa gerar valor real (exemplo de R$ 500, live
-   032); "sessão de revisão" paga como downsell no último dia de evento para quem não comprou o HT (live 032).
-7. **Preço**: proposto pelo padrão e listado em "Assumi" (seção 5); vira oficial na Aprovação 1. A trilha 07 lembra que CI tende a ter ticket alto por ser tempo direto do expert.
+   abatido (exemplo citado: experiência de consultoria de cerca de R$ 15 mil abatida de um AR de cerca de R$ 45 mil;
+   conferir). Conversão de referência de CI para AR: 40% a 50%. Registrar como meta a validar, não promessa.
+6. **Variações citadas**: consultoria vendida barata como ponte para o HT, que precisa gerar valor real (exemplo de R$ 500); "sessão de revisão" paga como downsell no último dia de evento para quem não comprou o HT.
+7. **Preço**: proposto pelo padrão e listado em "Assumi" (seção 5); vira oficial na Aprovação 1. CI tende a ter ticket alto por ser tempo direto do expert.
 
 ### Passo 3. Peixe assado (PA)
 Fichas: `references/fichas-ci-pa-eht.md`, seção PA.
-1. **Origem**: costuma nascer do pedido do cliente ("você não faz isso para mim?", trilha 07).
+1. **Origem**: costuma nascer do pedido do cliente ("você não faz isso para mim?").
 2. **Escopo fechado** na hora da venda: o que será feito, o que não está incluso, entregáveis com critério de aceite, prazo.
-3. **Briefing de entrada** por formulário (o que a FHT recomenda, trilha 07) e **termo** assinado; o termo é estrutura para o
+3. **Briefing de entrada** por formulário (recomendado) e **termo** assinado; o termo é estrutura para o
    jurídico do expert revisar, nunca minuta final do squad.
 4. **Responsabilidade pelo resultado**: no PA o cliente paga pela execução; se o produto ou o negócio dele é ruim e não há
-   resultado, "a culpa vai ser sua" (live 062). Por isso: qualificar o cliente antes (mesmos 4 critérios de potencial aplicados
+   resultado, "a culpa vai ser sua". Por isso: qualificar o cliente antes (mesmos 4 critérios de potencial aplicados
    ao negócio dele) e escrever no escopo o que depende dele.
-5. **Acompanhamento**: se o cliente precisa ver a evolução, criar uma forma de entregar acompanhamento (trilha 07).
+5. **Acompanhamento**: se o cliente precisa ver a evolução, criar uma forma de entregar acompanhamento.
 6. **Teto**: definir quantos PAs simultâneos a equipe aguenta; PA gera dependência dos dois lados e não escala.
-7. **Dentro do AR**: PA só como bônus pontual, nunca o centro da entrega. Versão da FHT citada: a equipe monta parte do funil do
-   aluno (páginas, WhatsApp, automação, checkout, tráfego) em poucas horas por pessoa (parte I, conferir o tempo).
-8. **Para agência e prestador de serviço** (live 007): não virar "mentor de lançamento" sem resultado; caminhos do método são
+7. **Dentro do AR**: PA só como bônus pontual, nunca o centro da entrega. Versão do método citada: a equipe monta parte do funil do
+   aluno (páginas, WhatsApp, automação, checkout, tráfego) em poucas horas por pessoa (conferir o tempo).
+8. **Para agência e prestador de serviço**: não virar "mentor de lançamento" sem resultado; caminhos do método são
    ensinar outros prestadores ou entrar como sócio estrategista de um expert.
 9. **Exceção a mostrar no "Assumi"**: em serviço técnico de alto valor, há caso de PA como produto principal vendido por sessão
-   1a1 (construção civil, contratos acima de R$ 1 milhão, palestra Fev/2026). Diverge da regra geral.
+   1a1 (construção civil, contratos acima de R$ 1 milhão). Diverge da regra geral.
 
 ### Passo 4. Experiência High Ticket (EHT)
 Fichas: `references/fichas-ci-pa-eht.md`, seção EHT.
 1. **Conceito**: algo exclusivo que não se compra em outro lugar. Exemplos citados: bastidores de evento (camarim, reuniões de
    construção do evento), visita ao escritório com reunião de negócios, cruzeiro de negócios, viagem guiada ligada ao nicho,
    fim de semana em mansão só com quem fatura acima de um corte alto.
-2. **Público**: o topo da base (para quem fatura acima de R$ 1 milhão, o cliente quer experiência e não preço, live 031) ou
-   participantes de um evento grande (ingresso de R$ 10 a 15 mil ao lado do ingresso barato, live 014).
+2. **Público**: o topo da base (para quem fatura acima de R$ 1 milhão, o cliente quer experiência e não preço) ou
+   participantes de um evento grande (ingresso de R$ 10 a 15 mil ao lado do ingresso barato).
 3. **Pré-requisito e vagas**: definir corte (faixa de resultado) e número de vagas; exclusividade é o produto.
 4. **Custo**: o custo real costuma ser baixo (atenção, acesso); em viagem e cruzeiro, somar hospedagem, alimentação e
-   fornecedores. Caso de referência (trilha 07): lotes a partir de cerca de R$ 5,1 mil com custo de cerca de R$ 2,3 mil por pessoa,
+   fornecedores. Caso de referência: lotes a partir de cerca de R$ 5,1 mil com custo de cerca de R$ 2,3 mil por pessoa,
    familiares pagando à parte, e o AR vendido com a experiência como bônus ou ancoragem.
 5. **Onde vende**: dentro de um evento, para a base, ou como degrau de upgrade; quem compra a EHT pode subir para um programa
-   (live 062).
-6. **Renovação**: a EHT **não renova**; é escada para o produto seguinte (padrão recomendado, que a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`, pelas lives 053, 055 e
-   062). A trilha 07 dizia que podia renovar repetindo a experiência; o padrão é não. Quem quer mais sobe de produto.
+.
+6. **Renovação**: a EHT **não renova**; é escada para o produto seguinte (padrão recomendado, que a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`).
+   Há quem renove repetindo a experiência; o padrão é não. Quem quer mais sobe de produto.
 7. **Momento**: auditoria de laboratório (dez/2025) diz que EHT costuma fazer sentido só 2 a 3 anos depois do AR; antes disso,
    só se houver público de topo ou evento grande.
 
@@ -104,9 +102,9 @@ o impacto no caixa. Passar para o `ht-master-plan` (linha de produto ou receita 
 
 ## 4. Regras inegociáveis do método
 
-- AR é o centro; complementar só com motivo declarado. Prioridade de escala do FHT: AR, GIC, EHT, PA, CI (live 055).
-- CI resolve um problema pontual com solução de curto prazo (live 062); não é acompanhamento disfarçado nem pedaço retirado do AR.
-  Limite de sessões da CI é regra do squad, não da FHT (ver passo 2).
+- AR é o centro; complementar só com motivo declarado. Prioridade de escala do método: AR, GIC, EHT, PA, CI.
+- CI resolve um problema pontual com solução de curto prazo; não é acompanhamento disfarçado nem pedaço retirado do AR.
+  Limite de sessões da CI é regra do squad, não do método (ver passo 2).
 - PA não é produto de escala; nunca predominante dentro do AR; escopo, prazo e termo fechados na venda.
 - Entregável por quantidade e sob demanda, nunca por frequência fixa (padrão do squad).
 - EHT é exclusiva de verdade; experiência que se compra igual em outro lugar não é EHT.
@@ -122,7 +120,7 @@ Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em 
 - **Criar ou não** o complementar agora (custo de oportunidade frente ao AR): criar só se houver motivo declarado.
 - **Preço** da CI, do PA e da EHT, e **regra de abatimento** da CI no AR: propor pelo padrão (abatimento integral, com prazo) e listar em "Assumi".
 - **Vagas** e corte de entrada da EHT: propor pela capacidade; verba e fornecedores pedem o OK simples.
-- **PA como produto principal** (exceção da palestra) ou PA para um cliente específico de alto valor: padrão = PA só sob pedido de cliente.
+- **PA como produto principal** (exceção) ou PA para um cliente específico de alto valor: padrão = PA só sob pedido de cliente.
 - Quem entrega (expert ou time) quando isso muda a promessa: padrão = o expert, listado em "Assumi".
 
 ## 6. Critério de pronto e auditoria final
@@ -146,7 +144,7 @@ Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em 
 7. Complementar criado sem motivo, tirando foco do AR que ainda não validou 20 sessões.
 8. Entregável por frequência fixa.
 9. Preço ou abatimento fora do padrão, ou ausente do "Assumi", ou tratado como oficial antes da Aprovação 1.
-10. Número de caso de aula usado como promessa de conversão.
+10. Número de caso de referência usado como promessa de conversão.
 
 ## 7. Saída e handoff
 
@@ -158,19 +156,7 @@ Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em 
 
 ## 8. Ferramentas de apoio (por nome)
 
-`anthropic-skills:docx` (termo e escopo do PA para o jurídico), `gerador-slides-turbo` ou `anthropic-skills:pptx` (apresentação
+`anthropic-skills:docx` (termo e escopo do PA para o jurídico), `gerador-slides` ou `anthropic-skills:pptx` (apresentação
 da EHT), `pagina-design-premium` (página da EHT, depois da copy aprovada), `anthropic-skills:xlsx` (custo por pessoa da EHT),
 `avoid-ai-writing` (texto das fichas).
 
-## 9. Fontes e lacunas
-
-**Fontes**: trilha 07 aula 04 e encerramento (7 tipos de produto, peixe assado x prestação de serviço); trilha 05 aula 07; rota3
-resumo 09; lives 007, 014, 031, 032, 053, 055, 057, 062 (RESUMO-lives; transcrições de 057 e 062 e aulas 04, 05, 07, 11 e 12 da trilha 07
-lidas por inteiro na revisão de 23/11/2026); palestra de aluno do nicho de construção civil (Fev/2026);
-parte H (estruturar-consultoria-individual-e-peixe-assado, criar-experiencia-high-ticket-eht) e parte I (criar-peixe-assado,
-criar-consultoria-individual-ci, criar-experiencia-high-ticket-eht) do catálogo.
-
-**Lacunas**: o FHT não detalha roteiro próprio da CI (o roteiro em `references/fichas-ci-pa-eht.md` é modelo do squad); não há
-modelo de contrato ou termo do peixe assado nos materiais (só a orientação de briefing, prazo e termo); a regra de abatimento
-só aparece em um exemplo; tempo por aluno do PA da FHT e preços de EHT têm ruído de legenda (conferir). A renovação da EHT
-deixou de ser lacuna: não renova (padrão recomendado; a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`).

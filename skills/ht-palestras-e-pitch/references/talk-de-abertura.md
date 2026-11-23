@@ -1,24 +1,20 @@
 # Talk de abertura (dia 1) e talks de entrada (dias 2 e 3)
 
-Fontes: trilha 18 aula 6 (white label da talk do dia 1 desconstruído na abertura real do Érico, lida por inteiro em 23/11),
-aula 7 (exercício corrigido por Tiago), aula 8 (conteúdo do dia 1), aulas 10, 14 e 15 (talks dos dias 2 e 3, lidas por inteiro em
-23/11), roteiros white label do Drive (seção 11 do RESUMO da trilha 18), desafio out/2025 aula 13, fev/2026 aula 38 e aula 44
-(laboratório de talk, lida por inteiro em 23/11), Live 033 (P1 talk de entrada), Live 008 (função da talk).
 Substitua tudo entre colchetes por dado do expert; número sem fonte vira `[FALTA: …]`.
 
 ## 1. Função e regras
 
-- Duração: 1h30 a 2h no online de 1 dia (out/2025); cerca de 35 min na grade presencial de 3 dias (trilha 18), com mais
+- Duração: 1h30 a 2h no online de 1 dia; cerca de 35 min na grade presencial de 3 dias, com mais
   palestras depois. A talk cria conexão, faz os combinados, vende a ideia do evento e planta o programa (seeding) sem ofertar.
-- Funções obrigatórias (Live 008): alinhar expectativa, dizer quem apresenta o evento, mostrar a oportunidade e enfraquecer as
+- Funções obrigatórias: alinhar expectativa, dizer quem apresenta o evento, mostrar a oportunidade e enfraquecer as
   principais objeções.
 - Quem faz a talk de entrada faz o pitch (retoma a história no pitch). A pré-pitch pode ser de outra pessoa.
 - Nunca: oferta, preço, nome de curso ou produto barato; "só 10% assistem o curso" (joga contra); propor networking ("vamos nos
   conhecer" faz a sala formar grupo paralelo e perder a atenção).
 
-## 1b. White label oficial da talk do dia 1 (IMA presencial, trilha 18 aula 6)
+## 1b. Modelo oficial da talk do dia 1 (IMA presencial)
 
-É a estrutura que o FHT entrega como white label; o expert escreve **bullet points e sub-bullets** (não um texto corrido como um
+É a estrutura que o método entrega como modelo; o expert escreve **bullet points e sub-bullets** (não um texto corrido como um
 roteiro de vídeo) e fala de forma natural, contando história. Na IMA real a abertura durou cerca de 35 min.
 ```
 1. RECEPCIONAR (boas-vindas)
@@ -33,9 +29,9 @@ roteiro de vídeo) e fala de forma natural, contando história. Na IMA real a ab
 ```
 Observações da desconstrução: o "imagine" fecha a talk (é a parte de motivar), não abre; o repasse de autoridade aos mentores é
 feito depois de falar da mentoria e das análises que eles já fizeram (por isso o público os procura no break). O roteiro da seção 2
-abaixo é a versão expandida, com a ordem corrigida na aula 7 (prova primeiro); as duas cumprem os mesmos 7 pontos.
+abaixo é a versão expandida, com a ordem corrigida (prova primeiro); as duas cumprem os mesmos 7 pontos.
 
-## 1c. Sequência da talk de imersão online / IMI (observada no laboratório fev/2026, modelo da aula 38)
+## 1c. Sequência da talk de imersão online / IMI 
 
 Boas-vindas e promessa específica da imersão → o que vai ser a imersão (tipo; "não vai ser um evento leve", seguido do que a
 pessoa leva) → ciclo dos 4 Es → o que sai pronto hoje → combinados → quem vai apresentar (procedência do expert como história) →
@@ -103,7 +99,7 @@ com um caso → objeções (empatia, argumento racional, prova) → ponte para a
 Duração de referência: cerca de 33 min na IMA (curta de propósito, porque o dia 2 é longo e o pitch não pode atrasar; no Mundo
 Paralelo, com menos conteúdo, a talk do dia 2 passa de 1 h). Combinar antes entre os palestrantes o que cada um explica, para não
 repetir conteúdo (na IMA um conceito foi explicado duas vezes e roubou tempo).
-Variante FHT 3 dias (out/2025): abrir o dia 2 com perguntas e respostas e reforço do CTA do laser coaching.
+Variante de 3 dias: abrir o dia 2 com perguntas e respostas e reforço do CTA do laser coaching.
 
 ## 4. Talk de entrada do dia 3 (antes do re-pitch): "meu time me disse"
 
@@ -116,13 +112,13 @@ objeções anotadas num caderno. A mesma reunião vale no dia seguinte ao pitch 
 1. Boas-vindas e antecipação do dia.
 2. Insights + dúvidas + quebra de objeções + prova + gatilhos: chamar pessoas para compartilhar, tirar dúvida, contar
    resultado de aluno do programa.
-3. Abrir por uma das 3 formas (Live 033):
+3. Abrir por uma das 3 formas:
    a) "Meu time me disse": o expert lista as objeções que o time ouviu no break e responde uma a uma.
    b) Aula "como enfraquecer objeções" (venda com cara de conteúdo).
    c) Objeções ao vivo (mão levantada; risco alto, saber desistir de quem só quer causar).
 4. Transição para o vídeo + re-pitch (ver repitch-decisoes-downsell-encerramentos.md).
 ```
-Como conduzir (aula 15): começar pelos takeaways ("o que você aprendeu ontem? alguma dúvida?") e deixar o caminho orgânico; se
+Como conduzir: começar pelos takeaways ("o que você aprendeu ontem? alguma dúvida?") e deixar o caminho orgânico; se
 alguém trouxer uma das objeções do caderno, ótimo; se não surgir, o expert provoca: "meu time me falou que muita gente quer entrar,
 mas está pensando [objeção]; tenho algumas coisas para falar sobre isso". A duração varia (de 20 min a 2h30 ou mais); o expert não
 tem pressa de voltar ao conteúdo enquanto a sala está decidindo. Os vídeos de prova usados aqui já vêm prontos antes do evento
@@ -130,7 +126,7 @@ tem pressa de voltar ao conteúdo enquanto a sala está decidindo. Os vídeos de
 **Sempre há pausa logo depois do repeat/re-pitch** (esquecer a pausa foi erro apontado num evento analisado): a sala acabou de se
 convencer e precisa de tempo para ir à mesa de fundo.
 
-## 5. Checklist de correção (laboratório de talk, fev/2026)
+## 5. Checklist de correção (laboratório de talk)
 
 1. Pouco texto por slide, letra grande; história em fotos.
 2. Ordem do herói: sonho, obstáculos, superação, resultado; obstáculos claros e em ordem; separar parte ruim e parte boa.
@@ -164,6 +160,6 @@ convencer e precisa de tempo para ir à mesa de fundo.
 ## 6. Erros típicos
 
 - Começar direto com conteúdo técnico e perder a sala; abrir sem prova; esquecer os combinados.
-- Abertura curta demais (anotação da grade antiga do FHT) ou que vira palestra de conteúdo.
-- Casos da talk desalinhados com o avatar do evento (o FHT troca os cases da talk quando o público muda: metade começando do zero
+- Abertura curta demais (anotação da grade antiga do método) ou que vira palestra de conteúdo.
+- Casos da talk desalinhados com o avatar do evento (o método troca os cases da talk quando o público muda: metade começando do zero
   pede casos de transição do offline para o online).

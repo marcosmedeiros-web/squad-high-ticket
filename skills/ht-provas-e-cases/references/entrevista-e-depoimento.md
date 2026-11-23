@@ -2,7 +2,7 @@
 
 ## 1. Entrevista individual (Zoom fechado, gravado)
 Preparação: ler o catálogo e o histórico do aluno; separar os números que ele já informou.
-Perguntas (lives 002, 022, 037; ordem sugerida):
+Perguntas (022, 037, ordem sugerida):
 1. Antes de entrar, como estava [área do resultado]? Que número você tinha?
 2. Que outras opções você considerou? Por que não foram?
 3. Qual era a sua maior dúvida ou objeção antes de entrar? (a mais importante para a venda)

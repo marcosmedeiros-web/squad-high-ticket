@@ -34,15 +34,15 @@ Toda [dia/frequência] tem [aula ao vivo / vídeo novo] sobre:
 Este canal é para [avatar] que quer [resultado específico].
 [CTA para a ação do momento, com o nome da sessão ou do evento]
 ```
-Regras: a palavra "mentoria" não abre a descrição nem aparece no banner (laboratório abr/2026: quem chega quer a transformação,
+Regras: a palavra "mentoria" não abre a descrição nem aparece no banner (quem chega quer a transformação,
 não quer comprar nada; "mentoria" logo de cara faz sair); promessa idêntica à do Instagram;
 frequência real (só o que o expert vai cumprir).
 
 ## 4. Canal antigo com audiência
 
 - Não renomear sem plano: mudança de nome derruba a busca e o alcance (caso citado de canal que caiu muito depois da troca).
-- Transição sugerida em aula: manter o nome por 1 a 2 meses com o nome do expert na capa e o arroba na descrição; depois juntar
-  os dois nomes; só então trocar. Decisão do estrategista.
+- Transição sugerida: manter o nome por 1 a 2 meses com o nome do expert na capa e o arroba na descrição; depois juntar
+  os dois nomes; só então trocar. Assumo o padrão e listo em "Assumi".
 - Não apagar vídeos antigos de baixa qualidade: seguem trazendo busca e podem virar "veja como eram meus vídeos".
 
 ## 5. LinkedIn
@@ -60,7 +60,7 @@ Hoje ajudo [avatar] a [resultado] por meio de [nome do HT ou do método].
 
 [CTA para a sessão 1a1 com o nome dela.]
 ```
-- Sem caixa alta no texto; posts fixados no LinkedIn são possíveis (aula), mas o padrão dos 3 fixados é do Instagram.
+- Sem caixa alta no texto; posts fixados no LinkedIn são possíveis, mas o padrão dos 3 fixados é do Instagram.
 
 ## 6. Outras redes (TikTok etc.)
 

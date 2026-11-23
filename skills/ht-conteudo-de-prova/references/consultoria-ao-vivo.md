@@ -1,8 +1,8 @@
 # Consultoria ao vivo na audiência: formulário, escolha, roteiro e fluxo dos não escolhidos
 
-Legenda: **[FHT]** = está no material (Live FHT 026 salvo indicação); **[proposta da skill]** = criado aqui porque o material não detalha.
+Legenda: **[proposta da skill]** = criado aqui porque o método não detalha; o resto é regra do método.
 
-## 1. O mecanismo [FHT]
+## 1. O mecanismo
 - Consultoria individual, ao vivo, de um mentor (ou do expert) com uma pessoa escolhida da audiência.
 - A audiência preenche uma aplicação; escolhe-se uma pessoa.
 - O formulário também qualifica leads para o HT.
@@ -11,18 +11,18 @@ Legenda: **[FHT]** = está no material (Live FHT 026 salvo indicação); **[prop
 - As pessoas gostam de ver o resultado sendo construído na prática, com vários nichos; isso aumenta a percepção de autoridade.
 - Oferta de consultoria gratuita enviada por mensagem a uma lista de 600 pessoas teve zero resposta; com a turma presente e com
   aplicação, funciona.
-- No FHT, a proposta era uma por semana, com o tema que mais trava o avatar (construir a oferta do HT de ponta a ponta).
+- Padrão do método: uma por semana, com o tema que mais trava o avatar (construir a oferta do HT de ponta a ponta).
 
 ## 2. Formulário de aplicação
 Perguntas de qualificação vêm do avatar e do Raio-X do expert (`02-oferta/`, `03-sessao/`); a lista abaixo é **[proposta da skill]**,
-exceto a pergunta de repescagem, que é **[FHT]**.
+exceto a pergunta de repescagem, que é do método.
 
 1. Nome, WhatsApp, e-mail, @ do Instagram.
 2. Qual é a sua situação hoje em [área do tema]? (fato com número e período, no padrão do Raio-X: nada de "como você se sente")
 3. O que você já tentou para resolver?
 4. Qual resultado você quer nos próximos [prazo da promessa]?
 5. Por que você deveria ser o escolhido desta consultoria? (ajuda a achar o caso mais didático)
-6. **[FHT]** Caso você não seja escolhido desta vez, gostaria de um contato individual com alguém do time para conversar sobre ter
+6. Caso você não seja escolhido desta vez, gostaria de um contato individual com alguém do time para conversar sobre ter
    um acompanhamento? (sim / não)
 7. Autorizo a exibição ao vivo e a gravação do meu caso, caso seja escolhido. (obrigatória para concorrer)
 
@@ -42,11 +42,11 @@ Quem tem perfil de HT (avatar + problema que o HT resolve + condição de execut
 1. **Abertura:** por que essa consultoria existe e o que a audiência vai levar, mesmo não sendo o escolhido.
 2. **Apresentação do escolhido:** quem é, ponto A com número, o que quer.
 3. **Diagnóstico rápido:** 3 a 5 perguntas na frente de todos, no padrão de fato e resultado do Raio-X.
-4. **Construção ao vivo:** resolver o tema de ponta a ponta (no FHT, a oferta do HT), narrando o porquê de cada decisão.
+4. **Construção ao vivo:** resolver o tema de ponta a ponta (a oferta do HT), narrando o porquê de cada decisão.
 5. **Recapitulação para a audiência:** o passo a passo que qualquer um aplica.
 6. **CTA:** para o funil definido no plano. Lembrar que o time vai falar com quem marcou sim na repescagem. Sem preço.
 
-## 5. Fluxo dos não escolhidos [FHT na lógica; prazos são proposta da skill]
+## 5. Fluxo dos não escolhidos
 | Situação | Ação | Skill dona |
 |---|---|---|
 | Qualificado + sim na repescagem | contato individual e convite para sessão 1a1, de preferência no mesmo dia | ht-agendamento-e-follow-up, ht-roteiro-sessao-1a1 |
@@ -55,9 +55,9 @@ Quem tem perfil de HT (avatar + problema que o HT resolve + condição de execut
 
 Contato com lead só com OK do estrategista para ligar o envio; SDR e Closer do squad produzem rascunho, não falam com lead.
 
-## 6. Variante gravada [FHT, só citação, Live 058]
-Episódio produzido em que o expert monta ao vivo o plano completo de um empresário convidado (linha "O plano perfeito"). O material
+## 6. Variante gravada
+Episódio produzido em que o expert monta ao vivo o plano completo de um empresário convidado (linha "O plano perfeito"). O método
 não traz receita: usar só como ideia de formato e decidir com o estrategista.
 
-## 7. Métricas por consultoria [proposta da skill, ligada à métrica semanal da Live 026]
+## 7. Métricas por consultoria [proposta da skill, ligada à métrica semanal]
 Aplicações recebidas · % com sim na repescagem · qualificados · sessões marcadas · vendas (com a data) · cortes gerados.

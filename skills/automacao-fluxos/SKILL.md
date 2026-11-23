@@ -1,6 +1,6 @@
 ---
 name: automacao-fluxos
-description: 'Monta automação de marketing com o dono e deixa ela VIGIADA. Traz quatro fluxos-modelo prontos para instalar e ligar com as credenciais dele (formulário vira contato no Mautic e WhatsApp de boas-vindas; venda aprovada na Hotmart dispara boas-vindas por e-mail e WhatsApp; lembrete de aula ao vivo nos grupos de WhatsApp; comentário com palavra-chave vira DM com link pela ManyChat) e o roteiro para o fluxo sob medida (n8n, ManyChat ou código), sempre com teste de TRÂNSITO antes de ligar e alarme quando o fluxo para de passar gente. Use quando o dono disser "monta uma automação", "quem comentar recebe o link na DM", "comentário vira DM", "lead do formulário vai pro Mautic", "manda WhatsApp pra quem se inscreveu", "boas-vindas de quem comprou", "webhook de venda", "lembrete da aula ao vivo", "aviso no grupo antes da live", "integrar a ferramenta X com a Y", "fluxo no n8n", "fluxo na ManyChat", "minha automação parou e ninguém avisou" ou "conferir se a automação está funcionando". NÃO cria campanha nem e-mail em massa (isso é do pacote de e-mail marketing), NÃO manda Purchase para a Meta (pacote de conversão Hotmart e Meta), NÃO faz recuperação de carrinho (pacote próprio), NÃO edita fluxo da ManyChat por API (a ManyChat não permite: é pela tela, com o dono) e NÃO liga nada sem o OK do dono.'
+description: 'Monta automação de marketing (formulário para Mautic e WhatsApp, venda Hotmart, lembrete de aula, comentário vira DM, fluxo n8n sob medida) com teste de trânsito antes de ligar e alarme quando para. Use para "monta uma automação", "comentário vira DM", "lembrete da aula ao vivo", "minha automação parou". NÃO usar para e-mail em massa nem CAPI.'
 ---
 
 # Automação montada com o dono, e vigiada
@@ -14,7 +14,8 @@ Antes de mexer em qualquer fluxo, leia `references/licoes.md` (as lições medid
 ## O que vai pronto e o que fica com o dono
 
 **Pronto:** o motor (receptor HTTP local, ciclo de um minuto, banco local, vigia), os quatro fluxos-modelo, o teste
-de trânsito, a prova exigida para ligar e o alarme pelo canal de avisos do kit.
+de trânsito, a prova exigida para ligar e o alarme pelo canal de avisos que você escolher (`AF_AVISO_CANAL`: arquivo
+local por padrão, ou `comando:/caminho/script` para o seu notificador de Telegram, e-mail ou Slack).
 
 **Fica com o dono** (não conta contra o "pronto"):
 1. As credenciais, cada uma num arquivo 600 escrito por ele no terminal, nunca pelo chat:
@@ -54,7 +55,7 @@ bash instalar-automacao.sh --perfil ~/automacao-perfil/perfil.env --com-servico 
 ```
 O `--ligar` liga o receptor e o timer; os fluxos continuam `desligado`. Ponha o bloco do Caddyfile e confira de
 fora: `curl -s -o /dev/null -w '%{http_code}' https://<subdomínio>/f/x` tem que dar 404 (o receptor respondeu).
-Comandos daqui em diante: `F="python3 -B ~/.claude/skills/automacao-fluxos/motor/fluxos.py --perfil ~/.config/head-turbo/automacao-fluxos/perfil.env"`.
+Comandos daqui em diante: `F="python3 -B ~/.claude/skills/automacao-fluxos/motor/fluxos.py --perfil ~/.config/automacao-fluxos/perfil.env"`.
 
 ### 4. Desenhar
 Copie o modelo para `AF_FLUXOS_DIR/<nome>.json` e preencha com o dono (o `nome` dentro do arquivo é o nome do
@@ -108,7 +109,7 @@ observado, "funcionando" é só inferência.
 ## Operar
 - `$F status` (modo, último evento, trânsito de 24 h, alarmes abertos) e `$F transito <fluxo>` (o contador por ramo
   e por passo).
-- O alarme chega pelo canal de avisos do kit, um por episódio e um na volta. O que cada um quer dizer e o que fazer
+- O alarme chega pelo canal de avisos do perfil (`AF_AVISO_CANAL`), um por episódio e um na volta. O que cada um quer dizer e o que fazer
   está no cabeçalho de `motor/vigia.py`. Os mais comuns: `silencio` (a origem parou de bater: formulário trocado,
   webhook desativado pela Hotmart, gatilho da ManyChat despublicado, receptor fora); `sem_regra` (entrou o que o
   fluxo não sabe tratar: produto novo sem regra, formulário com campo renomeado); `falhas` (passo que falhou ou

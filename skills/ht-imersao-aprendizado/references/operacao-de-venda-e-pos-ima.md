@@ -1,15 +1,12 @@
 # IMA: operação de venda, mapa de peças, checklist, recuperação, debriefing e auditoria
 
-Fontes: trilha 18 aulas 03 (debriefing), 11 (pitch), 12 (break), 17 (downsell, arquivo "Encerramento dia 3"), GPS (aula 19, fases 6 a 9); trilha 17 aula 53
-(recuperação pós-imersão); catálogo fht-mesa-de-fundo-e-break-de-vendas, fht-auditoria-imersao.
-
 ## 1. Processo de compra
 
 - **CTA fácil**: ficha (dados + perguntas de seleção) e pagamento de uma **entrada** no próprio evento; restante à vista até uma
-  data ou parcelado (exemplo do FHT: entrada fixa no evento e o saldo à vista em ~2 semanas ou em parcelas com juros). Os
+  data ou parcelado (exemplo: entrada fixa no evento e o saldo à vista em ~2 semanas ou em parcelas com juros). Os
   valores, o prazo e a dupla saem de `02-oferta/oferta-vigente.md` (ordem: entrada, parcelado, à vista).
 - O programa "começa" no almoço do dia seguinte ao pitch: prazo real da condição do evento.
-- Ficha e checkout testados com compra real antes do evento (o FHT testou o pagamento quando as vendas não vieram).
+- Ficha e checkout testados com compra real antes do evento (houve caso em que testaram o pagamento quando as vendas não vieram).
 - Online: link do checkout só pela central e pelo lobby, nunca solto no chat aberto (regra da preparação técnica das turmas).
 - Aprovação: organizar inscritos e fichas no fim do evento; aprovar e reprovar na segunda-feira; reprovado recebe motivo e, se
   pagou entrada, devolução; aprovado entra no onboarding (`ht-onboarding-e-primeira-entrega`).
@@ -28,14 +25,14 @@ Fontes: trilha 18 aulas 03 (debriefing), 11 (pitch), 12 (break), 17 (downsell, a
 - **Prova viva**: um aluno que chegou à Roma quebra numa conversa a objeção que o palco levou uma hora.
 - **Desapego sincero**: dizer "não entre agora" só quando é verdade (sem preparo, sem dinheiro, sem projeto). Casos de dinheiro
   emprestado: caso a caso, sem regra.
-- Painel ao vivo de vendas (o FHT mantém alguém do financeiro atualizando o tempo todo) e a agenda do evento visível para a
+- Painel ao vivo de vendas (referência: alguém do financeiro atualizando o tempo todo) e a agenda do evento visível para a
   equipe.
 
 ## 3. Break de vendas (online)
 
 Lobby no Zoom com uma pessoa que recepciona e direciona para um faixa preta ou para o financeiro e mata as objeções básicas;
 câmeras abertas como combinado; mosaico com pessoas para o expert ver rosto no pré-pitch e no pitch; recorte do pitch na
-central para quem saiu; leitura do chat exportado se as vendas não vierem (o FHT leu o chat inteiro desde o pré-pitch para
+central para quem saiu; leitura do chat exportado se as vendas não vierem (houve caso de leitura do chat inteiro desde o pré-pitch para
 achar a causa).
 
 ## 4. Downsell e pinga-pinga
@@ -60,7 +57,7 @@ vender, 2 a 3 h antes do fim. Volume baixo por natureza: metas conservadoras.
 | Brinde (se houver) | material que condensa o conteúdo | ht-arquiteto-entrega | E-7 |
 | Planilha de recuperação | colunas da seção 7 | ht-closer | E-1 |
 
-## 6. Checklist de execução (GPS, fase 7)
+## 6. Checklist de execução (fase 7)
 
 - **5 dias antes**: confirmação ativa em ritmo; listas de presença; ensaio do expert e dos palestrantes; teste técnico completo
   (som, slides, vídeos, plano B de internet e energia, segundo host).

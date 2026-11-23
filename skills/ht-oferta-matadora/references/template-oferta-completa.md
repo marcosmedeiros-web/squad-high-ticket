@@ -1,14 +1,11 @@
 # Template: oferta completa do AR (oferta-proposta-vN.md)
 
-Preencher tudo. Campo sem dado: `[FALTA: ...]`. Número de aula usado como referência: marcar "(referência, conferir)".
+Preencher tudo. Campo sem dado: `[FALTA: ...]`. Número de referência: marcar "(referência, conferir)".
 Preço, entrada, parcela e garantia vêm do arquivo do `ht-preco-pagamento-e-garantia` (citar a versão).
 
 ```markdown
 # Oferta do <nome do programa>: <slug>, versão N (AAAA-MM-DD)
 Estado: proposta | aprovada pelo estrategista em AAAA-MM-DD (Aprovação 1)
-Fontes: definição <AAAA-MM-DD do rascunho>, entregáveis <AAAA-MM-DD>, preço <AAAA-MM-DD>, benchmark de casos <arquivo ou "sem precedente">
-(rascunhos são datados, não numerados: a "versão" de um rascunho é a data do arquivo; rascunho corrigido = arquivo novo com a
-data do dia e o anterior em `historico/`)
 
 ## 1. Núcleo
 - Tipo de AR: <negócio|carreira|habilidade|conquista pessoal>

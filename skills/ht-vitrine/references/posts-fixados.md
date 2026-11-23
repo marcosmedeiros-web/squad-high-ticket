@@ -4,14 +4,13 @@ Referência da `ht-vitrine`. O Instagram permite fixar 3 posts. A visita olha fo
 pouco vistos. Fixados costumam ter poucas curtidas ("quem compra HT não fica curtindo"): não é sinal ruim.
 
 Ordem na grade: 1 Quem sou eu, 2 Evidência, 3 Campanha vigente (padrão do squad). Na etapa 2 da rota (sessão 1a1) a ação
-vigente é a própria sessão: o 3º fixado é o convite para a sessão 1a1 (bootcamp abr/2026). Fora disso, sem ação ativa, só os dois
+vigente é a própria sessão: o 3º fixado é o convite para a sessão 1a1. Fora disso, sem ação ativa, só os dois
 primeiros.
 
-Formato: carrossel nos três (os laboratórios reprovam imagem estática única). O Instagram aceita carrossel longo (fala de
-laboratório: até 20 cards, conferir); o número de cards abaixo é sugestão do squad, não regra da FHT. Postar uma imagem por card
-(subir o PDF inteiro gerou post estático em laboratório). Texto da capa centralizado e com margem: a grade corta as bordas.
+Formato: carrossel nos três (imagem estática única é reprovada). O Instagram aceita carrossel longo (até 20 cards, conferir); o número de cards abaixo é sugestão do squad, não regra do método. Postar uma imagem por card
+(subir o PDF inteiro gera post estático). Texto da capa centralizado e com margem: a grade corta as bordas.
 Para mudar a ordem: desfixar todos e fixar de novo na ordem desejada, conferindo no celular qual aparece primeiro (a interface
-muda; o laboratório de abr/2026 ensinou desfixar e refixar).
+muda; vale desfixar e refixar).
 
 ## 1. Quem sou eu (obrigatório)
 
@@ -22,7 +21,7 @@ onde?".
 **Formato:** carrossel (erra menos que vídeo e permite evidência visual), cerca de 8 a 10 cards (sugestão do squad), fotos reais do
 expert, texto curto em cada card. Vídeo só se for trecho forte de palestra; vídeo cru sem ritmo não serve.
 
-**Esqueleto do herói relutante (base do white label da trilha 08):**
+**Esqueleto do herói relutante (base do método):**
 1. Muitas pessoas me pediram [X].
 2. Por muito tempo eu relutei.
 3. A razão real de eu ter relutado foi [Y].
@@ -47,7 +46,7 @@ Se "muitos pediram" não for verdade, trocar por algo verdadeiro (uma tendência
 
 **Legenda:** repete a essência (quem não passa os cards lê a legenda e vice-versa), termina no mesmo CTA. Curta.
 
-**Regras de corte (laboratórios):**
+**Regras de corte:**
 - Linha do tempo linear; ir e voltar no tempo confunde.
 - Cada informação passa no teste "isso é útil para quem lê?". Currículo só se ajudar o avatar a confiar; 2 ou 3 fatos bastam.
 - Elementos pessoais (família, origem) só um aspecto, e só se conecta com o avatar.
@@ -67,8 +66,8 @@ Se "muitos pediram" não for verdade, trocar por algo verdadeiro (uma tendência
 **Formato:** carrossel, um depoimento ou resultado por card, até 10 cards, destaque visual no maior ganho. Vídeo de aluno entra
 dentro do carrossel (acelerado ou em print), não como vídeo único.
 
-**Quantidade:** um ou dois posts de evidência (trilha 08). Post de conteúdo (ex.: "7 mitos sobre X") não é evidência e não
-ocupa o 2º fixado; vai para o feed. Sem nenhuma evidência ainda, a trilha 08 aceita fixar provisoriamente um conteúdo forte de
+**Quantidade:** um ou dois posts de evidência. Post de conteúdo (ex.: "7 mitos sobre X") não é evidência e não
+ocupa o 2º fixado; vai para o feed. Sem nenhuma evidência ainda, é aceitável fixar provisoriamente um conteúdo forte de
 identificação com o avatar, até haver prova.
 
 **Ordem de preferência de prova:**
@@ -83,8 +82,8 @@ identificação com o avatar, até haver prova.
 - A prova tem de sustentar a promessa (print abaixo da promessa não prova a promessa; prêmio de vendas não prova emagrecimento).
 - Nicho sem antes e depois permitido: mostrar o ganho de outro jeito (avaliação, exame, documento, rotina), sempre real.
 - Profissão regulada (saúde, advocacia e outras com conselho): checar o código de ética antes de publicar prova, antes e
-  depois ou chamada de venda. Caso de laboratório: advogada impedida pela OAB de publicar além do informativo. Decisão do estrategista
-  com o expert; o material não traz as regras de cada conselho.
+  depois ou chamada de venda. Caso: advogada impedida pela OAB de publicar além do informativo. Decidir
+  com o expert; o método não traz as regras de cada conselho.
 - Depoimento: resultado primeiro; cortar o trecho em que o cliente explica o método.
 - Somar resultados de vários alunos dá especificidade (ex.: "[N] alunas, [soma] em [resultado]"), só com números reais.
 - Autorização de uso registrada para cada depoimento (protocolo, regra 14).
@@ -114,4 +113,4 @@ público certo no texto (falar com quem compra).
 - Não são prioridade. Quem não tem não precisa criar agora.
 - O que existir tem de estar alinhado: destaque com assunto fora da promessa faz o lead "perder" o expert.
 - Provas podem virar destaque "Resultados".
-- Feed antigo que contradiz a promessa (outros nichos, outros produtos): propor arquivar (decisão do estrategista com o expert).
+- Feed antigo que contradiz a promessa (outros nichos, outros produtos): propor arquivar (decidir com o expert).

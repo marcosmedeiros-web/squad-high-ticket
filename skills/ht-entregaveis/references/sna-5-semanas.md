@@ -1,8 +1,5 @@
 # SNA (Sistema de Navegação Ativa) de 5 semanas
 
-Fontes: trilha 06 RESUMO (5.7, 6.3); rota3 01-02 (Parte 3); parte F `ar-criar-sna-checklist` (desafio RJ/26); parte A
-`fht-sna-sistema-de-navegacao-ativa`. Modelo: `rota3/materiais/planilhas/AR-whitelabel-SNA-sistema-de-navegacao-ativa.xlsx`.
-
 ## 1. O que é
 
 Planilha (ou Google Agenda por aluno) com o passo a passo mastigado do que o aluno executa, em tarefinhas, com checkbox e barra de
@@ -32,7 +29,7 @@ Linhas = passos da jornada com subtarefas. Para não ficar gigante, pode haver u
 3. Trocar todo texto genérico ("atividade x", "*****") pelas tarefas do método do expert.
 4. Definir quem acompanha (navegador ou mentor), como comenta e o prazo de resposta.
 5. Dar nome comercial claro para o lead ("checklist da ...", "GPS da ..."); "SNA" é termo interno.
-6. Exemplo de uso (emagrecimento, trilha 06): por mês, peso e medidas com fotos e gráfico; por dia, hábitos (exercício, água,
+6. Exemplo de uso (emagrecimento): por mês, peso e medidas com fotos e gráfico; por dia, hábitos (exercício, água,
    sono); a planilha vira banco de dados da aluna e base de prova.
 7. A planilha preenchida pelo aluno serve também como evidência de execução para a garantia condicional
    (`ht-preco-pagamento-e-garantia`).

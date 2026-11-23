@@ -1,13 +1,13 @@
 ---
 name: ht-turne-e-eventos-enxutos
-description: 'Squad High Ticket / método FHT. Desenha eventos presenciais pequenos e baratos que vendem HT - o primeiro presencial de baixo risco (30 a 150 pessoas, 1 ou 2 dias, local cedido, hub ou hotel), a turnê de pequenos eventos em várias cidades (MVP de cerca de 50 ingressos, cidades pela base, grupo de revelação, página com escolha de cidade, tráfego local de 100 km, equipe de 6) e o corte de custos sem perder conversão. Entrega plano, calendário, orçamento enxuto e checklist por cidade. Use quando o estrategista disser "quero um presencial pequeno e barato", "turnê em várias cidades", "evento de baixo custo", "primeiro presencial do expert", "como baratear o evento". Para o presencial grande de 3 dias use ht-imersao-presencial; NÃO usar para evento LPSG/5+1 (Turbo).'
+description: 'Desenha eventos presenciais pequenos e baratos que vendem HT: primeiro presencial de baixo risco, turnê de pequenos eventos em várias cidades e corte de custos, com plano, orçamento e checklist. Use para "presencial pequeno e barato", "turnê em várias cidades", "evento de baixo custo". Para o presencial grande de 3 dias use ht-imersao-presencial.'
 ---
 
 # Turnê e eventos presenciais enxutos
 
 ## 1. Para que serve e o que entrega
 
-O presencial converte mais que o online, mas o grande evento de 3 dias concentra risco e custo. O caminho do FHT para quem
+O presencial converte mais que o online, mas o grande evento de 3 dias concentra risco e custo. O caminho do método para quem
 ainda não está pronto para ele (e um modelo de escala por si só) é o evento pequeno e enxuto: primeiro um presencial de baixo
 risco, depois a repetição do mesmo roteiro em várias cidades. Esta skill planeja esse formato, do MVP à turnê, com custo controlado.
 
@@ -32,14 +32,14 @@ risco, depois a repetição do mesmo roteiro em várias cidades. Esta skill plan
 
 ### Passo 1. Escolher o caminho
 - **Primeiro presencial do expert**: 30 a 50 pessoas, 1 dia, espaço cedido ou sala pequena; objetivo é limitar risco e scriptar,
-  não ser o melhor evento (Live 027: o presencial é a "bomba atômica" que explode em venda ou em prejuízo).
+  não ser o melhor evento.
 - **Turnê**: o expert já tem um MVP que funcionou e base em mais de uma região.
 - **Encontro de alunos barato**: ver ht-imersao-de-resultados (hub de cerca de 100 lugares).
 Ordem do método: 1a1 → imersão online → presencial pequeno (30 a 50, depois 100 a 150) → escalar em tamanho e quantidade.
 
 ### Passo 2. MVP numa cidade
-Evento de 1 ou 2 dias com cerca de 50 ingressos para testar roteiro, venda e operação (o FHT recomenda 1 ou 3 dias e não
-recomenda 2, trilha 18 aula 4; o caso de referência foi de 2 dias, então a duração é decisão do estrategista). Medir: ingressos, presentes, conversão
+Evento de 1 ou 2 dias com cerca de 50 ingressos para testar roteiro, venda e operação (o método recomenda 1 ou 3 dias e não
+recomenda 2; o caso de referência foi de 2 dias, então a duração é decisão assumida no padrão, listada em "Assumi"). Medir: ingressos, presentes, conversão
 sobre presentes, custo líquido. Caso de referência (conferir): IMI de 2 dias, ingresso de R$ 197, 64 ingressos, 54 presentes,
 24% de conversão, 13 vendas. Só passar à turnê se o MVP converter e o roteiro estiver estável.
 
@@ -87,22 +87,21 @@ e seguir; não gastar energia para "recuperar" a cidade.
 6. Não tentar salvar cidade fraca; diluir risco é a lógica do formato.
 7. Pitch no dia certo (2 dias: dia 2), break para vender, nada de híbrido ao vivo.
 8. Preço e entrada só de 02-oferta; campanha pausada até OK; envio a lead só com OK do estrategista.
-9. Proibido misturar estrutura LPSG/5+1 da Turbo.
+9. Proibido misturar a estrutura de outros formatos de evento pago.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-- **Fazer o MVP ou ir direto à turnê** (a recomendação das fontes é MVP primeiro).
-- **Entrada**: (a) ingresso baixo (ex. do caso, R$ 197: paga parte do custo e eleva o comparecimento); (b) gratuito com
-  confirmação (mais gente, comparecimento menor e imprevisível); (c) credencial simbólica.
-- **Número de cidades e ritmo** (fins de semana seguidos x espaçados) e **verba por cidade**.
-- **Tamanho da equipe que viaja** e se o expert palestra em todas as cidades.
-- **Duração**: (a) 1 dia (recomendação do FHT para formato compacto; menos custo e menos tempo de decisão); (b) 2 dias (formato do
-  caso de referência; mais conteúdo, mas fora da recomendação do FHT por deixar pouco tempo entre pitch e fim).
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **MVP ou turnê direto**: padrão MVP primeiro.
+- **Entrada**: padrão ingresso baixo (ex. do caso, R$ 197: paga parte do custo e eleva o comparecimento); gratuito com confirmação (mais gente, comparecimento imprevisível) e credencial simbólica ficam como alternativa. O valor é preço: "posso seguir?".
+- **Número de cidades, ritmo e verba por cidade**: o agente propõe pelo padrão; a verba: "posso seguir?".
+- **Equipe que viaja**: assume equipe mínima, com o expert palestrando em todas as cidades.
+- **Duração**: padrão 1 dia (menos custo e menos tempo de decisão); 2 dias deixam pouco tempo entre pitch e fim.
 
 ## 6. Critério de pronto e auditoria final
 
 **Pronto quando:**
-- [ ] Caminho escolhido (primeiro presencial, MVP, turnê) com decisão do estrategista registrada.
+- [ ] Caminho escolhido (primeiro presencial, MVP, turnê) com decisão assumida no padrão, listada em "Assumi" registrada.
 - [ ] Cidades com justificativa de base, datas e locais reservados.
 - [ ] Orçamento por cidade com custo por presente e por venda previstos; teto de verba.
 - [ ] Calendário com debrief entre cidades.
@@ -126,22 +125,9 @@ debrief entre fins de semana.
 ## 8. Ferramentas de apoio (por nome)
 
 - Orçamento e calendário: `anthropic-skills:xlsx`.
-- Tráfego local por cidade: `meta-ads-cli-turbo` e a ferramenta de tráfego do perfil (`trafego.ferramenta`); PAUSADA, com o prefixo de campanha do
+- Tráfego local por cidade: `meta-ads-cli` e a ferramenta de tráfego do perfil (`trafego.ferramenta`); PAUSADA, com o prefixo de campanha do
   perfil (`trafego.prefixo_campanha`), se houver; ativar com OK.
-- Página com escolha de cidade: `designer-senior-turbo`, `publicar-pagina-cloudflare`.
+- Página com escolha de cidade: `designer-senior`, `publicar-pagina-cloudflare`.
 - Criativos por cidade: `ad-creative-video` (variações por cidade), `short-form-video`.
-- Conteúdo da turnê para redes: `cortes-tiktok-turbo`, `testimonial-video`.
+- Conteúdo da turnê para redes: `cortes-tiktok`, `testimonial-video`.
 
-## 9. Fontes e lacunas
-
-**Fontes:** trilha 18 aulas 2 e 4 (tipos e duração de imersão; lidas por inteiro em 23/11), desafio fev/2026 aulas 47 e 50
-(confirmação e presença); encontro FHT nov/2025, Felipe Vasconcelos (turnê de pequenos eventos e redução de custos, resumo dos slides); Live
-FHT 027 (ordem dos canais e primeiro presencial pequeno); trilha 18 aulas 18 e 19 (imersão de 1 dia em 6 cidades; GPS e onde o
-custo escapa; relatos de eventos pequenos); RESUMO desafio 30d RJ jul/2026 (encontro em hub); encontro FHT nov/2025 (dois
-mentorados do FHT, custo fixo x variável); catálogo fht-turne-de-pequenos-eventos e fht-evento-de-baixo-custo; parte I.
-
-**Lacunas:** (1) a palestra "eventos de baixo custo para venda de mentorias" (Thiago Pereira e Felipe Vasconcelos, encontro
-jun/2026) e "evento nota Dó investindo zero reais" (fev/2026) não têm transcrição nem slides no acervo. (2) O caso da turnê vem
-só dos slides; a grade do evento de cada cidade e o script de venda não estão detalhados. (3) Os números do caso (faturamento,
-custo médio, conversão do MVP) são referência a conferir; o título e o slide divergem no total (1,4 x 1,5 milhão).
-(4) O calendário-modelo da turnê é reconstrução a partir do caso.

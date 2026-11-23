@@ -1,8 +1,5 @@
 # Quebra de objeção dentro da sessão 1a1
 
-Fonte: trilha 09 aula 12 (RESUMO-vendas §5.10); rota 3 resumo 05 (etapa 7); trilha 22 (jul/2026 RJ 08 e 12, dez/2025 143, jan/2025
-192, mai/2025 160, jun/2026 SP 25 via resumo); catálogo fht-quebra-de-objecoes-na-sessao. Falas parafraseadas.
-
 ## 1. Prevenção (antes do preço)
 - No início: "alguém mais participa dessa decisão com você?" (se sim, trazer para a call).
 - Entregáveis ligados às dores do Raio-X: cada um já é um argumento.
@@ -24,7 +21,7 @@ Fonte: trilha 09 aula 12 (RESUMO-vendas §5.10); rota 3 resumo 05 (etapa 7); tri
 | Só a parcela | ajustar o fluxo dentro das condições de `02-oferta`; se várias sessões pedem o mesmo, levar ao estrategista (sinal de preço) |
 | Tempo | empatia; racional de prioridade e reenquadre com os números dele; caso de rotina apertada |
 | "Não sei se consigo" | empatia; simples não é fácil; garantia condicional se existir; caso de perfil parecido; "o que importa é gostar do resultado" |
-| Cônjuge ou sócio | se está por perto, convidar a entrar; senão, segunda reunião com os dois em dia e hora; apoio, não permissão; nunca usar os 7 dias de arrependimento como prazo para conversar em casa (aula 14; padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`) |
+| Cônjuge ou sócio | se está por perto, convidar a entrar; senão, segunda reunião com os dois em dia e hora; apoio, não permissão; nunca usar os 7 dias de arrependimento como prazo para conversar em casa (padrão recomendado; editável em `padroes` do perfil `~/.config/squad-ht/perfil.md`) |
 | "Vou pensar" | "o que falta para você decidir?"; isolar; se for tempo curto, alguns minutos e voltar; senão, dia e hora |
 | "Se eu disser não, depois posso entrar?" | pode, mas as condições de hoje valem agora (só se a regra existir em `02-oferta`) |
 | "E se eu não gostar?" | garantia do programa; o compromisso é com o resultado. O direito legal de 7 dias existe, mas não é argumento de venda |

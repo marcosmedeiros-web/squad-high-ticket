@@ -1,16 +1,12 @@
 # IMI: modelo de fechamento (venda no evento x sessão de avaliação) e central da imersão
 
-Fontes: trilha 22 fev/2026 onboard (aula 28, transcrita em 22/11/2026: "novo pitch" que leva à sessão), laboratório de pitch
-(aula 50), preparação técnica (aula 51/52, transcrita em 22/11/2026: central e CTA); desafio out/2025 (preparação técnica, ficha,
-"não mandar o link no chat"); trilha 17 aula 12 (resultado do FHT com venda direta). Números são referência a conferir.
-
-## 1. As opções (decisão do estrategista por evento)
+## 1. As opções (decisão assumida no padrão, listada em "Assumi" por evento)
 
 | Opção | Como funciona | Prós | Contras | Números citados |
 |---|---|---|---|---|
-| **a) Sessão de avaliação** (pitch sem preço) | Pitch apresenta o programa e convida para uma sessão individual; botão de agendamento na central e QR/link no chat e no grupo; a sessão 1a1 (com Raio-X) fecha | Pitch mais leve; delegável a pessoas que não são o expert; aproveita um processo de sessão que já converte; recupera melhor quem ficou em dúvida | Exige agenda de sessões nos dias seguintes (capacidade) e no-show de sessão; venda acontece depois do evento | FHT out/2025 (relatado no onboarding fev/2026): ~280 no pitch, 97 agendaram (34%), 79 sessões, 13 vendas, ~R$ 1,04 mi em contrato, cerca do dobro da edição de jun/2025 com venda direta (~R$ 480 mil); dez/2025: 178 no pitch, 81 agendaram (~45%), 64 sessões, 14 vendas, ~R$ 1,12 mi |
-| **b) Venda no evento** | Pitch com preço; ficha + entrada ou checkout; pausa de vendas com equipe; repeat | Fecha na hora; aproveita o pico emocional; prazo do evento como escassez | Pitch e operação de pausa precisam ser fortes; ticket muito alto converte pouco em 1 dia online | FHT imersão online com venda direta: ~1,5% a 2% sobre presentes, ticket ~R$ 80 a 100 mil; aluno com ticket ~R$ 20 mil: >10% com 120 ao vivo (conferir) |
-| **c) Híbrido** | Preço no pitch para quem quer fechar e sessão para quem ficou em dúvida | Captura os dois perfis | Duas mensagens no mesmo CTA podem confundir | Sem caso fechado nas fontes (montagem do squad) |
+| **a) Sessão de avaliação** (pitch sem preço) | Pitch apresenta o programa e convida para uma sessão individual; botão de agendamento na central e QR/link no chat e no grupo; a sessão 1a1 (com Raio-X) fecha | Pitch mais leve; delegável a pessoas que não são o expert; aproveita um processo de sessão que já converte; recupera melhor quem ficou em dúvida | Exige agenda de sessões nos dias seguintes (capacidade) e no-show de sessão; venda acontece depois do evento | Referência out/2025: ~280 no pitch, 97 agendaram (34%), 79 sessões, 13 vendas, ~R$ 1,04 mi em contrato, cerca do dobro da edição de jun/2025 com venda direta (~R$ 480 mil); dez/2025: 178 no pitch, 81 agendaram (~45%), 64 sessões, 14 vendas, ~R$ 1,12 mi |
+| **b) Venda no evento** | Pitch com preço; ficha + entrada ou checkout; pausa de vendas com equipe; repeat | Fecha na hora; aproveita o pico emocional; prazo do evento como escassez | Pitch e operação de pausa precisam ser fortes; ticket muito alto converte pouco em 1 dia online | Referência de imersão online com venda direta: ~1,5% a 2% sobre presentes, ticket ~R$ 80 a 100 mil; aluno com ticket ~R$ 20 mil: >10% com 120 ao vivo (conferir) |
+| **c) Híbrido** | Preço no pitch para quem quer fechar e sessão para quem ficou em dúvida | Captura os dois perfis | Duas mensagens no mesmo CTA podem confundir | Sem caso fechado (montagem do squad) |
 
 Por que a sessão tende a funcionar melhor na imersão de 1 dia (planejamento fev/2026): a decisão de high ticket muitas vezes
 precisa "dormir em cima da oferta" (há quem decida na hora e quem decida no dia seguinte, mais racional). Variações:

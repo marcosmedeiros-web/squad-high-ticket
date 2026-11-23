@@ -1,6 +1,6 @@
 ---
 name: short-form-video
-description: Gramática de retenção do vídeo vertical 9:16 — gancho que segura o primeiro segundo, pattern interrupts, loop e zona segura. Use para — montar template de Reels/TikTok/Shorts, consertar os 3 primeiros segundos, editar pra retenção, ritmo de corte do vertical, deixar o vídeo em loop, safe area 9:16. NÃO é o roteiro/copy do reels (isso é criador-reels-turbo) nem o corte de gravação longa em vertical (isso é cortes-tiktok-turbo) — aqui é a engenharia de retenção e o template.
+description: 'Gramática de retenção do vertical 9:16: gancho no primeiro segundo, pattern interrupts, loop e zona segura. Gatilhos: "template de Reels", "consertar os 3 primeiros segundos", "editar pra retenção", "deixar o vídeo em loop", "safe area 9:16". NÃO usar para roteiro do Reels (ht-reels-com-cta) nem corte de gravação longa (cortes-tiktok).'
 version: 0.1.0
 ---
 

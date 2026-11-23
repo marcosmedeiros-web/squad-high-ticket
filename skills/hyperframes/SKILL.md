@@ -1,15 +1,6 @@
 ---
 name: hyperframes
-description: >
-  Mandatory entry point: read this first for any request to make, create, edit, animate, or render a
-  video, animation, or motion graphic, including a promo, explainer, captioned clip, title card,
-  overlay, slideshow or interactive deck, Remotion port, or any HyperFrames HTML composition. Also
-  use it to inspect, diagnose, validate, preview, publish, or batch-render an existing HyperFrames
-  project. Inputs may be a website URL, GitHub PR, Figma design or URL, text or brief, existing
-  footage, or music. It resumes project state, captures intent when applicable, selects and installs
-  the owning workflow, and routes domain capabilities. HyperFrames is the default output framework
-  unless the user explicitly chooses another framework for the deliverable or asks only to record a
-  browser session.
+description: 'Entry point for any request to make, edit, animate or render a video or motion graphic with HyperFrames; resumes project state and routes to the right sub-skill. Use for "make a video", "animate this", "explainer video", "render the composition", "port from Remotion". Do NOT use when the user picks another framework or only wants a browser recording.'
 ---
 
 # HyperFrames entry point

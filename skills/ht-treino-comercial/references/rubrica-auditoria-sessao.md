@@ -1,8 +1,8 @@
 # Rubrica de auditoria de sessão 1a1 gravada
 
 Arquitetura (status por etapa, observação com timestamp, nota 0-100 com peso por etapa, alerta de nota baixa, calibração com uma
-sessão que deve reprovar e outra que deve passar): trilha 15, Bootcamp de IA (RESUMO §3-§6). Etapas e critérios: roteiro de 6
-etapas da trilha 09 e erros dos laboratórios da trilha 22. **Os pesos abaixo são proposta da skill** (a trilha 15 só diz que as
+sessão que deve reprovar e outra que deve passar): padrão do método. Etapas e critérios: roteiro de 6
+etapas e erros comuns de laboratório. **Os pesos abaixo são proposta da skill** (o método só diz que as
 etapas de maior peso eram as de conteúdo e oferta e que a apresentação perde no máximo 10 pontos, para a sessão de entrega);
 calibrar com o estrategista depois das primeiras 5 auditorias.
 

@@ -1,8 +1,5 @@
 # Ângulos, estruturas e a estrutura de produção
 
-Fonte: trilha 13 `RESUMO-criativos.md` §3.8 a §3.10, §5.1, aulas 36 a 38; trilha 14 Parte 2 do bootcamp de aula semanal
-(estrutura identificação, curiosidade, quebra de padrão); trilha 17 aula "Criativos" do bootcamp de copy de captação.
-
 ## 1. Ângulos (ideias de comunicação) citados no método
 
 Garimpar em Reels, TikTok, Shorts e criativos que escalaram; modelar o ângulo para o expert de trás para frente
@@ -21,7 +18,7 @@ Garimpar em Reels, TikTok, Shorts e criativos que escalaram; modelar o ângulo p
 ## 2. As 6 estruturas-base
 
 1. **Conteúdo + CTA**: dá uma dica concreta e chama para o próximo passo (sem entregar a solução inteira).
-2. **Gancho de problema ou oportunidade**: abre batendo na dor ou na oportunidade (a mais usada pelo professor).
+2. **Gancho de problema ou oportunidade**: abre batendo na dor ou na oportunidade (a mais usada).
 3. **Matéria**: formato de notícia com recorte como embasamento ("vai acontecer X, por causa disso").
 4. **React**: reage a criativos, posts ou conteúdos do mercado.
 5. **Meme do nicho**: segmentado, só faz graça para quem é do meio.

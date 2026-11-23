@@ -5,7 +5,7 @@ oficial ou outra CLI. **Sem ferramenta definida (ou sem perfil), o padrão é o 
 campanha especificada campo a campo, com o passo a passo curto e o checklist do que conferir na tela, e nunca exige CLI, token
 nem login. Os comandos abaixo são **exemplos com a Meta Ads CLI oficial**
 (`meta --output json ads ...`); a sintaxe muda entre versões, então conferir sempre com `meta ads <recurso> <ação> --help`.
-Sintaxe e armadilhas: o `--help` da CLI e a skill `meta-ads-cli-turbo`. Com o Gerenciador manual, o roteiro é o mesmo: mesmos campos, mesma ordem, mesma conferência.
+Sintaxe e armadilhas: o `--help` da CLI e a skill `meta-ads-cli`. Com o Gerenciador manual, o roteiro é o mesmo: mesmos campos, mesma ordem, mesma conferência.
 
 **Token:** nunca no chat, nunca em argv, nunca em arquivo do projeto. O agente não abre, não lê e não imprime arquivo `.env`
 ou de configuração que guarde token; quem cola token é o estrategista, no editor ou no gerenciador de segredos dele. O
@@ -35,7 +35,7 @@ estrategista um token novo; não seguir como se estivesse completo. Um "token ok
 A Meta Ads CLI oficial, na versão conferida, **não tem subcomando de público personalizado**. Por isso:
 1. **Criar** pelo Gerenciador de Públicos (interface); quem cria é o estrategista ou o gestor com o OK dele, com a lista e o
    nome de `setup-ativos-e-pixel.md` §4 (fonte + recorte + janela). Alternativa, só com OK para aquela ação: POST na Graph API
-   (`act_<id>/customaudiences`) por um script que lê o token do ambiente, como no runbook da `meta-ads-cli-turbo`; token nunca em argv, no chat ou em
+   (`act_<id>/customaudiences`) por um script que lê o token do ambiente, como no runbook da `meta-ads-cli`; token nunca em argv, no chat ou em
    arquivo do projeto.
 2. **Ler o ID e o tamanho** (leitura, roda livre): GET em `act_<id>/customaudiences` com
    `fields=id,name,subtype,approximate_count_lower_bound,approximate_count_upper_bound,time_updated` e `limit=200`, por um
@@ -84,7 +84,7 @@ Comparar com o plano; divergência = corrigir antes de pedir o OK de ativação.
   1 ativa (segue); 2 desativada (não sobe nada; `disable_reason` diz o motivo, contestação é do estrategista); 3 não quitada (bloqueia
   toda escrita, inclusive exclusão; pagamento é do estrategista); 7 em análise de risco e 8 com acerto pendente (não sobe; esperar e
   avisar); 9 em período de carência (sobe só com OK do estrategista sabendo do risco de bloqueio); 100 e 101 fechando ou fechada
-  (outra conta, decisão do estrategista). Qualquer status diferente de 1 vai para o plano como bloqueio e para o Diretor como decisão.
+  (outra conta, só com OK do estrategista). Qualquer status diferente de 1 vai para o plano como bloqueio e para o Diretor como decisão.
 - Pixel ou dataset de outro BM aparecendo na conta (exemplo: `meta ads dataset list`): não usar, registrar e avisar o estrategista
   (regra: nada de pixel de terceiro).
 - App em modo de desenvolvimento cria campanha e conjunto mas não cria criativo/anúncio: precisa estar ao vivo.

@@ -1,7 +1,7 @@
 # Modelo do dossiê de pesquisa e potencial
 
 Arquivo: `experts/<slug>/ht/01-pesquisa/AAAA-MM-DD-dossie-pesquisa-e-potencial.md`. Preencher tudo; o que faltar vira
-`[FALTA: …]`. Cada número com fonte; número de aula marcado "referência/conferir".
+`[FALTA: …]`. Cada número com fonte; número de referência marcado "referência/conferir".
 
 ```markdown
 # Dossiê de pesquisa e potencial HT: <Nome do expert> (<slug>)

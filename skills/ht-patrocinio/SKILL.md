@@ -1,14 +1,14 @@
 ---
 name: ht-patrocinio
-description: 'Squad High Ticket, método FHT. Monta o patrocínio de um evento de venda do HT (imersão presencial, online ou palestra) para bancar a estrutura e baixar o risco. Decide se e quando buscar patrocinador, monta a planilha de custos prevista x executada, converte o custo em cotas precificadas (máster, intermediárias, menor, cota propriedade), escreve o mídia kit, a lista de candidatos com fit, os roteiros de abordagem (WhatsApp, call, e-mail com pré-reserva), o kick-off de vendas das cotas, a negociação, o checklist de riscos, o manual do expositor e o pós-evento. Use quando o estrategista disser "vale buscar patrocínio?", "monta as cotas", "quanto cobrar por estande", "faz o mídia kit", "mensagem pro patrocinador", "patrocinador pediu desconto", "manual do expositor". NÃO usar para vender ingresso (ht-venda-de-ingressos), afiliados (ht-afiliados-e-consultores) nem lançamento LPSG/5+1 (fora do escopo deste squad).'
+description: 'Monta o patrocínio de um evento de venda do HT: decide se vale buscar, planilha de custos, cotas, mídia kit, prospecção, negociação, manual do expositor e pós-evento. Use com "patrocínio da imersão", "mídia kit", "cotas do evento". NÃO usar para vender ingresso (ht-venda-de-ingressos) nem afiliados.'
 ---
 
 # Patrocínio de evento high ticket
 
 ## 1. Para que serve e o que entrega
 
-Evento presencial custa caro e o ingresso muitas vezes não paga a conta. No FHT o evento existe para vender o HT a quem está
-sentado na cadeira; patrocínio e expositores são a forma de abrir o evento com a estrutura coberta (meta da aula: "zero a
+Evento presencial custa caro e o ingresso muitas vezes não paga a conta. No método o evento existe para vender o HT a quem está
+sentado na cadeira; patrocínio e expositores são a forma de abrir o evento com a estrutura coberta (meta: "zero a
 zero") e sobrar margem. Esta skill leva o projeto da pergunta "vale buscar patrocinador?" até o pós-evento que vira prova
 para a edição seguinte.
 
@@ -37,7 +37,7 @@ para a edição seguinte.
    formato do evento, orçamento estimado pela planilha, sem histórico) e listar em "Assumi". Perguntar só o impossível de
    adivinhar (por exemplo, "Tem data e local?"), no máximo 2 coisas por vez e em linguagem simples. O resto vira `[FALTA: …]`
    ou `[SUPOSIÇÃO: …]`.
-4. Pré-condição do método: o bootcamp é para quem **tem evento previsto nos próximos meses** (principalmente presencial).
+4. Pré-condição do método: o programa é para quem **tem evento previsto nos próximos meses** (principalmente presencial).
    Sem evento mapeado, registrar "fora do momento" e devolver ao Diretor.
 
 ## 3. Passo a passo
@@ -45,7 +45,7 @@ para a edição seguinte.
 ### Passo 1. Decidir se é hora de buscar patrocínio
 - Gatilho do método: **custo estimado do evento acima da receita de ingresso** e **espaço para expositor** (ou, no online,
   espaço para a marca aparecer: banner, vídeo, link, menção).
-- Funciona pequeno: caso da aula com evento de 150 a 200 pessoas em que 2 patrocinadores cobriram 80% do custo na 1ª edição.
+- Funciona pequeno: caso de referência com evento de 150 a 200 pessoas em que 2 patrocinadores cobriram 80% do custo na 1ª edição.
   Funciona online: o patrocinador recebe alcance e dados mensuráveis (quem assistiu, por quanto tempo, cliques).
 - Pode começar antes do evento estar todo estruturado: esboçar quem se quer dentro, montar a planilha e, com o custo, dividir
   em cotas.
@@ -56,8 +56,8 @@ para a edição seguinte.
 ### Passo 2. Planilha de custos prevista x executada
 Blocos de custo, colunas e regras em `references/planilha-e-cotas.md`. Pontos que o método cobra:
 - Preencher a coluna **prevista** antes de abrir qualquer cota; a **executada** durante e depois.
-- Incluir **impostos** e **taxa da plataforma de pagamento**: o caso da aula esqueceu os dois na previsão.
-- Prever estouro: no caso da aula o realizado passou o previsto em cerca de R$ 150 mil (referência, conferir).
+- Incluir **impostos** e **taxa da plataforma de pagamento**: o caso de referência esqueceu os dois na previsão.
+- Prever estouro: no caso de referência o realizado passou o previsto em cerca de R$ 150 mil (referência, conferir).
 - Planilha é dado sensível do projeto: fica na pasta, não vai para material externo.
 
 ### Passo 3. Converter custo em cotas
@@ -65,8 +65,8 @@ Blocos de custo, colunas e regras em `references/planilha-e-cotas.md`. Pontos qu
 - Definir a **cota máster** (maior estande, mais entregas, a única com tempo de palco), as **intermediárias** e a **menor**.
   O nome é do evento (o caso usou máster, diamante, platina, ouro). Pode nascer cota nova pela demanda (o caso criou uma
   intermediária com 3 estandes entre máster e diamante).
-- **Fórmula de preço** (aula 45): custo da feira ÷ m² da feira = custo por m²; × m² da cota; + ~50% pelas entregas extras
-  (live, e-mail, palco, menções); + margem para negociar (exemplo da aula: se a conta dá 50, anuncia 70).
+- **Fórmula de preço**: custo da feira ÷ m² da feira = custo por m²; × m² da cota; + ~50% pelas entregas extras
+  (live, e-mail, palco, menções); + margem para negociar (exemplo: se a conta dá 50, anuncia 70).
 - Conferir que **a soma das cotas paga as despesas** previstas.
 - **Cota propriedade (permuta)** para evento pequeno sem caixa: o patrocinador paga direto ao hotel/fornecedor a sala ou o
   coffee break, em troca de 10 a 20 minutos para apresentar o produto.
@@ -76,21 +76,21 @@ Blocos de custo, colunas e regras em `references/planilha-e-cotas.md`. Pontos qu
 - Três fontes do método: quem **já patrocina eventos do segmento**; quem **vende para o mesmo público**; **fornecedores**
   do próprio expert. Estudar cada candidato antes de abordar (site, redes, eventos em que aparece).
 - Filtro de fit "ganha-ganha": o patrocinador **não concorre** com o produto do expert, **facilita** a oferta do HT e
-  **interessa** ao público. Contraexemplo da aula: rede de motéis num evento de infoproduto. O expert é quem precisa brilhar.
+  **interessa** ao público. Contraexemplo: rede de motéis num evento de infoproduto. O expert é quem precisa brilhar.
 - Rodar o checklist de riscos (Passo 9) já na lista, não depois do contrato.
-- Usar `leitura-web-turbo` ou `niche-research` para levantar quem patrocina eventos do nicho (pesquisa externa marcada como tal).
+- Usar `leitura-web` ou `niche-research` para levantar quem patrocina eventos do nicho (pesquisa externa marcada como tal).
 
 ### Passo 5. Mídia kit
-Estrutura de 11 blocos na ordem da aula 42 em `references/midia-kit.md`. Regras: **dados reais e atualizados** (seguidores,
+Estrutura de 11 blocos em `references/midia-kit.md`. Regras: **dados reais e atualizados** (seguidores,
 ingressos já vendidos, público de edições anteriores); sem histórico, usar a base de clientes ou uma pesquisa com o público;
 nunca prometer o que não entrega ("100 rosas" e põe 10); sem "historinha" sem dado. O texto sai daqui; a execução visual vai
-para o Diretor de arte (`gerador-slides-turbo`, `slides-uipm-turbo` ou `anthropic-skills:pptx`/`pdf`).
+para o Diretor de arte (`gerador-slides`, `slides-uipm` ou `anthropic-skills:pptx`/`pdf`).
 
 ### Passo 6. Kick-off de vendas das cotas
 - Evento grande e recorrente: **webinário de kick-off ~365 dias antes**, no formato de um semente, com o **expert
   apresentando** a edição e as novidades; convidar expositores dos anos anteriores e empresas que passaram pela base.
 - No fim, **formulário** de escolha de cota e posição, por ordem de chegada; reserva com sinal (Passo 8).
-- Meta da aula: **60% dos estandes vendidos ou em negociação no 1º mês** de comercialização; depois a equipe aborda
+- Meta de referência: **60% dos estandes vendidos ou em negociação no 1º mês** de comercialização; depois a equipe aborda
   ativamente os que quer no evento. Caso: pico de 72 pessoas no webinário e 46 estandes (referência).
 - Evento pequeno ou 1ª edição: o "kick-off" é uma conversa com 1 ou 2 patrocinadores-alvo.
 - Roteiro em `references/prospeccao-abordagem-negociacao.md`.
@@ -105,10 +105,10 @@ time do expert, com o OK simples da pessoa (é falar em nome do expert).
 ### Passo 8. Negociação
 - A proposta é padrão; o que se negocia são **contrapartidas** (e-mail extra para a base com conteúdo validado, live
   pós-evento com o expert, sorteio no palco, desconto de ingresso para clientes do patrocinador).
-- **Não se negocia**: tempo de palco fora da cota máster; **lista/mailing de participantes** fora da cota máster. A fonte é
-  ambígua: a aula 43 diz que o mailing "não se entrega para todo mundo" e a aula 45 o lista entre as entregas da máster (conferir).
+- **Não se negocia**: tempo de palco fora da cota máster; **lista/mailing de participantes** fora da cota máster. O caso de referência
+  é ambíguo: diz que o mailing "não se entrega para todo mundo" e também o lista entre as entregas da máster (conferir).
   Padrão do squad: não entregar mailing (dado pessoal de participante, LGPD) e oferecer a captura de lead por leitor oficial no
-  estande; entregar à máster só por decisão do estrategista, com base legal validada pelo jurídico.
+  estande; entregar à máster só com o OK simples da pessoa e base legal validada pelo jurídico.
 - Piso: não vender "a preço de banana", porque a cota paga a estrutura inteira, não só o estande. Preço de custo só para marca
   estratégica que traz autoridade, só se a pessoa pedir.
 - Não prometer ganho quantitativo ao patrocinador (nem número de vendas). Faltou visibilidade para fechar: **bônus de
@@ -124,7 +124,7 @@ time do expert, com o OK simples da pessoa (é falar em nome do expert).
 - Checklist por patrocinador em `references/riscos-e-manual-do-expositor.md`: concorrência com o produto, pitch agressivo no
   palco, pedido de lista de contatos, apresentação do palestrante patrocinador vista antes, número de pitches externos
   reduzido, externos para o **fim do último dia** (depois das vendas do HT) quando não houver confiança.
-- Evolução do caso da aula: de 6 cotas máster com palco para 4 e depois 2, só no 1º dia (a manhã do 2º dia prepara a primeira
+- Evolução do caso de referência: de 6 cotas máster com palco para 4 e depois 2, só no 1º dia (a manhã do 2º dia prepara a primeira
   oferta do HT), porque alguns vendiam produto de alto valor no palco (referência). Tempo de palco do caso: 15 minutos por
   expositor, apresentação vista antes e uma pessoa do time conversando com cada um.
 - **Manual do expositor**: índice completo na referência; enviado **até 90 dias antes** (prazo no contrato); uma pessoa do
@@ -144,7 +144,7 @@ time do expert, com o OK simples da pessoa (é falar em nome do expert).
 1. Não vender cota sem conhecer o **custo do evento** e **quem se quer dentro**.
 2. Fit antes de dinheiro: patrocinador que concorre ou tira o brilho do expert não entra, mesmo pagando.
 3. Tudo o que está no mídia kit e no contrato tem de ser cumprido; dado sempre real e atualizado.
-4. Palco só para máster; mailing de participantes não entra nas cotas (exceção só por decisão do estrategista, ver Passo 8).
+4. Palco só para máster; mailing de participantes não entra nas cotas (exceção só com OK simples e base legal, ver Passo 8).
 5. Não prometer resultado quantitativo ao patrocinador.
 6. Impostos e taxa de plataforma entram na planilha desde a coluna prevista.
 7. Regras de conduta do expositor no contrato e no manual, com multa; o aceite combinado em contrato não volta atrás "porque
@@ -185,7 +185,7 @@ Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em 
 3. Patrocinador sem fit ou que concorre com o HT do expert?
 4. Mídia kit com número desatualizado (seguidores, ingressos) ou história sem dado?
 5. Promessa ao patrocinador de número de vendas ou de público que o evento não garante?
-6. Palco oferecido fora da máster, ou mailing de participantes oferecido sem decisão do estrategista e sem base legal?
+6. Palco oferecido fora da máster, ou mailing de participantes oferecido sem OK e sem base legal?
 7. Cota "a preço de banana" ou desconto a quem não compra nem vende ao público?
 8. Contrato sem multa, sem proibição de produto concorrente, sem prazo do manual?
 9. Pitch externo antes do pitch do HT, sem ver a apresentação antes?
@@ -202,24 +202,11 @@ Decidir pelo padrão ou pela recomendação, sem lote de perguntas, e listar em 
 
 ## 8. Ferramentas de apoio
 
-`anthropic-skills:xlsx` (planilha de custos e cotas), `anthropic-skills:pptx` / `anthropic-skills:pdf` / `gerador-slides-turbo` /
-`slides-uipm-turbo` (mídia kit), `anthropic-skills:docx` (manual do expositor e e-mails), `designer-senior-turbo` (mídia kit em
-página), `leitura-web-turbo` e `niche-research` (quem patrocina eventos do nicho), `avoid-ai-writing` e `humanizer` (revisão
+`anthropic-skills:xlsx` (planilha de custos e cotas), `anthropic-skills:pptx` / `anthropic-skills:pdf` / `gerador-slides` /
+`slides-uipm` (mídia kit), `anthropic-skills:docx` (manual do expositor e e-mails), `designer-senior` (mídia kit em
+página), `leitura-web` e `niche-research` (quem patrocina eventos do nicho), `avoid-ai-writing` e `humanizer` (revisão
 das mensagens antes do revisor).
 
-## 9. Fontes e lacunas
+## 9. Lacunas (não inventar)
 
-**Fontes**: trilha 17, Bootcamp Patrocínio para Eventos, aulas 35 a 45 (transcrições em
-`FORMULA HIGH TICKET/trilhas/17-execute-uma-imersao-online/bootcamp-patrocinio-para-eventos/`), com a gestora de eventos de um
-expert do nicho contábil; `RESUMO-parte-B-ingressos-e-patrocinio.md` §3.4, §4 parte 3, §5.11 a 5.14, §6.2, §7, §8;
-`_skills-mapa/parte-D-imersoes-entrega-renovacao.md` bloco 5; `CATALOGO-SKILLS-FHT.md` seção 5.4 (patrocínio e auditoria).
-Lives 009, 045 e 057 só citam patrocínio de passagem.
-
-**Leitura**: aulas 36 a 45 relidas por inteiro na revisão; a aula 35 não tem vídeo (só links de material).
-
-**Lacunas**: (1) os 4 materiais de apoio da aula 35 (script de abordagem, planilha de custos, mídia kit, live de lançamento)
-têm links truncados: a planilha e o mídia kit aqui são reconstruídos do que a aula mostra, nunca apresentados como "o arquivo da
-FHT"; (2) valor do sinal de reserva com ruído (a fala corrige R$ 3 mil para R$ 6 mil); (3) o exemplo numérico de custo por m² se perdeu na
-legenda; (4) não há modelo de contrato nas fontes, só cláusulas citadas; (5) os números do caso (R$ 2,3 mi de despesa,
-45 expositores, cotas de R$ 60 a 90 mil) são de evento de 2.500 a 3.500 pessoas: não servem de régua para evento pequeno;
-(6) não há método para patrocínio de evento online além de "muda a forma como a marca aparece".
+(1) Os materiais de apoio (script de abordagem, planilha de custos, mídia kit, live de lançamento) são modelos reconstruídos desta skill, nunca apresentados como arquivo pronto de outro evento; (2) o valor do sinal de reserva varia entre casos (R$ 3 mil ou R$ 6 mil): conferir; (3) o exemplo numérico de custo por m² é ilustrativo; (4) não há modelo de contrato, só cláusulas citadas: o jurídico do expert redige; (5) os números do caso de referência (R$ 2,3 mi de despesa, 45 expositores, cotas de R$ 60 a 90 mil) são de evento de 2.500 a 3.500 pessoas: não servem de régua para evento pequeno; (6) não há método próprio para patrocínio de evento online além de "muda a forma como a marca aparece".

@@ -99,8 +99,7 @@ PADROES = {
     'AF_URL_PUBLICA': PREENCHER,
     'AF_PORTA': '8790',
     'AF_FUSO_UTC': '-3',
-    'AF_AVISO_CANAL': 'avisar-dono',
-    'HEAD_TURBO_HOME': '~/.claude/head-turbo',
+    'AF_AVISO_CANAL': 'arquivo',
     'AF_MAUTIC_URL': '',
     'AF_MAUTIC_CRED_ARQUIVO': '',
     'AF_OPENWA_BASE': '',
@@ -145,7 +144,7 @@ def ler_perfil(caminho=None):
     if falta:
         raise Recusa('perfil_incompleto', 'preencha ' + ', '.join(falta))
     out = {'arquivo': str(p)}
-    for k in ('AF_DADOS_DIR', 'AF_FLUXOS_DIR', 'HEAD_TURBO_HOME'):
+    for k in ('AF_DADOS_DIR', 'AF_FLUXOS_DIR'):
         v = os.path.expanduser(c[k])
         if not os.path.isabs(v):
             raise Recusa('perfil_caminho_relativo', f'{k} precisa ser caminho absoluto')
@@ -164,8 +163,8 @@ def ler_perfil(caminho=None):
     out['retencao_dias'] = _int(c, 'AF_RETENCAO_DIAS', 1, 365)
     out['confirmar_s'] = _int(c, 'AF_CONFIRMAR_S', 5, 600)
     canal = c['AF_AVISO_CANAL']
-    if not (canal in ('avisar-dono', 'arquivo') or re.fullmatch(r'comando:/[^\s]+', canal)):
-        raise Recusa('perfil_canal_torto', 'AF_AVISO_CANAL aceita avisar-dono, arquivo ou comando:/caminho')
+    if not (canal == 'arquivo' or re.fullmatch(r'comando:/[^\s]+', canal)):
+        raise Recusa('perfil_canal_torto', 'AF_AVISO_CANAL aceita arquivo ou comando:/caminho')
     out['aviso_canal'] = canal
     m = c['AF_MAUTIC_URL'].rstrip('/')
     if m and not re.fullmatch(r'(https://[a-z0-9.-]{3,200}(:[0-9]{2,5})?|http://(127\.0\.0\.1|localhost):[0-9]{2,5})(/[A-Za-z0-9._/-]*)?', m):

@@ -1,8 +1,5 @@
 # Checklist anti-IA e compliance Meta (rodar antes do handoff)
 
-Fontes: catálogo `fht-revisor-anti-ia-de-copy` (FEV26 §4 passo 2 e §8, via `parte-G`); trilha 13 `RESUMO-criativos.md` §8;
-política de anúncios da Meta como critério operacional do revisor (`ht-revisor-metodo-copy` faz o parecer final).
-
 ## 1. Marcas de IA (cortar)
 
 - [ ] Travessão (—) e pausas dramáticas; trocar por vírgula, ponto ou dois-pontos.
@@ -29,5 +26,5 @@ política de anúncios da Meta como critério operacional do revisor (`ht-reviso
 
 ## 3. Saída do checklist
 
-Lista numerada do que foi corrigido em cada CPF + versão corrigida + itens que dependem de decisão do estrategista (tom, caso,
+Lista numerada do que foi corrigido em cada CPF + versão corrigida + itens que dependem de decisão assumida no padrão, listada em "Assumi" (tom, caso,
 antes e depois). Sem isso, o handoff para revisão volta.

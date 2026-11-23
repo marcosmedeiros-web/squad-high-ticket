@@ -11,7 +11,7 @@ Use the local VoiceStudio TTS (free, open-source, runs on this machine; no API k
 
 ## Prerequisites
 
-This kit uses only free tools (kit owner's rule of 21/10/2026). The TTS is the local **VoiceStudio** (setup and limits: kit guide `COMO-CRIAR-IMAGEM-E-VIDEO.md`, section VOZ). Without it, use Kokoro (`npx hyperframes tts "<text>" --voice <voice> -o file.wav`). If both fail, deliver the composition with on-screen text and no voiceover, and say so. Never ask for a paid TTS key.
+Use only free tools. The TTS here is a local OpenAI-compatible server such as **VoiceStudio**; if it is not running, offer to set it up and say what will be installed, with the person's OK. Without it, use Kokoro (`npx hyperframes tts "<text>" --voice <voice> -o file.wav`). If both fail, deliver the composition with on-screen text and no voiceover, and say so. Never ask for a paid TTS key.
 
 ```bash
 node --strip-types generate-voiceover.ts

@@ -1,6 +1,6 @@
 ---
 name: ht-pagina-inscricao-sessao
-description: 'Squad High Ticket / método FHT. Monta a infraestrutura de captação da sessão 1a1: copy da página de inscrição (topo, para quem é, formulário ancorado, por que participar, provas, CTA, rodapé), página de obrigado (que marca a conversão), formulário com tag e segmentação pós-clique (pergunta de corte que manda cada lead ao destino certo), domínio/SSL e o teste do fluxo inteiro antes de ligar tráfego. Use quando o estrategista disser "faz a página do diagnóstico", "página de inscrição da sessão", "página de obrigado", "formulário que filtra o lead", "testa o fluxo antes do anúncio". Entrega rascunho e especificação; publicar e ligar tráfego só com OK do estrategista. NÃO usar para página de venda de lançamento LPSG, ingresso de evento pago 5+1 ou Funil 8 (Turbo), nem para página de imersão (ht-captacao-e-presenca) ou da aula semanal (ht-aula-semanal).'
+description: 'Monta a captação da sessão 1a1: copy da página de inscrição, página de obrigado, formulário com tag e segmentação pós-clique, domínio/SSL e teste do fluxo antes do tráfego. Use para "faz a página do diagnóstico", "página de obrigado", "formulário que filtra o lead". Rascunho; publicar só com OK. NÃO usar para ingresso de evento (ht-captacao-e-presenca) nem aula semanal.'
 ---
 
 # Páginas de inscrição e de obrigado da sessão 1a1
@@ -67,7 +67,7 @@ período (manhã, tarde, noite) ajuda o agendamento. Formulário curto: cada cam
 
 **Passo 5. Segmentação pós-clique (se aplicável).** Mesmo criativo e mesmo formulário; uma pergunta de corte (gasto,
 faturamento, situação) decide o destino: acima do corte → sessão; abaixo → produto de entrada do expert ou outro funil. O
-valor do corte é decisão do estrategista. Modelo na mesma referência, seção 3.
+valor do corte é assumido pelo agente e listado em "Assumi". Modelo na mesma referência, seção 3.
 
 **Passo 6. Domínio, URLs e itens técnicos** (`references/dominio-e-teste-de-fluxo.md`, seção 1). Domínio próprio com SSL
 (propagação de até 24 h, aviso de até 72 h: fazer com antecedência); URLs com hífen, nunca underline; título da aba; favicon
@@ -98,19 +98,17 @@ o item é "feito, não testado".
 - URL de obrigado específica (não só "obrigado"), para não misturar públicos e conversões de outras páginas.
 - Rodapé com CNPJ e texto de LGPD (consentimento de contato).
 - Teste do fluxo inteiro antes de ligar o tráfego; domínio configurado com antecedência; uma aba do editor por página (duas
-  abas abertas desfizeram o formulário na aula).
+  abas abertas podem desfazer o formulário).
 - Nada vai ao ar sem OK do estrategista; campanha nasce pausada (`ht-gestor-trafego`, nomenclatura com o prefixo de campanha do perfil (`trafego.prefixo_campanha`), se houver).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-Formato do protocolo (decisão numerada, a/b/c, prós, contras, custo; recomendação na a).
-- **Ferramenta e hospedagem:** a) página estática própria (publicada por você ou pela agência, campo `agencia` do perfil, se houver, + formulário ligado ao e-mail/CRM
-  do projeto) (recomendo, se o expert não tem ferramenta); b) Hotmart Pages + Send, como na aula (se o expert já usa Hotmart); c) ferramenta que o expert já paga.
-- **Domínio:** comprar domínio ou usar subdomínio do expert (gasto e acesso ao registro são do expert).
-- **Segmentação e corte:** fazer ou não; qual pergunta e qual valor; para onde vai quem fica abaixo (produto de entrada,
-  aula semanal, repasse).
-- **Provas na página:** quais depoimentos usar (autorização) ou publicar sem a seção.
-- **Publicar** e **ligar tráfego** (só depois do teste com prova).
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Ferramenta e hospedagem**: padrão página estática própria (publicada por você ou pela agência, campo `agencia` do perfil, se houver), com formulário ligado ao e-mail/CRM do projeto. Se o expert já usa Hotmart Pages + Send ou outra ferramenta paga, usa a dele.
+- **Domínio**: assume subdomínio do expert; comprar domínio é gasto e o acesso ao registro é do expert: "posso seguir?".
+- **Segmentação e corte**: assume a pergunta e o valor do padrão desta skill; quem fica abaixo vai para o produto de entrada ou a aula semanal.
+- **Provas na página**: só depoimento com autorização; sem ela, a página sai sem a seção.
+- **Publicar e ligar tráfego**: só depois do teste com prova, com "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -128,7 +126,7 @@ Formato do protocolo (decisão numerada, a/b/c, prós, contras, custo; recomenda
       pixel), inclusive no celular.
 - [ ] Nada publicado nem tráfego ligado sem OK registrado.
 
-**Auditoria (erros típicos da aula e dos alunos):** botão que não leva ao formulário; formulário longo; formulário com página
+**Auditoria (erros típicos):** botão que não leva ao formulário; formulário longo; formulário com página
 de confirmação padrão esquecida no lugar do obrigado; underline na URL; obrigado com o mesmo padrão de URL de outras páginas
 (público misturado); "salvou e não publicou"; duas abas do editor abertas; favicon esticado ou com letra miúda; imagem
 distorcida ("cobrir/esticar"); tudo na mesma cor ou vermelho gritante; domínio configurado em cima da hora; provas fora do
@@ -146,26 +144,15 @@ evento Lead não disparando (aviso de "sem atividade de conversão" no gerenciad
 
 ## 8. Ferramentas de apoio (por nome)
 
-- Página: `frontend-design:frontend-design`, `pagina-design-premium`, `ui-ux-pro-max`, `design-tokens-turbo`,
-  `designer-senior-turbo`; otimização depois de aprovada: `page-optimizer-turbo`.
+- Página: `frontend-design:frontend-design`, `pagina-design-premium`, `ui-ux-pro-max`, `design-tokens`,
+  `designer-senior`; otimização depois de aprovada: `page-optimizer`.
 - Publicação: `publicar-pagina-cloudflare` (com OK do estrategista).
 - Formulário e e-mail: `email-marketing-mautic`; fluxos: `automacao-fluxos`.
-- Pixel e conversão: `meta-ads-cli-turbo`, `meta-ads-cli-setup-turbo`, `hotmart-meta-conversao` (a ferramenta de tráfego do
+- Pixel e conversão: `meta-ads-cli`, `meta-ads-cli-setup`, `hotmart-meta-conversao` (a ferramenta de tráfego do
   perfil, `trafego.ferramenta`, para leitura; campanha nasce pausada).
-- Texto: `avoid-ai-writing`, `humanizer`.
+- Texto: `avoid-ai-writing`, `humanizer`.## 9. Limites (não inventar)
 
-## 9. Fontes e lacunas
-
-**Fontes:** trilha 12 (bootcamp "Ferramentas para Sessão 1:1", aulas 02 a 11 lidas por inteiro na revisão R3: domínio, tag, formulário, modelo da
-página de inscrição, modelo do obrigado, integração, dúvidas); trilha 13 (RESUMO-trafego: pixel, evento Lead na obrigado,
-públicos por URL, padrão de URL; RESUMO-criativos 3.12 e 4.6: rotação do nome e segmentação pós-clique); parte B
-(construtor-pagina-inscricao-sessao-1a1, construtor-pagina-obrigado-sessao, configurador-tag-formulario-send,
-configurador-dominio-pagina, testador-fluxo-inscricao-sessao, desenhista-segmentacao-pos-clique, depurador-evento-lead-e-pixel);
-desafio jan/2026 plantão 132 (pedir só o período no formulário; não perguntar investimento); palestras do encontro FHT jun/2026
-(formulário de agendamento imediato, encaminhamento condicional); padrões do squad.
-
-**Lacunas (não inventar):** o mapa mental da trilha 12 não foi lido; a demonstração é em Hotmart Pages/Send e a interface pode
-ter mudado; o bootcamp de tráfego não tem aula de instalação do pixel nem de verificação de domínio no BM (só citados);
-nenhuma fonte trata API de conversões nem envio do agendamento ou da venda como evento; não há meta de taxa de conversão da
-página de sessão nas aulas (a "Calc FHT" da Central traz conversão de página acima de 70% como métrica esperada, sem contexto,
-conferir); limites e preços de plano da Hotmart foram ditos de memória pela instrutora.
+A demonstração de referência usa Hotmart Pages e Hotmart Send e a interface pode ter mudado. Instalação do pixel e verificação de
+domínio no gerenciador de negócios só são citadas, sem passo a passo. Não há método para API de conversões nem para enviar o
+agendamento ou a venda como evento. Não há meta de taxa de conversão da página de sessão (a aba "Calc HT" da Central traz conversão
+de página acima de 70% como métrica esperada, sem contexto: conferir). Limites e preços de plano da Hotmart são de memória: conferir.

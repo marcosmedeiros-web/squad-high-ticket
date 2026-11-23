@@ -1,7 +1,7 @@
 # Auditoria da vitrine
 
 Referência da `ht-vitrine`. Roda em dois casos: (a) diagnóstico do perfil atual antes de propor; (b) auditoria final do que a
-skill entregou. Ordem fixa, a mesma dos laboratórios: foto → nome → arroba → bio → link → 3 fixados → YouTube → LinkedIn.
+skill entregou. Ordem fixa, a mesma sempre: foto → nome → arroba → bio → link → 3 fixados → YouTube → LinkedIn.
 Olhar pelos olhos do lead que procura incoerência.
 
 ## 1. Formato do relatório
@@ -10,7 +10,7 @@ Olhar pelos olhos do lead que procura incoerência.
 |---|---|---|---|---|---|
 
 Prioridade alta = derruba a venda ou contradiz a promessa; média = enfraquece; baixa = acabamento.
-Regras do laboratório: correção no mesmo dia; não buscar perfeição, buscar ação; se surgir versão melhor, trocar sem medo.
+Regras: correção no mesmo dia; não buscar perfeição, buscar ação; se surgir versão melhor, trocar sem medo.
 
 ## 2. Checklist por item (pergunta → reprova se "não")
 
@@ -59,7 +59,7 @@ Regras do laboratório: correção no mesmo dia; não buscar perfeição, buscar
 **12. Coerência do funil**
 - Anúncio, mensagem de SLG, página da sessão e bio usam a mesma palavra da promessa e o mesmo nome da sessão?
 
-## 3. Erros típicos dos laboratórios → ajuste
+## 3. Erros típicos → ajuste
 
 | Erro encontrado | Ajuste |
 |---|---|
@@ -93,7 +93,7 @@ Regras do laboratório: correção no mesmo dia; não buscar perfeição, buscar
 | Campanha vencida fixada | Trocar no dia ou retirar |
 | Capas com letra pequena ou link em imagem | Texto legível no card; link só na bio |
 | Mudança da promessa toda semana | Promessa fixa; refina no diagnóstico com o mentor |
-| Canal de YouTube antigo renomeado sem plano | Transição de 1 a 2 meses (decisão do estrategista) |
+| Canal de YouTube antigo renomeado sem plano | Transição de 1 a 2 meses (assumo o padrão e listo em "Assumi") |
 | Bio, nome ou foto diferentes entre Instagram, YouTube e LinkedIn | Copiar o mesmo conjunto para todas as redes |
 
 ## 4. Fecho da auditoria

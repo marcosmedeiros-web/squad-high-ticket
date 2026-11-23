@@ -1,6 +1,6 @@
 ---
-name: remotion-best-practices
-description: Best practices for Remotion - Video creation in React
+name: remotion
+description: 'Best practices for Remotion, video creation in React: compositions, animations, timing, audio, captions, voiceover and rendering. Use for "Remotion", "video in React", "Remotion composition", "render with Remotion". Do NOT use when the deliverable is a HyperFrames composition (hyperframes).'
 metadata:
   tags: remotion, video, react, animation, composition
 ---
@@ -58,4 +58,4 @@ Read individual rule files for detailed explanations and code examples:
 - [rules/videos.md](rules/videos.md) - Embedding videos in Remotion - trimming, volume, speed, looping, pitch
 - [rules/parameters.md](rules/parameters.md) - Make a video parametrizable by adding a Zod schema
 - [rules/maps.md](rules/maps.md) - Add a map using Mapbox and animate it
-- [rules/voiceover.md](rules/voiceover.md) - Adding AI-generated voiceover to Remotion compositions using the local VoiceStudio TTS (free)
+- [rules/voiceover.md](rules/voiceover.md) - Adding AI-generated voiceover to Remotion compositions using a free local TTS (e.g. VoiceStudio or Kokoro)

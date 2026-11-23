@@ -1,9 +1,5 @@
 # Roleplay de sessão 1a1
 
-Fonte: trilha 22, roleplays mar/2025 (179), mai/2025 (160), jul/2026 RJ (12), jun/2026 SP (25, via resumo); laboratórios;
-catálogo fht-roleplay-sessao-1a1 e roleplay-feedback-checklist (partes B, E, F, G). A FHT faz roleplay **humano** (mentor faz o
-cliente); a versão com o agente no papel de cliente é desenho do squad e deve ser declarada assim.
-
 ## 1. Formatos
 - **Individual**: o vendedor conduz a sessão inteira; uma pessoa faz o cliente; ~1 hora (35-50 min de simulação + feedback).
 - **Em grupo** (turma, time comercial): um voluntário conduz, um mentor faz o cliente, a plateia anota em silêncio; depois
@@ -64,4 +60,4 @@ toda pergunta; não alternar slide e rosto; apresentar o programa como novo ou e
 (entregar o que está pronto e deixar o resto como bônus de surpresa); Raio-X de 40 minutos e oferta de 10 (roleplay jul/2026 RJ,
 lido inteiro).
 
-Caso citado nas aulas (referência): aluno sem nenhuma venda fez o roleplay e vendeu poucos dias depois.
+Caso citado (referência): aluno sem nenhuma venda fez o roleplay e vendeu poucos dias depois.

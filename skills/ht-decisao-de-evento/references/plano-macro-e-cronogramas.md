@@ -1,7 +1,6 @@
 # Plano macro do evento, fases do GPS, cronogramas e Ficha do Evento
 
-Fontes: catálogo fht-planejar-imersao-macro-8-passos (fonte I); trilha 18 GPS Imersão Presencial (aula 19, transcrita hoje);
-trilha 22, onboardings dos desafios de imersão (cronograma de 4 e de 6 semanas); trilha 17 aulas 01 a 04 e 13 a 20.
+
 
 ## 1. Os 8 passos do macro (vale para qualquer imersão de venda)
 
@@ -33,11 +32,11 @@ Antecedência: data ideal 1 ano antes (presencial), mínimo 90 dias. As 4 funç�
 
 ## 3. Cronogramas de projeto (online)
 
-**IMI online, desafio de 4 semanas (out/2025)**: S1 planejamento e preparação da captação; S2 captação e ajustes; S3 conteúdo
+**IMI online, desafio de 4 semanas**: S1 planejamento e preparação da captação; S2 captação e ajustes; S3 conteúdo
 (palestras, talk, pré-pitch, pitch); S4 confirmação de presença e ajustes finais; evento no sábado; recuperação a partir da
 segunda.
 
-**IMI online, desafio de ~6 semanas (fev/2026)**: semana 1 planejamento e copy; semana 2 ferramentas e configuração de tráfego;
+**IMI online, desafio de ~6 semanas**: semana 1 planejamento e copy; semana 2 ferramentas e configuração de tráfego;
 captação de ~32 dias a partir da semana 2; laboratórios de talk, pré-pitch e pitch nas semanas 4 e 5; confirmação a partir de
 ~15 dias antes; preparação técnica na última semana; evento; recuperação.
 
@@ -65,15 +64,15 @@ Presencial: somar a fase 2 antes (8 a 12 semanas) e a venda de ingressos de 1 a 
 - Objetivo principal: <...>   Secundário: <...>
 - HT ofertado: <nome> · preço e condições: ver 02-oferta/oferta-vigente.md v<x>   Downsell: <se houver>
 - Formato: <online|presencial> · <1|2|3> dias · <data> · <horário> · justificativa: <matriz> · alternativa descartada: <...>
-- Entrada (gratuita, credencial ou paga): <decisão do estrategista por extenso, com data> | pendente D<n>
+- Entrada (gratuita, credencial ou paga): <entrada assumida por extenso, com data> | listada em "Assumi"
 - Big Idea: "<frase>" · nome: <...> · testes 1-4: <ok/ajustar>
 - Metas (conservador / base / otimista): vendas <..> · presentes elegíveis <..> · presentes <..> · T1 <..> · inscritos <..>
-  taxas usadas: c=<..> a=<..> f=<..> e=<..> · fonte: <histórico do expert | aula, conferir>
+  taxas usadas: c=<..> a=<..> f=<..> e=<..> · fonte: <histórico do expert | referência, conferir>
 - Orçamento: captação R$<..> · reserva 20% R$<..> · estrutura R$<..> · total R$<..> · CPL máximo R$<..> · diária R$<..>
 - Projeção: contrato R$<..> · recebido no período R$<..> · custos R$<..> · margem R$<..> · ROAS contrato <..>
 - Plano macro: fases com início, fim e dono (tabela)
 - Riscos e gatilhos de plano B: <...>
 - Calendário: colisões checadas com lançamento <..>, entrega <..>, renovação <..>
-- Decisões para o estrategista: D<n> ...
+- Assumi: <itens assumidos> (é só pedir para mudar)
 - Lacunas: <...>
 ```

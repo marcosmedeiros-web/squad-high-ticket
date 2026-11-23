@@ -1,8 +1,5 @@
 # Pesquisa de leads e ficha de briefing do criativo
 
-Fontes: trilha 13 `RESUMO-criativos.md` §3.1 a §3.7, §4; palestra de criativos em partes (jun/2026) e eco do lançamento
-(nov/2025) em `RESUMO-palestras-encontros-fht.md`; `RESUMO-erico-rocha-e-sala-colab.md` (dor x aspiração).
-
 ## 1. Pesquisa de leads (passo 1, obrigatório)
 
 Onde o lead já respondeu, em ordem de valor:
@@ -43,24 +40,24 @@ Fonte da pesquisa:   <arquivo e data>
 - **Persona**: listar antes de cada criativo; no máximo 3. Erro clássico: o vídeo começa falando com o profissional formado e
   termina chamando "inclusive quem está se formando", e perde o primeiro. Qualificador de exemplo: só quem investe acima de
   certo valor por mês, qualquer que seja o cargo.
-- **Curiosidade**: o professor trocou "análise de tráfego" por "auditoria de tráfego"; um expert de emagrecimento usou
+- **Curiosidade**: o método trocou "análise de tráfego" por "auditoria de tráfego"; um expert de emagrecimento usou
   "emagrecimento da mente"; uma advogada usou a análise da audiência feita por quem já passou por centenas delas. O conteúdo
   pode aparecer, mas puxa para outro problema ("isso ajuda, mas não resolve; o que resolve é <mecanismo>").
 - **Dor x tema**: na mesma dor (emagreceu e engordou de novo), temas como o espelho, a calça que não serve, a barriga, não se
   sentir atraente, a intimidade. Ela não quer ouvir o rótulo; quer se reconhecer na cena.
-- **Pilares**: o método não se resume a uma dor. Para cada pilar, dores e temas. Exemplo do FHT: pilar "bootcamps" vira a dor
+- **Pilares**: o método não se resume a uma dor. Para cada pilar, dores e temas. Exemplo do método: pilar "bootcamps" vira a dor
   de quem tentou HT e não vendeu por não ter acompanhamento semanal de quem já executa.
 - **Promessa**: no resultado desejado ou na dor presente (sair do vermelho, aumentar o lucro), não no meio (o "como").
 
 ## 3b. Um criativo, duas personas no cadastro (roteamento pelo formulário)
 
-Do bootcamp (aulas 29 e 40, parafraseado): o mesmo convite pode atrair duas personas vizinhas (no exemplo do professor, quem
+Do bootcamp (parafraseado): o mesmo convite pode atrair duas personas vizinhas (no exemplo, quem
 contrata o serviço e quem quer aprender a prestá-lo); o criativo fala com uma, mas o **formulário** pergunta o dado que
 separa (perfil, faixa de investimento ou de gasto) e cada resposta segue para uma conversa diferente. Exemplo de corte dado
 na aula: acima de certa faixa de gasto, vai para a aplicação e a sessão; abaixo, vai para a página do produto de entrada.
-O professor sugere manter três caminhos: direto para o produto de entrada, direto para a aplicação e o que divide pelo
+O método sugere manter três caminhos: direto para o produto de entrada, direto para a aplicação e o que divide pelo
 formulário. Na skill: a pergunta de corte entra na ficha (campo "Qualificador") e o pedido do formulário vai para
-`ht-pagina-inscricao-sessao`; o valor de corte é do expert/estrategista (o da aula é exemplo, não regra).
+`ht-pagina-inscricao-sessao`; o valor de corte é do expert/estrategista (o do exemplo não é regra, não regra).
 
 ## 4. Matriz pilar → dor → tema (preencher)
 

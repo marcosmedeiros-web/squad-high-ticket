@@ -16,7 +16,7 @@ para o estrategista até a aprovação; depois de aprovados, o valor vai para `0
 - Fim da sessão: pitch do AR <sim/não>; para quem: <critério de potencial>
 - Abatimento no AR (opções para o estrategista): a) integral em até N dias b) parcial c) sem abatimento, com bônus
 - Preço (opções para o estrategista): a) … b) … c) … (prós, contras, custo)
-- Meta de conversão CI → AR a validar: <referência 40% a 50%, live 031; medir nas primeiras N>
+- Meta de conversão CI → AR a validar: <referência 40% a 50%; medir nas primeiras N>
 - Capacidade: <N CIs por semana sem afetar o AR>
 - Roteiro: ver fichas-ci-pa-eht.md (modelo do squad), ajustado a: …
 - Registro: Central 1x1, origem "CI"; NPS pós-sessão

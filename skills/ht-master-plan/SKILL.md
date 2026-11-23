@@ -1,6 +1,6 @@
 ---
 name: ht-master-plan
-description: 'Squad High Ticket / método FHT. Monta o Master Plan do expert: aba PRODUTOS HT, projeção conservadora de 7 anos por HT (novos, ticket, renovação, margem), contrato x recebido x líquido, número mágico (vendas por mês e por semana), plano anual por canal (frequência x volume x conversão) com funil reverso da sessão 1a1, calendário de eventos e ciclos de renovação, LTV e escada, capacidade de entrega e auditoria da planilha. Gera a planilha corrigida (xlsx) com script próprio. Use quando o estrategista disser "monta o master plan", "projeta 7 anos", "quanto esse HT fatura?", "qual o número mágico?", "quantas sessões por semana ele precisa?", "o plano fecha?", "confere a planilha do master plan". NÃO usar para definir preço ou oferta (ht-preco-pagamento-e-garantia, 02-oferta), para o financeiro da agência ou do dono (fora do escopo deste squad) nem para metas de lançamento LPSG (Turbo).'
+description: 'Monta o Master Plan do expert: projeção de 7 anos por HT, contrato x recebido x líquido, número mágico, plano anual por canal com funil reverso da sessão 1a1, LTV, capacidade e planilha xlsx. Use para "monta o master plan", "qual o número mágico?", "o plano fecha?". NÃO use para preço ou oferta (ht-preco-pagamento-e-garantia).'
 ---
 
 # Master Plan (7 anos, número mágico e plano por canal)
@@ -38,11 +38,11 @@ conservadoras, quantas vendas por mês isso exige agora, de quais canais elas v�
 ### Passo 1. Premissas (aba PREMISSAS)
 Preencher com fonte em cada número (`references/planilha-e-auditoria.md`, seção 4):
 - Ano inicial; horizonte de 7 anos.
-- **% de recebimento** sobre o contrato: dado real da Central 1x1/financeiro; sem dado, 80% (referência da live 054; cancelamento
-  de 20% a 30% citado nas lives 040 e 052).
+- **% de recebimento** sobre o contrato: dado real da Central 1x1/financeiro; sem dado, 80% (referência do método; cancelamento
+  de 20% a 30%).
 - **Margem (lucro) sobre o recebido**: 40% (padrão do squad), ou seja, **custo de 60% do recebido**. Conta: líquido =
-  recebido x 0,40; custos = recebido x 0,60. Atenção ao rótulo do modelo da FHT: lá a linha se chama "margem de custo" e o
-  número digitado é o % de custo (a aula usa 40% de custo); o squad decidiu ser mais conservador e o script recusa a chave antiga.
+  recebido x 0,40; custos = recebido x 0,60. Atenção ao rótulo do modelo original: lá a linha se chama "margem de custo" e o
+  número digitado é o % de custo (o modelo original usa 40% de custo); o squad decidiu ser mais conservador e o script recusa a chave antiga.
 - **Renovação**: 50% (padrão do squad) até haver dado próprio.
 - **Capacidade**: expert sozinho até 20 alunos ativos; mentor 1:70; navegador 1:100 (padrão do squad).
 Dado próprio do expert, quando existe, substitui a referência e isso é dito na leitura.
@@ -53,7 +53,7 @@ Copiar do portfólio (`02-oferta/portfolio.md`): até 3 HTs, cada um com o que �
 canal de venda). Sem portfólio, devolver ao Diretor pedindo `ht-portfolio-e-escolha-do-ht`.
 
 ### Passo 3. Projeção de 7 anos por HT (aba PLANEJAMENTO 7 ANOS)
-Regras de preenchimento (método FHT, detalhe na referência):
+Regras de preenchimento (método, detalhe na referência):
 1. Ano 1 de pé no chão, conferido semana a semana ("consigo 1 por mês? 2? 1 por semana?").
 2. Crescimento realizável de 20% a 25% ao ano nos novos (ou outra curva declarada); conferir se o ano 2 não é menor que o 1.
 3. Ticket por ano: o de `02-oferta`; subir ticket nos anos seguintes só como cenário, marcado "hipótese de reajuste" (o preço oficial só nasce na Aprovação 1).
@@ -80,7 +80,7 @@ presentes. Somar e comparar com a meta de novos. **Plano que não fecha não é 
 canal (só com oferta validada em 1a1), ou a meta do ano 1 é revista. Primeiro canal é o 1a1; um-para-muitos depois de validar.
 
 ### Passo 6. Funil reverso da sessão 1a1
-Preencher `funil_1a1.vendas_mes_1a1` no JSON com as vendas por mês que o plano por canal atribui ao 1a1. Vendas por mês do 1a1 ÷ conversão = sessões realizadas; ÷ comparecimento (75% de referência real da live 051) = agendamentos;
+Preencher `funil_1a1.vendas_mes_1a1` no JSON com as vendas por mês que o plano por canal atribui ao 1a1. Vendas por mês do 1a1 ÷ conversão = sessões realizadas; ÷ comparecimento (75% de referência) = agendamentos;
 ÷ 4,3 = sessões por semana. Conferir com a disponibilidade dada pelo expert (2 a 3 sessões por dia útil é a referência da
 Central 1x1). Se não cabe na agenda, isso vai para as decisões (time comercial, mais canais, meta menor). Lembrar o mínimo de 20
 sessões antes de mexer em preço ou filtro (padrão do squad).
@@ -108,13 +108,13 @@ Rodar a auditoria (seção 6) e escrever a leitura: o que o plano diz, o que dep
 
 - Projeção conservadora; faturamento não é dinheiro no bolso (margem de lucro sempre preenchida: 40% sobre o recebido, custo 60%); contrato não é recebido.
 - Ticket só de `02-oferta` (ou referência de R$ 10 mil marcada provisória). O plano nunca define preço nem reajuste.
-- Só células de entrada são editadas; fórmula não é sobrescrita. Planilha da FHT copiada tem os defeitos da referência corrigidos.
+- Só células de entrada são editadas; fórmula não é sobrescrita. Planilha de modelo copiada tem os defeitos da referência corrigidos.
 - Imersão é canal de venda, não HT (salvo ingresso de implementação de valor alto, declarado no portfólio). Captação não é canal
   de venda. GIC só depois de resultado. Um público por plano.
 - Primeiro canal: sessão 1a1. Um-para-muitos só com oferta validada.
 - O plano é vivo: revisado no plano de ação, depois de cada 20 sessões, de cada evento e de cada ciclo de renovação, com número
   real; versão anterior vai para `historico/`.
-- Números de aula são referência: na leitura, cada um com fonte e "conferir" quando houver ruído.
+- Números de referência: na leitura, cada um com fonte e "conferir" quando houver ruído.
 - Padrões aplicáveis (editáveis em `padroes` do perfil): preço vem da oferta (5x a 10x a média do nicho); programa de 12 meses,
   ajustável de 11 a 13; preço da renovação definido por projeto (proposto pelo padrão e listado em "Assumi"); entrada de evento pelo padrão; regras
   do GIC em aberto; conversão de referência da sessão de 10% a 20%; mínimo de 20 sessões antes de concluir; renovação de 50% e
@@ -163,20 +163,11 @@ canal que não fecha). Na leitura, dizer quais foram conferidos e o que foi corr
 
 ## 8. Ferramentas de apoio (por nome)
 
-`references/gerar_master_plan.py` (planilha corrigida; requer `openpyxl`), `anthropic-skills:xlsx` (ajustes e leitura de planilha
-do expert), LibreOffice `soffice --headless` (recalcular para conferir), `analytics-dashboard` (painel, quando o estrategista pedir),
+`references/gerar_master_plan.py` (planilha corrigida; usa `openpyxl`, que instalo com `pip install openpyxl` com o seu OK se faltar), `anthropic-skills:xlsx` (ajustes e leitura de planilha
+do expert), LibreOffice `soffice --headless` (recalcular para conferir; se não houver, abrir no Sheets/Excel ou conferir à mão), `analytics-dashboard` (painel, quando o estrategista pedir),
 `hotmart-meta-conversao` e a ferramenta de tráfego do perfil, `trafego.ferramenta` (só leitura, para trazer vendas e custo real ao plano), `avoid-ai-writing` (leitura).
 
-## 9. Fontes e lacunas
+## 9. Limites
 
-**Fontes**: trilha 07 (Bootcamp MasterPlan: RESUMO e aulas 01 a 12 lidas por inteiro na revisão de 23/11/2026; planilha
-`07-descricao__1AEUAfPQ.xlsx` lida fórmula a fórmula); rota3 resumo 09 e transcrição `09-bootcamp-master-plan` (é a mesma
-gravação do bootcamp da trilha 07, conferida por comparação de trechos); live 054 lida por inteiro (contrato x recebido x lucro); `rota3/materiais/planilhas/master-plan.xlsx`;
-lives 001, 006, 025, 027, 031, 032, 040, 051, 052, 054, 055; parte A, E, G, H, I do catálogo (master plan, auditoria, plano anual,
-calendário, caixa, LTV); padrões do squad.
-
-**Lacunas**: a FHT não define regra de % de recebimento para planejar (80% é leitura de exemplos de live); o padrão do squad é margem (lucro) de 40% sobre o recebido, isto é,
-custo de 60%; a aula usa 40% de custo (margem de 60%) e a live 054 cita cerca de 50% de lucro sobre o recebido, então o plano do
-squad fica abaixo das duas referências de propósito; premissas de renovação divergem nas fontes (30% a 90%); o mapa mental do bootcamp não está nos arquivos;
-números do ecossistema, do LTV e da escada têm ruído de legenda; não há modelo FHT de calendário anual nem de planilha de plano
+**Limites**: o método não define regra de % de recebimento (80% é leitura de exemplos); o padrão do squad é margem (lucro) de 40% sobre o recebido, isto é, custo de 60%, então o plano fica abaixo das referências de propósito; premissas de renovação variam (30% a 90%); números do ecossistema, do LTV e da escada têm ruído; não há modelo de calendário anual nem de plano
 por canal (as abas NÚMERO MÁGICO e CAPACIDADE são do squad); o script foi testado com dados de exemplo, não com um expert real.

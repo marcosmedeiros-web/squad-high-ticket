@@ -27,5 +27,5 @@ Responder sim/não com evidência (arquivo ou dado). Cada "não" vira ação com
 ## Erros dos casos citados (sinal vermelho)
 - Expert que acha que "sempre foi assim" e ignora o alerta dos mentores.
 - Pitch sem separar aptos; sem crachá identificado; sem salinha (caso de consultoria citado na fase 3).
-- Primeira fase do programa muito curta e o resto "para o resto da vida", sem porquê de continuar (encerramento da trilha 20).
-- NPS não estruturado chegando à renovação (aluna no encerramento da trilha 20).
+- Primeira fase do programa muito curta e o resto "para o resto da vida", sem porquê de continuar.
+- NPS não estruturado chegando à renovação.

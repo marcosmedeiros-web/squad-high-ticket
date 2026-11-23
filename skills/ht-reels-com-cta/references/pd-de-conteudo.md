@@ -1,18 +1,15 @@
 # P&D de conteúdo (pesquisa e desenvolvimento para gerar demanda)
 
-Marcação: **[FHT]** = material (fonte); **[proposta da skill]** = reconstrução a testar.
-**Fonte fraca:** palestra de uma aluna no Encontro FHT Nov/2025, Dia 1 ("Construção de Audiência e Geração de Leads
-qualificados"). Só há o resumo dos slides (`trilhas/23-materiais-extras/RESUMO-palestras-encontros-fht.md`); a transcrição
-local tem só a descrição (568 bytes). Tudo abaixo que não for dos slides está marcado como proposta.
+Base: os 8 passos de P&D em formato resumido; o que vai além disso está marcado como proposta.
 
-## 1. Ideia [FHT: slides]
+## 1. Ideia
 
 P&D é um "laboratório de ideias": observar tendências, testar versões, continuar o que funciona e ajustar o que não funciona.
 Nada é novo; não precisa de criatividade, precisa de coragem para testar. A tese da palestra é gerar tanto desejo na
 audiência que ela peça a conversa 1a1. Resultado declarado pela palestrante: 148 leads em 1 mês sem tráfego (referência,
 não garantia). O erro que ela relata: explicar o problema e a dor e ter zero atenção.
 
-## 2. Os 8 passos em 6 etapas [FHT: slides]
+## 2. Os 8 passos em 6 etapas
 
 | Etapa | Passo | O que fazer |
 |---|---|---|
@@ -25,24 +22,24 @@ não garantia). O erro que ela relata: explicar o problema e a dor e ter zero at
 | Validação | 7 | Analisar comentários, métricas do Instagram e directs. |
 | Replicar e adicionar | 8 | Replicar o que deu certo (70%, o carro-chefe) e testar formatos novos (30%). |
 
-## 3. Arsenal de P&D [proposta da skill, colunas para a planilha do passo 4]
+## 3. Arsenal de P&D
 
 | # | Link da referência | Perfil · país · nicho | Formato (o que fazem) | Gancho usado | Por que prendeu | Âncora que casaria | Tema do expert para mixar | Status (salvo/mixado/testado 1-5/validado/descartado) |
 |---|---|---|---|---|---|---|---|---|
 
 Arquivo: `04-demanda/reels/AAAA-MM-DD-arsenal-pd.md` (ou `.xlsx` com `anthropic-skills:xlsx`). Ver as referências com
-`watch` (o visual importa) ou `instagram-analise-estrategica-turbo`. Nunca copiar roteiro alheio: o que se aproveita é o
+`watch` (o visual importa) ou `instagram-analise-estrategica`. Nunca copiar roteiro alheio: o que se aproveita é o
 formato e a estrutura; texto, prova e tema são do expert.
 
-## 4. Regra 70/30 aplicada aos 5 Reels da semana [proposta da skill]
+## 4. Regra 70/30 aplicada aos 5 Reels da semana
 
 - 70% ≈ 3 a 4 slots com formatos já validados (os vencedores de `metricas-e-replicacao.md` e os frameworks que performam).
 - 30% ≈ 1 a 2 slots com formato novo do arsenal, cada formato testado 5 vezes antes de julgar (passo 6).
 - Formato validado (passo 7) entra no carro-chefe; formato que falhou nas 5 tentativas vai para "descartado" com o motivo.
-- A replicação de um vencedor continua seguindo "um ajuste por vez" (trilha 14, aula 30): o 70/30 decide quanto da semana é
+- A replicação de um vencedor continua seguindo "um ajuste por vez": o 70/30 decide quanto da semana é
   teste; o "um ajuste" decide como se testa dentro de um formato.
 
-## 5. Rotina [proposta da skill]
+## 5. Rotina
 
 - Semanal: 20 a 30 min na conta secreta, 5 referências novas no arsenal, 1 mix pronto para o slot de teste.
 - Mensal: revisar o arsenal; o que ficou validado vira linha do banco de temas e, se for o caso, framework do expert.

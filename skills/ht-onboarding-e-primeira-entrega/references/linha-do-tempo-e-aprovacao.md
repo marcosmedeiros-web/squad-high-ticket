@@ -1,7 +1,6 @@
 # Prontidão, linha do tempo pós-venda e aprovação
 
-Fonte principal: trilha 19 (aulas 02, 03, 04, 08; RESUMO §3, §4, §5.10, §7, §8), parte-I (plano-primeira-venda), lives 057/061.
-Números de aula são referência; conferir antes de usar em material de venda.
+Números de referência; conferir antes de usar em material de venda.
 
 ## 1. Diagnóstico de prontidão
 
@@ -37,7 +36,7 @@ Ajustar D0 ao dia da venda. Cada linha vira uma tarefa com responsável e texto 
 | Até a 1ª parcela | Primeira vitória: 1º entregável feito, desafio ou SNA rodando | Mentor | - |
 | Quem não pediu nada em poucos dias | Contato ativo (via ativa do acompanhamento) | Suporte / navegador | WhatsApp/ligação |
 
-Referências: FHT atual vendeu domingo, inaugural terça; venda 1a1, onboarding no dia seguinte; antes eram ~10 dias e o
+Referências: um caso atual vendeu domingo, inaugural terça; venda 1a1, onboarding no dia seguinte; antes eram ~10 dias e o
 cancelamento era maior. A linha de primeira turma das lives (venda no evento, fichas segunda, inaugural em 7 a 15 dias) só vale
 para turma piloto, avisada na venda.
 
@@ -54,7 +53,7 @@ Ficha com resposta curta e vazia é sinal de alerta (indica recusa ou baixo comp
 - Sim óbvio: está no avatar, tem o ponto de partida que a jornada exige, mostrou compromisso.
 - Dúvida: um critério fora → ligação curta para entender o contexto, ou validação em dupla (mentor + expert).
 - Reprovado: fora do avatar, sem o pré-requisito, sem compromisso, ou o HT não resolve o problema dele.
-- O critério é comprometimento, não dinheiro (live 057).
+- O critério é comprometimento, não dinheiro.
 
 **Fluxo**: aplica e paga → análise → (sim) notificar aprovação → onboarding → aguardando 1ª parcela ou complemento → concluído
 | (dúvida) validação dupla → decide | (não) mensagem com motivo + devolução. Repescagem possível (reaplicar depois).

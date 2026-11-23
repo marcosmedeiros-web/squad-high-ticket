@@ -1,7 +1,4 @@
-# Conduzir a criação da oferta com o expert (bootcamp de AR nos 4 Es)
-
-Fontes: trilha 06 RESUMO (1, 2, 4); parte E `bootcamp-ar-definir-oferta` (dez/25, abr/26, jan/26, jan/25); bootcamp de AR mai/26
-partes 1 e 2 (transcrição); white label do cronograma de bootcamp (trilha 06, 5.13 e 6.5).
+# Conduzir a criação da oferta com o expert (sessão de criação nos 4 Es)
 
 Uso: quando o estrategista fizer a sessão de criação da oferta com o expert (ou com vários experts que você atende). O estrategista conduz;
 o expert faz. Cada bloco repete os 4 Es: **ensino** (critério), **exemplo** (caso parecido), **exercício** (o expert escreve,
@@ -10,7 +7,7 @@ cronometrado), **exame** (feedback na hora).
 ## 1. Abertura (5 a 10 min)
 - Objetivo do encontro: sair com a jornada, a definição, os entregáveis, os bônus e a primeira versão de preço e garantia.
 - Para quem é: o expert com legitimidade naquele resultado. Quem já tem oferta formalizada e diagnosticada vai direto ao plano
-  de ação (não refaz o bootcamp).
+  de ação (não refaz a sessão).
 - Regra da IA: primeiro à mão; a IA lapida, não decide.
 
 ## 2. Blocos e tempos de referência
@@ -28,16 +25,16 @@ cronometrado), **exame** (feedback na hora).
 | Ambiente | comunidade, encontro, desafio | 1+ entregável | 5 a 10 min | ferramenta x "comunidade" |
 | Outros elementos | duração, bônus, preço, dupla, garantia | preencher a aba OUTROS ELEMENTOS | 10 a 15 min | conta, entrada, bônus x entrega |
 
-Os tempos são referência das turmas do desafio (com IA, a definição caiu para cerca de 3 a 5 min no bootcamp de mai/26).
+Os tempos são referência (com IA, a definição cai para cerca de 3 a 5 min).
 
 ## 3. Fechamento
 - O expert entrega os links abertos da jornada e da planilha de oferta (ou os arquivos).
 - O estrategista roda a auditoria (`auditoria-da-oferta.md`) e marca o que volta para ajuste.
 - NPS do encontro, se for turma.
-- Lembrete do professor: depois de muita informação, "as coisas precisam assentar"; marcar a revisão para outro dia em vez de
+- Lembrete: depois de muita informação, "as coisas precisam assentar"; marcar a revisão para outro dia em vez de
   fechar tudo cansado.
 
-## 3b. Medir a clareza durante o encontro (dez/25)
+## 3b. Medir a clareza durante o encontro
 Depois de cada pilar, pedir uma nota de 0 a 10 de clareza; abaixo de 8, reexplicar com um exemplo do nicho do próprio expert antes
 de seguir. A meta do dia é um MVP vendável, não o produto perfeito: o AR muda a cada ciclo.
 
@@ -48,5 +45,5 @@ de seguir. A meta do dia é um MVP vendável, não o produto perfeito: o AR muda
 - "Se fossem 100 alunos pedindo isso ao mesmo tempo, você entrega?"
 - "Quanto você cobraria se o resultado fosse garantido?" (preço)
 - "Você compraria isso pelo preço que escreveu?"
-- "Isso aqui te dá vontade de comprar?" (teste usado em laboratório, dez/25)
+- "Isso aqui te dá vontade de comprar?" (teste da oferta)
 - "Se você não existisse, o que o seu aluno teria de fazer?" (separa passo de entregável)

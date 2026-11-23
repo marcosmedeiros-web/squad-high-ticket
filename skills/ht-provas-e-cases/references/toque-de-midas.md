@@ -1,4 +1,4 @@
-# Toque de Midas (estudo de caso padrão FHT)
+# Toque de Midas (estudo de caso padrão do método)
 
 ## 1. Mapa do caso (um por caso)
 ```

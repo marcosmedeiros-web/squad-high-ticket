@@ -1,8 +1,6 @@
 # Reunião estratégica (entregável de destrave)
 
-Fontes: trilha 19 (estruturador, §5.4), parte-D bloco 8, parte-H (direção sem neutralidade), trilha 21: 3 gravações lidas
-inteiras (64, 48 e 63 min; temas promessa e apresentação da sessão, canal LinkedIn e oferta, cronograma de imersão presencial)
-+ pautas de 34 gravações + contagem de palavras em 110 + durações do cabeçalho de 1.166. Sem nomes de aluno.
+Tempos estimados a partir de sessões de referência. Sem nomes de aluno.
 
 ## Função e definição
 Destravar o aluno em qualquer dificuldade. Output: clareza na resolução do assunto e ações recomendadas. O aluno descreve o
@@ -39,7 +37,7 @@ Você assistiu ao bootcamp de X? · Quem é cada pessoa envolvida e o que ela qu
 - Próximo passo **com data** (nas gravações ele raramente vem com data: corrigir isso no manual do expert).
 - Tema comum a muitos alunos não se resolve 10 vezes no individual: anotar na planilha de Problemas e Oportunidades.
 
-## Visto nas 2 gravações lidas na revisão (23/11)
+## Visto em outras sessões de referência
 - Aluno chega sem o material (apresentação não acessível, sócia ausente): o mentor faz o mínimo útil e remarca com prioridade, em
   vez de improvisar a estratégia.
 - Duas pautas na mesma reunião: escolher uma; a outra vira nova reunião estratégica.

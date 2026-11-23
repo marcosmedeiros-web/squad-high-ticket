@@ -1,8 +1,7 @@
 # Mensagens da entrada do aluno (modelos do squad)
 
-Modelos escritos pelo squad a partir da estrutura dos white labels da trilha 19 (notificação de aprovação, onboard individual) e
-das regras das aulas 03 e 04. Não são cópia do material. Todo texto sai em **rascunho**, na voz do expert (ver `voice-builder`),
-passa por ht-revisor-metodo-copy e só é enviado com OK do estrategista. Campos entre colchetes; `[FALTA: …]` quando não houver dado.
+Modelos escritos pelo squad a partir da estrutura do método (notificação de aprovação, onboard individual). Não são texto pronto do expert. Todo texto sai em **rascunho**, na voz do expert (ver `voice-builder`),
+passa por ht-revisor-metodo-copy e só é enviado com OK da pessoa. Campos entre colchetes; `[FALTA: …]` quando não houver dado.
 
 ## 1. Áudio de aprovação (até 2 min, gravado por quem analisou)
 
@@ -42,7 +41,7 @@ Estrutura: retomar o áudio → boas-vindas → **próximo passo com data, hora 
 
 ## 4. Roteiro do onboarding individual (call de ~1 h, até 5 alunos)
 
-Tempos propostos pelo squad (o material só diz "uma call de 1 hora resolve"). No FHT quem conduz é o suporte, seguindo um mapa
+Tempos propostos pelo squad (o material só diz "uma call de 1 hora resolve"). No método quem conduz é o suporte, seguindo um mapa
 mental, com um slide do time. Avisar logo no início: a call é para explicar como o programa funciona e conferir acessos, não para
 tirar dúvida de conteúdo (essas vão para o primeiro entregável).
 1. (5 min) Parabéns e quebra-gelo; perguntar o que o fez decidir (anotar para o catálogo e para a renovação).
@@ -50,7 +49,7 @@ tirar dúvida de conteúdo (essas vão para o primeiro entregável).
 3. (15 min) Acessos conferidos na tela: área de membros, comunidade, agenda, canal de suporte. Ninguém sai sem acesso.
 4. (10 min) Como funciona: entregáveis e como solicitar cada um (formulário), regras, prazo de resposta, datas do programa.
 5. (10 min) Expectativa: o que esperar e o que não esperar; condições da garantia, se houver (garantia condicional, ligada à execução).
-6. (10 min) Próximo passo único: preencher o formulário do 1º entregável (no padrão FHT, Raio-X do aluno + pedido do
+6. (10 min) Próximo passo único: preencher o formulário do 1º entregável (no padrão do método, Raio-X do aluno + pedido do
    diagnóstico) e marcar a sessão já com 2 horários.
 
 ## 5. Convite e lembretes da aula inaugural

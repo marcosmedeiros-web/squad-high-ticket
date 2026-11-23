@@ -1,8 +1,5 @@
 # Gestão da entrega, planilha de Problemas e Oportunidades e auditorias
 
-Fontes: trilha 19 aulas 08 a 10 (RESUMO §5.10, §6 itens 8 e 10, §8), parte-D bloco 9 (auditor do processo), bloco 8 (auditor de
-gravação), parte-H (auditar escalabilidade), achados das 15 gravações lidas da trilha 21.
-
 ## 1. Gestão (Notion ou equivalente)
 
 Duplicar os 5 bancos **na ordem e no mesmo workspace** (em espaços diferentes os vínculos quebram; não desvincular o nome entre

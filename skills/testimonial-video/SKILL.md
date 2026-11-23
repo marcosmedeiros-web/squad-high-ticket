@@ -1,6 +1,6 @@
 ---
 name: testimonial-video
-description: Depoimento e prova social animados — tipografia de citação, revelação escalonada das linhas, ênfase cinética na frase-chave, estrelas animadas, bloco de autor (nome, cargo, avatar) e um card templatado rodando em cima de uma lista de depoimentos. Use para — transformar depoimento em vídeo, vídeo de prova social, animar print de depoimento, vídeo com avaliação de aluno. Os depoimentos são coletados pelo agente cs-turbo; aqui é só a produção do vídeo.
+description: 'Depoimento e prova social animados: citação com revelação escalonada, ênfase na frase-chave, estrelas e bloco de autor, em lote a partir de uma lista. Gatilhos: "transformar depoimento em vídeo", "vídeo de prova social", "animar print de depoimento", "vídeo com avaliação de aluno". NÃO usar para colher o depoimento (ht-provas-e-cases).'
 version: 0.1.0
 ---
 

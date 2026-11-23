@@ -1,6 +1,6 @@
 ---
 name: ht-imersao-implementacao
-description: 'Monta a IMI (Imersão de Implementação) do método FHT do Squad High Ticket com o funil inteiro pronto: evento online de 1 dia (adaptável a 2 e 3 dias, ou pago) em que o participante implementa ao vivo uma parte do método e sai com algo pronto, e o pitch vende o HT ou leva à sessão de avaliação. Entrega plano (parte do método, Big Idea "em apenas um dia", metas 300/100, orçamento), cronograma de 4 a 6 semanas, grade do dia (talk, CTA do laser coaching, pré-pitch, pitch, pausa de vendas, repeat), modelo de fechamento, central, peças, checklist técnico, recuperação até D+11 e auditoria. Use quando o estrategista disser "imersão de implementação", "IMI", "imersão online de 1 dia", "Power Day", "desafio de imersão do expert", "imersão paga de implementação". NÃO usar para IMA, presencial de 3 dias com logística (ht-imersao-presencial) nem lançamento pago semanal/5+1 (LPSG da Turbo).'
+description: 'Monta a IMI (Imersão de Implementação) online de 1 dia com funil pronto: plano, metas, cronograma, grade do dia, pitch ou sessão de avaliação, central, peças e recuperação. Use para "imersão de implementação", "IMI", "imersão online de 1 dia", "Power Day". NÃO usar para presencial de 3 dias (ht-imersao-presencial) nem para evento de ingresso de outro modelo.'
 ---
 
 # Imersão de Implementação (IMI)
@@ -13,7 +13,7 @@ de fora (o resto do método, o feedback individual, a garantia de ter feito cert
 o primeiro evento: IMI online de 1 dia, gratuita, no sábado.
 
 **Entrega**: `05-eventos/AAAA-MM-imi-<nome>/` com o **Pacote IMI**:
-1. `plano.md`: parte do método e o que fica pronto, Big Idea e nome, formato e data, entrada (gratuita, credencial ou paga; decisão do estrategista por evento), modelo de fechamento (
+1. `plano.md`: parte do método e o que fica pronto, Big Idea e nome, formato e data, entrada (gratuita, credencial ou paga; decisão assumida no padrão, listada em "Assumi" por evento), modelo de fechamento (
    venda no evento ou sessão de avaliação), metas em 3 cenários, orçamento e planilha de captação.
 2. `cronograma-projeto.md`: semanas do projeto com entregas, donos e status.
 3. `grade.md`: cronograma do dia minuto a minuto com responsável e links.
@@ -37,24 +37,23 @@ o primeiro evento: IMI online de 1 dia, gratuita, no sábado.
 ## 3. Passo a passo
 
 1. **Parte do método e o que fica pronto** (`references/planejamento-imi.md`, seção 1): escolher a etapa da jornada que resolve
-   a primeira objeção do avatar (no FHT: criar o HT e estruturar o primeiro canal de vendas) e que dá para executar online em um
+   a primeira objeção do avatar (no método: criar o HT e estruturar o primeiro canal de vendas) e que dá para executar online em um
    dia. Pré-requisito físico ou material (instrumento, exame, caso) é comunicado desde o cadastro, com orientação para chegar
    pronto. O resultado do dia gera desejo do resto (o participante fez, mas não sabe se fez certo nem o próximo passo). Teste
    da parte escolhida (planejamento fev/2026): gera valor (aprende e implementa algo), aflora a oportunidade do HT e enfraquece
    uma objeção. Não ter medo de ensinar demais: quanto mais aprende com o expert, mais autoridade ele percebe.
 2. **Big Idea e nome**: "Em apenas um dia, você vai...", específica, uma coisa, com o que o participante leva para casa
    (frameworks e testes em `../ht-decisao-de-evento/references/matriz-formatos-de-evento.md`, seção 4). Prometer o que o
-   avatar quer, entregar o que ele precisa. Nome literal ligado ao tema ("Imersão [tema] online"); o FHT trocou "Power Day"
+   avatar quer, entregar o que ele precisa. Nome literal ligado ao tema ("Imersão [tema] online"); o método trocou "Power Day"
    pelo literal por ser mais claro.
-3. **Formato e data**: online, sábado, 9h às 18h previstas na turma out/2025 (termina "quando bate a meta"; o FHT estourou até
+3. **Formato e data**: online, sábado, 9h às 18h previstas na turma out/2025 (termina "quando bate a meta"; o método estourou até
    ~20h30) ou 9h às 20h com 1h de almoço na turma fev/2026. Zoom ou Meet pela interatividade (plano pelo pico). 2 ou 3 dias só com justificativa (mais consciência, mais custo).
 4. **Entrada do evento** e **modelo de fechamento**: levar ao estrategista (seção 5). Modelo Venda: pitch com preço, ficha e entrada ou
-   checkout no evento. Modelo Sessão: pitch sem preço que convida para a **sessão de avaliação** (FHT out/2025, relatado no onboarding
-   fev/2026: ~280 no pitch, 97 agendamentos, 79 sessões, 13 vendas, cerca do dobro do faturamento da edição com venda direta;
+   checkout no evento. Modelo Sessão: pitch sem preço que convida para a **sessão de avaliação** (referência out/2025: ~280 no pitch, 97 agendamentos, 79 sessões, 13 vendas, cerca do dobro do faturamento da edição com venda direta;
    dez/2025 repetiu com 178 no pitch, 81 agendamentos, 64 sessões, 14 vendas; conferir). Detalhe em
    `references/modelos-de-fechamento-imi.md`.
 5. **Metas e orçamento** (`references/planejamento-imi.md`, seção 3): mínimo de 300 inscritos para 100 ao vivo; conversão sobre
-   presentes no pitch (modelo Venda: base de planejamento da aula 5%, conservador 1,5% a 2% para ticket muito alto; modelo Sessão:
+   presentes no pitch (modelo Venda: base de planejamento da %, conservador 1,5% a 2% para ticket muito alto; modelo Sessão:
    agendamentos de 34% a 45% dos presentes no pitch, ~80% realizadas e a conversão da sessão do expert); verba = leads pagos x CPL, com ~20% de reserva para lembrete e API; planilha diária D-1.
 6. **Cronograma do projeto** (mesma referência, seção 4): semana 1 planejamento e copy; semana 2 ferramentas e tráfego; captação
    de 3 a 5 semanas; conteúdo e laboratórios de talk, pré-pitch e pitch nas semanas 3 a 5; confirmação a partir de ~15 dias
@@ -95,22 +94,18 @@ o primeiro evento: IMI online de 1 dia, gratuita, no sábado.
   orgânico soma ao tráfego: 5 Reels com CTA por semana, gravados uma semana antes de publicar.
 - O 80/20 da conversão é o conteúdo da imersão, não o modelo de fechamento.
 - Padrões vigentes (o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`): a entrada do evento
-  (gratuita, credencial ou paga) é decisão do estrategista por evento, com prós e contras; se a sessão de avaliação fecha com
+  (gratuita, credencial ou paga) é decisão assumida no padrão, listada em "Assumi" por evento, com prós e contras; se a sessão de avaliação fecha com
   sinal, ele é de R$ 500 a R$ 1.000, até 10%, pago com a call aberta, e o preço vem na ordem entrada, parcelado, à vista; acordo
   do sim ou não na sessão, sem a metáfora "em cima do muro"; premissas de 25% de comparecimento no gratuito e 50% de entrada no
   grupo; 2 horários oferecidos e sessão em até 2 dias.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-- **Entrada do evento**: gratuita (recomendação do método para IMI online), credencial, paga (IMI como produto: caso de R$ 10 mil
-  na primeira versão, teste a R$ 5 mil; credencial de R$ 97 em outras edições, conferir). Opções e números em
-  `../ht-decisao-de-evento/references/entrada-do-evento.md`.
-- **Modelo de fechamento**: a) sessão de avaliação sem preço no pitch (recomendo para online de 1 dia: é o modelo que o FHT
-  repetiu em três edições; mais leve, delegável, depende de agenda de sessões);
-  b) venda no evento com entrada ou checkout (fecha na hora, exige pitch forte e operação de pausa); c) híbrido (preço no pitch
-  e sessão para quem não fechou). Prós e contras em `references/modelos-de-fechamento-imi.md`.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Entrada do evento**: padrão gratuita (recomendação do método para IMI online); credencial ou IMI paga ficam como alternativa (números em `../ht-decisao-de-evento/references/entrada-do-evento.md`). Cobrar é preço: "posso seguir?".
+- **Modelo de fechamento**: padrão sessão de avaliação sem preço no pitch para online de 1 dia (mais leve, delegável; depende de agenda de sessões). Venda no evento e híbrido, com prós e contras, em `references/modelos-de-fechamento-imi.md`.
 - **Condição do evento** (bônus, entrada, prazo): só como versão nova de `02-oferta/`.
-- Verba, ativação de campanha, disparos pela API, ligações em massa da recuperação.
+- **Verba, ativação de campanha, disparos pela API e ligações da recuperação**: "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -138,26 +133,10 @@ tarde, laser coaching longo).
 
 ## 8. Ferramentas de apoio
 
-`hook-generator` e `ad-creative-video` (criativos com variação só no começo do vídeo), `meta-ads-cli-turbo` ou a ferramenta de tráfego do perfil
-(`trafego.ferramenta`), `hotmart-meta-conversao` (pixel e evento Lead em página Hotmart), `pagina-design-premium` ou `designer-senior-turbo` e
+`hook-generator` e `ad-creative-video` (criativos com variação só no começo do vídeo), `meta-ads-cli` ou a ferramenta de tráfego do perfil
+(`trafego.ferramenta`), `hotmart-meta-conversao` (pixel e evento Lead em página Hotmart), `pagina-design-premium` ou `designer-senior` e
 `publicar-pagina-cloudflare` (página e central), `conectar-whatsapp-oficial` e `automacao-fluxos` (confirmação e lembretes),
-`email-marketing-mautic` (inscrição confirmada), `gerador-slides-turbo` (talk, pré-pitch, pitch), `testimonial-video` (depoimento
+`email-marketing-mautic` (inscrição confirmada), `gerador-slides` (talk, pré-pitch, pitch), `testimonial-video` (depoimento
 em grupo intercalado), `countdown-video`, `anthropic-skills:xlsx` (metas, planilha D-1, recuperação), `avoid-ai-writing` e
 `humanizer` (revisar copy gerada por IA).
 
-## 9. Fontes e lacunas
-
-**Fontes** (lidas por inteiro na revisão R6, 23/11/2026: trilha 17 aulas 01 a 04 e 53; trilha 22 aulas 28, 29, 52, 53 e 70):
-trilha 17, Planejamento de Imersão (aulas 01 a 04), aula 12 (tráfego), aula 53 (recuperação de
-vendas, transcrita hoje); trilha 22, Desafio de Imersão out/2025 (aulas 52 a 71) e fev/2026 (aulas 27 a 51, inclusive onboard,
-planejamento, preparação, construção de talk, pré-pitch e pitch, aquecimento, laboratórios de pré-pitch e pitch, preparação
-técnica, transcritas hoje) e seus RESUMOs; trilha 18 aula 02 (tipos de imersão); catálogo, fht-planejar-imi-online-1-dia,
-fht-imersao-implementacao-paga, fht-laser-coaching, fht-pre-pitch-e-seeding, fht-pitch-de-evento,
-fht-repitch-repeat-e-objecoes-ao-vivo, fht-producao-tecnica-e-central-do-evento, fht-recuperacao-pos-evento (partes D, G, H, I).
-
-**Lacunas**: os white labels (central em Elementor e Hotmart Pages, copies, mapa mental do pré-pitch, PPT do pitch FHT,
-planilha de recuperação, cronograma em planilha) foram mostrados em tela e não estão nos arquivos; as referências reconstroem a
-estrutura pelo que foi dito. A IMI paga tem só o caso citado (sem método próprio). As outras duas opções de pré-pitch além da
-recomendada foram só citadas. O fluxo de mensagens da recuperação foi conferido na leitura inteira da aula (8 contatos até o dia 11). Há
-divergência entre turmas sobre mandar o link do CTA no chat (out/2025: não; fev/2026: chat e central) e sobre orçamento por
-campanha x por conjunto e exclusões de público (registrar a escolha do gestor).

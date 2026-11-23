@@ -1,7 +1,6 @@
 # Comunidade e encontros exclusivos (pilar Ambiente)
 
-Fontes: parte-A (fht-ambiente-comunidade-e-encontros), parte-F (comunidade VIP e ferramentas, encontro exclusivo), parte-I
-(comunidade engajada, palestra de encontro), parte-E e parte-F (conflito de tamanhos), padrão do squad.
+Padrão do squad.
 
 ## 1. Ferramenta pelo tamanho (padrão do squad)
 | Alunos | Ferramenta | Por quê | Cuidado |
@@ -9,7 +8,7 @@ Fontes: parte-A (fht-ambiente-comunidade-e-encontros), parte-F (comunidade VIP e
 | Até ~10 | WhatsApp, grupo VIP com o mentor | Íntimo, grátis, ambiente moderado | Expõe números; perde controle com volume |
 | ~10 a ~150 | Telegram | Organizado, busca, histórico | Menos usado; feed confuso |
 | Acima de ~150 | Circle (ou equivalente pago) | Profissional, escala | Custo; precisa de animação |
-Discord para público de tecnologia. Divergência nas fontes: um material fala em WhatsApp até ~100; o FHT usou Telegram até
+Discord para público de tecnologia. Referência: WhatsApp até ~100; um caso usou Telegram até
 ~300. Vender "comunidade", nunca "grupo de WhatsApp".
 
 ## 2. Regras do ambiente (escrever as do expert)
@@ -31,9 +30,9 @@ Por que comunidade morre: aluno largado, líderes que não postam, nenhum incent
 ## 4. Encontros exclusivos
 - A partir de 10 a 15 alunos; melhor presencial; datas fechadas com antecedência (passagem; no virtual, avisar muito antes).
 - Programação: palestra de aluno com resultado, hot seat, perguntas e respostas na plenária, network, exercícios.
-- Ligação com a renovação: encontro no fim de cada ciclo (3 ciclos por ano no FHT) com entrega + upgrade + renovação
+- Ligação com a renovação: encontro no fim de cada ciclo (3 ciclos por ano no método) com entrega + upgrade + renovação
   (ht-renovacao, ht-upgrade-e-gic). Entregável de "plano de continuidade" enfraquece a renovação.
-- Pode-se prometer o presencial ocorrendo cerca de 12 meses após a primeira entrada (parte-A).
+- Pode-se prometer o presencial ocorrendo cerca de 12 meses após a primeira entrada.
 - Custo de referência citado: 100 pessoas em espaço com projetor por cerca de R$ 15 mil; painel de LED encarece muito (conferir).
 - Todo aluno recebe, mesmo quando o encontro entrou como bônus.
 

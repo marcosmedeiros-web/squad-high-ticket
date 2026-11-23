@@ -1,8 +1,5 @@
 # Herói relutante e acordo do sim ou não
 
-Fonte: trilha 09 aulas 08-09 (RESUMO-vendas §5.5-5.6; RESUMO-apresentacao §3.3, §5.2, §5.13); rota 3 resumo 05 (etapas 4-5);
-trilha 22 (abr/2026 94-95, mai/2026 79-80, jul/2026 RJ 08-09, dez/2025 143, jan/2025 192, fev/2025 197, mar/2025 179-180);
-padrão recomendado do squad para o acordo do sim ou não.
 
 ## 1. História do herói relutante
 
@@ -33,12 +30,12 @@ veio o método) e a **escassez** real, e transforma a conversa de "diagnóstico"
 - Quem conduz não é o expert: "deixa eu te contar por que o [expert] decidiu criar isso…".
 - Evidência visual rápida (uma foto, um resultado) pode aparecer e sair.
 - Escrever com subtítulos dos 6 passos (facilita a revisão e o treino) e treinar em voz alta: história lida soa decorada.
-- Entrada alternativa depois da permissão (laboratório da aula 15): "sei que tem muita coisa a fazer, mas tenho uma boa
+- Entrada alternativa depois da permissão: "sei que tem muita coisa a fazer, mas tenho uma boa
   notícia: existe um acompanhamento que pode te ajudar, e ele quase não saiu do papel". A escassez da história é o gancho do slide
   do acordo, que vem logo depois.
 - Insegurança pessoal do expert (timidez, medo de se expor) pode entrar como vulnerabilidade; dúvida sobre gerar resultado,
-  nunca (laboratório abr/2026).
-- Variante "herói ganancioso" (o expert estava focado no próprio negócio e não tinha tempo) existe na fonte; usar só se for a
+  nunca.
+- Variante "herói ganancioso" (o expert estava focado no próprio negócio e não tinha tempo) existe como variante; usar só se for a
   verdade.
 
 ## 2. Acordo do sim ou não (padrão recomendado: usar, sem a metáfora "em cima do muro")
@@ -61,11 +58,10 @@ live direto ao ponto não se usa).
 - Sem ultimato ("se disser não nem mostro"), sem soberba, sem pressa.
 - Não dizer "a única coisa que peço é honestidade" (soa como se a pessoa fosse desonesta).
 - Não chamar o programa de "caro"; dizer que o investimento não é baixo é transparência ("tem um investimento, que eu mostro no
-  fim"). Chamar de caro é recurso de palco em imersão, não de 1a1 (bootcamp abr/2026).
-- O sim ou não é do **interesse** pelo programa, não da compra (aula 14 da trilha 09).
+  fim"). Chamar de caro é recurso de palco em imersão, não de 1a1.
+- O sim ou não é do **interesse** pelo programa, não da compra.
 - Se o lead disser que não tem interesse: agradecer e encerrar ("você economizou o seu tempo e o meu").
 - Se o lead pedir para pular para o preço: reconhecer o interesse e voltar ao combinado ("já chego lá; antes, o combinado").
 
-### Histórico de divergência (para o estrategista saber)
-O acordo é otimização recente: em turmas de jan-mai/2025 a transição era só a pergunta de permissão; um mentor diz que nunca
-usou; em jul/2026 parte dos mentores fala o acordo antes do herói. Padrão da skill: trilha 09 (herói → acordo).
+### Variação conhecida
+O acordo é otimização recente: antes, a transição era só a pergunta de permissão, e alguns mentores falam o acordo antes do herói. Padrão da skill: herói → acordo.

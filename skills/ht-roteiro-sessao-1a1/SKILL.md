@@ -1,6 +1,6 @@
 ---
 name: ht-roteiro-sessao-1a1
-description: 'Squad High Ticket / método FHT. Escreve o roteiro completo da sessão 1a1 de venda do HT, o canal mais importante do FHT: as 6 etapas da trilha 09 com falas, tempos e setup (boas-vindas, Raio-X e leitura do gráfico, herói relutante, acordo do sim ou não, oferta com deck, ancoragem, entrada-parcelado-à vista, bônus, garantia, três sins, CTA, fechamento com sinal pago na call, objeções e saída com data), mais o deck de oferta slide a slide e os critérios de quando não ofertar. Use quando o estrategista disser "monta o roteiro da sessão", "script da call de diagnóstico", "história do herói relutante", "acordo do sim ou não", "slides da oferta da sessão", "como falo o preço", "três sins", "como fecho com sinal". Entrega rascunho para o estrategista aprovar. NÃO usar para pitch de palco ou imersão (ht-palestras-e-pitch), nem para lançamento pago semanal, 5+1 ou Funil 8 (fora do escopo deste squad).'
+description: 'Escreve o roteiro completo da sessão 1a1 de venda do HT: 6 etapas com falas, tempos e setup (Raio-X, herói relutante, acordo do sim ou não, oferta com deck, ancoragem, bônus, garantia, três sins, CTA, sinal pago, objeções), o deck slide a slide e quando não ofertar. Use para "monta o roteiro da sessão", "como falo o preço", "três sins". Rascunho. NÃO usar para pitch de palco (ht-palestras-e-pitch).'
 ---
 
 # Roteiro da sessão 1a1 (venda do HT)
@@ -9,7 +9,7 @@ description: 'Squad High Ticket / método FHT. Escreve o roteiro completo da ses
 
 A sessão 1a1 é a call individual em que o vendedor (o expert, no começo) diagnostica o lead com o Raio-X, aflora a
 necessidade, dá a razão de o programa existir, pactua uma decisão e apresenta a oferta até sair com o sinal pago ou com data
-marcada. É o canal mais rápido e barato do FHT, valida a oferta e mostra as objeções reais. Roteiro é **fixo e na ordem**:
+marcada. É o canal mais rápido e barato do método, valida a oferta e mostra as objeções reais. Roteiro é **fixo e na ordem**:
 sessão "no flow" converte pior.
 
 **Entrega** (pasta `03-sessao/roteiro/`):
@@ -41,7 +41,7 @@ sessão "no flow" converte pior.
 
 ## 3. Passo a passo
 
-**Passo 1. Setup e tempos.** Padrão do squad: **alvo de 1h15, teto de 1h30**. Distribuição de referência (fontes: boas-vindas
+**Passo 1. Setup e tempos.** Padrão do squad: **alvo de 1h15, teto de 1h30**. Distribuição de referência (boas-vindas
 ~2 min + perguntas iniciais ~3 min, Raio-X ~20 min, oferta ~30 min; o resto é inferência da skill): boas-vindas 5-7 min;
 Raio-X 20; leitura 5-6; herói até 5; acordo 1-2; oferta 25-30 (com coleta); preço ao CTA 5; objeções e fechamento 5-10.
 Setup: gravar desde o início (Zoom ou Meet), câmera ligada e voltada ao rosto quando conversa, deck em modo apresentação,
@@ -87,7 +87,7 @@ ultimato e sem pressa. Quem diz que não tem interesse: agradecer e encerrar.
 **Passo 7. Ancoragem** (`references/ancoragem-preco-bonus-garantia.md`). Padrão recomendado (o estrategista pode mudar em `padroes`
 do perfil): **duas âncoras seguidas e depois a emocional**. Primeiro a comparação com algo que o lead gasta ou conhece, em torno
 de 10x o preço; depois o valor de mercado dos entregáveis somando em torno de 5x; por fim a emocional (custo de continuar igual).
-Receita de jan/2026, confirmada nas gravações. A regra anterior (uma âncora principal, nunca duas comparativas seguidas) fica só
+Receita atual do método. A regra anterior (uma âncora principal, nunca duas comparativas seguidas) fica só
 como contexto. Nunca ancorar no que o expert investiu. Usar o
 que o lead disse no Raio-X e na coleta; o valor grande vai em destaque num slide (âncora sem número no slide é erro de laboratório).
 
@@ -106,7 +106,7 @@ Slide opcional de próximos passos (entrada, contrato, boas-vindas).
 **Passo 10. Etapa 6, Quebra de objeções e saída.** Isolar ("além disso, tem mais alguma coisa que impede você de entrar
 hoje?"; "se não fosse o dinheiro, o que impediria?"), resumir, responder cada uma nas 3 camadas de `ht-objecoes` (empatia,
 racional com a conta do lead, evidência de quem tinha a mesma dúvida) e retomar o acordo do sim ou não. Decisor ausente:
-convidar para a call ou marcar segunda reunião com os dois. Prática de mentor (roleplay jul/2026 RJ): se já nas boas-vindas
+convidar para a call ou marcar segunda reunião com os dois. Prática recomendada: se já nas boas-vindas
 ficou claro que outra pessoa decide junto e ela não está, não abrir o preço; marcar a segunda reunião com os dois antes. Quando a
 objeção do decisor surge só no fim, isolar ("se fosse só pelo programa, ela diria sim?"; "é o total ou a parcela?"). Objeção de
 dinheiro costuma ser dúvida sobre o programa ou sobre a própria capacidade: voltar às dores e às provas, não ao desconto. Sem fechamento: **sair com dia e hora** do retorno (nunca "qualquer
@@ -125,10 +125,10 @@ ajustes de nicho só como teste aprovado (`references/variante-vsd.md`).
 
 - Ordem fixa das 6 etapas (padrão do squad): Boas-vindas → Raio-X com leitura → herói relutante → acordo do sim ou não →
   oferta (com coleta e três sins) → CTA e quebra de objeções. Necessidade antes de razão, razão antes de permissão, permissão
-  antes da oferta. Contagem: é a do RESUMO-vendas; a aula 04 da trilha 09 conta as 6 como boas-vindas, Raio-X, herói, oferta,
-  CTA e quebra de objeções, porque o acordo entrou depois (aula 09) como abertura da oferta. A sequência é a mesma; ao auditar,
+  antes da oferta. Contagem: uma variante conta as 6 como boas-vindas, Raio-X, herói, oferta,
+  CTA e quebra de objeções, porque o acordo entrou depois como abertura da oferta. A sequência é a mesma; ao auditar,
   não marcar erro por essa diferença de numeração.
-- Não apresentar o programa como novo, "primeira turma" ou em teste (o lead se sente cobaia; roleplay jul/2026 RJ). Sem alunos
+- Não apresentar o programa como novo, "primeira turma" ou em teste (o lead se sente cobaia). Sem alunos
   ainda: a escassez é "estou selecionando com quem trabalho", que é verdade porque nem todo lead recebe a oferta.
 - Nada de método, mentoria ou preço antes da história; nada de solução no diagnóstico; não ensinar na sessão.
 - Preço só de `02-oferta/oferta-vigente.md`, na ordem entrada → parcelado → à vista; sinal de R$ 500 a R$ 1.000
@@ -140,11 +140,10 @@ ajustes de nicho só como teste aprovado (`references/variante-vsd.md`).
 - Toda sessão termina com sim, com não claro ou com dia e hora marcados.
 - O roteiro é rascunho: o Closer não fala com lead; quem conduz é o expert ou o vendedor definido pelo estrategista.
 
-**Divergências das fontes (mostrar ao estrategista, padrão = trilha 09):** acordo antes ou depois do herói (padrão: depois); bônus antes
+**Variações possíveis (o agente segue o padrão e lista a escolha em "Assumi"):** acordo antes ou depois do herói (padrão: depois); bônus antes
 ou depois do preço (padrão: depois); slide de garantia sempre ou só para quem hesita (padrão: sempre, depois dos bônus); preço
-parcelado igual ou acima do à vista (definido em `02-oferta`); entregáveis em lista com revelação item a item (aula 14 da trilha
-09, padrão) ou um entregável por slide (bootcamp abr/2026); ordem do preço: a trilha 09 (aulas 10, 14 e 15) mostra parcelado →
-à vista → entrada como "boa notícia", o bootcamp abr/2026 mostra entrada primeiro; vale o padrão recomendado (entrada,
+parcelado igual ou acima do à vista (definido em `02-oferta`); entregáveis em lista com revelação item a item (padrão) ou um entregável por slide; ordem do preço: uma variante mostra parcelado →
+à vista → entrada como "boa notícia", outra mostra entrada primeiro; vale o padrão recomendado (entrada,
 parcelado, à vista).
 
 ## 5. O que o agente decide e lista em "Assumi"
@@ -154,7 +153,7 @@ Sem lote de perguntas nem a/b/c: o agente segue o padrão ou a recomendação e 
 - Condição de fechamento na call (benefício que vale só até o fim da call, prazo da proposta): só entra se já estiver na regra aprovada em `02-oferta`; sem regra, o agente não inclui e lista em "Assumi" (risco: pressão percebida e prometer o que não se sustenta).
 - Variante VSD (pitch sem preço) ou ajuste por nicho em teste: o agente assume a versão padrão e lista em "Assumi".
 - Quem conduz as sessões (expert ou vendedor): assume o expert no começo e lista em "Assumi" (ver `ht-treino-comercial`).
-- Garantia quando o resultado não é mensurável: o agente assume a recomendação da aula 14 da trilha 09 (sem garantia, compensando com prova e objeções) e lista em "Assumi". A alternativa, garantia de satisfação de 15 a 30 dias em que o aluno sai sem dívida das parcelas futuras e a entrada não volta (laboratório da aula 15), fica só como referência e exige contrato. Garantia longa de devolução integral "para experimentar" é desaconselhada nas duas aulas.
+- Garantia quando o resultado não é mensurável: o agente assume a recomendação do método (sem garantia, compensando com prova e objeções) e lista em "Assumi". A alternativa, garantia de satisfação de 15 a 30 dias em que o aluno sai sem dívida das parcelas futuras e a entrada não volta, fica só como referência e exige contrato. Garantia longa de devolução integral "para experimentar" é desaconselhada.
 Pedem um "posso seguir?" simples: gastar verba, publicar ou enviar algo para fora, ativar algo, e uso de foto, nome ou depoimento de aluno (só com autorização registrada).
 
 ## 6. Critério de pronto e auditoria final
@@ -190,27 +189,12 @@ preço; bônus antes do preço; garantia não mensurável; sair sem data e hora;
 
 ## 8. Ferramentas de apoio (por nome, sem copiar)
 
-Deck: `gerador-slides-turbo`, `slides-uipm-turbo`, `anthropic-skills:pptx`, `designer-senior-turbo`, `design-tokens-turbo`.
-Texto: `avoid-ai-writing`, `humanizer`, `voice-builder`. Análise de gravação de sessão: `watch`, `transcrever-youtube-turbo`.
-Documento de bolso: `anthropic-skills:docx` ou `anthropic-skills:pdf`.
+Deck: `gerador-slides`, `slides-uipm`, `anthropic-skills:pptx`, `designer-senior`, `design-tokens`.
+Texto: `avoid-ai-writing`, `humanizer`, `voice-builder`. Análise de gravação de sessão: `watch`, `transcrever-youtube`.
+Documento de bolso: `anthropic-skills:docx` ou `anthropic-skills:pdf`.## 9. Limites (não inventar)
 
-## 9. Fontes e lacunas
-
-**Fontes:** trilha 09, bootcamp Vendas através de Sessão 1:1 (aulas 02-13; versão de 6 etapas; RESUMO-vendas-por-sessao-1a1.md
-§3-§8) e bootcamp Apresentação de Oferta sem Travamentos (aulas 14-15; RESUMO-apresentacao-de-oferta.md §3, §5, §7, §8,
-esqueleto do white label de ~43 slides); documento de roteiro `trilhas/_materiais/documentos/09-sessao-1a1__1QoiWx3i.txt`; rota 3,
-resumo 05; trilha 22, bootcamps, laboratórios e roleplays de sessão 1a1 (abr/2026 93-95, transcritas; mai/2026 79-80;
-jul/2026 RJ 07, 08, 09, 12; jun/2026 SP 25 via resumo; dez/2025 143-144; jan/2026 128; mar/2025 179-180; mai/2025 160;
-engenharia reversa jan/2025 192-195); trilha 22 out/2025 aula 70 (recuperação, molde de saída com data); trilha 11 (objeções);
-catálogo, partes B, E, F, G, I (fht-sessao-1a1-roteiro, fht-heroi-relutante, fht-acordo-sim-ou-nao, fht-deck-oferta-1a1,
-fht-ancoragem-de-preco, fht-preco-bonus-e-garantia-na-fala, fht-tres-sins-e-cta, fht-fechamento-sinal-e-prazo,
-fht-decidir-quando-nao-ofertar, fht-sessao-1a1-variante-vsd); padrões recomendados do squad (garantia, ordem do preço, sinal, acordo,
-formato da leitura, tempos, ancoragem, 20 sessões, ordem das etapas).
-
-**Lacunas (não inventar):** o texto integral dos ~43 slides do white label não foi lido em voz alta (só a sequência); o arquivo do
-checklist oficial de condução não existe nos arquivos (o bootcamp abr/2026, aula 94, descreve a estrutura: etapa, tempo, tópicos
-e intenção, com conexão em ~2 min e Raio-X em ~20 min, e é isso que a versão de bolso reproduz); o guia de follow-up pós-sessão
-é citado e não existe; o mapa mental do roteiro não foi
-lido; o documento completo da variante VSD era bônus e não está no material; a distribuição exata de minutos por bloco da oferta
-não é dada pelas aulas (a da skill é inferência sobre os totais citados); "6 perguntas de limpeza da mesa" foram citadas e só 3
-ditas; os valores de preço dos exemplos das aulas têm ruído de legenda e não servem como referência de oferta.
+O texto integral dos ~43 slides do deck-modelo não vem no pacote (só a sequência). O checklist oficial de condução e o guia de
+follow-up pós-sessão não vêm no pacote; a versão de bolso reproduz a estrutura (etapa, tempo, tópicos e intenção, com conexão em ~2 min
+e Raio-X em ~20 min). O mapa mental do roteiro e o documento completo da variante VSD não estão no material. A distribuição exata de
+minutos por bloco da oferta é inferência da skill sobre os totais de referência. As "6 perguntas de limpeza da mesa" são citadas e só 3
+são conhecidas. Valores de preço de exemplos são ruído e não servem como referência de oferta.

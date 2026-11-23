@@ -1,13 +1,6 @@
 ---
 name: hyperframes-cli
-description: >
-  Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot,
-  compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish,
-  cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, docs,
-  benchmark, telemetry, transcribe, tts, and remove-background. Also use when diagnosing build
-  or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local,
-  AWS Lambda, and Google Cloud Run rendering (the paid vendor-hosted cloud render is not part of
-  this kit).
+description: 'The HyperFrames CLI development loop: init, add, lint, check, preview, snapshot, render (single or batch), transcribe, tts, doctor and upgrade, plus diagnosing build or render failures. Use for "render the video", "lint the composition", "preview it", "render failed". Do NOT use the paid vendor-hosted cloud render, auth or telemetry commands.'
 ---
 
 # HyperFrames CLI
@@ -120,7 +113,7 @@ Use `selection.target.hfId` when available, otherwise its selector and source fi
 
 Skill attribution is automatic — the examples above need no `--skill`. A project scaffolded by a workflow (`hyperframes init --skill=<workflow>`) records its owning skill in `hyperframes.json`, and every later render inherits it on anonymous telemetry: re-renders, `npm run render`, and `--batch` alike. Pass `--skill=<slug>` explicitly only to stamp a project that was not created through a workflow (its first render then persists it).
 
-Render locally by default (free). Never run `hyperframes cloud render` or `hyperframes auth`: the vendor-hosted cloud render is paid and is not part of this kit. Use Lambda only when AWS ownership is a requirement. Use Cloud Run only when GCP ownership is a requirement. Read the matching reference before running any cloud path.
+Render locally by default (free). Never run `hyperframes cloud render` or `hyperframes auth`: the vendor-hosted cloud render is paid and is not used in this package. Use Lambda only when AWS ownership is a requirement. Use Cloud Run only when GCP ownership is a requirement. Read the matching reference before running any cloud path.
 
 After verifying a successful render, send one feedback report unless telemetry is disabled or the user opted out:
 

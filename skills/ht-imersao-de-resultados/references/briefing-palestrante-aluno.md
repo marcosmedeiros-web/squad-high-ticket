@@ -1,10 +1,5 @@
 # Briefing do aluno palestrante (Toque de Midas no palco)
 
-Fontes: Live FHT 028 (Toque de Midas e entrevista), Live 033 (IMP: alunos palestram erros e acertos), Live 045 (IMR, estrutura
-de cada palestra), desafio imersão fev/2026 aula 40 (pré-pitch de case de aluno: processo e ajustes finos), trilha 18 aula 17
-(Mundo Paralelo: "análise das análises" em 4 etapas), Live 037 (entrevista), RESUMO desafio RJ jul/2026 (palestra do aluno no
-encontro exclusivo), trilha 18 aula 15 e desafio fev/2026 aula 50 (vídeos de prova; lidas por inteiro em 23/11).
-
 ## 1. O que a palestra do aluno precisa provar
 
 Que o **feedback do programa** gerou a transformação: não é o aluno dizendo "cheguei em X", é mostrar o antes, a recomendação do
@@ -33,7 +28,7 @@ consumido (diagnóstico, plano de ação, eventos/ambiente, comunidade) e a uma 
 4. Revisão cruzada das palestras de todos os alunos pelo time (ninguém sobe sem ensaio).
 5. Conteúdo inédito a cada edição (a IMR não repete palestras como a IMA).
 
-Roteiro de entrevista (Live 028/037):
+Roteiro de entrevista:
 - Qual resultado você teve? (o mesmo que o programa promete, verbalizado com número)
 - Qual era a sua maior objeção ou obstáculo antes de entrar?
 - O que o expert/mentor disse ou fez que mudou o jogo? Em qual momento do programa?
@@ -71,8 +66,8 @@ Contato do mentor responsável: [nome]
 ## 7. Vídeo do caso (quando o aluno não sobe ao palco ou para abrir um bloco)
 
 - Produzido antes do evento: entrevista longa (30 a 60 min) com história, objeções e jornada; o time de vídeo edita pela mensagem
-  principal escolhida para o evento (no FHT, renovação usa a ideia de que quem sai do ambiente perde o fogo ou está perto de
-  chegar; Mundo Paralelo usa "você consegue, apesar de…"). O expert aprova e decide o momento de tocar.
+  principal escolhida para o evento (num caso de referência, renovação usa a ideia de que quem sai do ambiente perde o fogo ou está perto de
+  chegar; outro usa "você consegue, apesar de…"). O expert aprova e decide o momento de tocar.
 - Gravação em grupo: 3 alunos com resultado na mesma chamada, gravando desde o início; perguntas de nome, idade, cidade e
   resultado, do que fazia duvidar e de como está a vida hoje; na edição, intercalar as histórias.
 - Cortar trechos com objeção velada ou com o aluno vendendo; conferir que os números batem com os de outros vídeos.

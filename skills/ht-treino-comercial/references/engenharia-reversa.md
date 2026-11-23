@@ -1,9 +1,5 @@
 # Engenharia reversa de sessão (a que vendeu e a que não vendeu)
 
-Fonte: trilha 22, desafio jan/2025, HT Class de engenharia reversa (aulas 192-196: método e dois casos reais analisados);
-catálogo fht-engenharia-reversa-de-sessao-que-vendeu (parte E); trilha 11 (engenharia reversa do resultado de aluno para achar a
-objeção).
-
 ## 1. Método
 1. Escolher a gravação (call que vendeu de quem segue o roteiro; depois, uma que não vendeu).
 2. Contexto antes do play: origem do lead (frio, indicação, SLG), ticket, resultado, o que o vendedor achou.

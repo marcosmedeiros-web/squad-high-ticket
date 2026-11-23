@@ -1,6 +1,6 @@
 # Rotina semanal e as 4 mensagens das entregas em grupo
 
-Fonte: trilha 19 aula 11 (RESUMO §5.3 e §5.12). Modelos escritos pelo squad sobre a estrutura dos white labels, na voz do
+Modelos escritos pelo squad sobre a estrutura dos modelos do método, na voz do
 expert; tudo em rascunho, revisão ht-revisor-metodo-copy, envio só com OK do estrategista.
 
 ## Rotina

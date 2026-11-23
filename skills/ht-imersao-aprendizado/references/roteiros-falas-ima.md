@@ -1,11 +1,5 @@
 # IMA: roteiros das falas que não são palestra (mapa de tópicos)
 
-Fontes: os 9 roteiros white label do Drive do Bootcamp IMA (estrutura em tópicos, transcrita no RESUMO da trilha 18), as aulas
-07 (exercício de talk do dia 1 com correções), 10 (talk do dia 2), 11 (pitch), 13 (encerramento do dia 2), 15 (talk do dia 3),
-16 (re-pitch e palestra de decisões), 17 (downsell; o arquivo se chama "Encerramento dia 3") e 18 (encerramento). Redação em tópicos pelo squad; o texto final é escrito
-na voz do expert pelo ht-roteirista-palco e passa pelo ht-revisor-metodo-copy. Cada roteiro vira mapa mental aprovado antes de
-virar slide.
-
 ## 1. Talk de entrada do dia 1 (~35 min a 2 h; expert)
 
 1. **Recepção.**
@@ -13,7 +7,7 @@ virar slide.
 3. **Pergunta de lastro**: "quantos aqui já chegaram em [marco da Roma]?" (a minoria levanta a mão) → "sei que consigo levar
    vocês lá, e por isso existe esta imersão".
 4. **Promessa e porquê da imersão**: aprender rápido, em N dias, o que levaria meses; o obstáculo do avatar que faz adiar
-   (ex. do bootcamp para médico: o convênio ocupa a agenda e o particular fica para depois).
+   (ex. para médico: o convênio ocupa a agenda e o particular fica para depois).
 5. **Roma por escrito**: "imagine [a Roma concreta do avatar]; escreva no papel como seria".
 6. **Repasse de autoridade**: apresentar quem do time palestra e entrega o HT, com conquistas reais (o 80/20 da autoridade do
    time está aqui).
@@ -36,7 +30,7 @@ você aprendeu ontem que vai aplicar?").
 ## 4. Pitch do dia 2 (~90 min com vídeo; o roteiro completo é feito em `ht-palestras-e-pitch`)
 
 Preparação: resumo do **avatar da sala** (pesquisa de confirmação) entregue ao expert com o veredito em 1 página.
-Tópicos do white label, na ordem:
+Tópicos, na ordem:
 1. Muito conteúdo foi passado, e é só a ponta do iceberg (resumo do que foi ensinado).
 2. O motivo da imersão: acelerar.
 3. Quem está aqui quer fazer melhor e mais rápido.
@@ -49,7 +43,7 @@ Tópicos do white label, na ordem:
 9. **CTA 1, fácil**: preencher a ficha e pagar uma entrada no evento (valor e prazo do restante de `02-oferta/`).
 10. **Escassez real**: a condição vale só no evento e o programa começa amanhã no almoço.
 11. **CTA 2, emocional**: por que agora (sem tempo a perder, melhor ambiente para chegar à Roma).
-No caso do FHT a fala do preço incluiu: entrada fixa no evento, restante até uma data ou parcelado com juros, e o motivo de
+Na referência a fala do preço incluiu: entrada fixa no evento, restante até uma data ou parcelado com juros, e o motivo de
 começar "amanhã no almoço" (segunda-feira chega e a dúvida volta). Respostas a "por que não faz mais barato?" fazem parte do
 roteiro e saem da árvore de objeções.
 

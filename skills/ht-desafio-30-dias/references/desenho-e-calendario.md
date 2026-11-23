@@ -1,15 +1,13 @@
 # Ficha do desafio e calendários modelo
 
-Fonte: trilha 22 (desafios de 30 dias, calendários de dez/2025, jan/2026, abr/2026; desafio de imersão out/2025 e fev/2026);
-parte-E (desenhar calendário), parte-F (cascata, desafio como entregável), parte-G (cronograma do desafio de imersão), parte-D
-(desafio como ativação, trilha 19). Datas e horários são do modelo FHT: adaptar.
+Datas e horários são do modelo do método: adaptar.
 
 ## 1. Ficha do desafio (preencher)
 
 | Campo | Conteúdo |
 |---|---|
 | Nome | "[Desafio] as primeiras [X] em 30 dias" (nunca volume) |
-| Ação-alvo | o primeiro resultado observável (FHT: 1ª venda de HT em sessão 1a1) |
+| Ação-alvo | o primeiro resultado observável (método: 1ª venda de HT em sessão 1a1) |
 | Habilidade desenvolvida | |
 | Para quem é | quem tem urgência do resultado |
 | Para quem não é | quem quer ir com calma; autodidata; quem está em outro desafio |
@@ -18,12 +16,12 @@ parte-E (desenhar calendário), parte-F (cascata, desafio como entregável), par
 | Relação com a oferta | bônus do HT? (texto em 02-oferta) |
 | Jornada individual em paralelo | diagnóstico, plano de ação, check-up, análise |
 | Etapas (cascata) | da jornada do avatar até a ação-alvo |
-| Gamificação | faixas/níveis (4 níveis, padrão do squad); premiação física (decisão do estrategista) |
+| Gamificação | faixas/níveis (4 níveis, padrão do squad); premiação física (padrão assumido) |
 | Canais | central, grupo de avisos, agenda, comunidade (padrão do squad) |
 | Condução | expert / mentores por encontro |
-| Mínimo para "concluir" | FHT: 25 sessões (pacto das 25); aluno do expert: definir |
+| Mínimo para "concluir" | método: 25 sessões (pacto das 25); aluno do expert: definir |
 
-## 2. Calendário modelo FHT "vendas em 30 dias" (5 semanas)
+## 2. Calendário modelo do método "vendas em 30 dias" (5 semanas)
 
 | Semana | Seg | Ter | Qua | Qui | Sex | Fim de semana |
 |---|---|---|---|---|---|---|
@@ -34,9 +32,8 @@ parte-E (desenhar calendário), parte-F (cascata, desafio como entregável), par
 | 4 (vendas) | campo | campo | Plantão | campo | Offboarding (ou na semana seguinte) | |
 
 Variações vistas nas turmas: sessão 1a1 em uma ou duas partes; laboratório de sessão no dia seguinte ao bootcamp; meta de
-agendamento no SLG de quinta a domingo; aula de véspera de feriado vira plantão; laboratório de Master Plan na semana 0
-(dez/2025, jan/2026); plantão diário na primeira semana (mar/2025); últimos 3 dias da semana de vendas sem encontro, só campo
-(jun/2026); laboratório de sessões gravadas e engenharia reversa de sessões que venderam (jan/2025). A FHT aponta que o aluno
+agendamento no SLG de quinta a domingo; aula de véspera de feriado vira plantão; laboratório de Master Plan na semana 0; plantão diário na primeira semana; últimos 3 dias da semana de vendas sem encontro, só campo;
+laboratório de sessões gravadas e engenharia reversa de sessões que venderam. O método aponta que o aluno
 fica apto a vender a partir da 2ª semana (depois da oferta pronta).
 
 ## 3. Adaptação para o aluno do expert (esqueleto)
@@ -45,9 +42,9 @@ fica apto a vender a partir da 2ª semana (depois da oferta pronta).
 2. Marcar os passos que precisam estar prontos antes da ação-alvo e o passo que é a própria ação-alvo.
 3. Uma etapa do desafio por bloco de passos: bootcamp (ensina e faz), laboratório (corrige), plantão.
 4. Primeiro o que é preparo, depois a ação de campo, depois repetição com volume.
-5. Definir com o estrategista o número mínimo de ações de campo e como o aluno registra (planilha, formulário).
+5. Assumir o número mínimo de ações de campo e como o aluno registra (planilha, formulário).
 
-## 4. Calendário modelo do desafio de imersão (6 semanas, fev/2026)
+## 4. Calendário modelo do desafio de imersão (6 semanas)
 
 | Semana | Foco | Encontros típicos |
 |---|---|---|
@@ -58,6 +55,6 @@ fica apto a vender a partir da 2ª semana (depois da oferta pronta).
 | 5 | Pitch; aquecimento e confirmação (~15 dias antes); disparos pela API oficial | bootcamp e laboratório de pitch; bootcamp de aquecimento; plantão de dúvidas |
 | 6 | Preparação técnica; imersão; recuperação de vendas; offboarding | bootcamp técnico; evento; bootcamp de recuperação; offboarding com análise individual |
 
-Versão anterior (out/2025) em 4 semanas: S1 planejamento + copy + ferramentas; S2 tráfego e primeiras otimizações; S3
+Versão anterior em 4 semanas: S1 planejamento + copy + ferramentas; S2 tráfego e primeiras otimizações; S3
 palestras, talk, pré-pitch e pitch; S4 confirmação e técnica; evento; recuperação e offboarding. Mínimo de duas semanas intensas
 de captação. Pré-requisito: oferta validada em 1a1.

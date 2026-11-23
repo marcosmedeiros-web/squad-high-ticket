@@ -44,7 +44,7 @@ Datas e formato precisam estar na primeira dobra. O leitor precisa saber se cons
 | 10 | `oferta-final` | faixa-escura | decisão |
 | 11 | `faq` (8–10) | acordeao | resíduo |
 
-Escassez: só use se for verdadeira e verificável (lote com data de virada, vagas com número real). Contador falso destrói mais do que a urgência constrói — e a `criador-paginas-low-ticket-turbo` vai flagrar isso na auditoria.
+Escassez: só use se for verdadeira e verificável (lote com data de virada, vagas com número real). Contador falso destrói mais do que a urgência constrói, e a revisão (`ht-revisor-metodo-copy`) reprova.
 
 ---
 

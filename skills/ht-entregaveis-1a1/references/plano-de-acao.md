@@ -1,7 +1,6 @@
 # Plano de ação (entregável de direcionamento)
 
-Fontes: trilha 19 (ferramentas), parte-D bloco 8, parte-H (criar-plano-de-acao-individual), trilha 21: 3 gravações lidas inteiras
-(54 min, 1h11, 1h15; mentores e nichos diferentes) + contagem de termos nas 602 gravações. Tempos estimados (±3 min).
+Tempos estimados a partir de sessões de referência (±3 min).
 
 ## Função e definição
 Transformar o diagnóstico em execução: "como, por onde, quando, quanto investir, quanto risco, como convidar". Parte da meta, da
@@ -17,7 +16,7 @@ de estudo), mas mantém: meta → capacidade real → ações fixas → metas in
 | Abertura | 0 a 5 | Quebra-gelo; conferir o que ficou do diagnóstico (oferta, script, slides, perfil) |
 | Levantamento | 5 a 15 | Meta (lida no Master Plan e corrigida ao vivo); agenda real do expert (horas e sessões por semana); recursos (audiência, equipe, verba, experiência); gargalo (quase sempre volume de conversa e audiência) |
 | Metas de trás para frente | 10 a 35 | Vendas → sessões → abordagens/leads, com a conversão do programa até haver número próprio |
-| Base que nunca para | 15 a 35 | Ações fixas da semana (no FHT: sessão 1a1 alimentada por SLG, aula semanal, Reels com CTA) com dia e hora |
+| Base que nunca para | 15 a 35 | Ações fixas da semana (no método: sessão 1a1 alimentada por SLG, aula semanal, Reels com CTA) com dia e hora |
 | Canal 1:N por maturidade | 22 a 60 | Explicar prós e contras de cada canal antes de escolher; ligar os canais (quem não compra no evento vira lead de sessão) |
 | Agenda | 35 a 60 | Mentor cria a agenda do aluno e lança: eventos recorrentes, datas de evento e janelas de captação, quando pedir checkup (antes) e análise (depois), bootcamps a assistir, a revisão do plano. Datas a validar em outra cor |
 | Fechamento | fim | Dúvidas; calendário enviado; próximo passo pela comunidade; próximo entregável (checkup do primeiro evento ou revisão do plano) |
@@ -36,7 +35,7 @@ audiência que assiste ou precisa criar lista? · Quem da equipe faz o quê? · 
 - Evitar datas que colidem com eventos do próprio programa e com datas comerciais fortes do nicho.
 - Decidir o dia da semana pela rotina do público, não por regra.
 
-## Visto nas 2 gravações lidas na revisão (23/11)
+## Visto em outras sessões de referência
 - Metas mês a mês a partir da conversão real do aluno (ex. de sessão: 25% de conversão → 20 reuniões para 5 vendas), lançadas
   no Google Agenda compartilhado; cada canal 1:N já entra com o checkup antes e a análise depois marcados.
 - Doses: um foco por mês (ex.: conteúdo no 1º mês, sessões no 2º, aula semanal no 3º); revisão do plano marcada para o fim dos

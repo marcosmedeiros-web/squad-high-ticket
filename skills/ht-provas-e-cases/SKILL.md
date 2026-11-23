@@ -1,13 +1,13 @@
 ---
 name: ht-provas-e-cases
-description: 'Squad High Ticket / método FHT. Transforma a entrega do HT em prova: NPS por entregável com ação em nota baixa, formulário de solicitação com perguntas coringa, catálogo de resultados por aluno ligado às objeções, Toque de Midas (estudo de caso Antes → feedback do mentor → Depois, com mapa TM001 e instruções de corte, apresentado com os 3 As), entrevista e depoimento (inclusive em grupo), engenharia reversa do resultado de aluno para evoluir o método, prova quando o HT ainda é novo e reengajamento de aluno travado (consumo e termo de comprometimento). Use quando o estrategista disser "monta o Toque de Midas", "catálogo de resultados", "NPS dos entregáveis", "entrevistar aluno que deu resultado", "não tenho prova social", "aluno sumiu". NÃO usar para podcast e consultoria ao vivo (ht-conteudo-de-prova) nem para LPSG da Turbo.'
+description: 'Transforma a entrega do HT em prova: NPS por entregável, catálogo de resultados, Toque de Midas, entrevista e depoimento, engenharia reversa de resultado e reengajamento de aluno travado. Use para "Toque de Midas", "catálogo de resultados", "NPS dos entregáveis", "não tenho prova social", "aluno sumiu". NÃO usar para podcast e consultoria ao vivo (ht-conteudo-de-prova).'
 ---
 
 # Provas e cases do HT
 
 ## 1. Para que serve e o que entrega
 
-O resultado do aluno é o resultado do expert, e no FHT ele é a matéria-prima de tudo: pitch, palco, Reels, página, renovação e
+O resultado do aluno é o resultado do expert, e no método ele é a matéria-prima de tudo: pitch, palco, Reels, página, renovação e
 evolução do método. Esta skill monta o sistema que captura o resultado a cada entrega, comprova, organiza e transforma em caso
 apresentável, e cuida do aluno que não está gerando resultado (porque é ele que derruba NPS, renovação e prova).
 
@@ -44,8 +44,8 @@ apresentável, e cuida do aluno que não está gerando resultado (porque é ele 
 Modelo completo em `references/nps-solicitacao-e-catalogo.md`.
 - Ao fim de **cada** entregável (individual e em grupo): nome, e-mail, entregável, mentor, nota 0 a 10, motivo da nota, "maior
   sacada" (evita o "gostei de tudo"). Lives também citam incluir o faturamento do mês anterior.
-- Indicadores: média dos últimos 30 dias e o NPS oficial (promotores − detratores). Referência do FHT: NPS acima de 95% e
-  cancelamento de 34% para 15% depois de implantar (trilha 19, números de aula).
+- Indicadores: média dos últimos 30 dias e o NPS oficial (promotores − detratores). Referência do método: NPS acima de 95% e
+  cancelamento de 34% para 15% depois de implantar.
 - **Nota abaixo de 6**: ligação no mesmo dia ou no seguinte, ouvir, resolver ou explicar, nova entrega se for o caso, pedido de
   desculpas. Reclamação é chance de vínculo.
 - Quem não consome nada também recebe ligação.
@@ -54,7 +54,7 @@ Modelo completo em `references/nps-solicitacao-e-catalogo.md`.
 
 ### Passo 2. Formulário de solicitação com perguntas coringa
 - Todo entregável individual é pedido por formulário (informações de preparo do mentor + perguntas coringa a partir do 2º
-  entregável). Perguntas coringa do FHT (adaptar à métrica do nicho): progresso no objetivo, total faturado até agora, total
+  entregável). Perguntas coringa do método (adaptar à métrica do nicho): progresso no objetivo, total faturado até agora, total
   investido em tráfego, maior desafio. Versão da planilha: "o que já evoluiu", "se já teve resultado, conte", "maior desafio".
 - Resultado: a cada pedido o catálogo ganha um dado novo, sem esforço extra.
 
@@ -63,7 +63,7 @@ Modelo completo em `references/nps-solicitacao-e-catalogo.md`.
   evidência não vale como prova pública.
 - Estrutura por **conta do aluno** (individual, dupla, trio): nicho, tipo de AR, ponto de partida, faturamento/métrica mês a mês,
   investimento, entregáveis consumidos e não consumidos, resumo do caso, link da pasta de evidências.
-- Estrutura por **ação de venda** (o FHT registra cada ação separada): aluno, data, tipo de ação (1a1, imersão, live...), produto,
+- Estrutura por **ação de venda** (o método registra cada ação separada): aluno, data, tipo de ação (1a1, imersão, live...), produto,
   investimento, resultado, link da evidência.
 - Pasta de evidências por aluno no Drive, arquivos numerados e com nome autoexplicativo (prints, áudios, entrevistas em vídeo).
 - Ligar cada caso às **objeções** que ele quebra (engenharia reversa: aluno com resultado → qual objeção ele tinha antes).
@@ -109,7 +109,7 @@ Modelo em `references/engenharia-reversa-e-reengajamento.md`.
 - Meta-análise periódica de todos os casos do catálogo (ordenar por resultado e estudar os maiores).
 - Processo de evolução do método em 8 passos: ideia, testar, ensinar, acompanhar, analisar, engenharia reversa, formalizar,
   evoluir. O que muda vai para o manual de entregáveis e para a planilha de Problemas e Oportunidades.
-- Ensinar só o que de fato está gerando avanço (premissa da live 058).
+- Ensinar só o que de fato está gerando avanço.
 
 ### Passo 7. HT novo, sem caso ainda
 - Turma inicial pequena posicionada como piloto/pioneira; entrevistar os 3 primeiros resultados.
@@ -138,11 +138,12 @@ Modelo em `references/engenharia-reversa-e-reengajamento.md`.
 7. Uso público só com autorização registrada; dado sensível (CPF, faturamento) nunca sai da pasta do projeto.
 8. Material para anúncio passa pelo compliance Meta (renda, saúde, antes/depois) no ht-revisor-metodo-copy.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-Qual caso vai para material público e anúncio; uso de nome, rosto e números do aluno; contrapartida ao aluno pelo depoimento (se
-houver); termo de comprometimento com efeito na garantia; categoria de prova em nicho de saúde (antes/depois). Formato: decisão
-numerada com opções e riscos.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Pedem "posso seguir?"**: qual caso vai para material público e anúncio; uso de nome, rosto e números do aluno (sempre com autorização registrada); contrapartida ao aluno pelo depoimento, se houver.
+- **Termo de comprometimento com efeito na garantia**: só se estiver no contrato; sem isso, o termo sai sem efeito na garantia.
+- **Antes e depois em nicho de saúde**: padrão não usar.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -178,21 +179,8 @@ numerada com opções e riscos.
 
 ## 8. Ferramentas de apoio
 
-`testimonial-video`, `capcut-edit`, `caption-animation`, `lower-thirds`, `short-form-video`, `cortes-tiktok-turbo` (produção e cortes
-do caso), `watch` e `transcrever-youtube-turbo` (achar o trecho do feedback na gravação), `anthropic-skills:xlsx` (catálogo),
-`gerador-slides-turbo` (slides de prova), `humanizer` / `avoid-ai-writing` (textos), `ht-avaliacao-de-reunioes-por-ia` (gravação e
+`testimonial-video`, `capcut-edit`, `caption-animation`, `lower-thirds`, `short-form-video`, `cortes-tiktok` (produção e cortes
+do caso), `watch` e `transcrever-youtube` (achar o trecho do feedback na gravação), `anthropic-skills:xlsx` (catálogo),
+`gerador-slides` (slides de prova), `humanizer` / `avoid-ai-writing` (textos), `ht-avaliacao-de-reunioes-por-ia` (gravação e
 transcrição de 100% das reuniões).
 
-## 9. Fontes e lacunas
-
-**Fontes**: trilha 19 (RESUMO: NPS entregáveis, perguntas coringa, catálogo, Notion, 34% → 15%, NPS > 95%); lives FHT 001, 002, 011,
-012, 015, 022 (Toque de Midas inteira), 025 (termo de comprometimento), 026, 028 (Toque de Midas, 3 As), 036 e 037 (acervo,
-entrevista), 041 (engenharia reversa), 050, 053, 055, 058 (catálogo e meta-análise, transcrita hoje), 061 (engenharia reversa e
-entrevistas, transcrita hoje); parte-B (curador de provas), parte-G (depoimento em grupo, 4 níveis de prova), parte-H (blocos de NPS,
-reengajamento, catálogo, Toque de Midas, entrevista), parte-I (toque de Midas, 3 As, acervo, entrevista, primeiros casos,
-engenharia reversa).
-
-**Lacunas**: (1) o template do Notion do catálogo e o mapa mental do Toque de Midas não foram abertos (estrutura reconstruída das
-falas); (2) os 8 passos de evolução do método só aparecem nomeados, sem detalhe de cada um; (3) não há script de autorização de
-uso de imagem no material (o squad usa registro próprio); (4) números de caso (60 mil do termo, 34% → 15%, NPS > 95%) são de aula,
-conferir antes de material público.

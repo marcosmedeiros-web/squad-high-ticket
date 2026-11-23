@@ -14,8 +14,8 @@ Caso: [conta] · período · resultado
 Fontes: gravações das calls (minuto), entrevista, evidências
 ```
 Meta-análise periódica: ordenar o catálogo por resultado, estudar os maiores e os mais recentes, procurar o padrão.
-Processo de evolução do método (8 passos nomeados na live 041): ideia → testar → ensinar → acompanhar → analisar → engenharia
-reversa → formalizar → evoluir. O material não detalha cada passo.
+Processo de evolução do método: ideia → testar → ensinar → acompanhar → analisar → engenharia
+reversa → formalizar → evoluir.
 
 ## 2. Reengajamento de aluno travado
 Lista: alunos com consumo abaixo da média ou sem entregável há [n] semanas (definir com o CS).
@@ -32,4 +32,4 @@ Termo de comprometimento (estrutura; texto final revisado e enviado só com OK d
 - ações com data fechada (ex.: X sessões 1a1 por semana);
 - acompanhamento semanal (dia e canal);
 - compromisso do aluno e do mentor;
-- o que acontece se não cumprir (sem ameaçar; se houver efeito na garantia, é decisão do estrategista e precisa estar no contrato).
+- o que acontece se não cumprir (sem ameaçar; se houver efeito na garantia, é decisão assumida no padrão, listada em "Assumi" e precisa estar no contrato).

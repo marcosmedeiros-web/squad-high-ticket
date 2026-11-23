@@ -1,6 +1,5 @@
 # Painel das peneiras, CAC e ACV
 
-Fontes: `RESUMO-erico-rocha-e-sala-colab.md` §7 (números do case); palestra do lucro na captura (CAC e ACV, nov/2025).
 Números do case = **um ciclo, amostra pequena**; servem para montar a conta, não para prometer.
 
 ## 1. Fórmulas
@@ -35,7 +34,7 @@ Leitura: o funil não precisa de muitas vendas de minicurso; precisa que as pene
 
 ## 3. Metas para o expert (preencher no plano)
 
-| Etapa | Meta do projeto | Fonte da meta |
+| Etapa | Meta do projeto | Origem da meta |
 |---|---|---|
 | CAC do minicurso | | histórico ou estimativa marcada |
 | % que chega ao pitch | | |
@@ -47,4 +46,4 @@ Leitura: o funil não precisa de muitas vendas de minicurso; precisa que as pene
 
 Painel preenchido · gargalo identificado · ajuste do criativo (pela pesquisa de quem comprou) · ajuste do conteúdo (pelo
 questionário de quem aplicou) · retenção por aula e trechos cortados · decisão de preço do próximo ciclo (o case subia um pouco o
-preço do AR a cada ciclo com alta conversão; decisão do estrategista).
+preço do AR a cada ciclo com alta conversão; padrão assumido).

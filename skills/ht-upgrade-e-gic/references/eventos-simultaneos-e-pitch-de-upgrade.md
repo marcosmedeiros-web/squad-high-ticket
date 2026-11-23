@@ -4,7 +4,7 @@
 - Planilha de controle (ht-renovacao) com coluna "Elegível a upgrade?" e a evidência do marco.
 - Crachá: amarelo = elegível a upgrade; verde = apto à renovação (o mesmo aluno pode ter os dois).
 - Dois eventos no mesmo local e data: encontro da mentoria (AR) e encontro do mastermind. Um programa tem ~3 encontros de 2 dias
-  por ano (live 050).
+  por ano.
 
 ## Dia 1
 1. Na abertura do encontro da mentoria, perguntar/confirmar quem já bateu o marco (com os dados levantados antes).

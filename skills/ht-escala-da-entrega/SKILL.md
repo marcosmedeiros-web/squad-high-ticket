@@ -1,6 +1,6 @@
 ---
 name: ht-escala-da-entrega
-description: 'Squad High Ticket / método FHT. Tira o expert da entrega sem perder qualidade: nível (expert, mentores em partes, time inteiro), capacidade pelo consumo real, navegador, manual de entregáveis, recrutar, contratar e treinar mentores, diário do mentor, transferência de autoridade, qualidade por NPS e IA, gestão no Notion, planilha de Problemas e Oportunidades e auditorias do processo e de gravação. Use quando o estrategista disser "o expert não dá conta", "tira o expert da entrega", "manual do mentor", "preciso contratar mentor", "treina o novo mentor", "quantos alunos cabem", "audita a entrega", "essa sessão ficou no padrão?". NÃO usar para o cardápio (ht-entregaveis), roteiro de um entregável (ht-entregaveis-1a1), avaliação automática por IA (ht-avaliacao-de-reunioes-por-ia) nem CS de LPSG da Turbo.'
+description: 'Tira o expert da entrega sem perder qualidade: níveis de delegação, capacidade, manual de entregáveis, recrutar e treinar mentores, NPS e auditorias. Use com "o expert não dá conta", "manual do mentor", "preciso contratar mentor", "audita a entrega". NÃO usar para o cardápio (ht-entregaveis) nem avaliação por IA.'
 ---
 
 # Escala da entrega do HT
@@ -9,8 +9,8 @@ description: 'Squad High Ticket / método FHT. Tira o expert da entrega sem perd
 
 O cliente compra o resultado, não o expert. Quando o método está escrito, treinado e auditado, outra pessoa entrega com o mesmo
 padrão, o expert volta a vender e a criar, e a experiência do aluno melhora em vez de piorar (resposta mais rápida, mentor com
-contexto, menos improviso). O FHT chegou a mais de 15 mentores para 500+ alunos com NPS acima de 95% (trilha 19, números de
-aula). Esta skill leva o projeto do expert pelos 3 níveis de delegação, na ordem certa e sem pular etapa.
+contexto, menos improviso). Um caso de referência do método chegou a mais de 15 mentores para 500+ alunos com NPS acima de 95% (número de
+referência). Esta skill leva o projeto do expert pelos 3 níveis de delegação, na ordem certa e sem pular etapa.
 
 **Entrega**, em `experts/<slug>/ht/06-entrega/escala/`:
 1. `nivel-e-capacidade.md`: nível atual, conta de horas pelo consumo real, gargalo, quando e quem contratar.
@@ -41,9 +41,9 @@ aula). Esta skill leva o projeto do expert pelos 3 níveis de delegação, na or
 Conta e tabela em `references/capacidade-navegador-e-niveis.md`.
 - **Nível 1**: o expert entrega e cria o processo (turma piloto). **Nível 2**: mentores entregam partes (um entregável por vez).
   **Nível 3**: o time entrega tudo e o expert vira estrategista e rosto (palco, inaugural, encontros, entregas gravadas).
-- Pré-requisito da parte 3 (trilha 19): método ou primeiras entregas estruturadas, ~10+ alunos. Sem venda: vender primeiro.
-- Capacidade (padrão do squad): expert sozinho até ~20 alunos; mentor 1:70; navegador 1:100. As fontes divergem (expert de
-  10 a 60; navegador de 25 a 100; mentor de 70 a 100): dimensionar pelo **consumo real**, não pelo total teórico (ex. de aula:
+- Pré-requisito do nível 3: método ou primeiras entregas estruturadas, ~10+ alunos. Sem venda: vender primeiro.
+- Capacidade (padrão do squad): expert sozinho até ~20 alunos; mentor 1:70; navegador 1:100. As referências divergem (expert de
+  10 a 60; navegador de 25 a 100; mentor de 70 a 100): dimensionar pelo **consumo real**, não pelo total teórico (exemplo de referência:
   consumo médio de 1,8 de 12 análises).
 - Conta de horas: se todos consumissem tudo (ht-entregaveis) x o que consomem de fato; o gargalo é o entregável que mais toma
   hora do expert.
@@ -53,15 +53,15 @@ Conta e tabela em `references/capacidade-navegador-e-niveis.md`.
 ### Passo 2. Manual de entregáveis (antes de qualquer mentor)
 Estrutura completa em `references/manual-de-entregaveis.md`.
 - Só se escreve manual do que já foi executado. Referências: micro turma piloto de 3 a 5 (ou ~20) entregue pelo expert; executar
-  cada entregável ~20 vezes antes de revisar; os fundadores do FHT entregaram sozinhos para cerca de 200 alunos antes de criar o
-  guia de mentores, e o time já passou de 500 diagnósticos (trilha 19, aulas 13 e 14; números de aula, conferir).
-- Começar pelo entregável gargalo, o mais repetitivo (no FHT, o diagnóstico).
+  cada entregável ~20 vezes antes de revisar; os fundadores de um caso de referência entregaram sozinhos para cerca de 200 alunos antes de criar o
+  guia de mentores, e o time já passou de 500 diagnósticos (números de referência, conferir).
+- Começar pelo entregável gargalo, o mais repetitivo (no método, o diagnóstico).
 - **Aprendizados** sem filtro (o que deu certo e errado, objeções, dificuldades), que não são instruções: o aprendizado decide
   o que entra no processo (ex.: "precisa quebrar objeção" virou o bloco de visão estratégica).
 - **Processo de ponta a ponta**: solicitação → agenda → preparo (núcleo) → sessão → resumo no diário → NPS → gravação na área
   de membros. Depois detalhar a sessão: blocos, tempos, perguntas, falas-guia, fechamento.
 - Ações autoexplicativas (por que e como, não só "cumprimente pelo nome").
-- Banco de entregáveis: 10 a 12 bem descritos de onde o mentor escolhe o que indicar (o FHT tem 22 na oferta e cerca de 50 no
+- Banco de entregáveis: 10 a 12 bem descritos de onde o mentor escolhe o que indicar (um caso de referência tem 22 na oferta e cerca de 50 no
   banco). Habilidades complementares (design, tráfego, psicólogo) entram como consultorias pontuais com especialista.
 - Processo versionado: muda a cada dúvida e entrega; aceitar até ~10% de falha em volume e corrigir rápido.
 
@@ -77,19 +77,19 @@ Detalhe em `references/mentores.md`.
 ### Passo 4. Treinar (mentor training) e transferir autoridade
 Template em `references/mentores.md` (seção 3).
 - Ciclo por entregável: aprender o manual → assistir 3 a 5 gravações daquele entregável → abrir horário → briefing com mentor
-  veterano → 1ª entrega gravada, **sem o veterano na call** (testado e descartado no FHT) → veterano assiste e dá feedback + NPS
+  veterano → 1ª entrega gravada, **sem o veterano na call** (testado e descartado no método) → veterano assiste e dá feedback + NPS
   do aluno → apto segue para o próximo entregável; senão revisita → amostragem contínua de calls pelo expert.
 - Acessos: e-mail de mentor no domínio da empresa, ferramenta de chamada, logins, link de links, comunidade de mentores.
 - O manual é a base; os treinos gravados (videoaula explicando o manual) vão sendo somados à área do mentor, assíncronos. Não é
-  preciso ter tudo gravado para contratar o primeiro mentor: o FHT tem 15 mentores e não tem 100% dos treinos gravados; entregável
-  ainda em mudança fica no individual (aula 16).
+  preciso ter tudo gravado para contratar o primeiro mentor: um caso de referência tem 15 mentores e não tem 100% dos treinos gravados; entregável
+  ainda em mudança fica no individual.
 - O link de links do mentor inclui chamadas de exemplo marcadas no minuto exato (ex.: uma call em que o fundador desmonta a
   palestra de pré-pitch, usada em todo checkup de imersão).
 - **Transferência de autoridade**: o expert apresenta o mentor na aula inaugural com história e resultados, coloca no palco
   (palestra em imersão), faz entregas juntos, fala bem dele e mostra os resultados que ele gerou. A venda já disse quem entrega.
-  O mentor treinado pode começar a entregar antes de a transferência acontecer (aula 17).
-- Com mentor dedicado, a escrita dos processos também é delegada: no FHT, só o processo do diagnóstico foi escrito pelos
-  fundadores; os outros foram escritos pelos mentores full time (aula 18).
+  O mentor treinado pode começar a entregar antes de a transferência acontecer.
+- Com mentor dedicado, a escrita dos processos também é delegada: num caso de referência, só o processo do diagnóstico foi escrito pelos
+  fundadores; os outros foram escritos pelos mentores full time.
 
 ### Passo 5. Qualidade e acompanhamento dos mentores
 - **Diário do mentor** (canal com histórico, ex.: Telegram): áudio de 1 a 1,5 min por entregável com aluno, programa,
@@ -102,7 +102,7 @@ Template em `references/mentores.md` (seção 3).
 ### Passo 6. Navegador
 - Contato proativo, indica o entregável certo, responde dúvida pontual (resolve ~80% das dúvidas), prazo de resposta em dias
   úteis declarado. No início o próprio expert é o navegador.
-- Custo de referência R$ 1.500 a 3.000 ou permuta (aula, conferir); checkpoint mensal com cada aluno (quinzenal não funcionou);
+- Custo de referência R$ 1.500 a 3.000 ou permuta (referência, conferir); checkpoint mensal com cada aluno (quinzenal não funcionou);
   IA pode lembrar, não substitui o contato.
 
 ### Passo 7. Gestão (Notion ou equivalente)
@@ -114,7 +114,7 @@ Estrutura em `references/gestao-problemas-e-auditorias.md` (seção 1).
 Planilha de 9 colunas em `references/gestao-problemas-e-auditorias.md` (seção 2). Todos os mentores alimentam o tempo todo; a
 coluna "framework" diz por que o problema existe (método não fornecido · fornecido e ineficiente · eficiente e não seguido ·
 bom e melhorável). É a fonte de bootcamps (ht-entrega-em-grupo), entregáveis novos, ajustes no manual e da oferta de renovação.
-Processo de evolução do método (live 057): ideia → implementar → engenharia reversa → passo a passo replicável → acompanhar →
+Processo de evolução do método : ideia → implementar → engenharia reversa → passo a passo replicável → acompanhar →
 analisar erros e acertos → evoluir.
 
 ### Passo 9. Auditorias
@@ -137,15 +137,14 @@ Checklists em `references/gestao-problemas-e-auditorias.md` (seções 3 e 4).
 10. Qualidade medida por NPS por mentor e por amostragem do expert.
 - Padrões que se aplicam: capacidade de referência do squad, entregável individual "até N", protocolo regra 14 (dados de aluno em `privado/`).
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-- **Contratar** (quem, forma, valor por entrega ou fixo): é gasto. Opções: a) por entrega com 1 a 2 horários (recomendo:
-  sem custo fixo, testa o encaixe); b) full time (agenda dedicada, custo fixo, pode assumir retenção e upgrade); c) parceria
-  sem custo (visibilidade ou comissão; menos controle).
-- **Proporção de capacidade** diferente do padrão do squad para este projeto.
-- **Ferramenta paga** (Notion pago, IA de reunião, Circle).
-- **Mudança no que a oferta promete** sobre quem entrega (texto público e risco ético).
-- Contrato com mentor: termos e valores são do estrategista e do expert; o material não dá modelo.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Contratar mentor**: padrão por entrega, com 1 a 2 horários (sem custo fixo, testa o encaixe); full time (agenda dedicada, pode assumir retenção e upgrade) e parceria sem custo (menos controle) ficam como alternativa. Contratar é gasto: "posso seguir?".
+- **Proporção de capacidade**: segue o padrão do squad.
+- **Ferramenta paga** (Notion pago, IA de reunião, Circle): "posso seguir?".
+- **Mudança no que a oferta promete sobre quem entrega**: texto público e risco ético; só como versão nova de `02-oferta/`, com "posso seguir?".
+- **Contrato com mentor**: termos e valores são do expert; o agente não redige modelo.
 
 ## 6. Critério de pronto e auditoria final
 
@@ -185,21 +184,9 @@ Checklists em `references/gestao-problemas-e-auditorias.md` (seções 3 e 4).
 ## 8. Ferramentas de apoio
 
 `anthropic-skills:xlsx` (planilha de problemas, capacidade, base), `anthropic-skills:docx` (manual, contrato-rascunho para o
-jurídico), `anthropic-skills:pptx` / `gerador-slides-turbo` (treino de mentores), `transcrever-youtube-turbo` e `watch`
+jurídico), `anthropic-skills:pptx` / `gerador-slides` (treino de mentores), `transcrever-youtube` e `watch`
 (auditoria de gravação), `analytics-dashboard` (indicadores), `automacao-fluxos` (formulários e NPS, com OK).
 
-## 9. Fontes e lacunas
+## 9. Lacunas (não inventar)
 
-**Fontes**: trilha 19, aulas 08, 09, 10 e 13 a 18 (Notion, problemas e oportunidades, delegação, manual, negociação e
-treinamento de mentores, transferência de autoridade, encerramento), RESUMO §3 a §10; parte-A (navegador e capacidade), parte-D
-blocos 6, 8 e 9 (manual, recrutador, treinador, auditor de gravação e de processo), parte-E (dimensionar time), parte-G
-(dimensionador de navegador), parte-H (manual do mentor, 3 níveis, diário e qualidade por IA, matchmaking, NPS, engajamento,
-auditoria de escalabilidade, direção sem neutralidade), parte-I (manual e banco, formar mentores, entrega sem o expert,
-habilidades complementares); lives FHT 011, 021, 029, 057 (processo de validação do método) e 060 (etapa de entrega da jornada
-do FHT), as duas últimas transcritas hoje. Revisão de 23/11/2026: trilha 19 aulas 08, 09, 13 a 18 lidas por inteiro.
-
-**Lacunas**: (1) os templates (Notion Mentor Training, manual no MindMeister, bases do Notion) não foram abertos: estrutura vem
-das aulas; (2) contrato com mentor não é tratado no material; (3) a estrutura completa de "entrega sem depender do expert"
-(palestra de encontro) estava em imagem, só parte chegou ao texto; (4) proporções de capacidade divergem entre fontes (resolvido
-pelo padrão do squad, a conferir com dado próprio); (5) critérios da avaliação de call por IA são citados (ex.: nota da
-abertura), sem a lista completa.
+(1) Os templates (treino de mentor, manual em mapa mental, bases do Notion) são do projeto de cada expert: a estrutura vem desta skill; (2) contrato com mentor não é tratado no método: vai para o jurídico do expert; (3) a estrutura completa de "entrega sem depender do expert" é parcial; (4) as proporções de capacidade variam entre referências (resolvido pelo padrão do squad, a conferir com dado próprio); (5) os critérios da avaliação de call por IA são citados (ex.: nota da abertura), sem a lista completa.

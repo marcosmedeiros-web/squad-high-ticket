@@ -1,9 +1,5 @@
 # Métricas, conta de trás para frente e anti-saturação
 
-Fonte: `RESUMO-palestras-encontros-fht.md`, fev/2026 (webinários semanais LATAM: métricas de referência, saturação, 4 cases);
-padrões do squad (comparecimento, conversão de referência da sessão). Percentuais = **referência** do palestrante (mercado
-LATAM, tickets de ~R$ 10 a 20 mil); trocar pelo dado próprio depois de 2 ou 3 edições.
-
 ## 1. Conta de trás para frente
 
 | Etapa | Taxa de referência | Fórmula |
@@ -18,7 +14,7 @@ LATAM, tickets de ~R$ 10 a 20 mil); trocar pelo dado próprio depois de 2 ou 3 e
 
 Exemplo **ilustrativo** (conta, não case): 4 vendas → 10 calls → 12,5 agendadas → 125 presentes → ~625 inscritos.
 Conferir a capacidade do closer (12 a 13 calls em poucos dias) antes de subir verba.
-Comparação: a conversão de referência da sessão 1a1 na FHT é 10% a 20% (padrão do squad); 40% na call de webinário pressupõe
+Comparação: a conversão de referência da sessão 1a1 é 10% a 20% (padrão do squad); 40% na call de webinário pressupõe
 lead muito quente e filtro forte. Se a call converter abaixo de 20%, revisar qualificação antes de mexer no pitch.
 
 ## 2. Painel por edição
@@ -26,10 +22,10 @@ lead muito quente e filtro forte. Se a call converter abaixo de 20%, revisar qua
 Captação: inscritos · % qualificados · CPL · custo por lead qualificado.
 Webinário: comparecimento · retenção até o pitch (meta > 80%) · pico de presentes · aplicações durante a live.
 Vendas: agendamentos (% dos presentes) · comparecimento na call · conversão na call · vendas · faturamento em contrato.
-Resultado: faturamento por participante · custo por venda (CPA) · ROAS (palestrante cita 4 a 6 em webinário HT) · margem.
+Resultado: faturamento por participante · custo por venda (CPA) · ROAS (referência: 4 a 6 em webinário HT) · margem.
 Qualidade: queda de retenção por trecho (cortar trecho que derruba), perguntas do chat (viram objeção ou tema), motivos de "não".
 
-Teto de escala citado pelo palestrante: nos maiores projetos, até ~R$ 1 milhão por mês, porque o foco é fundo de funil.
+Teto de escala de referência: nos maiores projetos, até ~R$ 1 milhão por mês, porque o foco é fundo de funil.
 
 ## 3. Anti-saturação
 
@@ -38,7 +34,7 @@ A saturação acontece em anúncios, páginas, apresentação e oferta, em ciclo
 - Anúncios visualmente diferentes: variar ambientes e formatos (ponto de vista, podcast, tela dividida).
 - Teste constante de páginas (A/B com `ht-trafego-high-ticket`).
 - Nome e copy do webinário novos a cada 3 a 6 meses, quando a performance cair.
-- Edição com resultado fora da curva por causa de orgânico forte não é a nova média (o palestrante viu a edição seguinte voltar
+- Edição com resultado fora da curva por causa de orgânico forte não é a nova média (num caso a edição seguinte voltou
   ao normal).
 
 ## 4. Debrief da edição (para `13-aprendizados/`)

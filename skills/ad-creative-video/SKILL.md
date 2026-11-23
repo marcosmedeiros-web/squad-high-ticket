@@ -1,6 +1,6 @@
 ---
 name: ad-creative-video
-description: PRODUÇÃO do vídeo de anúncio — variações em lote a partir de 1 template + CSV (troca headline, oferta e CTA), export multi-formato Meta/TikTok/Reels, specs de plataforma, message-match do gancho ao CTA. Use para — produzir o vídeo do criativo, gerar variações do anúncio pra teste A/B, exportar o criativo em 9:16 e 1:1, criativo UGC animado. NÃO escreve a copy nem o ângulo do criativo (isso é criativos-lpsg-turbo e criador-criativos-turbo) — recebe a copy aprovada e produz o arquivo.
+description: 'Produz o vídeo de anúncio: variações em lote a partir de 1 template + CSV (headline, oferta, CTA) e export multi-formato Meta/TikTok/Reels. Gatilhos: "produzir o vídeo do criativo", "variações do anúncio pra teste A/B", "exportar em 9:16 e 1:1", "criativo UGC animado". NÃO escreve copy nem ângulo (ht-criativos-high-ticket).'
 version: 0.1.0
 ---
 

@@ -3,7 +3,7 @@
 Pesquisa feita em 18/10/2026 nas politicas publicas de cada servico. As citacoes sao curtas e literais; o resto e
 parafrase. Releia as fontes antes de decidir por um cliente: politica muda, e a data de cada uma esta ao lado.
 
-## Decisao do kit: Resend como padrao, SES e SendGrid de reserva
+## Decisao do pacote: Resend como padrao, SES e SendGrid de reserva
 
 **Padrao: Resend**, com uma guarda. Das tres politicas, a do Resend e a unica que proibe pelo nome "get rich quick" e
 que guarda o direito de recusar qualquer negocio que ele considere de alto risco, com desligamento possivel sem

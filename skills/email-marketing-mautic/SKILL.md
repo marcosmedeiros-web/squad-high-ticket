@@ -1,6 +1,6 @@
 ---
 name: email-marketing-mautic
-description: Monta e opera o e-mail marketing proprio do dono no Mautic da VPS. Poe o Mautic num endereco publico com HTTPS (descadastro, clique e abertura funcionando), confere SPF, DKIM e DMARC de fora, envia pelo Resend (padrao) com a regua de copy como guarda, recua para Amazon SES ou SendGrid (reservas) quando o Resend recusar ou cortar a conta, com volta atras, cria segmentos e e-mails e dispara para segmento com canario, lote piloto e OK do dono por disparo, e liga os vigias do cron e do disco (binlog). Use quando o dono disser "e-mail marketing", "Mautic", "disparar e-mail para a lista", "mandar e-mail para o segmento", "descadastro nao funciona", "HTTPS do Mautic", "trocar Resend por SES", "usar SendGrid", "o Resend cortou a conta", "o Resend recusou", "e-mail caiu no spam", "SPF", "DKIM", "DMARC", "disco cheio do Mautic", "cron do Mautic parou". NAO escreve a copy (isso e do agente copywriter do kit, revisada pelo agente revisor de copy), NAO compra lista, NAO manda para quem nao deu opt-in, NAO dispara sem o OK do dono para aquele e-mail, e NAO instala o Mautic (isso e do instalador do kit).
+description: 'Monta e opera o e-mail marketing próprio no Mautic da VPS: HTTPS e descadastro, SPF/DKIM/DMARC, Resend com reserva SES/SendGrid, disparo com canário, lote piloto e OK por e-mail, vigias. Use para "e-mail marketing", "Mautic", "disparar e-mail para o segmento", "e-mail caiu no spam". NÃO escreve a copy nem manda sem opt-in.'
 ---
 
 # E-mail marketing proprio (Mautic + HTTPS + disparo seguro + troca de servico de envio)
@@ -26,12 +26,14 @@ Comando: `email-mkt` (atalho do instalador). A ULTIMA linha de todo comando e `M
 6. **"Nao consegui medir" (rc 2) nunca vira verde** no relatorio para o dono.
 
 ## Ordem de montagem (primeira vez)
+0. Sem Mautic na VPS? Diga o que vai instalar e, com o OK do dono, suba o Mautic oficial em Docker (o `docker compose`
+   do repositorio `mautic/docker-mautic`); ou o dono instala do jeito dele. Depois siga daqui.
 1. `email-mkt descobrir` e copie as linhas para o perfil (modelo em `perfil/email.exemplo.env`, fora do pacote).
 2. Servico de envio: o padrao e o **Resend**. Diga ao dono, em uma frase, que a politica do Resend proibe "get rich
    quick" e que por isso o pacote barra, sem excecao, texto com promessa de ganho. Peca tambem uma **reserva** pronta
    (SES ou SendGrid, com o dominio verificado e a chave no cofre): e o que segura a operacao se o Resend cortar.
    No SES, redija com ele o pedido de acesso de producao (como a lista foi formada, opt-in, descadastro).
-3. `bash instalar-email-marketing.sh --perfil <perfil> --destino <kit> --so-conferir`, depois sem `--so-conferir`
+3. `bash instalar-email-marketing.sh --perfil <perfil> --destino <pasta de instalacao, ex.: ~/email-marketing-app> --so-conferir`, depois sem `--so-conferir`
    e com `--com-vigias`.
 4. `email-mkt binlog conferir`. Exposto? `email-mkt binlog aplicar`, mostre o arquivo gerado, e com OK
    `email-mkt binlog aplicar --executar` (recria os containers; o Mautic fica fora uns segundos).
@@ -46,7 +48,7 @@ Comando: `email-mkt` (atalho do instalador). A ULTIMA linha de todo comando e `M
    lista liberavel. Mostre ao dono o que passou.
 
 ## Gestor de disparo (cada e-mail)
-1. Copy pelo agente copywriter do kit, revisao pelo agente revisor de copy. O rodape tem que ter `{unsubscribe_url}` em link,
+1. Copy pelo `ht-copy-paginas-e-emails`, revisao pelo `ht-revisor-metodo-copy`. O rodape tem que ter `{unsubscribe_url}` em link,
    o nome da empresa e o endereco exatamente como no perfil.
 2. Segmento: `email-mkt segmentos listar`; segmento novo a partir de um JSON de filtros com `segmentos criar`.
    Para quem nao abre ha meses, proponha frequencia menor, nunca "apagar sem perguntar".

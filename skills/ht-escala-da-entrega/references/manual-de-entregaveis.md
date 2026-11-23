@@ -1,14 +1,13 @@
 # Manual de entregáveis (guia do mentor)
 
-Fontes: trilha 19 aula 14 (RESUMO §3, §4 passos 21 a 23, §5.6, §5.7, §6 item 13), parte-H (padronizar processo), parte-I
-(manual e banco de entregáveis). No FHT o manual se chama "guia de mentores": garante método, padrão e consistência, sem
+No método o manual se chama "guia de mentores": garante método, padrão e consistência, sem
 improviso, mesmo com mentor experiente. Não é teórico: nasce de entregas feitas.
 
 ## 1. Antes de escrever
-- O expert entregou esse entregável muitas vezes (referência ~20 execuções; os fundadores do FHT entregaram sozinhos para cerca
-  de 200 alunos antes do guia de mentores, aula 13) e as entregas estão gravadas.
+- O expert entregou esse entregável muitas vezes (referência ~20 execuções; os fundadores de um caso de referência entregaram sozinhos para cerca
+  de 200 alunos antes do guia de mentores) e as entregas estão gravadas.
 - Escolher o entregável gargalo (o que mais consome hora e mais se repete).
-- Fazer engenharia reversa sem filtro das gravações (reassistir, inclusive onde "pegou pesado demais", live 061).
+- Fazer engenharia reversa sem filtro das gravações (reassistir, inclusive onde "pegou pesado demais").
 
 ## 2. Estrutura do manual (um arquivo por entregável)
 
@@ -33,21 +32,21 @@ improviso, mesmo com mentor experiente. Não é teórico: nasce de entregas feit
 10. HISTÓRICO DE VERSÕES: o que mudou e por quê (dúvida de mentor, NPS, problema mapeado)
 ```
 
-## 3. Exemplo de como aprendizado vira processo (FHT, diagnóstico)
+## 3. Exemplo de como aprendizado vira processo (método, diagnóstico)
 - "É importante quebrar objeções durante o diagnóstico" → nasceu o bloco de visão estratégica (curso x acompanhamento).
 - "Quanto melhor a jornada, melhores os entregáveis" → bloco de ~40 min de jornada.
-- Os tempos por bloco não existiam na primeira versão; entraram depois, numa otimização. O FHT testou fechar o diagnóstico em 1h20,
-  falhou e ficou em cerca de 2 h (aula 14). No squad: alvo de 1h20, teto de 2 h e parte 2 prevista
-  (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Os tempos servem para o mentor perceber quando está atrasado (ex.: 1 h de sessão sem sair da jornada).
+- Os tempos por bloco não existiam na primeira versão; entraram depois, numa otimização. O método testou fechar o diagnóstico em 1h20,
+  falhou e ficou em cerca de 2 h. No squad: alvo de 1h20, teto de 2 h e parte 2 prevista
+  (padrão recomendado; a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Os tempos servem para o mentor perceber quando está atrasado (ex.: 1 h de sessão sem sair da jornada).
 - "Alguns diagnósticos não fecham em uma sessão" → previsão de parte 2 com tarefa.
 - "Difícil desenhar a jornada sem o especialista" → trazer o expert para dentro do caso difícil.
 
 ## 4. Banco de entregáveis
-- 10 a 12 entregáveis bem descritos (FHT: 22 na oferta, cerca de 50 no banco) para o mentor indicar o certo no momento certo.
+- 10 a 12 entregáveis bem descritos (referência: 22 na oferta, cerca de 50 no banco) para o mentor indicar o certo no momento certo.
 - Cada item: nome, o que é, quando indicar (gatilho na jornada), quem pode entregar, link do manual.
 - Habilidades complementares (design, tráfego, automação, psicólogo, nutricionista) como consultorias pontuais com especialista;
   o mentor sênior mantém o método.
 
 ## 5. Manutenção
 Ajustar a cada dúvida de mentor e a cada problema mapeado; versionar; treinar o time quando muda. Aceitar até ~10% de falha em
-volume e corrigir rápido. Ferramenta: mapa mental (MindMeister no FHT) ou documento; o squad entrega em `.md` e `.docx`.
+volume e corrigir rápido. Ferramenta: mapa mental (MindMeister, por exemplo) ou documento; o squad entrega em `.md` e `.docx`.

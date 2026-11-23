@@ -1,6 +1,6 @@
 # Perfil, foto, arroba, Nome, bio e link
 
-Referência da `ht-vitrine`. Regras do método FHT (trilha 08, rota 3 aula 04, laboratórios dos desafios). Exemplos são
+Referência da `ht-vitrine`. Regras do método. Exemplos são
 esqueletos com [campos]; preencher com o material do expert em `01-pesquisa/` e `02-oferta/`.
 
 ## 1. Tipo de perfil
@@ -10,14 +10,14 @@ esqueletos com [campos]; preencher com o material do expert em `01-pesquisa/` e 
 | Expert começando ou com até ~10 a 15 mil seguidores | Perfil pessoal profissional | "Na dúvida, pessoal": pessoa compra de pessoa |
 | Expert já tem pessoal com conteúdo íntimo que quer manter | Criar pessoal profissional novo | Rede de contatos atual pode trazer as primeiras vendas; arquivar o que atrapalha |
 | Já existe institucional forte, com equipe e vários produtos | Pode manter o institucional, humanizado | Institucional conecta menos; ganho é dividir produção e ter equity |
-| Expert com perfil grande, mas institucional | Decisão do estrategista (ver SKILL, seção 5) | Aulas dizem que vale migrar mesmo com muitos seguidores |
+| Expert com perfil grande, mas institucional | Assumo o padrão e listo em "Assumi" (ver SKILL, seção 5) | Vale migrar mesmo com muitos seguidores |
 | Dois públicos (ex.: paciente e profissional) | Dois perfis, um por público | No projeto, trabalhar primeiro o que compra o HT |
 | Vários produtos para o mesmo avatar | Um perfil só | Não existe Instagram por produto, existe por público |
 | Dois experts sócios | Um perfil com os dois, foto de frente dos dois | |
-| Três ou mais mentores que são a cara do mesmo HT | Pode ser perfil institucional, com os perfis pessoais divulgando | Exige equipe para manter tudo ativo; decisão do estrategista (bootcamp SLG abr/2026) |
+| Três ou mais mentores que são a cara do mesmo HT | Pode ser perfil institucional, com os perfis pessoais divulgando | Exige equipe para manter tudo ativo; assumo o padrão e listo em "Assumi" |
 | Serviço ao cliente final e HT para profissionais | Dois perfis: um do serviço, outro do HT | O do HT pode apontar o do serviço como portfólio |
 | Lançador, agência ou estrategista | A vitrine é a do expert | Nunca a da agência |
-| Expert pivotou de nicho | Perfil no nome da pessoa facilita; se o público mudou, perfil novo | Decisão do estrategista |
+| Expert pivotou de nicho | Perfil no nome da pessoa facilita; se o público mudou, perfil novo | Assumo o padrão e listo em "Assumi" |
 
 Perfil poluído de seguidores fora do avatar (inclusive comprados): conteúdo direcionado afasta com o tempo; abrir perfil novo é
 opção, não regra.
@@ -35,7 +35,7 @@ Checklist (todos sim para aprovar):
 - [ ] Sem arte de campanha cobrindo o rosto.
 - [ ] A mesma foto no Instagram, YouTube, LinkedIn e WhatsApp do expert.
 
-Leitura de postura dita no laboratório: de cima para baixo passa arrogância, de baixo para cima passa inferioridade, de lado
+Leitura de postura: de cima para baixo passa arrogância, de baixo para cima passa inferioridade, de lado
 passa desconfiança. A pessoa precisa reconhecer o expert pessoalmente pela foto.
 
 Correção quando não dá para refazer: tratar com IA de imagem para clarear e dar profundidade, ou tirar o fundo no Canva,
@@ -50,25 +50,23 @@ desde que continue parecendo a pessoa. Ensaio fotográfico pago é dispensável.
 - O mesmo arroba em Instagram, YouTube, TikTok e LinkedIn; conferir disponibilidade antes de propor.
 - Que sirva para outros produtos (nunca nome de produto no arroba de quem vai ter esteira).
 - Teste: o expert consegue dizer o arroba a alguém, e a pessoa acha sem digitar no celular dele?
-- Curto: cerca de 14 a 15 caracteres no máximo (fala do bootcamp de abr/2026; conferir). Letra solta no meio (ex.: inicial do
+- Curto: cerca de 14 a 15 caracteres no máximo (conferir). Letra solta no meio (ex.: inicial do
   nome do meio) atrapalha quem dita.
 - Troca: possível quando o nome está livre; perfil verificado ou com restrição da Meta pode ficar travado. (A trava de 14 dias
-  citada nas aulas é do campo Nome, abaixo, não do arroba.)
+  citada é do campo Nome, abaixo, não do arroba.)
 
 **Campo Nome (cabeçalho, indexado na busca)**
 - O Instagram encontra o perfil por dois campos: o arroba e o Nome. A bio não entra na busca (por isso cidade ou nicho escritos
   só na bio não ajudam a ser achado).
 - Fórmula: `[Nome] | [palavras-chave do avatar]`. Palavra-chave é o que o avatar digitaria na busca (o nicho, o problema, o
   resultado, a cidade se o atendimento é local), não o nome do método.
-- Se o nome do expert já está no arroba, não precisa repetir o nome no campo Nome: use o espaço só com palavras-chave
-  (laboratório abr/2026). Repetir o nome só quando o arroba é diferente do nome da pessoa.
+- Se o nome do expert já está no arroba, não precisa repetir o nome no campo Nome: use o espaço só com palavras-chave. Repetir o nome só quando o arroba é diferente do nome da pessoa.
 - Palavras-chave soltas, separadas por barra ou vírgula ("perita judicial, psicóloga"), nunca frase pronta ("descomplicando
   suas unhas"): a pessoa não digita frase na busca.
 - Usar o nome pelo qual a pessoa é conhecida (nome artístico, sem letra solta no meio).
 - Autoridade não vai no Nome nem no topo da bio ("carteirada"); vai na 2ª linha da bio ou nos posts.
-- Sem emoji no campo Nome (laboratório abr/2026 mandou tirar); emoji fica para a bio.
-- Trava: depois de mudar o Nome, o Instagram só deixa mudar de novo após cerca de 14 dias (dito em aula e visto em laboratório;
-  conferir na interface). Mudar só com a versão aprovada pelo estrategista.
+- Sem emoji no campo Nome (recomendado tirar); emoji fica para a bio.
+- Trava: depois de mudar o Nome, o Instagram só deixa mudar de novo após cerca de 14 dias (conferir na interface). Mudar só com a versão aprovada pelo estrategista.
 
 Modelos para propor (escolher 3):
 ```
@@ -97,7 +95,7 @@ Estrutura completa (até 150 caracteres, com quebra de linha; o limite é citado
 [link único]
 ```
 - Linha 1 nunca no tom de influencer ("aqui você encontra", "mulheres reencontram sua voz"): tem de mostrar o que o expert faz
-  pela pessoa (laboratório abr/2026).
+  pela pessoa.
 - Autoridade, formação e cargo vão na linha 2, nunca na 1 ("carteirada").
 - O CTA casa com o destino do link: se o link abre um teste, "faça seu teste"; se abre a página da sessão, "agende seu
   [nome da sessão]". Link sem CTA dizendo o que fazer quase não é clicado.

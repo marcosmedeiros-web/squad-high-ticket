@@ -1,8 +1,6 @@
-# Market Fit, 4 âncoras e Roma (método FHT)
+# Market Fit, 4 âncoras e Roma (método)
 
-Fonte principal: trilha 05, Bootcamp de Market Fit (RESUMO e aula 05, a central) e a planilha
-`FORMULA HIGH TICKET/trilhas/_materiais/planilhas/05-market-fit__1S6jEMXm.xlsx` (4 abas, sem fórmulas). Âncoras: rota3 resumo 08
-e trilha 14 (Funil de Reels). Exemplos são de alunos citados em aula: servem de padrão, não de dado do expert.
+Exemplos são de alunos: servem de padrão, não de dado do expert.
 
 ## 1. A planilha Market Fit (4 abas)
 
@@ -30,7 +28,7 @@ Compartilhamento: "qualquer pessoa com o link pode ler". Link bloqueado impede f
 
 ## 2. Matriz CS: regras
 - Listar sem filtro e sem pensar em promessa. Certeza = já resolveu, com prova ou caso. Suposição = acha que resolveria.
-- Exemplo FHT: certeza = criar, vender, entregar e renovar HT; suposição = ajudar quem só quer vender produto físico.
+- Exemplo: certeza = criar, vender, entregar e renovar HT; suposição = ajudar quem só quer vender produto físico.
 - Os 3 principais saem da certeza. No squad, cruzar com a frequência na pesquisa: o que o avatar mais pede e o expert mais
   comprova.
 - Quem já tem HT faz mesmo assim: alimenta o Raio-X.
@@ -45,9 +43,9 @@ nicho "gestão", subnicho "setor automotivo". Não precisa acertar de primeira; 
 - Pessoa fictícia com as características mais comuns de quem compra; hipótese validada com quem compra.
 - Ótica de quem decide e paga (o dono do negócio), não de quem opera (correção ao aluno de dados).
 - Comunicar no gênero de quem compra.
-- Quando quem paga não é quem consome (ex.: pais pagam o preparatório do filho, live 058), descrever os dois e dizer para quem
+- Quando quem paga não é quem consome (ex.: pais pagam o preparatório do filho), descrever os dois e dizer para quem
   vai a comunicação de venda.
-- Exemplo de resumo (trilha 05): mulheres de 40 a 60 anos, maioria empresárias ou executivas, buscando perder peso de forma
+- Exemplo de resumo: mulheres de 40 a 60 anos, maioria empresárias ou executivas, buscando perder peso de forma
   sustentável e melhorar a autoestima, com pouco tempo e pouca motivação.
 - Escrever o resumo antes de fechar a Roma.
 
@@ -59,16 +57,16 @@ nicho "gestão", subnicho "setor automotivo". Não precisa acertar de primeira; 
 - "Maldição do conhecimento": o óbvio para o expert precisa ser dito para o avatar.
 
 ## 6. 4 âncoras (dores, desejos, objeções, oportunidades)
-- Mínimo 5 de cada, em 1ª pessoa, "como o avatar fala". Tempo de exercício na aula: 10 min para dores, 5 para desejos, 5 para
+- Mínimo 5 de cada, em 1ª pessoa, "como o avatar fala". Tempo de exercício: 10 min para dores, 5 para desejos, 5 para
   objeções e oportunidades juntas.
 - Dor ≠ ação ≠ solução. "Fico procurando saber dele" é ação; "preciso de alto investimento" é objeção.
 - Desejo = o que ele já quer; oportunidade = o que ele ainda não sabe que pode ter.
 - Dor e objeção se confundem, desejo e oportunidade também: o que importa é a clareza.
 - Objeção não declarada também vale ("já sou velha demais para isso", "isso está fora da minha zona de conforto").
-- Exemplos de correção em aula: "me sinto invisível" virou "quando tento encontrar um novo relacionamento me sinto invisível";
+- Exemplos de correção: "me sinto invisível" virou "quando tento encontrar um novo relacionamento me sinto invisível";
   "burocracia" virou "já tentei vender no Sebrae, achei burocrático e não consegui".
 - Fontes do método: dúvidas que mais recebe, onde os alunos mais travam, perguntas em comentários e caixinhas.
-- GPT "FHT Gerador de Âncoras e Temas de Conteúdos" (link em `GPTS-DA-FHT.md`): informar promessa, nicho e subnicho; curadoria
+- IA como apoio: informar promessa, nicho e subnicho e pedir temas de âncora; curadoria
   obrigatória.
 - No squad: cada âncora com a fonte (código do item do bruto) ou "hipótese".
 
@@ -82,15 +80,14 @@ Regras:
 3. Especificar público, número, prazo ou faturamento do público só se houver base ("empresários que faturam acima de 20k por mês").
 4. Trocar termo subjetivo ("liberdade financeira") por valor palpável (ex.: R$ 10 mil por mês) quando houver base.
 5. A Roma é a base da bio e do convite; no HT a estrutura da oferta pesa mais que ela. Não travar o projeto procurando a Roma perfeita.
-6. Entre duas promessas: a de resultado mensurável, para público que já paga alto (sala com Erico Rocha, Anexo B).
-7. Promessa que vende a dor presente e o resultado desejado, não o meio (ex.: "sair do vermelho" em vez de "gestão financeira",
-   sala com Erico).
+6. Entre duas promessas: a de resultado mensurável, para público que já paga alto.
+7. Promessa que vende a dor presente e o resultado desejado, não o meio (ex.: "sair do vermelho" em vez de "gestão financeira").
 
-Exemplos ditos em aula (padrão, não para copiar): contadores com aumento de faturamento mensal em valor definido; psicólogos
+Exemplos (padrão, não para copiar): contadores com aumento de faturamento mensal em valor definido; psicólogos
 fechando contratos de consultoria com segurança; fisioterapeutas referência em escoliose; empresários que vendem pelo digital
 com os dados do negócio na palma da mão.
 
-## 8. Erros de laboratório do Market Fit
+## 8. Erros comuns do Market Fit
 - Pular o resumo do avatar (Roma incoerente).
 - "Pessoas" quando dá para dizer quem.
 - Avatar do operador, não do dono.

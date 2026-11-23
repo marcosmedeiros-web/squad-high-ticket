@@ -1,8 +1,6 @@
 # Áudio matinal ("pílulas") nos grupos
 
-Legenda: **[FHT]** = está no slide da palestra de alunos do Dia 2 do Encontro FHT (nov/2025); **[proposta da skill]** = criado aqui.
-
-## 1. O que o material diz [FHT]
+## 1. O que o método diz
 - Num mês de pico de vendas, o expert já mandava áudios nos grupos antes das lives; daí veio a ideia.
 - Os grupos foram renomeados com o nome "Pílulas de [tema do nicho]" (no caso, Pílulas de Emagrecimento).
 - Um áudio por live, gravado e enviado na manhã da live, para antecipar o conteúdo.
@@ -10,14 +8,14 @@ Legenda: **[FHT]** = está no slide da palestra de alunos do Dia 2 do Encontro F
 - Instruções do roteiro: linguagem emocional, próxima e direta; cerca de 1 a 2 minutos; falar como numa conversa 1:1 com a pessoa que
   precisa da transformação.
 
-## 2. Estrutura de 90 segundos [proposta da skill; o slide dá só as 3 partes]
+## 2. Estrutura de 90 segundos
 | Parte | Tempo | O que dizer |
 |---|---|---|
 | Introdução | 0-20 s | chamar a pessoa pela situação ("se você acordou hoje com..."), não por "pessoal" |
 | Conteúdo | 20-70 s | uma ideia do tema de hoje, a primeira metade da resposta; deixar a outra metade para a live |
 | Fechamento | 70-90 s | horário da live de hoje e o porquê de ir ("às [hora] eu te mostro [o que falta]") |
 
-## 3. Prompt do áudio [proposta da skill]
+## 3. Prompt do áudio
 ```
 Escreva o roteiro de um áudio de WhatsApp de 1 a 2 minutos que [expert] vai mandar hoje de manhã no grupo [nome do grupo].
 Ele antecipa a live curta de hoje às [hora], tema: [tema]. Avatar: [avatar], dor do tema: [frase do avatar].
@@ -31,7 +29,7 @@ Sem oferta, sem preço, sem número inventado. Frases curtas, para falar (não p
 - Nunca mensagem em massa para lista ou número de terceiro: o áudio vai só para os grupos do próprio expert definidos no plano.
 - O expert grava com a própria voz; IA só escreve o roteiro.
 
-## 5. Checklist do áudio [proposta da skill]
+## 5. Checklist do áudio
 - [ ] Até 2 minutos falado.
 - [ ] Fala com uma pessoa, não com a plateia.
 - [ ] Não entrega a live inteira.

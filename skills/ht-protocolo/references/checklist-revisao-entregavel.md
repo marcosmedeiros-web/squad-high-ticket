@@ -25,7 +25,7 @@ no parecer, com arquivo, trecho, fonte e correção.
 5. O que a peça assumiu pelo padrão está listado em "Assumi" com código `PREFIXO-n` (`ht-protocolo` §6), em linguagem simples;
    preço e garantia aparecem como proposta até a Aprovação 1; data pública e verba nunca valem sem o OK da pessoa. Lote de
    perguntas ou opções a/b/c para a pessoa é achado (regra 16 do protocolo).
-6. Nada de LPSG, 5+1, Funil 8 ou Turbo Express como método, nem como benchmark de método.
+6. Nada de lançamento pago de evento como método, nem como benchmark de método.
 
 ## 3. Coerência entre peças irmãs
 
@@ -44,7 +44,7 @@ ritmo, inflação, fecho genérico) ao texto em português**, sem procurar as pa
 
 11. **Muletas banidas**: "genuinamente", "honestamente", "sinceramente", "simples assim", "na real", "vale ressaltar", "é importante
     notar", "em suma", "basicamente", "de forma geral", "no fim do dia", "é sobre isso", "não é sobre X, é sobre Y", "jornada"
-    (fora do sentido do FHT), "potencializar", "alavancar" (fora do sentido das 4 alavancas), "transformador", "virada de chave".
+    (fora do sentido do método), "potencializar", "alavancar" (fora do sentido das 4 alavancas), "transformador", "virada de chave".
 12. **Estrutura de IA**: tricolon genérico (três adjetivos ou três frases paralelas sem conteúdo); travessão como vírgula; série de
     perguntas retóricas; abertura que repete a pergunta; fechamento que resume o que acabou de dizer; frase-slogan solta no fim
     do parágrafo; negrito espalhado; lista de substantivos soltos.

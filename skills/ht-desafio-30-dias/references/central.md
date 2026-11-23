@@ -1,7 +1,5 @@
 # Central do desafio ("link dos links")
 
-Fonte: partes E (montar central), F (central do desafio), G (onboarding); onboarding abr/2026 (aula 86).
-
 ## 1. Princípios
 - Página única, link que nunca muda, fixada no grupo de avisos por 30 dias.
 - Mostra "onde estamos": a semana atual com dia, encontro, horário, tarefa e prazo; as semanas seguintes aparecem quando liberadas.
@@ -17,7 +15,7 @@ Fonte: partes E (montar central), F (central do desafio), G (onboarding); onboar
 [Etapa N] (uma seção por etapa, liberada no dia)
    - Mapa mental do bootcamp
    - Gravação (até 1 dia útil)
-   - White labels / planilhas (alguns liberados após o NPS)
+   - Modelos / planilhas (alguns liberados após o NPS)
    - Agente de IA da etapa (se houver)
    - Checklist da tarefa
    - Botão "Enviar tarefa"
@@ -25,7 +23,7 @@ Fonte: partes E (montar central), F (central do desafio), G (onboarding); onboar
 ```
 
 ## 3. Formulário "Enviar tarefa"
-Campos: nome; e-mail usado na mentoria (sempre o mesmo); etapa; link(s) da entrega com permissão "qualquer pessoa com o link";
+Campos: nome; e-mail usado no programa (sempre o mesmo); etapa; link(s) da entrega com permissão "qualquer pessoa com o link";
 confirmação "a tarefa está completa". Dupla envia uma vez só.
 Prazo: antes do laboratório (ex.: 23h59 do dia do bootcamp, ou 9h30 para laboratório às 10h).
 

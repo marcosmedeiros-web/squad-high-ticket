@@ -1,10 +1,7 @@
 # Grade minuto a minuto do presencial de 3 dias e adaptações para 2 e 1 dia
 
-Fontes: planilha `18-ima-imersao-de-aprendizado` (abas DIA 1, DIA 2, DIA 3 e abas antigas), trilha 18 aulas 4, 6, 8, 10, 14 e
-15 (lidas por inteiro em 23/11/2026), 11, 16, 17 e 18,
-Live 033 (modelo de cronograma e adaptações), Live 045, out/2025 aula 11 (cronogramas de 1, 2 e 3 dias).
-Os horários são do modelo FHT; ajuste o início e encadeie (início = início anterior + duração). Colunas obrigatórias:
-Horário · Duração · Responsável · Tema · Anotações/links (slide, vídeo, mapa mental). No white label do FHT (aula 6): verde = blocos
+Os horários são do modelo do método; ajuste o início e encadeie (início = início anterior + duração). Colunas obrigatórias:
+Horário · Duração · Responsável · Tema · Anotações/links (slide, vídeo, mapa mental). No modelo padrão: verde = blocos
 com white label (talks, pitch, encerramentos), vermelho = o cronograma executado na IMA com os tempos reais, cinza = exercício,
 perguntas e respostas ou feedback; a coluna de duração alimenta a de horário por soma. A IMA real teve cerca de 30 momentos de
 palco por dia e terminou perto das 23h nos dias 1 e 2 e perto das 21h30 no dia 3.
@@ -33,9 +30,9 @@ palco por dia e terminou perto das 23h nos dias 1 e 2 e perto das 21h30 no dia 3
 | 21:48 | ~129 min | P9 |
 | (fim) | 10 min | Encerramento do dia 1 |
 
-Correção obrigatória: a planilha-modelo termina perto de meia-noite, mas a aula 18 manda **não passar de ~22h30 no dia 1**
+Correção obrigatória: a planilha-modelo termina perto de meia-noite, mas o método manda **não passar de ~22h30 no dia 1**
 (destrói a atenção, atrasa a chegada do dia 2 e empurra o pitch). Encurte P8/P9 ou mova conteúdo. Por que a imersão vai até a
-noite (aula 4): entregar muito conteúdo de verdade, para não parecer evento só de venda, e gerar a sensação de que é preciso ajuda
+noite: entregar muito conteúdo de verdade, para não parecer evento só de venda, e gerar a sensação de que é preciso ajuda
 para implementar tudo. Na IMA, o P&R com o expert foi posto antes do almoço de propósito, para gerar proximidade.
 Objetivo do dia: a pessoa sair pensando "já valeu" e "ouvi falar de um programa que parece bom".
 
@@ -60,8 +57,8 @@ Objetivo do dia: a pessoa sair pensando "já valeu" e "ouvi falar de um programa
 | 21:58 | ~20 min | P17 |
 | (fim) | ~2 min | Encerramento do dia 2 (vídeo "decida hoje e durma tranquilo") |
 
-Regra de horário (aula 11): o pitch deve acontecer por volta de 16h30-17h, no máximo 18h, perto de um lanche longo. A planilha
-coloca às 18h28 e a própria equipe disse na aula 10 que o pitch da IMA, por volta das 18h30, "já foi um pouco tarde": puxe a
+Regra de horário: o pitch deve acontecer por volta de 16h30-17h, no máximo 18h, perto de um lanche longo. A planilha
+coloca às 18h28 e a própria equipe reconheceu que o pitch da IMA, por volta das 18h30, "já foi um pouco tarde": puxe a
 pré-pitch e o pitch mais cedo se o dia 1 encurtou. Pitch é racional; dia 3 é emocional. A talk do dia 2 é curta (cerca de 33 min
 com 8 min de vídeo) justamente para não empurrar o pitch.
 Break de vendas de pelo menos 2 h logo após o pitch.
@@ -92,9 +89,9 @@ Break de vendas de pelo menos 2 h logo após o pitch.
 | 22:19 | 10 min | Aha moments + encerramento + brinde |
 
 Curva: a maior parte das vendas vem no dia 3, do re-pitch até o almoço; depois pinga. Cerca de 1/3 no dia do pitch e mais do
-dobro no dia 3 (referência FHT). Vários breaks logo cedo no dia 3.
+dobro no dia 3 (referência do método). Vários breaks logo cedo no dia 3.
 
-## 4. Grade alternativa simplificada (Live 033)
+## 4. Grade alternativa simplificada
 
 - Dia 1: talk de entrada (boas-vindas, como funciona, expectativa, palestrantes e histórias) → conteúdo até o almoço → almoço
   12h-14h → P&R → conteúdo → intervalo → conteúdo → encerramento e recap.
@@ -105,16 +102,16 @@ dobro no dia 3 (referência FHT). Vários breaks logo cedo no dia 3.
 
 ## 5. Adaptações
 
-**2 dias** (Live 033 e 045; a aula 4 da trilha 18 não recomenda 2 dias, ver SKILL.md passo 2.4): tirar o dia 3 e manter o pitch no dia 2 (pitch no dia 1 faz o resto do conteúdo soar como venda).
+**2 dias** (o método não recomenda 2 dias; ver SKILL.md passo 2.4): tirar o dia 3 e manter o pitch no dia 2 (pitch no dia 1 faz o resto do conteúdo soar como venda).
 Dia 1 gera reciprocidade e consciência; dia 2 faz pré-pitch, pitch e repeat. Fica pouco tempo para objeções: reforçar o repeat
-e a recuperação pós-evento. Variante out/2025: dia 1 com talk, conteúdo e CTA do laser coaching; dia 2 de manhã repeat e pausa
+e a recuperação pós-evento. Variante: dia 1 com talk, conteúdo e CTA do laser coaching; dia 2 de manhã repeat e pausa
 de vendas, conteúdo, almoço; tarde brinde de conteúdo e encerramento.
 
-**1 dia**: pitch depois do P4, antes do intervalo da tarde (Live 033); no modelo online do FHT: talk (1h30-2h) → conteúdo →
+**1 dia**: pitch depois do P4, antes do intervalo da tarde ; no modelo online do método: talk (1h30-2h) → conteúdo →
 CTA do laser coaching antes do almoço → conteúdo → pré-pitch (1h30-2h30) → pitch até 16h (máx. 17h) → pausa de vendas →
 laser coaching → repeat → encerramento. Converte menos que 3 dias.
 
-**Escolha pelo público**: médicos sem sexta livre → 2 dias (Live 045). O avatar que aceita viajar 3 dias é o profissional
+**Escolha pelo público**: médicos sem sexta livre → 2 dias. O avatar que aceita viajar 3 dias é o profissional
 comprometido.
 
 ## 6. Regras de execução
@@ -129,10 +126,10 @@ comprometido.
   minutos e um passou 30; os tempos reais viraram o modelo da edição seguinte).
 - O expert concentra talks, pitch, repeat e downsell; blocos longos de conteúdo ficam com mentores.
 
-## 7. Conteúdo dos dias (aulas 4 e 8)
+## 7. Conteúdo dos dias
 
 1. Planilhar as aulas do método (ou do curso gravado) com a duração de cada uma; agrupar aulas curtas num bloco só (ex.: várias
-   aulas de um tema viram uma palestra); somar para ver o que cabe (o planilhamento do curso usado na IMA somou cerca de 15h50 de aulas; conferir).
+   aulas de um tema viram uma palestra); somar para ver o que cabe (num caso de referência, o planilhamento do curso somou cerca de 15h50 de aulas; conferir).
 2. Decidir o que entra: base forte do método; fora o que depende de ferramenta, computador ou internet para cada participante
    (custo de tomadas e internet de evento). Tema técnico pode entrar em versão de alto nível (ex.: só a lógica, sem a ferramenta).
 3. Duração de cada palestra = duração gravada mais uma margem (no presencial se fala mais devagar, com história e interação).

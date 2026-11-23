@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera a planilha do Master Plan (método FHT) com as fórmulas corrigidas.
+"""Gera a planilha do Master Plan (método do Squad HT) com as fórmulas corrigidas.
 
 Uso:
     python3 gerar_master_plan.py entrada.json saida.xlsx
@@ -14,12 +14,12 @@ Estrutura da planilha gerada (células amarelas = entrada; o resto é fórmula):
   CAPACIDADE           alunos ativos x expert sozinho, mentores e navegadores (só HTs com "conta_capacidade": true;
                        use false para EHT e outros produtos sem acompanhamento)
 
-Correções em relação ao modelo da FHT (07-descricao / master-plan.xlsx):
+Correções em relação ao modelo original de planilha do método:
   - renovação sempre sobre o TOTAL de clientes do ano anterior (no modelo, o 1º ano do HT 1 usava só os novos);
   - faturamento de renovação = renovados x ticket de renovação (no modelo, C19 tinha 70000 fixo);
   - novos + renovação soma faturamentos (no modelo, D38 do HT 2 somava o ticket);
   - padrão do squad: MARGEM (lucro) de 40% sobre o RECEBIDO, ou seja, custo de 60% do recebido.
-    Atenção: no modelo da FHT a linha se chama "margem de custo" e o número digitado é o % de CUSTO (40% de custo na aula).
+    Atenção: no modelo original a linha se chama "margem de custo" e o número digitado é o % de CUSTO (40% de custo no modelo).
     O squad decidiu ser mais conservador: o que se digita aqui é a margem de lucro; custos = recebido x (1 - margem)
     e líquido = recebido x margem. A chave antiga "margem_custo_sobre_recebido" é recusada para não inverter a conta;
   - linha de alunos já ativos antes do ano 1 (permite renovação no ano 1 de quem já tem base);
@@ -122,11 +122,11 @@ def gerar(cfg, saida):
     linhas = [
         ("Ano inicial", ano0, None, "Ano 1 do plano"),
         ("% de recebimento sobre o contrato", cfg.get("pct_recebimento", 0.8), PCT,
-         "Referência: live 054 (1 mi de contrato, ~800 mil recebidos); cancelamento 20% a 30% (lives 040/052). Trocar pelo dado próprio."),
+         "Referência: 1 mi de contrato, ~800 mil recebidos; cancelamento 20% a 30%. Trocar pelo dado próprio."),
         ("MARGEM (lucro) sobre o recebido", cfg.get("margem_sobre_recebido", 0.4), PCT,
          "Padrão do squad: margem de 40% sobre o recebido até haver dado próprio. Custo = 1 - margem (60%): imposto, equipe, comissão, tráfego."),
         ("Custo sobre o recebido (fórmula: 1 - margem)", "=1-B5", PCT,
-         "Não editar: sai da margem acima. No modelo FHT esta é a linha 'margem de custo' (a aula usa 40% de custo; o squad usa 60%)."),
+         "Não editar: sai da margem acima. No modelo original esta é a linha 'margem de custo' (o modelo usa 40% de custo; o squad usa 60%)."),
         ("Expert sozinho atende até (alunos ativos)", cfg["capacidade"]["expert_sozinho"], None, "Padrão do squad"),
         ("Alunos por mentor", cfg["capacidade"]["alunos_por_mentor"], None, "Padrão do squad"),
         ("Alunos por navegador", cfg["capacidade"]["alunos_por_navegador"], None, "Padrão do squad"),
@@ -285,7 +285,7 @@ def gerar(cfg, saida):
     _cel(nm, f"B{f0 + 1}", fun.get("vendas_mes_1a1", 2), AMARELO)
     _cel(nm, f"A{f0 + 2}", "Conversão da sessão (padrão do squad: 10% a 20%)")
     _cel(nm, f"B{f0 + 2}", fun.get("conversao_sessao", 0.15), AMARELO, PCT)
-    _cel(nm, f"A{f0 + 3}", "Comparecimento à sessão (referência 75% a 80%, live 051)")
+    _cel(nm, f"A{f0 + 3}", "Comparecimento à sessão (referência 75% a 80%)")
     _cel(nm, f"B{f0 + 3}", fun.get("comparecimento", 0.75), AMARELO, PCT)
     _cel(nm, f"A{f0 + 4}", "Sessões realizadas necessárias")
     _cel(nm, f"B{f0 + 4}", f"=ROUNDUP(B{f0 + 1}/B{f0 + 2},0)")

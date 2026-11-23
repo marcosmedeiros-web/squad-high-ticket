@@ -1,13 +1,13 @@
 ---
 name: ht-venda-de-ingressos
-description: 'Squad High Ticket, método FHT. Monta e opera a venda de ingressos de um evento de venda do HT: meta e relatório diário ("SOS Ingresso"), tipos, lotes e preços, gratuitos como bônus e o menu de estratégias da trilha 17 (divulgação para a base, perpétuo, lote zero, relâmpago por e-mail, semente de ingresso, time comercial, downsell no evento, upsell em outros produtos, lives de aquecimento react e oficina), mais a página de vendas do ingresso. Use quando o estrategista disser "plano de ingressos", "lote zero", "relâmpago", "o ingresso não vende", "página de ingresso", "upsell do ingresso", "react de aquecimento". Entrada gratuita, credencial ou paga é decisão do estrategista, por evento. NÃO usar para afiliados, patrocínio, captação gratuita e presença (ht-captacao-e-presenca) nem lançamento LPSG/5+1/Funil 8/Turbo Express da Turbo.'
+description: 'Monta e opera a venda de ingressos de um evento que vende o HT: meta e relatório diário, tipos, lotes e preços, gratuitos como bônus, estratégias (base, perpétuo, lote zero, relâmpago, semente) e página do ingresso. Use para "plano de ingressos", "lote zero", "o ingresso não vende". NÃO usar para afiliados, patrocínio ou captação gratuita (ht-captacao-e-presenca).'
 ---
 
 # Venda de ingressos do evento high ticket
 
 ## 1. Para que serve e o que entrega
 
-No FHT o evento é o lugar onde o expert vende o HT a quem está na cadeira; com a pessoa presente, a conversão é parecida seja
+No método o evento é o lugar onde o expert vende o HT a quem está na cadeira; com a pessoa presente, a conversão é parecida seja
 aluno ou não, por isso o método aceita até prejuízo no ingresso desde que haja público. "Gente no evento vale mais que o
 conteúdo do evento." Esta skill entrega o plano para encher o evento vendendo ingresso, medido dia a dia, com 2 ou 3
 estratégias do menu rodando junto com o perpétuo.
@@ -30,7 +30,7 @@ estratégias do menu rodando junto com o perpétuo.
    `13-aprendizados/` (eventos anteriores).
 3. Entradas obrigatórias: data e local, capacidade, decisão de entrada (gratuita, credencial ou paga), Big Idea, tamanho e temperatura das listas,
    verba. Perguntar no máximo 3 coisas se faltar:
-   (a) "A entrada deste evento é gratuita, credencial ou paga?" (decisão do estrategista; se não decidido, apresentar o quadro da seção 5);
+   (a) "A entrada deste evento é gratuita, credencial ou paga?" (decisão assumida no padrão, listada em "Assumi"; se não decidido, apresentar o quadro da seção 5);
    (b) "Quantos lugares e qual o custo do evento?"; (c) "Quais listas temos e de que tamanho (alunos ativos, inativos,
    lançamentos, quem já foi a evento, 'agora não' da sessão 1a1)?".
 4. Evento gratuito sem venda de ingresso: esta skill não se aplica; ir para `ht-captacao-e-presenca`. Evento com credencial:
@@ -38,36 +38,36 @@ estratégias do menu rodando junto com o perpétuo.
 
 ## 3. Passo a passo
 
-### Passo 1. Meta, velocidade e responsável (aulas 21 e 22)
+### Passo 1. Meta, velocidade e responsável
 - **Meta de ingressos** = lotação, um pouco acima (nem todos comparecem; parte dos ingressos é gratuita).
 - **Início**: 1 a 2 meses antes da data (evento novo com pouca audiência: 2 meses). Lote zero começa 4 a 6 meses antes.
 - **Velocidade** = ingressos que faltam ÷ dias restantes. É o número que o time olha todo dia.
 - **Responsável** com nome (no início pode ser o expert; o ideal é um squad pequeno: uma pessoa de criativo e Big Idea, outra
   de tráfego).
-- O segredo, nas palavras da aula, não é um funil: é medir dia após dia e propor uma ação nova para amanhã.
+- O segredo, nas palavras do método, não é um funil: é medir dia após dia e propor uma ação nova para amanhã.
 
 ### Passo 2. Relatório diário "SOS Ingresso"
 Grupo só para isso; o responsável manda todo dia: vendas de ontem, acumulado, quanto falta, velocidade necessária x real,
 custo por venda, criativos e campanhas que mais venderam, sugestão para amanhã. Modelo em `references/plano-e-relatorio-diario.md`.
 
 ### Passo 3. Big Idea e nome do evento
-Destino simples e atrativo, em uma frase que a pessoa explica em casa. Caso da aula: nome confuso não vendia; baixar o preço
+Destino simples e atrativo, em uma frase que a pessoa explica em casa. caso de referência: nome confuso não vendia; baixar o preço
 sozinho também não; o que destravou foi a Big Idea nova junto com o preço novo. Regra: **testar preço e Big Idea juntos** e
 testar o nome em criativo. A Big Idea vem da `ht-decisao-de-evento`; aqui ela é testada.
 
 ### Passo 4. Tipos, lotes, preços e gratuitos
-- Diferença principal entre gratuito e pago é **comparecimento** (referência da aula 22: gratuito ~40%, com muito esforço
+- Diferença principal entre gratuito e pago é **comparecimento** (referência: gratuito ~40%, com muito esforço
   50% a 55%; pago pode passar de 100% porque leva acompanhante; para planejar, usar o padrão do squad: gratuito 25%,
   credencial ou pago 70%).
-- Valor simbólico (R$ 97 a R$ 197 nas aulas) já faz a pessoa pôr na agenda.
+- Valor simbólico (R$ 97 a R$ 197) já faz a pessoa pôr na agenda.
 - Categorias e lotes, oferta 2 por 1 e 3º com desconto, upgrade: modelos em `references/tipos-precos-e-gratuitos.md`.
-- **Gratuito com critério** (aula 30): só para avatar de HT (bônus de tsunami de um low ticket, primeiros compradores,
-  mentorados); nunca banalizar.
+- **Gratuito com critério**: só para avatar de HT (bônus de tsunami de um low ticket, primeiros compradores,
+  alunos em acompanhamento); nunca banalizar.
 - Mudar de lote gera reclamação de quem pagou mais: resolver no 1 a 1, não deixar de testar por isso.
-- Preço de cada tipo e lote é decisão do estrategista (seção 5).
+- Preço de cada tipo e lote é decisão assumida no padrão, listada em "Assumi" (seção 5).
 
 ### Passo 5. Escolher 2 ou 3 estratégias do menu + perpétuo
-O menu (11 estratégias da trilha 17) e quando cada uma cabe:
+O menu e quando cada uma cabe:
 
 | # | Estratégia | Cabe quando | Referência |
 |---|---|---|---|
@@ -83,9 +83,9 @@ O menu (11 estratégias da trilha 17) e quando cada uma cabe:
 | 10 | Upsell/downsell em outros produtos | expert tem low ticket ou outro produto rodando | `upsell-e-downsell.md` |
 | 11 | Lives de aquecimento (react, oficina, conhecimento) | 40 a 60 dias antes, com material de edições anteriores ou oficina | `lives-de-aquecimento.md` |
 
-Regra da aula: o que bateu recorde num evento pode não funcionar no seguinte; nunca depender de uma estratégia só.
+Regra do método: o que bateu recorde num evento pode não funcionar no seguinte; nunca depender de uma estratégia só.
 
-**Complementares vistas no Bootcamp Lote Zero (aula 19)**, que entram como variações do menu: abordagem do comercial filtrada
+**Complementares vistas no Bootcamp Lote Zero**, que entram como variações do menu: abordagem do comercial filtrada
 pelo DDD da cidade do evento; social selling e lives no perfil próprio do evento (react de palestra da edição anterior, live com
 aluna que teve resultado contando que o primeiro passo foi o evento, temas do nicho, a formatura da edição anterior); pitch curto
 do evento em toda aula ao vivo do produto; semente com uma promessa de "método" que só se aprende no evento; e **downsell para
@@ -97,7 +97,7 @@ documentando a jornada, YouTube com o evento, comunidade de alunos, banner/pop-u
 aulas, QR code, aula inaugural e aulas semanais (seeding do evento), suporte (todo atendimento pergunta "já tem o ingresso?"),
 direct, e-mail e API oficial do WhatsApp. **Listas da mais quente para a mais fria, um script por lista.** O expert precisa
 "vibrar" o evento: incoerência (evento fora da bio, do calendário do local) faz a pessoa não comprar. Detalhe e scripts em
-`references/divulgacao-base-e-time-comercial.md`. Público fora do Brasil, sem Instagram nem WhatsApp: a aula 23 aponta afiliados
+`references/divulgacao-base-e-time-comercial.md`. Público fora do Brasil, sem Instagram nem WhatsApp: a  aponta afiliados
 como o que funcionou melhor (`ht-afiliados-e-consultores`).
 
 ### Passo 7. Perpétuo (estratégia 2)
@@ -148,14 +148,14 @@ um guia). Roteiro em `references/lives-de-aquecimento.md`.
   depois, **upsell do upsell** (upgrade VIP). Uma decisão por vez.
 - **Downsell no evento**: no último dia, antes da última palestra, oferecer o ingresso do próximo evento com condição especial
   (muitas vezes a gravação como bônus). O pitch no palco é da `ht-palestras-e-pitch`; aqui entram a oferta, o lote e o checkout.
-- **Downsell do presencial para o online** (aula 19): nas duas últimas semanas, depois da "última chance" do presencial com o
+- **Downsell do presencial para o online**: nas duas últimas semanas, depois da "última chance" do presencial com o
   preço ancorado, uma live revela o ingresso online mais barato para quem não vai viajar. A transmissão não pode competir com o
   presencial: deixar claro que não haverá interação garantida. A aula não recomenda evento híbrido desde o início; só esse
   movimento final. Caso: ingresso online de R$ 297, 305 vendas e 14% desses compradores levaram o HT (referência, conferir).
 - Estruturas em `references/upsell-e-downsell.md`.
 
 ### Passo 13. Página de vendas do ingresso
-Estrutura observada nos eventos da aula: nome + promessa + Big Idea; escassez e botão; bastidor; data e local; networking;
+Estrutura observada nos eventos de referência: nome + promessa + Big Idea; escassez e botão; bastidor; data e local; networking;
 o que aborda; prova social; tipos de ingresso; FAQ das objeções que o comercial devolve (a página cresce com elas); WhatsApp de
 dúvida; vídeo do evento anterior; depoimentos; para quem é; palestrantes; lote e valor; hospedagem e transporte (parceria com
 agência quando presencial). Detalhe em `references/perpetuo-e-pagina.md`. Execução: `ht-web-designer`.
@@ -174,23 +174,25 @@ Ao fim: auditoria (seção 6) e debrief em `13-aprendizados/` (vendas por estrat
 6. Botão de upsell sincronizado com o vídeo; uma oferta por vez.
 7. Lote zero não compete com outro lançamento para a mesma base.
 8. O ingresso serve à venda do HT: custo de aquisição empatando o custo do evento já é vitória.
-9. **Entrada do evento**: gratuita, credencial ou paga é decisão do estrategista por evento (quadro na seção 5).
+9. **Entrada do evento**: gratuita, credencial ou paga é decisão assumida no padrão, listada em "Assumi" por evento (quadro na seção 5).
 10. Padrão do squad para planejar comparecimento (gratuito 25%, credencial/pago 70%, entrada no grupo 50%).
 11. Campanha nasce PAUSADA com o prefixo de campanha do perfil (`trafego.prefixo_campanha`), se houver; e-mail, disparo e mensagem a lead só com OK do estrategista; disparo em massa no
     WhatsApp só pela API oficial.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-**Entrada do evento** (apresentar assim, com os números do projeto quando houver):
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)".
 
-| Opção | Prós | Contras | Referência das aulas |
+**Entrada do evento**: vem da ficha do evento; sem ela, o agente escolhe pela tabela abaixo, com os números do projeto quando houver, e lista em "Assumi".
+
+| Opção | Prós | Contras | Referência |
 |---|---|---|---|
-| Gratuita | custo por presente menor no histórico da FHT (catálogo, conflito 23); lista maior vira audiência | comparecimento baixo e imprevisível; precisa de confirmação dupla forte | aula 22: ~40% dos gratuitos comparecem (50% a 55% com muito esforço); para planejar, 25% (padrão do squad) |
-| Credencial simbólica (ex.: R$ 97 com kit) | voto de comprometimento; sobe presença; cobre o kit | atrito na inscrição; exige checkout e comunicação clara | aula 24: ~90% de presença em imersões online de R$ 97/197 (relato, referência) |
+| Gratuita | custo por presente menor no histórico do método; lista maior vira audiência | comparecimento baixo e imprevisível; precisa de confirmação dupla forte | ~40% dos gratuitos comparecem (50% a 55% com muito esforço); para planejar, 25% (padrão do squad) |
+| Credencial simbólica (ex.: R$ 97 com kit) | voto de comprometimento; sobe presença; cobre o kit | atrito na inscrição; exige checkout e comunicação clara | ~90% de presença em imersões online de R$ 97/197 (relato, referência) |
 | Paga (lotes) | receita que pode pagar o evento; presença alta | exige as estratégias desta skill e verba; vende menos cadeiras | pago pode passar de 100% com acompanhante |
 
-Também são do estrategista: preço de cada tipo e lote; quantos gratuitos e para quem; oferta 2 por 1 ou desconto do 3º; datas de
-virada de lote; verba de tráfego; quais estratégias do menu entram; enviar qualquer disparo para a base.
+Pedem "posso seguir?" simples: preço de cada tipo e lote; quantos gratuitos e para quem; oferta 2 por 1 ou desconto do 3º; datas de
+virada de lote; verba de tráfego; enviar qualquer disparo para a base. Quais estratégias do menu entram o agente escolhe e lista em "Assumi".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -228,22 +230,8 @@ virada de lote; verba de tráfego; quais estratégias do menu entram; enviar qua
 
 ## 8. Ferramentas de apoio
 
-`email-marketing-mautic` (relâmpago e base), `conectar-whatsapp-oficial` (disparo por lista pela API oficial), `designer-senior-turbo`,
+`email-marketing-mautic` (relâmpago e base), `conectar-whatsapp-oficial` (disparo por lista pela API oficial), `designer-senior`,
 `pagina-design-premium`, `publicar-pagina-cloudflare` (página), `countdown-video` (contador do upsell e da virada de lote),
 `ad-creative-video` e `hook-generator` (variações do criativo raiz), `hotmart-meta-conversao` (venda no pixel),
 `analytics-dashboard` e `anthropic-skills:xlsx` (relatório diário), `avoid-ai-writing` e `humanizer`.
 
-## 9. Fontes e lacunas
-
-**Fontes**: trilha 17, Bootcamp Venda de Ingressos (aulas 21 a 34) e Bootcamp Lote Zero (aulas 13 a 20), relidas por inteiro
-na revisão R8 (23/11/2026), transcrições em
-`FORMULA HIGH TICKET/trilhas/17-execute-uma-imersao-online/`; `RESUMO-parte-A-planejamento-a-lote-zero.md` §3.2, §3.6 a 3.10,
-§5.4 a 5.7, §7, §8; `RESUMO-parte-B-ingressos-e-patrocinio.md` §3.1 a 3.3, §4, §5.1 a 5.10, §7, §8; pasta
-`_materiais/17-bonus-imersao-online/` (scripts de venda direta, e-mails do relâmpago, convites de react e oficina);
-`_skills-mapa/parte-D` bloco 4; `CATALOGO-SKILLS-FHT.md` 5.4; Conflitos 22 e 23.
-
-**Lacunas**: (1) o mapa mental das 11 estratégias, a planilha de cronograma de lotes e o pacote de materiais do lote zero não
-foram capturados: os modelos daqui são reconstruídos; (2) o e-mail 2 do relâmpago não está na pasta; (3) o valor do ingresso do
-caso de lote zero tem ruído (provável R$ 697, conferir); (4) os 6 vídeos de criativo da pasta de bônus não foram vistos;
-(5) o "bootcamp de comparecimento" prometido na aula 22 não existe nas fontes; (6) não há regra de reembolso nem de termo de
-ingresso.

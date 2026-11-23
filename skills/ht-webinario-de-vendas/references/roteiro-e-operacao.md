@@ -1,9 +1,5 @@
 # Variante A: webinário com apresentador (roteiro, pitch para call e operação)
 
-Fontes: `RESUMO-palestras-encontros-fht.md`, fev/2026 (webinários semanais LATAM) e jun/2026 (os 3 funis: pitch para sessão,
-agendamento imediato, agenda condicional); trilha 17/22 (confirmação de imersão online, via catálogo `fht-confirmacao-de-presenca`).
-Os tempos dos blocos 1, 2, 4 e 5 vêm da palestra; a divisão interna do bloco 3 é proposta da skill (marcada).
-
 ## 1. Roteiro (~105 min)
 
 | Bloco | Tempo | Quem | Objetivo | Conteúdo |
@@ -22,10 +18,10 @@ Os tempos dos blocos 1, 2, 4 e 5 vêm da palestra; a divisão interna do bloco 3
 - Seeding do programa durante a aula (citar entregáveis e o que acontece dentro dele sem vender).
 
 **3b. Pitch para aplicação/call (~30 min)**
-Segue a estrutura do pitch do FHT (`ht-palestras-e-pitch`: o que é, o que não é, para quem é e não é, resultados, pilares,
+Segue a estrutura do pitch do método (`ht-palestras-e-pitch`: o que é, o que não é, para quem é e não é, resultados, pilares,
 entregáveis, bônus, garantia, condições de `02-oferta/`), com duas mudanças: o CTA é **aplicar ou agendar** e a escassez é a
 agenda real do time.
-Variante curta de pitch para call em 3 tempos (palestra dos 3 funis, jun/2026):
+Variante curta de pitch para call em 3 tempos:
 1. **Antecipação**: um presente para quem agir hoje e a escassez real ("não vai dar para todos": agenda limitada).
 2. **História**: por que a pessoa está ali (tem um problema e ainda não sabe resolver sozinha).
 3. **Oferta**: uma reunião individual com o especialista, com diagnóstico profissional, para quem tem o perfil.
@@ -35,21 +31,21 @@ Variante curta de pitch para call em 3 tempos (palestra dos 3 funis, jun/2026):
 1. Link de aplicação/agendamento: no chat (repetido), na tela, no e-mail pós-live e no grupo.
 2. Formulário de aplicação com perguntas de corte (faturamento ou momento, poder de decisão, disposição de investir agora).
    Agenda condicional: quem não passa no corte não vê o calendário; os dados ficam para contato posterior.
-3. Contato com quem aplicou **em minutos** (ligação ou mensagem em até ~30 min; a palestra cita ligação para todos os leads em
-   30 minutos como o ajuste que destravou o agendamento).
+3. Contato com quem aplicou **em minutos** (ligação ou mensagem em até ~30 min; ligar para todos os leads em
+   30 minutos foi o ajuste que destravou o agendamento num caso).
 4. Agendar com 2 horários oferecidos e sessão em até 2 dias (padrão do squad).
 5. Call pelo roteiro de `ht-roteiro-sessao-1a1` (Raio-X, história, oferta, sinal com a call aberta).
 6. Registrar na Central 1x1: origem "webinário <data>", status, objeções.
-Referência citada (conferir; é do funil de **live semanal** com pitch para a sessão do palestrante de jun/2026, não de um
-webinário com apresentador, e vem de slides): uma live com 40 a 80 pessoas gerou 10 a 20 reuniões (cerca de 70% da agenda de
+Referência citada (conferir; é do funil de **live semanal** com pitch para a sessão, não de um
+webinário com apresentador): uma live com 40 a 80 pessoas gerou 10 a 20 reuniões (cerca de 70% da agenda de
 um comercial); numa ação, abrir as inscrições para a call sem página de vendas, deixando o preço para a call, gerou 45
-reuniões e depois 134 aplicações. A mesma palestra alerta: não liberar reunião para todo mundo, só para quem tem perfil.
+reuniões e depois 134 aplicações. O mesmo caso alerta: não liberar reunião para todo mundo, só para quem tem perfil.
 
 ## 3. Ferramentas (citadas, não obrigatórias)
 
-A palestra começou com formulário de aplicação, agendador e planilha como CRM, e migrou para uma plataforma tudo-em-um. Na
+O caso começou com formulário de aplicação, agendador e planilha como CRM, e migrou para uma plataforma tudo-em-um. Na
 agência: formulário + agendador + Central 1x1 resolvem o começo; automação de lembretes e disparo de aplicação com
-`ht-gestor-automacoes`, só com OK do estrategista.
+`ht-gestor-automacoes`, só com o seu OK.
 
 ## 4. Confirmação (como numa imersão online)
 

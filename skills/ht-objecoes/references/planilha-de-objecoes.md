@@ -1,10 +1,6 @@
 # Planilha de objeções e as 4 universais em 3 camadas
 
-Fonte: planilha `trilhas/_materiais/planilhas/11-descricao__1F-n2yNX.xlsx` (aba única; colunas Objeção, Tipo, Gerar empatia,
-Argumento racional, Case de resultado; 4 universais pré-preenchidas; sem fórmulas) e trilha 11 RESUMO (aulas 07 a 11, inclusive
-as correções da aula 10). Textos abaixo parafraseados: são esqueleto, o agente reescreve na voz do expert e do avatar.
-
-## 1. Colunas da planilha do squad (modelo FHT + 4 colunas operacionais)
+## 1. Colunas da planilha do squad (modelo do método + 4 colunas operacionais)
 | Coluna | Conteúdo |
 |---|---|
 | Objeção | na voz do lead, uma frase |
@@ -58,13 +54,13 @@ as correções da aula 10). Textos abaixo parafraseados: são esqueleto, o agent
 - Recursos de apoio: resumo do programa para levar, condição de dupla se existir em `02-oferta` (padrão recomendado: +50% sobre o individual).
 
 ## 3. Específicas do nicho
-- Exemplos de forma (do material): "dá para fazer isso no meu nicho?", "já estou em outro programa", "a alternativa X é mais
+- Exemplos de forma (exemplos): "dá para fazer isso no meu nicho?", "já estou em outro programa", "a alternativa X é mais
   fácil", "quero alguém que faça por mim, não que treine minha equipe", "meu público não paga isso".
 - Racional dá a lógica, não a solução (ex.: "com a estratégia certa a barreira cai", sem explicar a estratégia) e se amarra a um
   entregável ("há um bootcamp justamente sobre isso").
 - Alguns "objeções de nicho" pedem resposta na oferta e não na fala (quem quer terceirizar talvez não seja avatar).
 
-## 4. Exemplos de correção (padrão dos laboratórios, anonimizados)
+## 4. Exemplos de correção (anonimizados)
 1. Objeção que era caso: reescrever para a dúvida que trava o passo.
 2. Racional com solução: tirar o "como" e deixar a lógica; ligar a um entregável.
 3. Racional de dinheiro sem conta: trocar "três clientes pagam a mentoria" pela conta do ganho a mais no ano.

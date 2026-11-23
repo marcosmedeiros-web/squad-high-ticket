@@ -304,7 +304,7 @@ Como pegar: meça no navegador em vez de olhar o código.
 | Parallax de fundo com `background-attachment:fixed` | quebra no iOS e trava o scroll |
 | Entrada animada no hero | atrasa a leitura da promessa e piora o LCP |
 | Typewriter na headline | a headline é a coisa mais importante da página; escondê-la letra por letra é sabotagem |
-| Contador regressivo falso que reinicia | destrói confiança e é sinalizado pela `criador-paginas-low-ticket-turbo` |
+| Contador regressivo falso que reinicia | destrói confiança e é reprovado na revisão |
 | Carrossel automático de depoimentos | ninguém consegue terminar de ler. Use marquee com pausa no hover, ou grade |
 | Biblioteca de animação (AOS, GSAP, Framer) | 40–120kb para o que 20 linhas de CSS resolvem |
 | Cursor customizado | não existe no mobile, atrapalha no desktop |

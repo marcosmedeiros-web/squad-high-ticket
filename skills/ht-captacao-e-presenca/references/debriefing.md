@@ -1,7 +1,6 @@
 # Debriefing do evento
 
-Fonte: trilha 18, Bootcamp IMA, aula 03 "Debriefing das Imersões FL" (transcrita hoje, lida inteira): debriefing de uma imersão
-presencial de 3 dias e da versão online da mesma imersão, feito pelos mentores da FHT; parte-G (analista de debriefing, out/2025).
+Debriefing de uma imersão presencial de 3 dias e da versão online da mesma imersão, como modelo.
 Os números citados abaixo são do caso, como referência de **estrutura**, não de meta.
 
 ## 1. Modelo (preencher em até 7 dias depois do evento)
@@ -37,4 +36,4 @@ Os números citados abaixo são do caso, como referência de **estrutura**, não
 
 ## 3. Onde vai
 Rascunho em `05-eventos/<evento>/captacao-e-presenca/debriefing.md`; versão final para `13-aprendizados/` pelo `ht-diretor`;
-números para o `ht-controller`. Pedir ao mentor/estrategista a análise individual do evento (melhor momento de aprendizado).
+números para o `ht-controller`. Pedir ao estrategista a análise individual do evento (melhor momento de aprendizado).

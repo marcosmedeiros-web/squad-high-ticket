@@ -1,13 +1,13 @@
 ---
 name: ht-lives-curtas-45-dias
-description: 'Squad High Ticket / método FHT. Planeja e opera uma temporada de 45 lives curtas (10 a 15 min), uma por dia em horário fixo, para crescer a audiência e gerar potenciais clientes do HT - pilares do programa, 45 temas gerados por IA, roteiro-base em 6 partes com seeding, áudio matinal de 1 a 2 min nos grupos ("pílulas") e reaproveitamento no YouTube. Use quando o estrategista disser "monta a temporada de 45 lives", "lives curtas todo dia", "crescer seguidores com live", "os 45 temas do expert", "roteiro das lives curtas", "áudio da manhã do grupo". NÃO use para a aula semanal de 1 h (ht-aula-semanal), para Reels curtos e rodízio de CTA (ht-reels-com-cta), para a live de venda Semente HT (ht-live-direto-ao-ponto) nem para nada de LPSG/5+1/Funil 8/Turbo Express da Turbo.'
+description: 'Planeja e opera uma temporada de 45 lives curtas (10 a 15 min), uma por dia, com 45 temas, roteiro-base em 6 partes com seeding e áudio matinal nos grupos. Use para "temporada de 45 lives", "lives curtas todo dia", "os 45 temas", "áudio da manhã do grupo". NÃO usar para aula semanal (ht-aula-semanal), Reels (ht-reels-com-cta) nem live de venda (ht-live-direto-ao-ponto).'
 ---
 
 # Temporada de 45 lives curtas com áudio matinal
 
 ## 1. Para que serve e o que entrega
 
-Serve para aumentar a audiência do expert, e com ela o número de potenciais clientes do HT, com presença diária: 45 lives de 10 a 15 minutos em 45 dias, cada uma antecipada de manhã por um áudio curto nos grupos. O caso de referência do material é um nicho de emagrecimento emocional; o slide frisa que o resultado não veio de carrossel, Reels curto, live de mais de 30 minutos nem live semanal, e sim só desse formato (se eles pararam os outros, o slide não diz). O aprendizado registrado: quanto mais o expert aparece, mais mostra que sabe e mais as pessoas têm certeza de que devem estar no programa de acompanhamento.
+Serve para aumentar a audiência do expert, e com ela o número de potenciais clientes do HT, com presença diária: 45 lives de 10 a 15 minutos em 45 dias, cada uma antecipada de manhã por um áudio curto nos grupos. O caso de referência é um nicho de emagrecimento emocional; o resultado não veio de carrossel, Reels curto, live de mais de 30 minutos nem live semanal, e sim desse formato. O aprendizado registrado: quanto mais o expert aparece, mais mostra que sabe e mais as pessoas têm certeza de que devem estar no programa de acompanhamento.
 
 **Entrega** (pasta `experts/<slug>/ht/04-demanda/lives-45-dias/`):
 - `plano-temporada.md`: pilares, datas, horário fixo, plataforma, grupos que recebem o áudio, CTA e destino de cada fase, métricas (modelo em `references/operacao-da-temporada.md`).
@@ -33,7 +33,7 @@ Serve para aumentar a audiência do expert, e com ela o número de potenciais cl
 
 ## 3. Passo a passo
 
-O material dá seis passos para replicar; a ordem abaixo é a dele, com o detalhe operacional de cada um.
+O método dá seis passos para replicar; a ordem abaixo é a dele, com o detalhe operacional de cada um.
 
 1. **Escolher os pilares.** Usar os pilares do próprio programa (no caso de referência foram cinco: perfis de emagrecimento, emoções, mentalidade, desinflamação, feridas emocionais e emagrecimento). Entre 4 e 6 pilares deixa de 7 a 11 temas por pilar (conta da skill, não do material).
 2. **Definir os 45 temas.** Pedir à IA (no caso, o ChatGPT) que sugira os temas a partir dos pilares; o estrategista faz a curadoria. Cada tema precisa tocar uma âncora do avatar e ter ligação com o programa (para o seeding). Prompt, tabela e critério de curadoria em `references/temas-45.md`.
@@ -45,7 +45,7 @@ O material dá seis passos para replicar; a ordem abaixo é a dele, com o detalh
    5. reforço;
    6. encerramento com CTA suave emocional e uma ação reflexiva.
    Modelo, tempos sugeridos e prompt em `references/roteiro-base-6-partes.md`.
-4. **Definir o horário.** Um horário fixo para todas as lives, que o expert sustente nos 45 dias. Se houver aula semanal, não usar o mesmo horário no dia dela (decisão do estrategista, seção 5).
+4. **Definir o horário.** Um horário fixo para todas as lives, que o expert sustente nos 45 dias. Se houver aula semanal, não usar o mesmo horário no dia dela (decisão assumida no padrão, listada em "Assumi", seção 5).
 5. **Gravar um áudio por live.** Áudio de 1 a 2 minutos, enviado na manhã da live nos grupos, para antecipar o conteúdo. No caso de referência, os grupos foram renomeados "Pílulas de [tema do nicho]" e o roteiro do áudio também foi feito por IA, em 3 partes (introdução, conteúdo, fechamento), com linguagem emocional, próxima e direta, como numa conversa 1:1 com a pessoa que precisa da transformação. Modelo e prompt em `references/audio-matinal-pilulas.md`. O envio só liga com OK do estrategista.
 6. **Colocar os vídeos no YouTube.** Cada live sobe no canal do expert, para alimentar o YouTube. Os melhores trechos podem virar cortes pela ht-conteudo-de-prova (com CTA para a próxima live ou para a aula semanal).
 
@@ -53,19 +53,18 @@ O material dá seis passos para replicar; a ordem abaixo é a dele, com o detalh
 
 ## 4. Regras inegociáveis do método
 
-- Live curta: 10 a 15 minutos. Não é carrossel, não é Reels curto, não é live de mais de 30 minutos e não é a live semanal (o slide separa explicitamente esses formatos). Se a temporada soma ou substitui a aula semanal é decisão do estrategista (seção 5); o slide cita o grupo da Live PLENA durante a temporada, o que sugere (inferido, não dito) que ela seguiu existindo.
+- Live curta: 10 a 15 minutos. Não é carrossel, não é Reels curto, não é live de mais de 30 minutos e não é a live semanal (o método separa explicitamente esses formatos). Se a temporada soma ou substitui a aula semanal é decisão assumida no padrão, listada em "Assumi" (seção 5).
 - 45 lives, horário fixo, todos os dias da temporada. Pular dia quebra o hábito que o formato constrói.
 - Todo tema nasce de um pilar do programa; a mini virada faz seeding da solução, sem pitch e sem preço.
-- O CTA é suave e emocional, com uma ação reflexiva; ao mesmo tempo, a regra geral do FHT vale aqui: todo conteúdo termina ligado a um funil HT (direto ou indireto). A skill concilia as duas: CTA suave que aponta para um destino real (seção 5 decide qual).
+- O CTA é suave e emocional, com uma ação reflexiva; ao mesmo tempo, a regra geral do método vale aqui: todo conteúdo termina ligado a um funil HT (direto ou indireto). A skill concilia as duas: CTA suave que aponta para um destino real (seção 5 decide qual).
 - Áudio de 1 a 2 minutos, um por live, de manhã, antecipando o conteúdo; fala de 1 para 1, não de palco.
 - IA gera temas, roteiros e áudios; o expert fala com a própria voz e o estrategista faz a curadoria (passar `avoid-ai-writing` e `humanizer` antes da revisão).
 - Preço e oferta só saem de `02-oferta` e não aparecem nas lives nem nos áudios.
-- Número de resultado do caso de referência não vai para material do expert como promessa (seção 9, "conferir").
-- Nada de LPSG, 5+1, Funil 8 ou Turbo Express.
+- Número de resultado do caso de referência não vai para material do expert como promessa ("conferir").
 
-## 5. Quando a decisão é do estrategista
+## 5. Decisões (o agente assume o padrão e lista em "Assumi"; é só pedir para mudar)
 
-Apresentar opções com prós e contras; não decidir:
+Assumir a primeira opção de cada item e registrar em "Assumi"; só o que sai para fora (envio, publicação, gasto) pede OK:
 - **Rodar ou não a temporada.** Prós: presença diária, autoridade, conteúdo para o YouTube, mais base para o HT. Contra: 45 dias seguidos de agenda do expert (o caso de referência registra o susto do próprio expert com 45 lives quando nem uma por semana parecia possível) e soma com os 5 Reels por semana do padrão do squad.
 - **Destino do CTA:** (a) aula semanal, (b) sessão 1a1, (c) entrada no grupo das pílulas, ou rodízio entre eles. Prós e contras de cada um em `references/operacao-da-temporada.md`.
 - **Plataforma da live** (Instagram, que é onde o caso mediu seguidores, ou YouTube ao vivo) e se a live roda no mesmo dia da aula semanal. A regra "aula semanal não vai para o Instagram" da `ht-aula-semanal` vale para a aula semanal; aqui o objetivo declarado é seguidor no Instagram, com o vídeo depois no YouTube.
@@ -103,21 +102,9 @@ Apresentar opções com prós e contras; não decidir:
 
 ## 8. Ferramentas de apoio (por nome, sem copiar)
 
-- Temas e voz: `niche-research`, `instagram-analise-estrategica-turbo` (base de seguidores antes e depois), `voice-builder`, `hook-generator`.
+- Temas e voz: `niche-research`, `instagram-analise-estrategica` (base de seguidores antes e depois), `voice-builder`, `hook-generator`.
 - Texto: `avoid-ai-writing`, `humanizer`.
-- Gravação e YouTube: `criacao-guia-gravacao`, `youtube-thumbnail`, `transcrever-youtube-turbo` (transcrever as lives para cortes e para medir o que segurou).
+- Gravação e YouTube: `criacao-guia-gravacao`, `youtube-thumbnail`, `transcrever-youtube` (transcrever as lives para cortes e para medir o que segurou).
 - Envio dos áudios: `automacao-fluxos`, `conectar-whatsapp-oficial` (só com OK do estrategista).
 - Planilha de métricas: `anthropic-skills:xlsx`.
 
-## 9. Fontes e lacunas
-
-**Fontes:** palestra de dois alunos no Dia 2 do Encontro FHT nov/2025 ("4000 seguidores em 30 dias"), lida inteira pelo texto extraído do slide (conferido de novo na revisão R11) (`trilhas/_materiais/22-23/23-palestras-encontro-fht-nov-202__100-dia-2-claudio-tonon-...txt`); a aula em si é "item sem vídeo", sem transcrição; RESUMO-palestras-encontros-fht.md; CATALOGO-SKILLS-FHT.md (fht-lives-curtas-45-dias); parte-I; Live FHT 026 (regra de ligar todo conteúdo a funil HT, aplicada ao CTA); padrões do squad.
-
-**Lacunas (não inventar):**
-- A fonte é só o slide (parte em imagem). Os prompts completos, anunciados como bônus da palestra, não estão nos arquivos: os prompts das references são proposta da skill.
-- Tempo de cada parte do roteiro, plataforma da live, horário usado e dias da semana: o slide não diz. A frequência diária vem de "45 lives em 45 dias" e da indicação de replicar todo dia.
-- Destino do CTA suave: o slide não diz para onde ele leva.
-- Quem estava nos grupos que receberam os áudios (leads, alunos, ambos) e quantos eram: não informado. "Live PLENA" aparece sem explicação.
-- Números com divergência (conferir antes de citar): o título da aula fala em 30 dias, o slide em 45 dias; o slide fala em mais de 4.000 seguidores e em "RESULTADO: 5800 seguidores", sem dizer se é ganho ou total; diz que dobrou o número de mulheres no grupo da Live PLENA, sem número.
-- Não há dado de vendas de HT atribuídas à temporada.
-- Relato isolado de um laboratório de SLG (jul/2026): um aluno fazendo live todo dia no mesmo horário há 20 dias; é relato, não método, e não entra como regra.

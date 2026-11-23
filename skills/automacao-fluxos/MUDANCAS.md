@@ -1,12 +1,9 @@
 # Mudanças: automacao-fluxos
 
-## 1.0.0 no kit 5.3.8 (ajuste da integração)
+## 1.0.1 (versão pública)
 
-- Dono: o agente `automacao-turbo` do kit.
-- O alarme "automacao-fluxos: …" passa no `vigias/avisar-dono.sh` do kit sem o opt-in dos vigias (o dono desliga com
-  `vigias/automacao-desligado`): no kit 5.3.x o vigia comum ficou calado no Telegram, o rc 1 virava "não entregue" e este
-  vigia tentava de novo a cada hora. A suíte mora em `testes/automacao-fluxos/testes` do repositório.
-- Nomes de exemplo nos testes e uma palavra de comentário em `motor/banco.py` trocados (batiam na lista de nomes de pessoas do kit).
+- O canal de aviso passa a ser `arquivo` (padrão) ou `comando:/caminho/script` (o notificador que você já usa:
+  Telegram, e-mail, Slack). O canal fixo de um pacote externo e a chave de caminho dele saíram do perfil (perfil antigo com essa chave é recusado: apague a linha).
 - 🔸 Não testado: Mac real, `caddy validate` do `unidades/Caddyfile.exemplo`, as rotas do Mautic 7 (`contacts/new`, segmentos,
   `emails/<id>/contact/<id>/send`) e o `GET /sessions/<id>/groups` do OpenWA contra serviço real.
 
@@ -24,7 +21,7 @@ Primeira versão.
   do WhatsApp. Sem confirmação o passo vira `incerto` e nunca é reenviado.
 - Vigia de falha silenciosa: silêncio, palavra muda, evento sem regra, recusas em série, passo travado, falhas,
   desenho mudado, teto, lembrete perdido, agenda vazia e receptor fora. Um aviso por episódio e um na volta, pelo
-  canal de avisos do kit.
+  canal de avisos do perfil.
 - Instalador portátil (Linux e macOS): soma e permissão conferidas em Python, sem `sha256sum` nem `stat -c`;
   caminho físico resolvendo o pai que existe; a skill instalada leva o instalador, o `SHA256SUMS.interno` e este
   arquivo; rodado de dentro dela não move nem duplica; a versão anterior vai para fora de `~/.claude/skills`.

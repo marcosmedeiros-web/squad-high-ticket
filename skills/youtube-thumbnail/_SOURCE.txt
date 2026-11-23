@@ -1,2 +1,2 @@
-source: charlie947/social-media-skills (instalado 2026-06-22T03:29:18Z por Paulo)
+source: charlie947/social-media-skills
 licenca: não declarada no repositório de origem

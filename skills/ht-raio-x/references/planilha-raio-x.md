@@ -1,7 +1,6 @@
-# Especificação da planilha do Raio-X (modelo FHT)
+# Especificação da planilha do Raio-X (modelo do método)
 
-Fonte: planilhas `rota3/materiais/planilhas/sessao1a1-questionario-raio-x.xlsx` (5 áreas) e `sessao1a1-roteiro.xlsx` (7 áreas,
-apesar do nome), lidas célula a célula; trilha 09 RESUMO §6.1-6.2. Reproduzir a estrutura, não os textos de exemplo.
+Reproduzir a estrutura, não os textos de exemplo.
 
 ## 1. Estrutura
 

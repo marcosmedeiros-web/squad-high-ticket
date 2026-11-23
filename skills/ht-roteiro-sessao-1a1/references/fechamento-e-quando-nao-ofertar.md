@@ -1,8 +1,5 @@
 # Três sins, CTA, fechamento com sinal, saída com data e quando não ofertar
 
-Fonte: trilha 09 aulas 11-13 (RESUMO-vendas §5.9-5.10; RESUMO-apresentacao §3.15, §5.12); rota 3 resumo 05 (etapas 6-7); trilha
-22 (abr/2026 94, mai/2026 80, jul/2026 RJ 08 e 12, dez/2025 143-144, mar/2025 179-180, mai/2025 160, jan/2025 192 e 195); catálogo
-fht-tres-sins-e-cta, fht-fechamento-sinal-e-prazo, fht-decidir-quando-nao-ofertar (partes E, G); padrões recomendados do squad (sinal, acordo do sim ou não).
 
 ## 1. Três sins (falados, sem slide)
 Três perguntas cuja resposta natural é sim, feitas com as palavras que o próprio lead usou (pergunta inicial, notas baixas,
@@ -33,10 +30,10 @@ ir para o bloco 3.
   condições aprovadas em `02-oferta`. Se muitos leads pedem parcela menor, é sinal de preço: levar ao estrategista.
 - Cônjuge ou sócio: se ainda está na call, convidar para participar; se não, segunda reunião com os dois em dia e hora; argumento
   de apoio, não de permissão; nunca "ele não acredita em você".
-- **Nunca usar os 7 dias de arrependimento** como resposta a "vou falar com o cônjuge" (aula 14; padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Num roleplay (jul/2026 RJ) o mentor ofereceu fechar agora com os 7 dias como prazo para conversar em casa; o
+- **Nunca usar os 7 dias de arrependimento** como resposta a "vou falar com o cônjuge" (padrão recomendado; pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Em um caso, o mentor ofereceu fechar agora com os 7 dias como prazo para conversar em casa; o
   padrão do squad é não usar.
 - "Preciso fazer as contas": "vamos fazer juntos agora?" e somar com o lead o que entra, o que sai e o que sobra (resposta de
-  aluna validada pelo mentor no mesmo roleplay).
+  aluna validada pelo mentor no mesmo caso).
 - "Vou pensar": perguntar o que falta para decidir; se precisar de tempo curto, dar alguns minutos e voltar; se não, dia e hora.
 - Proposta nunca por PDF solto: nova call com tela.
 

@@ -1,8 +1,6 @@
-# Matriz de formatos de evento (FHT)
+# Matriz de formatos de evento
 
-Fontes: trilha 18 aula 02 (Introdução, três tipos de imersão e fusão HT), aula 03 (Debriefing das imersões FL), GPS (aula 19);
-trilha 17 aula 03 (etapa de preparação: formato) e aula 04 (metas, gratuito x pago); trilha 22 onboardings dos desafios de
-imersão; trilha 16 (LDP); catálogo fht-decisao-formato-de-evento. Números são referência de aula (legenda), a conferir.
+Números são referência (a conferir).
 
 ## 1. Portão de prontidão
 
@@ -18,22 +16,22 @@ imersão; trilha 16 (LDP); catálogo fht-decisao-formato-de-evento. Números sã
 
 | Tipo | O que é | Quando usar | Cuidados | Skill |
 |---|---|---|---|---|
-| **LDP (Semente HT)** | Live de 1 a 4 h com oferta declarada, sem aula | Lista com demanda reprimida; colher a cauda de um lançamento; pouca verba | Não serve para renovação; sem demanda reprimida não funciona | 23 |
-| **IMI, imersão de implementação** | Ensina e faz executar uma parte do método; o aluno sai com algo pronto | Primeiro evento (recomendação do método): mais simples de montar e mais atrativo para captar ("sai com coisa pronta"); bom para aluno travado | Escolher a parte do método que resolve a primeira objeção do avatar; não entregar o método inteiro | 28 |
-| **IMI paga** | Imersão de implementação cobrada como produto | Quando o evento é também receita; o aluno faz sozinho, quem quer feedback compra o AR | Caso citado: primeira versão a R$ 10 mil (teste a R$ 5 mil); credencial de R$ 97 em outras edições (conferir) | 28 |
-| **IMA, imersão de aprendizado** | Ensina o método (ou um complemento) de forma intensa em 1 a 3 dias; pitch no meio | Logo depois da compra do produto principal (bônus de ação rápida), para inativos, para quem quer "fazer rápido"; também como primeiro produto para estruturar o método | Online perde atenção quando o método já está gravado (caso FHT: 2 vendas no dia do pitch online); método que "cabe em meio dia" está raso | 27 |
-| **IMR / estilo Mundo Paralelo** (desde fev/2026 o FHT chama de "imersão de erros e acertos") | Erros e acertos da implementação; alunos palestram (Toque de Midas) | Só com muitos alunos com resultado e casos desconstruídos | Mais complexa; não recomendada para quem está começando; pode ser feita só com erros e acertos internos do expert | 30 |
-| **Presencial 3 dias** | Maior força de venda; dias 1 valor, 2 pitch, 3 re-pitch | Produto mais caro e de maior recorrência; avatar profissional que viaja | Custo e logística altos (FHT: presencial acima de R$ 500 mil); 8 a 12 semanas só de logística; ~150 pessoas é o tamanho "fácil" | 29 |
-| **Turnê / evento enxuto** | Vários presenciais pequenos em sequência, custo baixo | Base espalhada por estados; MVP de 50 ingressos | Pouco detalhada nas fontes | 31 |
-| **Desafio de 30 dias** | Sprint com laboratórios | Turma que precisa executar e vender junto | Outra lógica de entrega | 37 |
-| **Webinário recorrente / 2 aulas** | Venda semanal por aplicação ou call | Tráfego contínuo | Gestão de saturação | 24 |
+| **LDP (Semente HT)** | Live de 1 a 4 h com oferta declarada, sem aula | Lista com demanda reprimida; colher a cauda de um lançamento; pouca verba | Não serve para renovação; sem demanda reprimida não funciona | `ht-live-direto-ao-ponto` |
+| **IMI, imersão de implementação** | Ensina e faz executar uma parte do método; o aluno sai com algo pronto | Primeiro evento (recomendação do método): mais simples de montar e mais atrativo para captar ("sai com coisa pronta"); bom para aluno travado | Escolher a parte do método que resolve a primeira objeção do avatar; não entregar o método inteiro | `ht-imersao-implementacao` |
+| **IMI paga** | Imersão de implementação cobrada como produto | Quando o evento é também receita; o aluno faz sozinho, quem quer feedback compra o AR | Caso citado: primeira versão a R$ 10 mil (teste a R$ 5 mil); credencial de R$ 97 em outras edições (conferir) | `ht-imersao-implementacao` |
+| **IMA, imersão de aprendizado** | Ensina o método (ou um complemento) de forma intensa em 1 a 3 dias; pitch no meio | Logo depois da compra do produto principal (bônus de ação rápida), para inativos, para quem quer "fazer rápido"; também como primeiro produto para estruturar o método | Online perde atenção quando o método já está gravado (caso de referência: 2 vendas no dia do pitch online); método que "cabe em meio dia" está raso | `ht-imersao-aprendizado` |
+| **IMR / estilo Mundo Paralelo** (também chamada de "imersão de erros e acertos") | Erros e acertos da implementação; alunos palestram (Toque de Midas) | Só com muitos alunos com resultado e casos desconstruídos | Mais complexa; não recomendada para quem está começando; pode ser feita só com erros e acertos internos do expert | `ht-imersao-de-resultados` |
+| **Presencial 3 dias** | Maior força de venda; dias 1 valor, 2 pitch, 3 re-pitch | Produto mais caro e de maior recorrência; avatar profissional que viaja | Custo e logística altos (caso de referência: presencial acima de R$ 500 mil); 8 a 12 semanas só de logística; ~150 pessoas é o tamanho "fácil" | `ht-imersao-presencial` |
+| **Turnê / evento enxuto** | Vários presenciais pequenos em sequência, custo baixo | Base espalhada por estados; MVP de 50 ingressos | Formato com menos referência; começar pelo MVP | `ht-turne-e-eventos-enxutos` |
+| **Desafio de 30 dias** | Sprint com laboratórios | Turma que precisa executar e vender junto | Outra lógica de entrega | `ht-desafio-30-dias` |
+| **Webinário recorrente / 2 aulas** | Venda semanal por aplicação ou call | Tráfego contínuo | Gestão de saturação | `ht-webinario-de-vendas` |
 
 **Regras de corte**
 - Online antes de presencial; nunca híbrido ao vivo. Exceção conhecida: versão online vendida nas últimas 1 a 2 semanas de um
   presencial, sem prometer interação (pedir análise antes).
-- 1 dia online tende a funcionar melhor que 3 dias online (catálogo, fontes D, G, H, I).
+- 1 dia online tende a funcionar melhor que 3 dias online.
 - Mais dias = mais consciência e mais conversão, mais custo. A recuperação pós-evento compensa a menor consciência do evento
-  de 1 dia (trilha 17 aula 53).
+  de 1 dia.
 - Dois HTs: o validado vai para o evento.
 - Presencial primeiro e online 1 a 2 semanas depois, quando se faz os dois na mesma onda; quem ganhou o presencial não é avisado
   do online (senão escolhe o online, que converte menos).
@@ -54,7 +52,7 @@ imersão; trilha 16 (LDP); catálogo fht-decisao-formato-de-evento. Números sã
 ## 4. Big Idea (definição de resultado do evento)
 
 Função: norte de toda a comunicação; resume a transformação que a pessoa vai viver e justifica tirar um dia (muitas vezes
-sábado) da família. Frameworks validados (trilha 17 aula 02 e desafio out/2025):
+sábado) da família. Frameworks validados :
 
 ```
 1) Em apenas [um dia], você vai [criar / estruturar] [X] e [sair com Y pronto].
@@ -71,10 +69,10 @@ Testes (todos precisam passar):
 5. Oportunidade, não aula de base: promete o que o avatar quer (ex.: criar e vender o HT), não o que ele precisa aprender
    para chegar lá (ex.: jornada do avatar); o que ele precisa entra no conteúdo e no acompanhamento. Não é comunicação de
    topo de funil: fala com quem já quer o resultado. Se der, a promessa traz a oportunidade amplificada (criar e já vender,
-   em vez de só criar). (Planejamento fev/2026.)
+   em vez de só criar).
 
-Nome do evento: literal e ligado ao avatar ou ao tema ("Imersão [tema ou produto] online"). O FHT testou um nome de efeito
-("Power Day") e voltou para o literal, que fica mais claro (onboarding fev/2026).
+Nome do evento: literal e ligado ao avatar ou ao tema ("Imersão [tema ou produto] online"). Um caso testou um nome de efeito
+("Power Day") e voltou para o literal, que fica mais claro.
 
 Casos: "Mundo Paralelo" sozinho confundia e não vendia; trocar para uma promessa de destino clara voltou a vender (big idea
 clara vende mais que baixar preço). Testar nome e valor juntos e o nome em criativo.

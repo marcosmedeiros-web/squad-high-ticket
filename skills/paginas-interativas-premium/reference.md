@@ -1,6 +1,6 @@
 # Reference — Páginas Interativas Premium (linha escura cinética)
 
-Passo a passo completo do método, com as constantes e os snippets prontos. Tarefa de código: quem executa é o Paulo; a Turbo confere e entrega.
+Passo a passo completo do método, com as constantes e os snippets prontos. Tarefa de código: quem executa é o `ht-web-designer`; o `ht-revisor-visual` confere antes da entrega.
 
 ---
 
@@ -125,7 +125,7 @@ Disciplina de performance: 1 canvas 2D + rAF; `devicePixelRatio` capado em 1.5; 
 
 Render: `<canvas aria-hidden fixed inset-0 pointer-events-none>` a `style={{ zIndex: 2, mixBlendMode: "screen" }}`.
 
-> História do rastro (pra não repetir o erro): a 1ª versão era uma **mancha verde forte e PARADA** que lavava o texto do hero → reprovada. O certo é cauda FINA que segue o caminho, sutil (`PEAK_ALPHA 0.18`), espalhada (pluma) e que SOME ao parar. Refinos do Chefe: (a) mais espalhado + mais transparente; (b) 50% mais lento + 50% mais comprido (`LIFE` e `MAX_SAMPLES`); (c) escurecer o overlay do vídeo mais +50%.
+> História do rastro (pra não repetir o erro): a 1ª versão era uma **mancha verde forte e PARADA** que lavava o texto do hero → reprovada. O certo é cauda FINA que segue o caminho, sutil (`PEAK_ALPHA 0.18`), espalhada (pluma) e que SOME ao parar. Refinos aprovados: (a) mais espalhado + mais transparente; (b) 50% mais lento + 50% mais comprido (`LIFE` e `MAX_SAMPLES`); (c) escurecer o overlay do vídeo mais +50%.
 
 ---
 
@@ -205,7 +205,7 @@ Critério de aceite: o vídeo é detalhe, o rastro é sutil e some ao parar, e o
 
 ## 7. PUBLICAR EM PRÉVIA (padrão: publicar-pagina-cloudflare --previa · alternativa: Vercel REST API, NUNCA o CLI)
 
-> Padrão do kit: `vite build` → `dist/` → `bash ~/.claude/head-turbo/bin/com-cofre.sh bash ~/.claude/head-turbo/bin/publicar-pagina-cloudflare.sh dist <projeto> --previa` (prévia em `https://previa.<projeto>.pages.dev`, produção intocada, conferida de fora). O `deploy.mjs` abaixo é a alternativa Vercel.
+> Padrão: `vite build` → `dist/` → skill `publicar-pagina-cloudflare` no ramo de prévia (`npx --yes wrangler@4 pages deploy dist --project-name=<projeto> --branch=previa`, com a chave numa variável de ambiente; prévia em `https://previa.<projeto>.pages.dev`, produção intocada, conferida de fora). Publicar pede OK. O `deploy.mjs` abaixo é a alternativa Vercel.
 
 Padrão do `deploy.mjs`. **NUNCA `vercel` CLI** (já invadiu outro projeto antes). Sempre REST API com project + team pinados:
 ```
@@ -213,9 +213,9 @@ TEAM = "<VERCEL_TEAM_ID>"
 PROJECT_ID  = "prj_..."            // o id do projeto preview desta página
 PROJECT_NAME = "<projeto>-v2"  // exemplo
 ```
-Fluxo: `vite build` → `dist/` → para cada arquivo, `POST https://api.vercel.com/v2/files?teamId=...` com header `x-vercel-digest: <sha1>` (upload por sha) → `POST https://api.vercel.com/v13/deployments?teamId=...&forceNew=1` com `{ name, project, target:"production", files:[{file,sha,size}], projectSettings:{framework:null,...} }` (deployment **prebuilt** estático). Token via `VERCEL_TOKEN` (do cofre 1Password / .env). Imprime `DEPLOY_URL` + `READY_STATE`.
+Fluxo: `vite build` → `dist/` → para cada arquivo, `POST https://api.vercel.com/v2/files?teamId=...` com header `x-vercel-digest: <sha1>` (upload por sha) → `POST https://api.vercel.com/v13/deployments?teamId=...&forceNew=1` com `{ name, project, target:"production", files:[{file,sha,size}], projectSettings:{framework:null,...} }` (deployment **prebuilt** estático). Token via `VERCEL_TOKEN` (variável de ambiente ou gerenciador de credenciais; nunca no chat). Imprime `DEPLOY_URL` + `READY_STATE`.
 
-> É **sempre uma V2/preview pra aprovar**. NUNCA tocar produção. A promoção / apontamento de domínio é decisão do Chefe depois do OK.
+> É **sempre uma V2/preview pra aprovar**. NUNCA tocar produção. A promoção / apontamento de domínio é decisão da pessoa depois do OK.
 
 ---
 
@@ -234,7 +234,7 @@ ctx = b.new_context(viewport={"width":1366,"height":820}, device_scale_factor=1,
                     record_video_dir=str(CAST), record_video_size={"width":1366,"height":820},
                     reduced_motion="no-preference")
 ```
-Roteiro: varrer o mouse pelo hero (cauda óbvia) → **parar o mouse e esperar ~1.4s** (prova o fade-out) → segurar parado um beat (giro lento do vídeo sem mouse competindo) → scroll lento topo→fim mexendo o mouse (bg discreto + copy legível por seção) → stills de fidelidade (hero + uma seção interna). Asserts úteis no runtime: `document.querySelectorAll('canvas').length` (MatrixRain removido → contagem esperada), `video.duration`/`playbackRate`/`opacity`/`currentTime` (provar slow + tocando), e os `opacity`/`backgroundColor` das divs de scrim. O Playwright grava **webm**; converter pra **mp4** com ffmpeg pra entregar pro Chefe.
+Roteiro: varrer o mouse pelo hero (cauda óbvia) → **parar o mouse e esperar ~1.4s** (prova o fade-out) → segurar parado um beat (giro lento do vídeo sem mouse competindo) → scroll lento topo→fim mexendo o mouse (bg discreto + copy legível por seção) → stills de fidelidade (hero + uma seção interna). Asserts úteis no runtime: `document.querySelectorAll('canvas').length` (MatrixRain removido → contagem esperada), `video.duration`/`playbackRate`/`opacity`/`currentTime` (provar slow + tocando), e os `opacity`/`backgroundColor` das divs de scrim. O Playwright grava **webm**; converter pra **mp4** com ffmpeg pra entregar (sem ffmpeg: pedir OK para `brew install ffmpeg`, ou entregar o webm).
 
 ---
 
@@ -250,15 +250,15 @@ Capturar o fold com `clip={x:0,y:0,width:W,height:H}` (o que o usuário vê sem 
 
 ---
 
-## 10. CHECKLIST DE ENTREGA (Paulo → Turbo → Chefe)
+## 10. CHECKLIST DE ENTREGA
 
 - [ ] Conteúdo/oferta 1:1 da base, acentuação PT-BR correta, sem travessão.
 - [ ] Fundo preto + vídeo Hyperframes discreto (opacity + scrim) + aurora 0.18 + rastro 0.18 que some ao parar.
 - [ ] Vídeo otimizado (720p, CRF alto, sem áudio, faststart, poucos MB); backup do master guardado.
 - [ ] Reveal/parallax/magnetic/tilt/count-up funcionando; `prefers-reduced-motion` respeitado.
-- [ ] Prévia publicada (`publicar-pagina-cloudflare --previa`, linha CONFERIDO; na alternativa Vercel: REST API com teamId/project pinados, **sem CLI**), produção intocada.
+- [ ] Prévia publicada (`publicar-pagina-cloudflare` no ramo de prévia, conferida de fora; na alternativa Vercel: REST API com teamId/project pinados, **sem CLI**), produção intocada.
 - [ ] PROVA em VÍDEO do scroll + mouse (não só print) + prints mobile fold (390/360) sem overflow, CTA na dobra.
-- [ ] Subagente devolve texto/links pra Turbo (NUNCA escreve no outbox/Telegram).
+- [ ] Entrega com texto e links da prévia para aprovação (nada sai para fora sem OK).
 
 ---
 

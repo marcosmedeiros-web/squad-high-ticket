@@ -1,6 +1,6 @@
 # Estrutura e copy da página de inscrição da sessão 1a1
 
-Referência da `ht-pagina-inscricao-sessao`. Estrutura reconstruída da aula 05 da trilha 12 (página real da FHT). O modelo de
+Referência da `ht-pagina-inscricao-sessao`. Estrutura reconstruída de uma página real do método. O modelo de
 copy é um esqueleto do squad com [campos]; preencher com `03-sessao`, `01-pesquisa` e `06-entrega`.
 
 ## 1. Seções, na ordem
@@ -71,7 +71,7 @@ WhatsApp informados sobre [nome da sessão]. [Link da política de privacidade, 
 - Copy de saúde, finanças e resultados: sem promessa de resultado garantido (compliance do anúncio e da página caminham
   juntos; o revisor confere).
 - Se o funil tiver dois públicos (iniciante e experiente), a copy muda para cada um mesmo com o mesmo criativo; avaliar duas
-  páginas ou duas versões de topo (decisão do estrategista).
+  páginas ou duas versões de topo (padrão assumido, listado em "Assumi").
 - Passar por `avoid-ai-writing` e `humanizer` antes da revisão.
 
 ## 4. Regras de design para o briefing

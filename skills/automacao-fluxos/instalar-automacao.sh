@@ -24,7 +24,7 @@ export PYTHONDONTWRITEBYTECODE=1
 PACOTE="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PERFIL='' SKILL_DIR="$HOME/.claude/skills/automacao-fluxos" UDIR="$HOME/.config/systemd/user"
 COM_SERVICO=0 LIGAR=0 SEM_SYSTEMCTL=0 SUBST=0 SO_CONFERIR=0 ACAO=instalar
-CFG_DIR="$HOME/.config/head-turbo/automacao-fluxos"
+CFG_DIR="$HOME/.config/automacao-fluxos"
 
 recusar() { echo "MOTIVO=$1: $2" >&2; exit "$3"; }
 passo()   { echo "== $* =="; }

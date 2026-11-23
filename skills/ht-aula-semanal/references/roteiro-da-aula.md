@@ -1,12 +1,12 @@
 # Roteiro da aula semanal
 
-Marcação: **[FHT]** = do material; **[proposta da skill]** = organização desta skill.
+Marcação: **[método]** = do material; **[proposta da skill]** = organização desta skill.
 O roteiro é guia em tópicos para o expert conduzir; nunca texto para ler. Testar os dois modelos; se o estilo do expert já
-funciona, não está errado. [FHT]
+funciona, não está errado. [método]
 
-## 1. Modelo 1: jeito errado x jeito certo [FHT, estrutura do GPT de roteiro, trilha 14 Parte 1]
+## 1. Modelo 1: jeito errado x jeito certo [método]
 
-Minutagem para 1 h [proposta da skill; a fonte dá minutagem para 40 min no GPT e só a saudação com tempo fixo]
+Minutagem para 1 h [proposta da skill; o método só fixa o tempo da saudação]
 
 | Bloco | O que entra | Tempo |
 |---|---|---|
@@ -21,22 +21,22 @@ Minutagem para 1 h [proposta da skill; a fonte dá minutagem para 40 min no GPT 
 | 9. CTA | Ver `cta-nps-e-pergunta-da-sessao.md` | 3 a 5 min |
 | 10. Antecipação | Próxima aula: data, mesmo horário, mesmo canal, tema se já houver | 1 min |
 
-Por que o jeito errado primeiro: o expert acha o básico óbvio, e o aluno muitas vezes só aprende pelo erro. [FHT]
-O aprendizado no chat fixa o conteúdo, mostra o nível de consciência, gera tema e deixa chamar a pessoa pelo nome. [FHT]
+Por que o jeito errado primeiro: o expert acha o básico óbvio, e o aluno muitas vezes só aprende pelo erro. [método]
+O aprendizado no chat fixa o conteúdo, mostra o nível de consciência, gera tema e deixa chamar a pessoa pelo nome. [método]
 
-## 2. Modelo 2: aulão [FHT, modelo do apresentador da Live FHT]
+## 2. Modelo 2: aulão [método]
 Saudação · promessa das aulas · tema de hoje · história/procedência (explicação racional de onde veio o conteúdo) · seeding em
 qualquer ponto · conteúdo corrido do começo ao fim (pode mostrar planilha, mapa mental) · CTA · antecipação.
-Rota 3 dá a mesma espinha: promessa, prova/história/procedência, conteúdo, CTA.
+Outra versão do método dá a mesma espinha: promessa, prova/história/procedência, conteúdo, CTA.
 
-## 3. Seeding [FHT]
+## 3. Seeding [método]
 Mencionar com naturalidade os alunos do programa, um resultado, como o acompanhamento funciona, sem preço e sem pitch. Pode ser
 em qualquer bloco e também nos stories. Prova só real e autorizada (`06-entrega/`, `ht-provas-e-cases`).
 
-## 4. Interação [FHT]
+## 4. Interação [método]
 Responder pontual e estrategicamente, às vezes para quebrar objeção. Pergunta fora do tema: "não é desta aula", ou vira tema.
 Aula gravada (Estreia): dizer que é gravada e que a equipe responde depois. No YouTube há atraso de 30 a 40 s.
-Opcional (rota 3): perguntas e respostas no fim, depois do CTA; as dúvidas viram temas das próximas aulas. [FHT]
+Opcional: perguntas e respostas no fim, depois do CTA; as dúvidas viram temas das próximas aulas. [método]
 
 ## 5. Molde do arquivo `roteiro-aula-NNN.md` [proposta da skill]
 ```
@@ -56,7 +56,7 @@ Títulos de capa (3): 1) .. 2) .. 3) ..   (recomendado: ..)
 Revisão: [ ] sem preço  [ ] sem pitch do HT  [ ] provas autorizadas  [ ] 1 CTA principal
 ```
 
-## 6. Prompt de rascunho [proposta da skill; o GPT "Roteiro de Aula Semanal" da FHT não está nos arquivos]
+## 6. Prompt de rascunho [proposta da skill; não é um GPT pronto]
 ```
 Você vai rascunhar o roteiro em tópicos de uma aula ao vivo de 1 hora.
 Expert: [quem é, credencial real]. Avatar: [..]. Promessa das aulas: "[..]". Tema: "[..]".
@@ -65,4 +65,4 @@ benefício (casos: [lista real ou "nenhum"]; 3 objeções desta aula), como (jei
 aprendizado no chat, CTA [descrição], antecipação. Marque onde cabe seeding. Não invente número, caso
 nem depoimento; onde faltar, escreva [FALTA]. Nada de preço nem oferta do programa. Dê 3 títulos de capa.
 ```
-Depois: ajustar à voz do expert e cortar o que ele não diria. A IA destrava; a curadoria é humana. [FHT]
+Depois: ajustar à voz do expert e cortar o que ele não diria. A IA destrava; a curadoria é humana. [método]

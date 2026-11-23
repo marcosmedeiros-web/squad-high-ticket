@@ -21,10 +21,10 @@ const SCHEMA = {
 const SHARED = `Você é um motion designer gerando UM b-roll de VSL com HyperFrames (vídeo programático via HTML+GSAP). Formato vertical 9:16, 1080x1920.
 
 ## CONTEXTO
-É um b-roll que cobre a tela inteira por cima de uma VSL de vendas (a voz do {{DONO}} — vende um agente de IA) toca por baixo. O b-roll é motion-graphics, SEM narração própria, SEM áudio. Estilo "dado/manchete editorial premium", igual ao exemplo de referência.
+É um b-roll que cobre a tela inteira por cima de uma VSL de vendas (a voz do expert, vendendo a oferta dele) toca por baixo. O b-roll é motion-graphics, SEM narração própria, SEM áudio. Estilo "dado/manchete editorial premium", igual ao exemplo de referência.
 
 ## ESTILO (OBRIGATÓRIO — siga o arquivo de referência)
-LEIA PRIMEIRO o arquivo de referência que JÁ renderiza certo: ~/.claude/skills/broll-fullscreen/assets/template-hf-portrait.html — copie a linguagem visual dele.
+LEIA PRIMEIRO o arquivo de referência que JÁ renderiza certo: assets/template-hf-portrait.html (dentro da pasta da skill broll-fullscreen) — copie a linguagem visual dele.
 - Fundo escuro premium: #07090d com radial sutil (radial-gradient(120% 80% at 50% 0%, #11161f 0%, #07090d 60%)).
 - Texto principal: #f4f7fb. Acento POSITIVO/marca: verde esmeralda #19e08a. Acento de DOR/CUSTO: vermelho #ff4747. Apoio/mudo: #8a93a3.
 - Tipografia: "Helvetica Neue", Arial — PESADA (font-weight 800), CAIXA ALTA, letter-spacing apertado (-1 a -4px nos títulos), linhas curtas.
@@ -46,7 +46,7 @@ LEIA PRIMEIRO o arquivo de referência que JÁ renderiza certo: ~/.claude/skills
 
 ## FLUXO DE TRABALHO (execute exatamente)
 1. cd $HOME/videos-broll && cp -r _tpl b<ID> && cd b<ID>
-2. Leia ~/.claude/skills/broll-fullscreen/assets/template-hf-portrait.html pra absorver a estrutura/estilo.
+2. Leia assets/template-hf-portrait.html (dentro da pasta da skill broll-fullscreen) pra absorver a estrutura/estilo.
 3. Escreva o index.html do SEU b-roll (use data-composition-id único tipo "hf<ID>", data-duration = a sua duração). Texto COM acento correto em PT-BR.
 4. Valide: npx --yes hyperframes@0.6.110 lint  ;  npx --yes hyperframes@0.6.110 validate  ;  npx --yes hyperframes@0.6.110 inspect
    - Corrija até lint=0 erros e inspect=0 erros (warnings de "studio_*" e overlaps intencionais podem ficar; marque overlap intencional com data-layout-allow-overlap e suba z-index pra resolver oclusão real). Use "npx --yes hyperframes@0.6.110 snapshot --at <t>" se quiser conferir um frame.

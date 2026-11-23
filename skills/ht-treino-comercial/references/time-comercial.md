@@ -1,11 +1,5 @@
 # Time comercial da sessão 1a1
 
-Fonte: catálogo fht-time-comercial e entradas brutas sessao-1a1-delegar-e-escalar (parte F, desafios jul/2026 RJ e jun/2026 SP),
-metodo-de-vendas-para-time-comercial, contratacao-e-remuneracao-de-vendedor, fluxo-1a1-sdr-closer-suporte-mentor,
-aprendizados-vendedor-nao-precisa-ser-bom (parte I, lives e palestras de encontros); trilha 09 RESUMO-vendas §3 (canal funciona
-com expert ou equipe); trilha 22 (abr/2026 94, jul/2026 RJ 07-08). Não há nos arquivos treinamento formal, metas por vendedor
-nem tabela de comissão: o que segue são princípios.
-
 ## 1. Quando delegar
 - O expert conduz as primeiras sessões (converte mais e aprende as objeções): pelo menos 10 a 20.
 - Delegar só com processo desenhado (roteiro palavra por palavra, Raio-X, deck, objeções) e conversão validada (fonte cita 20% a
@@ -21,9 +15,9 @@ nem tabela de comissão: o que segue são princípios.
   produto (pitch, entregáveis, gravações de entrega), acesso à Central 1x1 e aos links de pagamento.
 - Imersão no avatar: conversar com o expert, estudar o produto, seguir quem o avatar segue, aprender com os próprios leads.
 - Kaizen: revisar as próprias calls e melhorar roteiro, oferta e entrega.
-- "Vendedor não precisa ser bom": precisa de método, contexto do avatar e oferta forte (princípio de palestra).
+- "Vendedor não precisa ser bom": precisa de método, contexto do avatar e oferta forte.
 
-## 3. Remuneração e controle (decisão do estrategista por projeto)
+## 3. Remuneração e controle (decisão assumida no padrão, listada em "Assumi" por projeto)
 - Fixo + variável sobre o **recebimento** das parcelas, não sobre o valor do contrato (protege o caixa e reduz venda forçada).
 - Link de pagamento por vendedor para atribuição.
 - Testes de contratação citados: perfil dominante focado em meta; exercícios de venda simulada.

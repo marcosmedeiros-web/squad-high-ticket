@@ -47,8 +47,8 @@ A header block, then one section per spoken line.
 ## To TTS
 
 Feed each line's spoken text to the provider documented in
-`media-use/audio/references/tts.md`: the local VoiceStudio for the house voice
-(see `kit/COMO-CRIAR-IMAGEM-E-VIDEO.md`, section VOZ) or Kokoro
+`media-use/audio/references/tts.md`: a local TTS server you already run (for example an
+OpenAI-compatible one such as VoiceStudio) or Kokoro
 (`hyperframes tts --voice`); if voice fails, the video goes text-only. Neither
 returns word timestamps, so run `hyperframes transcribe` on the audio. Real
 per-word timing replaces the `**Time:**` guides.

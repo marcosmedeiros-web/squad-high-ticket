@@ -1,18 +1,18 @@
 # Plano de cortes: lógica F1, ficha de cada corte e checklist
 
-Legenda: **[FHT]** = está no material; **[proposta da skill]** = criado aqui.
+Legenda: **[proposta da skill]** = criado aqui; o resto é regra do método.
 
-## 1. Lógica [FHT, Live 026]
+## 1. Lógica
 Como na transmissão de Fórmula 1: a corrida inteira (cerca de 2 h), a corrida resumida (cerca de 30 min) e os melhores momentos
 (cerca de 5 min). No HT: o conteúdo denso inteiro (aula semanal, live, consultoria ao vivo, podcast), uma versão compactada quando fizer
-sentido e os cortes, que são os highlights, as melhores sacadas. Todo corte faz CTA para o formato de origem. Exemplo do material: o
+sentido e os cortes, que são os highlights, as melhores sacadas. Todo corte faz CTA para o formato de origem. Exemplo: o
 corte termina avisando que foi um trecho da live, que acontece toda semana em dia e hora fixos, e convida a se inscrever.
 
-## 2. Direção antes do editor [FHT, Live 022, regra do Toque de Midas aplicada aos cortes]
+## 2. Direção antes do editor
 - Quem conhece o método escolhe e descreve o trecho; o editor só corta depois.
 - Cada corte tem: arquivo de origem, tempo de início com as primeiras palavras, tempo de fim com as últimas palavras.
 - O corte precisa provar um ponto específico; sem esse ponto definido antes, o corte vira loteria.
-- Live 021: corte mal executado, sem sentido, deixa o conteúdo raso; o que importa é a qualidade do que se produz.
+- Corte mal executado, sem sentido, deixa o conteúdo raso; o que importa é a qualidade do que se produz.
 
 ## 3. Ficha de cada corte [proposta da skill]
 | Campo | Exemplo de preenchimento |

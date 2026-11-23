@@ -22,9 +22,9 @@ Vi que você pediu [o/a nome da sessão]. Prefere manhã, tarde ou noite?
 Você consegue melhor de manhã, à tarde ou à noite?
 ```
 Variante citada em live (abertura de curiosidade, caso de alunos): 1ª mensagem só com o nome; 2ª um áudio; 3ª "depois me fala".
-Uso é decisão do estrategista (pode soar truque se o áudio for propositalmente mudo).
+Uso opcional, avisado em "Assumi" (pode soar truque se o áudio for propositalmente mudo).
 
-Se não responder: ligar (o pedido do WhatsApp no SLG já serve para isso). Referência de aula: insistir com ligações aumenta
+Se não responder: ligar (o pedido do WhatsApp no SLG já serve para isso). Referência do método: insistir com ligações aumenta
 muito a chance de atender (números citados: ~20% atendem; 3 ligações ≈ +60%; conferir).
 
 ## 2. Agendamento (padrão do squad)
@@ -97,6 +97,6 @@ O horário do [especialista] está reservado para você. O link é este: [link].
 ## 5. Condições no início da sessão
 
 Se o lead entrar com câmera fechada, em lugar inadequado ou sem tempo: explicar com calma que a sessão precisa da atenção dele
-e propor outro horário próximo, em vez de conduzir pela metade (caso de laboratório). Esqueleto do squad (a partir da orientação do laboratório de SLG de abr/2026, tom calmo, sem bronca):
+e propor outro horário próximo, em vez de conduzir pela metade (caso de referência). Esqueleto do squad (tom calmo, sem bronca):
 `[Nome], a sessão rende muito mais com você de câmera aberta e com tempo. Se agora não dá, prefere remarcar para [dia] às [hora]?` A condução da sessão em si é do
 `ht-roteiro-sessao-1a1`.

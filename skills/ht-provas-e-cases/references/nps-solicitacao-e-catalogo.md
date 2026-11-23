@@ -1,7 +1,7 @@
 # NPS por entregável, solicitação e catálogo de resultados
 
 ## 1. Formulário de NPS (após cada entregável)
-Campos (trilha 19, template "NPS Entregáveis"):
+Campos (template "NPS Entregáveis"):
 1. Nome · 2. E-mail · 3. Entregável · 4. Mentor
 5. De 0 a 10, quanto você recomendaria [programa] com base neste entregável?
 6. Qual o motivo da sua nota?
@@ -34,7 +34,7 @@ Aba ALUNOS (uma linha por conta: individual, dupla, trio)
 Aba RESULTADOS MENSAIS
 | Conta | Mês | Investimento | Faturamento/métrica | Fonte (formulário, call, NPS) |
 
-Aba AÇÕES DE VENDA (cada ação separada, como no FHT)
+Aba AÇÕES DE VENDA (cada ação separada, como no método)
 | Conta | Data | Tipo de ação | Produto | Investimento | Resultado | Evidência (link) | Observação |
 
 Aba EVIDÊNCIAS

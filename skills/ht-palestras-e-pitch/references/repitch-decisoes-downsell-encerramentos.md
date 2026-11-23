@@ -1,7 +1,6 @@
 # Re-pitch, palestra de decisões, repeat, downsell e encerramentos
 
-Fontes: trilha 18 aulas 4, 13, 14, 15 (lidas por inteiro em 23/11), 16, 17, 18 e roteiros white label (seção 11.6 a 11.9), Live 033 (3 formas de abrir o dia 3),
-Live 045 (pós-pitch/repeat), out/2025 aulas 11 e 18 (repeat no online), fev/2026 aula 40 (pitch racional, repeat emocional).
+Método de re-pitch, decisões, downsell e encerramentos, em paráfrase.
 
 ## 1. Repeat / pós-pitch (online de 1 dia e todos os formatos)
 
@@ -15,7 +14,7 @@ Depois do pitch, só o laser coaching segura a audiência; conteúdo antes do pi
 ## 2. Re-pitch do dia 3 (presencial de 3 dias)
 
 Lugar: logo cedo, depois da talk de entrada e do take away (grade de referência: vídeo + re-pitch cerca de 58 min, seguido de
-break de 1 h). Roteiro white label:
+break de 1 h). Roteiro modelo:
 
 ```
 1. VÍDEO EMOCIONAL + RESULTADOS (3 As: antecipar, apresentar, aterrissar)
@@ -28,7 +27,7 @@ break de 1 h). Roteiro white label:
 A curva de vendas pica no dia 3, depois do re-pitch e até o almoço; depois "pinga" a tarde toda (não subestimar). Na IMA, cerca
 de dois terços das vendas vieram no dia 3, sobretudo no começo do dia (referência, conferir).
 Pausa depois do re-pitch: obrigatória. Referência de 40 min a 1 h, ajustada pelo termômetro da sala (se ainda está vendendo, o
-timer é estendido). Variante usada pelo FHT: "quem já decidiu, vá falar com os faixas pretas; eu fico aqui respondendo quem está
+timer é estendido). Variante usada pelo método: "quem já decidiu, vá falar com os faixas pretas; eu fico aqui respondendo quem está
 cogitando", com o expert no palco sem microfone e a roda em volta dele. Quando alguém decide na conversa, o expert pode
 acompanhar a pessoa até a mesa de fundo.
 
@@ -45,10 +44,10 @@ ATERRISSAR: "Viu? Podia ter ficado nas desculpas. Fez apesar de [obstáculo]. [O
             Procrastinar às vezes não é só procrastinar, é um desserviço com a própria vida."
 ```
 Sem pressa em nenhuma fase; deixar o silêncio. Escolher casos que quebrem as objeções que explodiram no break do dia 2.
-Serve à IMA e à imersão estilo Mundo Paralelo; na IMI o FHT não a usou (não há implementação a destravar com ela). Ajuda muito no
+Serve à IMA e à imersão estilo Mundo Paralelo; na IMI o método não a usou (não há implementação a destravar com ela). Ajuda muito no
 repeat por ser emocional; o mesmo conteúdo pode ser reciclado com outro rótulo (no Mundo Paralelo virou "encruzilhadas").
 
-## 4. Três formas de abrir o dia 3 (Live 033)
+## 4. Três formas de abrir o dia 3
 
 1. **"Meu time me disse"**: listar e responder as objeções ouvidas pela equipe.
 2. **Aula "como enfraquecer objeções"**: conteúdo que é venda disfarçada.
@@ -62,7 +61,7 @@ Momento: no último break, 2 a 3 horas antes do fim, quando o HT parou de vender
 com cerca de 16 min). Muito pitch no fim tira valor do conteúdo.
 
 Produto: ticket baixo, de preferência o ingresso do próximo evento (com bônus que não existe em outro lugar). Princípio da
-**fusão high ticket** (trilha 18 aula 4): o downsell não existe para "ganhar uns trocados", ele leva a pessoa de volta a um HT
+**fusão high ticket**: o downsell não existe para "ganhar uns trocados", ele leva a pessoa de volta a um HT
 (o próximo evento é onde o HT mais converte; ingresso vendido ali já é público garantido da próxima edição). Produto que não leva
 a um HT (ex.: e-book sem caminho para uma sessão 1a1) não serve como downsell. Pode haver categorias (ex.: essencial, VIP). Produto de
 R$ 4 mil como downsell vende pouco ("difícil vender 25 unidades"). Nunca ingresso de graça (testado duas vezes: as pessoas não foram).
@@ -97,5 +96,5 @@ no [próximo nível]").
 
 ## 7. Celebração dos que entraram
 
-Almoço de celebração / boas-vindas aos novos alunos no dia 3 (insiders juntos). Gera prova viva para quem ainda decide.
+Almoço de celebração / boas-vindas aos novos alunos no dia 3 (alunos atuais juntos). Gera prova viva para quem ainda decide.
 Na versão online, anunciar ao vivo quem entrou (com autorização) e dar parabéns a quem decidiu.

@@ -1,7 +1,6 @@
 ---
 name: niche-research
-description: >
-  Surface the 20 most relevant stories in a niche from the last 7 days using Claude for Chrome. Verified dates, real links, shareable angles. Claude drives the browser to scroll Reddit, X and run Google searches — exactly like a human researcher would. Use this skill whenever the user says "research my niche", "what's trending", "find stories", "this week's news", "content research", or drops a niche and asks what's happening in it. Requires the Claude for Chrome extension to be enabled for live browsing.
+description: 'Surfaces the 20 most relevant stories in a niche from the last 7 days, with verified dates, real links and shareable angles, browsing Reddit, X and Google (Claude for Chrome, Playwright or WebSearch). Use for "research my niche", "what''s trending", "find stories", "this week''s news", "content research". NOT for avatar research (ht-pesquisador).'
 ---
 
 # Niche Research

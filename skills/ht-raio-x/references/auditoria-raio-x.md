@@ -1,7 +1,6 @@
 # Auditoria do Raio-X (rodar antes de entregar e a cada revisão)
 
-Fonte: catálogo fht-auditoria-raio-x (partes E, F); laboratórios da trilha 22 (dez/2025 144, jan/2026 128, mai/2026 80, abr/2026
-95, fev/2025 197); trilha 09 RESUMO §8. Marcar cada item ok / ajustar, com a reescrita proposta.
+Marcar cada item ok / ajustar, com a reescrita proposta.
 
 ## A. Por pergunta
 1. Começa com "De 0 a 10, o quanto…"?

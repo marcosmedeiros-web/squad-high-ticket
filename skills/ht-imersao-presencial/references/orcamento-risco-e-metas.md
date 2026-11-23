@@ -1,7 +1,6 @@
 # Orçamento, risco e metas do presencial
 
-Fontes: GPS imersão presencial (trilha 18, aula 19), trilha 18 aulas 5 e 17, Lives 045 e 051/052 (via partes I e catálogo),
-padrão do squad (comparecimento), catálogo fht-metas-e-orcamento-de-evento. Todos os números de aula são referência.
+Todos os números são referência.
 
 ## 1. Pergunta de prontidão (antes de orçar)
 
@@ -25,14 +24,13 @@ leads          = inscritos / taxa de preenchimento do formulário
 verba_captação = leads × CPL
 ```
 Parâmetros de planejamento:
-- Conversão presencial de referência: 10% a 25% dos presentes (FHT cita 14% nos menores e até 25% nos maiores; Live 045 10% a
-  25%). Não usar a conversão média do FHT como meta: usar o histórico do expert ou o piso da faixa no primeiro evento.
-- Comparecimento (padrão do squad): gratuito 25%, credencial ou pago 70% (o FHT cita 25% de quem preenche o formulário no
-  gratuito). Trilha 18 manda contar 30% de no-show no pago (coerente com 70%).
+- Conversão presencial de referência: 10% a 25% dos presentes (14% nos eventos menores e até 25% nos maiores). Não usar a conversão média de referência como meta: usar o histórico do expert ou o piso da faixa no primeiro evento.
+- Comparecimento (padrão do squad): gratuito 25%, credencial ou pago 70% (referência: 25% de quem preenche o formulário no
+  gratuito). O método manda contar 30% de no-show no pago (coerente com 70%).
 - Dimensionar mínimo e máximo; plano de superlotação (sala extra, telão) e de esvaziamento.
-- Reservar parte da verba para lembrete, remarketing e API oficial (catálogo: cerca de 20%).
+- Reservar parte da verba para lembrete, remarketing e API oficial (cerca de 20%).
 
-## 3. Projeção de resultado (modelo da planilha de ROAS do FHT, campos ditos na aula)
+## 3. Projeção de resultado (modelo da planilha de ROAS do método)
 
 | Campo | Fonte do número |
 |---|---|
@@ -42,7 +40,7 @@ Parâmetros de planejamento:
 | Conversão | histórico do expert |
 | Ticket médio do HT | 02-oferta |
 | Faturamento bruto (valor de contrato) | presentes × conversão × ticket |
-| Recebimento esperado | aplicar % de recebimento (no exemplo do FHT, "se receber 50%") e cancelamento tipo 1 |
+| Recebimento esperado | aplicar % de recebimento (no exemplo de referência, "se receber 50%") e cancelamento tipo 1 |
 | Custo do evento | planilha de orçamento (fase 2) |
 | Imposto | contador do expert |
 | Margem / resultado operacional estimado | recebido − custo − imposto − verba de captação |

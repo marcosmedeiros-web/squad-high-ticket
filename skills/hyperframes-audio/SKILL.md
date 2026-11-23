@@ -1,16 +1,6 @@
 ---
 name: hyperframes-audio
-description: >
-  Use when audio already placed in a HyperFrames composition needs to be mixed:
-  fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking,
-  a music bed that fights a voiceover (voiceover carve), effects on a track
-  (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser,
-  bitcrush), automation envelopes drawn on a track's volume or any effect
-  parameter, or one submix bus carrying a chain, a fader and an automation clock
-  for several tracks at once (`<hf-audio-group>`).
-  Don't use for sourcing or generating audio — finding BGM, SFX, or making a
-  voiceover is `/media-use`. Don't use for clip timing or track layout, which is
-  `/hyperframes-core`.
+description: 'Mixes audio already placed in a HyperFrames composition: fades, crossfades, gain, ducking, voiceover carve, effects, automation envelopes and submix buses. Use for "duck the music", "fade out the track", "add reverb", "mix the voiceover". Do NOT use for finding or generating audio, or for clip timing (hyperframes-core).'
 ---
 
 # HyperFrames Audio

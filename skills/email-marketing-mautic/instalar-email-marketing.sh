@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Instalador do pacote email-marketing (Mautic com HTTPS publico, gestor de disparo, troca de servico de envio).
 #
-#   bash instalar-email-marketing.sh --perfil <arquivo.env> --destino <pasta-do-kit> --so-conferir
-#   bash instalar-email-marketing.sh --perfil <arquivo.env> --destino <pasta-do-kit> [--com-vigias]
+#   bash instalar-email-marketing.sh --perfil <arquivo.env> --destino <pasta-de-instalacao> --so-conferir
+#   bash instalar-email-marketing.sh --perfil <arquivo.env> --destino <pasta-de-instalacao> [--com-vigias]
 #
 # --so-conferir   confere python, perfil, cofre e acesso ao Mautic; NAO escreve nada.
 # --com-vigias    alem de instalar, liga os vigias do cron e do disco (systemd --user).
@@ -34,18 +34,18 @@ case "$PERFIL" in "$AQUI"/*) recusa perfil_dentro_do_pacote 3 "copie o exemplo p
 # 1.0.2: o destino NAO pode ser a arvore de skills ou de agentes do Claude (nem ficar dentro dela), nem a pasta onde esta
 # a skill deste pacote, nem a propria skill. O instalador cria <destino>/email-marketing e, numa atualizacao, move o que
 # havia para <destino>/.email-marketing-anterior-*: dentro de ~/.claude/skills isso e uma segunda skill (com SKILL.md) e,
-# se a pasta da skill do kit tiver o mesmo nome, o instalador moveria a si mesmo. O destino documentado e a pasta do kit, fora de ~/.claude/skills.
-# kit 5.3.8: caminho fisico mesmo quando o destino ainda nao existe (sobe ate o ancestral que existe e resolve ali). Antes, destino novo
+# se a pasta da skill tiver o mesmo nome, o instalador moveria a si mesmo. O destino documentado e uma pasta de instalacao fora de ~/.claude/skills.
+# 1.0.2: caminho fisico mesmo quando o destino ainda nao existe (sobe ate o ancestral que existe e resolve ali). Antes, destino novo
 # voltava cru e nao casava com a arvore resolvida quando havia link no caminho (macOS: /var -> /private/var), e passava sem recusa.
 fisico() { local p="$1" r=""; while [ -n "$p" ] && [ "$p" != / ] && [ ! -d "$p" ]; do r="/$(basename "$p")$r"; p="$(dirname "$p")"; done
   [ -d "$p" ] && printf '%s%s' "$(cd "$p" && pwd -P)" "$r" || printf '%s' "$1"; }
 DEST_F="$(fisico "$DESTINO")"; AQUI_F="$(fisico "$AQUI")"; PAI_F="$(fisico "$(dirname "$AQUI")")"
-[ "$DEST_F" != "$PAI_F" ] || recusa destino_e_a_pasta_das_skills 3 "--destino $DESTINO e a pasta que contem esta skill; use --destino <pasta do kit>, fora de ~/.claude/skills e ~/.claude/agents"
-case "$DEST_F/" in "$AQUI_F"/*) recusa destino_dentro_do_pacote 3 "--destino $DESTINO esta dentro desta skill; use --destino <pasta do kit>, fora de ~/.claude/skills e ~/.claude/agents" ;; esac
+[ "$DEST_F" != "$PAI_F" ] || recusa destino_e_a_pasta_das_skills 3 "--destino $DESTINO e a pasta que contem esta skill; use --destino <pasta de instalacao>, fora de ~/.claude/skills e ~/.claude/agents"
+case "$DEST_F/" in "$AQUI_F"/*) recusa destino_dentro_do_pacote 3 "--destino $DESTINO esta dentro desta skill; use --destino <pasta de instalacao>, fora de ~/.claude/skills e ~/.claude/agents" ;; esac
 for ARV in "$HOME/.claude/skills" "$HOME/.claude/agents" "${CLAUDE_CONFIG_DIR:+$CLAUDE_CONFIG_DIR/skills}" "${CLAUDE_CONFIG_DIR:+$CLAUDE_CONFIG_DIR/agents}"; do
   [ -n "$ARV" ] || continue
   ARV_F="$(fisico "$ARV")"
-  case "$DEST_F/" in "$ARV_F"/*) recusa destino_dentro_de_skills 3 "--destino $DESTINO esta na arvore de skills ou agentes do Claude (backup ali vira segunda skill); use --destino <pasta do kit>, fora de ~/.claude/skills e ~/.claude/agents" ;; esac
+  case "$DEST_F/" in "$ARV_F"/*) recusa destino_dentro_de_skills 3 "--destino $DESTINO esta na arvore de skills ou agentes do Claude (backup ali vira segunda skill); use --destino <pasta de instalacao>, fora de ~/.claude/skills e ~/.claude/agents" ;; esac
 done
 
 PY="$(command -v python3 || true)"

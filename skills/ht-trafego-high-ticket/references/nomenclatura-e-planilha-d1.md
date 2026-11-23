@@ -1,7 +1,6 @@
 # Nomenclatura e planilha D-1
 
-Fontes: padrão de nomenclatura do squad (com o prefixo de campanha do perfil, `trafego.prefixo_campanha`, se houver), trilha 13 `RESUMO-trafego.md` §3.10 e §5.3, trilha 17 `RESUMO-parte-A` §5.1 (via `parte-D`), FEV26 §5.7 (via
-`parte-G`), trilha 14 Central 1x1.
+Padrão de nomenclatura do squad (com o prefixo de campanha do perfil, `trafego.prefixo_campanha`, se houver) e Central 1x1.
 
 ## 1. Campanha (padrão do squad, obrigatório)
 

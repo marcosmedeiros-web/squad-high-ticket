@@ -1,8 +1,5 @@
 # Redação de cada entregável (4 campos + 2 operacionais)
 
-Fontes: trilha 06 RESUMO (4 passos 8 a 11, 5.5, 8 itens 5 a 7); parte A `fht-redator-de-entregavel`; parte H (lives 001, 011);
-live 057 (fórmula quantitativa com condição); bootcamp de AR mai/26 parte 2.
-
 ## 1. Bloco padrão (aba ENTREGÁVEIS da planilha de oferta)
 
 ```markdown
@@ -22,7 +19,7 @@ Nunca jargão do método para o lead ("SNA", "plano" sozinho). Mai/26: o lead pr
 "reunião de diagnóstico, plano de ação com checklist, reunião estratégica e o grupo" é um HT que "cabe na palma da mão".
 
 **O que é.** Literal. Formato (sessão, planilha, pasta, grupo, sala ao vivo), canal (Zoom, WhatsApp, Drive), duração ("até 1h20").
-O professor da trilha 06: o lead não sabe o que é; no pitch você precisa ser literal.
+Regra do método: o lead não sabe o que é; no pitch você precisa ser literal.
 
 **Benefício.** É o que vende. Escrito para o aluno, nunca para o mentor. Específico ("sai com a oferta pronta para vender",
 não "terá mais clareza").
@@ -30,12 +27,12 @@ não "terá mais clareza").
 **Quantidade.** Sempre "até N". "Toda semana" fecha a agenda do expert e obriga o aluno que nem sempre consegue. Quer um por mês:
 "até 12". Frequência só em encontro de grupo.
 
-**Condição.** Fórmula: "quando você executar X, pode solicitar Y". Exemplo da live 057 (texto adaptado): 12 análises
+**Condição.** Fórmula: "quando você executar X, pode solicitar Y". Exemplo (texto adaptado): 12 análises
 individuais; a cada estratégia de venda executada, o aluno pode solicitar uma análise via Zoom de até 2h com um especialista do
 time. Não promete frequência, promete quantidade, e só consome quem executa. Condição leve ("quando precisar") para entregáveis
 de destrave, para não criar "ovo ou galinha".
 
-## 3. Exemplos de aula (adaptar, não copiar)
+## 3. Exemplos de referência (adaptar, não copiar)
 
 ```
 PILAR: DIRECIONAMENTO
@@ -72,10 +69,10 @@ SOS Terapeuta; Mesa do Conselho; dia de campo (veterinária); racing day (simula
 - Benefício "para o mentor acompanhar melhor": reescrever pelo ganho do aluno.
 - IA (o agente definidor) assume formato errado (planilha quando é sessão): corrigir formato e trocar frequência por "até N".
 
-## 5. Prompt de apoio para IA (reconstrução própria, não é o agente da FHT)
+## 5. Prompt de apoio para IA (reconstrução própria, não é o agente do método)
 
 ```
-Contexto: método FHT. Definição do AR: <colar>. Jornada: <colar etapas>.
+Contexto: método. Definição do AR: <colar>. Jornada: <colar etapas>.
 Escreva o entregável "<nome genérico>" em 4 campos: nome autoral do nicho; o que é (formato, canal, duração);
 benefício para o aluno, ligado à dor <dor>; quantidade "até N" (nunca frequência) e a condição de solicitação
 ("quando você executar X, pode solicitar Y"). Um entregável por vez. Aponte o ponto fraco da sua versão.

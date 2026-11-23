@@ -1,20 +1,16 @@
 # Análise de vendas (entregável de análise depois da execução)
 
-Fontes: parte-D bloco 8, live 057 (análises condicionadas à ação), live 061 (gravação de análises de outros alunos como
-entregável valioso), trilha 21: 3 gravações lidas inteiras (62, 61 e 71 min; mentores e nichos diferentes) + contagem de termos
-nas 269 + duração de 253 cabeçalhos.
-
 ## Função e definição
-Analisar o que o aluno executou e recomendar melhorias. No FHT, o objeto é a sessão 1a1 de venda gravada do aluno; orienta
+Analisar o que o aluno executou e recomendar melhorias. No método, o objeto é a sessão 1a1 de venda gravada do aluno; orienta
 método, preço e delegação. Pré-requisito: formulário com o link da gravação, depois de ~5 reuniões. Sem gravação válida, o mentor
 trabalha Raio-X e origem dos leads (e a sessão vira consultoria de oferta: evitar, remarcando com gravação).
-Duração: manual ~45 min; **mediana real 96 min**.
+Duração: manual ~45 min; **mediana nas sessões de referência: 96 min**.
 
 Adaptação ao expert: analisar a execução que gera o resultado do aluno (gravação do atendimento, do treino, da redação, da
 negociação). Mesmo esqueleto: assistir com pausa, avaliar etapa por etapa contra o método, frase corrigida, lista priorizada.
 
 ## Preparo e abertura
-- Mentor lê o formulário (canais, nº de sessões e vendas) e costuma ver parte da gravação antes (153 arquivos citam isso).
+- Mentor lê o formulário (canais, nº de sessões e vendas) e costuma ver parte da gravação antes (prática comum).
 - Pede ao aluno a gravação que ele considera melhor, ou a que não fechou.
 - Abertura: contexto e números (sessões, pitches, vendas, origem do lead).
 
@@ -29,13 +25,13 @@ negociação). Mesmo esqueleto: assistir com pausa, avaliar etapa por etapa cont
 6. Ancoragem e preço na ordem entrada, parcelado, à vista; sinal (entrada) com a call aberta; objeções acolhidas sem "mas",
    respondidas com pergunta.
 
-## Top 10 erros do aluno (vistos nas gravações)
+## Top 10 erros do aluno (vistos nas sessões de referência)
 1. Não segue o roteiro do método. 2. Raio-X fraco (repetitivo, sem 0 a 10). 3. Grava tarde ou não grava. 4. Compartilha a tela
 no questionário. 5. Ensina ou dá solução no diagnóstico. 6. Não implica o gráfico (diz que está bom). 7. Monólogo sem perguntas
 de envolvimento. 8. Passa com pressa pelos entregáveis. 9. Parcela demais e oferece sem entrada. 10. Responde objeção com "mas" e
 não faz as perguntas do sim. Extra: deixa de ofertar por julgar que o lead não é avatar.
 
-## O que as 2 gravações lidas na revisão acrescentam (23/11)
+## O que outras sessões de referência acrescentam
 - Quem fez poucas sessões e vendeu todas não precisa de análise: o mentor converte a sessão em reunião estratégica (o problema
   está antes da sessão: captação, conteúdo) e orienta pedir análise só se as próximas não converterem.
 - Regra de cadência citada: nova análise a cada 10 sessões ou a cada mês, o que vier primeiro.
@@ -44,13 +40,13 @@ não faz as perguntas do sim. Extra: deixa de ofertar por julgar que o lead não
   com respeito, e indicar outro caminho); sessão feita sem o formulário prévio (formulário obrigatório antes).
 - Apresentação: um entregável por slide; tirar "opção 1 / opção 2" do preço; não falar de contrato na call (vem no onboarding).
 - Uma pessoa só conduz a sessão (duas pessoas fazem o lead sentir "dois contra um").
-- Ancoragem: a gravação usa duas âncoras seguidas (10x e 5x o preço à vista), que é o padrão recomendado do squad (o estrategista pode
+- Ancoragem: a sessão de referência usa duas âncoras seguidas (10x e 5x o preço à vista), que é o padrão recomendado do squad (a pessoa pode
   mudar em `padroes` do perfil): 10x, depois 5x, depois a emocional. O mentor confere a ordem e se a emocional veio no fim.
 
 ## Fechamento
 Lista de ajustes priorizados lida em voz alta (uma gravação teve 12 itens); tarefa (ex.: assistir o bootcamp de objeções,
 refazer o questionário, gravar desde o início); próxima análise ou checkup; NPS pelo suporte. Com autorização, a gravação da
-análise vira material para outros alunos (live 061: aprende-se muito com a análise de outro aluno).
+análise vira material para outros alunos (aprende-se muito com a análise de outro aluno).
 
 ## Boas práticas e atritos
 Boas: avisar antes de crítica dura e dar a frase corrigida; corrigir ao vivo (questionário, fórmula, segmentação); reforçar o que
@@ -62,6 +58,6 @@ ações); análise interrompida; gravação incompleta.
 - Durante: assistir com pausa, etapa por etapa; cada crítica com a frase sugerida; perguntar como o aluno se sentiu.
 - Pós: lista priorizada no documento de ações; tarefa com data; próxima análise; áudio no diário.
 
-## Números das gravações (exemplo de sessão)
+## Números de sessões de referência (exemplo)
 "15 agendadas, 13 realizadas, 8 pitches, 0 vendas"; entrada de R$ 500 e 8 parcelas; garantia condicional de aumento de renda.
-Casos de alunos do FHT, não regra.
+Casos de alunos de referência, não regra.

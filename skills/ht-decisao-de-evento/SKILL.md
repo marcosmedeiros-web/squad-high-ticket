@@ -1,6 +1,6 @@
 ---
 name: ht-decisao-de-evento
-description: 'Decide, pelo método FHT do Squad High Ticket, se é hora de um evento um-para-muitos e qual: live direto ao ponto, IMI (imersão de implementação online de 1 dia ou paga), IMA (imersão de aprendizado), IMR estilo Mundo Paralelo, presencial de 1 a 3 dias, turnê ou desafio. Fecha objetivo, formato, duração, data, entrada (gratuita, credencial ou paga, proposta pelo padrão por evento), Big Idea, metas de vendas, presentes e leads, orçamento com ROAS projetado e o plano macro de 8 passos, e entrega a Ficha do Evento que abre a skill de execução. Use quando o estrategista disser "qual evento faço para o expert", "vale imersão ou live?", "online ou presencial", "gratuita ou paga", "quanto investir na imersão", "monta o planejamento do evento". NÃO usar para lançamento pago semanal, 5+1 ou estruturador-evento-turbo (método LPSG da Turbo).'
+description: 'Decide se é hora de um evento um-para-muitos e qual (live direto ao ponto, IMI, IMA, IMR, presencial, turnê, desafio) e entrega a Ficha do Evento: formato, data, entrada, Big Idea, metas, orçamento com ROAS e plano macro de 8 passos. Use para "qual evento faço", "vale imersão ou live?", "online ou presencial", "quanto investir". NÃO usar para lançamento pago de evento.'
 ---
 
 # Decisão de evento (qual evento, para quê, com que meta)
@@ -22,7 +22,7 @@ fases e datas, riscos, "Assumi" e a skill que executa. Mais o bloco de entrega d
 2. Ler `experts/<slug>/ht/`: `00-plano/` (estado, aprovações, cronograma, decisões), `02-oferta/oferta-vigente.md` e
    `portfolio.md`, `03-sessao/` (sessões feitas, conversão, objeções), `04-demanda/` (listas, audiência, aula semanal),
    `06-entrega/` (capacidade e calendário de entrega), `07-numeros/` (Master Plan, caixa, CPL histórico),
-   `13-aprendizados/` (debriefs de eventos anteriores: números próprios valem mais que os da aula).
+   `13-aprendizados/` (debriefs de eventos anteriores: números próprios valem mais que os de referência).
 3. Entradas obrigatórias: HT validado (sessões e vendas), tamanho das listas, alunos ativos e com resultado, verba máxima,
    janela de datas, capacidade de entrega, se há lançamento do produto principal no calendário.
 4. O que dá para tirar dos arquivos, tiro. Pergunto só o impossível de adivinhar, no máximo 2 por vez e em linguagem simples
@@ -46,7 +46,7 @@ fases e datas, riscos, "Assumi" e a skill que executa. Mais o bloco de entrega d
 4. **Duração e data**: 1, 2 ou 3 dias (mesma lógica de blocos; mais dias, mais consciência e mais conversão, mais custo e
    complexidade). Online de 1 dia: sábado, 9h às 18h previstas (estoura). Prazo do projeto: online 4 a 6 semanas; presencial
    pequeno 8 a 12 semanas só de logística, data ideal 1 ano antes, mínimo 90 dias. Evento como bônus de lançamento: pelo menos
-   3 semanas (o caso FHT usou 28 dias) depois do carrinho. Checar o calendário de entrega e de renovação (`06-entrega/`).
+   3 semanas (o caso de referência usou 28 dias) depois do carrinho. Checar o calendário de entrega e de renovação (`06-entrega/`).
 5. **Entrada do evento**: usar `references/entrada-do-evento.md`, escolher a entrada que recomendo (o padrão da seção 4) e listar em "Assumi", com uma
    linha de prós e contras; vira oficial na aprovação do plano.
 6. **Big Idea e nome**: uma frase de destino que o participante explica em casa; específica, uma coisa só, com o que ele leva
@@ -55,13 +55,13 @@ fases e datas, riscos, "Assumi" e a skill que executa. Mais o bloco de entrega d
 7. **Metas e orçamento** com `references/metas-orcamento-e-roas.md`: vendas → presentes elegíveis → presentes → confirmados →
    leads → CPL máximo → verba e verba diária; capacidade da sala; reserva de ~20% para lembrete, remarketing e API; ROAS e
    margem projetados (receita em contrato x recebido no período, custo do evento, imposto). Três cenários, sempre.
-8. **Plano macro e cronograma** com `references/plano-macro-e-cronogramas.md`: os 8 passos do macro e as fases do GPS com
+8. **Plano macro e cronograma** com `references/plano-macro-e-cronogramas.md`: os 8 passos do macro e as fases do GPS (plano de fases) com
    início e duração, do planejamento ao debriefing, com dono por fase.
 9. **Riscos e plano B**: o que faz trocar de estratégia no meio (ex.: venda de ingresso abaixo do ponto de equilíbrio → abrir
-   gratuito, como fez o FHT); sobreposição com outro lançamento para a mesma base (derrubou resultado no caso do lote zero).
+   gratuito, como no caso de referência); sobreposição com outro lançamento para a mesma base (derrubou resultado no caso do lote zero).
    Lançamento do produto principal em andamento: abrir a captação do evento só depois do carrinho fechar (antes confunde a
    audiência, mesmo com exclusão de público) ou dar o evento como bônus desse lançamento e convidar a mesma lista depois. O
-   evento não para as sessões 1a1 em curso: pode diminuir, não parar (onboarding fev/2026).
+   evento não para as sessões 1a1 em curso: pode diminuir, não parar.
 10. **Gravar a Ficha do Evento**, listar o "Assumi" e abrir o pedido para a skill de execução.
 
 ## 4. Regras inegociáveis do método
@@ -71,7 +71,7 @@ fases e datas, riscos, "Assumi" e a skill que executa. Mais o bloco de entrega d
 - Online antes de presencial. Nunca híbrido ao vivo (o online compete com a conversão do presencial).
 - Toda imersão de venda tem as 4 funções: reciprocidade, aumento de consciência, venda em 3 momentos, quebra de objeções.
 - Meta sempre de trás para frente e em cima de **presentes elegíveis** (quem pode comprar: não conta equipe, aluno ativo do
-  HT, convidado de outro programa). Não usar a conversão média do FHT, nem a de uma live anterior com demanda reprimida, como
+  HT, convidado de outro programa). Não usar a conversão média de referência, nem a de uma live anterior com demanda reprimida, como
   meta do expert: usar a dele ou o cenário conservador.
 - Capacidade da sala define estrutura (Zoom até ~100 sem atrito; acima de ~500 muda a operação).
 - Cada evento reaproveita ~80% do que funcionou e muda uma variável por vez.
@@ -101,8 +101,8 @@ renovação e lançamentos; [ ] entrada proposta pelo padrão e listada em "Assu
 e donos; [ ] riscos e gatilho de plano B; [ ] skill de execução indicada e pedido aberto; [ ] "Assumi" e "posso seguir?" simples no fim.
 
 **Auditoria** (erros típicos das turmas e debriefs): evento sem HT validado; presencial como primeiro evento; híbrido; formato
-escolhido pela agenda e não pelo HT; meta copiada do FHT ou de outro aluno; conversão calculada sobre inscritos e não sobre
-presentes; sem margem para no-show (~30% no pago, mais no gratuito); evento de última hora (custo do presencial FHT dobrou por
+escolhido pela agenda e não pelo HT; meta copiada de caso de referência ou de outro aluno; conversão calculada sobre inscritos e não sobre
+presentes; sem margem para no-show (~30% no pago, mais no gratuito); evento de última hora (custo do presencial de referência dobrou por
 falta de antecedência); lote zero ou ingresso sobreposto a outro lançamento; Big Idea genérica ou com várias promessas; sala
 menor que o pico; nenhum dinheiro reservado para lembrete e confirmação; plano sem debriefing.
 
@@ -120,21 +120,12 @@ menor que o pico; nenhum dinheiro reservado para lembrete e confirmação; plano
 ## 8. Ferramentas de apoio
 
 `ht-venda-de-ingressos` (se a entrada for paga ou credencial), `ht-captacao-e-presenca` (atração de público, confirmação),
-`ht-master-plan` (lugar do evento no calendário anual), `niche-research` e `instagram-analise-estrategica-turbo` (demanda do
+`ht-master-plan` (lugar do evento no calendário anual), `niche-research` e `instagram-analise-estrategica` (demanda do
 tema), `hook-generator` (variações de nome e Big Idea para testar em criativo), `anthropic-skills:xlsx` (planilha de metas,
-orçamento e ROAS), `meta-ads-cli-turbo` ou a ferramenta de tráfego do perfil (`trafego.ferramenta`; CPL histórico das contas do expert, só leitura).
+orçamento e ROAS), `meta-ads-cli` ou a ferramenta de tráfego do perfil (`trafego.ferramenta`; CPL histórico das contas do expert, só leitura).
 
-## 9. Fontes e lacunas
+## 9. Limites (não inventar)
 
-**Fontes** (lidas por inteiro na revisão R6, 23/11/2026: trilha 17 aulas 01 a 04 e 53; trilha 22 aulas 28, 29, 52, 53 e 70;
-trilha 16 inteira): trilha 17, bootcamp Planejamento de Imersão (aulas 01 a 04: formato, 3 tipos de imersão,
-definição de resultado, metas, gratuito x pago), aula 12 (tráfego e planilha), Lote Zero (13 a 20); trilha 18 (Introdução e
-Debriefing das Imersões FL, transcritas hoje; Planejamento IMA; GPS Imersão Presencial, transcrito hoje); trilha 22, Desafios de
-Imersão out/2025 e fev/2026 (onboarding, planejamento, plantões); catálogo, entradas fht-decisao-formato-de-evento,
-fht-planejar-imersao-macro-8-passos, fht-big-idea-do-evento, fht-metas-e-orcamento-de-evento,
-fht-atracao-de-publico-ao-evento, fht-tipos-e-precos-de-ingresso (partes D, G, H, I) e Conflitos 22 e 23.
-
-**Lacunas**: o método de IMR/Mundo Paralelo e da turnê está em outras skills e é pouco detalhado nas fontes; a calculadora de
-ROAS por imersão do FHT foi mostrada na tela sem campos completos (a da referência é reconstrução do squad a partir do que foi
-dito); planilhas de tráfego e de custo do GPS não estão nos materiais baixados; as taxas de comparecimento e conversão divergem
-entre fontes (conflito 22) e ficam como cenário, não como regra.
+O método de IMR/Mundo Paralelo e da turnê está em outras skills e é pouco detalhado. A calculadora de ROAS por imersão da referência é
+reconstrução do squad, sem campos completos de origem. As taxas de comparecimento e conversão divergem entre casos e ficam como
+cenário, não como regra.

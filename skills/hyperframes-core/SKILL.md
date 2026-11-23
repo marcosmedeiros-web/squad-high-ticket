@@ -1,6 +1,6 @@
 ---
 name: hyperframes-core
-description: The HyperFrames composition contract — build one renderable project. Use for composition structure, the `data-*` timing attributes, `class="clip"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Also covers Tailwind projects and the STORYBOARD.md / SCRIPT.md plan formats. Read before writing composition HTML.
+description: 'The HyperFrames composition contract for one renderable project: structure, data-* timing, clips, tracks, sub-compositions, variables, media, deterministic rendering, validation and STORYBOARD/SCRIPT formats. Use for "write the composition HTML", "set clip timing", "add a sub-composition". Do NOT use for animation choreography (hyperframes-animation).'
 ---
 
 # HyperFrames Core

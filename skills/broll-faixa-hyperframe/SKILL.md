@@ -1,29 +1,24 @@
 ---
 name: broll-faixa-hyperframe
-description: >
-  Pega um vídeo/reels vertical 9:16, recorta o conteúdo em QUADRADO no topo e preenche a FAIXA de
-  baixo em 100% do vídeo com b-roll Hyperframe ILUSTRADO (um por take de 10s). Use quando o pedido for
-  "corta quadrado e bota faixa de hyperframe embaixo", "preenche a faixa preta com b-roll",
-  "barra de baixo com motion graphics do início ao fim". Formato quadrado-em-cima + faixa-embaixo.
+description: 'Recorta um vídeo vertical 9:16 em quadrado no topo e preenche a faixa de baixo com b-roll HyperFrames ilustrado (um por take de 10s). Use para "corta quadrado e bota faixa de hyperframe embaixo", "preenche a faixa preta com b-roll", "barra de baixo com motion graphics". NÃO usar para legenda queimada nem b-roll em tela cheia (broll-fullscreen).'
 metadata:
   { "tags": "reels, b-roll, faixa, barra, hyperframe, lower-third, video" }
 ---
 
 # VSL FAIXA HYPERFRAME (quadrado em cima + faixa Hyperframe embaixo, 100% do vídeo)
 
-Formato: vídeo 9:16 com o conteúdo (rosto do Chefe) num **quadrado em cima** e uma **faixa embaixo
+Formato: vídeo 9:16 com o conteúdo (rosto de quem fala) num **quadrado em cima** e uma **faixa embaixo
 preenchida 100% com b-roll Hyperframe ILUSTRADO**, do início ao fim. Um b-roll novo a cada **10s**.
 
-## REGRA QUE O CHEFE BRIGOU (NÃO ESQUECER)
+## REGRA PRINCIPAL (NÃO ESQUECER)
 **NUNCA queimar a frase falada como legenda na faixa.** Cada b-roll da faixa tem que ILUSTRAR a ideia
 do trecho: **kicker curto + headline punchy (3-7 palavras, resumo, NÃO a frase) + elementos visuais**
 (número contando, barra crescendo/encolhendo, ícones, comparação lado a lado, carimbo back.out, seta,
-checklist, gauge). Igual aos b-rolls de uma VSL profissional. (A 1ª versão só queimou a frase = lixo,
-o Chefe xingou. A 2ª, ilustrada, ele aprovou.)
+checklist, gauge). Igual aos b-rolls de uma VSL profissional. Faixa que só queima a frase é reprovada; a ilustrada é o padrão.
 
 ## FLUXO
 1. **Medir a faixa:** `cropdetect` em vários pontos do vídeo (`ffmpeg -ss T -t 1 -i v -vf cropdetect=24:2:0 -f null -`). A região com conteúdo dá o quadrado de cima; a faixa = `altura_total - altura_conteúdo` na base. (No caso real: vídeo 1080x1920, conteúdo top 1076px, faixa = **1080x844 começando em y=1076**.) Se o vídeo ainda NÃO veio cortado, cortar: conteúdo quadrado 1080x1080 em cima, faixa embaixo.
-2. **Transcrever LOCAL** com timestamp por palavra (faster-whisper `medium`, sem API paga; o áudio não sai da máquina): `~/.local/share/head-turbo/whisper-venv/bin/python ~/.claude/skills/cortes-tiktok-turbo/scripts/transcrever.py audio.wav transcricao` → `transcricao.json` (segmentos + palavras). Sem o venv: `bash ~/.claude/skills/watch/whisper-local/instalar.sh` (1x). Copie o áudio pra caminho ASCII antes (acento/vírgula no caminho atrapalham).
+2. **Transcrever LOCAL** com timestamp por palavra (faster-whisper `medium`, sem API paga; o áudio não sai da máquina): use o `scripts/transcrever.py` da skill `cortes-tiktok` (ou o `whisper-local/` da skill `watch`) → `transcricao.json` (segmentos + palavras). Se o faster-whisper não estiver instalado, a skill confere e oferece instalar na hora, com o OK da pessoa, dizendo o que vai instalar (um venv Python com `pip install faster-whisper`, cerca de 200 MB, mais o `ffmpeg` via `brew install ffmpeg` se faltar). Sem isso, peça a transcrição com timestamp pronta. Copie o áudio pra caminho ASCII antes (acento/vírgula no caminho atrapalham).
 3. **Quebrar em takes de 10s:** N = ceil(duração/10). Gerar specs `{id, dur, fala}` por take (a fala = texto da transcrição naquela janela, pro agente saber o que ilustrar). Gerar `specs<N>.json`.
 4. **Gerar os N b-rolls (paralelo):** Workflow `assets/workflow-bar-ilustrado.js` (1080x844), em lotes (~4 takes/agente). Cada agente LÊ o specs.json, pega a fala dos seus takes e **desenha** a barra ilustrando (kicker+headline+elementos), valida e renderiza pra `brolls/bar/bar-<id3>.mp4`. Args não são usados (agente lê o specs do disco) — relançar via `scriptPath`.
 5. **Montar:** `assets/montar_faixa.sh` — espera os N renders, **concatena** as barras na ordem (`concat` → bar-track 1080x844), **sobrepõe** na faixa: `overlay=0:<y_da_faixa>` mantendo a faixa preta coberta 100% e o **áudio do vídeo** (`-map 0:a`). Salva (no Mac também abre o vídeo; no Linux/WSL só diz onde salvou).

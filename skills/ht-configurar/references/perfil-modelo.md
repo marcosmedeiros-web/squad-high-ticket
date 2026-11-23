@@ -15,8 +15,6 @@ trafego:
   ferramenta: ""      # vazio = o gestor entrega a campanha campo a campo para subir à mão no Gerenciador; ou "Meta Ads CLI", outra CLI
   prefixo_campanha: "" # bloco obrigatório no nome da campanha; vazio = sem prefixo
 
-fontes_metodo: ""           # opcional: pasta onde você tem o acervo de aulas do método FHT; vazio = sem acervo
-
 revisao_cruzada: ""         # opcional: quem faz a verificação final além de você; vazio = você mesmo
 
 
@@ -32,13 +30,13 @@ padroes:
   eht_nao_renova: "a Experiência HT não renova; é escada para o próximo produto."
   dupla: "+50% sobre o individual."
   entregavel_ate_n: "entregável individual sempre \"até N\"; frequência fixa só em encontro de grupo."
-  duracao_entregaveis_1a1: "entregável 1a1 com o alvo do manual, teto na duração real e parte 2 prevista (diagnóstico: alvo 1h20, teto 2h)."
+  duracao_entregaveis_1a1: "entregável 1a1 com o alvo do padrão, teto na duração real e parte 2 prevista (diagnóstico: alvo 1h20, teto 2h)."
   capacidade_entrega: "expert sozinho até 20 alunos; mentor 1:70; navegador 1:100."
   faixas: "4 níveis de resultado como padrão."
   comunidade: "WhatsApp até ~10 alunos, Telegram até ~150, Circle a partir daí."
   regras_gic: "em aberto no método; no primeiro GIC, o agente propõe a versão mais simples, marca como suposição e lista em \"Assumi\"."
   master_plan_conservador: "renovação 50% e margem (lucro) de 40% sobre o recebido, ou seja, custo de 60%, até haver dado próprio."
-  roteiro_sessao: "versão de 6 etapas da trilha 09."
+  roteiro_sessao: "versão de 6 etapas."
   duracao_sessao: "alvo de 1h15, teto de 1h30."
   agendamento: "2 horários oferecidos, sessão marcada em até 2 dias."
   acordo_sim_ou_nao: "usar o acordo do sim ou não, sem a metáfora \"em cima do muro\"."

@@ -1,12 +1,11 @@
 # Variantes da condução (só como teste aprovado pelo estrategista)
 
-O padrão do squad é o roteiro de 6 etapas da trilha 09. As variantes abaixo aparecem em palestras de
+O padrão do squad é o roteiro de 6 etapas. As variantes abaixo aparecem em palestras de
 encontros presenciais e entram apenas como teste isolado, com hipótese, número de sessões e critério de comparação registrados
 em `00-plano/decisoes.md`.
 
 ## 1. Framework VSD de 10 etapas
-Fonte: catálogo fht-sessao-1a1-variante-vsd (parte I; palestra de encontro presencial, jun/2026). O documento completo era bônus
-e não está no material: só a sequência é conhecida.
+Só a sequência das etapas é definida; o detalhe de cada uma o agente monta com o expert.
 1. Quebra-gelo.
 2. Pergunta de inversão (inverte a polaridade: o lead passa a querer a conversa; ex. "me conta o motivo pelo qual você quis esta
    reunião").
@@ -21,8 +20,7 @@ e não está no material: só a sequência é conhecida.
 Diferença central para o padrão: o preço só aparece depois do compromisso, e a negociação é etapa explícita.
 
 ## 2. Ajustes de "jornada de fracasso" (mercados informais)
-Fonte: catálogo (parte I; palestra de encontro, fev/2026, nicho construção civil; resultado citado de contratos tem de ser
-conferido). Quatro ajustes:
+Caso de referência no nicho de construção civil (resultado de contratos a conferir). Quatro ajustes:
 1. Entender o momento do lead e mostrar o maior erro que ele cometeria sem ajuda e o próximo passo seguro.
 2. Mostrar a estrutura comum do início e a estrutura final que evita problemas, com evidência racional.
 3. Materializar a solução (planilha, sistema, relatório, exemplo real).

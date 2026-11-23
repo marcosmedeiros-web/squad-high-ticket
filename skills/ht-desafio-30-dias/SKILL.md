@@ -1,13 +1,13 @@
 ---
 name: ht-desafio-30-dias
-description: 'Squad High Ticket, método FHT. Desenha e conduz o desafio de 30 dias em grupo que o expert oferece aos próprios alunos (bônus ou entregável do HT, ativação antes das primeiras parcelas, versão acelerada da jornada até o primeiro resultado), no formato dos desafios da FHT (trilha 22): ficha do desafio com ação-alvo, cascata de etapas, calendário semana a semana, onboarding, central ("link dos links"), bootcamp + laboratório de correção ao vivo por sorteio + plantão por etapa, roleplays, offboarding com árvore de próximo passo, engajamento, funil de desistência e NPS. Inclui a variante desafio de imersão (6 semanas para o aluno executar a própria imersão). Use quando o estrategista disser "monta o desafio de 30 dias", "calendário do desafio", "onboarding da turma", "laboratório", "plantão", "encerramento do desafio". NÃO usar para lançamento LPSG/5+1 nem desafio de lançamento da Turbo.'
+description: 'Desenha e conduz o desafio de 30 dias em grupo que o expert oferece aos alunos: ficha com ação-alvo, cascata de etapas, calendário, onboarding, central, laboratório, plantão, offboarding, engajamento e NPS; inclui a variante imersão de 6 semanas. Use para "monta o desafio de 30 dias", "calendário do desafio", "laboratório", "plantão". NÃO usar para evento pago de lançamento.'
 ---
 
 # Desafio de 30 dias (programa em grupo)
 
 ## 1. Para que serve e o que entrega
 
-O desafio é a versão em grupo e acelerada da jornada do aluno até o primeiro resultado. Na FHT ele leva o aluno do zero à
+O desafio é a versão em grupo e acelerada da jornada do aluno até o primeiro resultado. No método ele leva o aluno do zero à
 primeira venda de HT em sessão 1a1; no projeto do expert, ele leva o aluno do expert ao primeiro marco da jornada dele (a
 "ação-alvo"). Funciona porque cria urgência ("é agora"), energia coletiva e compromisso público, e tira a complexidade do
 caminho. Reduz cancelamento e quebra a objeção de pagar as primeiras parcelas, por isso entra como bônus da oferta. O nome
@@ -39,7 +39,7 @@ promete "as primeiras X", nunca volume; os 30 dias são a ponta de uma jornada d
 ## 3. Passo a passo
 
 ### Passo 1. Ficha do desafio
-- **Ação-alvo** e habilidade a desenvolver no sprint, com início, meio e fim. Nome promete "as primeiras X" (FHT: "primeiras
+- **Ação-alvo** e habilidade a desenvolver no sprint, com início, meio e fim. Nome promete "as primeiras X" (método: "primeiras
   vendas", não "10 vendas em 30 dias"). No offboarding, o reenquadramento é "primeiros aprendizados em 30 dias".
 - **Para quem é**: quem tem urgência do resultado. **Para quem não é**: quem prefere ir com calma pela área de membros e o
   autodidata; quem está em outro desafio ao mesmo tempo.
@@ -47,21 +47,21 @@ promete "as primeiras X", nunca volume; os 30 dias são a ponta de uma jornada d
   mentor). Uma não espera a outra: o aluno segue o desafio mesmo sem diagnóstico feito.
 - Pré-requisitos e regras do que pode e não pode; inscrição fechada; convite pela comunidade ou mensagem individual.
 - Gamificação sem prêmio em dinheiro: subir de nível/faixa (padrão do squad: 4 níveis da planilha); premiação física a quem
-  entrega 100% das tarefas é opcional e decisão do estrategista (na FHT, entregue no encontro presencial seguinte).
-- Modelo FHT de faixa ligada à **ação**, não só ao resultado: faixa branca = ainda não fez a ação-alvo; faixa azul = fez ao menos
+  entrega 100% das tarefas é opcional, padrão assumido (no método, entregue no encontro presencial seguinte).
+- Modelo método de faixa ligada à **ação**, não só ao resultado: faixa branca = ainda não fez a ação-alvo; faixa azul = fez ao menos
   uma (uma sessão 1a1, vendendo ou não); faixa verde = primeiras vendas por degrau de faturamento (qualquer venda conta, Pix com
-  prova também). Meta do offboarding: ninguém sai de faixa branca. Para o aluno do expert, adaptar com o estrategista (seção 5).
+  prova também). Meta do offboarding: ninguém sai de faixa branca. Para o aluno do expert, adaptar pelo padrão assumido (seção 5).
 
 ### Passo 2. Cascata de etapas (a ordem é fixa)
-Regra de ouro do modelo FHT: **arrumar a casa para receber gente, criar a oferta, montar a conversa de venda, só depois buscar
-as pessoas**. Cascata FHT (desafio "vendas em 30 dias"):
+Regra de ouro do modelo do método: **arrumar a casa para receber gente, criar a oferta, montar a conversa de venda, só depois buscar
+as pessoas**. Cascata do método (desafio "vendas em 30 dias"):
 Semana 0/1 de preparo (gestão do tempo + Master Plan/Market Fit) → vitrine → AR/oferta → sessão 1a1 (roteiro, Raio-X, deck) →
 SLG → roleplays → semana de vendas → offboarding.
 Para o aluno do expert: as etapas saem da **jornada do avatar** em 02-oferta (4 etapas x 4 a 5 passos), pegando os passos que
 levam à ação-alvo, na mesma lógica (pré-requisito antes, ação de campo depois). Cada etapa tem uma tarefa com entrega
 auditável e uma skill ou material dono do conteúdo:
 
-| Etapa (modelo FHT) | Tarefa | Conteúdo vem de |
+| Etapa (modelo do método) | Tarefa | Conteúdo vem de |
 |---|---|---|
 | Master Plan / Market Fit | planilha preenchida | `ht-master-plan`, `ht-pesquisa-e-potencial` |
 | Vitrine | perfil ajustado (foto, nome, bio, 3 fixados) | `ht-vitrine` |
@@ -75,19 +75,19 @@ Esta skill não reescreve o conteúdo dessas etapas: define formato, prazo, entr
 
 ### Passo 3. Os três encontros de cada etapa
 - **Bootcamp** (ensino + tarefa): formato 4 Es (ensino, exemplo, exercício cronometrado, exame em um aluno); o aluno copia o
-  white label, faz durante a aula, escreve "feito" no chat; fecha com tarefa, NPS e aviso do laboratório.
+  modelo, faz durante a aula, escreve "feito" no chat; fecha com tarefa, NPS e aviso do laboratório.
 - **Laboratório** (dia seguinte): só correção ao vivo do que foi enviado, por sorteio. Passo 6.
 - **Plantão**: aluno abre o microfone e o mentor responde com tela. Passo 7.
-Horários de referência da FHT: 10h às 12h (AR também 14h às 17h); plantões às sextas; fim de semana sem call, só tarefa.
+Horários de referência do método: 10h às 12h (AR também 14h às 17h); plantões às sextas; fim de semana sem call, só tarefa.
 
 ### Passo 4. Calendário
 Modelo de 5 semanas em `references/desenho-e-calendario.md`. Regras: programação da semana seguinte liberada na sexta (não gerar
 ansiedade); gravações no ar em até 1 dia útil; aula de véspera de feriado vira plantão; prazo de envio antes do laboratório
 (ex.: até 23h59 do dia do bootcamp, ou até 9h30 para laboratório às 10h); na etapa de vendas, sessão marcada com lead em até
-2 dias (padrão do squad); agenda do desafio separada da agenda da mentoria, com lembrete de 24 h. Na semana de vendas, os
-últimos dias ficam **sem encontro**, reservados para a ação de campo (jun/2026: 3 dias); sessões só depois de a sessão estar
+2 dias (padrão do squad); agenda do desafio separada da agenda do programa, com lembrete de 24 h. Na semana de vendas, os
+últimos dias ficam **sem encontro**, reservados para a ação de campo (3 dias); sessões só depois de a sessão estar
 pronta, 2 ou 3 por dia, fora do horário dos encontros. Variações vistas: laboratório de Master Plan na semana 0; plantão diário
-na primeira semana (teste de mar/2025); duas turmas de cidades diferentes unidas no mesmo desafio.
+na primeira semana ; duas turmas de cidades diferentes unidas no mesmo desafio.
 
 ### Passo 5. Onboarding e central
 - **Onboarding**: para quem é e não é; por que desafio funciona; os dois erros que impedem o primeiro resultado (pensar demais
@@ -99,8 +99,8 @@ na primeira semana (teste de mar/2025); duas turmas de cidades diferentes unidas
   no dia 1: entrar no grupo de avisos e confirmar no chat, sincronizar a agenda e confirmar, entrar na comunidade, salvar o link
   da central, responder o NPS. Roteiro em `references/onboarding.md`.
 - **Central**: página única que nunca muda de link, fixada no grupo de avisos por 30 dias, atualizada só na etapa do dia ("um
-  problema de cada vez"); cada etapa com mapa mental, white labels, agente de IA da etapa (se houver), checklist e botão "enviar
-  tarefa" (nome, e-mail usado na mentoria, links com permissão aberta). Três lugares fixos: central, grupo de avisos, agenda.
+  problema de cada vez"); cada etapa com mapa mental, modelos, agente de IA da etapa (se houver), checklist e botão "enviar
+  tarefa" (nome, e-mail usado no programa, links com permissão aberta). Três lugares fixos: central, grupo de avisos, agenda.
   Estrutura em `references/central.md`. Execução: `ht-web-designer` (ou Notion); formulário e planilha: `ht-gestor-automacoes`.
 - Comunidade da turma: padrão do squad (WhatsApp até ~10, Telegram até ~150, Circle a partir daí).
 
@@ -111,7 +111,7 @@ aula conforme a etapa (AR: 20 a 25 min cada; vitrine: ~12 perfis). Ordem de aná
 Mentor diz primeiro o que entendeu sem ouvir o aluno, depois pergunta e ajusta. Ao fim de cada um: "o que você pegou do
 colega?". **Os erros estão sempre nos mesmos lugares**: cada correção vira checklist da turma; ajuste pedido no mesmo dia.
 Fecha com NPS. Quem não foi sorteado: canal de conteúdo, check-up ou análise individual.
-**Laboratório de sessões reais** (jan/2025): na etapa de campo, os alunos submetem gravações de sessões feitas (retroativas, com
+**Laboratório de sessões reais**: na etapa de campo, os alunos submetem gravações de sessões feitas (retroativas, com
 ou sem venda, link com permissão aberta) até um prazo antes do encontro (caso: segunda 18h para laboratório na terça), e o mentor
 analisa antes e corrige ao vivo; antes dele, um encontro de **engenharia reversa** de sessões que venderam. Checklists de erros típicos por etapa
 em `references/laboratorio-ao-vivo.md`.
@@ -131,11 +131,11 @@ em `references/laboratorio-ao-vivo.md`.
 - Travou: reunião estratégica urgente pelo canal individual; quem espera diagnóstico ou plano de ação para começar: fazer a ação
   agora.
 - **NPS ao fim de cada aula** (nome, e-mail, nota 0 a 10, por quê, sugestão); ler toda nota ≤ 8; nota honesta, não por
-  obrigação. Técnica de adesão da FHT: alguns materiais só liberados depois do NPS.
+  obrigação. Técnica de adesão do método: alguns materiais só liberados depois do NPS.
 - Mínimos de volume para concluir: **20 sessões; 25 no desafio (pacto das 25)** pelo padrão do squad; análise depois de no
-  mínimo 5. Origem do 25 (jan/2025): meta de 25 sessões até a véspera do encerramento, pela "lei das médias" (com conversão
+  mínimo 5. Origem do 25: meta de 25 sessões até a véspera do encerramento, pela "lei das médias" (com conversão
   baixa, o volume é o que garante as primeiras vendas). Checagem no chat do offboarding: "fiz / não fiz / está agendado". Conversão de referência 10% a 20% (padrão do squad). Para o aluno do expert, trocar "sessões" pela ação de campo
-  da ação-alvo e definir o mínimo com o estrategista.
+  da ação-alvo e assumir o mínimo e listar em "Assumi".
 - Detalhe em `references/engajamento-e-nps.md`.
 
 ### Passo 9. Offboarding
@@ -143,22 +143,22 @@ Roteiro em `references/offboarding.md`: maior aprendizado e maior conquista de c
 resultados; reenquadramento ("primeiros aprendizados em 30 dias"; superestimamos o curto prazo e subestimamos o longo; não
 comparar com o palco do outro; ter mais "não" que "sim" é normal); **árvore de próximo passo**: sem diagnóstico → pedir;
 diagnóstico sem plano → pedir o plano; travado → reunião estratégica; 5 a 10 ações sem resultado → análise; indo bem → seguir
-o plano. Regra FHT: sem sessão 1a1 não há venda, não esperar a entrega pronta para fazer sessão. Faixas da turma; próximo
-desafio ou programa; programa de afiliados (apresentar só se o estrategista tiver aprovado, ver `ht-afiliados-e-consultores`); NPS
-do desafio inteiro, recado aos mentores, confirmação do próximo encontro. Grupo e central: a FHT já fez das duas formas (mar/2025
-fechou o grupo do desafio e manteve a central por ~15 dias; jul/2026 manteve o grupo sem novas mensagens); escolher e avisar.
+o plano. Regra do método: sem sessão 1a1 não há venda, não esperar a entrega pronta para fazer sessão. Faixas da turma; próximo
+desafio ou programa; programa de afiliados (apresentar só se já estiver aprovado, ver `ht-afiliados-e-consultores`); NPS
+do desafio inteiro, recado aos mentores, confirmação do próximo encontro. Grupo e central: o método já fez das duas formas (num caso
+fechou o grupo do desafio e manteve a central por ~15 dias; outro manteve o grupo sem novas mensagens); escolher e avisar.
 Follow-up de sessão sem venda é logo (dias, não semanas); vendas novas postadas na comunidade.
 
 ### Passo 10. Variantes
-**Desafio de estudo do método** (dez/2025): 3 semanas para a turma assistir o curso do método e escrever um resumo por módulo,
+**Desafio de estudo do método**: 3 semanas para a turma assistir o curso do método e escrever um resumo por módulo,
 com salas de monitoria ao vivo; mesma lógica de central, prazo e NPS. Serve como próximo desafio para quem acabou de sair do 30 dias.
 
 **Desafio de imersão (6 semanas)**
-Desafio em grupo cujo objetivo é o aluno executar a **própria imersão online** (no FHT, de implementação): semana 1 planejamento
+Desafio em grupo cujo objetivo é o aluno executar a **própria imersão online** (no método, de implementação): semana 1 planejamento
 e preparação da captação (definição de resultado, copy, ferramentas); semanas 2 a 3 início e otimização da captação (tráfego,
 plantões "mão na massa"); semanas 4 a 5 palestras, talk de abertura, pré-pitch e pitch com laboratórios, API oficial, aquecimento
 e confirmação ~15 dias antes; semana 6 preparação técnica, evento, recuperação de vendas e offboarding com análise individual da
-imersão. A FHT passou de 4 para 6 semanas porque faltou tempo para otimizar o tráfego. Pré-requisito: oferta validada e vendida
+imersão. O método passou de 4 para 6 semanas porque faltou tempo para otimizar o tráfego. Pré-requisito: oferta validada e vendida
 em 1a1 (quem não vendeu não entra). Calendário em `references/desenho-e-calendario.md`; conteúdo técnico de cada etapa nas
 skills 26 a 33.
 
@@ -178,7 +178,7 @@ skills 26 a 33.
    for sessão 1a1.
 10. Envio de aviso, convite ou lembrete a aluno só com OK do estrategista; disparo em massa só pela API oficial.
 
-## 5. Quando a decisão é do estrategista
+## 5. Padrões assumidos (o agente decide e lista em "Assumi: … (é só pedir para mudar)")
 
 - Rodar em grupo ou no individual (abaixo de ~10 a 15 alunos).
 - Ação-alvo, nome e promessa do desafio (é texto público e mexe na oferta: se for bônus, 02-oferta).
@@ -225,28 +225,12 @@ skills 26 a 33.
 
 ## 8. Ferramentas de apoio
 
-`pagina-design-premium`, `paginas-interativas-premium` e `publicar-pagina-cloudflare` (central), `gerador-slides-turbo` (slides
+`pagina-design-premium`, `paginas-interativas-premium` e `publicar-pagina-cloudflare` (central), `gerador-slides` (slides
 de bootcamp e onboarding), `anthropic-skills:xlsx` (planilha de registros, sorteio e painel), `automacao-fluxos` (formulário de
-tarefa, NPS, lembretes), `conectar-whatsapp-oficial` (avisos), `transcrever-youtube-turbo` e `watch` (rever gravações de aula para
-o checklist de erros), `avoid-ai-writing` e `humanizer`.
+tarefa, NPS, lembretes), `conectar-whatsapp-oficial` (avisos), `transcrever-youtube` e `watch` (rever gravações de aula para
+o checklist de erros), `avoid-ai-writing` e `humanizer`.## 9. Limites (não inventar)
 
-## 9. Fontes e lacunas
-
-**Fontes**: trilha 22, desafios de vendas em 30 dias de jan/2025, mar/2025, mai/2025, dez/2025, jan/2026, abr/2026, mai/2026,
-jun/2026 SP e jul/2026 RJ (onboardings 01, 14, 72, 86, 114, 137, 153, 166 e 182; offboardings 13, 26, 133, 152, 165, 181 e
-jan/2025 196, 198, 199, 201; plantões 91, 96; laboratórios por amostra), via transcrições; desafio de imersão fev/2026 (aula 28,
-onboarding, transcrita hoje) e out/2025 (aulas 52 e 71); `_skills-mapa/parte-D` (desenhista do desafio, trilha 19), `parte-E`
-blocos A e B (operação e laboratórios como auditores), `parte-F` bloco A e engajamento, `parte-G` (cronograma do desafio de
-imersão, onboarding e offboarding), `parte-H` (desafio de primeiras vendas); `CATALOGO-SKILLS-FHT.md` 5.5.
-
-**Amostragem**: na revisão R8 (23/11/2026) todos os onboardings do desafio de 30 dias com texto foram lidos por inteiro (9 de 9;
-os de mar/2026 SP e RJ e jan/2026 SP estão sem legenda), mais o de imersão fev/2026 (28) lido pelo escritor; todos os
-offboardings e encerramentos (13, 26, 133, 152, 165, 181, 196, 198, 199, 201) e o do desafio de imersão out/2025 (71) foram lidos
-por inteiro. Do 182 (4h41), lida a parte de onboarding e varrida a parte do bootcamp de Market Fit. Laboratórios e roleplays
-seguem só pelos checklists consolidados nas partes E e F (amostra, não censo).
-
-**Lacunas**: (1) os white labels, mapas mentais, agentes de IA e o "documento de white label do Desafio 30D" não estão nas
-fontes; (2) roleplays e laboratórios de várias turmas sem legenda; (3) o modelo FHT é do desafio de vendas de HT: a adaptação para
-a ação-alvo do aluno do expert é desenho desta skill sobre a regra "ar-definir-desafio-como-entregável", sem caso de nicho nas
-fontes (marcar como esqueleto até a primeira turma rodar); (4) não há número consolidado de resultado por turma; (5) premiação
-física citada sem descrição.
+Os modelos prontos, mapas mentais e agentes de IA por etapa não vêm no pacote: as estruturas são reconstruídas. Roleplays e
+laboratórios seguem pelos checklists consolidados (amostra, não censo). O modelo é o do desafio de vendas de HT: a adaptação para a
+ação-alvo do aluno do expert é desenho desta skill, sem caso de nicho (marcar como esqueleto até a primeira turma rodar). Não há número
+consolidado de resultado por turma; premiação física fica sem descrição.

@@ -1,6 +1,6 @@
 ---
 name: ht-afiliados-e-consultores
-description: 'Squad High Ticket, método FHT. Monta e opera o programa de afiliados de evento (quem já recomenda o expert convida possíveis compradores do HT para a imersão ou a sessão 1a1 e ganha comissão sobre o HT vendido e as renovações) e o programa de consultores HT certificados que vendem por comissão com posição oficial. Entrega diagnóstico de prontidão, regulamento, tabela de comissão em faixas (padrão recomendado: valor por projeto com piso, pago 45 dias após o recebimento, filiação de 30 dias), kit do afiliado, webinário de abertura, atribuição por link e crachá, controle e pagamento. Use quando o estrategista disser "afiliados pro evento", "comissão por indicação", "alunos convidando", "dobrar o público da imersão", "consultor do HT". NÃO usar para vender ingresso, time comercial interno nem lançamento LPSG/5+1 (fora do escopo deste squad).'
+description: 'Monta o programa de afiliados de evento (quem já recomenda o expert convida compradores do HT e ganha comissão) e o de consultores HT certificados. Use com "afiliados pro evento", "comissão por indicação", "alunos convidando", "consultor do HT". NÃO usar para vender ingresso nem time comercial interno.'
 ---
 
 # Afiliados de evento e consultores HT
@@ -10,8 +10,8 @@ description: 'Squad High Ticket, método FHT. Monta e opera o programa de afilia
 O maior obstáculo de todo evento de venda do HT é pôr gente na sala. Muita gente já recomenda o expert por reciprocidade
 (alunos, clientes, parceiros); a estratégia de afiliados transforma isso em canal: o afiliado convida pessoas com potencial de
 comprar o HT para o evento (de graça ou com credencial), o expert converte no pitch e o afiliado recebe comissão sobre o HT
-vendido e sobre as renovações. No caso de referência da FHT, o canal trouxe cerca de metade dos presentes e cerca de 1/3 das
-vendas de um evento, sem custo de tráfego (Live 023). O consultor HT é a versão profissional: pessoa certificada que gera lead
+vendido e sobre as renovações. Num caso de referência do método, o canal trouxe cerca de metade dos presentes e cerca de 1/3 das
+vendas de um evento, sem custo de tráfego. O consultor HT é a versão profissional: pessoa certificada que gera lead
 e vende o HT por comissão, com perfil e posição oficiais.
 
 **Entrega** (em `05-eventos/<evento>/afiliados/`, e `06-entrega/` não é tocado):
@@ -42,8 +42,8 @@ e vende o HT por comissão, com perfil e posição oficiais.
 Conferir e escrever em `diagnostico.md`: oferta aprovada e vendida em 1a1 (20+ sessões); evento com pitch já rodado ou
 conversão de referência; entrega com resultado (as pessoas sabem que estão "pondo o convidado em boas mãos"); taxa de
 renovação real (se não houver, a comissão de renovação é promessa sobre o futuro: dizer isso ao estrategista); alguém do time para o
-trabalho manual (a aula avisa que dá muito trabalho: no caso FHT foram 156 páginas de afiliado feitas à mão e contato individual
-pelo WhatsApp a cada 2 ou 3 dias). A aula 31 é explícita: para quem está começando um produto novo, não é o momento. Saída:
+trabalho manual (o método avisa que dá muito trabalho: num caso de referência foram 156 páginas de afiliado feitas à mão e contato individual
+pelo WhatsApp a cada 2 ou 3 dias). O método é explícito: para quem está começando um produto novo, não é o momento. Saída:
 abrir / abrir em escala menor / não abrir.
 
 ### Passo 2. Proposta ao afiliado (a "Roma" do programa)
@@ -54,20 +54,20 @@ valor por HT e o benefício de renovação, usando os números próprios do expe
 
 ### Passo 3. Tabela de comissão (padrão recomendado; a pessoa pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`)
 - **Valor por projeto, com piso**: a skill propõe um piso por HT vendido pelo padrão do projeto, monta a tabela e lista o valor em "Assumi"; vira oficial na aprovação do plano.
-- **Comissão gamificada em faixas** (modelo da FHT): 1 a 5 vendas = comissão inicial por venda; 6 a 10 = comissão inicial +
+- **Comissão gamificada em faixas** (modelo do método): 1 a 5 vendas = comissão inicial por venda; 6 a 10 = comissão inicial +
   comissão nas próximas 2 renovações de cada aluno; mais de 10 = comissão inicial + comissão nas próximas 4 renovações. Cada
   faixa dá ganho desproporcional para motivar a próxima.
-- **Crédito x dinheiro** (opção que a FHT usa): comissão em crédito interno (abater parcela, renovação, upgrade) vale o dobro da
+- **Crédito x dinheiro** (opção do método): comissão em crédito interno (abater parcela, renovação, upgrade) vale o dobro da
   comissão em dinheiro. Só faz sentido quando o afiliado é aluno com parcela a pagar.
-- **Pagamento: 45 dias após o recebimento** (padrão recomendado). À vista: comissão 45 dias após o recebimento. Parcelado: a FHT paga 50% após a
+- **Pagamento: 45 dias após o recebimento** (padrão recomendado). À vista: comissão 45 dias após o recebimento. Parcelado: o modelo do método paga 50% após a
   1ª parcela e 50% após a última, e não paga a 2ª metade se o aluno não quitar; aplicar o D+45 a cada metade, ou outra divisão
   que a pessoa pedir (seção 5).
 - **Filiação de 30 dias** (padrão recomendado): conta a venda fechada até 30 dias depois do evento (ou da sessão 1a1 indicada), desde que o
   convidado tenha entrado pelo link do afiliado. Primeiro cadastro vale.
 - Pix/transferência só contra nota (o material cita "CNPJ para CNPJ"; conferir com o contador do expert).
-- Referências das aulas (só referência, ver Conflitos na seção 9): R$ 10 mil por HT em dinheiro ou R$ 20 mil em crédito (fev/25);
-  R$ 10 mil em crédito ou R$ 5 mil em dinheiro (jan/26); renovações por 4 a 5 anos (lives); filiação de 90 dias (jan/25) x 30
-  dias (desafios de imersão e jan/26). Exemplos de cálculo em `references/tabela-de-comissao.md`.
+- Referências do método (só referência, ver Conflitos na seção 9): R$ 10 mil por HT em dinheiro ou R$ 20 mil em crédito;
+  R$ 10 mil em crédito ou R$ 5 mil em dinheiro; renovações por 4 a 5 anos; filiação de 90 dias x 30
+  dias. Exemplos de cálculo em `references/tabela-de-comissao.md`.
 
 ### Passo 4. Regulamento
 Modelo completo em `references/regulamento-afiliado.md`. Núcleo do método:
@@ -79,24 +79,23 @@ Modelo completo em `references/regulamento-afiliado.md`. Núcleo do método:
   comissão ao convidado; repassar comissão.
 - **Aprovação manual** de cada afiliado (pode negar). Não se cadastrar "por curiosidade": custa operação manual; dúvida sobre o
   programa vira conversa com o time antes do cadastro.
-- **Número de convites por afiliado** limitado pela capacidade do evento (FHT: 15 em mar/2025, até 30 nas edições seguintes, por
+- **Número de convites por afiliado** limitado pela capacidade do evento (referência: 15 convites numa edição, até 30 nas seguintes, por
   imersão; o número do projeto sai da capacidade dividida pelo número esperado de afiliados ativos).
-- **Benefício do afiliado** no caso da aula 31: além da comissão, o próprio afiliado ganhava o ingresso do evento (a skill propõe o mesmo e lista em "Assumi").
+- **Benefício do afiliado** no caso de referência: além da comissão, o próprio afiliado ganhava o ingresso do evento (a skill propõe o mesmo e lista em "Assumi").
 - Venda sem link não conta; indicação anterior ao programa: o time atribui manualmente se comprovada.
-- Troca de afiliado: o afiliado não pede; se o **próprio convidado** pedir para mudar de lista, o time avalia (regra do offboarding
-  jan/2026). Afiliado não indica a si mesmo nem repassa comissão ao convidado.
+- Troca de afiliado: o afiliado não pede; se o **próprio convidado** pedir para mudar de lista, o time avalia (regra de referência). Afiliado não indica a si mesmo nem repassa comissão ao convidado.
 - Aviso no regulamento: as regras podem mudar, sempre com comunicação prévia aos afiliados.
 - O regulamento é modelo: validar com o jurídico do expert antes de publicar.
 
 ### Passo 5. Abrir o programa (recrutar afiliados)
-Fluxo da aula 31 (trilha 17), em ordem: (1) criativo ou convite convidando para "ouvir a oportunidade de afiliado";
+Fluxo do método, em ordem: (1) criativo ou convite convidando para "ouvir a oportunidade de afiliado";
 (2) página de inscrição; (3) grupo de WhatsApp; (4) chamada da base de alunos e parceiros; (5) lembretes; (6) **webinário com
 as regras**; (7) formulário de afiliado durante o webinário; (8) aprovação e **página de inscrição individual por afiliado**;
-(9) grupo de afiliados com o drive de materiais. Atalhos que a FHT usa: oferecer no offboarding do desafio ou no fim de uma live
+(9) grupo de afiliados com o drive de materiais. Atalhos do método: oferecer no offboarding do desafio ou no fim de uma live
 (campo "quer ser afiliado?" na última pergunta do NPS). Roteiro do webinário e do convite ao afiliado em `references/kit-do-afiliado.md`.
 
 ### Passo 6. Kit do afiliado
-Tudo "mastigado" (Live 023): página do evento com a marca do afiliado rastreada; **roteiro de convite** escrito para o afiliado
+Tudo "mastigado": página do evento com a marca do afiliado rastreada; **roteiro de convite** escrito para o afiliado
 usar (estrutura: gancho de oportunidade, gratidão ao expert, prova, escassez de convites, convite pessoal); notificações;
 formulário de confirmação de presença; drive; grupo. Dois scripts: **convite direto** (para quem o afiliado já sabe que tem
 perfil) e **convite com qualificação** (perguntas antes de oferecer o convite). Regra de copy do convite: vender a ideia de ir
@@ -110,7 +109,7 @@ ao evento, sem falar de mentoria nem de preço.
   confirmação dupla). Se o evento tiver credencial (a entrada do evento segue `entrada_imersao`), o convidado do afiliado segue a mesma regra; a skill propõe e lista em "Assumi".
 
 ### Passo 8. Operação e acompanhamento
-- **Contato individual com cada afiliado a cada 2 ou 3 dias** (aula 31): quantos convidou, quantos confirmaram, dúvidas.
+- **Contato individual com cada afiliado a cada 2 ou 3 dias** (padrão do método): quantos convidou, quantos confirmaram, dúvidas.
 - Ranking e relatório no grupo (sem expor dado pessoal de convidado).
 - Planilha de controle em `references/operacao-e-atribuicao.md`.
 - Afiliado que pergunta "posso mandar para a sessão 1a1?": sim, se o convidado já tem consciência; o time faz a sessão
@@ -121,14 +120,14 @@ ao evento, sem falar de mentoria nem de preço.
   registrar a data prevista de cada pagamento (recebimento + 45 dias).
 - Afiliado no evento pode ajudar a quebrar objeção dos próprios convidados; quem vende é o closer do expert.
 - Relatório final ao estrategista: presentes por afiliado, vendas, conversão do canal x conversão geral, comissão total, % das vendas.
-  Referência da FHT, com conflito: na Live 023, convidados de afiliado converteram mais que a média (18,98% x 15%, legenda); na
-  aula 31 (outra imersão), quem não veio de afiliado converteu um pouco mais, mas o afiliado trouxe gente de fora da base. Conferir.
+  Referência do método, com variação: numa imersão, convidados de afiliado converteram mais que a média (18,98% x 15%); em outra,
+  quem não veio de afiliado converteu um pouco mais, mas o afiliado trouxe gente de fora da base. Conferir.
 - Debrief em `13-aprendizados/`.
 
 ### Passo 10. Programa de consultores HT (quando pedido)
 Desenho em `references/programa-de-consultores.md`. Diferença do afiliado: **posição profissional oficial** ("consultor do
 programa X"), com perfil próprio administrado sob regras; responsabilidade de **gerar lead e fazer a venda** (sessão 1a1 ou
-evento); o expert cuida da entrega. Componentes da FHT (Live 042): processo de certificação (que a FHT cobra, como franquia);
+evento); o expert cuida da entrega. Componentes do método: processo de certificação (que o programa cobra, como franquia);
 treinamento de produto e de vendas; materiais (slides, quebra de objeção, link de checkout); ferramentas (automação, disparo);
 acompanhamento para otimizar. Números citados (referência): conversão média de 25%, comissão de até R$ 10 mil por venda,
 consultores com 4 a 5 vendas por semana. Pré-requisitos: produto validado com conversão alta, margem para comissão, roteiro de
@@ -152,7 +151,7 @@ A skill decide pelo padrão ou pela recomendação, sem lote de perguntas, e lis
 - Abrir ou não o programa neste evento (e em que escala).
 - Piso e tabela de comissão: valor inicial por HT, faixas, quantas renovações por faixa.
 - Crédito interno x dinheiro (e a proporção), e se vale para não alunos.
-- Divisão do pagamento no parcelado: padrão = metade após a 1ª e metade após a última, cada uma D+45 (modelo FHT adaptado ao
+- Divisão do pagamento no parcelado: padrão = metade após a 1ª e metade após a última, cada uma D+45 (modelo do método adaptado ao
   padrão de D+45); alternativas (proporcional a cada parcela, ou tudo após a quitação) só se a pessoa pedir.
 - Quem pode ser afiliado e quantos convites cada um tem.
 - Convidado do afiliado paga credencial ou não: segue a regra de entrada do evento.
@@ -167,7 +166,7 @@ A skill decide pelo padrão ou pela recomendação, sem lote de perguntas, e lis
 - [ ] Kit: página de afiliados, webinário, convite direto e com qualificação, notificações, formulário, página individual.
 - [ ] Atribuição definida (link + número no crachá) e ligada à confirmação de presença.
 - [ ] Planilha de controle e cadência de 2 a 3 dias com responsável nomeado.
-- [ ] Nenhum número de aula usado como promessa sem o número próprio do expert.
+- [ ] Nenhum número de referência usado como promessa sem o número próprio do expert.
 
 **Auditoria final (erros típicos)**
 1. Programa aberto com produto novo ou sem conversão conhecida?
@@ -196,22 +195,8 @@ A skill decide pelo padrão ou pela recomendação, sem lote de perguntas, e lis
 (formulário, grupo, notificações), `email-marketing-mautic` (comunicação com afiliados), `hotmart-meta-conversao` e
 `analytics-dashboard` (atribuição e painel do canal), `avoid-ai-writing` e `humanizer` (scripts de convite).
 
-## 9. Fontes e lacunas
+## 9. Conflitos e lacunas do método
 
-**Fontes**: Live FHT 023 (estratégia que pode dobrar o evento, inteira: proposta, fases, faixas, pagamento, crachá, resultados);
-trilha 17, aula 31 (Afiliados, fluxo de 9 passos, ressalvas), relida por inteiro na revisão, e aula 23 (afiliados
-funcionam para público fora do Brasil, sem Instagram nem WhatsApp);
-trilha 22, aula 200 (Programa de Afiliado, jan/2025) e offboardings de mar/2025, mai/2025, dez/2025 e jan/2026 (regras, crédito x
-dinheiro, sessão 1a1, 30 dias); Live 042 (caminho 4, consultor HT); Lives 017 e 039 (afiliados entre as estratégias de atração);
-`_skills-mapa/parte-D` (criador-programa-de-afiliados), `parte-E` bloco G, `parte-G` (gerente-programa-afiliados), `parte-H`
-(rodar-programa), `parte-I` (programa de afiliados, consultor); `CATALOGO-SKILLS-FHT.md` 5.4 e Conflito 24.
+**Valores que variam por projeto** (o padrão recomendado de comissão resolve no que cobre): valor e moeda da comissão (dinheiro x crédito); renovações pagas por vários anos x por faixa; filiação de 90 dias x 30 dias x data fixa; conversão de referência entre 15% e 25%; conversão do convidado de afiliado maior ou um pouco menor que a do público geral. Conferir sempre com o número do expert.
 
-**Conflitos expostos (resolvidos pelo padrão recomendado de comissão no que ele cobre)**: valor e moeda da comissão mudam entre turmas (R$ 10 mil dinheiro
-ou R$ 20 mil crédito x R$ 10 mil crédito ou R$ 5 mil dinheiro); renovações pagas por 4 ou 5 anos (lives) x por faixa (desafios) x "a cada renovação" acima de 10 vendas (offboarding mai/2025);
-filiação de 90 dias x 30 dias x data fixa; conversão de referência 15% a 25% ("acima de 20%" nos offboardings de 2025-2026);
-conversão do convidado de afiliado maior (Live 023) x um pouco menor (aula 31) que a do público geral.
-
-**Lacunas**: (1) o drive de materiais do afiliado, o vídeo de convite e os scripts completos não estão nas fontes (há só a
-estrutura e trechos ditados): os modelos daqui são reconstruídos; (2) não há modelo jurídico de termo de afiliado nem regra
-fiscal; (3) o programa de consultor tem só uma descrição de live: sem currículo da certificação, sem preço, sem regras de perfil;
-(4) números de resultado (430 de 844 presentes, 56 de 175 vendas) vêm de legenda: referência, conferir.
+**Lacunas (não inventar)**: (1) o drive de materiais, o vídeo de convite e os scripts completos são modelos reconstruídos a partir da estrutura do método; (2) não há modelo jurídico de termo de afiliado nem regra fiscal: validar com o jurídico e o contador; (3) o programa de consultor tem só o desenho, sem currículo de certificação, sem preço e sem regras de perfil; (4) números de resultado de eventos de referência são indicativos: conferir.

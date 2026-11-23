@@ -6,7 +6,7 @@ follow-up existe para quem ficou sem decidir: é uma nova oportunidade de fechar
 ## 1. Fechar o retorno ainda dentro da sessão
 
 Nunca deixar "depois a gente conversa". O próximo contato fica na mão de quem vende, com data escolhida pelo cliente.
-Roteiro (estrutura do plantão de mai/2025):
+Roteiro (estrutura de referência):
 ```
 Você acredita que consegue me dar uma resposta até hoje, no fim do dia?
 (se não) E até [dia próximo]?
@@ -26,7 +26,7 @@ gravada para enviar depois; a gravação e o PDF do Raio-X são material do foll
 | Fim da semana sem decisão | Encerramento gentil, porta aberta | Break estratégico |
 | Cerca de 1 mês depois | Repescagem com motivo novo | Condição, se houver, de 02-oferta |
 
-**Quebra de objeção no follow-up (3 passos, trilha 11; árvore completa em `ht-objecoes`):**
+**Quebra de objeção no follow-up (3 passos; árvore completa em `ht-objecoes`):**
 1. Empatia: validar o que a pessoa sente ("eu te entendo").
 2. Argumento racional: por que faz sentido mesmo assim (custo de não mudar, retorno do investimento).
 3. Prova: caso real de alguém que tinha a mesma objeção (sem prova, ficar nos passos 1 e 2).

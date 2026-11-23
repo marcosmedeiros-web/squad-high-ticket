@@ -1,13 +1,13 @@
 ---
 name: ht-objecoes
-description: 'Squad High Ticket / método FHT. Mapeia e escreve a quebra de objeções do HT em 3 camadas (empatia, argumento racional, evidência de quem tinha a mesma dúvida): as 4 universais (dinheiro, tempo, "não sei se funciona para mim", aprovação de outra pessoa), as específicas do nicho, a planilha viva (Objeção, Tipo, Empatia, Racional, Case), a árvore antes/durante/depois do pitch (que peça ou entregável quebra cada uma) e as falas de isolar e quebrar na sessão 1a1. Use quando o estrategista disser "mapeia as objeções do expert", "como respondo o está caro", "objeção do marido", "monta a planilha de objeções", "árvore de objeções da imersão", "que objeção essa palestra quebra", "revisa as objeções". Entrega rascunho para o estrategista aprovar. NÃO usar para matriz de objeção de carrinho de lançamento pago semanal, 5+1 ou Funil 8 (LPSG, fora do escopo deste squad).'
+description: 'Mapeia e escreve a quebra de objeções do HT em 3 camadas (empatia, racional, evidência): as 4 universais, as do nicho, a planilha viva, a árvore antes/durante/depois do pitch e as falas na sessão 1a1. Use para "mapeia as objeções", "como respondo o está caro", "objeção do marido". NÃO use para carrinho de lançamento.'
 ---
 
 # Objeções do HT (planilha, árvore e quebra)
 
 ## 1. Para que serve e o que entrega
 
-Objeção é a dúvida, resistência ou barreira que impede o lead de dar o próximo passo, falada ou não. No FHT ela se quebra (ou se
+Objeção é a dúvida, resistência ou barreira que impede o lead de dar o próximo passo, falada ou não. No método ela se quebra (ou se
 enfraquece) **antes** de aparecer, em cada peça de venda, e o que sobra no fim da sessão deve ser quase só dúvida. A skill
 descobre as objeções reais do avatar, escreve a resposta em 3 camadas e decide onde cada uma é tratada.
 
@@ -66,11 +66,11 @@ fosse o dinheiro, o que impediria?"), resumir, responder em 3 camadas, retomar o
 **Passo 6. Lista de evidências a coletar.** Para cada objeção sem case: que tipo de aluno serve, em que momento da entrega pedir
 ("me conta mais, como foi?"), formato. Engenharia reversa do resultado: quando um aluno chega lá, voltar ao diagnóstico dele e
 achar a objeção que ele tinha. Vai para `ht-provas-e-cases`. Desde o primeiro aluno, todo resultado (print, áudio, fala em
-reunião com a data) vai para um grupo ou pasta único de resultados, que a equipe inteira acessa (a FHT usa um grupo de Telegram
-por guardar o histórico; trilha 11, aula 09): é dali que sai a evidência na hora de montar a fala ou a palestra.
+reunião com a data) vai para um grupo ou pasta único de resultados, que a equipe inteira acessa (um grupo de mensagens
+guarda o histórico): é dali que sai a evidência na hora de montar a fala ou a palestra.
 
 **Passo 7. Planilha viva.** Revisar antes de cada ação de venda e a cada 5 sessões: objeções mudam com o tempo e com o canal
-(no começo a dúvida é sobre o método e o expert; provados os dois, vira "será que eu consigo?"; trilha 11, aula 06). A
+(no começo a dúvida é sobre o método e o expert; provados os dois, vira "será que eu consigo?"). A
 objeção que chegou ao fim da sessão é a que não foi quebrada antes: subir para um momento anterior.
 
 **Passo 8. Auditar** com `references/auditoria-objecoes.md` e testar cada resposta: "você seria convencido por esse argumento?".
@@ -86,13 +86,12 @@ objeção que chegou ao fim da sessão é a que não foi quebrada antes: subir p
 - Frases duras só em palco, com narrativa construída; na 1a1, leveza e sem drama.
 - Condição de pagamento, desconto e garantia usados como resposta só se existirem em `02-oferta`.
 
-## 5. Quando a decisão é do estrategista
+## 5. O que o agente decide e o que pede OK
 
-- Mudar a oferta para resolver uma objeção recorrente (parcelar mais, entrada menor, P2P, Fake HT, entregável novo): mostrar
-  frequência da objeção, prós, contras e impacto no caixa.
-- Usar garantia como quebra de objeção além da garantia condicional e mensurável que está em `02-oferta`.
-- Publicar case de aluno (precisa de autorização registrada).
-Formato a/b/c com prós e contras; o agente não decide.
+Sem lote de perguntas nem a/b/c: o agente segue o padrão e lista em "Assumi: … (é só pedir para mudar)". Pede um "posso seguir?" simples só no que sai para fora, gasta ou mexe em preço.
+- **Mudar a oferta para resolver uma objeção recorrente** (parcelar mais, entrada menor, P2P, Fake HT, entregável novo): o agente mostra frequência, prós, contras e impacto no caixa e propõe como versão nova de `02-oferta/`; não muda a oferta sozinho.
+- **Garantia além da condicional e mensurável que está em `02-oferta`**: não usa.
+- **Publicar case de aluno**: só com autorização registrada e "posso seguir?".
 
 ## 6. Critério de pronto e auditoria final
 
@@ -103,7 +102,7 @@ Formato a/b/c com prós e contras; o agente não decide.
 - [ ] Lista de evidências a coletar.
 - [ ] Nada inventado; texto adaptado ao avatar.
 
-**Auditoria** (`references/auditoria-objecoes.md`). Erros típicos dos laboratórios: escrever caso no lugar de objeção; empatia
+**Auditoria** (`references/auditoria-objecoes.md`). Erros típicos: escrever caso no lugar de objeção; empatia
 que já traz a solução; racional que explica o método em vez de dar a lógica; racional de dinheiro sem conta (calcular a
 oportunidade, não só "três vendas pagam"); empatia fraca que soa racional; case de outra dúvida; texto-modelo sem adaptação;
 argumento que bate de frente ("prioridade versus dinheiro" dito com dureza); objeção plantada pelo próprio material.
@@ -119,19 +118,9 @@ argumento que bate de frente ("prioridade versus dinheiro" dito com dureza); obj
 
 ## 8. Ferramentas de apoio (por nome, sem copiar)
 
-`anthropic-skills:xlsx` (planilha) · `avoid-ai-writing`, `humanizer`, `voice-builder` (falas) · `instagram-analise-estrategica-turbo`
-e `leitura-web-turbo` (comentários e dúvidas públicas do avatar) · `watch` e `transcrever-youtube-turbo` (objeções em gravações).
+`anthropic-skills:xlsx` (planilha) · `avoid-ai-writing`, `humanizer`, `voice-builder` (falas) · `instagram-analise-estrategica`
+e `leitura-web` (comentários e dúvidas públicas do avatar) · `watch` e `transcrever-youtube` (objeções em gravações).
 
-## 9. Fontes e lacunas
+## 9. Limites
 
-**Fontes:** trilha 11, Bootcamp de Quebra de Objeções (RESUMO.md inteiro: conceitos, 3 camadas, 4 universais, específicas,
-correções de laboratório nas aulas 10 e 11); planilha `trilhas/_materiais/planilhas/11-descricao__1F-n2yNX.xlsx` (5 colunas, 4
-universais); trilha 09 aula 12 (isolar, resumir, argumentar, retomar o acordo); rota 3 resumo 05 (etapa 7); trilha 22 (dez/2025
-143, jan/2025 192 e 195, mar/2025 179-180, mai/2025 160, jul/2026 RJ 08 e 12, jun/2026 SP 25 via resumo; out/2025 aula 70,
-recuperação de vendas, mesma tripla); catálogo fht-quebra-de-objecoes-na-sessao, fht-objecoes-universais-e-do-nicho,
-fht-arvore-de-objecoes, fht-auditoria-planilha-de-objecoes (partes B, G, H, I: Live 019 árvore, out/2025 aula 11).
-
-**Lacunas (não inventar):** o mapa mental do bootcamp de objeções não foi lido; a transcrição da aula 10 da trilha 11 acaba no
-meio dos feedbacks; das "6 perguntas de limpeza da mesa" só 3 foram ditas; não há GPT de objeções da FHT; não há benchmark de
-frequência de cada objeção por nicho (só a fala de um mentor de que, numa imersão, a maioria dizia dinheiro e a maior parte era
-medo: referência a conferir).
+**Não inventar:** não há benchmark de frequência de cada objeção por nicho (só a observação de que, numa imersão, a maioria dizia dinheiro e a maior parte era medo: referência a conferir).

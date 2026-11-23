@@ -1,6 +1,6 @@
 ---
 name: avoid-ai-writing
-description: 'Audit and rewrite content to remove AI writing patterns ("AI-isms"). Use when asked to "remove AI-isms," "clean up AI writing," "audit writing for AI tells," "make this sound less like AI" — or, in Portuguese, "tirar a cara de IA," "parece escrito por IA/ChatGPT," "revisão anti-IA," "deixar mais humano," "revisar a copy antes de entregar." Engine behind the Squad Turbo anti-IA discipline (revisor-copy-turbo / copywriter-turbo): run before delivering any copy — página, criativo, VSL, mensageria, pitch, email. Supports a detect-only mode, an edit-in-place mode for files, an optional voice profile (casual / professional / technical / warm / blunt), and an iterate-to-convergence pass.'
+description: 'Audit and rewrite content to remove AI writing patterns. Triggers: "remove AI-isms", "make this sound less like AI", "tirar a cara de IA", "revisão anti-IA", "revisar a copy antes de entregar". Detect-only, edit-in-place and voice-profile modes. NÃO usar para escrever copy do zero (ht-copy-anuncios-e-mensagens, ht-copy-paginas-e-emails).'
 version: 3.10.0
 license: MIT
 compatibility: Any AI coding assistant that supports agentskills.io SKILL.md format (Claude Code, Cursor, VS Code Copilot, Hermes Agent, OpenHands, etc.) or OpenClaw. No external tools or APIs required.

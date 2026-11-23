@@ -1,8 +1,6 @@
 # Estrutura de palestra que vende HT (qualquer palestra de imersão, encontro, bootcamp ou palco)
 
-Fontes: Live FHT 008 (16 palestras do Mundo Paralelo), Live 037 (3 frameworks de conteúdo), Live 036 (mentalidade), Live 033 e
-045 (mapa mental antes do slide), desafio imersão out/2025 aulas 11 e 13, fev/2026 aulas 38 e 44, encontro nov/2025 (Puglia e
-Luiza, 4 perguntas). Paráfrase; citação literal só em bordão curto.
+Paráfrase; citação literal só em bordão curto.
 
 ## 1. Princípio que governa tudo
 
@@ -13,7 +11,7 @@ Luiza, 4 perguntas). Paráfrase; citação literal só em bordão curto.
 - Escrever palestra é o trabalho mais difícil do time na primeira vez; depois o ativo é reaproveitado (cerca de 95% redondo
   após algumas edições). Mudar uma variável por vez entre edições.
 
-## 2. Os 4 critérios de aprovação (Live 008) e as 4 perguntas (encontro nov/2025)
+## 2. Os 4 critérios de aprovação e as 4 perguntas
 
 Critérios (a palestra só é aprovada se cumpre os quatro):
 1. **Resultado real com prova** (depoimento, print, áudio, vídeo, história com foto).
@@ -31,7 +29,7 @@ As 4 perguntas que toda palestra responde por escrito no topo do mapa mental:
 | Que prova planto? | caso, aluno, número e nível da prova |
 Palestra sem resposta em alguma linha: ajustar ou cortar.
 
-## 3. Prioridade de função por posição no cronograma (Live 008)
+## 3. Prioridade de função por posição no cronograma
 
 | Posição | Ordem de prioridade |
 |---|---|
@@ -41,7 +39,7 @@ Palestra sem resposta em alguma linha: ajustar ou cortar.
 | Palestras do dia 3 | enfraquecer objeção > estudo de caso > seeding > (se der) valor |
 | Palestra de decisões / encruzilhadas | ordem invertida: emoção e decisão primeiro |
 
-Out/2025 (aula 11) resume os 4 critérios de qualquer palestra de conteúdo como: evidência de resultado, quebra de objeção,
+O método resume os 4 critérios de qualquer palestra de conteúdo como: evidência de resultado, quebra de objeção,
 seeding do programa e geração de valor.
 
 ## 4. Os 4 níveis de prova (do mais forte ao mais fraco)
@@ -51,19 +49,19 @@ seeding do programa e geração de valor.
 3. **Imagem** (print de resultado).
 4. **"No gogó"**: contar a história do aluno com foto, nome, cidade e número.
 Use o nível mais alto disponível; prova precisa ser resultado do método, não comentário em post. Prova com o mesmo resultado que
-o evento promete. Mapear uma prova por entregável (o time do FHT varou a madrugada caçando uma por entregável).
+o evento promete. Mapear uma prova por entregável (vale caçar uma prova por entregável, mesmo que dê trabalho).
 
 ## 5. Estrutura de roteiro em 5 blocos
 
 1. **Tema central / Roma**: a promessa da palestra em uma frase, alinhada à definição de resultado do evento. Tudo se alinha a ela.
-2. **Prova**: a evidência mais forte logo depois da promessa (no FHT, número acumulado dos alunos atualizado a cada edição).
+2. **Prova**: a evidência mais forte logo depois da promessa (no método, número acumulado dos alunos atualizado a cada edição).
 3. **Procedência da ideia (história)**: contexto → obstáculo do CLIENTE (só o que o conteúdo resolve) → surgimento da ideia →
    resultado condizente com o tema → razão de compartilhar. Frase de transição entre blocos. Não contar a história de vida do
    palestrante no lugar da razão do tema. Obstáculos do público que está na sala (não de quem já é faixa preta).
 4. **Conteúdo**: escolher UM dos frameworks da seção 6.
 5. **Fechamento**: mensagem final, recap curto (palavra + definição em uma frase) e/ou exercício ou bônus; ponte para a próxima palestra.
 
-Introdução alternativa (palestra-bootcamp nos 4 Es, trilha 19): boas-vindas e quebra-gelo; o que é; para quem é; para quem não é;
+Introdução alternativa (palestra-bootcamp nos 4 Es): boas-vindas e quebra-gelo; o que é; para quem é; para quem não é;
 por que esse tema (história em 5 partes: contexto, obstáculo, ideia, resultado, razão); output (o que leva).
 
 ## 6. Frameworks de conteúdo (escolher um por palestra)
@@ -94,13 +92,13 @@ Sem pressa em nenhuma fase; deixar o silêncio.
 ## 8. Mapa mental antes do slide (regra)
 
 1. Escrever 100% em mapa mental: cada vídeo, palestra, história, definição, exemplo e até a piada (piada com função: quebrar
-   tensão, conexão). Código de cores do FHT: vermelho = ensinando, azul = exemplo.
-2. Revisão cruzada pelo time (no FHT, mentores revisam as palestras uns dos outros) e aprovação de quem decide.
+   tensão, conexão). Código de cores do método: vermelho = ensinando, azul = exemplo.
+2. Revisão cruzada pelo time (no método, mentores revisam as palestras uns dos outros) e aprovação de quem decide.
 3. Só então virar slide. Slide direto perde a visão do todo e piora a copy. Dificuldade com mapa mental indica falta de clareza
    da ideia, não da ferramenta.
 4. Um documento por palestra (talk, pré-pitch, pitch separados), com link de slide no cronograma.
 
-## 9. Regras de slide (laboratórios fev/2026)
+## 9. Regras de slide 
 
 - Pouco texto, letra grande; uma frase por slide no pitch, abrindo uma de cada vez.
 - História contada com fotos (não textão); fotos de aluno com nome, idade, cidade e resultado; se o público é 70/30 por gênero,
@@ -113,8 +111,8 @@ Sem pressa em nenhuma fase; deixar o silêncio.
 
 ## 10. Palestra de mentalidade e de decisões
 
-Construção (Live 036 e palestra "Decisões", encontro nov/2025):
-1. Brainstorm em mapa mental até a Roma da palestra (no FHT: chegar ao resultado depende mais da pessoa que do método, "jóquei e cavalo").
+Construção:
+1. Brainstorm em mapa mental até a Roma da palestra (chegar ao resultado depende mais da pessoa que do método, "jóquei e cavalo").
 2. Acervo de casos de clientes: história, obstáculos, pivôs, resultado, fonte e evidência.
 3. Extrair o padrão: diferencial, obstáculos superados, decisões.
 4. Ensinar o óbvio pelo framework Ação-segredo (o que é, o que não é, exemplo, por que importa, como replicar), revelando o
@@ -129,6 +127,6 @@ Mentalidade desconstrói pessoas com resultado; não é sermão do palco.
   alicerce (conceitos, avatar, Roma), elementos do negócio (oferta, objeções), execução por etapas do método.
 - Palestrantes por afinidade (expert e mentores/faixas pretas); exercício ou perguntas e respostas entre blocos.
 - Reservar: talk de entrada (dia 1), pré-pitch e pitch (dia 2), palestra de decisões e re-pitch (dia 3).
-- Online: enxugar (uma manhã do presencial vira cerca de 1h15); no FHT de 1 dia foram cerca de 4h30 de conteúdo e metade do
+- Online: enxugar (uma manhã do presencial vira cerca de 1h15); no método de 1 dia foram cerca de 4h30 de conteúdo e metade do
   tempo do evento dedicada à venda (palestras de conteúdo incluídas).
 - Toda palestra parte da árvore de objeções: cada objeção (antes, durante e depois do pitch) tem a palestra que a quebra.

@@ -2,7 +2,7 @@
 
 Referência da `ht-agendamento-e-follow-up`.
 
-## 1. Referências (de aula; trocar pelo número próprio)
+## 1. Referências (do método; trocar pelo número próprio)
 
 - No-show tolerável: até 20% (marcou 10, aceita 2 faltas). Comparecimento esperado: 70% a 80%.
 - Lead frio comparece menos (caso de turma com 4 em 10: abaixo do esperado; o ajuste foi vender melhor a sessão, agendar mais
@@ -40,7 +40,7 @@ de não usar chantagem emocional.
 
 ## 3. Regras de reagendamento
 
-- Reagendar com tom leve e uma segunda tentativa; limitar o número de reagendamentos (quantas vezes é decisão do estrategista).
+- Reagendar com tom leve e uma segunda tentativa; limitar o número de reagendamentos (assumir um limite e listar em "Assumi").
 - Ao reagendar, a sessão precisa recuperar a dor: começar retomando o que a pessoa disse (do SLG ou da ficha).
 - Sessão interrompida (ex.: criança chorando, queda de conexão): remarcar rápido e, na retomada, elevar a dor de novo antes de
   seguir.

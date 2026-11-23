@@ -1,13 +1,13 @@
 ---
 name: ht-renovacao
-description: 'Squad High Ticket / método FHT. Planeja e conduz a renovação dos alunos de um HT (acelerador de resultados) do começo ao fim: engenharia de renovação desde a criação do programa, ciclos e calendário (11 a 13 meses casados a um encontro), pesquisa 1 para muitos e 1 para 1, controle de renovações, oferta de renovação e de migração, evento presencial de renovação com pitch só para aptos, abordagem de quem faltou, retenção e cancelamento, áudio personalizado e auditoria do programa. Use quando o estrategista disser "planeja a renovação da turma", "monta a oferta de renovação", "pesquisa antes do encontro", "evento de renovação", "aluno quer cancelar", "a renovação caiu", "migrar alunos de 3 meses". O agente propõe o preço da renovação pela recomendação do projeto e lista em "Assumi"; vira oficial na Aprovação 1. NÃO usar para upgrade/GIC (ht-upgrade-e-gic) nem para lançamento pago LPSG (fora do escopo deste squad).'
+description: 'Planeja e conduz a renovação dos alunos de um HT: ciclos e calendário, pesquisa 1 para muitos e 1 para 1, controle, oferta de renovação, evento com pitch só para aptos, retenção e cancelamento. Use para "planeja a renovação", "oferta de renovação", "evento de renovação", "aluno quer cancelar". NÃO usar para upgrade/GIC (ht-upgrade-e-gic).'
 ---
 
-# Renovação do HT (engenharia de renovação FHT)
+# Renovação do HT (engenharia de renovação)
 
 ## 1. Para que serve e o que entrega
 
-Faz o aluno que está terminando o programa continuar com o expert. No FHT a renovação não é um pitch no fim do ano: começa na
+Faz o aluno que está terminando o programa continuar com o expert. No método a renovação não é um pitch no fim do ano: começa na
 entrega (fase 0), passa por coleta de informação (fase 1), análise e redesenho da oferta (fase 2) e termina na renovação em si,
 num encontro presencial, com acompanhamento um a um (fase 3). A renovação não tem custo de aquisição e, somada ano a ano, chega a
 igualar o faturamento de alunos novos (referência de live, conferir).
@@ -16,7 +16,7 @@ igualar o faturamento de alunos novos (referência de live, conferir).
 1. `plano-de-renovacao.md`: calendário do ciclo (D-90 a D+14), lista de aptos, metas, responsáveis.
 2. `pesquisa-1-para-muitos.md`: formulário pronto para Typeform/Google Forms (19 perguntas adaptadas) + mensagem de envio (rascunho).
 3. `roteiro-1-para-1.md`: abordagem "feedback sincerão" + divisão da lista entre expert e mentores.
-4. `controle-de-renovacoes.xlsx` (ou .csv): planilha de controle no modelo do FHT.
+4. `controle-de-renovacoes.xlsx` (ou .csv): planilha de controle no modelo do método.
 5. `mapa-oferta-de-renovacao.md`: avatar que renova, pontos fortes e fracos, oferta atual → oferta de renovação (com o preço proposto pela
    recomendação e a conta das alternativas guardada, só como apoio).
 6. `evento-de-renovacao.md`: identificação no crachá, momento do pitch, salinha, papéis, pós-evento.
@@ -40,17 +40,17 @@ igualar o faturamento de alunos novos (referência de live, conferir).
 ## 3. Passo a passo
 
 ### Passo 0. Engenharia de renovação (já na criação do programa)
-Três fatores combinados (lives 012, 047, 050):
+Três fatores combinados:
 1. **Entrega = resultado + satisfação.** Quem tem resultado tende a renovar; quem teve resultado médio exige esforço; quem não teve
    procura objeções para justificar a saída. Gratidão tem prazo: o momento é perto do resultado.
 2. **Ciclos de renovação** fixos (ver passo 1).
 3. **Oferta de renovação diferente da de aquisição**: nasce do que os alunos disseram (passo 4).
 Decidir na criação: duração de 12 meses (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`), encontro presencial como entregável (canal de renovação, não opcional), garantia
 atrelada à execução e à presença nos encontros (garantia condicional e mensurável, padrão recomendado), NPS por entregável (ht-provas-e-cases). Evitar programa de 2, 3, 4 ou 6 meses.
-Evitar entregável de "plano de continuidade" que concorra com a renovação (fonte: desafio SP aula 19).
+Evitar entregável de "plano de continuidade" que concorra com a renovação.
 
 ### Passo 1. Ciclos e calendário
-- Concentrar os vencimentos em ciclos fixos (FHT: 3 por ano; exemplo citado fevereiro, junho e novembro, conferir para o expert).
+- Concentrar os vencimentos em ciclos fixos (referência: 3 por ano; exemplo fevereiro, junho e novembro, conferir para o expert).
 - Duração por data de entrada: 11 a 13 meses (padrão recomendado: ciclo casado a um encontro presencial) para terminar num encontro. 11 aceitável, 10 não.
 - Quem ganha meses é avisado como vantagem; a quem perde, só se informa a data de término.
 - Encontro presencial no fim de cada ciclo: entrega + renovação (+ upgrade, ver ht-upgrade-e-gic).
@@ -63,7 +63,7 @@ Evitar entregável de "plano de continuidade" que concorra com a renovação (fo
 
 ### Passo 3. Fase 1, coleta de informação (D-90 a D-30)
 **1 para muitos (formulário), 2 a 3 meses antes** (referência de mundo ideal):
-- Usar as 19 perguntas do FHT adaptadas (`references/pesquisa-de-renovacao.md`): presença no encontro, dados, se já tem HT, o que
+- Usar as 19 perguntas do método adaptadas (`references/pesquisa-de-renovacao.md`): presença no encontro, dados, se já tem HT, o que
   quer aprender no encontro, crachá, acessibilidade, título e descrição de apresentação (para quem tem resultado), NPS 0 a 10 e
   motivo, sugestão, entregáveis usados, 3 de mais valor, 3 de menos valor, maior dificuldade.
 - O mesmo formulário confirma presença. Presença é levada a sério: renova muito mais quem vai ao encontro.
@@ -81,18 +81,18 @@ Evitar entregável de "plano de continuidade" que concorra com a renovação (fo
 - **Rascunho**: a mensagem e o formulário saem como rascunho; o envio aos alunos só com OK do estrategista.
 
 ### Passo 4. Fase 2, análise e oferta de renovação (D-30 a D-7)
-Monta-se o **mapa da oferta de renovação** (modelo do mapa mental do FHT em `references/oferta-de-renovacao.md`):
+Monta-se o **mapa da oferta de renovação** (modelo do mapa mental do método em `references/oferta-de-renovacao.md`):
 1. **Dados gerais**: alunos ativos, elegíveis à renovação, confirmados no evento, elegíveis entre os confirmados (base pequena:
    nome a nome, com a percepção de cada um).
 2. **Pontos fortes e fracos** do programa, da pesquisa, do 1 a 1 e da planilha de problemas e oportunidades.
-3. **Discussão com os mentores** (reunião de compilado: elogios, dificuldades recorrentes, sugestões dos alunos). No FHT foi uma
+3. **Discussão com os mentores** (reunião de compilado: elogios, dificuldades recorrentes, sugestões dos alunos). No método foi uma
    reunião com quem fará o pitch.
 4. **Oferta atual → oferta de renovação**: o que foi bom, o que tirar, o que pôr, o que mudar. Critério: o que gera mais resultado
    para o aluno, o que ele pede e o que dá para entregar.
-5. Cada objeção ouvida vira resposta dentro da oferta (entregável novo, ajuste de formato, condição). Ex. do FHT: alunos sentiam
+5. Cada objeção ouvida vira resposta dentro da oferta (entregável novo, ajuste de formato, condição). Ex. do método: alunos sentiam
    falta do fundador → sessão mensal com ele entrou na oferta; avançados pediam conteúdo mais rápido → entregável novo no mastermind.
    Quando o entregável veio da sugestão de um aluno, o pitch diz isso (o aluno se sente ouvido).
-6. Entregável sem valor na pesquisa sai da oferta (caso FHT: o encontro com o expert principal saiu porque não estava entre os de
+6. Entregável sem valor na pesquisa sai da oferta (caso de referência: o encontro com o expert principal saiu porque não estava entre os de
    mais valor).
 7. "Cartas na manga": entregáveis guardados para over delivery ou para reconstruir a oferta no evento.
 8. **Condições**: validade só no evento (integridade: quem volta depois paga mais), forma de pagamento (preferir à vista,
@@ -104,7 +104,7 @@ Monta-se o **mapa da oferta de renovação** (modelo do mapa mental do FHT em `r
 - O texto do pitch de renovação é escrito por ht-diretor-copy / ht-roteirista-palco com esta oferta como entrada (ht-palestras-e-pitch).
 
 ### Passo 5. Planilha de controle de renovações
-Modelo FHT (aba "ACOMPANHAMENTO RENOVAÇÃO"): Nome · E-mail · Turma · Confirmou presença? · Temperatura · Feedback · O que faria de
+Modelo (aba "ACOMPANHAMENTO RENOVAÇÃO"): Nome · E-mail · Turma · Confirmou presença? · Temperatura · Feedback · O que faria de
 diferente? · Está presente? · Status Renovação · Comentários. Bloco 1 (D a G) = presença e feedback; bloco 2 (H a J) = renovação.
 - Colocar **todos** os aptos (não só os confirmados) e filtrar por "confirmou".
 - **Temperatura** (coluna E) tem lista fechada no próprio modelo: Satisfeito / Neutro / Insatisfeito (é o "estado" que a fase 3
@@ -117,10 +117,10 @@ diferente? · Está presente? · Status Renovação · Comentários. Bloco 1 (D 
 Roteiro detalhado em `references/evento-de-renovacao.md`. Essencial:
 1. Lista "cara-crachá" de 100% dos aptos presentes, com o que cada um disse.
 2. **Identificação visual no crachá** (adesivo ou bolinha de cor). Padrão do squad: verde = apto à renovação; amarelo = elegível a
-   upgrade (live 047). Serve para qualquer pessoa da equipe puxar conversa no café.
+   upgrade. Serve para qualquer pessoa da equipe puxar conversa no café.
 3. **Pitch só para os aptos**, em sala própria; os demais seguem conteúdo ou vão ao coffee. Base pequena: evento só da turma (ex.
    da fase 3: 8 a 10 aptos entre 20 e poucos alunos) → antes do coffee, pedir que os identificados fiquem e fechar a sala; poucos
-   aptos dentro de um evento grande (ex. do FHT: ~20 aptos entre ~300 presentes) → não tirar todo mundo da sala, chamar um a um e
+   aptos dentro de um evento grande (ex. do método: ~20 aptos entre ~300 presentes) → não tirar todo mundo da sala, chamar um a um e
    fazer a oferta individual.
 4. **Hora do pitch**: evento de 1 dia → à tarde, antes do coffee (por volta de 15h a 16h, referência); evento de 2 dias → no
    primeiro dia, à tarde, antes do coffee. A manhã leva o melhor conteúdo e casos de alunos improváveis. Não deixar para tarde
@@ -130,8 +130,8 @@ Roteiro detalhado em `references/evento-de-renovacao.md`. Essencial:
 6. **Abordagem individual de quem não decidiu**: navegador ou alguém da equipe chama ("o mentor quer conversar com você"). Ouvir,
    resolver o que for simples (ex.: consultoria com o financeiro), jogar limpo: se não faz sentido para o aluno renovar, dizer isso.
 7. **Se a renovação despencar** no evento: assumir a fraqueza, perguntar aos aptos o que faltou, acrescentar entregáveis (cartas na
-   manga) e fechar ali. Caso FHT: renovação muito baixa no primeiro pitch foi recuperada para ~70% (intro da trilha 20) / "10% para
-   73%" (live 012). Números de legenda, conferir antes de usar em material.
+   manga) e fechar ali. Caso de referência: renovação muito baixa no primeiro pitch foi recuperada para ~70% / "10% para
+   73%". Números de legenda, conferir antes de usar em material.
 8. Separar "toalha molhada" (reclamação de baixo peso, não faz cancelar) de necessidade real (faz).
 
 ### Passo 7. Pós-evento (D+1 a D+14)
@@ -169,8 +169,8 @@ de renovação planejada no Master Plan, margem), escolhe a que o dado sustenta 
 linguagem simples ("Assumi: renovação por R$ X, menor que a entrada, porque... (é só pedir para mudar)") e só vira oficial na
 Aprovação 1 ou na aprovação do plano. Se o dado não sustenta nenhuma, escolhe a mais conservadora (igual à entrada, com mais parcelas
 ou entregáveis), marca `[SUPOSIÇÃO: …]` e lista em "Assumi". As alternativas, para o cálculo interno:
-- a) **Menor que a entrada** (fontes: ~40% menor em exemplo da live 047/parte I; levemente menor, 20 mil → 17 mil, parte H; R$ 5 mil
-  a menos num AR de 30 mil, live 047). Prós: facilita o sim de quem está em cima do muro, vende "vantagem de quem já é aluno".
+- a) **Menor que a entrada** (referências: ~40% menor; levemente menor, 20 mil → 17 mil; R$ 5 mil
+  a menos num AR de 30 mil). Prós: facilita o sim de quem está em cima do muro, vende "vantagem de quem já é aluno".
   Contras: reduz receita por aluno; ancora o próximo ano mais baixo.
 - b) **Igual à entrada**, com mais parcelas ou entregáveis novos. Prós: preserva o ticket; o valor percebido vem da oferta nova.
   Contras: exige oferta claramente melhor; risco maior com aluno de resultado médio.
@@ -194,7 +194,7 @@ texto público novo, e uso de foto, nome ou depoimento de aluno (só com autoriz
 - [ ] Cada objeção relevante tem resposta na oferta ou no pitch.
 - [ ] Preço proposto pela recomendação, listado em "Assumi" e só oficial na Aprovação 1 (sem lote de perguntas nem a/b/c).
 - [ ] Evento com identificação de aptos, horário do pitch, salinha, papéis e pós-evento.
-- [ ] Números de aula marcados "referência/conferir"; nenhum resultado de aluno inventado.
+- [ ] números de referência marcados "referência/conferir"; nenhum resultado de aluno inventado.
 
 **Auditoria final** (erros típicos; detalhe em `references/auditoria-renovacao.md`):
 1. Achar que sabe o que o aluno valoriza sem pesquisa (caso do entregável que ninguém valorizava).
@@ -224,21 +224,7 @@ texto público novo, e uso de foto, nome ou depoimento de aluno (só com autoriz
 ## 8. Ferramentas de apoio
 
 `anthropic-skills:xlsx` (planilha de controle e calendário), `anthropic-skills:docx` (roteiro impresso da salinha),
-`gerador-slides-turbo` / `slides-uipm-turbo` (deck do pitch, com direção do ht-diretor-arte), `email-marketing-mautic` e
+`gerador-slides` / `slides-uipm` (deck do pitch, com direção do ht-diretor-arte), `email-marketing-mautic` e
 `automacao-fluxos` (lembretes de presença, só com OK), `humanizer` e `avoid-ai-writing` (mensagens e áudio), `testimonial-video`
 (cases de alunos para o pitch, com autorização).
 
-## 9. Fontes e lacunas
-
-**Fontes**: trilha 20 Bootcamp de Renovação (02-introducao, 03-fase-01, 04-fase-02, 05-fase-03, 06-encerramento, lidas por inteiro
-na revisão; Notion da trilha 20 em `_materiais/notion-5a20.txt` com as 19 perguntas; RESUMO.md); planilha `_materiais/planilhas/20-renovacao__1UcuiCdP.xlsx`; lives FHT 012, 022, 040, 047, 050, 052 (via
-parte-H bloco 7 e parte-I seção 6); desafios E (renovação e migração, preço 2 anos), F (encontro exclusivo, áudio personalizado);
-CATALOGO-SKILLS-FHT.md seção 7 e conflito 16; padrões recomendados do squad (garantia, ciclo de 11 a 13 meses, preço
-da renovação por projeto).
-
-**Lacunas**: (1) o mapa mental "Criador de oferta de renovação" (MindMeister) não foi lido; a estrutura usada é a descrita em voz na
-fase 2 e na fase 3 (avatar, problemas e oportunidades, pontos fortes e fracos, oferta atual, oferta de renovação); (2) a planilha de
-controle não traz fórmulas nem regra de quando um aluno muda de temperatura (só a lista Satisfeito/Neutro/Insatisfeito); (3) não há roteiro literal do
-pitch de renovação, só princípios; (4) taxas de renovação (80%, 90%, 70%, 20% dos ausentes) e o caso 10% → 73% vêm de legenda e de
-relato oral: referência, conferir; (5) não há método escrito de cobrança/inadimplência além de "renegociar"; (6) custos de
-encontro (~R$ 15 mil para 100 pessoas num hub) são de um relato, conferir com orçamento real.

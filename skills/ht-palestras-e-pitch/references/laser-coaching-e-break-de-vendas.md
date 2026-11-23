@@ -1,7 +1,6 @@
 # Laser coaching, break de vendas e mesa de fundo
 
-Fontes: trilha 18 aula 12 (Break), aula 11 (lobby no Zoom), GPS imersão presencial (aprovação rápida e cancelamento tipo 1),
-out/2025 aulas 11, 17 e 18, Live 033 e 045, encontro fev/2026 (Felipe Vasconcelos, breakout rooms).
+Referência: aprovação rápida de aplicações, cancelamento tipo 1, lobby no Zoom e breakout rooms.
 
 ## 1. Laser coaching (entrega ao vivo de um entregável para uma pessoa da plateia)
 
@@ -28,8 +27,8 @@ Passo a passo:
 
 | Papel | Função | Referência de quantidade |
 |---|---|---|
-| Faixas pretas / mentores | quebrar objeção em conversa individual | 6 numa imersão do FHT; 10 a 15 num evento de milhares |
-| Insiders / alunos atuais | prova viva, ajudam a preencher a ficha | os que estiverem no evento |
+| Faixas pretas / mentores | quebrar objeção em conversa individual | 6 numa imersão do método; 10 a 15 num evento de milhares |
+| Alunos atuais | prova viva, ajudam a preencher a ficha | os que estiverem no evento |
 | Navegadores / staff | ficha no computador junto com a pessoa, passar o cartão | conforme fila |
 | Financeiro | pagamento, condições, problemas de cartão | 1+ |
 | Flancos | faixa preta nos pontos de saída para abordar quem desiste da fila ("está cogitando entrar? me conta o que você faz") | 1 por saída |
@@ -52,9 +51,9 @@ Regras de operação:
 
 ## 5. Depois do evento (fechamento da venda)
 
-- Organizar a lista de quem aplicou logo no fim do evento; conferir formulários de aplicação; aprovar rápido (no FHT, toda a
+- Organizar a lista de quem aplicou logo no fim do evento; conferir formulários de aplicação; aprovar rápido (no método, toda a
   aprovação na segunda-feira seguinte) para a pessoa não esfriar.
-- Cancelamento tipo 1 = aplicou e não pagou a primeira parcela. Referências do FHT: chegou a cerca de 37% quando demoravam a
+- Cancelamento tipo 1 = aplicou e não pagou a primeira parcela. Referências do método: chegou a cerca de 37% quando demoravam a
   responder; caiu para algo entre 23% e 33% (conferir). Retenção: tentativa de recuperar parte desses.
 - Sessões de avaliação (variante B do pitch) todas na mesma semana.
 - Recuperação: contato com quem veio e não comprou (objeção que ficou, sessão individual); ver ht-captacao-e-presenca.

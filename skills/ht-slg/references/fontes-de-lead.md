@@ -15,8 +15,8 @@ só com OK dele.
 | Live / aula semanal | Pedir comentário ou curtida por perfil ("curte se você já [condição]"); print dos comentários e da lista de curtidas ao fechar | A lista de curtidas só aparece ao encerrar |
 | Formulário da aula semanal | Pergunta final "quer um diagnóstico com o especialista? sim/não" | Quem marca sim já é potencial; priorizar por temperatura |
 | Status do WhatsApp | Stories no status com a mesma lógica | |
-| Leads de lançamento do produto de entrada | Pedir o @ do Instagram na pesquisa do lançamento; abordar os qualificados | Citado no bootcamp abr/2026 |
-| Automação de boas-vindas com questionário para novos seguidores | Já existente no projeto: manter se boa parte completa (referência de laboratório: acima de 30% a 40%, conferir) e abordar à mão quem completou | Ligar ou manter automação é decisão do estrategista |
+| Leads de lançamento do produto de entrada | Pedir o @ do Instagram na pesquisa do lançamento; abordar os qualificados | |
+| Automação de boas-vindas com questionário para novos seguidores | Já existente no projeto: manter se boa parte completa (referência: acima de 30% a 40%, conferir) e abordar à mão quem completou | Ligar ou manter automação: assumo manter e listo em "Assumi" |
 
 ## 2. Sequências de stories (modelos de forma)
 
@@ -59,7 +59,7 @@ pediu e com OK do estrategista; a conversa de venda é humana.
 ## 4. Fontes fora do perfil
 
 - **Comentário em perfil grande do nicho:** fazer um comentário inteligente num post de um player grande do mercado do avatar
-  e abordar quem curtiu o comentário (bootcamp abr/2026). Interação pública, não pesca em grupo fechado.
+  e abordar quem curtiu o comentário. Interação pública, não pesca em grupo fechado.
 - **Prospecção arpão:** mirar pessoas específicas sem tráfego. Ativos que já existem (WhatsApp, lista, 200 seguidores, família,
   alunos antigos) e quem comenta ou é elogiado em perfis grandes do nicho. Convite falando de oportunidade, não de aula
   ("uma proposta para [oportunidade de carreira ou negócio]"), ou no formato herói relutante. Mensagem de relacionamento, não
@@ -74,8 +74,8 @@ pediu e com OK do estrategista; a conversa de venda é humana.
 
 - **Kinder Ovo:** sessão individual como bônus de rápida ação num produto barato do expert (ex.: primeiros compradores);
   agenda-se com os elegíveis, o especialista avalia, gera valor e oferece o HT. Custo de aquisição zero. Mexe na oferta do
-  produto barato: decisão do estrategista.
-- **Sessão vendida como produto:** sessão de avaliação paga (referência de aula R$ 97 a 3 mil; R$ 500 vendeu mais que R$ 197,
+  produto barato: assumo o padrão e listo em "Assumi".
+- **Sessão vendida como produto:** sessão de avaliação paga (referência R$ 97 a 3 mil; R$ 500 vendeu mais que R$ 197,
   conferir), abatida no HT. Precisa entregar valor e fazer o pitch. Preço sai de `02-oferta`.
 - **Consultoria gratuita com formulário:** anunciar e filtrar por formulário (formação, faturamento, cliente prévio).
 - **Pergunta de NPS da live semanal:** "quer receber contato sobre acompanhamento?".

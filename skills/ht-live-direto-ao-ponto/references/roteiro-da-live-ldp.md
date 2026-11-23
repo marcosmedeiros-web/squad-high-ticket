@@ -1,7 +1,6 @@
 # LDP: roteiro da live bloco a bloco e checklist do dia
 
-Fonte: trilha 16 (modelo de roteiro em 10 blocos, exemplos de lives de alunos citados) e catálogo fht-sht-roteiro-da-live.
-A aula não dá a duração de cada bloco; a coluna "tempo de referência" abaixo é sugestão do squad para uma live de ~1h30 a 2h
+O método não dá a duração de cada bloco; a coluna "tempo de referência" abaixo é sugestão do squad para uma live de ~1h30 a 2h
 (os casos citados duraram de ~54 min a ~2h). Ajustar ao expert e registrar o tempo real no debrief.
 
 ## 1. Roteiro
@@ -20,8 +19,7 @@ A aula não dá a duração de cada bloco; a coluna "tempo de referência" abaix
 | 10 | Encerramento | fechar o próximo passo | Recap do que acontece depois do clique (pagamento, agenda ou WhatsApp), aviso de que a equipe entra em contato amanhã para a seleção, agradecimento. | 3 min |
 
 **As 4 objeções eleitas**: listar as candidatas a partir de `03-sessao/` (árvore e planilha de objeções) e da pergunta 2 da
-pesquisa; eleger as 4 mais frequentes. Padrão de resposta (vem da árvore de objeções e do bootcamp de recuperação, a trilha 16
-não detalha): empatia, argumento lógico, evidência (caso real do expert com número). Exemplos de classe citados na aula: "funciona para mim?", falta de tempo, falta de dinheiro, pré-requisito do nicho.
+pesquisa; eleger as 4 mais frequentes. Padrão de resposta (vem da árvore de objeções e da recuperação pós-live; o método não detalha): empatia, argumento lógico, evidência (caso real do expert com número). Exemplos de classe de referência: "funciona para mim?", falta de tempo, falta de dinheiro, pré-requisito do nicho.
 
 ## 2. Checklist do dia
 
@@ -31,7 +29,7 @@ Antes (D-1 e D0 manhã)
 - [ ] Slides mínimos (programa, entregáveis, oferta, QR do formulário) revisados pelo ht-revisor-visual.
 - [ ] 4 objeções eleitas impressas ao lado da câmera.
 - [ ] Pessoa da equipe no chat: cola o link, separa perguntas, registra objeções.
-- [ ] Lembretes da cadência agendados (com OK do estrategista).
+- [ ] Lembretes da cadência agendados (com OK da pessoa).
 
 Durante
 - [ ] Começar na hora; combinado no primeiro minuto.
@@ -42,4 +40,4 @@ Durante
 Depois (mesmo dia)
 - [ ] Exportar chat e lista de presença.
 - [ ] Planilha de recuperação preenchida com quem aplicou, quem assistiu, quem não entrou.
-- [ ] Mensagem curta no grupo agradecendo e avisando o contato do dia seguinte (rascunho, OK do estrategista).
+- [ ] Mensagem curta no grupo agradecendo e avisando o contato do dia seguinte (rascunho, OK da pessoa).

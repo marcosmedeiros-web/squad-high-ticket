@@ -1,6 +1,6 @@
 # email-marketing 1.0.2
 
-Pacote do kit para o e-mail marketing proprio do dono: o Mautic que o kit instala ganha endereco publico com HTTPS,
+Pacote para o e-mail marketing proprio do dono: o Mautic da VPS dele ganha endereco publico com HTTPS,
 o disparo para segmento passa a ter guardas, o servico de envio troca com volta atras, e dois vigias impedem os dois
 incidentes que mais custaram na operacao de origem (cron travado e disco cheio de binlog).
 

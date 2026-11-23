@@ -1,8 +1,6 @@
 # Ancoragem, preço, bônus e garantia na fala
 
-Fonte: trilha 09 (RESUMO-apresentacao §3.11-3.14, §5.8-5.11; RESUMO-vendas §5.7-5.8); rota 3 resumo 05 (etapa 6); trilha 22
-(dez/2025 143, jan/2026 128, mar/2025 180, jan/2025 192 e 195, abr/2026 94, jul/2026 RJ 08); padrões recomendados do squad (garantia,
-ordem do preço, sinal, ancoragem). Todos os valores reais vêm de `02-oferta/oferta-vigente.md`; os números de aula abaixo são referência, não oferta.
+Todos os valores reais vêm de `02-oferta/oferta-vigente.md`; os números abaixo são referência, não oferta.
 
 ## 1. Ancoragem
 
@@ -23,10 +21,9 @@ Escolher o conteúdo de cada âncora pelo avatar:
 Emocional (sempre junto): o custo de continuar igual daqui a 1, 5 ou 10 anos, com a dor que o lead contou; perguntas que não
 pedem resposta ("quanto vale não passar mais um ano tentando sozinho?").
 
-Referências de aula (conferir no projeto): âncora por comparação em torno de 10x o preço do HT (RESUMO jan/2026, mentor de
-música), seguida do valor de mercado dos entregáveis somando em torno de 5x, e depois a emocional, em sequência: é a receita
-do padrão recomendado, a mesma das gravações. Valor de mercado: soma conservadora (menores valores de cada item), uma linha lógica, total grande em destaque no
-último slide da âncora (laboratório da trilha 09, aula 15). A âncora sai do que o lead disse no Raio-X e na coleta (por isso faz sentido falar da nutricionista ou da caneta: ele contou que
+Referências (conferir no projeto): âncora por comparação em torno de 10x o preço do HT, seguida do valor de mercado dos entregáveis somando em torno de 5x, e depois a emocional, em sequência: é a receita
+do padrão recomendado, a receita atual do método. Valor de mercado: soma conservadora (menores valores de cada item), uma linha lógica, total grande em destaque no
+último slide da âncora. A âncora sai do que o lead disse no Raio-X e na coleta (por isso faz sentido falar da nutricionista ou da caneta: ele contou que
 já tentou). A ancoragem também acontece antes do slide (provas, comparativos ao longo da apresentação). Depois de ancorar, acabou:
 sem segunda ancoragem para bônus.
 
@@ -48,7 +45,7 @@ Regras:
 - Lead que já sinalizou pagar à vista no Pix: não oferecer parcelamento.
 - Calma: atropelar o preço faz o lead perguntar "quanto ficou mesmo?".
 
-Divergência registrada: a trilha 09 (bootcamp de oferta) ensinou parcelado → à vista → entrada; turmas de 2025-2026 variam. Vale o padrão recomendado.
+Variação: algumas turmas usam parcelado → à vista → entrada. Vale o padrão recomendado.
 
 ## 3. Sinal (padrão recomendado)
 - R$ 500 a R$ 1.000, até 10% do valor do programa, pago **com a call aberta**: mandar o link (Pix ou cartão) na hora e ficar na
@@ -58,7 +55,7 @@ Divergência registrada: a trilha 09 (bootcamp de oferta) ensinou parcelado → 
 - Benefício que só vale até o fim da call ou preço que muda depois: só com regra aprovada pelo estrategista (risco de pressão).
 
 ## 4. Bônus
-- **Depois do preço**, como mais uma boa notícia. Antes do preço, parece parte do pacote. (Um mentor de 2026 apresenta antes;
+- **Depois do preço**, como mais uma boa notícia. Antes do preço, parece parte do pacote. (Alguns apresentam antes;
   padrão da skill é depois.)
 - "Bônus exclusivos" ou "bônus especiais", nunca "bônus para todos".
 - Bônus à vista: com valor de mercado reconhecível, de preferência serviço feito pelo expert ou pela equipe.

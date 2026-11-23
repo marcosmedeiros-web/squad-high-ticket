@@ -1,7 +1,6 @@
 # Prospecção, abordagem, kick-off e negociação de patrocínio
 
-Fonte: trilha 17, aulas 39 (como começar), 41 (proposta), 43 (negociação) e 45 (perguntas). Modelos parafraseados do que a
-gestora de eventos dita nas aulas; adaptar à voz do expert. Toda mensagem é **rascunho**: só sai com OK do estrategista.
+Modelos parafraseados do método; adaptar à voz do expert. Toda mensagem é **rascunho**: só sai com OK da pessoa.
 
 ## 1. Lista de candidatos
 
@@ -37,7 +36,7 @@ mídia kit pelos blocos 2, 3, 6 e 9; identificar a cota de interesse; dizer as c
 
 ## 4. E-mail depois da call
 
-Conteúdo descrito na aula ("educado, mas direto"):
+Conteúdo ("educado, mas direto"):
 1. Agradecer o tempo.
 2. Informar que foi feita a **pré-reserva** do estande que mais interessou.
 3. Anexar o book de comercialização / mídia kit e a planta.
@@ -62,8 +61,8 @@ sorteio de brindes no palco; desconto de ingresso para clientes do patrocinador;
 **Não se negocia:** tempo de palco fora da cota máster; lista/mailing de participantes (fala ambígua do caso sobre a máster:
 ver SKILL, Passo 8; padrão do squad é não entregar); preço abaixo do piso.
 
-**Condições de pagamento usadas no caso (opções para o estrategista decidir por projeto, não regra):**
-| Condição | Caso da aula | Observação |
+**Condições de pagamento usadas no caso (referência; a skill propõe por projeto e lista em "Assumi", não é regra):**
+| Condição | Caso de referência | Observação |
 |---|---|---|
 | Reserva | sinal fixo independente da cota, abatido do valor, 30 dias para decidir | a fala diz R$ 3 mil e corrige para R$ 6 mil (conferir) |
 | À vista | 10% de desconto pagando em até 30 dias após o contrato | |

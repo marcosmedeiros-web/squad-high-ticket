@@ -1,7 +1,6 @@
 ---
 name: youtube-thumbnail
-description: >
-  Generate a branded YouTube thumbnail from a video title. Uses a reference photo of the creator, high-CTR thumbnail principles, and brand colours to produce a ready-to-generate image prompt for Gemini. Use this skill whenever the user says "thumbnail", "youtube thumbnail", "build me a thumbnail", or wants a video cover image before writing the script. The thumbnail-first workflow mirrors the graphic-first approach for LinkedIn: sells the video before anyone hears a word of the script.
+description: 'Builds a branded YouTube thumbnail brief and a ready image prompt from the video title, a reference photo of the creator and brand colours. Use for "thumbnail", "youtube thumbnail", "capa do vídeo", "build me a thumbnail". NÃO usar para banner de canal (banner-design) nem para criativo de anúncio.'
 ---
 
 # YouTube Thumbnail
@@ -22,32 +21,11 @@ If a reference photo path is stored, pre-fill it. Otherwise ask:
 
 > Upload or provide the path to the reference photo of yourself you want used in the thumbnail. Ideally a clear headshot with distinctive lighting and expression you plan to reuse across videos for brand consistency.
 
-Then call AskUserQuestion:
+Ask only what is missing, in one message:
 
-```json
-[
-  {
-    "question": "What is the video title?",
-    "header": "Title",
-    "multiSelect": false,
-    "options": [
-      {"label": "I will type the title", "description": "Type the full working title"},
-      {"label": "Suggest one", "description": "Given the topic, propose 3 click-worthy titles first"}
-    ]
-  },
-  {
-    "question": "Emotional tone?",
-    "header": "Tone",
-    "multiSelect": false,
-    "options": [
-      {"label": "Shock / surprise", "description": "Wide eyes, open mouth, bold reaction"},
-      {"label": "Curious / thinking", "description": "Slight smirk, raised eyebrow, gaze off-frame"},
-      {"label": "Confident / direct", "description": "Eye contact, calm, assertive"},
-      {"label": "Frustrated / strong take", "description": "Intense gaze, hand gesture, tension"}
-    ]
-  }
-]
-```
+- **Video title** — if not given, propose 3 click-worthy titles from the topic and use the strongest.
+- **Emotional tone** — default: inferred from the title (shock / surprise, curious / thinking, confident / direct, frustrated /
+  strong take). Say it in one line: "Assumi: tom X (é só pedir para mudar)."
 
 ## Step 2. Apply thumbnail best practices
 
@@ -80,7 +58,7 @@ Then ask:
 
 > Here's the brief. Say "generate" to output the image prompt or tell me what to change.
 
-## Step 4. Output the Gemini prompt
+## Step 4. Output the image prompt
 
 Once approved, output the image generation prompt in a code block:
 
@@ -114,7 +92,7 @@ Constraints:
 
 Tell the user:
 
-> Paste this into a new Gemini chat, attach your reference photo, enable Create Image, and select Nano Banana. Generate at 1280x720.
+> Paste this into the image generator you already use (e.g. Gemini with image creation, or ChatGPT), attach your reference photo, and generate at 1280x720. If an image generator is available in this environment, I can run it directly.
 
 ## Step 5. Offer the next move
 

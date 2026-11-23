@@ -1,11 +1,10 @@
 # Plantão de dúvidas e roleplay
 
-Fonte: parte-E (plantão, roleplay), parte-F (roleplay organizar, cliente simulado), plantões de abr/2026 (91, 96) por amostra;
-catálogo (plantão: 5% a 10% comparecem).
+Referência: 5% a 10% dos alunos comparecem ao plantão.
 
 ## 1. Plantão (60 a 120 min)
 - Formato: aluno levanta a mão, abre microfone e câmera, expõe; mentor responde com tela compartilhada; fecha com NPS.
-- Quando: sextas pela manhã no modelo FHT; véspera de feriado.
+- Quando: sextas pela manhã no modelo do método; véspera de feriado.
 - Salas por estágio quando houver volume: "já fez a ação-alvo" e "ainda não".
 - Cabe: dúvida pontual de oferta, preço, avatar, abordagem, fechamento, próximo passo.
 - Não cabe: revisão longa de material (vai para check-up individual); assunto de outra etapa ainda não aberta.

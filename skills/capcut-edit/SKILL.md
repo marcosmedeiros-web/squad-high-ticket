@@ -1,11 +1,15 @@
 ---
 name: capcut-edit
-description: Edita projeto CapCut / JianYing por linha de comando — lê e escreve legenda, timing, velocidade, volume, template e animação (fade, ken-burns), e corta long-form em shorts. Use para — editar no CapCut, mexer no projeto do CapCut, cortar a aula em shorts, ajustar a legenda do CapCut, draft_content.json, jianying. Requer o CLI capcut instalado (npm i -g capcut-cli). É a EXECUÇÃO do corte — a estratégia do corte vertical é cortes-tiktok-turbo.
+description: 'Edita projeto CapCut/JianYing por linha de comando: legenda, timing, velocidade, volume, animação (fade, ken-burns) e corte de long-form em shorts. Gatilhos: "editar no CapCut", "mexer no projeto do CapCut", "ajustar a legenda do CapCut", "cortar a aula em shorts". NÃO usar para escolher os cortes (cortes-tiktok).'
 ---
 
 # capcut-edit
 
 CLI for editing CapCut / JianYing drafts through a version-aware store. v0.11 detects and synchronizes readable timelines across `draft_content.json`, `draft_info.json`, `draft_meta_info.json`, and `template-2.tmp`.
+
+## Setup (nothing pre-installed)
+
+Check `command -v capcut` first. If missing, tell the user it will install the `capcut-cli` npm package (`npm i -g capcut-cli`; needs Node, which can come from `brew install node`) and run it only after an OK. If the user declines, deliver the edit as a plan (segment list with times, text and speed) for manual editing in the CapCut app.
 
 ## Project locations
 

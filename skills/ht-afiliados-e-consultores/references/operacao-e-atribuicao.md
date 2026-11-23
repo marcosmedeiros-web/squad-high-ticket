@@ -1,8 +1,5 @@
 # Operação, atribuição e controle do programa de afiliados
 
-Fonte: trilha 17 aula 31 (acompanhamento a cada 2 ou 3 dias, página individual), Live 023 (número no crachá, fases),
-offboarding jan/2026 (painel, link, aprovação).
-
 ## 1. Planilha de controle (aba Afiliados)
 
 | Nº | Afiliado | Vínculo | Aprovado em | Link / slug | Convites disponíveis | Convidados | Confirmados T1 | Confirmados T2 | Presentes | Compraram | Faixa | Último contato | Próximo contato |

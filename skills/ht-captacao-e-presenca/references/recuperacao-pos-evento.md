@@ -1,8 +1,6 @@
 # Recuperação de vendas pós-evento
 
-Fonte única e principal: Bootcamp Recuperação de Vendas (trilha 17, desafio de imersão out/2025, aula 53 = trilha 22 aula 70),
-transcrito hoje com Whisper local e lido inteiro. Conduzido por dois mentorados que operam HTs no nicho de manicure; mentora FHT
-na mediação. Scripts parafraseados da fala; os white labels citados não estão nos materiais. Tudo rascunho: ligação e mensagem
+Método de recuperação de vendas depois do evento. Scripts parafraseados; os modelos prontos não vêm no pacote. Tudo rascunho: ligação e mensagem
 saem pelo time do expert, com OK do estrategista.
 
 ## 0. Para quem é
@@ -91,7 +89,7 @@ do dia colada; quem opera segue as tarefas.
 Ao fim, contar objeções por tipo (no caso relatado, metade era "medo de não conseguir"): o padrão vira conteúdo do encontro e
 da próxima palestra (`ht-palestras-e-pitch`) e da árvore de objeções (`ht-objecoes`).
 
-## 8. Downsells (opcionais, decisão do estrategista)
+## 8. Downsells (opcionais; o agente assume o padrão e lista em "Assumi")
 Para quem não é qualificado ou não tem interesse no HT, o caso oferece o infoproduto de entrada do expert (fora de campanhas
 sazonais). Não confundir com recuperação do HT.
 

@@ -1,11 +1,10 @@
 # Conteúdo do minicurso, pitch e repeat (peneira 2)
 
-Fonte: `RESUMO-erico-rocha-e-sala-colab.md` §3 (3 tipos de conteúdo), §4 passos 1 a 4, §5, §7, §8, anexo C; catálogo
-`fht-funil-minicurso-tres-peneiras` (aula de pitch dentro do minicurso). Exemplos do case são de cirurgiões; adaptar ao nicho.
+Exemplos do caso são de cirurgiões; adaptar ao nicho.
 
 ## 1. Os 3 tipos de conteúdo (usar ao menos um por aula; podem se misturar)
 
-| Tipo | O que faz | Exemplo dado na aula (paráfrase) |
+| Tipo | O que faz | Exemplo (paráfrase) |
 |---|---|---|
 | Erro | mostra que algo que a pessoa acha verdade está errado | achar que só pontua milhas com cartão premium |
 | Quick win que cria nova dor | dá um ganho rápido que não leva à Roma e revela o próximo problema | ensinar a precificar a cirurgia: a pessoa aprende o cálculo e a dor vira "como fechar" |
@@ -24,18 +23,18 @@ Regra de ouro: **o quê e o porquê, nunca o como completo**. Frase de aterrissa
 | 3 | quick win + **pitch** | ferramenta simples entregue "seca" (ex.: tabela para preencher) + pitch completo do AR | link de aplicação |
 | 4 | custo de oportunidade + **repeat** | abre com prova emocional (depoimentos), responde à objeção mais forte do nicho mostrando a oportunidade e o custo de não agir (no número que o avatar valoriza; no case, cirurgias perdidas, não faturamento) + repeat | link de aplicação |
 
-Duração no case: aula 1 com ~25 min, as demais com ~1 h (a do pitch, ~1h05). O expert diz que, para o avatar dele, aula de
+Duração no case: 1ª aula com ~25 min, as demais com ~1 h (a do pitch, ~1h05). O expert diz que, para o avatar dele, aula de
 10 min parece fraca e 1 h não atrapalhou; a parceira relata queixa de aulas longas, e a rodada seguinte testa 7 aulas de 30 a
 40 min. A opinião sobre a duração foi colhida só de quem entrou no AR. Definir por avatar e medir a retenção por aula.
 
-## 3. Pitch na aula 3 (igual ao pitch da IMA do FHT)
+## 3. Pitch na 3ª aula (igual ao pitch da IMA do método)
 
 Ordem: o que é o programa · o que não é · para quem é · para quem não é · resultados (provas autorizadas) · pilares e
 entregáveis · preço (dito, sem esconder, na ordem entrada, parcelado, à vista) · garantia (a do AR: condicional e ligada à execução) · aplicação:
 "você paga <valor> pela aplicação, que é o custo da sua consultoria diagnóstica; se eu avaliar que o seu caso não tem como dar
 resultado, devolvo o valor" (paráfrase do case). Estrutura detalhada do pitch: `ht-palestras-e-pitch`.
 
-## 4. Repeat na aula 4 (modelo da IMA)
+## 4. Repeat na 4ª aula (modelo da IMA)
 
 Prova antes (caso real) · prova emocional (o que mudou na vida do aluno) · repeat do pitch em versão curta · parabéns a quem já
 decidiu · link de aplicação e prazo real.
