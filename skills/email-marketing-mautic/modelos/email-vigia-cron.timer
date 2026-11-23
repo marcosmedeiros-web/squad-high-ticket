@@ -1,0 +1,9 @@
+[Unit]
+Description=email-marketing: vigia do cron do Mautic a cada 10 min
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=10min
+
+[Install]
+WantedBy=timers.target

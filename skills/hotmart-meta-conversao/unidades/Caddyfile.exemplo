@@ -1,0 +1,24 @@
+# Bloco para o Caddy que já serve HTTPS na sua VPS. Troque conversao.SEU-DOMINIO e a porta, se mudou HM_PORTA.
+# O cabeçalho X-Hotmart-Hottok é o segredo do webhook: o filtro de log abaixo tira ele do log de acesso do Caddy,
+# que por padrão grava os cabeçalhos da requisição.
+conversao.SEU-DOMINIO {
+	@entrada path /v1/hotmart /v1/visita
+	handle @entrada {
+		reverse_proxy 127.0.0.1:8787
+	}
+	handle {
+		respond 404
+	}
+	log {
+		format filter {
+			wrap json
+			fields {
+				request>headers>X-Hotmart-Hottok delete
+				request>remote_ip ip_mask {
+					ipv4 24
+					ipv6 32
+				}
+			}
+		}
+	}
+}

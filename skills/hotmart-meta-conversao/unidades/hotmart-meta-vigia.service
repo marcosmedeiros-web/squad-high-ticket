@@ -1,0 +1,11 @@
+[Unit]
+Description=Vigia do webhook da Hotmart: venda aprovada que o webhook não trouxe (hotmart-meta-conversao)
+
+[Service]
+Type=oneshot
+Environment=HM_PERFIL=@PERFIL@
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=@PYTHON@ -I -B @DESTINO@/motor/vigia.py
+# 1 = BURACO (venda sem webhook) e 2 = não conseguiu medir deixam a unidade failed, de propósito
+UMask=0077
+NoNewPrivileges=yes

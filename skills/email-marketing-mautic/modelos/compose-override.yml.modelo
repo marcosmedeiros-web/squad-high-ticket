@@ -1,0 +1,10 @@
+# Modelo do que "email-mkt binlog aplicar" gera. Use a mao SO se o dono ja tem um docker-compose.override.yml:
+# junte estes blocos no arquivo dele (o comando recusa sobrescrever arquivo que nao gerou).
+services:
+  <servico-do-banco>:
+    # os argumentos que o banco ja tinha, mais este:
+    command: ["--disable-log-bin"]
+  # So no Mautic 7.1.2, em cada servico do Mautic (web, cron, worker):
+  <servico-mautic>:
+    volumes:
+      - ./overrides-email-marketing/ScheduledExecutioner.php:/var/www/html/docroot/app/bundles/CampaignBundle/Executioner/ScheduledExecutioner.php:ro

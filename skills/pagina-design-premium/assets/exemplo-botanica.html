@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- PIXEL AQUI -->
+<title>Método Raiz · 12 semanas para reconstruir sua rotina</title>
+<meta name="description" content="Programa de 12 semanas para mulheres que já tentaram de tudo e querem parar de recomeçar. Hábito, força e energia — sem dieta restritiva.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ============ DIREÇÃO DE ARTE — derivada: acolhimento / feminino 35-55 ============ */
+:root{
+  --bg:#FBF6F0;--bg-2:#F4EBE1;--surface:#FFFFFF;
+  --ink:#2A1F1C;--ink-2:#5C4B44;--ink-3:#8E7C73;
+  --line:#E7DACD;--line-strong:#CDB9A6;
+  --accent:#B8484F;--accent-ink:#FFFFFF;--accent-soft:#F7E5E3;
+  --sup-1:#E8D9C4;--sup-1-ink:#6B4A22;
+  --sup-2:#D9E2D3;--sup-2-ink:#3C5540;
+  --sup-3:#F0D8CE;--sup-3-ink:#8A4433;
+  --sup-4:#E4DCEA;--sup-4-ink:#4F3F63;
+  --ok:#3C6E47;--warn:#A8762A;--bad:#A8443C;
+  --font-display:'Fraunces',Georgia,serif;
+  --font-body:'Inter',system-ui,sans-serif;
+  --radius:14px;--radius-lg:20px;--border:1px solid var(--line);
+  --t-hero:clamp(2.6rem,7.4vw,4.6rem);--t-h2:clamp(1.9rem,4.6vw,3rem);
+  --t-h3:clamp(1.2rem,2.3vw,1.5rem);--t-body:clamp(1.02rem,1.6vw,1.1rem);
+  --t-sm:.9rem;--t-label:.6875rem;
+  --pad-tight:clamp(2.5rem,6vw,3.5rem);--pad-base:clamp(3.5rem,9vw,6rem);--pad-air:clamp(5rem,13vw,9rem);
+  --maxw:1140px;--maxw-text:64ch;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:var(--t-body);line-height:1.68;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg,video{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+table{border-collapse:collapse;width:100%}
+::selection{background:var(--accent);color:var(--accent-ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.06;letter-spacing:-.02em;font-variation-settings:'SOFT' 40,'WONK' 1}
+h1{font-size:var(--t-hero);font-weight:600;letter-spacing:-.028em}
+h2{font-size:var(--t-h2);letter-spacing:-.024em}
+h3{font-size:var(--t-h3);letter-spacing:-.015em}
+h1 em,h2 em{font-style:italic;color:var(--accent)}
+p{max-width:var(--maxw-text)}
+strong{font-weight:600;color:var(--ink)}
+.lead{font-size:clamp(1.08rem,2.1vw,1.26rem);color:var(--ink-2);line-height:1.6}
+.sm{font-size:var(--t-sm);color:var(--ink-2)}
+.xs{font-size:.8125rem;color:var(--ink-3);line-height:1.5}
+.num{font-variant-numeric:tabular-nums;font-feature-settings:'tnum'}
+.eyebrow{font-family:var(--font-body);font-size:var(--t-label);font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3);display:flex;align-items:center;gap:.65rem;margin-bottom:1.1rem}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--line);max-width:110px}
+.eyebrow .n{color:var(--accent)}
+
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:clamp(1.15rem,5vw,2rem)}
+section{padding-block:var(--pad-base);position:relative}
+section.tight{padding-block:var(--pad-tight)}
+section.air{padding-block:var(--pad-air)}
+section.alt{background:var(--bg-2)}
+section.dark{background:#241A18;color:#FBF3EC}
+section.dark h2,section.dark h3{color:#FBF3EC}
+section.dark h2 em{color:#E9A9A0}
+section.dark .sm,section.dark .lead{color:#D2BFB6}
+section.dark .xs{color:#A8938A}
+section.dark .eyebrow{color:#A8938A}
+section.dark .eyebrow::after{background:#463430}
+
+.cols{display:grid;gap:clamp(1.5rem,4vw,2.5rem);grid-template-columns:1fr}
+.split{display:grid;gap:clamp(1.75rem,5vw,3.5rem);grid-template-columns:1fr;align-items:start}
+.g3{display:grid;gap:1rem;grid-template-columns:1fr}
+.g2{display:grid;gap:1rem;grid-template-columns:1fr}
+.stack{display:flex;flex-direction:column;gap:1rem}
+.row{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
+.between{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+@media (min-width:900px){
+  .cols{grid-template-columns:1fr 1fr}
+  .g3{grid-template-columns:repeat(3,1fr);gap:1.25rem}
+  .g2{grid-template-columns:1fr 1fr;gap:1.25rem}
+  .split{grid-template-columns:7fr 5fr}
+  .split.rev{grid-template-columns:5fr 7fr}
+  .stick{position:sticky;top:5rem;align-self:start}
+}
+
+.card{background:var(--surface);border:var(--border);border-radius:var(--radius);padding:clamp(1.3rem,3vw,1.9rem);transition:border-color .25s ease,transform .25s ease}
+.card.flush{padding:0;overflow:hidden}
+.card.hi{border-color:var(--accent)}
+@media (hover:hover){.card.tap:hover{border-color:var(--accent);transform:translateY(-3px)}}
+.panel{background:var(--bg-2);border:var(--border);border-radius:var(--radius);padding:clamp(1.3rem,3vw,1.9rem)}
+.ph{background:var(--bg-2);border:1px dashed var(--line-strong);border-radius:var(--radius-lg);display:grid;place-items:center;color:var(--ink-3);font-size:var(--t-label);letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:1rem}
+.ph.org{border-radius:42% 58% 52% 48%/48% 44% 56% 52%}
+
+.tag{display:inline-flex;align-items:center;gap:.45rem;font-size:var(--t-label);font-weight:600;letter-spacing:.12em;text-transform:uppercase;border:var(--border);border-radius:100px;padding:.36rem .8rem;color:var(--ink-2);background:var(--surface)}
+.tag.on{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex:none}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;background:var(--accent);color:var(--accent-ink);font-family:var(--font-body);font-weight:600;font-size:1rem;padding:1.05rem 1.7rem;border-radius:100px;transition:transform .14s ease,filter .14s ease}
+.btn:hover{filter:brightness(1.07)}.btn:active{transform:translateY(1px)}
+.btn.block{display:flex;width:100%}
+.btn.lg{padding:1.2rem 2.1rem;font-size:1.06rem}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line-strong)}
+
+.ic{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.ic.lg{width:26px;height:26px;stroke-width:1.5}
+.icbox{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;flex:none}
+
+.list{display:grid;gap:0;border-top:var(--border)}
+.list li{display:flex;gap:.9rem;padding:.95rem 0;border-bottom:var(--border);align-items:flex-start}
+.list li .ic{margin-top:.2rem;color:var(--accent)}
+.list.neg li .ic{color:var(--ink-3)}
+
+.tbl th,.tbl td{text-align:left;padding:.9rem 1rem;border-bottom:var(--border);font-size:var(--t-sm)}
+.tbl th{font-size:var(--t-label);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
+.tbl td:first-child{color:var(--ink-2)}
+.tbl .yes{color:var(--ok);font-weight:600}.tbl .no{color:var(--ink-3)}
+.tbl tr.hi td{background:var(--accent-soft)}
+
+.acc{border-top:var(--border)}
+.acc details{border-bottom:var(--border)}
+.acc summary{display:flex;gap:1rem;align-items:flex-start;padding:1.2rem 0;cursor:pointer;list-style:none;font-family:var(--font-display);font-weight:600;font-size:1.08rem;letter-spacing:-.012em}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary .q{font-size:var(--t-label);color:var(--ink-3);padding-top:.42rem;flex:none;letter-spacing:.1em;font-family:var(--font-body);font-weight:600}
+.acc summary::after{content:"+";margin-left:auto;color:var(--accent);font-weight:400;font-size:1.5rem;line-height:1;flex:none}
+.acc details[open] summary::after{content:"–"}
+.acc .a{padding:0 0 1.35rem 2.7rem;color:var(--ink-2);font-size:var(--t-sm);max-width:66ch}
+
+/* ============ MOTIVO: grade de progresso ============ */
+.gridfill{display:grid;grid-template-columns:repeat(12,1fr);gap:5px;max-width:420px}
+.gridfill i{aspect-ratio:1;border-radius:4px;background:var(--line);transition:background .45s ease,transform .45s ease}
+.gridfill i.on{background:var(--accent);transform:scale(1.08)}
+.gridfill.soft i.on{background:var(--sup-2-ink)}
+
+/* heatmap de consistência */
+.heat{display:grid;grid-template-columns:repeat(14,1fr);gap:4px}
+.heat i{aspect-ratio:1;border-radius:3px;background:var(--bg-2);border:1px solid var(--line)}
+.heat i.l1{background:#E3EBDF;border-color:#D2DECC}
+.heat i.l2{background:#BFD3B7;border-color:#AFC7A6}
+.heat i.l3{background:#8FB183;border-color:#7FA372}
+.heat i.l4{background:#5C8A50;border-color:#4F7B44}
+
+/* ============ MOVIMENTO ============ */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .55s cubic-bezier(.2,.7,.3,1),transform .55s cubic-bezier(.2,.7,.3,1)}
+.rv.in{opacity:1;transform:none}
+.rvg > *{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+.rvg.in > *{opacity:1;transform:none}
+.rvg.in > *:nth-child(2){transition-delay:70ms}
+.rvg.in > *:nth-child(3){transition-delay:140ms}
+.rvg.in > *:nth-child(4){transition-delay:210ms}
+.rvg.in > *:nth-child(5){transition-delay:280ms}
+.rvg.in > *:nth-child(6){transition-delay:350ms}
+
+.marquee{overflow:hidden;--gap:2.5rem;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marquee-track{display:flex;gap:var(--gap);width:max-content;animation:mq 42s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.marquee-track span{display:flex;align-items:center;gap:.6rem;font-size:var(--t-sm);color:var(--ink-2);white-space:nowrap}
+@keyframes mq{to{transform:translateX(calc(-50% - var(--gap)/2))}}
+
+.seal{color:var(--ink-3);animation:spin 24s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.blob{position:absolute;z-index:0;filter:blur(72px);opacity:.6;pointer-events:none;border-radius:40% 60% 55% 45%/50% 45% 55% 50%}
+.blob.a{width:min(58vw,540px);aspect-ratio:1;background:var(--sup-3);top:-14%;right:-16%}
+.blob.b{width:min(44vw,400px);aspect-ratio:1;background:var(--sup-2);bottom:-18%;left:-18%}
+.hero{position:relative;overflow:hidden}
+.hero > .wrap{position:relative;z-index:1}
+
+.wave{display:block;width:100%;height:clamp(28px,4.5vw,54px)}
+.progress{position:fixed;top:0;left:0;height:2px;background:var(--accent);width:0;z-index:80}
+
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--surface);border-top:var(--border);padding:.7rem clamp(1rem,4vw,1.5rem);display:flex;gap:.85rem;align-items:center;justify-content:space-between;transform:translateY(115%);transition:transform .28s ease;box-shadow:0 -8px 24px rgba(42,31,28,.07)}
+.bar.show{transform:translateY(0)}
+.bar .btn{padding:.82rem 1.25rem;font-size:.94rem;white-space:nowrap}
+@media (min-width:900px){.bar{display:none}}
+@media (max-width:899px){body{padding-bottom:4.9rem}}
+
+.mt-s{margin-top:.75rem}.mt{margin-top:1.5rem}.mt-l{margin-top:2.5rem}.mt-xl{margin-top:4rem}
+.center{text-align:center}.center p{margin-inline:auto}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .rv,.rvg > *{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<div class="progress" id="pb"></div>
+
+<!-- ============ SPRITE DE ÍCONES ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="ic-check" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5"/></symbol>
+<symbol id="ic-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="ic-seta" viewBox="0 0 24 24"><path d="M4 12h15m-6-6l6 6-6 6"/></symbol>
+<symbol id="ic-folha" viewBox="0 0 24 24"><path d="M20 4C11 4 5.5 7.5 5.5 14c0 3.3 2.2 5.5 5.5 5.5C17 19.5 20 13 20 4z"/><path d="M4.5 20c3-6.5 7-9.5 11-11"/></symbol>
+<symbol id="ic-coracao" viewBox="0 0 24 24"><path d="M12 19.5s-7.3-4.4-7.3-9.2A4.3 4.3 0 0112 8.2a4.3 4.3 0 017.3 2.1c0 4.8-7.3 9.2-7.3 9.2z"/></symbol>
+<symbol id="ic-halter" viewBox="0 0 24 24"><rect x="2.5" y="8.8" width="3.6" height="6.4" rx="1.3"/><rect x="17.9" y="8.8" width="3.6" height="6.4" rx="1.3"/><rect x="6.6" y="10.4" width="10.8" height="3.2" rx="1.2"/></symbol>
+<symbol id="ic-prato" viewBox="0 0 24 24"><path d="M3.5 11.5h17a8.5 8.5 0 01-17 0z"/><path d="M9.5 8c0-1.8 1.2-2.4 1.2-4M14 8c0-1.8 1.2-2.4 1.2-4"/></symbol>
+<symbol id="ic-sono" viewBox="0 0 24 24"><path d="M20 14.2A8 8 0 019.8 4 8.2 8.2 0 1020 14.2z"/></symbol>
+<symbol id="ic-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+<symbol id="ic-calendario" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/></symbol>
+<symbol id="ic-pessoas" viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3"/><path d="M3 19c0-3.1 2.7-5 6-5s6 1.9 6 5"/><path d="M16 6.2a3 3 0 010 5.6M17.5 14.4c2 .7 3.5 2.2 3.5 4.6"/></symbol>
+<symbol id="ic-faisca" viewBox="0 0 24 24"><path d="M12 3.5l1.9 5.6 5.6 1.9-5.6 1.9L12 18.5l-1.9-5.6-5.6-1.9 5.6-1.9z"/></symbol>
+<symbol id="ic-escudo" viewBox="0 0 24 24"><path d="M12 3.5l7 2.8v5.4c0 4.2-2.8 7.3-7 8.8-4.2-1.5-7-4.6-7-8.8V6.3z"/><path d="M9 12l2.2 2.2L15.5 10"/></symbol>
+<symbol id="ic-chat" viewBox="0 0 24 24"><path d="M20.5 12.5c0 4-3.8 7-8.5 7-1.2 0-2.4-.2-3.4-.6L3.5 20.5l1.7-4.3a6.6 6.6 0 01-1.7-4.4c0-3.9 3.8-7 8.5-7s8.5 3.1 8.5 7z"/></symbol>
+<symbol id="ic-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l6 3.5-6 3.5z"/></symbol>
+<symbol id="ic-livro" viewBox="0 0 24 24"><path d="M4 5.5c2.7-1 5.3-1 8 0v14c-2.7-1-5.3-1-8 0z"/><path d="M12 5.5c2.7-1 5.3-1 8 0v14c-2.7-1-5.3-1-8 0z"/></symbol>
+</defs></svg>
+
+<main>
+
+<!-- 01 · HERO -->
+<section class="hero air">
+  <span class="blob a"></span><span class="blob b"></span>
+  <div class="wrap split">
+    <div>
+      <span class="tag"><span class="dot"></span>Turma de setembro · 12 semanas</span>
+      <h1 class="mt">Você não falhou doze vezes. O <em>método</em> falhou.</h1>
+      <p class="lead mt">Um programa de 12 semanas para mulheres que já tentaram de tudo e cansaram de recomeçar toda segunda-feira. Sem dieta de folha, sem lista de proibições, sem balança mandando no seu humor.</p>
+      <ul class="list mt-l rvg">
+        <li><svg class="ic"><use href="#ic-check"/></svg><span>Rotina construída em cima da <strong>sua</strong> semana real, não de uma ideal</span></li>
+        <li><svg class="ic"><use href="#ic-check"/></svg><span>Força e energia como medida de progresso, não só o número da balança</span></li>
+        <li><svg class="ic"><use href="#ic-check"/></svg><span>Encontro ao vivo toda quarta, com uma turma pequena</span></li>
+      </ul>
+    </div>
+    <aside class="card stick">
+      <div class="between">
+        <span class="tag on">Lote de abertura</span>
+        <svg class="seal" viewBox="0 0 120 120" width="86" height="86" aria-hidden="true">
+          <defs><path id="c1" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+          <text font-size="9" letter-spacing="2.2" fill="currentColor" font-family="Inter,sans-serif">
+            <textPath href="#c1">12 SEMANAS · AO VIVO · TURMA PEQUENA · </textPath>
+          </text>
+        </svg>
+      </div>
+      <div class="mt">
+        <div class="xs">De R$ 1.297 por</div>
+        <div class="num" style="font-family:var(--font-display);font-size:3rem;font-weight:600;line-height:1">R$ 697</div>
+        <div class="xs mt-s">ou 12× de R$ 69,20 no cartão</div>
+      </div>
+      <div class="mt" style="border-top:var(--border);padding-top:1rem">
+        <div class="row" style="gap:.6rem"><svg class="ic" style="color:var(--sup-2-ink)"><use href="#ic-calendario"/></svg><span class="sm">Começa 08 de setembro</span></div>
+        <div class="row mt-s" style="gap:.6rem"><svg class="ic" style="color:var(--sup-2-ink)"><use href="#ic-pessoas"/></svg><span class="sm">Turma limitada a 40 mulheres</span></div>
+      </div>
+      <a href="#oferta" class="btn block lg mt">Quero minha vaga</a>
+      <p class="xs mt-s center">Acesso imediato · 14 dias de garantia</p>
+    </aside>
+  </div>
+</section>
+
+<!-- 02 · MARQUEE -->
+<div class="marquee" style="border-block:var(--border);padding-block:.95rem;background:var(--bg-2)">
+  <div class="marquee-track">
+    <span><svg class="ic"><use href="#ic-prato"/></svg>Sem contagem de caloria</span>
+    <span><svg class="ic"><use href="#ic-halter"/></svg>Treino de 25 minutos em casa</span>
+    <span><svg class="ic"><use href="#ic-sono"/></svg>Sono e energia entram na conta</span>
+    <span><svg class="ic"><use href="#ic-pessoas"/></svg>Turma pequena, com nome</span>
+    <span><svg class="ic"><use href="#ic-folha"/></svg>Comida de verdade, do seu mercado</span>
+    <span aria-hidden="true"><svg class="ic"><use href="#ic-prato"/></svg>Sem contagem de caloria</span>
+    <span aria-hidden="true"><svg class="ic"><use href="#ic-halter"/></svg>Treino de 25 minutos em casa</span>
+    <span aria-hidden="true"><svg class="ic"><use href="#ic-sono"/></svg>Sono e energia entram na conta</span>
+    <span aria-hidden="true"><svg class="ic"><use href="#ic-pessoas"/></svg>Turma pequena, com nome</span>
+    <span aria-hidden="true"><svg class="ic"><use href="#ic-folha"/></svg>Comida de verdade, do seu mercado</span>
+  </div>
+</div>
+
+<!-- 03 · AGITAÇÃO -->
+<section>
+  <div class="wrap">
+    <span class="eyebrow rv"><span class="n">01</span> · O ciclo que você já conhece</span>
+    <h2 class="rv" style="max-width:19ch">Começa numa segunda. Termina numa quinta.</h2>
+    <div class="cols mt-l">
+      <p class="lead rv">Não é falta de força de vontade. É que quase tudo que te venderam foi desenhado para funcionar por três semanas — e depois cobrar de você o fracasso de um plano que nunca coube na sua vida.</p>
+      <ul class="list neg rvg">
+        <li><svg class="ic"><use href="#ic-x"/></svg><span>O plano assume que você tem duas horas livres e cozinha todo dia</span></li>
+        <li><svg class="ic"><use href="#ic-x"/></svg><span>Um jantar fora e a semana inteira “já era”</span></li>
+        <li><svg class="ic"><use href="#ic-x"/></svg><span>A balança define se o dia foi bom antes das oito da manhã</span></li>
+        <li><svg class="ic"><use href="#ic-x"/></svg><span>Você já sabe o que fazer. O que falta é sustentar</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,34 C240,6 480,54 720,34 C960,14 1200,52 1440,28 L1440,60 L0,60 Z" fill="var(--bg-2)"/></svg>
+
+<!-- 04 · O QUE MUDA + HEATMAP -->
+<section class="alt">
+  <div class="wrap split rev">
+    <div>
+      <div class="card">
+        <div class="between">
+          <span class="tag">Registro de uma aluna · exemplo ilustrativo</span>
+        </div>
+        <div class="heat mt" id="heat" aria-hidden="true"></div>
+        <p class="xs mt-s">Leitura de cima para baixo · semana 01 até semana 12</p>
+        <div class="row mt-s" style="gap:.5rem;align-items:center">
+          <span class="xs">Menos</span>
+          <i style="width:12px;height:12px;border-radius:3px;background:#E3EBDF;border:1px solid #D2DECC"></i>
+          <i style="width:12px;height:12px;border-radius:3px;background:#BFD3B7"></i>
+          <i style="width:12px;height:12px;border-radius:3px;background:#8FB183"></i>
+          <i style="width:12px;height:12px;border-radius:3px;background:#5C8A50"></i>
+          <span class="xs">Mais</span>
+        </div>
+        <p class="xs mt">Cada quadrado é um dia. A cor é quantos dos quatro hábitos base foram marcados. O objetivo nunca é ficar tudo verde-escuro — é o mapa parar de ter buracos de sete dias.</p>
+      </div>
+    </div>
+    <div>
+      <span class="eyebrow rv"><span class="n">02</span> · A virada</span>
+      <h2 class="rv" style="max-width:16ch">A gente para de medir <em>perfeição</em> e começa a medir constância.</h2>
+      <p class="lead mt rv">Quatro hábitos base, marcados todo dia num mapa simples. Semana ruim não zera nada — ela aparece mais clara e a próxima segue de onde parou. É essa mudança de placar que faz a diferença entre parar em março e chegar em dezembro.</p>
+      <ul class="list mt rvg">
+        <li><svg class="ic"><use href="#ic-check"/></svg><span>Dia ruim vira dado, não motivo pra desistir</span></li>
+        <li><svg class="ic"><use href="#ic-check"/></svg><span>Você enxerga o padrão: onde a semana costuma quebrar</span></li>
+        <li><svg class="ic"><use href="#ic-check"/></svg><span>O ajuste é no gatilho, não na sua disciplina</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 05 · OS QUATRO PILARES -->
+<section>
+  <div class="wrap">
+    <span class="eyebrow rv"><span class="n">03</span> · Os quatro pilares</span>
+    <h2 class="rv" style="max-width:20ch">Quatro hábitos. Nenhum deles exige uma vida nova.</h2>
+    <div class="g2 mt-l rvg">
+      <div class="card tap">
+        <span class="icbox" style="background:var(--sup-2);color:var(--sup-2-ink)"><svg class="ic lg"><use href="#ic-prato"/></svg></span>
+        <h3 class="mt">Comer com estrutura</h3>
+        <p class="sm mt-s">Três refeições que se repetem, montadas com o que já existe no seu mercado. Sem lista de proibido, sem pesar nada.</p>
+      </div>
+      <div class="card tap">
+        <span class="icbox" style="background:var(--sup-1);color:var(--sup-1-ink)"><svg class="ic lg"><use href="#ic-halter"/></svg></span>
+        <h3 class="mt">Ficar mais forte</h3>
+        <p class="sm mt-s">Vinte e cinco minutos, três vezes por semana, em casa, com peso do corpo e um par de halteres. Progressão registrada.</p>
+      </div>
+      <div class="card tap">
+        <span class="icbox" style="background:var(--sup-4);color:var(--sup-4-ink)"><svg class="ic lg"><use href="#ic-sono"/></svg></span>
+        <h3 class="mt">Dormir de verdade</h3>
+        <p class="sm mt-s">O pilar que ninguém vende e que decide os outros três. Rotina de desligamento, não oito horas obrigatórias.</p>
+      </div>
+      <div class="card tap">
+        <span class="icbox" style="background:var(--sup-3);color:var(--sup-3-ink)"><svg class="ic lg"><use href="#ic-coracao"/></svg></span>
+        <h3 class="mt">Mover o dia inteiro</h3>
+        <p class="sm mt-s">O que acontece fora do treino pesa mais que o treino. Caminhada, escada, o cachorro, o supermercado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 · MOCK: UM DIA NO MÉTODO -->
+<section class="alt">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow rv"><span class="n">04</span> · Um dia comum</span>
+      <h2 class="rv" style="max-width:18ch">Não é uma vida nova. É a sua terça-feira, ajustada.</h2>
+      <p class="lead mt rv">Este é um dia real do programa, com os quatro pilares encaixados numa rotina de quem trabalha fora e tem filho. Nada aqui exige acordar às cinco.</p>
+      <div class="panel mt-l rv">
+        <div class="row" style="gap:.7rem"><svg class="ic" style="color:var(--accent)"><use href="#ic-relogio"/></svg><strong class="sm">Tempo total exigido por dia</strong></div>
+        <p class="sm mt-s">Cerca de 35 minutos, e em dois dias da semana é zero.</p>
+      </div>
+    </div>
+    <div class="card flush rv">
+      <div class="between" style="padding:.9rem 1.2rem;border-bottom:var(--border)">
+        <strong class="sm">Terça-feira</strong>
+        <span class="tag">4 de 4 marcados</span>
+      </div>
+      <div style="padding:.4rem 1.2rem">
+        <div class="row" style="gap:1rem;padding:.85rem 0;border-bottom:var(--border);flex-wrap:nowrap;align-items:flex-start">
+          <span class="xs num" style="width:46px;flex:none;padding-top:.15rem">07:10</span>
+          <svg class="ic" style="color:var(--sup-2-ink)"><use href="#ic-prato"/></svg>
+          <div><strong class="sm">Café estruturado</strong><p class="xs">Ovo, fruta e café. Cinco minutos, sem decisão nenhuma pra tomar.</p></div>
+        </div>
+        <div class="row" style="gap:1rem;padding:.85rem 0;border-bottom:var(--border);flex-wrap:nowrap;align-items:flex-start">
+          <span class="xs num" style="width:46px;flex:none;padding-top:.15rem">12:30</span>
+          <svg class="ic" style="color:var(--sup-3-ink)"><use href="#ic-coracao"/></svg>
+          <div><strong class="sm">Caminhada de 12 min</strong><p class="xs">Depois do almoço, na volta pro escritório. Conta como movimento do dia.</p></div>
+        </div>
+        <div class="row" style="gap:1rem;padding:.85rem 0;border-bottom:var(--border);flex-wrap:nowrap;align-items:flex-start">
+          <span class="xs num" style="width:46px;flex:none;padding-top:.15rem">19:40</span>
+          <svg class="ic" style="color:var(--sup-1-ink)"><use href="#ic-halter"/></svg>
+          <div><strong class="sm">Treino B · 25 min</strong><p class="xs">Agachamento, remada, prancha. Carga anotada pra semana que vem subir.</p></div>
+        </div>
+        <div class="row" style="gap:1rem;padding:.85rem 0;flex-wrap:nowrap;align-items:flex-start">
+          <span class="xs num" style="width:46px;flex:none;padding-top:.15rem">22:15</span>
+          <svg class="ic" style="color:var(--sup-4-ink)"><use href="#ic-sono"/></svg>
+          <div><strong class="sm">Desligamento</strong><p class="xs">Luz baixa, celular fora do quarto. O pilar que sustenta os outros três.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 · AS 12 SEMANAS -->
+<section>
+  <div class="wrap">
+    <div class="split">
+      <div class="stick">
+        <span class="eyebrow rv"><span class="n">05</span> · O caminho</span>
+        <h2 class="rv" style="max-width:14ch">Doze semanas, três fases.</h2>
+        <p class="lead mt rv">Cada fase tem um objetivo só. Você nunca está tentando mudar quatro coisas ao mesmo tempo.</p>
+        <div class="gridfill mt-l" id="gf" aria-hidden="true"></div>
+        <p class="xs mt-s">12 semanas · encontro ao vivo toda quarta, 20h</p>
+      </div>
+      <div class="stack rvg" style="gap:1rem">
+        <div class="card">
+          <div class="between"><span class="tag" style="background:var(--sup-2);border-color:var(--sup-2);color:var(--sup-2-ink)">Fase 01</span><span class="xs num">Semanas 1–4</span></div>
+          <h3 class="mt-s">Tirar o peso da decisão</h3>
+          <p class="sm mt-s">Montamos as três refeições que se repetem e o treino base. O objetivo da fase não é resultado — é que você pare de decidir o que fazer todo dia.</p>
+          <ul class="list mt" style="border-top:0">
+            <li style="border-bottom:0;padding:.45rem 0"><svg class="ic"><use href="#ic-seta"/></svg><span class="sm">Mapa dos 4 hábitos ativado</span></li>
+            <li style="border-bottom:0;padding:.45rem 0"><svg class="ic"><use href="#ic-seta"/></svg><span class="sm">Cardápio base do seu mercado</span></li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="between"><span class="tag" style="background:var(--sup-1);border-color:var(--sup-1);color:var(--sup-1-ink)">Fase 02</span><span class="xs num">Semanas 5–8</span></div>
+          <h3 class="mt-s">Sustentar quando complica</h3>
+          <p class="sm mt-s">A fase em que quase todo programa perde gente. Aqui a gente trabalha exatamente isso: viagem, festa, TPM, semana de prova, mês corrido.</p>
+          <ul class="list mt" style="border-top:0">
+            <li style="border-bottom:0;padding:.45rem 0"><svg class="ic"><use href="#ic-seta"/></svg><span class="sm">Protocolo de semana ruim</span></li>
+            <li style="border-bottom:0;padding:.45rem 0"><svg class="ic"><use href="#ic-seta"/></svg><span class="sm">Carga do treino sobe pela primeira vez</span></li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="between"><span class="tag" style="background:var(--sup-4);border-color:var(--sup-4);color:var(--sup-4-ink)">Fase 03</span><span class="xs num">Semanas 9–12</span></div>
+          <h3 class="mt-s">Ficar sem a gente</h3>
+          <p class="sm mt-s">A última fase é sobre autonomia. Você sai sabendo ajustar sozinha quando a vida mudar — e ela vai mudar.</p>
+          <ul class="list mt" style="border-top:0">
+            <li style="border-bottom:0;padding:.45rem 0"><svg class="ic"><use href="#ic-seta"/></svg><span class="sm">Seu plano dos próximos 6 meses, escrito</span></li>
+            <li style="border-bottom:0;padding:.45rem 0"><svg class="ic"><use href="#ic-seta"/></svg><span class="sm">Critérios pra saber quando ajustar</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 · COMPARATIVO -->
+<section class="alt tight">
+  <div class="wrap" style="max-width:900px">
+    <span class="eyebrow rv"><span class="n">06</span> · A diferença</span>
+    <h2 class="rv" style="max-width:22ch">Por que isso não é mais uma dieta com nome bonito.</h2>
+    <div class="card flush mt-l rv" style="overflow-x:auto">
+      <table class="tbl">
+        <thead><tr><th></th><th>Dieta restritiva</th><th>App de contagem</th><th style="color:var(--accent)">Método Raiz</th></tr></thead>
+        <tbody>
+          <tr><td>Funciona nas primeiras semanas</td><td class="yes">Sim</td><td class="yes">Sim</td><td class="yes">Sim</td></tr>
+          <tr><td>Cabe numa semana bagunçada</td><td class="no">Não</td><td class="no">Não</td><td class="yes">Sim</td></tr>
+          <tr><td>Trabalha sono e movimento diário</td><td class="no">Não</td><td class="no">Não</td><td class="yes">Sim</td></tr>
+          <tr class="hi"><td>Tem plano pra quando você sai da linha</td><td class="no">Não</td><td class="no">Não</td><td class="yes">Sim</td></tr>
+          <tr><td>Te ensina a ajustar sozinha no fim</td><td class="no">Não</td><td class="no">Não</td><td class="yes">Sim</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="xs mt">Dieta restritiva e app de contagem funcionam — o problema nunca foi o começo. É o que acontece na semana sete.</p>
+  </div>
+</section>
+
+<!-- 09 · ÁREA DE MEMBROS -->
+<section>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow rv"><span class="n">07</span> · Onde tudo mora</span>
+      <h2 class="rv" style="max-width:17ch">Uma área simples, aberta no celular.</h2>
+      <p class="lead mt rv">Sem aplicativo pra instalar e sem vinte abas. Você abre, vê o que é hoje, marca e fecha.</p>
+      <ul class="list mt-l rvg">
+        <li><svg class="ic"><use href="#ic-play"/></svg><span>Vídeos curtos, de 4 a 9 minutos</span></li>
+        <li><svg class="ic"><use href="#ic-livro"/></svg><span>Cardápio base e lista de compras em PDF</span></li>
+        <li><svg class="ic"><use href="#ic-chat"/></svg><span>Grupo da turma com resposta das mentoras</span></li>
+        <li><svg class="ic"><use href="#ic-calendario"/></svg><span>Gravação de todos os encontros ao vivo</span></li>
+      </ul>
+    </div>
+    <div class="card flush rv">
+      <div class="between" style="padding:.9rem 1.2rem;border-bottom:var(--border)">
+        <strong class="sm">Semana 06</strong><span class="tag on">Em andamento</span>
+      </div>
+      <div style="padding:1.1rem 1.2rem" class="stack">
+        <div class="row" style="gap:.85rem;flex-wrap:nowrap">
+          <span class="icbox" style="width:38px;height:38px;background:var(--sup-2);color:var(--sup-2-ink)"><svg class="ic"><use href="#ic-play"/></svg></span>
+          <div style="flex:1"><strong class="sm">Quando a semana desanda</strong><p class="xs">Aula · 7 min</p></div>
+          <svg class="ic" style="color:var(--ok)"><use href="#ic-check"/></svg>
+        </div>
+        <div class="row" style="gap:.85rem;flex-wrap:nowrap">
+          <span class="icbox" style="width:38px;height:38px;background:var(--sup-1);color:var(--sup-1-ink)"><svg class="ic"><use href="#ic-halter"/></svg></span>
+          <div style="flex:1"><strong class="sm">Treino B · carga nova</strong><p class="xs">25 min · progressão anotada</p></div>
+          <svg class="ic" style="color:var(--ok)"><use href="#ic-check"/></svg>
+        </div>
+        <div class="row" style="gap:.85rem;flex-wrap:nowrap;opacity:.55">
+          <span class="icbox" style="width:38px;height:38px;background:var(--bg-2);color:var(--ink-3)"><svg class="ic"><use href="#ic-livro"/></svg></span>
+          <div style="flex:1"><strong class="sm">Lista de compras da semana</strong><p class="xs">PDF · 1 página</p></div>
+        </div>
+        <div class="row" style="gap:.85rem;flex-wrap:nowrap;opacity:.55">
+          <span class="icbox" style="width:38px;height:38px;background:var(--bg-2);color:var(--ink-3)"><svg class="ic"><use href="#ic-pessoas"/></svg></span>
+          <div style="flex:1"><strong class="sm">Encontro ao vivo · quarta 20h</strong><p class="xs">Zoom · fica gravado</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 · DEPOIMENTO EM CONVERSA -->
+<section class="alt">
+  <div class="wrap">
+    <span class="eyebrow rv"><span class="n">08</span> · Quem já passou por aqui</span>
+    <h2 class="rv" style="max-width:20ch">O que elas contam depois da semana oito.</h2>
+    <div class="g2 mt-l rvg">
+      <div class="card flush">
+        <div class="row" style="padding:.85rem 1.1rem;border-bottom:var(--border);gap:.8rem;flex-wrap:nowrap">
+          <div class="ph" style="width:36px;height:36px;border-radius:50%;aspect-ratio:1;padding:0;font-size:9px">FOTO</div>
+          <div><strong class="sm">Aluna · turma de março</strong><div class="xs" style="color:var(--ok)">online</div></div>
+        </div>
+        <div class="stack" style="padding:1rem 1.1rem;gap:.55rem">
+          <div style="max-width:92%;background:var(--bg-2);border-radius:16px 16px 16px 4px;padding:.7rem .9rem;font-size:var(--t-sm)">
+            gente eu tinha esquecido como é subir escada sem ficar ofegante kkkk
+            <div class="xs" style="text-align:right;margin-top:.15rem">08:41</div>
+          </div>
+          <div style="max-width:92%;background:var(--bg-2);border-radius:16px 16px 16px 4px;padding:.7rem .9rem;font-size:var(--t-sm)">
+            mas o que mais me pegou foi a semana que eu viajei e voltei e não desandou. antes eu voltava de viagem e já desistia
+            <div class="xs" style="text-align:right;margin-top:.15rem">08:43</div>
+          </div>
+        </div>
+      </div>
+      <div class="card flush">
+        <div class="row" style="padding:.85rem 1.1rem;border-bottom:var(--border);gap:.8rem;flex-wrap:nowrap">
+          <div class="ph" style="width:36px;height:36px;border-radius:50%;aspect-ratio:1;padding:0;font-size:9px">FOTO</div>
+          <div><strong class="sm">Aluna · turma de maio</strong><div class="xs" style="color:var(--ok)">online</div></div>
+        </div>
+        <div class="stack" style="padding:1rem 1.1rem;gap:.55rem">
+          <div style="max-width:92%;background:var(--bg-2);border-radius:16px 16px 16px 4px;padding:.7rem .9rem;font-size:var(--t-sm)">
+            confesso que entrei achando que era mais uma. o que mudou foi não ter lista de proibido
+            <div class="xs" style="text-align:right;margin-top:.15rem">19:02</div>
+          </div>
+          <div style="max-width:92%;background:var(--bg-2);border-radius:16px 16px 16px 4px;padding:.7rem .9rem;font-size:var(--t-sm)">
+            hoje é a primeira vez em anos que eu tô na semana 11 de alguma coisa
+            <div class="xs" style="text-align:right;margin-top:.15rem">19:04</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="xs mt">Depoimentos de alunas das turmas anteriores, publicados com autorização. Resultado depende da execução de cada pessoa.</p>
+  </div>
+</section>
+
+<!-- 11 · AUTORIDADE -->
+<section>
+  <div class="wrap split rev">
+    <div class="ph org rv" style="aspect-ratio:4/5">FOTO DA MENTORA · 4:5 · VERTICAL</div>
+    <div>
+      <span class="eyebrow rv"><span class="n">09</span> · Quem conduz</span>
+      <h2 class="rv">Quem está do outro lado</h2>
+      <p class="lead mt rv">Duas linhas de credencial verificável — formação, tempo de prática e quantas turmas já conduziu. Sem número inflado e sem "transformou milhares de vidas".</p>
+      <p class="sm mt rv">O segundo parágrafo é onde entra a história pessoal: por que ela construiu isso assim, o que ela mesma tentou e não funcionou. É este parágrafo que faz a leitora se reconhecer, não a lista de diplomas.</p>
+      <div class="g2 mt-l rvg">
+        <div class="panel"><div class="num" style="font-family:var(--font-display);font-size:1.9rem;font-weight:600">14</div><div class="xs">turmas conduzidas</div></div>
+        <div class="panel"><div class="num" style="font-family:var(--font-display);font-size:1.9rem;font-weight:600">40</div><div class="xs">vagas por turma, sempre</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 · O QUE ESTÁ INCLUSO -->
+<section class="alt tight">
+  <div class="wrap" style="max-width:800px">
+    <span class="eyebrow rv"><span class="n">10</span> · O que está incluso</span>
+    <h2 class="rv" style="max-width:20ch">Tudo que entra nas 12 semanas.</h2>
+    <div class="mt-l rv" style="border-top:var(--border)">
+      <div class="between" style="padding:1.05rem 0;border-bottom:var(--border);align-items:flex-start;flex-wrap:nowrap;gap:1.5rem">
+        <div><strong>12 encontros ao vivo</strong><p class="xs mt-s">Toda quarta, 20h, com espaço pra pergunta. Todos ficam gravados.</p></div>
+        <span class="sm num" style="flex:none">R$ 597</span>
+      </div>
+      <div class="between" style="padding:1.05rem 0;border-bottom:var(--border);align-items:flex-start;flex-wrap:nowrap;gap:1.5rem">
+        <div><strong>Mapa dos 4 hábitos</strong><p class="xs mt-s">O painel de constância, com o protocolo de semana ruim.</p></div>
+        <span class="sm num" style="flex:none">R$ 197</span>
+      </div>
+      <div class="between" style="padding:1.05rem 0;border-bottom:var(--border);align-items:flex-start;flex-wrap:nowrap;gap:1.5rem">
+        <div><strong>Programa de força em casa</strong><p class="xs mt-s">12 semanas de treino em vídeo, com progressão de carga registrada.</p></div>
+        <span class="sm num" style="flex:none">R$ 297</span>
+      </div>
+      <div class="between" style="padding:1.05rem 0;border-bottom:var(--border);align-items:flex-start;flex-wrap:nowrap;gap:1.5rem">
+        <div><strong>Cardápio base e lista de compras</strong><p class="xs mt-s">Montado a partir do que existe no mercado perto da sua casa.</p></div>
+        <span class="sm num" style="flex:none">R$ 147</span>
+      </div>
+      <div class="between" style="padding:1.05rem 0;border-bottom:var(--border);align-items:flex-start;flex-wrap:nowrap;gap:1.5rem">
+        <div><strong>Grupo da turma</strong><p class="xs mt-s">Turma de 40 mulheres, com resposta das mentoras durante as 12 semanas.</p></div>
+        <span class="sm num" style="flex:none">R$ 297</span>
+      </div>
+      <div class="between" style="padding:1.05rem 0">
+        <span class="sm">Somando separado</span>
+        <span class="sm num" style="text-decoration:line-through;color:var(--ink-3)">R$ 1.535</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 13 · PRA QUEM -->
+<section>
+  <div class="wrap">
+    <span class="eyebrow rv"><span class="n">11</span> · Antes de decidir</span>
+    <h2 class="rv" style="max-width:24ch">Isso funciona muito bem pra um tipo de pessoa. Vale conferir se é você.</h2>
+    <div class="cols mt-l">
+      <div class="rv">
+        <div class="between"><span class="tag on">É pra você se</span><span class="xs num">06</span></div>
+        <ul class="list mt">
+          <li><svg class="ic"><use href="#ic-check"/></svg><span>Você já tentou pelo menos três coisas e nenhuma passou de dois meses</span></li>
+          <li><svg class="ic"><use href="#ic-check"/></svg><span>Trabalha fora, tem casa e não tem duas horas livres por dia</span></li>
+          <li><svg class="ic"><use href="#ic-check"/></svg><span>Quer parar de ter a segunda-feira como marco zero</span></li>
+          <li><svg class="ic"><use href="#ic-check"/></svg><span>Topa marcar quatro coisinhas por dia durante 12 semanas</span></li>
+          <li><svg class="ic"><use href="#ic-check"/></svg><span>Consegue estar ao vivo nas quartas, ou assistir a gravação na semana</span></li>
+          <li><svg class="ic"><use href="#ic-check"/></svg><span>Está mais interessada em energia e força do que só no número</span></li>
+        </ul>
+      </div>
+      <div class="rv">
+        <div class="between"><span class="tag">Não é pra você se</span><span class="xs num">06</span></div>
+        <ul class="list neg mt">
+          <li><svg class="ic"><use href="#ic-x"/></svg><span>Você quer um resultado específico numa data específica</span></li>
+          <li><svg class="ic"><use href="#ic-x"/></svg><span>Procura protocolo de restrição ou jejum prolongado</span></li>
+          <li><svg class="ic"><use href="#ic-x"/></svg><span>Está em tratamento que exige conduta nutricional individual — aí o caminho é profissional próprio</span></li>
+          <li><svg class="ic"><use href="#ic-x"/></svg><span>Não pretende marcar nada nem acompanhar nada</span></li>
+          <li><svg class="ic"><use href="#ic-x"/></svg><span>Quer conteúdo pra assistir e decidir aplicar depois</span></li>
+          <li><svg class="ic"><use href="#ic-x"/></svg><span>Espera que o programa funcione sem você mudar nenhuma rotina</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 14 · OFERTA FINAL -->
+<section class="dark air" id="oferta">
+  <div class="wrap" style="max-width:840px">
+    <span class="eyebrow">Sua vaga</span>
+    <h2 style="max-width:19ch">Doze semanas pra parar de <em>recomeçar</em>.</h2>
+    <ul class="list mt-l" style="border-color:#463430">
+      <li style="border-color:#463430"><svg class="ic" style="color:#E9A9A0"><use href="#ic-check"/></svg><span>12 encontros ao vivo, com gravação</span></li>
+      <li style="border-color:#463430"><svg class="ic" style="color:#E9A9A0"><use href="#ic-check"/></svg><span>Mapa dos 4 hábitos e protocolo de semana ruim</span></li>
+      <li style="border-color:#463430"><svg class="ic" style="color:#E9A9A0"><use href="#ic-check"/></svg><span>Programa de força em casa, 12 semanas</span></li>
+      <li style="border-color:#463430"><svg class="ic" style="color:#E9A9A0"><use href="#ic-check"/></svg><span>Cardápio base e lista de compras</span></li>
+      <li style="border-color:#463430"><svg class="ic" style="color:#E9A9A0"><use href="#ic-check"/></svg><span>Grupo da turma com resposta das mentoras</span></li>
+    </ul>
+    <div class="mt-l" style="border:1px solid #463430;border-radius:var(--radius-lg);padding:clamp(1.4rem,4vw,2.2rem)">
+      <div class="between">
+        <div class="stack" style="gap:.2rem">
+          <span class="xs">De R$ 1.297 por</span>
+          <span class="num" style="font-family:var(--font-display);font-size:clamp(2.4rem,6vw,3.2rem);font-weight:600;line-height:1">R$ 697</span>
+          <span class="xs">ou 12× de R$ 69,20 no cartão</span>
+        </div>
+        <a href="#" class="btn lg">Quero minha vaga</a>
+      </div>
+    </div>
+    <div class="row mt" style="gap:1.6rem">
+      <span class="xs">Turma começa 08 de setembro</span>
+      <span class="xs">40 vagas</span>
+      <span class="xs">14 dias de garantia</span>
+    </div>
+  </div>
+</section>
+
+<!-- 15 · GARANTIA -->
+<section class="tight">
+  <div class="wrap card rv" style="max-width:780px">
+    <div class="row" style="gap:1.3rem;align-items:flex-start;flex-wrap:nowrap">
+      <span class="icbox" style="background:var(--accent-soft);color:var(--accent);width:54px;height:54px"><svg class="ic lg"><use href="#ic-escudo"/></svg></span>
+      <div>
+        <h3>Catorze dias, com as duas primeiras semanas inteiras</h3>
+        <p class="sm mt-s">Catorze dias cobrem os dois primeiros encontros ao vivo e a fase 01 completa — tempo suficiente pra saber se o formato serve pra sua rotina. Se não servir, você escreve pra gente e o valor volta integral. Sem formulário e sem ninguém tentando te convencer do contrário.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 16 · FAQ -->
+<section class="alt">
+  <div class="wrap" style="max-width:840px">
+    <span class="eyebrow">Dúvidas</span>
+    <h2 style="max-width:18ch">O que sempre perguntam antes de entrar.</h2>
+    <div class="acc mt-l">
+      <details><summary><span class="q">01</span>Vou ter que fazer dieta?</summary><div class="a">Não no sentido que você conhece. Não existe lista de proibido, contagem nem pesagem de comida. A gente monta três refeições que se repetem, com o que você já compra, e trabalha estrutura em vez de restrição.</div></details>
+      <details><summary><span class="q">02</span>Preciso de academia ou equipamento?</summary><div class="a">Não. O programa de força é feito em casa com peso do corpo. Um par de halteres leves ajuda a partir da semana cinco, mas dá pra fazer as 12 semanas sem comprar nada.</div></details>
+      <details><summary><span class="q">03</span>E se eu não puder ir num encontro ao vivo?</summary><div class="a">Todos ficam gravados e liberados no mesmo dia. O ao vivo é melhor porque você pergunta, mas ninguém fica pra trás por perder uma quarta.</div></details>
+      <details><summary><span class="q">04</span>Tenho mais de 50 anos. Serve pra mim?</summary><div class="a">Serve, e boa parte de cada turma está nessa faixa. O treino tem versão de menor impacto em todos os exercícios, e o pilar de força é justamente o mais importante depois dos 45.</div></details>
+      <details><summary><span class="q">05</span>Faço acompanhamento médico ou nutricional. Posso participar?</summary><div class="a">Pode, e vale avisar quem te acompanha antes de começar. O programa é educacional e trabalha hábito e rotina — ele não substitui nem contraria conduta individual de profissional de saúde. Se houver qualquer conflito, o que vale é a orientação de quem cuida de você.</div></details>
+      <details><summary><span class="q">06</span>Quanto tempo por dia isso exige?</summary><div class="a">Em média 35 minutos, e em dois dias da semana é zero. O treino são três dias de 25 minutos; o resto são coisas que se encaixam no que você já faz.</div></details>
+      <details><summary><span class="q">07</span>Vou ter contato com as mentoras?</summary><div class="a">Sim. A turma é limitada a 40 pessoas justamente pra isso — no grupo e nos encontros ao vivo você é atendida pelo nome.</div></details>
+      <details><summary><span class="q">08</span>O que acontece quando acabam as 12 semanas?</summary><div class="a">Você sai com o plano dos próximos seis meses escrito e com critérios pra ajustar sozinha. Não existe renovação obrigatória e nem mensalidade.</div></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer style="border-top:var(--border);padding-block:2.5rem">
+  <div class="wrap stack">
+    <p class="xs">EXEMPLO LTDA · CNPJ 00.000.000/0001-00 · Todos os direitos reservados.</p>
+    <p class="xs" style="max-width:74ch">Página de exemplo gerada pela skill pagina-design-premium. Este é um programa educacional de hábitos e não substitui acompanhamento médico ou nutricional individual. Resultados dependem da execução de cada pessoa. Dados exibidos nos painéis são ilustrativos.</p>
+  </div>
+</footer>
+
+<div class="bar" id="bar">
+  <div class="stack" style="gap:.05rem">
+    <span class="xs">De R$ 1.297 por</span>
+    <strong class="num" style="font-size:1.05rem">R$ 697</strong>
+  </div>
+  <a href="#oferta" class="btn">Quero minha vaga</a>
+</div>
+
+<script>
+// grade de progresso — 12 semanas
+const gf=document.getElementById('gf');
+if(gf){gf.innerHTML='<i></i>'.repeat(12);
+  const cells=[...gf.querySelectorAll('i')];
+  new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;
+    cells.forEach((c,i)=>setTimeout(()=>c.classList.add('on'),i*70));
+  }),{threshold:.4}).observe(gf);}
+
+// heatmap de constância — 12 semanas x 7 dias, com buracos no início
+const heat=document.getElementById('heat');
+if(heat){
+  const pat=[0,1,0,2,1,0,0, 1,2,1,0,2,1,0, 2,1,2,3,1,0,1, 2,3,2,1,3,2,1,
+             3,2,3,2,3,1,2, 3,3,2,3,2,3,1, 2,3,3,3,2,3,2, 3,4,3,2,3,3,2,
+             4,3,4,3,3,4,2, 3,4,3,4,4,3,3, 4,4,3,4,3,4,3, 4,3,4,4,4,3,4];
+  heat.innerHTML=pat.map(v=>`<i class="${v?'l'+v:''}"></i>`).join('');
+}
+
+// reveal
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -50px'});
+document.querySelectorAll('.rv,.rvg').forEach(el=>io.observe(el));
+
+// barra fixa
+const bar=document.getElementById('bar'),hero=document.querySelector('.hero');
+if(bar&&hero){new IntersectionObserver(([e])=>bar.classList.toggle('show',!e.isIntersecting),{threshold:0}).observe(hero);}
+
+// progresso de leitura
+const pb=document.getElementById('pb');
+addEventListener('scroll',()=>{const h=document.body.scrollHeight-innerHeight;pb.style.width=(scrollY/h*100)+'%'},{passive:true});
+
+// acordeão
+document.querySelectorAll('.acc').forEach(acc=>{acc.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',()=>{if(d.open)acc.querySelectorAll('details').forEach(o=>{if(o!==d)o.open=false});}));});
+</script>
+</body>
+</html>

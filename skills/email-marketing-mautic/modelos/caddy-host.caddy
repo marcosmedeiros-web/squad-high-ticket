@@ -1,0 +1,15 @@
+# Mautic: endereco publico com HTTPS (Caddy instalado no sistema, Mautic publicado so no loopback).
+# Mesmas regras do modelo de container: sem senha no dominio inteiro; o painel /s/* tem login proprio.
+# O Mautic precisa estar publicado so no loopback (ports com o IP de loopback na frente da porta), nunca em 0.0.0.0.
+{{DOMINIO}} {
+    encode zstd gzip
+    header {
+        Strict-Transport-Security "max-age=31536000"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        -Server
+    }
+    reverse_proxy {{UPSTREAM}} {
+        header_up X-Forwarded-Proto https
+    }
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=Fila da API de Conversões da Meta (hotmart-meta-conversao)
+
+[Service]
+Type=oneshot
+Environment=HM_PERFIL=@PERFIL@
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=@PYTHON@ -I -B @DESTINO@/motor/capi_worker.py --ciclo
+UMask=0077
+NoNewPrivileges=yes

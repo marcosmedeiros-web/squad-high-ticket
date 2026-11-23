@@ -1,0 +1,32 @@
+{
+  "nome": "lead-formulario",
+  "tipo": "lead-formulario",
+  "descricao": "Formulário da página de captura: contato no Mautic (segmento e tag) e WhatsApp de boas-vindas para quem marcou o aceite.",
+  "campos": {
+    "email": "email",
+    "nome": "nome",
+    "telefone": "telefone",
+    "consentimento_whatsapp": "aceito_whatsapp"
+  },
+  "valores_aceite": ["sim", "on", "true", "1", "aceito"],
+  "dedupe_h": 24,
+  "mautic": {
+    "segmento_id": 0,
+    "tags": ["lead-captura"]
+  },
+  "whatsapp": {
+    "texto": "Oi, {primeiro_nome}! Recebi sua inscrição. O material está aqui: {link}\nSe não quiser receber mensagens por aqui, é só responder PARAR.",
+    "texto_sem_nome": "Oi! Recebi sua inscrição. O material está aqui: {link}\nSe não quiser receber mensagens por aqui, é só responder PARAR.",
+    "link": "https://PREENCHER",
+    "consentimento_base": "o formulário tem a caixa 'aceito receber pelo WhatsApp', desmarcada por padrão"
+  },
+  "teste": {
+    "emails": ["PREENCHER-email-do-dono"],
+    "telefones": ["PREENCHER-whatsapp-do-dono"]
+  },
+  "vigia": {
+    "silencio_max_h": 24,
+    "travado_min": 30,
+    "validade_h": 48
+  }
+}

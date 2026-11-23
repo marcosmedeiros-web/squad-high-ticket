@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Catálogo de composições · pagina-design-premium</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F7F7F5;--paper-2:#FFF;--paper-3:#EDEDE9;
+  --ink:#15161A;--ink-2:#565963;--ink-3:#8A8D96;
+  --line:#E3E2DD;--line-2:#C9C7C0;
+  --accent:#3B4BE8;--accent-rgb:59 75 232;--accent-soft:#E6E9FD;
+  --ok:#16A34A;--ok-rgb:22 163 74;--warn:#E8960C;--bad:#E02B2B;
+  --p1:#E6E9FD;--p2:#E4F4EA;--p3:#FCEFD8;--p4:#F7E6EA;--p5:#E4EFF4;
+  --sh1:0 1px 2px rgba(21,22,26,.04),0 10px 30px -18px rgba(21,22,26,.18);
+  --sh2:0 2px 4px rgba(21,22,26,.04),0 30px 70px -34px rgba(21,22,26,.30);
+  --sh3:0 2px 4px rgba(21,22,26,.05),0 30px 70px -28px rgba(21,22,26,.38);
+  --ins:inset 0 0 0 1px rgba(21,22,26,.08);
+  --fd:'Manrope',system-ui,sans-serif;--fb:'Inter',system-ui,sans-serif;--fm:'IBM Plex Mono',monospace;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:clip;scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--fb);font-size:1rem;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
+ul{list-style:none} a{color:inherit;text-decoration:none} svg,img{display:block;max-width:100%}
+h1,h2,h3{font-family:var(--fd);font-weight:800;letter-spacing:-.03em;line-height:1.12}
+.mono{font-family:var(--fm);font-size:.66rem;letter-spacing:.13em;text-transform:uppercase}
+.sm{font-size:.9rem;color:var(--ink-2)} .xs{font-size:.79rem;color:var(--ink-3);line-height:1.5}
+.wrap{max-width:1080px;margin-inline:auto;padding-inline:clamp(1rem,4vw,2rem)}
+.dev{background:var(--paper-2);border-radius:14px;box-shadow:var(--ins),var(--sh1);padding:clamp(1.2rem,3vw,1.8rem);margin-bottom:1.4rem}
+.dev > header{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:1.3rem;padding-bottom:.75rem;box-shadow:inset 0 -1px 0 var(--line)}
+.tag{display:inline-flex;align-items:center;gap:.4rem;border-radius:999px;padding:.28rem .68rem;background:var(--accent-soft);color:var(--accent)}
+.row{display:flex;gap:.7rem;align-items:center;flex-wrap:wrap}
+.g2{display:grid;gap:1.2rem;grid-template-columns:1fr}
+@media(min-width:860px){.g2{grid-template-columns:1fr 1fr}}
+.demo{background:var(--paper);border-radius:12px;padding:clamp(1.1rem,3vw,1.8rem);box-shadow:var(--ins)}
+
+/* ══ 1 · BALÃO COM CAUDA ══ */
+.balao{position:relative;background:var(--paper-2);border-radius:18px;padding:.95rem 1.1rem;
+  box-shadow:rgba(40,20,90,.18) 0 18px 42px -16px,var(--ins);max-width:290px;
+  animation:flo 4.4s ease-in-out infinite}
+.balao::after{content:"";position:absolute;width:20px;height:20px;background:inherit;
+  bottom:-8px;left:26px;transform:rotate(45deg);border-radius:0 0 5px 0;
+  box-shadow:3px 3px 0 -1px rgba(21,22,26,.05)}
+.balao.up::after{bottom:auto;top:-8px;left:26px;border-radius:5px 0 0 0}
+.balao.dir::after{bottom:24px;left:auto;right:-8px;border-radius:0 5px 0 0}
+@keyframes flo{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+/* durações e atrasos IRREGULARES — nada pulsa junto */
+.flo2{animation:flo 5.6s ease-in-out .3s infinite}
+.flo3{animation:flo 5s ease-in-out .6s infinite}
+.flo4{animation:flo 5.8s ease-in-out 1.1s infinite}
+
+/* ══ 2 · BOTÃO COM GLOW (duplicado desfocado, não box-shadow) ══ */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--ok);color:#fff;
+  font-family:var(--fd);font-weight:800;font-size:.94rem;text-transform:uppercase;letter-spacing:.02em;
+  padding:1.05rem 1.7rem;border-radius:10px;position:relative;z-index:0;transition:transform .25s}
+.btn::after{content:"";position:absolute;inset:0;border-radius:inherit;background:rgb(var(--ok-rgb));
+  z-index:-1;filter:blur(18px);opacity:.4;transition:opacity .25s;pointer-events:none}
+.btn:hover{transform:scale(1.045)} .btn:hover::after{opacity:.62}
+.btn.ghost{background:var(--paper-2);color:var(--ink);box-shadow:var(--ins),var(--sh1)}
+.btn.ghost::after{display:none}
+
+/* ══ 3 · NÚMERO MARCA-D'ÁGUA ══ */
+.wm{position:relative;padding-top:.4rem;isolation:isolate}
+.wm .n{position:absolute;right:4px;top:-18px;z-index:-1;font-family:var(--fd);font-weight:800;font-size:5.4rem;line-height:1;
+  color:transparent;-webkit-text-stroke:1.6px var(--line-2);pointer-events:none;user-select:none;letter-spacing:-.04em}
+.wm.on .n{-webkit-text-stroke-color:#F2C9C0}
+
+/* ══ 4 · TRILHA CURVA COM NÓS ══ */
+.trilha{position:relative}
+.trilha .via{width:100%;height:120px;overflow:visible}
+.trilha .no{position:absolute;top:34px;transform:translateX(-50%);width:56px;height:56px;border-radius:16px;
+  background:var(--paper-2);box-shadow:var(--ins),var(--sh2);display:grid;place-items:center;color:var(--ink)}
+.trilha .no.hi{background:var(--accent);color:#fff;box-shadow:0 14px 30px -12px rgb(var(--accent-rgb)/.55)}
+.trilha .queda{position:absolute;top:90px;width:1px;height:34px;border-left:1px dashed var(--line-2);transform:translateX(-50%)}
+
+/* ══ 5 · PAINEL SOBREPOSTO ══ */
+.sobre{display:grid;gap:0;grid-template-columns:1fr}
+@media(min-width:860px){.sobre{grid-template-columns:1fr 1fr}
+  .sobre > :last-child{margin-left:-42px;margin-top:26px;z-index:2}}
+.pan{border-radius:14px;background:var(--paper-2);box-shadow:var(--ins),var(--sh1);position:relative}
+.pan.hi{box-shadow:var(--sh3);background:linear-gradient(180deg,#FDF1EC,#FFF 42%)}
+.pan .hd{display:flex;align-items:center;gap:.65rem;padding:.75rem 1rem;box-shadow:inset 0 -1px 0 var(--line);border-radius:14px 14px 0 0}
+.pan.hi .hd{background:linear-gradient(100deg,#D9502A,#C0421F);color:#fff;box-shadow:none}
+.wdots{display:flex;gap:5px}.wdots i{width:7px;height:7px;border-radius:50%;background:var(--line-2)}
+.pan.hi .wdots i{background:rgb(255 255 255/.5)}
+.pan .li{display:flex;gap:.7rem;align-items:center;padding:.7rem 1rem;box-shadow:inset 0 -1px 0 var(--line);font-size:.88rem}
+.pan .li:last-child{box-shadow:none;border-radius:0 0 14px 14px}
+.hang{position:absolute;top:-13px;left:18px;border-radius:999px;padding:.32rem .8rem;background:var(--paper-2);box-shadow:var(--ins),var(--sh1);z-index:3}
+.hang.on{background:#C0421F;color:#fff;box-shadow:0 8px 20px rgba(192,66,31,.32)}
+
+/* ══ 6 · NOTA COM FITA SOBRE MALHA ══ */
+.malha{position:relative;border-radius:14px;padding:clamp(1.2rem,3vw,2rem);
+  background:
+    linear-gradient(rgba(21,22,26,.045) 1px,transparent 1px) 0 0/26px 26px,
+    linear-gradient(90deg,rgba(21,22,26,.045) 1px,transparent 1px) 0 0/26px 26px,
+    var(--paper-2);
+  box-shadow:var(--ins)}
+.canto{position:absolute;width:20px;height:20px;border:2px solid var(--accent)}
+.canto.tl{top:12px;left:12px;border-right:0;border-bottom:0}
+.canto.tr{top:12px;right:12px;border-left:0;border-bottom:0}
+.canto.bl{bottom:12px;left:12px;border-right:0;border-top:0}
+.canto.br{bottom:12px;right:12px;border-left:0;border-top:0}
+.nota{position:relative;background:var(--paper-2);border-radius:8px;padding:1.1rem;box-shadow:var(--sh2);transform:rotate(var(--r,-1.2deg))}
+.nota::before{content:"";position:absolute;top:-11px;left:50%;transform:translateX(-50%) rotate(var(--tr,-2deg));
+  width:74px;height:22px;background:rgb(246 243 236/.92);box-shadow:0 1px 3px rgba(21,22,26,.13);border-radius:2px}
+.carimbo{transform:rotate(-11deg);border:2px solid var(--bad);color:var(--bad);border-radius:5px;
+  padding:.35rem .7rem;font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;opacity:.85;display:inline-block}
+
+/* ══ 7 · SELO NUMERADO SOBRE DIVISOR TRACEJADO ══ */
+.corte{position:relative;height:0;border-top:2px dashed var(--line-2);margin:1.1rem 0}
+.corte .selo{position:absolute;right:14px;top:-17px;width:34px;height:34px;border-radius:50%;
+  background:linear-gradient(150deg,#E2603A,#C0421F);color:#fff;display:grid;place-items:center;
+  font-family:var(--fd);font-weight:800;font-size:.85rem;box-shadow:0 8px 18px rgba(192,66,31,.35)}
+
+/* ══ 8 · ÁREA COM GRADIENTE ══ */
+.area{clip-path:inset(0 100% 0 0);transition:clip-path 1.15s cubic-bezier(.22,.61,.36,1);will-change:clip-path}
+.area.in{clip-path:inset(0)}
+
+/* ══ 9 · ANÉIS CONCÊNTRICOS ══ */
+.orb{position:relative;min-height:300px;display:grid;place-items:center}
+.anel{position:absolute;border-radius:50%;border:1px dashed var(--line-2);animation:gira 34s linear infinite}
+.anel.a{width:290px;height:290px}
+.anel.b{width:210px;height:210px;animation-direction:reverse;animation-duration:26s}
+.anel i{position:absolute;width:8px;height:8px;border-radius:50%;background:var(--accent);
+  box-shadow:0 0 0 4px rgb(var(--accent-rgb)/.14)}
+@keyframes gira{to{transform:rotate(360deg)}}
+.nucleo{position:relative;width:130px;height:130px;border-radius:50%;display:grid;place-items:center;text-align:center;
+  background:radial-gradient(circle at 34% 30%,#7C5CF5,#4B2FD8 62%,#3A22B0);color:#fff;
+  box-shadow:0 22px 48px -18px rgba(75,47,216,.6)}
+.halo{position:absolute;width:250px;height:250px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(124,58,237,.2) 0%,rgba(99,45,220,.1) 34%,rgba(124,58,237,0) 66%)}
+
+/* ══ 10 · PILHA DE AVATARES ══ */
+.pilha{display:flex;align-items:center}
+.pilha i{width:34px;height:34px;border-radius:50%;box-shadow:0 0 0 2.5px var(--paper-2);margin-left:-11px;
+  background:var(--paper-3);display:grid;place-items:center;font-size:.62rem;font-weight:700;color:var(--ink-3)}
+.pilha i:first-child{margin-left:0}
+.pilha i.mais{background:var(--accent);color:#fff}
+
+/* ══ 11 · CARD COM BORDA LATERAL ══ */
+.lat{border-radius:14px;background:var(--paper-2);box-shadow:var(--ins),var(--sh1);overflow:hidden;
+  border-left:3px solid var(--accent)}
+.lat.neg{border-left-color:var(--bad)}
+.lat .li{display:flex;gap:.8rem;padding:.85rem 1.1rem;box-shadow:inset 0 -1px 0 var(--line)}
+.lat .li:last-child{box-shadow:none}
+.icb{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;flex:none}
+
+/* ══ 12 · COLAGEM DE FOTOS ══ */
+.colagem{position:relative;min-height:270px}
+.foto{position:absolute;border-radius:10px;background:linear-gradient(150deg,var(--p1),var(--p5));
+  box-shadow:var(--sh2);display:grid;place-items:center;color:var(--ink-3);font-family:var(--fm);font-size:.6rem;
+  letter-spacing:.1em;text-transform:uppercase;padding:.5rem;text-align:center}
+.foto.f1{width:56%;aspect-ratio:4/3;left:2%;top:0;transform:rotate(-3deg)}
+.foto.f2{width:52%;aspect-ratio:4/3;right:2%;top:24%;transform:rotate(2.4deg)}
+.foto.f3{width:44%;aspect-ratio:4/3;left:16%;bottom:0;transform:rotate(-1.4deg)}
+.malhapt{position:absolute;right:0;bottom:8%;width:110px;height:80px;pointer-events:none;
+  background-image:radial-gradient(var(--line-2) 1.4px,transparent 1.4px);background-size:13px 13px;opacity:.85}
+
+.rv{opacity:0;transform:translateY(14px);transition:opacity .5s cubic-bezier(.2,.7,.3,1),transform .5s cubic-bezier(.2,.7,.3,1)}
+.rv.in{opacity:1;transform:none}
+@media(max-width:760px){
+  h1 br:not(.m-br),h2 br:not(.m-br){display:none}
+  [style*="grid-template-columns"] > *{min-width:0}
+  .g2 > *{min-width:0}
+  .sobre > :last-child{margin-left:0;margin-top:0}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  .rv{opacity:1;transform:none}.area{clip-path:none}
+}
+</style>
+</head>
+<body>
+
+<header style="background:var(--ink);color:#F2F1EE;padding:2.6rem 0">
+  <div class="wrap">
+    <span class="mono" style="color:#9A9DA6">pagina-design-premium · referência</span>
+    <h1 style="font-size:clamp(1.8rem,4.4vw,2.7rem);margin-top:.5rem">Catálogo de composições</h1>
+    <p class="sm" style="color:#B5B8C0;max-width:62ch;margin-top:.7rem">Vocabulário de diagramação e posicionamento. Complementa o catálogo de dispositivos: lá são os objetos, aqui é <em>onde</em> e <em>como</em> eles se encaixam.</p>
+  </div>
+</header>
+
+<main class="wrap" style="padding-block:2.4rem">
+
+<section class="dev">
+  <header><h3>1 · Balão com cauda</h3><span class="mono tag">novo</span></header>
+  <div class="demo" style="display:flex;gap:1.4rem;flex-wrap:wrap;align-items:flex-start;min-height:190px">
+    <div class="balao">
+      <span class="mono" style="color:var(--accent)">Professor</span>
+      <strong style="display:block;font-family:var(--fd)">Nome da pessoa</strong>
+      <p class="xs" style="margin-top:.3rem">Credencial verificável em uma linha.</p>
+    </div>
+    <div class="balao dir flo3" style="max-width:220px">
+      <strong style="font-family:var(--fd);font-size:1.25rem">+450</strong>
+      <div class="xs">milhões faturados</div>
+    </div>
+    <div class="balao up flo4" style="max-width:200px">
+      <span class="mono" style="color:var(--ink-3)">Você recebe</span>
+      <strong style="display:block;font-size:.92rem">70+ habilidades</strong>
+    </div>
+  </div>
+  <p class="xs" style="margin-top:.8rem">A cauda é um quadrado de 20px rotacionado 45°, herdando <code>background:inherit</code>. Três posições: <code>.up</code>, <code>.dir</code> e o padrão embaixo. <strong>Cada balão flutua com duração e atraso irregulares</strong> (4,4s · 5,6s+0,3 · 5s+0,6 · 5,8s+1,1) — é isso que impede tudo de pulsar junto.</p>
+</section>
+
+<div class="g2">
+  <section class="dev">
+    <header><h3>2 · Botão com glow</h3><span class="mono tag">medido</span></header>
+    <div class="demo" style="text-align:center;padding-block:2rem">
+      <div class="row" style="justify-content:center">
+        <a href="#" class="btn">Quero começar agora →</a>
+        <a href="#" class="btn ghost">Ver como funciona</a>
+      </div>
+      <p class="xs" style="margin-top:.9rem">Passe o mouse</p>
+    </div>
+    <p class="xs" style="margin-top:.8rem">O halo é um <strong>duplicado desfocado do próprio botão</strong> em <code>::after</code> com <code>border-radius:inherit</code>, <code>blur(18px)</code> e <code>z-index:-1</code> — não <code>box-shadow</code>. No hover, <code>scale(1.045)</code> e opacidade do halo sobe.</p>
+  </section>
+
+  <section class="dev">
+    <header><h3>3 · Número marca-d'água</h3><span class="mono tag">novo</span></header>
+    <div class="demo">
+      <div class="wm" style="margin-bottom:3.2rem">
+        <span class="n">01</span>
+        <span class="mono" style="color:var(--ink-3)">Primeiro veio</span>
+        <h3 style="margin-top:.3rem">O lançamento</h3>
+      </div>
+      <div class="wm on">
+        <span class="n">03</span>
+        <span class="mono" style="color:#C0421F">Agora chegou</span>
+        <h3 style="margin-top:.3rem;color:#C0421F">O lançamento pago</h3>
+      </div>
+    </div>
+    <p class="xs" style="margin-top:.8rem">Número gigante com <code>color:transparent</code> e <code>-webkit-text-stroke</code>. Fica atrás do conteúdo sem competir. O item ativo troca a cor do contorno.</p>
+  </section>
+</div>
+
+<section class="dev">
+  <header><h3>4 · Trilha curva com nós</h3><span class="mono tag">novo</span></header>
+  <div class="demo trilha">
+    <svg class="via" viewBox="0 0 900 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,84 C170,84 200,52 330,52 C470,52 500,26 690,26 C800,26 850,20 900,18"
+            fill="none" stroke="var(--line-2)" stroke-width="1.6"/>
+      <path d="M330,52 C470,52 500,26 690,26 C800,26 850,20 900,18"
+            fill="none" stroke="#E2603A" stroke-width="1.8" opacity=".55"/>
+    </svg>
+    <span class="no" style="left:18%"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3.5l1.9 5.6 5.6 1.9-5.6 1.9L12 18.5l-1.9-5.6-5.6-1.9 5.6-1.9z"/></svg></span>
+    <span class="no" style="left:50%;top:22px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 9a8 8 0 0113.7-5.2M20 15a8 8 0 01-13.7 5.2M4 4.5V9h4.5M20 19.5V15h-4.5"/></svg></span>
+    <span class="no hi" style="left:82%;top:12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M8 7v10"/></svg></span>
+    <span class="queda" style="left:18%"></span>
+    <span class="queda" style="left:50%;top:78px"></span>
+    <span class="queda" style="left:82%;top:68px"></span>
+    <div class="g2" style="grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2.6rem">
+      <div class="wm"><span class="n">01</span><span class="mono" style="color:var(--ink-3)">Primeiro</span><h3 style="margin-top:.25rem;font-size:1.1rem">Etapa um</h3><p class="xs" style="margin-top:.4rem">Texto curto da etapa.</p></div>
+      <div class="wm"><span class="n">02</span><span class="mono" style="color:var(--ink-3)">Depois</span><h3 style="margin-top:.25rem;font-size:1.1rem">Etapa dois</h3><p class="xs" style="margin-top:.4rem">Texto curto da etapa.</p></div>
+      <div class="wm on"><span class="n">03</span><span class="mono" style="color:#C0421F">Agora</span><h3 style="margin-top:.25rem;font-size:1.1rem;color:#C0421F">Etapa três</h3><p class="xs" style="margin-top:.4rem">Texto curto da etapa.</p></div>
+    </div>
+  </div>
+  <p class="xs" style="margin-top:.8rem">Curva SVG com <code>preserveAspectRatio="none"</code>, nós em <code>%</code> com alturas <strong>diferentes</strong> (a trilha sobe), e linhas tracejadas ligando cada nó ao card. Substitui a timeline reta com muito mais graça.</p>
+</section>
+
+<section class="dev">
+  <header><h3>5 · Painel sobreposto</h3><span class="mono tag">novo</span></header>
+  <div class="demo sobre">
+    <div class="pan">
+      <span class="hang mono">Antes travava aqui</span>
+      <div class="hd"><span class="wdots"><i></i><i></i><i></i></span><strong style="font-size:.92rem">O que ficou fácil</strong><span class="mono" style="margin-left:auto;color:var(--ink-3)">04</span></div>
+      <div class="li">Criar o produto com apoio de IA</div>
+      <div class="li">Montar página sem programador</div>
+      <div class="li">Produzir criativos sem agência</div>
+    </div>
+    <div class="pan hi">
+      <span class="hang on mono">Agora decide aqui</span>
+      <div class="hd"><span class="wdots"><i></i><i></i><i></i></span><strong style="font-size:.92rem">O que decide o jogo</strong><span class="mono" style="margin-left:auto;opacity:.75">04</span></div>
+      <div class="li">O clique encareceu</div>
+      <div class="li">A audiência ficou exigente</div>
+      <div class="li">O que se paga é implementação</div>
+    </div>
+  </div>
+  <p class="xs" style="margin-top:.8rem">O painel da direita <strong>invade o da esquerda</strong> em <code>-42px</code>, desce <code>26px</code> e sobe no <code>z-index</code>. Hierarquia sem precisar de seta nem de texto explicando qual importa. Os três pontinhos de janela custam nada e situam que aquilo é uma tela.</p>
+</section>
+
+<section class="dev">
+  <header><h3>6 · Nota com fita sobre malha</h3><span class="mono tag">novo</span></header>
+  <div class="malha">
+    <span class="canto tl"></span><span class="canto tr"></span><span class="canto bl"></span><span class="canto br"></span>
+    <div style="display:flex;justify-content:space-between;margin-bottom:1.3rem;flex-wrap:wrap;gap:.5rem">
+      <span class="mono" style="color:#C0421F">● Planta do projeto</span>
+      <span class="mono" style="color:var(--ink-3)">3 peças · rev. 01 · folha 1/1</span>
+    </div>
+    <div class="g2" style="grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1.5rem">
+      <div class="nota" style="--r:-1.4deg;--tr:-3deg">
+        <span class="mono" style="color:var(--ink-3);float:right">PÇ-01</span>
+        <strong style="font-family:var(--fd)">Primeira peça</strong>
+        <p class="xs" style="margin-top:.4rem">Descrição curta do que essa peça entrega.</p>
+      </div>
+      <div class="nota" style="--r:1.1deg;--tr:2deg">
+        <span class="mono" style="color:var(--ink-3);float:right">PÇ-02</span>
+        <strong style="font-family:var(--fd)">Segunda peça</strong>
+        <p class="xs" style="margin-top:.4rem">Descrição curta do que essa peça entrega.</p>
+      </div>
+      <div class="nota" style="--r:-.6deg;--tr:-1deg;display:grid;place-items:center;background:transparent;box-shadow:inset 0 0 0 2px var(--line-2);border-radius:8px">
+        <span class="carimbo">Pronto pra executar</span>
+      </div>
+    </div>
+  </div>
+  <p class="xs" style="margin-top:.8rem">Malha por dois <code>linear-gradient</code> de 1px em 26px. Cada nota rotaciona uma fração de grau (<code>--r</code>) e ganha uma fita translúcida no <code>::before</code> com rotação própria. Cantos em L emolduram a área. <strong>Rotações diferentes por nota</strong> — se todas girarem igual, vira padrão e perde a graça.</p>
+</section>
+
+<div class="g2">
+  <section class="dev">
+    <header><h3>7 · Anéis concêntricos</h3><span class="mono tag">novo</span></header>
+    <div class="demo orb">
+      <span class="halo"></span>
+      <span class="anel a"><i style="top:-4px;left:50%"></i><i style="bottom:16%;right:4%"></i><i style="bottom:8%;left:12%"></i></span>
+      <span class="anel b"><i style="top:22%;left:-4px"></i><i style="bottom:-4px;left:56%"></i></span>
+      <span class="nucleo"><span><strong style="font-family:var(--fd);font-size:1.7rem;display:block;line-height:1">70+</strong><span style="font-size:.68rem;opacity:.9">habilidades</span></span></span>
+    </div>
+    <p class="xs" style="margin-top:.8rem">Dois anéis tracejados girando em <strong>direções opostas</strong> e velocidades diferentes (34s e 26s). Halo em <code>radial-gradient</code> de três paradas (0/34/66%), medido.</p>
+  </section>
+
+  <section class="dev">
+    <header><h3>8 · Área com gradiente</h3><span class="mono tag">novo</span></header>
+    <div class="demo">
+      <div class="row" style="justify-content:space-between;align-items:baseline">
+        <div><div class="xs">Receita</div><strong style="font-family:var(--fd);font-size:1.4rem">R$ 38.942</strong></div>
+        <span class="mono" style="color:var(--ok)">↑ 24,3%</span>
+      </div>
+      <svg class="area" id="ar" viewBox="0 0 400 120" preserveAspectRatio="none" style="width:100%;height:110px;margin-top:.6rem">
+        <defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="var(--accent)" stop-opacity=".28"/>
+          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></linearGradient></defs>
+        <path d="M8,92 L58,74 L108,82 L158,44 L208,58 L258,32 L308,42 L392,16 L392,120 L8,120 Z" fill="url(#ag)"/>
+        <polyline points="8,92 58,74 108,82 158,44 208,58 258,32 308,42 392,16" fill="none"
+          stroke="var(--accent)" stroke-width="2.4" vector-effect="non-scaling-stroke" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="row" style="justify-content:space-between;margin-top:.3rem">
+        <span class="xs">08/05</span><span class="xs">11/05</span><span class="xs">14/05</span>
+      </div>
+    </div>
+    <p class="xs" style="margin-top:.8rem">Mesma linha do sparkline, com um <code>path</code> fechado atrás preenchido por gradiente vertical que morre em <code>opacity:0</code>. Dá peso sem sujar.</p>
+  </section>
+</div>
+
+<div class="g2">
+  <section class="dev">
+    <header><h3>9 · Selo sobre divisor</h3><span class="mono tag">novo</span></header>
+    <div class="demo" style="padding:0;overflow:hidden">
+      <div style="height:96px;background:linear-gradient(150deg,var(--p1),var(--p4));display:grid;place-items:center" class="xs">Foto 16:9</div>
+      <div style="padding:1rem 1.1rem .2rem"><span class="mono" style="color:#C0421F">Dia 01</span><div style="font-family:var(--fd);font-weight:700">22 set · 10h às 18h</div></div>
+      <div class="corte"><span class="selo">1</span></div>
+      <div style="padding:.2rem 1.1rem 1.2rem"><h3 style="font-size:1.05rem">O produto</h3><p class="xs" style="margin-top:.35rem">Conteúdo do bloco abaixo do corte.</p></div>
+    </div>
+    <p class="xs" style="margin-top:.8rem">O círculo numerado <strong>monta sobre</strong> o divisor tracejado, à direita. Junta o corte de bilhete com a numeração de etapa numa peça só.</p>
+  </section>
+
+  <section class="dev">
+    <header><h3>10 · Pilha de avatares</h3><span class="mono tag">novo</span></header>
+    <div class="demo" style="display:grid;place-items:center;padding-block:2rem">
+      <div class="row" style="gap:.85rem">
+        <span class="pilha"><i></i><i></i><i></i><i class="mais">+2K</i></span>
+        <div>
+          <div class="row" style="gap:.3rem"><strong style="font-family:var(--fd)">4,9/5</strong><span style="color:var(--warn);letter-spacing:-1px">★★★★★</span></div>
+          <div class="xs">Mais de 2.000 alunos já estão usando</div>
+        </div>
+      </div>
+    </div>
+    <p class="xs" style="margin-top:.8rem">Sobreposição de <code>-11px</code> com anel de <code>2.5px</code> na cor do papel. O último círculo carrega o total. Prova social barata e legível em qualquer largura.</p>
+  </section>
+</div>
+
+<div class="g2">
+  <section class="dev">
+    <header><h3>11 · Card com borda lateral</h3><span class="mono tag">novo</span></header>
+    <div class="demo" style="display:grid;gap:1rem">
+      <div class="lat">
+        <div class="li"><span class="icb" style="background:var(--p1);color:var(--accent)">✓</span><div><strong style="font-size:.92rem">Para quem é</strong><p class="xs">Descrição do perfil em uma linha.</p></div></div>
+        <div class="li"><span class="icb" style="background:var(--p1);color:var(--accent)">✓</span><div><strong style="font-size:.92rem">Segundo perfil</strong><p class="xs">Descrição do perfil em uma linha.</p></div></div>
+      </div>
+      <div class="lat neg">
+        <div class="li"><span class="icb" style="background:#FBE8E6;color:var(--bad)">✕</span><div><strong style="font-size:.92rem">Para quem não é</strong><p class="xs">Descrição do perfil em uma linha.</p></div></div>
+      </div>
+    </div>
+    <p class="xs" style="margin-top:.8rem">Filete de 3px na lateral esquerda troca de cor por estado. Mais discreto que borda inteira colorida e mais legível que só o ícone.</p>
+  </section>
+
+  <section class="dev">
+    <header><h3>12 · Colagem de fotos</h3><span class="mono tag">novo</span></header>
+    <div class="demo colagem">
+      <span class="malhapt"></span>
+      <div class="foto f1">Foto 1 · 4:3</div>
+      <div class="foto f2">Foto 2 · 4:3</div>
+      <div class="foto f3">Foto 3 · 4:3</div>
+    </div>
+    <p class="xs" style="margin-top:.8rem">Três fotos sobrepostas com rotações pequenas e <strong>diferentes</strong> (−3°, +2,4°, −1,4°). A malha pontilhada por <code>radial-gradient</code> de 1,4px em 13px preenche o canto vazio. Serve para bloco de história e bastidores.</p>
+  </section>
+</div>
+
+</main>
+<footer style="padding:2rem 0 3rem"><div class="wrap"><p class="xs">Catálogo gerado pela skill pagina-design-premium.</p></div></footer>
+
+<script>
+var io = new IntersectionObserver(function(es){
+  es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+},{threshold:.12,rootMargin:'0px 0px -40px'});
+document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+
+// área: observa o CONTÊINER, nunca o elemento com clip-path
+document.querySelectorAll('.area').forEach(function(s){
+  var alvo = s.closest('.dev') || s.parentElement;
+  var o = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ s.classList.add('in'); o.disconnect(); } });
+  },{threshold:.15});
+  o.observe(alvo);
+});
+</script>
+</body>
+</html>

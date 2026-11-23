@@ -1,0 +1,8 @@
+[Unit]
+Description=email-marketing: vigia disco do Mautic
+
+[Service]
+Type=oneshot
+Environment=EMK_PERFIL=__PERFIL__
+ExecStart=/usr/bin/env python3 -I -B __DESTINO__/motor/email_mkt.py vigia disco
+Nice=10

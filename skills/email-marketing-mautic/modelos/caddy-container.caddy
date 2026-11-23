@@ -1,0 +1,14 @@
+# Mautic: endereco publico com HTTPS (Caddy em container na mesma rede docker do Mautic).
+# Sem senha no dominio inteiro: o pixel de abertura, o clique rastreado, o descadastro e os formularios sao
+# servidos por este mesmo host, e senha global quebra os quatro. O painel /s/* tem login proprio do Mautic.
+# Certificado: o Caddy emite e renova sozinho (Let's Encrypt), desde que as portas 80 e 443 cheguem nele.
+{{DOMINIO}} {
+    encode zstd gzip
+    header {
+        Strict-Transport-Security "max-age=31536000"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        -Server
+    }
+    reverse_proxy {{UPSTREAM}}
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Catálogo de dispositivos · pagina-design-premium</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+@property --angle{syntax:'<angle>';initial-value:0deg;inherits:false}
+:root{
+  --paper:#F7F7F5;--paper-2:#FFFFFF;--paper-3:#EDEDE9;
+  --ink:#15161A;--ink-2:#565963;--ink-3:#8A8D96;
+  --line:#E3E2DD;--line-2:#C9C7C0;
+  --accent:#3B4BE8;--accent-rgb:59 75 232;--accent-soft:#E6E9FD;
+  --ok:#12A75F;--ok-rgb:18 167 95;--warn:#E8960C;--bad:#E02B2B;
+  --p1:#E6E9FD;--p2:#E4F4EA;--p3:#FCEFD8;--p4:#F7E6EA;--p5:#E4EFF4;
+  --sh1:0 1px 2px rgba(21,22,26,.04),0 10px 30px -18px rgba(21,22,26,.18);
+  --sh2:0 2px 4px rgba(21,22,26,.04),0 30px 70px -34px rgba(21,22,26,.30);
+  --ins:inset 0 0 0 1px rgba(21,22,26,.08);
+  --fd:'Manrope',system-ui,sans-serif;--fb:'Inter',system-ui,sans-serif;--fm:'IBM Plex Mono',monospace;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:clip;scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--fb);font-size:1.02rem;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
+ul{list-style:none} svg,img{display:block;max-width:100%}
+::-webkit-scrollbar{width:11px}
+::-webkit-scrollbar-track{background:var(--paper)}
+::-webkit-scrollbar-thumb{background:#D6D4CD;border-radius:99px;border:3px solid var(--paper)}
+::-webkit-scrollbar-thumb:hover{background:#8C8A83}
+h1,h2,h3{font-family:var(--fd);font-weight:800;letter-spacing:-.03em;line-height:1.1}
+.mono{font-family:var(--fm);font-size:.66rem;letter-spacing:.13em;text-transform:uppercase}
+.num{font-family:var(--fm);font-variant-numeric:tabular-nums}
+.sm{font-size:.92rem;color:var(--ink-2)} .xs{font-size:.8rem;color:var(--ink-3);line-height:1.5}
+.wrap{max-width:1080px;margin-inline:auto;padding-inline:clamp(1rem,4vw,2rem)}
+.dev{background:var(--paper-2);border-radius:14px;box-shadow:var(--ins),var(--sh1);padding:clamp(1.2rem,3vw,1.8rem);margin-bottom:1.5rem}
+.dev > header{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:1.2rem;padding-bottom:.8rem;box-shadow:inset 0 -1px 0 var(--line)}
+.tag{display:inline-flex;align-items:center;gap:.4rem;border-radius:999px;padding:.3rem .7rem;background:var(--accent-soft);color:var(--accent)}
+.row{display:flex;gap:.7rem;align-items:center;flex-wrap:wrap}
+.between{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.g2{display:grid;gap:1.2rem;grid-template-columns:1fr}
+@media(min-width:820px){.g2{grid-template-columns:1fr 1fr}}
+
+/* ============ 1 · FUNIL ============ */
+.funil{display:grid;gap:.42rem}
+.fn{border-radius:8px;padding:.72rem .95rem;background:var(--paper-2);box-shadow:var(--ins);
+    border-left:3px solid var(--accent);width:0;overflow:hidden;white-space:nowrap;
+    transition:width .9s cubic-bezier(.22,.61,.36,1)}
+.fn.warn{border-left-color:var(--warn)}
+.fn .between{min-width:220px}
+
+/* ============ 2 · TOAST DESLIZANTE (só desktop, como medido) ============ */
+.toast{display:none}
+@media(min-width:1024px){
+ .toast{display:block;position:fixed;left:16px;bottom:16px;z-index:99998;max-width:calc(100vw - 32px);pointer-events:none}
+}
+.toast__slide{transform:translateX(-32px);opacity:0;transition:transform .5s ease-out,opacity .5s ease-out}
+.toast__slide.is-shown{transform:none;opacity:1}
+.toast__card{pointer-events:auto;display:flex;align-items:center;gap:12px;max-width:360px;padding:10px 14px;
+ background:var(--paper-2);border-radius:12px;box-shadow:var(--ins),var(--sh2)}
+.toast__x{margin-left:auto;color:var(--ink-3);cursor:pointer;background:none;border:0;font-size:1.1rem;line-height:1}
+
+/* ============ 3 · TABELA DE GERENCIADOR ============ */
+.gt{border-radius:12px;overflow:hidden;box-shadow:var(--ins)}
+.gt-h,.gt-r{display:grid;grid-template-columns:210px 1fr 52px;gap:14px;padding:.68rem .9rem;align-items:center}
+.gt-h{background:var(--paper-3);color:var(--ink-3)}
+.gt-r{box-shadow:inset 0 -1px 0 var(--line);background:var(--paper-2)}
+.gt-r:last-child{box-shadow:none}
+.gt-bar{height:9px;background:var(--paper-3);border-radius:99px;overflow:hidden}
+.gt-bar i{display:block;height:100%;width:0;border-radius:99px;transition:width .9s cubic-bezier(.22,.61,.36,1)}
+.gt-st{width:9px;height:9px;border-radius:50%;justify-self:end}
+@media(max-width:760px){
+ .gt-h,.gt-r{grid-template-columns:84px 1fr 38px;gap:10px;padding:.6rem .7rem}
+ .gt-h > *,.gt-r > *:first-child{font-size:.72rem;line-height:1.25}
+}
+
+/* ============ 4 · MEDIDOR (gauge) ============ */
+.gauge{position:relative;width:190px;margin-inline:auto}
+.gauge svg{overflow:visible}
+.gauge .arc{fill:none;stroke-width:14;stroke-linecap:round}
+.gauge .arc-bg{stroke:var(--paper-3)}
+.gauge .arc-fg{stroke:url(#gg);stroke-dasharray:var(--len);stroke-dashoffset:var(--len);
+ transition:stroke-dashoffset 1.2s cubic-bezier(.22,.61,.36,1)}
+.gauge.on .arc-fg{stroke-dashoffset:calc(var(--len) - var(--len) * var(--pct))}
+.gauge .val{position:absolute;left:0;right:0;bottom:14px;text-align:center}
+
+/* ============ 5 · SPARKLINE COM CLIP-PATH (técnica medida) ============ */
+.spark{clip-path:inset(0 100% 0 0);transition:clip-path 1.15s cubic-bezier(.22,.61,.36,1);will-change:clip-path}
+.spark.in{clip-path:inset(0)}
+.spark--up{clip-path:inset(100% 0 0)}
+.spark--up.in{clip-path:inset(0)}
+
+/* ============ dispositivos já existentes ============ */
+.pulse{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--ok);flex:none;animation:pulse-live 1.8s ease-in-out infinite}
+@keyframes pulse-live{0%,100%{opacity:1;box-shadow:0 0 0 0 rgb(var(--ok-rgb)/.55)}60%{opacity:.85;box-shadow:0 0 0 7px rgb(var(--ok-rgb)/0)}}
+.typing{display:inline-flex;align-items:center;gap:3px;color:var(--ink-3)}
+.typing i{width:5px;height:5px;border-radius:50%;background:currentColor;animation:typing 1.3s ease-in-out infinite}
+.typing i:nth-child(2){animation-delay:.18s}.typing i:nth-child(3){animation-delay:.36s}
+@keyframes typing{0%,60%,100%{transform:translateY(0);opacity:.45}30%{transform:translateY(-3px);opacity:1}}
+.ticket{background:var(--paper-2);border-radius:16px;box-shadow:var(--ins),var(--sh2);overflow:hidden;max-width:330px}
+.ticket .hd{background:var(--accent);color:#fff;padding:.6rem 1rem}
+.ticket-rip{position:relative;height:0;border-top:2px dashed var(--line-2)}
+.ticket-rip::before,.ticket-rip::after{content:"";position:absolute;top:-15px;width:28px;height:28px;border-radius:50%;background:var(--rip-color,var(--paper))}
+.ticket-rip::before{left:-20px}.ticket-rip::after{right:-20px}
+.borda-viva{position:relative;border:2px solid transparent;border-radius:14px;padding:1rem 1.2rem;
+ background:linear-gradient(var(--paper-2),var(--paper-2)) padding-box,
+            conic-gradient(from var(--angle),transparent 0 68%,var(--accent) 86%,transparent 100%) border-box;
+ animation:spin-border 4s linear infinite}
+@keyframes spin-border{100%{--angle:360deg}}
+.shimmer-wrap{position:relative;overflow:hidden;border-radius:10px;background:var(--accent);color:#fff;padding:.9rem 1.4rem;font-family:var(--fd);font-weight:800;display:inline-block}
+.shimmer-wrap::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 30%,rgb(255 255 255/.42) 50%,transparent 70%);animation:shimmer 2.6s ease-in-out infinite}
+@keyframes shimmer{0%{transform:translateX(-120%)}100%{transform:translateX(320%)}}
+.chip{border-radius:18px;padding:.75rem .9rem;font-weight:600;font-size:.85rem;color:var(--ink);box-shadow:var(--sh1)}
+.mk{background:var(--accent-soft);padding:.06em .3em;border-radius:.28em;box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:600}
+
+@media (max-width:760px){
+  h1 br:not(.m-br),h2 br:not(.m-br){display:none}
+  [style*="grid-template-columns"]{max-width:100%}
+  [style*="grid-template-columns"] > *{min-width:0}
+  .g2 > *{min-width:0}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  .spark{clip-path:none} .fn{width:auto!important}
+}
+</style>
+</head>
+<body>
+
+<header style="background:var(--ink);color:#F2F1EE;padding:2.6rem 0">
+  <div class="wrap">
+    <span class="mono" style="color:#9A9DA6">pagina-design-premium · referência</span>
+    <h1 style="font-size:clamp(1.8rem,4.4vw,2.7rem);margin-top:.5rem">Catálogo de dispositivos</h1>
+    <p class="sm" style="color:#B5B8C0;max-width:60ch;margin-top:.7rem">Todos os objetos construídos da biblioteca, com o CSS medido das páginas de referência. Role para ver cada um animar na entrada.</p>
+  </div>
+</header>
+
+<main class="wrap" style="padding-block:2.6rem">
+
+<!-- 1 · FUNIL -->
+<section class="dev">
+  <header><h3>1 · Funil de conversão</h3><span class="mono tag">novo</span></header>
+  <div class="funil" id="funil">
+    <div class="fn" data-w="100"><div class="between"><span class="sm">Impressões</span><span class="num">3.642.890</span></div></div>
+    <div class="fn" data-w="74"><div class="between"><span class="sm">Cliques no link</span><span class="num">95.172</span></div></div>
+    <div class="fn warn" data-w="52"><div class="between"><span class="sm">Visitas à página</span><span class="num">56.107</span></div></div>
+    <div class="fn" data-w="30"><div class="between"><span class="sm">Compras</span><span class="num">66</span></div></div>
+  </div>
+  <p class="xs" style="margin-top:.8rem">A largura é proporcional ao volume, com piso de 18% para o último continuar legível. O item em âmbar marca onde vaza — funil todo verde não ensina nada.</p>
+</section>
+
+<!-- 2 · TABELA DE GERENCIADOR -->
+<section class="dev">
+  <header><h3>2 · Tabela de gerenciador</h3><span class="mono tag">novo</span></header>
+  <div class="gt" id="gt">
+    <div class="gt-h"><span class="mono">Conjunto</span><span class="mono">Custo por resultado</span><span class="mono" style="justify-self:end">St</span></div>
+    <div class="gt-r"><span class="sm">VSL — dor principal</span><div><div class="between" style="margin-bottom:.28rem"><span class="xs">R$ 8,21</span><span class="xs num">3,0x</span></div><div class="gt-bar"><i data-w="86" style="background:var(--ok)"></i></div></div><span class="gt-st" style="background:var(--ok)"></span></div>
+    <div class="gt-r"><span class="sm">Carrossel — prova</span><div><div class="between" style="margin-bottom:.28rem"><span class="xs">R$ 14,60</span><span class="xs num">1,7x</span></div><div class="gt-bar"><i data-w="48" style="background:var(--ok)"></i></div></div><span class="gt-st" style="background:var(--ok)"></span></div>
+    <div class="gt-r"><span class="sm">Depoimento — cliente</span><div><div class="between" style="margin-bottom:.28rem"><span class="xs">R$ 61,40</span><span class="xs num">0,7x</span></div><div class="gt-bar"><i data-w="17" style="background:var(--bad)"></i></div></div><span class="gt-st" style="background:var(--bad)"></span></div>
+  </div>
+  <p class="xs" style="margin-top:.8rem">Grid <code class="num">210px 1fr 52px</code> que no mobile vira <code class="num">84px 1fr 38px</code> — re-proporcionado, nunca empilhado. Sempre inclua uma linha ruim.</p>
+</section>
+
+<div class="g2">
+  <!-- 3 · MEDIDOR -->
+  <section class="dev">
+    <header><h3>3 · Medidor</h3><span class="mono tag">novo</span></header>
+    <div class="gauge" id="gauge" style="--len:220;--pct:.74">
+      <svg viewBox="0 0 200 118">
+        <defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5B69F0"/><stop offset="1" stop-color="#12A75F"/></linearGradient></defs>
+        <path class="arc arc-bg" d="M18 106a82 82 0 0 1 164 0"/>
+        <path class="arc arc-fg" d="M18 106a82 82 0 0 1 164 0"/>
+      </svg>
+      <div class="val"><div class="num" style="font-family:var(--fd);font-weight:800;font-size:1.9rem;line-height:1">74%</div><div class="xs">da meta do mês</div></div>
+    </div>
+    <p class="xs" style="margin-top:.6rem">Arco semicircular com <code>stroke-dasharray</code>. O comprimento do caminho vai em <code>--len</code> e a fração em <code>--pct</code>.</p>
+  </section>
+
+  <!-- 4 · SPARKLINE -->
+  <section class="dev">
+    <header><h3>4 · Sparkline</h3><span class="mono tag">novo</span></header>
+    <div class="row" style="justify-content:space-between;align-items:baseline">
+      <div><div class="xs">Faturamento</div><div class="num" style="font-family:var(--fd);font-weight:800;font-size:1.5rem">R$ 21.956</div></div>
+      <span class="row" style="gap:.4rem"><span class="pulse"></span><span class="xs">ao vivo</span></span>
+    </div>
+    <svg class="spark" viewBox="0 0 400 100" preserveAspectRatio="none" style="width:100%;height:88px;margin-top:.6rem">
+      <polyline points="10,72 60,60 110,66 160,50 210,58 260,42 310,48 390,26" fill="none" stroke="var(--accent)" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <p class="xs" style="margin-top:.6rem">Revela com <code>clip-path:inset(0 100% 0 0)</code> → <code>inset(0)</code>. Funciona para qualquer conteúdo SVG, não só traço.</p>
+  </section>
+</div>
+
+<div class="g2">
+  <section class="dev">
+    <header><h3>5 · Bilhete com entalhe</h3></header>
+    <div style="background:var(--paper);padding:1.1rem;border-radius:12px"><div class="ticket" style="--rip-color:var(--paper)">
+      <div class="hd between"><span class="mono">Ingresso · lote 01</span><span class="mono num">001</span></div>
+      <div style="padding:1rem"><div class="xs">Apenas</div><div class="num" style="font-family:var(--fd);font-weight:800;font-size:2rem;line-height:1">R$ 97</div></div>
+      <div class="ticket-rip"></div>
+      <div style="padding:1rem"><p class="xs">O entalhe é um elemento de altura zero. Solte onde a linha de corte deve passar.</p></div>
+    </div></div>
+    <p class="xs" style="margin-top:.7rem"><strong>Regra:</strong> <code>--rip-color</code> é a cor do que está <em>atrás</em> do bilhete, não a do cartão. Em seção escura, <code>--rip-color:var(--ink)</code>.</p>
+  </section>
+
+  <section class="dev">
+    <header><h3>6 · Borda cônica girando</h3></header>
+    <div class="borda-viva">
+      <strong style="font-family:var(--fd)">Plano recomendado</strong>
+      <p class="xs" style="margin-top:.3rem">Precisa de <code>@property --angle</code> registrado, senão o ângulo não interpola.</p>
+    </div>
+    <div style="margin-top:1rem" class="row">
+      <span class="shimmer-wrap">Varredura de brilho</span>
+    </div>
+  </section>
+</div>
+
+<section class="dev">
+  <header><h3>7 · Estados e microdispositivos</h3></header>
+  <div class="row" style="gap:1.6rem">
+    <span class="row" style="gap:.5rem"><span class="pulse"></span><span class="sm">Pulso por box-shadow</span></span>
+    <span class="row" style="gap:.5rem"><span class="typing"><i></i><i></i><i></i></span><span class="sm">Digitando</span></span>
+    <span class="chip" style="background:var(--p1)">Chip pastel</span>
+    <span class="chip" style="background:var(--p2)">Chip pastel</span>
+    <span class="chip" style="background:var(--p3)">Chip pastel</span>
+  </div>
+  <p class="sm" style="margin-top:1rem">Marca-texto em uso: <span class="mk">no máximo duas por parágrafo</span>, nenhuma com mais de seis palavras.</p>
+</section>
+
+</main>
+
+<!-- TOAST -->
+<div class="toast" id="toast">
+  <div class="toast__slide" id="tslide">
+    <div class="toast__card">
+      <span style="width:32px;height:32px;border-radius:9px;background:var(--p2);color:var(--ok);display:grid;place-items:center;flex:none">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>
+      </span>
+      <div><strong style="font-size:.88rem;font-family:var(--fd)">Dispositivo carregado</strong><div class="xs">Toast desliza da esquerda · só desktop</div></div>
+      <button class="toast__x" id="tx" aria-label="Fechar">&times;</button>
+    </div>
+  </div>
+</div>
+
+<footer style="padding:2rem 0 3rem"><div class="wrap"><p class="xs">Catálogo gerado pela skill pagina-design-premium. Números ilustrativos.</p></div></footer>
+
+<script>
+// preenchimento de largura ao entrar na tela (funil, tabela)
+const wio=new IntersectionObserver(function(es){es.forEach(function(e){
+  if(!e.isIntersecting)return;
+  wio.unobserve(e.target);
+  e.target.querySelectorAll('[data-w]').forEach(function(b,i){
+    setTimeout(function(){b.style.width=b.dataset.w+'%'}, i*110);
+  });
+});},{threshold:.3});
+document.querySelectorAll('#funil,#gt').forEach(el=>wio.observe(el));
+
+// medidor: mede o caminho real e usa como dasharray
+const gauge=document.getElementById('gauge');
+if(gauge){const path=gauge.querySelector('.arc-fg');
+  gauge.style.setProperty('--len',Math.ceil(path.getTotalLength()));
+  new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)gauge.classList.add('on')}),{threshold:.2}).observe(gauge);}
+
+// sparkline — observa o CONTÊINER, nunca o elemento com clip-path.
+// O clip zera a área visível e o observer no próprio elemento jamais dispara.
+document.querySelectorAll('.spark').forEach(function(s){
+  var alvo = s.closest('.dev') || s.parentElement;
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ s.classList.add('in'); io.disconnect(); } });
+  },{threshold:.15});
+  io.observe(alvo);
+});
+
+// toast: aparece depois de 2,2s, some em 9s, fecha no clique
+const ts=document.getElementById('tslide'),tx=document.getElementById('tx');
+if(ts){setTimeout(()=>ts.classList.add('is-shown'),2200);
+  setTimeout(()=>ts.classList.remove('is-shown'),11000);
+  tx.addEventListener('click',()=>ts.classList.remove('is-shown'));}
+</script>
+</body>
+</html>

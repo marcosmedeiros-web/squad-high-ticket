@@ -1,0 +1,11 @@
+{
+  "nome": "sob-medida",
+  "tipo": "batida",
+  "descricao": "Fluxo montado com o dono (n8n, ManyChat ou código). O fluxo faz o trabalho; o último passo dele manda a batida para cá, e o vigia avisa se ele parar. Contrato: references/contrato-batida.md.",
+  "origem": "n8n",
+  "palavras": [],
+  "teste": {},
+  "vigia": {
+    "silencio_max_h": 24
+  }
+}

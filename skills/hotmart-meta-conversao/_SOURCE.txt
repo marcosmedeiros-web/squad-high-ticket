@@ -1,0 +1,6 @@
+Origem: escrito do zero para o kit em 18/10/2026. Nenhum código de terceiro.
+Fixtures em testes/fixtures/: exemplos de payload da documentação pública da Hotmart (webhook 2.0.0,
+"cart-abandonment-webhook-v2" e "purchase-webhook-v2"), lidos na cópia do Web Archive de 09/05/2026 do site
+developers.hotmart.com. Os arquivos *.literal.txt estão como publicados. Os *.json só tiram a vírgula sobrando
+antes de } ou ], que torna o exemplo de compra JSON inválido. Usados apenas como dado de teste.
+Regras de normalização, deduplicação e limites: documentação pública da Meta (ver references/fontes.md).

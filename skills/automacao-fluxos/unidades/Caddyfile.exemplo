@@ -1,0 +1,21 @@
+# Bloco para o Caddy da VPS. Troque automacao.SEU-DOMINIO pelo subdomínio do dono (registro A apontando para a VPS).
+# Só /f/* sai para fora; /saude fica local. O log de acesso apaga o hottok da Hotmart e o caminho secreto da rota.
+automacao.SEU-DOMINIO {
+	@fluxos path /f/*
+	handle @fluxos {
+		reverse_proxy 127.0.0.1:8790
+	}
+	handle {
+		respond 404
+	}
+	log {
+		format filter {
+			wrap json
+			fields {
+				request>headers>X-Hotmart-Hottok delete
+				request>uri regexp ^(/f/[a-z0-9-]+/).*$ ${1}<rota>
+				request>remote_ip ip_mask 16 32
+			}
+		}
+	}
+}

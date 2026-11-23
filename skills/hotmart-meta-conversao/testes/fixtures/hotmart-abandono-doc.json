@@ -1,0 +1,25 @@
+{
+  "id": "0d7aa966-b887-4617-8c56-9e865bfc8ce4",
+  "creation_date": 1632411406874,
+  "event": "PURCHASE_OUT_OF_SHOPPING_CART",
+  "version": "2.0.0",
+  "data": {
+    "affiliate": true,
+    "product": {
+      "id": 3526906,
+      "name": "Product Name"
+    },
+    "buyer": {
+      "name": "Buyer name",
+      "email": "buyer@email.com.br",
+      "phone": "31999999999"
+    },
+    "offer": {
+      "code": "n82b9jqz"
+    },
+    "checkout_country": {
+      "name": "Brasil",
+      "iso": "BR"
+    }
+  }
+}

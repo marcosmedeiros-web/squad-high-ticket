@@ -1,0 +1,230 @@
+---
+name: ht-entregaveis
+description: 'Squad High Ticket / método FHT. Desenha os entregáveis do Acelerador de Resultados a partir da jornada e dos pontos onde o aluno trava: cardápio nos 4 pilares (Direcionamento, Implementação, Acompanhamento e Feedback, Ambiente), cada entregável com nome autoral, "o que é" literal, benefício e quantidade "até N" com condição de solicitação; conta de horas e capacidade (escala); SNA de 5 semanas. Use quando o estrategista disser "quais entregáveis o expert vai ter?", "monta o cardápio do AR", "descreve o diagnóstico/plano de ação para a oferta", "isso escala?", "prometi reunião semanal, está certo?", "faz o SNA". NÃO usar para roteiro de condução de cada entregável (ht-entregaveis-1a1, ht-entrega-em-grupo), para oferta de evento pago LPSG/5+1 da Turbo, nem para preço (ht-preco-pagamento-e-garantia).'
+---
+
+# Entregáveis do AR
+
+## 1. Para que serve e o que entrega
+
+O entregável é o que o aluno recebe para executar a jornada mais rápido. O valor do AR está no acompanhamento (direcionar,
+fornecer recursos prontos, destravar, dar feedback), não no volume de coisa. Esta skill transforma a jornada e o mapa de travas
+num cardápio enxuto, vendável e escalável: cada entregável existe porque resolve um ponto da jornada, é descrito de forma que o
+lead entende na hora, e é prometido em quantidade que o expert consegue cumprir.
+
+**Entrega**: `02-oferta/rascunhos/AAAA-MM-DD-entregaveis.md` com:
+1. Matriz jornada x entregável (qual passo ou etapa cada entregável acelera, e com qual função).
+2. Cardápio por pilar: nome autoral, o que é, benefício, quantidade "até N", condição de solicitação, quem entrega.
+3. Conta de horas e capacidade (teórico x consumo esperado) e o limite de alunos por estrutura de time.
+4. O que fica de fora agora (prometer depois) e o que vira overdelivery.
+5. Esboço do SNA de 5 semanas (se o SNA entrar no cardápio).
+6. Auditoria e decisões para o estrategista.
+Opcional: aba ENTREGÁVEIS da planilha `rota3/materiais/planilhas/AR-planilha-oferta-do-acelerador.xlsx` preenchida.
+
+## 2. Antes de começar
+
+1. Carregar `ht-protocolo`. Conferir o pedido do Diretor.
+2. Ler `experts/<slug>/ht/02-oferta/`: definição, jornada e **mapa de travas** (saída do `ht-definicao-e-jornada`). Sem jornada
+   formalizada, parar e pedir a jornada: entregável sem jornada sai "de paraquedas" (live 007).
+3. Ler `01-pesquisa/` (dores, objeções, casos parecidos do `ht-consultor-casos`) e `06-entrega/` (o que o expert já entrega hoje,
+   time disponível, materiais prontos). **`06-entrega/` vazia** (projeto novo, sem aluno no squad): o que o expert já entrega sai
+   da pasta dele fora de `ht/` (materiais, programa que já vende) e de `01-pesquisa/`; o que não estiver lá vira
+   `[A CONFIRMAR COM ht-arquiteto-entrega]` (time e capacidade) ou uma das 3 perguntas. Não bloqueia o desenho dos entregáveis.
+4. **Entradas obrigatórias**: jornada + pontos críticos; o que o expert já faz com clientes (sessões, materiais, grupos);
+   quanto tempo por semana ele tem para entregar; se há time (mentor, navegador). Perguntar no máximo 3 coisas, por exemplo:
+   "Quantas horas por semana o expert dá para a entrega?", "Que materiais prontos ele já tem (modelos, planilhas, aulas)?",
+   "Quantos alunos queremos no primeiro ciclo?".
+
+## 3. Passo a passo
+
+### Passo 1. Entender o ciclo do acompanhamento (aplicar em todo entregável)
+Todo AR repete 4 movimentos em cada coisa que o aluno executa (live 060):
+1. **Direcionar** de forma personalizada o que, como e quando fazer (às vezes é dar menos informação: "do curso de 300 horas,
+   agora só este módulo").
+2. **Fornecer recursos pré-construídos** (modelos, templates, mensagens prontas, planilhas): o aluno erra menos.
+3. **Destravar** obstáculos de forma passiva (o aluno pede) e **ativa** (o time vai atrás de quem sumiu ou travou sem pedir).
+4. **Analisar** o que foi executado e recomendar melhorias.
+Extra das lives 002/007: gerar conexões entre pessoas (ambiente).
+
+### Passo 2. Cruzar jornada x travas x entregáveis
+1. Para cada ponto crítico do mapa de travas, perguntar: qual movimento do ciclo falta aqui? Antes, durante ou depois da execução?
+2. Não há regra de "um entregável por passo": um entregável pode acelerar uma etapa inteira (no FHT, o diagnóstico resolve a
+   etapa de criação); três entregáveis podem servir a um passo só (bootcamp + drive + checklist para "construir os elementos de
+   venda"). Fonte: live 060.
+3. Pergunta-pivô: "se o programa custasse 10 vezes mais, o que o expert entregaria?" Revela o que move o resultado (80/20).
+4. Começar pelo mínimo que cobre os pontos críticos. Montar a matriz:
+
+| Etapa / passo | Ponto crítico? | Entregável | Função (direcionar, recurso, destravar, analisar, ambiente) | Momento (antes, durante, depois) |
+|---|---|---|---|---|
+
+### Passo 3. Escolher no cardápio dos 4 pilares (mínimo 1 por pilar; ninguém usa o cardápio inteiro)
+Cardápio completo, com benefício, como replicar, nomes e quando não prometer: `references/cardapio-4-pilares.md`.
+- **Direcionamento** (clareza do próximo passo): diagnóstico, plano de ação, SNA. O diagnóstico entra em todo produto (dez/25);
+  plano de ação e SNA podem existir juntos, só um deles ou fundidos (há expert que só entrega o documento, sem a reunião). O
+  normal é diagnóstico e plano em sessões separadas (analogia do médico: consulta, exames, depois a receita); fundem quando um
+  questionário prévio (modelo do Raio-X do FHT) colhe os dados e a primeira reunião só confirma e já faz o plano (jun/26 SP).
+  O questionário enviado logo após a compra também acalma o aluno que acabou de pagar alto. Plano de ação: prometer 1 com
+  revisões quando solicitado, ou "até N" se ele é feito por trimestre ("até 4"), porque depende de o aluno cumprir.
+  Diagnóstico é entregável de quem já comprou; não confundir com a sessão 1a1 de venda (erro de dez/25).
+- **Implementação** (tudo para executar): área de membros, reunião estratégica, bootcamp/implementation day, drive, navegador.
+- **Acompanhamento e Feedback** (antes, durante, depois): check-up (antes), real time (durante), análise individual (depois),
+  laboratório (grupo), documento de feedbacks, plantão de dúvidas (só com volume).
+- **Ambiente** (o diferencial que ninguém copia): comunidade, encontro exclusivo de alunos (canal de renovação), desafio,
+  área de parcerias.
+Prioridade da fonte: **análise depois da execução** é o entregável que mais faz o aluno evoluir e vender, e obriga o aluno a
+agir (bootcamp de AR mai/26; live 061 cita a gravação das análises de outros alunos como o acervo mais valioso).
+Profissional complementar (designer, tráfego, psicólogo, nutricionista) entra como consultoria pontual "até N", sem trocar o
+método do expert.
+Equilíbrio individual x grupo: só entregável individual dá personalização mas não gera ambiente nem escala; oferta sem nenhum
+entregável um-para-muitos foi apontada como falha no laboratório de dez/25. Em AR de negócio B2B, considerar um entregável que
+o time do aluno também consome (alinhamento da metodologia para a equipe, jun/26 SP).
+Análise sempre diz **análise do quê**: um entregável "análise individual" com os temas que podem ser pedidos (oferta, rede
+social, atendimento, técnica) dimensiona melhor que vários entregáveis estreitos (trilha 06, exercícios).
+
+### Passo 4. Escrever cada entregável nos 4 campos (+2 operacionais)
+Modelos e exemplos: `references/redacao-de-entregavel.md`.
+1. **Nome autoral**, do nicho ("Scanner de performance", "Plano de rota", "Mesa do Conselho", "Drive Necessaire"). Nome criativo
+   leva explicação ao lado; para o lead entender o programa sem estudar, prefira nomes conhecidos com um toque do nicho
+   ("Reunião de diagnóstico de carreira"). Nunca o mesmo nome para coisas diferentes; nunca jargão do método ("SNA") para o lead.
+   Se o programa tem nome de marca, derivar os nomes dos entregáveis dele reforça o branding (dez/25).
+2. **O que é**: literal, com formato, canal e duração ("uma sessão individual no Zoom de até 1h20 para..."). Na hora do pitch o
+   lead não conhece o entregável.
+3. **Benefício**: específico, escrito para o aluno (não para o mentor), ligado à dor ("você sai com a oferta pronta para vender").
+4. **Quantidade "até N"**, nunca frequência (padrão do squad). Quer entregar um por mês? Escreve "até 12". Frequência fixa só
+   em encontro de grupo (ex.: data do encontro anual). Entregável em grupo recorrente (laboratório, plantão) vai como "N por
+   ano" ou "ao longo do programa, conforme agenda", nunca "mensal" ou "semanal": feriado e dezembro quebram a promessa (dez/25,
+   jun/26 SP). Quando o método exige presença semanal do aluno, a cadência vai no plano de ação e no SNA, não no texto da oferta
+   (jun/26 SP). Quantidade de análise acompanha o esforço: análise de 3 minutos por áudio pode ser mais generosa; a que exige
+   sentar e estruturar, menos (dez/25). O N ideal só aparece com 1 a 2 anos de dados de consumo; até lá, dar um a mais a quem
+   está executando não quebra nada.
+5. **Condição de solicitação**: "quando você executar X, pode solicitar Y" (live 001; live 057). Ex.: a cada estratégia de venda
+   executada, solicitar uma análise individual de até 2h. Exceção sem condição: reunião estratégica. Condição leve (precisar) para
+   não virar "ovo ou galinha". Logística (agendar por link, mandar a demanda antes) não entra no texto da oferta: lá ela parece
+   barreira; o aluno descobre como pedir quando entra (jun/26 SP).
+6. **Quem entrega** (expert, mentor, navegador, especialista) e **como se solicita** (formulário, prazo de resposta em dias úteis).
+
+### Passo 5. Conta de horas, consumo e capacidade (escala)
+Template e referências: `references/escala-e-conta-de-horas.md`.
+1. Para cada entregável individual: horas teóricas por aluno = N x duração. Somar.
+2. Aplicar o consumo esperado (sem dado próprio, usar a referência marcada "conferir": 20% dos alunos consomem 80%; numa mentoria
+   citada, de até 12 análises a média consumida foi de 2 a 3; plantão recebe 5% a 10% dos alunos).
+3. Converter em capacidade com o padrão do squad: expert sozinho até 20 alunos; mentor 1:70; navegador 1:100.
+4. Teste de escalabilidade: se todos consumissem tudo, o expert aguenta? Se não, trocar frequência por "até N" com condição,
+   passar entregável para grupo (laboratório, bootcamp) ou para mentor/navegador com manual.
+5. Peixe assado ("faço por você") nunca predomina no AR; no máximo como bônus com teto.
+
+### Passo 6. Cortar o entulho e separar o que fica para depois
+1. **Efeito PQP** (live 057): oferta com entregável demais assusta ("não vou dar conta", "vou usar só um pedaço"). Entregar o que o
+   aluno precisa na hora que precisa. Menos entregáveis, mais claros; unir os repetidos.
+2. **Não prometer o que ainda não existe** e depende de volume: comunidade geral, bootcamp gravado, laboratório e plantão com 1
+   a 10 alunos. Com poucos alunos: grupo VIP com o expert (padrão do squad: WhatsApp até ~10 alunos, Telegram até ~150, Circle
+   a partir daí; vender "comunidade", não a ferramenta; escolher a ferramenta que o avatar já usa, ex.: empresário que não está
+   no Facebook). Encontro de alunos pode ser prometido para cerca de 12 meses depois da primeira entrada (trilha 06; o primeiro
+   encontro de uma mentoria citada teve 12 a 13 pessoas); há mentor que só passa a prometer depois de ~15 alunos, para já marcar
+   a data a um ano (jun/26 SP). Qual dos dois usar é decisão do estrategista (seção 5).
+3. Área de membros e drive podem ser vendidos antes de existirem desde que descritos como o que são: organizados a partir das
+   gravações e materiais das próprias entregas (trilha 06). O que não puder ser cumprido, sai.
+4. **Overdelivery** ("na gaveta"): o que se entrega sem prometer (plantão, plantão temático). Vira entregável só quando provar valor.
+5. Não criar entregável de "plano de continuidade" que concorra com a renovação (desafio SP/26). Uma sessão final de
+   conquista é o momento natural da oferta de renovação (`ht-renovacao`).
+6. Overdelivery não aparece também no cardápio: se está nos dois lugares, sai de um (dez/25).
+
+### Passo 7. SNA de 5 semanas (se entrar no cardápio)
+Estrutura completa: `references/sna-5-semanas.md`. Plano de ação é o macro (mês a mês); o SNA é o micro (tarefa, prazo, como
+executar, evidência, checkbox, barra de progresso). Criar uma vez e replicar; dar nome comercial claro para o lead.
+
+### Passo 8. Auditoria e entrega
+Rodar a seção 6. Gravar e passar adiante (seção 7).
+
+## 4. Regras inegociáveis do método
+
+- Entregável nasce da jornada e das travas, não de "encher linguiça". Arquitetura da oferta pensa primeiro em resultado, depois em venda.
+- Mínimo um entregável por pilar; diagnóstico e plano de ação quase sempre presentes.
+- Individual sempre "até N" com condição; frequência só em encontro de grupo (padrão do squad). Prometer frequência é "enfiar o HT no
+  ralo": o expert vira refém da própria oferta e vende o tempo dele (live 057).
+- Grupo e individual do mesmo tipo = dois entregáveis distintos.
+- Real time só se puder cumprir; navegador sempre com prazo de resposta em dias úteis; plantão só com volume.
+- Entregável que só serve ao mentor (boletim de avaliação) não é entregável; vira ferramenta interna ou planilha do aluno.
+- Nada se constrói inteiro antes de vender: entregar o que existe, criar por demanda, gravar tudo.
+- Gravar todo entregável individual (prova, "toques de Midas", acervo para a área de membros).
+- Contrato ou modelo jurídico no drive: avisar que o aluno valida com o advogado dele.
+- Diagnóstico: alvo de 1h20, teto de 2 h e parte 2 prevista (padrão recomendado; o estrategista pode mudar em `padroes` do perfil `~/.config/squad-ht/perfil.md`). Capacidade pelo padrão do squad. Comunidade pelo padrão do squad.
+
+## 5. Quando a decisão é do estrategista
+
+Apresentar opções a/b/c com prós, contras e custo; recomendação na a):
+- **Quantidade N de cada entregável individual** quando mexe na capacidade do expert (ex.: análises até 6 ou até 12).
+- **Fundir ou separar diagnóstico e plano de ação** (uma sessão longa x duas sessões).
+- **Prometer ou não** encontro presencial, comunidade, real time e bootcamp no primeiro ciclo; para o encontro: (a) prometer
+  já, para cerca de 12 meses após a primeira entrada (trilha 06); (b) prometer só depois de ~15 alunos, já com data (jun/26 SP).
+- **Especialista terceiro na entrega** (custo e margem).
+- **Entregar via mentor desde o início** ou expert sozinho até 20 alunos.
+- **Algo que o expert faz hoje por frequência** (ex.: reunião semanal já vendida a alunos atuais): como migrar sem quebrar promessa.
+
+## 6. Critério de pronto e auditoria final
+
+**Critério de pronto**
+- [ ] Toda linha do cardápio aponta para um passo, etapa ou ponto crítico da jornada (matriz preenchida).
+- [ ] Pelo menos 1 entregável por pilar; diagnóstico e plano de ação presentes ou ausência justificada.
+- [ ] Cada entregável tem nome, o que é (formato, canal, duração), benefício para o aluno, "até N", condição, quem entrega, como
+      solicitar e prazo de resposta quando houver.
+- [ ] Conta de horas teórica e com consumo esperado; capacidade em nº de alunos com o time atual.
+- [ ] Lista do que não será prometido agora e do overdelivery.
+- [ ] Nenhuma frequência fixa em entregável individual.
+- [ ] Se há SNA: semanas, tarefas, evidência e nome comercial.
+
+**Auditoria (erros dos laboratórios de AR e das lives 057/065)**
+1. Entregável na jornada, ou jornada usada como lista de entregáveis.
+2. Frequência ("mensal", "toda semana", "ativo de segunda a sexta", "intensivo") no lugar de "até N".
+3. Mesmo nome para coisas diferentes; nome criativo sem explicação; jargão do método para o lead.
+4. "O que é" sem formato e duração; benefício escrito para o mentor.
+5. Pilar errado (encontro presencial em feedback; biblioteca fora de implementação) ou pilares duplicados.
+6. Plantão e laboratório duplicados; plantão com poucos alunos; hot seat em turma pequena ou inexperiente.
+7. Real time prometido sem capacidade de cumprir.
+8. Comunidade, Circle, bootcamp ou laboratório prometidos com 1 aluno; Circle cedo.
+9. Entulho (efeito PQP): entregáveis demais, consumo impossível.
+10. Kit físico caro sem conta de custo e frete.
+11. Navegador ou suporte sem prazo de resposta.
+12. Entregável que serve ao mentor; plano de continuidade que mata a renovação.
+13. Oferta não escalável: conta de horas estoura a capacidade (erro da live 065).
+14. Peixe assado predominante.
+15. Oferta só com entregáveis individuais, sem nenhum um-para-muitos (dez/25).
+16. Análise sem dizer do quê; vários entregáveis de análise que são o mesmo com tema diferente.
+17. Logística de pedido no texto da oferta ("mediante agendamento e envio prévio da demanda") soando como barreira.
+18. Entregável ao vivo sem duração escrita (gravado não precisa).
+19. Mesmo item no cardápio e no overdelivery; dois entregáveis que só diferem pelo momento (mapa x rota, comitê x ciclo).
+20. Diagnóstico confundido com a sessão 1a1 de venda.
+
+## 7. Saída e handoff
+
+- Gravar em `02-oferta/rascunhos/AAAA-MM-DD-entregaveis.md` (e a planilha, se pedida). Vira parte de `oferta-vigente.md` só no
+  `ht-oferta-matadora`, com OK do estrategista.
+- Bloco de entrega do `ht-protocolo`, com evidência (o que o expert confirmou que consegue entregar x inferido).
+- Revisão: `ht-revisor-metodo-copy`.
+- Próximo: `ht-oferta-matadora` (consolida a oferta). Depois da Aprovação 1: `ht-arquiteto-entrega` usa o cardápio para o manual
+  de entregáveis, formulários de solicitação e roteiros (`ht-entregaveis-1a1`, `ht-entrega-em-grupo`, `ht-escala-da-entrega`).
+
+## 8. Ferramentas de apoio (por nome)
+
+- `anthropic-skills:xlsx`: aba ENTREGÁVEIS da planilha de oferta, conta de horas e o SNA.
+- `avoid-ai-writing`, `humanizer`: redação de "o que é" e benefício.
+- `anthropic-skills:docx`: versão em documento para o expert ler, quando o estrategista pedir.
+
+## 9. Fontes e lacunas
+
+**Fontes**: trilha 06 RESUMO (3.5 a 3.7, 4 passos 7 a 11, 5.5, 5.7 a 5.10, 6.3 a 6.5, 8); rota3 01-02 (2.5 a 2.7, Parte 3) e
+03-10 (pergunta-pivô); parte A (`fht-cardapio-de-entregaveis`, `fht-redator-de-entregavel`, `fht-sna-...`, `fht-navegador-e-capacidade`);
+parte E (`montar-cardapio-de-entregaveis`, `estruturar-ar-escalavel-por-pilares`, `desenhar-comunidade-e-ambiente-do-ar`); parte F
+(`ar-montar-pilares-de-entregaveis`, `ar-auditar-oferta-e-entregaveis`, `ar-criar-sna-checklist`, `ar-comunidade-vip-e-ferramentas`);
+parte G (`arquiteto-entregaveis-4-pilares`, `desenhista-formularios-solicitacao-entregavel`); parte H (lives 001, 002, 007, 011,
+015, 021); parte I (lives 029, 041, 062, 065); transcrições lidas hoje: live 057 (erros 3 e 4), 058 (entregáveis por caso), 060
+(ciclo do acompanhamento, matriz entregável x passo, condição de execução), 061 (versão beta, acompanhamento de duas vias, gravação
+das análises), bootcamp de AR mai/26 parte 2 (cardápio comentado, análise como entregável principal, bônus x entrega).
+
+Lidas por inteiro na revisão de 23/11/2026: trilha 06 (bootcamp de AR completo, inclusive os 4 pilares, exercícios e outros
+elementos), bootcamp e laboratório de AR de dez/25 e bootcamp parte 1 e laboratório de AR de jun/26 SP (trilha 22).
+
+**Lacunas**: o agente "definidor de entregáveis" da FHT não tem link nem prompt nos materiais; o número de entregáveis do FHT
+diverge (22 individuais ou 10 a 12, legenda confusa); a conta de "25 a 30 h por aluno" e os consumos médios vêm de aula e são
+referência; a trilha 21 (3.354 gravações de entregáveis) só foi amostrada, então os exemplos por nicho são poucos (N de M a
+informar quando o banco de casos existir).

@@ -1,0 +1,11 @@
+[Unit]
+Description=automacao-fluxos: ciclo (passos devidos, lembretes, provas) e vigia de trânsito
+
+[Service]
+Type=oneshot
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/env python3 -B @SKILL@/motor/fluxos.py --perfil @PERFIL@ ciclo
+SuccessExitStatus=1
+TimeoutStartSec=600
+NoNewPrivileges=yes
+UMask=0077

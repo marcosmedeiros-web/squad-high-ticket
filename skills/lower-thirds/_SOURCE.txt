@@ -1,0 +1,6 @@
+_SOURCE.txt — kit Head Turbo (gerado pelo ferramentas-sanitizacao/sanitizar-skills.py; skill de TERCEIRO, só credenciais e portão foram sanitizados)
+skill: lower-thirds
+origem: desconhecida
+prova da origem: nenhuma comprovável
+licença: não declarada (sem arquivo LICENSE e sem campo license)
+copiada do Mac pro kit em: 2026-09-15 11:31 -03

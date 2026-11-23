@@ -1,0 +1,21 @@
+{
+  "nome": "lembrete-aula",
+  "tipo": "lembrete-aula",
+  "descricao": "Lembretes da aula ao vivo nos grupos de WhatsApp do evento: na véspera, uma hora antes e na hora.",
+  "grupos": ["PREENCHER-id-do-grupo@g.us"],
+  "lembretes": [
+    {"antes_min": 1440, "texto": "Amanhã, {dia_semana} {data}, às {hora}: {titulo}. Link: {link}"},
+    {"antes_min": 60, "texto": "Falta 1 hora para {titulo}, às {hora}. Link: {link}"},
+    {"antes_min": 0, "texto": "Começou: {titulo}. Entra aqui: {link}"}
+  ],
+  "aulas": [
+    {"id": "aula-1", "titulo": "PREENCHER título da aula", "inicio": "2026-10-20T20:00:00-03:00", "link": "https://PREENCHER"}
+  ],
+  "teste": {
+    "grupos": ["PREENCHER-id-do-grupo-de-teste@g.us"]
+  },
+  "vigia": {
+    "tolerancia_min": 20,
+    "agenda_minima_dias": 8
+  }
+}

@@ -1,0 +1,16 @@
+{
+ "_comentario": "Correções aplicadas ao texto da legenda ANTES de queimar. Chave = como a transcrição erra, valor = como deve aparecer. Sem diferenciar maiúscula. As chaves de primeiro nível casam palavra inteira; as de _frases casam trecho literal. Arquivo por projeto — o que está aqui são só exemplos de CLASSE de erro, troque pelos seus.",
+
+ "_por_que_existe": "Whisper erra sistematicamente em nome de marca, jargão do nicho e número. Número errado vira legenda queimada com número errado, e aí o corte inteiro precisa ser refeito. Sempre rodar --so-legenda e ler o .txt antes de renderizar.",
+
+ "_erros_tipicos": "1) marca com grafia inventada (Hotmart -> Ultimart); 2) número quebrado (100 mil -> 100,97); 3) verbo comido no início da palavra (faturei -> turei); 4) palavra do nicho trocada por outra parecida (saturado -> black).",
+
+ "_cuidado_regra_sobreposta": "Duas regras que casam o mesmo trecho se aplicam em sequência e produzem lixo. 'eu turei 48' -> 'eu faturei 48' MAIS 'turei 48' -> 'faturei 48' gera 'fafaturei'. Uma regra por erro.",
+
+ "roas": "ROAS",
+ "whatsapp": "WhatsApp",
+
+ "_frases": {
+  "exemplo de trecho errado": "exemplo de trecho certo"
+ }
+}

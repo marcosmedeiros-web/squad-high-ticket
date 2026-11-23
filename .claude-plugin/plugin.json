@@ -1,0 +1,9 @@
+{
+  "name": "squad-high-ticket",
+  "description": "Squad High Ticket: 32 agentes e as skills ht- que montam e operam o high ticket de experts pelo método FHT (Fórmula High Ticket): oferta, sessão 1a1, demanda, eventos um-para-muitos, entrega e renovação. Inclui skills de execução do kit Turbo (Turbo Academy), com autorização. Comece pela skill ht-configurar.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Squad High Ticket"
+  },
+  "license": "LicenseRef-Proprietary"
+}

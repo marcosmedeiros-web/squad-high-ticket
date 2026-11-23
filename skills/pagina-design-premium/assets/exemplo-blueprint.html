@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- PIXEL AQUI -->
+<title>Painel de Caixa · exemplo de referência</title>
+<meta name="description" content="Exemplo de página gerada pela skill pagina-design-premium, tema blueprint.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F7F7F5;--bg-2:#EFEFEC;--surface:#FFFFFF;
+  --ink:#14161A;--ink-2:#4A4F57;--ink-3:#82888F;
+  --line:#DDDDD6;--line-strong:#C2C2B9;
+  --accent:#1B4DFF;--accent-ink:#FFFFFF;--accent-soft:#E8EDFF;
+  --ok:#1B7F4B;--warn:#B4740F;--bad:#B32020;
+  --font-display:'Inter Tight',system-ui,sans-serif;
+  --font-body:'Inter',system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,monospace;
+  --radius:4px;--radius-lg:6px;--shadow:none;--border:1px solid var(--line);
+  --t-hero:clamp(2.4rem,7vw,4.4rem);--t-h2:clamp(1.75rem,4.4vw,2.8rem);
+  --t-h3:clamp(1.15rem,2.2vw,1.4rem);--t-body:clamp(.98rem,1.6vw,1.06rem);
+  --t-sm:.875rem;--t-label:.6875rem;
+  --pad-tight:clamp(2.5rem,6vw,3.5rem);--pad-base:clamp(3.5rem,9vw,6rem);--pad-air:clamp(5rem,13vw,9rem);
+  --maxw:1140px;--maxw-text:62ch;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:var(--t-body);line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg,video{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+ul,ol{list-style:none}
+table{border-collapse:collapse;width:100%}
+::selection{background:var(--accent);color:var(--accent-ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.08;letter-spacing:-.02em}
+h1{font-size:var(--t-hero);font-weight:800;letter-spacing:-.035em}
+h2{font-size:var(--t-h2);letter-spacing:-.028em}
+h3{font-size:var(--t-h3);letter-spacing:-.015em}
+p{max-width:var(--maxw-text)}
+strong,b{font-weight:600;color:var(--ink)}
+.lead{font-size:clamp(1.05rem,2.1vw,1.22rem);color:var(--ink-2);line-height:1.55}
+.sm{font-size:var(--t-sm);color:var(--ink-2)}
+.xs{font-size:.8125rem;color:var(--ink-3)}
+.muted{color:var(--ink-3)}
+.num{font-family:var(--font-mono);font-variant-numeric:tabular-nums;letter-spacing:-.02em;word-spacing:-.28em}
+.eyebrow{font-family:var(--font-mono);font-size:var(--t-label);font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);display:flex;align-items:center;gap:.6rem;margin-bottom:1.25rem}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--line);max-width:120px}
+.eyebrow .n{color:var(--accent)}
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:clamp(1.15rem,5vw,2rem)}
+section{padding-block:var(--pad-base)}
+section.tight{padding-block:var(--pad-tight)}
+section.air{padding-block:var(--pad-air)}
+section.alt{background:var(--bg-2)}
+section.dark{background:var(--ink);color:var(--bg)}
+section.dark h1,section.dark h2,section.dark h3{color:var(--bg)}
+section.dark .sm,section.dark .lead{color:color-mix(in srgb,var(--bg) 70%,transparent)}
+section.dark .xs{color:color-mix(in srgb,var(--bg) 55%,transparent)}
+section.dark .eyebrow{color:color-mix(in srgb,var(--bg) 55%,transparent)}
+section.dark .eyebrow::after{background:color-mix(in srgb,var(--bg) 20%,transparent)}
+.rule{height:1px;background:var(--line);border:0}
+.grid{display:grid;gap:1px;background:var(--line);border:var(--border)}
+.grid > *{background:var(--bg);padding:clamp(1.25rem,3vw,1.75rem)}
+.g2{grid-template-columns:1fr}.g3{grid-template-columns:1fr}.g4{grid-template-columns:1fr 1fr}
+.cols{display:grid;gap:clamp(1.5rem,4vw,2.5rem);grid-template-columns:1fr}
+.split{display:grid;gap:clamp(1.75rem,5vw,3.5rem);grid-template-columns:1fr;align-items:start}
+.stack{display:flex;flex-direction:column;gap:1rem}
+.row{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
+.between{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+@media (min-width:900px){
+  .g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+  .cols{grid-template-columns:1fr 1fr}
+  .split{grid-template-columns:7fr 5fr}.split.rev{grid-template-columns:5fr 7fr}.split.wide{grid-template-columns:8fr 4fr}
+  .sticky{position:sticky;top:2rem}
+}
+.card{background:var(--surface);border:var(--border);border-radius:var(--radius);padding:clamp(1.25rem,3vw,1.75rem)}
+.card.flush{padding:0;overflow:hidden}
+.card.hi{border-color:var(--accent)}
+.panel{background:var(--bg-2);border:var(--border);border-radius:var(--radius);padding:clamp(1.25rem,3vw,1.75rem)}
+.ph{background:var(--bg-2);border:1px dashed var(--line-strong);border-radius:var(--radius);display:grid;place-items:center;color:var(--ink-3);font-family:var(--font-mono);font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;aspect-ratio:16/10}
+.tag{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-mono);font-size:var(--t-label);font-weight:500;letter-spacing:.1em;text-transform:uppercase;border:var(--border);border-radius:100px;padding:.32rem .7rem;color:var(--ink-2)}
+.tag.on{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex:none}
+.dot.ok{background:var(--ok)}.dot.warn{background:var(--warn)}.dot.bad{background:var(--bad)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--accent);color:var(--accent-ink);font-family:var(--font-display);font-weight:600;font-size:1rem;letter-spacing:-.01em;padding:1rem 1.6rem;border-radius:var(--radius);transition:transform .12s ease,filter .12s ease;text-align:center}
+.btn:hover{filter:brightness(1.08)}.btn:active{transform:translateY(1px)}
+.btn.block{display:flex;width:100%}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line-strong)}
+.btn.lg{padding:1.15rem 2rem;font-size:1.06rem}
+.list{display:grid;gap:0;border-top:var(--border)}
+.list li{display:flex;gap:.85rem;padding:.9rem 0;border-bottom:var(--border);align-items:flex-start}
+.list li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);flex:none;margin-top:.62rem}
+.list.neg li::before{background:none;content:"×";width:auto;height:auto;color:var(--bad);font-weight:600;margin-top:-.08rem;line-height:1.6}
+.list.check li::before{background:none;content:"→";width:auto;height:auto;color:var(--accent);font-weight:600;margin-top:-.02rem;line-height:1.6}
+.tbl th,.tbl td{text-align:left;padding:.85rem 1rem;border-bottom:var(--border);font-size:var(--t-sm)}
+.tbl th{font-family:var(--font-mono);font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:500}
+.tbl td.n{font-family:var(--font-mono);font-variant-numeric:tabular-nums;text-align:right}
+.tbl tr.hi td{background:var(--accent-soft)}
+.acc{border-top:var(--border)}
+.acc details{border-bottom:var(--border)}
+.acc summary{display:flex;gap:1rem;align-items:flex-start;padding:1.15rem 0;cursor:pointer;list-style:none;font-family:var(--font-display);font-weight:600;font-size:1.02rem;letter-spacing:-.01em}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary .q{font-family:var(--font-mono);font-size:var(--t-label);color:var(--ink-3);padding-top:.3rem;flex:none;letter-spacing:.08em}
+.acc summary::after{content:"+";margin-left:auto;color:var(--ink-3);font-weight:400;font-size:1.3rem;line-height:1;flex:none}
+.acc details[open] summary::after{content:"–"}
+.acc .a{padding:0 0 1.3rem 2.6rem;color:var(--ink-2);font-size:var(--t-sm);max-width:64ch}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--surface);border-top:var(--border);padding:.7rem clamp(1rem,4vw,1.5rem);display:flex;gap:.85rem;align-items:center;justify-content:space-between;transform:translateY(110%);transition:transform .25s ease;box-shadow:0 -8px 24px rgba(0,0,0,.06)}
+.bar.show{transform:translateY(0)}
+@media (max-width:899px){body{padding-bottom:4.75rem}}
+.bar .btn{padding:.8rem 1.2rem;font-size:.94rem;white-space:nowrap}
+@media (min-width:900px){.bar{display:none}}
+.rv{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+.center{text-align:center}.center p{margin-inline:auto}
+.mt-s{margin-top:.75rem}.mt{margin-top:1.5rem}.mt-l{margin-top:2.5rem}.mt-xl{margin-top:4rem}
+.full{grid-column:1/-1}
+</style>
+</head>
+<body>
+<main>
+
+<!-- 1 · HERO-OFERTA — split 7/5 -->
+<section class="tight">
+  <div class="wrap split">
+    <div>
+      <span class="tag">Sistema de caixa para estúdio</span>
+      <h1 class="mt">Você fatura bem e mesmo assim o mês fecha apertado.</h1>
+      <p class="lead mt">Um painel de caixa feito para estúdio de design e agência pequena. Você lança em 40 segundos e enxerga, no dia 10, quanto do mês já está comprometido.</p>
+      <ul class="list check mt-l">
+        <li>Lançamento por projeto, não por categoria de banco</li>
+        <li>Previsão de caixa dos próximos 60 dias</li>
+        <li>Alerta quando o comprometido passa de 70% do previsto</li>
+      </ul>
+    </div>
+    <aside class="card sticky">
+      <div class="between">
+        <span class="tag on">Acesso vitalício</span>
+        <span class="xs num">CX·001</span>
+      </div>
+      <div class="mt">
+        <div class="xs">De R$ 497 por</div>
+        <div class="num" style="font-size:2.6rem;font-weight:700;line-height:1">R$ 197</div>
+        <div class="xs mt-s">ou 12× de R$ 19,58</div>
+      </div>
+      <a href="#oferta" class="btn block lg mt">Quero o painel</a>
+      <p class="xs mt-s center">Acesso imediato · 7 dias de garantia</p>
+    </aside>
+  </div>
+</section>
+
+<!-- 2 · AGITACAO — duas colunas opostas -->
+<section class="alt">
+  <div class="wrap">
+    <span class="eyebrow"><span class="n">01</span> · Onde o dinheiro some</span>
+    <h2 style="max-width:20ch">O problema quase nunca é faturamento. É visibilidade.</h2>
+    <div class="cols mt-l">
+      <p class="lead">Estúdio pequeno costuma ter receita suficiente e mesmo assim sofrer no dia 25. O buraco não está no quanto entra — está em não saber, no dia 5, quanto do mês já foi gasto sem aparecer no extrato.</p>
+      <ul class="list neg">
+        <li>Nota de fornecedor que só vira despesa quando chega o boleto</li>
+        <li>Projeto entregue com 40% ainda a receber e sem data</li>
+        <li>Assinatura de ferramenta que ninguém lembra de cancelar</li>
+        <li>Pró-labore que muda todo mês conforme o que sobrou</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 3 · SPLIT-ARGUMENTO + painel de métricas -->
+<section>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow"><span class="n">02</span> · Como funciona</span>
+      <h2 style="max-width:16ch">Você lança. O painel projeta.</h2>
+      <p class="lead mt">Cada lançamento carrega projeto, data de competência e data de caixa. É a separação entre as duas datas que revela o mês apertado antes dele acontecer.</p>
+      <ul class="list check mt">
+        <li>Entrada por projeto, com percentual já recebido</li>
+        <li>Recorrentes lançadas uma vez e projetadas sozinhas</li>
+        <li>Fechamento em uma tela, sem exportar planilha</li>
+      </ul>
+    </div>
+    <div>
+      <div class="card flush">
+        <div class="between" style="padding:.85rem 1.15rem;border-bottom:var(--border)">
+          <span class="tag"><span class="dot ok"></span>Mês em curso</span>
+          <span class="xs num">até 19/08</span>
+        </div>
+        <div class="grid g2" style="border:0">
+          <div>
+            <div class="xs">Entrou</div>
+            <div class="num" style="font-size:1.35rem;font-weight:600">R$ 38.942,10</div>
+            <div class="xs" style="color:var(--ok)">↑ 24,3%</div>
+          </div>
+          <div>
+            <div class="xs">Comprometido</div>
+            <div class="num" style="font-size:1.35rem;font-weight:600">R$ 29.117,64</div>
+            <div class="xs" style="color:var(--warn)">75% do previsto</div>
+          </div>
+          <div>
+            <div class="xs">A receber</div>
+            <div class="num" style="font-size:1.35rem;font-weight:600">R$ 12.480,00</div>
+            <div class="xs">3 projetos</div>
+          </div>
+          <div>
+            <div class="xs">Sobra projetada</div>
+            <div class="num" style="font-size:1.35rem;font-weight:600">R$ 4.311,45</div>
+            <div class="xs" style="color:var(--bad)">↓ 18,2%</div>
+          </div>
+        </div>
+        <div style="padding:0 1.15rem 1rem">
+          <svg viewBox="0 0 300 60" preserveAspectRatio="none" style="width:100%;height:56px">
+            <polyline points="0,20 50,26 100,22 150,34 200,30 250,42 300,47" fill="none" stroke="var(--accent)" stroke-width="2" vector-effect="non-scaling-stroke"/>
+          </svg>
+          <p class="xs">Sobra projetada, últimos 7 fechamentos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · PROVA VISUAL — barras horizontais -->
+<section class="alt tight">
+  <div class="wrap">
+    <span class="eyebrow"><span class="n">03</span> · Exemplo ilustrativo</span>
+    <h2 style="max-width:22ch">Qual projeto pagou e qual só ocupou a equipe.</h2>
+    <p class="lead mt" style="max-width:56ch">Margem por projeto depois de custo de fornecedor e horas alocadas. A linha de empate é 1,0×.</p>
+    <div class="stack mt-l" style="gap:.55rem;max-width:760px">
+      <div>
+        <div class="between" style="margin-bottom:.28rem"><span class="sm">Identidade — cliente B</span><span class="num sm">2,4×</span></div>
+        <div style="height:10px;background:var(--surface);border:var(--border);border-radius:2px;overflow:hidden"><div style="width:80%;height:100%;background:var(--ok)"></div></div>
+      </div>
+      <div>
+        <div class="between" style="margin-bottom:.28rem"><span class="sm">Landing page — cliente D</span><span class="num sm">1,9×</span></div>
+        <div style="height:10px;background:var(--surface);border:var(--border);border-radius:2px;overflow:hidden"><div style="width:63%;height:100%;background:var(--ok)"></div></div>
+      </div>
+      <div>
+        <div class="between" style="margin-bottom:.28rem"><span class="sm">Social mensal — cliente A</span><span class="num sm">1,1×</span></div>
+        <div style="height:10px;background:var(--surface);border:var(--border);border-radius:2px;overflow:hidden"><div style="width:37%;height:100%;background:var(--warn)"></div></div>
+      </div>
+      <div>
+        <div class="between" style="margin-bottom:.28rem"><span class="sm">Rebranding — cliente C</span><span class="num sm muted">0,6×</span></div>
+        <div style="height:10px;background:var(--surface);border:var(--border);border-radius:2px;overflow:hidden"><div style="width:20%;height:100%;background:var(--bad)"></div></div>
+      </div>
+    </div>
+    <p class="xs mt">Acima de 1,0× o projeto pagou o custo dele. Abaixo, consumiu equipe sem devolver.</p>
+  </div>
+</section>
+
+<!-- 5 · LISTA DENSA -->
+<section class="tight">
+  <div class="wrap">
+    <div class="between">
+      <h2 style="max-width:22ch">O que vem junto</h2>
+      <span class="xs num">08 itens</span>
+    </div>
+    <div class="cols mt-l">
+      <ul class="list">
+        <li>Painel web, roda no navegador, sem instalar nada</li>
+        <li>Importação do extrato em CSV dos principais bancos</li>
+        <li>Modelo de proposta com margem já calculada</li>
+        <li>Fechamento mensal em uma tela, pronto pra contador</li>
+      </ul>
+      <ul class="list">
+        <li>Projeção de 60 dias com recorrentes automáticas</li>
+        <li>Alerta de comprometimento acima de 70%</li>
+        <li>Exportação em planilha quando você precisar</li>
+        <li>Atualizações incluídas, sem mensalidade</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 6 · PRA-QUEM — duas colunas opostas -->
+<section class="alt">
+  <div class="wrap">
+    <span class="eyebrow"><span class="n">04</span> · Antes de decidir</span>
+    <h2 style="max-width:24ch">Isso resolve um problema específico. Vale checar se é o seu.</h2>
+    <div class="cols mt-l">
+      <div>
+        <div class="between"><span class="tag on">É pra você se</span><span class="xs num">05</span></div>
+        <ul class="list check mt">
+          <li>Você é sócio ou solo e cuida do financeiro sem querer</li>
+          <li>Fatura entre R$ 15k e R$ 120k por mês</li>
+          <li>Trabalha por projeto, com entrada e parcelas</li>
+          <li>Já tentou planilha e abandonou em três meses</li>
+          <li>Quer saber a sobra do mês antes do dia 25</li>
+        </ul>
+      </div>
+      <div>
+        <div class="between"><span class="tag">Não é pra você se</span><span class="xs num">05</span></div>
+        <ul class="list neg mt">
+          <li>Você já tem ERP com contador integrado rodando bem</li>
+          <li>Precisa de emissão de nota fiscal dentro da ferramenta</li>
+          <li>Tem mais de 15 pessoas lançando ao mesmo tempo</li>
+          <li>Quer controle de estoque ou de produto físico</li>
+          <li>Não pretende lançar nada e só quer o relatório pronto</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · OFERTA FINAL — faixa escura -->
+<section class="dark air" id="oferta">
+  <div class="wrap" style="max-width:820px">
+    <span class="eyebrow">Acesso</span>
+    <h2 style="max-width:20ch">Você fecha o mês sabendo, não descobrindo.</h2>
+    <ul class="list check mt-l" style="border-color:color-mix(in srgb,var(--bg) 18%,transparent)">
+      <li>Painel completo, acesso vitalício</li>
+      <li>Importação de extrato e projeção de 60 dias</li>
+      <li>Modelo de proposta com margem calculada</li>
+      <li>Fechamento mensal pronto pro contador</li>
+      <li>Atualizações incluídas, sem mensalidade</li>
+    </ul>
+    <div class="mt-l" style="border:1px solid color-mix(in srgb,var(--bg) 22%,transparent);border-radius:var(--radius);padding:clamp(1.25rem,4vw,2rem)">
+      <div class="between">
+        <div class="stack" style="gap:.15rem">
+          <span class="xs">De R$ 497 por</span>
+          <span class="num" style="font-size:clamp(2.2rem,6vw,3rem);font-weight:700;line-height:1">R$ 197</span>
+          <span class="xs">ou 12× de R$ 19,58</span>
+        </div>
+        <a href="#" class="btn lg">Quero o painel</a>
+      </div>
+    </div>
+    <div class="row mt" style="gap:1.5rem">
+      <span class="xs">→ Acesso imediato</span>
+      <span class="xs">→ Pagamento único</span>
+      <span class="xs">→ 7 dias de garantia</span>
+    </div>
+  </div>
+</section>
+
+<!-- 8 · GARANTIA -->
+<section class="tight">
+  <div class="wrap card" style="max-width:760px">
+    <div class="row" style="gap:1.25rem;align-items:flex-start;flex-wrap:nowrap">
+      <span class="num" style="font-size:2.4rem;font-weight:700;color:var(--accent);line-height:1;flex:none">07</span>
+      <div>
+        <h3>Sete dias para lançar um mês inteiro</h3>
+        <p class="sm mt-s">Coloque o mês passado dentro do painel. Se não enxergar nada que a planilha não mostrava, escreve pra gente dentro de 7 dias e o valor volta integral, sem formulário e sem pergunta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 · FAQ -->
+<section class="alt">
+  <div class="wrap" style="max-width:820px">
+    <span class="eyebrow">FAQ</span>
+    <h2 style="max-width:18ch">Perguntas que sempre chegam.</h2>
+    <div class="acc mt-l">
+      <details><summary><span class="q">01</span>Preciso entender de contabilidade?</summary><div class="a">Não. O painel trabalha com duas datas por lançamento — quando o serviço aconteceu e quando o dinheiro entra ou sai. É a única ideia que você precisa pegar, e ela aparece explicada no primeiro uso.</div></details>
+      <details><summary><span class="q">02</span>Substitui meu contador?</summary><div class="a">Não substitui e nem tenta. Ele organiza o caixa e gera o fechamento no formato que o contador pede. A parte fiscal continua com ele.</div></details>
+      <details><summary><span class="q">03</span>Funciona pra quem trabalha sozinho?</summary><div class="a">Funciona, e é onde ele costuma dar mais resultado — porque quem trabalha sozinho é justamente quem não tem tempo de manter planilha.</div></details>
+      <details><summary><span class="q">04</span>Meus dados ficam onde?</summary><div class="a">Na sua conta, com exportação completa em planilha a qualquer momento. Se você quiser sair, leva tudo.</div></details>
+      <details><summary><span class="q">05</span>Tem mensalidade?</summary><div class="a">Não. Pagamento único e acesso vitalício, com as atualizações incluídas.</div></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer style="border-top:var(--border);padding-block:2.5rem">
+  <div class="wrap stack">
+    <p class="xs">EXEMPLO LTDA · CNPJ 00.000.000/0001-00 · Todos os direitos reservados.</p>
+    <p class="xs" style="max-width:70ch">Página de exemplo gerada pela skill pagina-design-premium. Números exibidos são ilustrativos e não representam resultado de cliente.</p>
+  </div>
+</footer>
+
+<div class="bar" id="bar">
+  <div class="stack" style="gap:.1rem">
+    <span class="xs">De R$ 497 por</span>
+    <strong class="num" style="font-size:1.05rem">R$ 197</strong>
+  </div>
+  <a href="#oferta" class="btn">Quero o painel</a>
+</div>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -40px'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+const bar=document.getElementById('bar'),hero=document.querySelector('main > section');
+if(bar&&hero){new IntersectionObserver(([e])=>bar.classList.toggle('show',!e.isIntersecting),{threshold:0}).observe(hero);}
+document.querySelectorAll('.acc').forEach(acc=>{acc.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',()=>{if(d.open)acc.querySelectorAll('details').forEach(o=>{if(o!==d)o.open=false});}));});
+</script>
+</body>
+</html>

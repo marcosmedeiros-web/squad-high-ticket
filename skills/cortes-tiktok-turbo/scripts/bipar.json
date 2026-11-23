@@ -1,0 +1,10 @@
+{
+ "_comentario": "Palavras que viram BIPE de 1 kHz no áudio e ——— na legenda, casadas por timestamp de palavra. Preencha com os nomes de clientes, empresas, cidades e números que identificam alguém no SEU material. Comparação sem acento e sem diferenciar maiúscula. Este arquivo é por projeto — nunca versione com nomes reais dentro.",
+ "_regra": "Preferir escolher uma janela SEM nome nenhum a bipar muito. Bipe no primeiro segundo mata o gancho; bipe a cada 5 segundos cansa. Se um trecho precisa de mais de 2 bipes, procure outro trecho.",
+ "nomes": [],
+ "_padroes_exemplo": [
+  "\\\\bR\\\\$ ?\\\\d{1,3}(\\\\.\\\\d{3})+",
+  "\\\\b\\\\d{2,3} ?mil por m[eê]s\\\\b"
+ ],
+ "padroes": []
+}

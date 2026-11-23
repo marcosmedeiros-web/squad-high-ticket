@@ -1,0 +1,16 @@
+[Unit]
+Description=Receptor do webhook da Hotmart e do clique do site (hotmart-meta-conversao)
+After=network-online.target
+
+[Service]
+Type=simple
+Environment=HM_PERFIL=@PERFIL@
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=@PYTHON@ -I -B @DESTINO@/motor/receptor.py
+Restart=always
+RestartSec=5
+UMask=0077
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=default.target

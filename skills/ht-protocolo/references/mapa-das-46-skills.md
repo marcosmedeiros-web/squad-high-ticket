@@ -1,0 +1,72 @@
+# Mapa das 46 skills do Squad High Ticket
+
+Índice do escopo de cada skill e dos agentes que a usam.
+O `ht-diretor` usa todas (1-46) e o `ht-revisor-metodo-copy` revisa todas (só leitura); por isso não aparecem na coluna.
+Se a lista ou o squad mudar, regerar esta tabela: ela não é fonte, é índice.
+
+| # | Skill | Etapa · ciclo/alavanca | Escopo | Agentes que usam |
+|---|---|---|---|---|
+| 1 | `ht-pesquisa-e-potencial` | 0 Base · criar | pesquisa pela audiência que já existe (comentários, DMs, caixinhas, enquetes, NPS, dúvidas da aula, pesquisa na página de obrigado), 4 âncoras, Market Fit (10+10 problemas, 3 principais, subnicho, avatar), ROMA/promessa, 4 critérios de potencial HT, objeções do próprio expert, papéis expert x estrategista e acordo, biblioteca de casos por nicho | ht-estrategista-produto, ht-pesquisador, ht-diretor-copy |
+| 2 | `ht-portfolio-e-escolha-do-ht` | 0 Base · criar | qual HT fazer e em que ordem (AR, GIC, imersão paga, experiência, consultoria, peixe assado, pós/MBA), primeiro HT do zero, dois avatares, mapa de parcerias | ht-estrategista-produto, ht-pesquisador, ht-arquiteto-oferta |
+| 3 | `ht-definicao-e-jornada` | 1 Oferta · criar | tipo de AR, definição no framework oficial, ponto A e B, jornada 4x4-5 com verbo, onde o aluno trava, níveis/faixas de resultado | ht-estrategista-produto, ht-arquiteto-oferta |
+| 4 | `ht-entregaveis` | 1 Oferta · criar | cardápio nos 4 pilares, nome autoral, "o que é", benefício, "até N", entregáveis escaláveis (conta de horas), SNA de 5 semanas | ht-estrategista-produto, ht-arquiteto-oferta, ht-arquiteto-entrega |
+| 5 | `ht-oferta-matadora` | 1 Oferta · criar | MVP de oferta completo (definição, A/B, jornada, entregáveis, bônus, dupla, duração, garantia), ciclo dos 4 Es, testes "eu compraria? viraria sócio?", auditoria dos 7 erros | ht-estrategista-produto, ht-arquiteto-oferta, ht-diretor-desafio, ht-diretor-copy |
+| 6 | `ht-preco-pagamento-e-garantia` | 1 Oferta · criar | múltiplo do nicho, teste de 20 sessões, parcelado x à vista, entrada/aplicação, P2P e Fake HT, bônus à vista, garantia mensurável, cobrança e estrutura fiscal inicial (CNPJ, gateway) | ht-controller, ht-estrategista-produto, ht-arquiteto-oferta, ht-closer |
+| 7 | `ht-produtos-ht-complementares` | 1 Oferta · criar | consultoria individual (CI) como caixa e porta do AR, peixe assado ("faço por você"), experiência HT (retiro, bastidores, viagem) | ht-estrategista-produto, ht-arquiteto-oferta |
+| 8 | `ht-master-plan` | 0 Base · criar | 7 anos, plano anual por canal, número mágico, calendário de eventos e ciclos, LTV e escada, caixa contrato x recebido, auditoria da planilha | ht-controller, ht-gestor-projetos, ht-estrategista-produto |
+| 9 | `ht-vitrine` | 2 Sessão 1a1 · vender/aquisição | perfil, bio, 3 fixados, YouTube/LinkedIn, auditoria | ht-revisor-visual, ht-estrategista-demanda, ht-estrategista-comercial, ht-estrategista-conteudo, ht-sdr, ht-diretor-desafio, ht-diretor-arte |
+| 10 | `ht-slg` | 2 Sessão 1a1 · vender/aquisição | lista de 100, qualificação, 3 mensagens, rotina e funil 100-20-1, fontes (enquete, stories, Kinder Ovo, sessão paga), prospecção arpão, nome e rotação do convite, delegar à equipe, agente de IA de SLG, auditoria | ht-estrategista-demanda, ht-estrategista-comercial, ht-sdr, ht-diretor-desafio, ht-copy-anuncios-e-mensagens |
+| 11 | `ht-pagina-inscricao-sessao` | 2 Sessão 1a1 · vender/aquisição | página, obrigado, segmentação pós-clique, domínio e teste de fluxo | ht-revisor-visual, ht-estrategista-comercial, ht-closer, ht-copy-paginas-e-emails, ht-web-designer, ht-gestor-trafego |
+| 12 | `ht-raio-x` | 2 Sessão 1a1 · vender/aquisição | questionário, aplicação na call, leitura do gráfico, auditoria | ht-estrategista-comercial, ht-closer, ht-treinador-comercial, ht-diretor-desafio |
+| 13 | `ht-roteiro-sessao-1a1` | 2 Sessão 1a1 · vender/aquisição | roteiro completo e variante VSD, herói relutante, acordo sim/não, deck de oferta, ancoragem, preço/bônus/garantia na fala, três sins, fechamento com sinal, quando não ofertar | ht-revisor-visual, ht-estrategista-comercial, ht-closer, ht-treinador-comercial, ht-roteirista-palco, ht-diretor-desafio, ht-diretor-copy, ht-diretor-arte, ht-designer |
+| 14 | `ht-objecoes` | 2 Sessão 1a1 · vender/aquisição | 3 camadas, universais e do nicho, árvore e planilha | ht-estrategista-comercial, ht-pesquisador, ht-closer, ht-treinador-comercial, ht-roteirista-palco |
+| 15 | `ht-agendamento-e-follow-up` | 2 Sessão 1a1 · vender/aquisição | aplicação paga e seleção, agendamento, notificação, lembretes, no-show, follow-up e repescagem | ht-estrategista-comercial, ht-sdr, ht-closer, ht-copy-anuncios-e-mensagens, ht-gestor-automacoes |
+| 16 | `ht-treino-comercial` | 2 Sessão 1a1 · vender/aquisição | roleplay, auditoria de sessão, diagnóstico de conversão, engenharia reversa de call que vendeu, time comercial (kit, remuneração, quando delegar) | ht-estrategista-comercial, ht-treinador-comercial, ht-diretor-desafio |
+| 17 | `ht-reels-com-cta` | 3 Demanda · vender/aquisição | linhas editoriais ligadas a funil, temas, roteiro curto e raiz denso, CTA e rodízio, gravação/edição/lote, P&D de conteúdo, métricas e replicação | ht-estrategista-demanda, ht-pesquisador, ht-estrategista-conteudo, ht-diretor-copy, ht-copy-anuncios-e-mensagens, ht-designer, ht-gestor-trafego |
+| 18 | `ht-aula-semanal` | 3 Demanda · vender/aquisição | planejamento, temas, roteiro, CTA/NPS/agenda, notificações, páginas, pós-live, auditoria | ht-estrategista-demanda, ht-estrategista-conteudo, ht-diretor-copy, ht-copy-paginas-e-emails, ht-web-designer, ht-gestor-automacoes |
+| 19 | `ht-conteudo-de-prova` | 3 Demanda · vender/aquisição | podcast com alunos e cortes, consultoria ao vivo na audiência | ht-estrategista-demanda, ht-estrategista-conteudo, ht-copy-anuncios-e-mensagens |
+| 20 | `ht-lives-curtas-45-dias` | 3 Demanda · vender/aquisição | temporada de 45 lives de 10-15 min com áudio matinal | ht-estrategista-demanda, ht-estrategista-conteudo, ht-copy-anuncios-e-mensagens |
+| 21 | `ht-trafego-high-ticket` | 3 Demanda · vender/aquisição | setup de ativos Meta, pixel e evento Lead, públicos, campanha de sessão 1a1, captação de evento, distribuição de Reels, tráfego da aula semanal, nomenclatura e planilha D-1, otimização e escala, diagnóstico de métricas, erros comuns | ht-estrategista-demanda, ht-gestor-trafego |
+| 22 | `ht-criativos-high-ticket` | 3 Demanda · vender/aquisição | briefing persona-curiosidade-dor, garimpo de ângulos, roteiro de convite, edição e combinações (Lego), métricas de criativo, ciclo de produção, pesquisa de leads para copy, revisão anti-IA | ht-revisor-visual, ht-estrategista-demanda, ht-diretor-copy, ht-copy-anuncios-e-mensagens, ht-diretor-arte, ht-designer, ht-gestor-trafego |
+| 23 | `ht-live-direto-ao-ponto` | 4 Um-para-muitos · vender/aquisição | (Semente HT): prontidão, promessa, narrativa, convites, roteiro bloco a bloco, recuperação, auditoria | ht-estrategista-eventos, ht-produtor-eventos, ht-roteirista-palco, ht-diretor-copy, ht-copy-paginas-e-emails, ht-web-designer |
+| 24 | `ht-webinario-de-vendas` | 4 Um-para-muitos · vender/aquisição | webinário semanal recorrente e ciclo de 2 aulas com "score de risco" | ht-estrategista-eventos, ht-produtor-eventos, ht-copy-paginas-e-emails |
+| 25 | `ht-funil-de-entrada-para-ht` | 4 Um-para-muitos · vender/aquisição | minicurso das 3 peneiras, curso/funil barato como captação, CAC e ACV | ht-controller, ht-estrategista-demanda, ht-estrategista-eventos, ht-produtor-eventos, ht-copy-paginas-e-emails, ht-web-designer, ht-gestor-trafego |
+| 26 | `ht-decisao-de-evento` | 4 Um-para-muitos · vender/aquisição | qual evento (IMA, IMI, IMR, presencial, online, pago, credencial, gratuito), Big Idea, metas e orçamento, plano macro de 8 passos | ht-controller, ht-gestor-projetos, ht-estrategista-eventos, ht-produtor-eventos |
+| 27 | `ht-imersao-aprendizado` | 4 Um-para-muitos · vender/aquisição | (IMA) | ht-estrategista-eventos, ht-produtor-eventos |
+| 28 | `ht-imersao-implementacao` | 4 Um-para-muitos · vender/aquisição | (IMI online 1 dia e imersão de implementação paga) | ht-estrategista-eventos, ht-produtor-eventos |
+| 29 | `ht-imersao-presencial` | 4 Um-para-muitos · vender/aquisição | (3 dias, adaptável a 2 e 1, retransmissão e downsell online, GPS) | ht-estrategista-eventos, ht-produtor-eventos |
+| 30 | `ht-imersao-de-resultados` | 4 Um-para-muitos · vender/aquisição | IMR com alunos palestrando (Toque de Midas no palco) e encontro de mentorados aberto a convidados | ht-estrategista-eventos, ht-produtor-eventos |
+| 31 | `ht-turne-e-eventos-enxutos` | 4 Um-para-muitos · vender/aquisição | turnê de pequenos presenciais e evento de baixo custo | ht-estrategista-eventos, ht-produtor-eventos |
+| 32 | `ht-palestras-e-pitch` | 4 Um-para-muitos · vender/aquisição | estrutura de palestra, palestra/bootcamp nos 4 Es, grade, talk de abertura, pré-pitch e seeding, pitch P1-P10, re-pitch e palestra de decisões, palestra de mentalidade, downsell, encerramentos, laser coaching, mesa de fundo e break de vendas, voz e prosódia (checklist de ensaio), auditoria | ht-revisor-visual, ht-estrategista-eventos, ht-roteirista-palco, ht-gestor-renovacao, ht-diretor-copy, ht-diretor-arte, ht-designer |
+| 33 | `ht-captacao-e-presenca` | 4 Um-para-muitos · vender/aquisição | jornada do lead em 8 pontos, página de captura, atração de público (11 estratégias), confirmação dupla, lembretes, WhatsApp do evento, produção técnica e central, recuperação pós-evento, debriefing | ht-revisor-visual, ht-estrategista-eventos, ht-produtor-eventos, ht-copy-paginas-e-emails, ht-copy-anuncios-e-mensagens, ht-web-designer, ht-gestor-trafego, ht-gestor-automacoes |
+| 34 | `ht-venda-de-ingressos` | 4 Um-para-muitos · vender/aquisição | plano e relatório diário, tipos e preços, lote zero, perpétuo, relâmpago, semente de ingresso, lives react, divulgação para a base, página de vendas, time comercial, upsell | ht-controller, ht-revisor-visual, ht-estrategista-eventos, ht-ingressos-e-patrocinio, ht-copy-paginas-e-emails, ht-copy-anuncios-e-mensagens, ht-diretor-arte, ht-web-designer, ht-gestor-trafego |
+| 35 | `ht-afiliados-e-consultores` | 4 Um-para-muitos · vender/aquisição | afiliados de evento (regras, atribuição, comissão em faixas) e consultores HT comissionados certificados | ht-estrategista-eventos, ht-ingressos-e-patrocinio |
+| 36 | `ht-patrocinio` | 4 Um-para-muitos · vender/aquisição | decisão e cotas, mídia kit, prospecção e negociação, riscos e manual do expositor, pós-evento | ht-revisor-visual, ht-estrategista-eventos, ht-ingressos-e-patrocinio, ht-copy-paginas-e-emails, ht-designer |
+| 37 | `ht-desafio-30-dias` | 4 Um-para-muitos · vender/aquisição | desenho, onboarding, central, laboratório ao vivo, plantão, offboarding, engajamento e NPS | ht-gestor-projetos, ht-estrategista-eventos, ht-diretor-desafio |
+| 38 | `ht-onboarding-e-primeira-entrega` | 5 Entrega · entregar/retenção | prontidão, linha do tempo pós-venda, aprovação, onboarding, aula inaugural, salas de suporte | ht-estrategista-sucesso, ht-cs, ht-arquiteto-entrega, ht-gestor-automacoes |
+| 39 | `ht-entregaveis-1a1` | 5 Entrega · entregar/retenção | diagnóstico, plano de ação, reunião estratégica, checkup, análise de vendas, documento de ações, estruturar entregável individual (5 perguntas), exemplos de referência do método | ht-estrategista-sucesso, ht-arquiteto-oferta, ht-arquiteto-entrega |
+| 40 | `ht-entrega-em-grupo` | 5 Entrega · entregar/retenção | bootcamp de implementação, rotina semanal, hot seat, sprint de resultado, dia de mentalidade, comunidade e encontros | ht-estrategista-sucesso, ht-cs, ht-arquiteto-entrega |
+| 41 | `ht-escala-da-entrega` | 5 Entrega · entregar/retenção | manual de entregáveis, mentores (recrutar, treinar, acompanhar), navegador e capacidade, 3 níveis sem o expert, gestão no Notion, problemas e oportunidades, auditorias do processo e de gravação | ht-estrategista-sucesso, ht-arquiteto-entrega |
+| 42 | `ht-provas-e-cases` | 5 Entrega · entregar/retenção | NPS por entregável, catálogo de resultados, Toque de Midas, entrevista e depoimento, engenharia reversa do resultado de aluno, reengajar aluno travado | ht-estrategista-sucesso, ht-pesquisador, ht-roteirista-palco, ht-cs, ht-gestor-renovacao |
+| 43 | `ht-renovacao` | 6 Renovação · renovar | engenharia de renovação, ciclos e calendário, pesquisa, controle, oferta de renovação e migração, áudio personalizado, evento de renovação, retenção e cancelamento, auditoria | ht-estrategista-sucesso, ht-gestor-renovacao, ht-diretor-copy, ht-copy-paginas-e-emails |
+| 44 | `ht-upgrade-e-gic` | 6 Upgrade · renovar/upgrade | upgrade por nível, eventos simultâneos, GIC/mastermind | ht-estrategista-produto, ht-estrategista-sucesso, ht-arquiteto-oferta, ht-gestor-renovacao |
+| 45 | `ht-central-e-kpis` | Gestão · todas | Central 1x1, funil comercial e produtividade, painel de KPIs, diagnóstico pelas 4 alavancas, rotina/tempo do expert para executar o plano | ht-controller, ht-gestor-projetos, ht-estrategista-comercial, ht-sdr, ht-gestor-automacoes |
+| 46 | `ht-avaliacao-de-reunioes-por-ia` | Gestão · todas | arquitetura, fluxo Fireflies + n8n + planilha, prompts de avaliação de sessão e de entregável, alerta de nota baixa, gravar/transcrever/minerar | ht-controller, ht-treinador-comercial, ht-gestor-automacoes |
+
+## Agente orquestrador (não é skill)
+
+O `ht-diretor` faz o papel do Orquestrador HT da lista: diz em que ciclo o expert está (criar, vender, entregar, renovar), o
+próximo passo da rota e qual skill usar, e consulta o catálogo de GPTs da FHT se o estrategista tiver o acervo do método (`fontes_metodo` no perfil). A lógica
+de diagnóstico está na seção 3.5 do `SKILL.md` deste protocolo.
+
+## Agente de apoio
+
+`ht-consultor-casos`: busca precedentes do mesmo nicho ou de nicho vizinho (no acervo do método, se o estrategista apontou um
+em `fontes_metodo`, e na biblioteca de casos do `ht-pesquisa-e-potencial`), com fonte e sem nome de aluno. Abre todo projeto
+antes da oferta (Consultor → Pesquisador → Arquiteto). O banco de sacadas ainda não existe neste plugin.
+
+## Skill de configuração (fora da numeração)
+
+`ht-configurar`: conversa com o estrategista e grava `~/.config/squad-ht/perfil.md` (nome, agência, raiz dos projetos,
+ferramenta de tráfego, prefixo de campanha, nomes dos agentes, padrões). Roda uma vez antes do primeiro projeto e de novo para
+editar.

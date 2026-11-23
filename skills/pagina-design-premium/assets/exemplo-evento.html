@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- PIXEL AQUI -->
+<title>Semana da Página que Vende · 3 dias ao vivo</title>
+<meta name="description" content="Três dias construindo, do zero, a página que vende o seu produto. Ao vivo, com a página no ar no último dia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Albert+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* papel alterna com branco puro — medido nas referências */
+  --bg:#FAF7F3; --bg-deep:#F4EEE6; --surface:#FFFFFF;
+  --ink:#14100E; --ink-2:#574E48; --ink-3:#8A8078;   /* preto QUENTE */
+  --line:#E8E1D9; --line-2:#F7D6C9;
+  --accent:#FF754F; --accent-2:#C82B00; --accent-soft:#FDEDE7;
+  --cta:linear-gradient(128.9deg,#1CE565 4%,#1FAE2B 96%); --cta-ink:#FFFFFF;                   /* CTA em cor diferente do accent */
+  /* pastéis derivados — mesma saturação, mesma luminância */
+  --p-1:#FDE8DC;--p-1-ink:#9A4A22;
+  --p-2:#FBF0D2;--p-2-ink:#8A6512;
+  --p-3:#DFEDDF;--p-3-ink:#2F6340;
+  --p-4:#DEE9F7;--p-4-ink:#264D80;
+  --p-5:#EDE3F2;--p-5-ink:#5B3A6B;
+  --sh-1:0 1px 2px rgba(20,16,14,.04),0 10px 30px -18px rgba(20,16,14,.18);
+  --sh-2:0 2px 4px rgba(20,16,14,.04),0 30px 70px -34px rgba(20,16,14,.32);
+  --sh-3:0 2px 4px rgba(20,16,14,.05),0 30px 70px -30px rgba(20,16,14,.38);
+  --font-d:'Archivo',system-ui,sans-serif;
+  --font-b:'Albert Sans',system-ui,sans-serif;
+  --font-m:'IBM Plex Mono',ui-monospace,monospace;
+  --r:14px; --r-lg:20px;
+  --t-hero:clamp(2.3rem,5.8vw,3.7rem);--t-h2:clamp(1.8rem,4.2vw,2.9rem);
+  --t-h3:clamp(1.08rem,2vw,1.3rem);--t-body:clamp(1.04rem,1.5vw,1.22rem);
+  --pad-t:clamp(2.6rem,6vw,3.6rem);--pad:clamp(3.6rem,8vw,5.6rem);--pad-a:clamp(4.6rem,11vw,7.5rem);
+  --maxw:1130px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-b);font-size:var(--t-body);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-top:56px}
+img,svg{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+table{border-collapse:collapse;width:100%}
+::selection{background:var(--accent);color:#fff}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+h1,h2,h3{font-family:var(--font-d);line-height:1.04;letter-spacing:-.035em;font-weight:800}
+h1{font-size:var(--t-hero);max-width:14ch}
+h2{font-size:var(--t-h2);letter-spacing:-.032em}
+h3{font-size:var(--t-h3);letter-spacing:-.018em;font-weight:700}
+.ac{color:var(--accent)}
+p{max-width:60ch}
+.lead{font-size:clamp(1.04rem,1.9vw,1.18rem);color:var(--ink-2);line-height:1.58}
+.sm{font-size:.9rem;color:var(--ink-2)}
+.xs{font-size:.8rem;color:var(--ink-3);line-height:1.5}
+.num{font-variant-numeric:tabular-nums}
+.mono{font-family:var(--font-m);font-size:.6875rem;letter-spacing:.12em;text-transform:uppercase}
+.mk{background:var(--accent-soft);padding:.06em .3em;border-radius:.28em;box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:600;color:var(--ink)}
+
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:clamp(1.15rem,5vw,2rem)}
+section{padding-block:var(--pad);position:relative}
+section.t{padding-block:var(--pad-t)} section.a{padding-block:var(--pad-a)}
+section.white{background:var(--surface)}
+section.tint{background:linear-gradient(180deg,#FDEDE7,#FAF7F3)}
+.dark{background:var(--ink);color:#F5F0EA;position:relative;overflow:hidden}
+.dark h2{color:#FBF6F1}
+.dark .sm,.dark .lead{color:#BCB2AA}
+.dark .xs{color:#8E837B}
+.dark::before{content:"";position:absolute;left:8%;right:-18%;bottom:-42%;height:74%;
+  background:radial-gradient(ellipse at center,rgba(226,96,58,.62),rgba(226,96,58,0) 68%);filter:blur(58px);pointer-events:none}
+.dark > .wrap{position:relative;z-index:1}
+
+.center{text-align:center}.center p{margin-inline:auto}
+.stack{display:flex;flex-direction:column;gap:1rem}
+.row{display:flex;flex-wrap:wrap;gap:.7rem;align-items:center}
+.between{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.cols{display:grid;gap:clamp(1.4rem,4vw,2.4rem);grid-template-columns:1fr}
+.split{display:grid;gap:clamp(1.8rem,5vw,3.2rem);grid-template-columns:1fr;align-items:start}
+.g3{display:grid;gap:.9rem;grid-template-columns:1fr}
+.g2{display:grid;gap:.9rem;grid-template-columns:1fr 1fr}
+@media(min-width:900px){
+  .cols{grid-template-columns:1fr 1fr}
+  .split{grid-template-columns:7fr 5fr}
+  .split.rev{grid-template-columns:5fr 7fr}
+  .g3{grid-template-columns:repeat(3,1fr);gap:1.1rem}
+  .g2{gap:1.1rem}
+  .stick{position:sticky;top:5.5rem}
+}
+
+.card{background:var(--surface);border-radius:var(--r);padding:clamp(1.2rem,2.8vw,1.7rem);box-shadow:inset 0 0 0 1px rgba(20,16,14,.06),var(--sh-1);transition:box-shadow .25s,transform .25s}
+@media(hover:hover){.card.tap:hover{box-shadow:var(--sh-2);transform:translateY(-3px)}}
+.pill{display:inline-flex;align-items:center;gap:.45rem;border:1px solid var(--line-2);background:var(--surface);border-radius:100px;padding:.34rem .8rem}
+.pill .mono{color:var(--ink-2)}
+.pill.on{border-color:var(--accent);background:var(--accent-soft)}
+.pill.on .mono{color:var(--accent-2)}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex:none}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--cta);color:var(--cta-ink);font-family:var(--font-d);font-weight:800;font-size:.94rem;letter-spacing:.02em;text-transform:uppercase;padding:1rem 1.5rem;border-radius:8px;box-shadow:0 18px 44px -20px rgba(200,43,0,.5);transition:transform .14s,filter .14s}
+.btn:hover{filter:brightness(1.06)} .btn:active{transform:translateY(1px)}
+.btn.block{display:flex;width:100%}
+.btn.sm{padding:.72rem 1.15rem;font-size:.76rem}
+.btn.lg{padding:1.12rem 1.9rem;font-size:1rem}
+.btn.acc{background:var(--accent);box-shadow:0 18px 44px -20px rgba(200,43,0,.55)}
+
+.ic{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.ic.lg{width:24px;height:24px;stroke-width:1.6}
+.tile{display:flex;flex-direction:column;gap:.5rem;border-radius:var(--r);padding:.85rem .9rem;font-size:.82rem;font-weight:600;line-height:1.25;box-shadow:var(--sh-1)}
+
+.list li{display:flex;gap:.75rem;padding:.72rem 0;border-bottom:1px solid var(--line);align-items:flex-start}
+.list li:last-child{border-bottom:0}
+.list .ic{margin-top:.16rem;color:var(--accent)}
+
+/* ===== ASSINATURA: o bilhete ===== */
+.ticket{position:relative;color:var(--ink);background:var(--surface);border-radius:var(--r-lg);box-shadow:var(--sh-3);overflow:hidden}
+.ticket .head{background:var(--accent);color:#fff;padding:.62rem 1.1rem;display:flex;justify-content:space-between;align-items:center}
+.ticket .head .mono{color:#FFE6DC}
+.ticket .meta{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.6rem;padding:1rem 1.1rem;border-bottom:1px dashed var(--line-2)}
+.ticket .body{padding:1.1rem}
+.ticket .xs{color:var(--ink-3)}
+.ticket .sm{color:var(--ink-2)}
+.ticket::before,.ticket::after{content:"";position:absolute;top:var(--notch,146px);width:22px;height:22px;border-radius:50%;background:var(--bg);z-index:2}
+.ticket::before{left:-11px}.ticket::after{right:-11px}
+.dark .ticket::before,.dark .ticket::after{background:var(--ink)}
+.pbar{height:6px;background:var(--line);border-radius:100px;overflow:hidden}
+.pbar i{display:block;height:100%;background:var(--accent);border-radius:100px}
+
+/* ===== barra fixa ===== */
+.top{position:fixed;top:0;left:0;right:0;z-index:70;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);height:56px}
+.top .wrap{height:100%;display:flex;align-items:center;gap:1.2rem;justify-content:space-between}
+.top .lote{display:none;align-items:center;gap:.7rem;flex:1;max-width:330px}
+.top .pbar{flex:1}
+@media(min-width:760px){.top .lote{display:flex}}
+
+/* ===== notificações empilhadas ===== */
+.notif{display:flex;gap:.7rem;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:.65rem .8rem;box-shadow:var(--sh-1)}
+.notif .av{width:30px;height:30px;border-radius:9px;background:var(--p-1);color:var(--p-1-ink);display:grid;place-items:center;flex:none}
+
+/* ===== moldura de notebook ===== */
+.laptop .screen{background:#17140F;border:8px solid #2E2A24;border-bottom:0;border-radius:12px 12px 2px 2px;padding:.85rem}
+.laptop .base{height:10px;background:linear-gradient(#CFC9C0,#A29A90);border-radius:0 0 8px 8px;margin-inline:-4%;box-shadow:var(--sh-2)}
+.scr-row{display:flex;gap:.5rem}
+.scr-cell{flex:1;background:#221E18;border:1px solid #322D26;border-radius:8px;padding:.55rem .6rem}
+.scr-cell .k{font-size:.62rem;color:#8C8279;letter-spacing:.06em;text-transform:uppercase}
+.scr-cell .v{font-family:var(--font-d);font-weight:700;color:#F3EDE6;font-size:.95rem}
+
+/* ===== acordeão ===== */
+.acc details{border-bottom:1px solid var(--line)}
+.acc summary{display:flex;gap:.9rem;align-items:flex-start;padding:1.1rem 0;cursor:pointer;list-style:none;font-family:var(--font-d);font-weight:700;font-size:1rem;letter-spacing:-.015em}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary .q{color:var(--accent);flex:none;padding-top:.22rem}
+.acc summary::after{content:"+";margin-left:auto;color:var(--accent);font-size:1.4rem;line-height:1;flex:none}
+.acc details[open] summary::after{content:"–"}
+.acc .a{padding:0 0 1.2rem 2.1rem;color:var(--ink-2);font-size:.9rem;max-width:66ch}
+
+.ph{background:linear-gradient(145deg,#FCE3D7,#F5D3E0 55%,#E6DCF2);border-radius:var(--r-lg);display:grid;place-items:center;color:#9A6350;text-align:center;padding:1rem;font-family:var(--font-m);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase}
+
+.float{display:none}
+@media(min-width:900px){
+  .float{display:block;position:absolute;z-index:3;max-width:252px}
+  .float.a{right:-26px;top:16%} .float.b{left:-30px;bottom:12%}
+  .relwrap{position:relative}
+}
+.mob-cards{display:grid;gap:.7rem;margin-top:.9rem}
+@media(min-width:900px){.mob-cards{display:none}}
+
+.rv{opacity:0;transform:translateY(16px);transition:opacity .5s cubic-bezier(.2,.7,.3,1),transform .5s cubic-bezier(.2,.7,.3,1)}
+.rv.in{opacity:1;transform:none}
+.rvg > *{opacity:0;transform:translateY(12px);transition:opacity .45s,transform .45s}
+.rvg.in > *{opacity:1;transform:none}
+.rvg.in > *:nth-child(2){transition-delay:60ms}.rvg.in > *:nth-child(3){transition-delay:120ms}
+.rvg.in > *:nth-child(4){transition-delay:180ms}.rvg.in > *:nth-child(5){transition-delay:240ms}
+.rvg.in > *:nth-child(6){transition-delay:300ms}
+
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:65;background:var(--surface);border-top:1px solid var(--line);padding:.65rem 1.1rem;display:flex;gap:.8rem;align-items:center;justify-content:space-between;transform:translateY(120%);transition:transform .28s;box-shadow:0 -8px 24px rgba(21,17,14,.08)}
+.bar.show{transform:none}
+@media(min-width:900px){.bar{display:none}}
+@media(max-width:899px){body{padding-bottom:4.6rem}}
+
+.mt-s{margin-top:.65rem}.mt{margin-top:1.4rem}.mt-l{margin-top:2.4rem}.mt-xl{margin-top:3.6rem}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .rv,.rvg > *{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-seta" viewBox="0 0 24 24"><path d="M4 12h15m-6-6l6 6-6 6"/></symbol>
+<symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/></symbol>
+<symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+<symbol id="i-alta" viewBox="0 0 24 24"><path d="M4 16.5l5.5-5.5 3.5 3.5L20 7.5"/><path d="M14.5 7.5H20V13"/></symbol>
+<symbol id="i-alvo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".7" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-pagina" viewBox="0 0 24 24"><path d="M6 3.5h7.5L19 9v11.5H6z"/><path d="M13.5 3.5V9H19M9 13h7M9 16.5h5"/></symbol>
+<symbol id="i-lupa" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4 4"/></symbol>
+<symbol id="i-moeda" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v9M14.6 9.8c-.5-.9-1.5-1.3-2.6-1.3-1.5 0-2.6.8-2.6 2s1 1.7 2.6 2 2.6.8 2.6 2-1.1 2-2.6 2c-1.1 0-2.1-.4-2.6-1.3"/></symbol>
+<symbol id="i-raio" viewBox="0 0 24 24"><path d="M13 3L5 13.5h6L11 21l8-10.5h-6z"/></symbol>
+<symbol id="i-escudo" viewBox="0 0 24 24"><path d="M12 3.5l7 2.8v5.4c0 4.2-2.8 7.3-7 8.8-4.2-1.5-7-4.6-7-8.8V6.3z"/><path d="M9 12l2.2 2.2L15.5 10"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l6 3.5-6 3.5z"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3"/><path d="M3 19c0-3.1 2.7-5 6-5s6 1.9 6 5"/><path d="M16 6.2a3 3 0 010 5.6M17.5 14.4c2 .7 3.5 2.2 3.5 4.6"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M20.5 12.5c0 4-3.8 7-8.5 7-1.2 0-2.4-.2-3.4-.6L3.5 20.5l1.7-4.3a6.6 6.6 0 01-1.7-4.4c0-3.9 3.8-7 8.5-7s8.5 3.1 8.5 7z"/></symbol>
+<symbol id="i-filtro" viewBox="0 0 24 24"><path d="M4 6h16l-6.2 7.3V19l-3.6-2v-3.7z"/></symbol>
+</defs></svg>
+
+<!-- BARRA FIXA COM PROGRESSO DE LOTE -->
+<header class="top">
+  <div class="wrap">
+    <strong style="font-family:var(--font-d);font-weight:800;letter-spacing:-.03em;font-size:1.02rem">Semana da Página<span class="ac">.</span></strong>
+    <div class="lote">
+      <span class="mono" style="color:var(--ink-3);flex:none">Lote 01</span>
+      <div class="pbar"><i style="width:47%"></i></div>
+      <span class="mono num" style="color:var(--accent-2);flex:none">47%</span>
+    </div>
+    <a href="#oferta" class="btn sm">Garantir lote 01 →</a>
+  </div>
+</header>
+
+<main>
+
+<!-- 01 · HERO -->
+<section class="t">
+  <div class="wrap split">
+    <div>
+      <div class="row">
+        <span class="pill on"><span class="dot"></span><span class="mono">O jogo virou pro lado de quem executa</span></span>
+      </div>
+      <h1 class="mt">A página que vende<br><span class="ac">o seu produto</span></h1>
+      <p class="lead mt">Três dias construindo ao vivo, do zero. <span class="mk">Você entra sem página e sai com ela no ar</span>, com o checkout ligado e o pixel disparando. Mesmo que nunca tenha publicado nada.</p>
+
+      <span class="mono mt-l" style="display:block;color:var(--ink-3)">As três aulas ao vivo</span>
+      <div class="g3 mt-s rvg">
+        <div class="card tap">
+          <div class="row" style="gap:.5rem">
+            <span style="width:22px;height:22px;border-radius:7px;background:var(--p-1);color:var(--p-1-ink);display:grid;place-items:center;font-size:.72rem;font-weight:700">1</span>
+            <span class="mono num" style="color:var(--ink-3)">22 set</span>
+          </div>
+          <h3 class="mt-s">A oferta</h3>
+          <p class="xs mt-s">Promessa, mecanismo e preço. O que a página vai ter que provar.</p>
+          <span class="pill mt-s" style="padding:.2rem .55rem"><svg class="ic" style="width:13px;height:13px;color:var(--accent)"><use href="#i-pagina"/></svg><span class="mono" style="font-size:.6rem">+ Playbook</span></span>
+        </div>
+        <div class="card tap">
+          <div class="row" style="gap:.5rem">
+            <span style="width:22px;height:22px;border-radius:7px;background:var(--p-3);color:var(--p-3-ink);display:grid;place-items:center;font-size:.72rem;font-weight:700">2</span>
+            <span class="mono num" style="color:var(--ink-3)">23 set</span>
+          </div>
+          <h3 class="mt-s">A página</h3>
+          <p class="xs mt-s">Bloco a bloco, com você montando junto na tela.</p>
+          <span class="pill mt-s" style="padding:.2rem .55rem"><svg class="ic" style="width:13px;height:13px;color:var(--accent)"><use href="#i-pagina"/></svg><span class="mono" style="font-size:.6rem">+ Playbook</span></span>
+        </div>
+        <div class="card tap">
+          <div class="row" style="gap:.5rem">
+            <span style="width:22px;height:22px;border-radius:7px;background:var(--p-4);color:var(--p-4-ink);display:grid;place-items:center;font-size:.72rem;font-weight:700">3</span>
+            <span class="mono num" style="color:var(--ink-3)">24 set</span>
+          </div>
+          <h3 class="mt-s">O tráfego</h3>
+          <p class="xs mt-s">Subir a campanha, ler o número e saber o que cortar.</p>
+          <span class="pill mt-s" style="padding:.2rem .55rem"><svg class="ic" style="width:13px;height:13px;color:var(--accent)"><use href="#i-pagina"/></svg><span class="mono" style="font-size:.6rem">+ Playbook</span></span>
+        </div>
+      </div>
+
+      <!-- ASSINATURA: o bilhete -->
+      <div class="ticket mt-l" style="--notch:152px;max-width:460px">
+        <div class="head">
+          <span class="mono">Ingresso · Lote 01</span>
+          <span class="mono num">SPV·001</span>
+        </div>
+        <div class="meta">
+          <div><div class="mono" style="color:var(--ink-3)">Datas</div><strong class="num" style="font-family:var(--font-d)">22·23·24 set</strong></div>
+          <div><div class="mono" style="color:var(--ink-3)">Horário</div><strong class="num" style="font-family:var(--font-d)">19h às 22h</strong></div>
+          <div><div class="mono" style="color:var(--ink-3)">Onde</div><strong style="font-family:var(--font-d)">Ao vivo</strong></div>
+        </div>
+        <div class="body">
+          <div class="between">
+            <div>
+              <div class="xs">Apenas</div>
+              <div class="num" style="font-family:var(--font-d);font-weight:800;font-size:2.7rem;line-height:1;letter-spacing:-.04em">R$ 97</div>
+            </div>
+            <span class="pill on"><span class="mono num">47% vendido</span></span>
+          </div>
+          <div class="pbar mt-s"><i style="width:47%"></i></div>
+          <a href="#oferta" class="btn block lg mt">Comprar meu ingresso</a>
+          <p class="xs mt-s center">Vaga individual · acesso aos 3 dias · gravação por 7 dias</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- foto com cards flutuando por cima -->
+    <div class="relwrap stick">
+      <div class="ph" style="aspect-ratio:4/5">Foto do professor<br>recortada · 4:5<br>fundo removido</div>
+      <div class="card float a" style="box-shadow:var(--sh-3)">
+        <span class="mono" style="color:var(--accent-2)">Professor</span>
+        <strong style="display:block;font-family:var(--font-d);font-size:1.02rem">Nome do professor</strong>
+        <ul class="mt-s" style="display:grid;gap:.3rem">
+          <li class="xs">Credencial verificável</li>
+          <li class="xs">Segunda credencial</li>
+          <li class="xs">Terceira credencial</li>
+        </ul>
+      </div>
+      <div class="card float b" style="box-shadow:var(--sh-3);max-width:220px">
+        <div class="row" style="gap:.55rem">
+          <span style="width:30px;height:30px;border-radius:9px;background:var(--p-3);color:var(--p-3-ink);display:grid;place-items:center"><svg class="ic"><use href="#i-users"/></svg></span>
+          <div><strong class="num" style="font-family:var(--font-d);font-size:1.15rem">1.240</strong><div class="xs">na turma passada</div></div>
+        </div>
+      </div>
+      <div class="mob-cards">
+        <div class="card"><span class="mono" style="color:var(--accent-2)">Professor</span><strong style="display:block;font-family:var(--font-d)">Nome do professor</strong><p class="xs mt-s">Credenciais verificáveis em duas linhas.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 · MÉTODO RODANDO NA SUA FRENTE + notificações -->
+<section class="tint t">
+  <div class="wrap split rev">
+    <div>
+      <div class="stack" style="gap:.5rem;max-width:400px">
+        <div class="notif"><span class="av"><svg class="ic" style="width:15px;height:15px"><use href="#i-moeda"/></svg></span><div style="flex:1"><strong class="sm">Venda aprovada</strong><div class="xs">Ingresso · R$ 97,00 · há 2 min</div></div></div>
+        <div class="notif" style="opacity:.6;transform:translateX(7px) scale(.985)"><span class="av"><svg class="ic" style="width:15px;height:15px"><use href="#i-moeda"/></svg></span><div style="flex:1"><strong class="sm">Venda aprovada</strong><div class="xs">Ingresso · R$ 97,00 · há 6 min</div></div></div>
+        <div class="notif" style="opacity:.28;transform:translateX(14px) scale(.97)"><span class="av"><svg class="ic" style="width:15px;height:15px"><use href="#i-moeda"/></svg></span><div style="flex:1"><strong class="sm">Venda aprovada</strong><div class="xs">Ingresso · R$ 97,00 · há 9 min</div></div></div>
+      </div>
+    </div>
+    <div>
+      <h2 style="max-width:15ch">Esse ingresso <span class="ac">é o método</span> rodando na sua frente.</h2>
+      <p class="lead mt">Você está comprando exatamente o tipo de página que vai aprender a montar. <span class="mk">O que te vendeu essa vaga é o conteúdo do dia 2.</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- 03 · O QUE MUDOU -->
+<section class="white">
+  <div class="wrap center">
+    <span class="pill"><span class="mono">01 · O que mudou</span></span>
+    <h2 class="mt" style="max-width:19ch;margin-inline:auto">Montar a página deixou de ser <span class="ac">o gargalo</span>.</h2>
+    <p class="lead mt" style="max-width:54ch">O que travava você na largada ficou barato. O que decide agora é saber o que colocar em cada bloco — e é exatamente isso que a gente monta nos três dias.</p>
+  </div>
+  <div class="wrap cols mt-l">
+    <div class="card">
+      <span class="pill" style="background:var(--p-3);border-color:transparent"><span class="mono" style="color:var(--p-3-ink)">Ficou fácil</span></span>
+      <ul class="list mt">
+        <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Publicar uma página sem programador</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Produzir dezenas de criativos por semana</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Escrever a primeira versão da copy</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Subir campanha sem depender de agência</span></li>
+      </ul>
+    </div>
+    <div class="card" style="border-color:var(--accent)">
+      <span class="pill on"><span class="mono">Agora decide aqui</span></span>
+      <ul class="list mt">
+        <li><svg class="ic"><use href="#i-alvo"/></svg><span class="sm">O clique encareceu — cada real precisa voltar</span></li>
+        <li><svg class="ic"><use href="#i-alvo"/></svg><span class="sm">Página bonita que não vende ficou comum</span></li>
+        <li><svg class="ic"><use href="#i-alvo"/></svg><span class="sm">A ordem dos blocos vale mais que o visual</span></li>
+        <li><svg class="ic"><use href="#i-alvo"/></svg><span class="sm">Sem leitura de número, escala vira aposta</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 04 · CONSTELAÇÃO DE BLOCOS -->
+<section class="tint">
+  <div class="wrap center">
+    <span class="pill"><span class="mono">02 · O que você monta</span></span>
+    <h2 class="mt" style="max-width:20ch;margin-inline:auto">Uma página. <span class="ac">Dezesseis blocos</span> que fazem ela vender.</h2>
+    <p class="lead mt" style="max-width:52ch">Cada bloco derruba uma objeção específica. Nos três dias a gente monta os dezesseis, na ordem, com o seu produto na tela.</p>
+  </div>
+  <div class="wrap mt-l">
+    <div class="g3 rvg" style="gap:.6rem">
+      <span class="tile" style="background:var(--p-1);color:var(--p-1-ink)"><svg class="ic"><use href="#i-raio"/></svg>Promessa e headline</span>
+      <span class="tile" style="background:var(--p-4);color:var(--p-4-ink)"><svg class="ic"><use href="#i-lupa"/></svg>Diagnóstico da dor</span>
+      <span class="tile" style="background:var(--p-3);color:var(--p-3-ink)"><svg class="ic"><use href="#i-alvo"/></svg>Mecanismo único</span>
+      <span class="tile" style="background:var(--p-2);color:var(--p-2-ink)"><svg class="ic"><use href="#i-alta"/></svg>Prova em número</span>
+      <span class="tile" style="background:var(--p-5);color:var(--p-5-ink)"><svg class="ic"><use href="#i-users"/></svg>Prova em pessoa</span>
+      <span class="tile" style="background:var(--p-1);color:var(--p-1-ink)"><svg class="ic"><use href="#i-filtro"/></svg>Para quem é e não é</span>
+      <span class="tile" style="background:var(--p-3);color:var(--p-3-ink)"><svg class="ic"><use href="#i-moeda"/></svg>Ancoragem de preço</span>
+      <span class="tile" style="background:var(--p-4);color:var(--p-4-ink)"><svg class="ic"><use href="#i-escudo"/></svg>Garantia</span>
+      <span class="tile" style="background:var(--p-2);color:var(--p-2-ink)"><svg class="ic"><use href="#i-chat"/></svg>FAQ de objeção</span>
+    </div>
+  </div>
+</section>
+
+<!-- 05 · MOCK EM NOTEBOOK -->
+<section class="white">
+  <div class="wrap split">
+    <div>
+      <span class="pill"><span class="mono">03 · No dia 3</span></span>
+      <h2 class="mt" style="max-width:16ch">Você sai sabendo <span class="ac">ler o número</span>.</h2>
+      <p class="lead mt">Campanha no ar é metade. A outra metade é abrir o painel no dia seguinte e saber o que cortar, o que deixar e o que subir. <span class="mk">A gente lê junto, com a sua conta.</span></p>
+      <ul class="list mt">
+        <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Qual métrica olhar primeiro e por quê</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">O ponto de empate do seu ticket</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Quando a página é o problema e quando é o anúncio</span></li>
+      </ul>
+    </div>
+    <div class="laptop">
+      <div class="screen">
+        <div class="between" style="margin-bottom:.6rem">
+          <span class="mono" style="color:#8C8279">Painel · últimos 7 dias</span>
+          <span class="mono" style="color:#6FCF97">● ao vivo</span>
+        </div>
+        <div class="scr-row">
+          <div class="scr-cell"><div class="k">Investido</div><div class="v num">R$ 7.278</div></div>
+          <div class="scr-cell"><div class="k">Faturado</div><div class="v num">R$ 21.956</div></div>
+        </div>
+        <div class="scr-row" style="margin-top:.5rem">
+          <div class="scr-cell"><div class="k">ROAS</div><div class="v num">3,01x</div></div>
+          <div class="scr-cell"><div class="k">CPA</div><div class="v num">R$ 8,21</div></div>
+        </div>
+        <div class="scr-cell" style="margin-top:.5rem;background:#2A1F17;border-color:#4A3320">
+          <div class="k" style="color:#E2A084">Leitura</div>
+          <div style="color:#F0E4DA;font-size:.76rem;line-height:1.4;margin-top:.15rem">2 conjuntos abaixo do empate · 1 pronto pra escalar</div>
+        </div>
+      </div>
+      <div class="base"></div>
+      <p class="xs center mt-s">Painel ilustrativo com números de exemplo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 06 · OS TRÊS DIAS -->
+<section class="tint">
+  <div class="wrap center">
+    <span class="pill"><span class="mono">04 · Os três dias</span></span>
+    <h2 class="mt" style="max-width:20ch;margin-inline:auto">Não é pra assistir. <span class="ac">É pra sair com a página no ar.</span></h2>
+  </div>
+  <div class="wrap g3 mt-l rvg">
+    <div class="card tap" style="padding:0;overflow:hidden">
+      <div class="ph" style="aspect-ratio:16/10;border-radius:0">Foto dia 01 · 16:10</div>
+      <div style="padding:1.2rem">
+        <div class="between"><span class="mono num" style="color:var(--ink-3)">Dia 01 · 22 set</span><span style="width:26px;height:26px;border-radius:8px;background:var(--p-1);color:var(--p-1-ink);display:grid;place-items:center;font-weight:700;font-size:.8rem">1</span></div>
+        <h3 class="mt-s">A oferta</h3>
+        <ul class="list mt-s">
+          <li><svg class="ic"><use href="#i-seta"/></svg><span class="sm">Promessa que a página consegue provar</span></li>
+          <li><svg class="ic"><use href="#i-seta"/></svg><span class="sm">Mecanismo, preço e o que fica de fora</span></li>
+          <li><svg class="ic"><use href="#i-seta"/></svg><span class="sm">Estrutura de conteúdo pronta</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card tap" style="padding:0;overflow:hidden">
+      <div class="ph" style="aspect-ratio:16/10;border-radius:0">Foto dia 02 · 16:10</div>
+      <div style="padding:1.2rem">
+        <div class="between"><span class="mono num" style="color:var(--ink-3)">Dia 02 · 23 set</span><span style="width:26px;height:26px;border-radius:8px;background:var(--p-3);color:var(--p-3-ink);display:grid;place-items:center;font-weight:700;font-size:.8rem">2</span></div>
+        <h3 class="mt-s">A página</h3>
+        <ul class="list mt-s">
+          <li><svg class="ic"><use href="#i-seta"/></svg><span class="sm">Os 16 blocos, na ordem, ao vivo</span></li>
+          <li><svg class="ic"><use href="#i-seta"/></svg><span class="sm">Checkout ligado e pixel disparando</span></li>
+          <li><svg class="ic"><use href="#i-seta"/></svg><span class="sm">Publicação com domínio próprio</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card tap" style="padding:0;overflow:hidden">
+      <div class="ph" style="aspect-ratio:16/10;border-radius:0">Foto dia 03 · 16:10</div>
+      <div style="padding:1.2rem">
+        <div class="between"><span class="mono num" style="color:var(--ink-3)">Dia 03 · 24 set</span><span style="width:26px;height:26px;border-radius:8px;background:var(--p-4);color:var(--p-4-ink);display:grid;place-items:center;font-weight:700;font-size:.8rem">3</span></div>
+        <h3 class="mt-s">O tráfego</h3>
+        <ul class="list mt-s">
+          <li><svg class="ic"><use href="#i-seta"/></svg><span class="sm">Primeira campanha no ar</span></li>
+          <li><svg class="ic"><use href="#i-seta"/></svg><span class="sm">Verba mínima pra validar</span></li>
+          <li><svg class="ic"><use href="#i-seta"/></svg><span class="sm">O que cortar, deixar e subir</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 · PRA QUEM -->
+<section class="white">
+  <div class="wrap">
+    <div class="center">
+      <span class="pill"><span class="mono">05 · Antes de comprar</span></span>
+      <h2 class="mt" style="max-width:22ch;margin-inline:auto">Isso serve muito bem pra um tipo de gente.</h2>
+    </div>
+    <div class="cols mt-l">
+      <div>
+        <div class="between"><span class="pill on"><span class="mono">É pra você se</span></span><span class="mono num" style="color:var(--ink-3)">06</span></div>
+        <ul class="list mt">
+          <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Tem um produto ou serviço e nenhuma página que venda ele</span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Já publicou alguma coisa e ela não converteu</span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Paga freelancer toda vez e quer parar de depender</span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Presta serviço pra cliente e quer entregar melhor</span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Consegue estar ao vivo nos três dias</span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span class="sm">Topa colocar verba mínima de teste no dia 3</span></li>
+        </ul>
+      </div>
+      <div>
+        <div class="between"><span class="pill"><span class="mono">Não é pra você se</span></span><span class="mono num" style="color:var(--ink-3)">06</span></div>
+        <ul class="list mt">
+          <li><svg class="ic" style="color:var(--ink-3)"><use href="#i-x"/></svg><span class="sm">Quer faturar sem ter produto nenhum</span></li>
+          <li><svg class="ic" style="color:var(--ink-3)"><use href="#i-x"/></svg><span class="sm">Não pretende publicar nada nos próximos meses</span></li>
+          <li><svg class="ic" style="color:var(--ink-3)"><use href="#i-x"/></svg><span class="sm">Espera uma ferramenta que faça tudo sozinha</span></li>
+          <li><svg class="ic" style="color:var(--ink-3)"><use href="#i-x"/></svg><span class="sm">Quer assistir e decidir depois se aplica</span></li>
+          <li><svg class="ic" style="color:var(--ink-3)"><use href="#i-x"/></svg><span class="sm">Não consegue estar ao vivo em nenhum dos dias</span></li>
+          <li><svg class="ic" style="color:var(--ink-3)"><use href="#i-x"/></svg><span class="sm">Procura garantia de resultado sem execução sua</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card mt-l" style="max-width:660px;margin-inline:auto;background:var(--accent-soft);border-color:transparent">
+      <span class="mono" style="color:var(--accent-2)">Aviso de transparência</span>
+      <p class="sm mt-s">No terceiro dia existe uma oferta opcional pra quem quiser continuar com acompanhamento. <strong>Os três dias são completos com ou sem ela</strong> — você sai com a página publicada de qualquer jeito.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 08 · OFERTA FINAL (escura, com brilho) -->
+<section class="dark a" id="oferta">
+  <div class="wrap split">
+    <div>
+      <span class="pill" style="background:transparent;border-color:#3D332C"><span class="mono" style="color:#C7B8AE">Seu ingresso</span></span>
+      <h2 class="mt" style="max-width:15ch">Três dias e a sua página <span class="ac">no ar</span>.</h2>
+      <div class="stack mt-l" style="gap:.55rem;max-width:440px">
+        <div class="card" style="background:#221C17;border-color:#3A302A;box-shadow:none;padding:.85rem 1rem"><div class="row" style="gap:.7rem"><svg class="ic" style="color:var(--accent)"><use href="#i-cal"/></svg><span class="sm" style="color:#E6DCD4">22, 23 e 24 de setembro · 19h às 22h</span></div></div>
+        <div class="card" style="background:#221C17;border-color:#3A302A;box-shadow:none;padding:.85rem 1rem"><div class="row" style="gap:.7rem"><svg class="ic" style="color:var(--accent)"><use href="#i-play"/></svg><span class="sm" style="color:#E6DCD4">Ao vivo nos três dias, com gravação por 7 dias</span></div></div>
+        <div class="card" style="background:#221C17;border-color:#3A302A;box-shadow:none;padding:.85rem 1rem"><div class="row" style="gap:.7rem"><svg class="ic" style="color:var(--accent)"><use href="#i-pagina"/></svg><span class="sm" style="color:#E6DCD4">Playbook de cada aula, pra executar depois</span></div></div>
+        <div class="card" style="background:#221C17;border-color:#3A302A;box-shadow:none;padding:.85rem 1rem"><div class="row" style="gap:.7rem"><svg class="ic" style="color:var(--accent)"><use href="#i-escudo"/></svg><span class="sm" style="color:#E6DCD4">Garantia de 7 dias, sem pergunta</span></div></div>
+      </div>
+    </div>
+    <div class="ticket" style="--notch:150px">
+      <div class="head"><span class="mono">Ingresso · Lote 01</span><span class="mono num">SPV·001</span></div>
+      <div class="meta">
+        <div><div class="mono" style="color:var(--ink-3)">Datas</div><strong class="num" style="font-family:var(--font-d)">22·23·24</strong></div>
+        <div><div class="mono" style="color:var(--ink-3)">Horário</div><strong class="num" style="font-family:var(--font-d)">19h–22h</strong></div>
+        <div><div class="mono" style="color:var(--ink-3)">Onde</div><strong style="font-family:var(--font-d)">Ao vivo</strong></div>
+      </div>
+      <div class="body">
+        <div class="xs">Apenas</div>
+        <div class="num" style="font-family:var(--font-d);font-weight:800;font-size:3rem;line-height:1;letter-spacing:-.04em">R$ 97</div>
+        <div class="pbar mt-s"><i style="width:47%"></i></div>
+        <a href="#" class="btn block lg mt">Comprar meu ingresso</a>
+        <p class="xs mt-s center">47% dos ingressos vendidos · a virada de lote pode acontecer a qualquer momento</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 · FAQ -->
+<section class="white">
+  <div class="wrap" style="max-width:820px">
+    <div class="center">
+      <span class="pill"><span class="mono">FAQ</span></span>
+      <h2 class="mt" style="max-width:18ch;margin-inline:auto">Perguntas que <span class="ac">sempre chegam</span>.</h2>
+    </div>
+    <div class="acc mt-l">
+      <details><summary><span class="q mono num">01</span>Preciso saber programar?</summary><div class="a">Não. A página é montada em ferramenta visual e publicada com domínio próprio. Nos três dias ninguém escreve código.</div></details>
+      <details><summary><span class="q mono num">02</span>Ainda não tenho produto. Consigo acompanhar?</summary><div class="a">O primeiro dia inteiro é sobre isso. Você sai com a oferta definida e usa os dias 2 e 3 pra montar a página dela.</div></details>
+      <details><summary><span class="q mono num">03</span>Quanto vou precisar investir em anúncio?</summary><div class="a">Você define. No dia 3 a gente monta o plano de verba com o mínimo pra validar antes de escalar — dá pra começar com pouco.</div></details>
+      <details><summary><span class="q mono num">04</span>É ao vivo mesmo ou é gravado?</summary><div class="a">Ao vivo nos três dias, com sala de perguntas. As gravações ficam disponíveis por 7 dias depois do último encontro.</div></details>
+      <details><summary><span class="q mono num">05</span>Preciso ter audiência ou lista?</summary><div class="a">Não. O caminho ensinado é por tráfego, então funciona sem lista aquecida. Se você já tem, melhor ainda.</div></details>
+      <details><summary><span class="q mono num">06</span>Vou ter que comprar outra coisa pra aplicar?</summary><div class="a">O ingresso dá acesso ao conteúdo completo. As ferramentas usadas têm plano gratuito suficiente pra publicar a primeira página.</div></details>
+      <details><summary><span class="q mono num">07</span>E se eu não puder assistir num dos dias?</summary><div class="a">A gravação cobre, mas o formato é de execução junto — quem está presente nos três dias sai com a página publicada.</div></details>
+      <details><summary><span class="q mono num">08</span>Tem garantia?</summary><div class="a">Sete dias. Se não for o que você esperava, escreve pra gente e o valor volta integral.</div></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer style="border-top:1px solid var(--line);padding-block:2.4rem;background:var(--bg)">
+  <div class="wrap stack">
+    <p class="xs">EXEMPLO LTDA · CNPJ 00.000.000/0001-00 · Todos os direitos reservados.</p>
+    <p class="xs" style="max-width:74ch">Página de exemplo gerada pela skill pagina-design-premium. Os números exibidos nos painéis são ilustrativos. Resultado depende de execução, mercado e investimento de cada pessoa.</p>
+  </div>
+</footer>
+
+<div class="bar" id="bar">
+  <div class="stack" style="gap:.02rem">
+    <span class="xs">Lote 01 · 47% vendido</span>
+    <strong class="num" style="font-family:var(--font-d);font-size:1.08rem">R$ 97</strong>
+  </div>
+  <a href="#oferta" class="btn">Comprar ingresso</a>
+</div>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -50px'});
+document.querySelectorAll('.rv,.rvg').forEach(el=>io.observe(el));
+const bar=document.getElementById('bar'),hero=document.querySelector('main > section');
+if(bar&&hero){new IntersectionObserver(([e])=>bar.classList.toggle('show',!e.isIntersecting),{threshold:0}).observe(hero);}
+document.querySelectorAll('.acc').forEach(a=>a.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',()=>{if(d.open)a.querySelectorAll('details').forEach(o=>{if(o!==d)o.open=false})})));
+</script>
+</body>
+</html>

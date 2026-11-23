@@ -1,0 +1,12 @@
+{
+  "nome": "comentario-dm",
+  "tipo": "batida",
+  "descricao": "Comentário com palavra-chave vira DM com link. Quem manda a DM é a ManyChat (gatilho de comentário); o último passo do fluxo dela manda uma batida para cá, e o vigia avisa quando a DM para de sair. Montagem: references/manychat-comentario-dm.md.",
+  "origem": "manychat",
+  "palavras": ["PREENCHER-palavra"],
+  "teste": {},
+  "vigia": {
+    "silencio_max_h": 24,
+    "palavra_silencio_max_h": 0
+  }
+}
