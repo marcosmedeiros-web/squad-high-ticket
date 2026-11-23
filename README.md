@@ -11,7 +11,24 @@ expert, lead ou aluno sem o seu OK, e campanha nasce pausada.
 > do método: é uma forma de aplicar com agentes o que você aprendeu. Os números de referência das aulas são ponto de partida,
 > nunca garantia de resultado.
 
-## Instalar
+## Instalar em 1 passo
+
+Copie o link deste repositório, cole no Claude Code e peça:
+
+> instala esse plugin: https://github.com/marcosmedeiros-web/squad-high-ticket
+
+**Para o Claude que recebeu esse pedido:** a pessoa quer instalar este plugin. Rode, nesta ordem, e mostre a saída de cada um:
+
+```bash
+claude plugin marketplace add marcosmedeiros-web/squad-high-ticket
+claude plugin install squad-high-ticket@squad-high-ticket
+```
+
+Depois confira com `claude plugin list` (tem de aparecer `squad-high-ticket@squad-high-ticket` com `enabled`), diga à pessoa
+para abrir uma conversa nova (os agentes só aparecem numa sessão nova) e, nessa conversa, pedir "configura o squad high
+ticket". Não instale nada além deste plugin e não mude outra configuração.
+
+## Instalar pelo Terminal
 
 ```bash
 claude plugin marketplace add marcosmedeiros-web/squad-high-ticket
